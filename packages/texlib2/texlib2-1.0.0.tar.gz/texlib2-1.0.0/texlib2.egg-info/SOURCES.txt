@@ -1,0 +1,7 @@
+setup.py
+texlib/__init__.py
+texlib/tex_utils.py
+texlib2.egg-info/PKG-INFO
+texlib2.egg-info/SOURCES.txt
+texlib2.egg-info/dependency_links.txt
+texlib2.egg-info/top_level.txt
