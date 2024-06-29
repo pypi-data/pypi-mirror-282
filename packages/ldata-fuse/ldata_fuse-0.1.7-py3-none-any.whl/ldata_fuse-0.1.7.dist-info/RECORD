@@ -1,0 +1,8 @@
+graphql_generate/support.py,sha256=f9L2ZD1IZ5yzeDEAAJPz4VpYwMcdlc29_Lw_MmXbJh4,6835
+ldata-fuse/app.py,sha256=XbQiXmuDl9VXdL479ZwbWEBrd09vLY4gem0voTOU5PM,47135
+ldata-fuse/main.py,sha256=UwNEsqXrUKw5n5aFDKZCqzZh7kzSVOnzyKzKUXhku28,310
+queries_lib/main.py,sha256=nqdQyLO2zXqQFBRCr2V1YrGkNQpNIaxQeuS9ZljnlAU,13256
+queries_lib/schema.py,sha256=0EnV0IN5qGWRQEjCWqhyoxtrJRt2X1HOuqCbjaT_6OQ,226408
+ldata_fuse-0.1.7.dist-info/METADATA,sha256=GdysjhC5mCI21YkWsgIUUTapnoLqHNpZE_98sRBvIrY,642
+ldata_fuse-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ldata_fuse-0.1.7.dist-info/RECORD,,
