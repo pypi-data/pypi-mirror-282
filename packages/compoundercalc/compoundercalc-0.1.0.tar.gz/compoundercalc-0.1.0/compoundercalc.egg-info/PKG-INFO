@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: compoundercalc
+Version: 0.1.0
+Summary: A package for compound interest calculations
+Home-page: https://github.com/croketillo/compoundercalc
+Author: Croketillo
+Author-email: croketillo@gmail.com
+License: GNU v3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+# Compound Interest Calculator
+
+This package provides a `CompoundInterestCalculator` class for calculating compound interest for various financial scenarios.
+
+## Features
+
+- Calculate the total amount with compound interest over a period of time.
+- Determine the time needed to reach a target amount with compound interest.
+- Calculate the required recurring deposit to reach a target amount.
+- Calculate the required interest rate to reach a target amount.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install compoundercalc
+```
+
+## Usage
+
+### Importing the Calculator
+
+```python
+from compoundercalc.compounder import CompoundInterestCalculator
+```
+
+### Creating an Instance
+
+```python
+calc = CompoundInterestCalculator(initial_deposit=1000, recurring_deposit=150, num_recurring_per_year=12, interest_rate=0.08)
+```
+
+### Calculating the Final Amount
+
+```python
+result = calc.final_amount(time_years=10)
+print(f"The final amount is: {result:.2f}")
+```
+
+### Determining the Time to Reach a Target Amount
+
+```python
+years, months, days = calc.time_goal(target_amount=100000)
+print(f"Time needed to reach the goal: {years} years, {months} months, and {days} days")
+```
+
+### Calculating the Required Recurring Deposit
+
+```python
+required_deposit = calc.calc_recurring_deposit(target_amount=100000, total_years=10)
+print(f"The required recurring deposit is: {required_deposit:.2f}")
+```
+
+### Calculating the Required Interest Rate
+
+```python
+try:
+    required_rate = calc.calc_interest_rate(target_amount=100000, total_years=10)
+    print(f"The required annual interest rate is: {required_rate:.4f}")
+except ValueError as e:
+    print(e)
+```
+
+## Running Tests
+
+To run the tests, use the following command:
+
+```bash
+python -m unittest discover -s test
+```
+
+## License
+
+This project is licensed under GNU License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
