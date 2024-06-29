@@ -1,0 +1,4 @@
+{
+    "description": "Provide synonoums for a given word.",
+    "model": "gpt-4o"
+}

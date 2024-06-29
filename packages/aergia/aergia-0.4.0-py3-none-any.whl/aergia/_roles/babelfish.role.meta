@@ -1,0 +1,4 @@
+{
+    "description": "Role to translate text from one language to another",
+    "model": "gpt-4o"
+}
