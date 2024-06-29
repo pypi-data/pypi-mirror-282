@@ -1,0 +1,11 @@
+keystone_postgres/__about__.py,sha256=bzIP6vtYs0LcBFI4x0VhzEGCFSAcNUl1ZE4Jue6xNBQ,131
+keystone_postgres/__init__.py,sha256=p8HS8DuMfFNAzuLS_PWRIyHOQdNes0L5TqNE9M-L7nc,107
+keystone_postgres/concurrency_service.py,sha256=C2v3zdGQPTx8nTID6syS_ecUusu_K9-sXhhwKlAlleM,963
+keystone_postgres/model_validators.py,sha256=p2sxXcs-wWjRGbUByMjwoM8IiposWGu23Sr7bISLD8U,1688
+keystone_postgres/models.py,sha256=2USV51RMDWJiBWMUd0qKILz6TeJefgrmjmS8gbyrtFc,1444
+keystone_postgres/postgres_service.py,sha256=ZfP8Z09F07LLbazEV8SY6ksMsIZNgaHslS0JNpcM8_8,2254
+keystone_postgres/postgres_settings.py,sha256=oDgMVQuir-XC-x1YssBgmYKBAW9kRCHUSZv7yWwaxJg,807
+keystone_postgres-0.0.1a0.dist-info/METADATA,sha256=nH38CVOa2prLSJfIUQoLtXzVDIG-av2k9vt3__2L9BU,1593
+keystone_postgres-0.0.1a0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+keystone_postgres-0.0.1a0.dist-info/licenses/LICENSE.txt,sha256=0wYf-NtzsFHBi7LG7ANo5X1v8sZfdv-7ZoslV6Vy3nA,1099
+keystone_postgres-0.0.1a0.dist-info/RECORD,,
