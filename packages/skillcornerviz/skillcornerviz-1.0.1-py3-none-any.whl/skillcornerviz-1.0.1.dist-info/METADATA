@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: skillcornerviz
+Version: 1.0.1
+Summary: A Python package for processing and visualizing data SkillCorner data. This enables a user to produce visualizations with the SkillCorner brand style with a minimum of changes
+Home-page: https://github.com/MarkosBont/skillcorner_library_cleanup
+Author: Liam Bailey, Markos Bontozoglou, Micheal Nanopoulos, SkillCorner
+Author-email: markos.bontozoglou@skillcorner.com
+Project-URL: GitHub, https://github.com/MarkosBont/skillcorner_library_cleanup
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: adjustText >=0.7.3
+Requires-Dist: aiohttp >=3.8.4
+Requires-Dist: matplotlib >=3.7.2
+Requires-Dist: numpy >=1.24.2
+Requires-Dist: pandas >=1.5.3
+Requires-Dist: seaborn >=0.11.2
+
+# SkillCorner Analysis Library
+The SkillCorner Analysis Library is a Python package that provides functions to create standard visualizations frequently used by the SkillCorner data analysis team. It also includes functions to normalize SkillCorner data in various ways. This package is designed to streamline the data analysis process and facilitate the creation of insightful visualizations.
+
+## Package Structure (skillcorner_analysis_lib)
+![package structure](output/example_plots/package_structure.png)
+
+## Current color usage guide
+
+- Background data/players: <span style="color:#D9D9D6">#D9D9D6</span>
+- Primary highlight/target player colour: <span style="color:#00C800">#00C800</span>
+- Secondary highlight/comparison player: <span style="color:#26BF52">#26BF52</span>
+- Axes & texts: <span style="color:#001400">#001400</span>
+
+## Plot Examples
+### Bar Plot
+![standard bar plot](output/example_plots/bar_plot.png)
+### Scatter Plot
+![standard scatter plot](output/example_plots/scatter_plot.png)
+### Swarm/Violin Plot
+![standard scatter plot](output/example_plots/swarm_violin_plot.png)
+
+## Contributing
+If you encounter any issues, have suggestions, or would like to contribute to the SkillCorner Analysis Library, please visit the GitHub repository. We welcome your contributions and appreciate your support in making this package better.
