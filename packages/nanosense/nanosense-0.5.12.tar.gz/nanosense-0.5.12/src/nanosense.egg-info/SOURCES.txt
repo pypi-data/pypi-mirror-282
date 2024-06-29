@@ -1,0 +1,39 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/nanosense/__init__.py
+src/nanosense/icons.icns
+src/nanosense/image_1.jpg
+src/nanosense/nanosense.py
+src/nanosense.egg-info/PKG-INFO
+src/nanosense.egg-info/SOURCES.txt
+src/nanosense.egg-info/dependency_links.txt
+src/nanosense.egg-info/entry_points.txt
+src/nanosense.egg-info/requires.txt
+src/nanosense.egg-info/top_level.txt
+src/nanosense/Clustering and Data Reduction/__init__.py
+src/nanosense/Clustering and Data Reduction/main.py
+src/nanosense/Combine Datasets and Files/__init__.py
+src/nanosense/Combine Datasets and Files/main.py
+src/nanosense/Data Reduction/__init__.py
+src/nanosense/Data Reduction/main.py
+src/nanosense/Data Reduction/Docs/__init__.py
+src/nanosense/Data Visualisation/__init__.py
+src/nanosense/Data Visualisation/main.py
+src/nanosense/Event Analysis/__init__.py
+src/nanosense/Event Analysis/main.py
+src/nanosense/Frequency and multi-plots/__init__.py
+src/nanosense/Frequency and multi-plots/main.py
+src/nanosense/ML Analysis/__init__.py
+src/nanosense/ML Analysis/main.py
+src/nanosense/Nanopore Size Calc/__init__.py
+src/nanosense/Nanopore Size Calc/main.py
+src/nanosense/Plotting and selecting/__init__.py
+src/nanosense/Plotting and selecting/main.py
+src/nanosense/Reduction Settings Viewer/__init__.py
+src/nanosense/Reduction Settings Viewer/main.py
+src/nanosense/Resource Monitor/__init__.py
+src/nanosense/Resource Monitor/main.py
+src/nanosense/Spectrogram and PSD/__init__.py
+src/nanosense/Spectrogram and PSD/main.py
