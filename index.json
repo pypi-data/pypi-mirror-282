@@ -41153,7 +41153,7 @@
       "project_version": "0.1.388",
       "url": "https://files.pythonhosted.org/packages/88/1d/b7ae7f0584d60a29c852c668bf1dafe9004fa39c7434f72991ab4e78c231/autopipeline-0.1.388-py3-none-any.whl",
       "upload_time": "2024-06-29T05:09:27.860834Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "autopipeline",
@@ -48573,602 +48573,602 @@
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/ce/a9/a8e86d5d35064469afcf5038a2e0ce9075edad26c3e14a40ecc256b7c165/time_machine-2.14.2-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl",
       "upload_time": "2024-06-29T10:03:05.244634Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/af/e5/de75391d8b39e425065930b65b48468574b9781c19ac798a91614e00286c/time_machine-2.14.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-06-29T10:03:06.844952Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/a5/34/a75242952ae82740675010d417df08679706878dd3fa65b88cebc5c19b5a/time_machine-2.14.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-06-29T10:03:08.622280Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/05/ad/3ba1c2af9d37827473f9d33be1cb1fd9ff14599422865b80b486b8530e80/time_machine-2.14.2-cp39-cp39-musllinux_1_1_aarch64.whl",
       "upload_time": "2024-06-29T10:03:10.345347Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tko",
       "project_version": "0.8.3",
       "url": "https://files.pythonhosted.org/packages/a7/20/292188323fe0d66d0f86c5f5e92df662fbf42f2491dd1d0ab01762561c4c/tko-0.8.3-py3-none-any.whl",
       "upload_time": "2024-06-29T10:03:10.489859Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/82/a7/35ae18792fbaf2181cbe751f81db19f8bc72561c9c9df5a3d5c5524842b4/time_machine-2.14.2-cp39-cp39-musllinux_1_1_i686.whl",
       "upload_time": "2024-06-29T10:03:13.419355Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "tko",
       "project_version": "0.8.3",
       "url": "https://files.pythonhosted.org/packages/21/29/4fe5175332ea3484070b35d9b43b619369c22b2aff1a706bd0a1fa23005c/tko-0.8.3.tar.gz",
       "upload_time": "2024-06-29T10:03:13.548632Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/af/21/cf3b144e7722c7d68cc1eca55c3e5e210ccbc79156335ec05642ab55c063/time_machine-2.14.2-cp39-cp39-musllinux_1_1_x86_64.whl",
       "upload_time": "2024-06-29T10:03:15.186969Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/2d/70/dfa9161fa7121f8360f70453d15d5f43cb739f4c22ae792638d30dbdaea1/time_machine-2.14.2-cp39-cp39-win32.whl",
       "upload_time": "2024-06-29T10:03:17.172309Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/23/27/c2b842afd5e0e5f3d6e8627a6be0f34c8f806a84d088bfb0db78fe454fc2/time_machine-2.14.2-cp39-cp39-win_amd64.whl",
       "upload_time": "2024-06-29T10:03:18.737184Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/d1/90/59d748ac4c09100e5b86c6a53fe4055ee4de22565ed10e0d21a221db2fc8/time_machine-2.14.2-cp39-cp39-win_arm64.whl",
       "upload_time": "2024-06-29T10:03:20.400369Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/cf/e0/62b9b338106fe0590a8148010ac671e12cdf62f316ec1545fb58fd47a9a5/time_machine-2.14.2-cp310-cp310-macosx_10_9_universal2.whl",
       "upload_time": "2024-06-29T10:03:21.602567Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/7b/67/488845eee7845e4c488d22b1da56e7d8cb04a3fd80affbe96ab0fd3206f8/time_machine-2.14.2-cp310-cp310-macosx_10_9_x86_64.whl",
       "upload_time": "2024-06-29T10:03:22.977949Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/9c/a6/99846aaffe99830d348c430591b7e1564a49e8fc241229f60a4ea33c1f66/time_machine-2.14.2-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl",
       "upload_time": "2024-06-29T10:03:24.305192Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/c9/b3/c7b19078d60f8b5e7cb1fda69d84ebc2bc186f8625d19fc9e93435c62e22/time_machine-2.14.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-06-29T10:03:26.167420Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/ee/02/4ebfbc59e94e2816187175a420c427ce3b81ee0339aae9465ee2568ff447/time_machine-2.14.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-06-29T10:03:27.669577Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/c0/52/835c065067f9f2f4a08bdbc6c96f9fb4cf593aac793232cf5912af7bff13/time_machine-2.14.2-cp310-cp310-musllinux_1_1_aarch64.whl",
       "upload_time": "2024-06-29T10:03:29.428734Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/5c/77/9b4b44aa72f1b918d159e1f93874bcb37ab2a12b6da77daf577839d526cb/time_machine-2.14.2-cp310-cp310-musllinux_1_1_i686.whl",
       "upload_time": "2024-06-29T10:03:30.518969Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/15/71/34b4958bd8b0d2d8663420d5ebcc4c46918ebc41a6691c6223bf2d73777d/time_machine-2.14.2-cp310-cp310-musllinux_1_1_x86_64.whl",
       "upload_time": "2024-06-29T10:03:31.697193Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/01/fb/c664a0aac334beb2cd0567207ec94a024c049338f7bcbb9405585c826bb1/time_machine-2.14.2-cp310-cp310-win32.whl",
       "upload_time": "2024-06-29T10:03:33.537202Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/2a/14/950d2684b6aeb6c3c769e5ecc84a44d33d47169cf0a24bf77318d23d7d99/time_machine-2.14.2-cp310-cp310-win_amd64.whl",
       "upload_time": "2024-06-29T10:03:34.629442Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/b8/09/bbb6771e20f5b07812302763393c8d65b6cb0bc4bacef560ac4288810f15/time_machine-2.14.2-cp310-cp310-win_arm64.whl",
       "upload_time": "2024-06-29T10:03:36.423065Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/b1/83/243617aa4926a125c15911e3bbe65ad00e78fb91e9cdf03053eeb452d74f/time_machine-2.14.2-cp311-cp311-macosx_10_9_universal2.whl",
       "upload_time": "2024-06-29T10:03:38.201759Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/3d/a7/68381f55bf134d219b605b6a304bb1c6ad525af3dee5a4d1c9717c79acb1/time_machine-2.14.2-cp311-cp311-macosx_10_9_x86_64.whl",
       "upload_time": "2024-06-29T10:03:39.377872Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/52/03/de5e851dfd814aea2f85d062965a97cf916e5f61b3c94c33af8c746cb8e5/time_machine-2.14.2-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl",
       "upload_time": "2024-06-29T10:03:40.465081Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/81/1d/26c094f3f90baa52ef62ce154326e57325897278822a0038fd0ef6a10e5d/time_machine-2.14.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-06-29T10:03:41.580254Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/71/11/3e54f8248889597e6f585e6b414a4793fe71c3e694c4fb9ff277d5e6798d/time_machine-2.14.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-06-29T10:03:43.346246Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/c3/b6/2fd0fce730e2f6033ac4b7b322c8fa193bf1775f6c1a3abec30c6ac5e1c4/time_machine-2.14.2-cp311-cp311-musllinux_1_1_aarch64.whl",
       "upload_time": "2024-06-29T10:03:44.616784Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/61/a1/1d3ec7eed411ecf464c5284b60711190af7898f65ccf9c9fdd31d00fd965/time_machine-2.14.2-cp311-cp311-musllinux_1_1_i686.whl",
       "upload_time": "2024-06-29T10:03:46.374145Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/e8/dc/2fb8b826dbb3165a1e80cd2ae56374ed6ec03c5bb736e65c0a3461746b1c/time_machine-2.14.2-cp311-cp311-musllinux_1_1_x86_64.whl",
       "upload_time": "2024-06-29T10:03:47.556157Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/97/db/f71c4b2e3c24a25e67fbb41cf1e7bfa75f2cb52c9edbb56f41132b523219/time_machine-2.14.2-cp311-cp311-win32.whl",
       "upload_time": "2024-06-29T10:03:48.764241Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/3b/03/b45a363680ebea9cbf3a9cd78471e2a4cd57bcb1e45d44d2dc780ce3686d/time_machine-2.14.2-cp311-cp311-win_amd64.whl",
       "upload_time": "2024-06-29T10:03:49.992212Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/60/51/0f193d22b64a7356af64d643e1b0264a9b9ea6e155d5c82657c771ee3132/time_machine-2.14.2-cp311-cp311-win_arm64.whl",
       "upload_time": "2024-06-29T10:03:51.364252Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/c6/66/47f1f0d446c16d6f65514919fe1b358179d3da3a5e1a73225510321a620e/time_machine-2.14.2-cp312-cp312-macosx_10_9_universal2.whl",
       "upload_time": "2024-06-29T10:03:52.677201Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/2b/61/acb051e6b57aa4ea4853419fa0e49bfdd7d951f728fea5a505bae7f1f15f/time_machine-2.14.2-cp312-cp312-macosx_10_9_x86_64.whl",
       "upload_time": "2024-06-29T10:03:54.193793Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/4e/44/1ab4d45773ca7209121e4019f5aa13fe2a89b1b53501d86ea3d94e525a93/time_machine-2.14.2-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl",
       "upload_time": "2024-06-29T10:03:55.456067Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/10/1f/280452b24c86ff5929fa1d1270a0867aade5cd6af1fbf00fb9dc943dd7d5/time_machine-2.14.2-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
       "upload_time": "2024-06-29T10:03:56.955669Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/c3/24/3317c7d4316f5574de2fa096ceee28ebc7ee452e0d4dbfb94693f034c0b4/time_machine-2.14.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
       "upload_time": "2024-06-29T10:03:58.368207Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/ed/08/ff5c6eb8982070f94827b932a61562fc27b9429fc90e5ee93d1e9ef7fbd2/time_machine-2.14.2-cp312-cp312-musllinux_1_1_aarch64.whl",
       "upload_time": "2024-06-29T10:03:59.531301Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/05/e1/542b86fb7aed34ac1b0dc4a4f26c671c75c89b7fc980b2f6646d7f348313/time_machine-2.14.2-cp312-cp312-musllinux_1_1_i686.whl",
       "upload_time": "2024-06-29T10:04:00.819029Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/d2/7f/598f2060a6e97d0158c68312d1ce92c70c36c19c7310e6dbe5bc503f84be/time_machine-2.14.2-cp312-cp312-musllinux_1_1_x86_64.whl",
       "upload_time": "2024-06-29T10:04:02.761184Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/ac/37/bedc38b8fbbf2b506c28dad58d691ff93595ab099b14d6388c0f551bace6/time_machine-2.14.2-cp312-cp312-win32.whl",
       "upload_time": "2024-06-29T10:04:04.136474Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/af/06/26dedd152cd614bdc6c28f3b84d550479cb923600e94700bfe61fa7199c0/time_machine-2.14.2-cp312-cp312-win_amd64.whl",
       "upload_time": "2024-06-29T10:04:05.274028Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "time-machine",
       "project_version": "2.14.2",
       "url": "https://files.pythonhosted.org/packages/ed/b0/3331f400cd2c8f2eb75d72a0071be0916b0e955da8cff6faa27457610fd9/time_machine-2.14.2-cp312-cp312-win_arm64.whl",
       "upload_time": "2024-06-29T10:04:06.705019Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "opthub_runner_admin",
       "project_version": "0.1.1",
       "url": "https://files.pythonhosted.org/packages/83/32/0a2909f14e4e1b4f77f6b4035aa6ff7c58ba72a62ae248e3730b787fe781/opthub_runner_admin-0.1.1-py3-none-any.whl",
       "upload_time": "2024-06-29T10:04:52.025505Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "opthub_runner_admin",
       "project_version": "0.1.1",
       "url": "https://files.pythonhosted.org/packages/c0/2c/d0e52c431a35966573ebc7f5126183f7f2a9447a37d9eda252781e309cfd/opthub_runner_admin-0.1.1.tar.gz",
       "upload_time": "2024-06-29T10:04:53.012151Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sherpa-onnx",
       "project_version": "1.10.6",
       "url": "https://files.pythonhosted.org/packages/ea/78/a15f3cd52f258b42038f7a48858250acbe208edc8ed89e8a7c0071317512/sherpa_onnx-1.10.6-cp39-cp39-macosx_11_0_universal2.whl",
       "upload_time": "2024-06-29T10:05:01.259170Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rpipe",
       "project_version": "6.3.0",
       "url": "https://files.pythonhosted.org/packages/cd/06/24ba2fdd79535cea0c0eb81b9b1b3bdf191907675faf50d5b54d8230b3d1/rpipe-6.3.0-py3-none-any.whl",
       "upload_time": "2024-06-29T10:06:24.393455Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rpipe",
       "project_version": "6.3.0",
       "url": "https://files.pythonhosted.org/packages/d1/2c/30ddbd5e243f985244e4d5ec00129b8ad0aa84aa8fdb4e2aab4692f77548/rpipe-6.3.0.tar.gz",
       "upload_time": "2024-06-29T10:06:25.938566Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "iudex",
       "project_version": "0.9.6",
       "url": "https://files.pythonhosted.org/packages/f0/0d/131b3e26bfd193947fc8588cd23393e5e2c63971b3546426ddab895497e5/iudex-0.9.6-py3-none-any.whl",
       "upload_time": "2024-06-29T10:06:40.894035Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "iudex",
       "project_version": "0.9.6",
       "url": "https://files.pythonhosted.org/packages/3b/a2/f4799325a39aa522b3dfa019c678067d84fe300839100265fcae248a68a7/iudex-0.9.6.tar.gz",
       "upload_time": "2024-06-29T10:06:43.136007Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dumbPaintTool",
       "project_version": "0.40.0a4",
       "url": "https://files.pythonhosted.org/packages/66/76/959bd1a1afc49f5c542063214c1ec03053481bf01ddc21485bb76895644a/dumbPaintTool-0.40.0a4-py3-none-any.whl",
       "upload_time": "2024-06-29T10:06:44.221164Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dumbPaintTool",
       "project_version": "0.40.0a4",
       "url": "https://files.pythonhosted.org/packages/23/d8/3b87d6218cad47415c444163d89c0fbec0fc09ef1c6cee0e9b8553aadb94/dumbpainttool-0.40.0a4.tar.gz",
       "upload_time": "2024-06-29T10:06:46.092772Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "monzy",
       "project_version": "0.2.4.dev0",
       "url": "https://files.pythonhosted.org/packages/4f/12/7007b7802c40a70f816a2550b2c1b6c2e2814d81324d30840ae1980ca923/monzy-0.2.4.dev0-py3-none-any.whl",
       "upload_time": "2024-06-29T10:07:11.415873Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "monzy",
       "project_version": "0.2.4.dev0",
       "url": "https://files.pythonhosted.org/packages/30/32/4132363173a088139ef857a558fc75e8174440e0dc9c22cc92ca7ed7d176/monzy-0.2.4.dev0.tar.gz",
       "upload_time": "2024-06-29T10:07:13.279655Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "grid2demand",
       "project_version": "0.5.5",
       "url": "https://files.pythonhosted.org/packages/65/7f/77b9e15f407e14457c4a462d7b4435fb3e0cd4e47838c507221cb83bfefd/grid2demand-0.5.5-py3-none-any.whl",
       "upload_time": "2024-06-29T10:07:20.149828Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "grid2demand",
       "project_version": "0.5.5",
       "url": "https://files.pythonhosted.org/packages/04/cb/f84454a24c52b903205529c9af240c1b269e42375af4e16f3495ecefbf24/grid2demand-0.5.5.tar.gz",
       "upload_time": "2024-06-29T10:07:23.746837Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "EasyFEA",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/a4/41/177327afd3d0242708f0168baded5b3f0b9372f325747c87dbcfce803a9f/EasyFEA-1.1.0-py3-none-any.whl",
       "upload_time": "2024-06-29T10:07:47.262625Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "EasyFEA",
       "project_version": "1.1.0",
       "url": "https://files.pythonhosted.org/packages/8e/f3/305f5af45d011d3c5aa79366dfec93cff1f57965727ec701600f2536e2dc/EasyFEA-1.1.0.tar.gz",
       "upload_time": "2024-06-29T10:07:48.967326Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyams-utils",
       "project_version": "2.5.1",
       "url": "https://files.pythonhosted.org/packages/de/be/df38fc02de47c5904cb64ae8106832b7cf660f3a34a46799cf342881dd57/pyams_utils-2.5.1-py3-none-any.whl",
       "upload_time": "2024-06-29T10:07:54.127694Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyams-utils",
       "project_version": "2.5.1",
       "url": "https://files.pythonhosted.org/packages/ba/a2/e89e3b6a5e009a199c7f4bd06b736c20049ec309d5a5fa21e56ef2b90e54/pyams_utils-2.5.1.tar.gz",
       "upload_time": "2024-06-29T10:07:56.823269Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "leverage",
       "project_version": "1.12.2rc10",
       "url": "https://files.pythonhosted.org/packages/14/7e/69ec769225ae76dcc704f4fe2c05ad6613efc8816ef41f754f68f7f1f272/leverage-1.12.2rc10-py3-none-any.whl",
       "upload_time": "2024-06-29T10:08:44.166982Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sherpa-onnx",
       "project_version": "1.10.6",
       "url": "https://files.pythonhosted.org/packages/d7/94/d28ce326bd2ab1ddfe830d71d8b47fe1ffd1137d09af56745d2d76e43b51/sherpa_onnx-1.10.6-cp39-cp39-linux_armv7l.whl",
       "upload_time": "2024-06-29T10:08:45.672790Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "leverage",
       "project_version": "1.12.2rc10",
       "url": "https://files.pythonhosted.org/packages/3f/14/d5e40c28a3e46dd3a5030ba54bc3d75ad55d58300a7b372e87a7b18210a2/leverage-1.12.2rc10.tar.gz",
       "upload_time": "2024-06-29T10:08:46.393544Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "toldwords",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/a5/64/6992cd111d04d6862d44b7a8a8bbf62bdb2d3e399f70e2e9e94f549eadeb/toldwords-1.0.0-py3-none-any.whl",
       "upload_time": "2024-06-29T10:09:22.254293Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "toldwords",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/76/cf/d1d3dca68be04e09cc626ff7cc10dc090674e41c575b560ceb57b8ed7009/toldwords-1.0.0.tar.gz",
       "upload_time": "2024-06-29T10:09:23.296326Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "marzban",
       "project_version": "0.1.7",
       "url": "https://files.pythonhosted.org/packages/68/f9/a56ddc048abd56f45c32efcac7e39daad648967f360d85d25b47e63a6cdf/marzban-0.1.7-py3-none-any.whl",
       "upload_time": "2024-06-29T10:09:37.312555Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "marzban",
       "project_version": "0.1.7",
       "url": "https://files.pythonhosted.org/packages/20/14/9b17993349576af751489eeab00561ade05248bc33c56587e45208600cc1/marzban-0.1.7.tar.gz",
       "upload_time": "2024-06-29T10:09:38.752445Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "python-study-demo",
       "project_version": "1.0.1",
       "url": "https://files.pythonhosted.org/packages/7a/38/b9a3019d64f10c0192d4ee59a932d731a8b9ba3c36caae6e8be93acd201d/python_study_demo-1.0.1-py3-none-any.whl",
       "upload_time": "2024-06-29T10:10:37.092185Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "monzy",
       "project_version": "0.2.5.dev0",
       "url": "https://files.pythonhosted.org/packages/c9/15/0706e638893efdb0008b6cf53d44bc383d83a8cc5c8c7081f1890bd1f069/monzy-0.2.5.dev0-py3-none-any.whl",
       "upload_time": "2024-06-29T10:11:41.262061Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "monzy",
       "project_version": "0.2.5.dev0",
       "url": "https://files.pythonhosted.org/packages/eb/54/bcafee8df176878653a8f45ad2e3146b328bcbcbc86606cbd1c0ce9f951c/monzy-0.2.5.dev0.tar.gz",
       "upload_time": "2024-06-29T10:11:43.118487Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rpipe",
       "project_version": "6.3.1",
       "url": "https://files.pythonhosted.org/packages/21/a4/a374b479817135464b3ffc69045c81cda2bf6a24078c910ffc68e785adc8/rpipe-6.3.1-py3-none-any.whl",
       "upload_time": "2024-06-29T10:13:00.211830Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "rpipe",
       "project_version": "6.3.1",
       "url": "https://files.pythonhosted.org/packages/5c/77/734f05536279f42c576083df6b9280895d0b8c842d8f967cd96071d5fff2/rpipe-6.3.1.tar.gz",
       "upload_time": "2024-06-29T10:13:02.436718Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyams-skin",
       "project_version": "2.2.2",
       "url": "https://files.pythonhosted.org/packages/12/8d/de835ce4f31a570ec2772463004239b85787c0f87640fc71ea5bdfc80b9a/pyams_skin-2.2.2-py3-none-any.whl",
       "upload_time": "2024-06-29T10:13:53.290640Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyams-skin",
       "project_version": "2.2.2",
       "url": "https://files.pythonhosted.org/packages/63/73/ca5425fd3f5e0f2d3bf6b5c5c2836bc07a0a282e8d73592bcbf8a77e2c95/pyams_skin-2.2.2.tar.gz",
       "upload_time": "2024-06-29T10:13:55.056438Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nrobo",
       "project_version": "2024.41.1",
       "url": "https://files.pythonhosted.org/packages/f8/af/1c108d14fde99a744bf754dfb266c5ef4621838621db15ecbb71ff5e823e/nrobo-2024.41.1-py3-none-any.whl",
       "upload_time": "2024-06-29T10:17:43.243497Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nrobo",
       "project_version": "2024.41.1",
       "url": "https://files.pythonhosted.org/packages/88/e5/45cd522f69990f0617cee806f57e24bd08114b6acad6539aa018bb6a832a/nrobo-2024.41.1.tar.gz",
       "upload_time": "2024-06-29T10:17:46.856086Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ion-numworks",
       "project_version": "2.0.dev5",
       "url": "https://files.pythonhosted.org/packages/95/39/ec2ec04104be556789096806f77341d61396a84a1e7505ae94ec780b44c2/ion_numworks-2.0.dev5-py3-none-any.whl",
       "upload_time": "2024-06-29T10:20:37.549576Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ion-numworks",
       "project_version": "2.0.dev5",
       "url": "https://files.pythonhosted.org/packages/26/93/d50c3e998e57f1938207344206a853ab47f6663efe3eac9e01c2950f0995/ion_numworks-2.0.dev5.tar.gz",
       "upload_time": "2024-06-29T10:20:39.518553Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "AlphaZero-GameEnv",
       "project_version": "1.0.0.7",
       "url": "https://files.pythonhosted.org/packages/52/d4/2e90e5221238b52d8a106d5acfeaa8ecb5f1df20212880fb8af91290d9d4/AlphaZero_GameEnv-1.0.0.7-py3-none-any.whl",
       "upload_time": "2024-06-29T10:22:30.395596Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ssh-para",
       "project_version": "1.1.4",
       "url": "https://files.pythonhosted.org/packages/a3/ae/8f112a873786576f09a520aec653a5d77ed444903244c81f4335ad6906ef/ssh_para-1.1.4-py3-none-any.whl",
       "upload_time": "2024-06-29T10:22:49.080506Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ssh-para",
       "project_version": "1.1.4",
       "url": "https://files.pythonhosted.org/packages/df/90/70b44cc3d42c3f0ef26a9d7e683fb5f3df81f033fcda8c093178ad8517f7/ssh_para-1.1.4.tar.gz",
       "upload_time": "2024-06-29T10:22:50.513080Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mdpw",
       "project_version": "0.0.3",
       "url": "https://files.pythonhosted.org/packages/bb/0a/bee4dc581ffc6009b22e0337af4abead794493f1cbbdef2bd13b824a6bd9/mdpw-0.0.3-py3-none-any.whl",
       "upload_time": "2024-06-29T10:25:37.574080Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mdpw",
       "project_version": "0.0.3",
       "url": "https://files.pythonhosted.org/packages/a9/40/862612ce80fe9dc13c9ac9858308092b9353c8bc45614fd84d179a3c11e5/mdpw-0.0.3.tar.gz",
       "upload_time": "2024-06-29T10:25:39.393755Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "leverage",
       "project_version": "1.12.2rc11",
       "url": "https://files.pythonhosted.org/packages/81/99/530e2af391d9f82b1ec796b188f3a5af6a03cfcaae788e31a36c6ab7ad87/leverage-1.12.2rc11-py3-none-any.whl",
       "upload_time": "2024-06-29T10:26:31.076389Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "leverage",
       "project_version": "1.12.2rc11",
       "url": "https://files.pythonhosted.org/packages/20/e9/20a9634c230026107a86947f909a2e43658cef2a452dc9be5ca5f46fa99f/leverage-1.12.2rc11.tar.gz",
       "upload_time": "2024-06-29T10:26:33.406610Z",
-      "processed": false
+      "processed": true
     }
   ]
 }
