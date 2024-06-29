@@ -1,0 +1,9 @@
+fake_user_agent/__init__.py,sha256=p2C4DgHgsOpEPUUjTq-oHWTfcZHNpCSS1afHKI2lMY8,158
+fake_user_agent/args.py,sha256=L-NvxuSqs4S1yZus8GwuFg5HBqG2AD0VVNQ9c8Ohws8,960
+fake_user_agent/log.py,sha256=edob70yqCQuX_J7ynYBF1KLxK952NG0Cer7L0LMVLlE,223
+fake_user_agent/user_agent.py,sha256=y7VYuN8Uksujlv_T-M57puk9fgbvdUIzogOYp9Y8n_s,6770
+fake_user_agent-2.1.9.dist-info/entry_points.txt,sha256=y2D8wrW_2z0AXS0Uv_IGqj83H3NqB5l0ydVfWwTyXg8,63
+fake_user_agent-2.1.9.dist-info/LICENSE,sha256=29KXbBtLkrFTjDJrtgjVVmPmwFBuXP-6xqVSb9Sdc8U,1076
+fake_user_agent-2.1.9.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+fake_user_agent-2.1.9.dist-info/METADATA,sha256=Z2jYYPxKnG2ruFCnsPejTnkmXD0e3OPllUJxrroScz0,1964
+fake_user_agent-2.1.9.dist-info/RECORD,,
