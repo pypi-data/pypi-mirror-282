@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aic_utils
+Version: 0.25
+Summary: A utility package for dataset ID retrieval
+Home-page: https://github.com/dylandoyle11/aic_utils
+Author: Dylan D
+Author-email: dylan.doyle@jdpa.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+FUNCTIONS FOR AIC
