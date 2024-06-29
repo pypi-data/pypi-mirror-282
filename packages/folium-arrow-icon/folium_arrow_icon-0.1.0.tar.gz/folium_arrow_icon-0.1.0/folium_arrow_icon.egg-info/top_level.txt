@@ -1,0 +1,1 @@
+folium_arrow_icon

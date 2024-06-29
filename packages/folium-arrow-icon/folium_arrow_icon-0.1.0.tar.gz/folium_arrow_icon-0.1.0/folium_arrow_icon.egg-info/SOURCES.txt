@@ -1,0 +1,8 @@
+LICENSE
+README.md
+folium_arrow_icon.py
+pyproject.toml
+folium_arrow_icon.egg-info/PKG-INFO
+folium_arrow_icon.egg-info/SOURCES.txt
+folium_arrow_icon.egg-info/dependency_links.txt
+folium_arrow_icon.egg-info/top_level.txt
