@@ -1,0 +1,250 @@
+# Biblioteca de ferramentas LBX S/A
+
+Esta biblioteca possui ferramentas comuns desenvolvidas originalmente para uso nos scripts da empresa LBX S/A
+
+## Classe e funções
+
+**auth_EntraID**:        Utiliza o seriço Microsoft Entra ID (antiga Azure AD) para autenticar o usuário e previnir o uso não autorizado do script.
+  - _.valida_grupo_:     Autentica o usuário e checa se ele pertence a um grupo de segurança específico
+  - _.disclaimer_:       Aviso sobre a necessidade de autenticação e parametros de execução/acesso
+
+**postgreSQL**:          Acessa e interage com o banco de dados PostgreSQL
+  - _.db_:               Inicia sessão com o banco
+  - _.csv_df_:           Le arquivo CSV e gera Dataframe (pandas) a partir dele
+  - _.db_insert_df_:     Insere informações de Dataframe em tabela do banco com estrutura equivalente
+  - _.db_select_:        Retorna um cursor à partir e uma query
+
+**api_rest**:            Interage com APIs RESTfull, especialmente providas para o ERP Sienge
+  - _.auth_base_:        Autentica (HTTPBasicAuth) sessão na API
+  - _.endpoint_json_:    Envia um payload em formato json para um Endpoint da API autenticada
+  - _.close_:            Encerra a sessão autenticada
+
+## Instalação e uso:
+
+### Instalação
+
+```
+pip install lbx_toolkit
+```
+
+### Uso
+```
+from lbx_toolkit import auth_EntraID, PostgreSQL, api_rest
+```
+
+#### Classe **auth_EntraID**
+
+Valida se o usuário possui credencias no ambiente de nuvem da Microsoft(c) (Azure AD >> Microsoft Entra ID) e confirma se pertence a um grupo de segurança indicado.
+
+Este recurso tem o propósito de controlar as permissões de execução do script.
+
+Para funcionar, é necessário obter parametros da plataforma de identidade da Microsoft(c) (AD Azure, agora Microsoft Entra ID), em específico ID do Aplicativo (cliente), Client Secret e Tenant ID (ID do locatário)
+Sugerimos não armazenar estas ou outras informações sensíveis no script. Considere usar o pacote `dotenv` para isso.
+
+Estas informações são obtidas no [*Centro de administração do Microsoft(c) Entra*](entra.microsoft.com):
+
+1) `tenant_id` corresponde ao campo *ID do Locatário* e pode ser obtido na página [visão geral de identidade do domínio](https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/TenantOverview.ReactView)
+
+2) `client_id` corresponde ao *ID do aplicativo (cliente)* e pode ser obtido na secção  [_Identidade > Aplicativos > Registros de Aplicativo_](https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM). Considere criar um aplicativo específico para essa finalidade.
+
+3) `secret_id` corresponde ao *Valor* do _ID secreto_ (não o ao próprio ID Secreto) do aplicativo. Este token não é passivel de consulta e uma vez gerado, não pode ser regastado/consultado. Para obtê-lo, é necessário criar um segredo para o aplicativo na secção "Certificados e Segredos". Para isso, acesse a secção indicada no item (2), clique sobre o nome do aplicativo e vá em _"Certificados e segredos"_. O token (_Valor do segredo_) deve ser copiado e anotado no ato da criação, pois *não é possível consultá-lo posteriormente*.
+
+Essa classe possui apenas dois métodos. `auth_EntraID.disclaimer()` apenas exibe uma tela de informações/instruções ao usuário.
+
+Já a classe `auth_EntraID.valida_grupo()` efetua a autenticação do usuário e verifica se ele pertence ao grupo informado como parametro no instanciamento da classe.
+
+Caso o usuário não pertença ao grupo indicado ou a autenticação não seja validada no tempo estabelecido, a função abortará a excecução do script que a chamou.
+
+
+```
+from lbx_toolkit import auth_EntraID
+
+client_id = 'SEU_CLIENT_ID'
+client_secret = 'SEU_CLIENT_SECRET'
+tenant_id = 'SEU_TENANT_ID'
+
+# inicializa instância
+# 'timeout' e 'log_file' são opcionais e se omitidos, os valores aqui atribuídos serão adotados como padrão
+auth = auth_EntraID(client_id, client_secret, tenant_id, timeout=60, log_file='auth_EntraID.log')  
+
+# exibe a mensagem padrão de aviso
+auth.disclaimer()
+
+auth.valida_grupo('Nome do Grupo de Distribuição') 
+# se usuário não pertencer a grupo informado, a execução do script é abortada.
+```
+
+#### Classe **postgreSQL**
+
+Recursos de conexão e interação com o banco de dados relacional PostgreSQL
+
+1) O método `postgreSQl.db()` exige que as credenciais e parametros de acesso sejam fornecidas em um dicionário com, ao mínimo, o seguinte formato:
+
+```
+credenciais = {
+                'dbname': 'NOME_BANCO',
+                'user': 'USUARIO'',        
+                'password': 'SENHA',     
+                'host': 'IP_OU_DNS_SERVIDOR',
+                'port': 'PORTA_POSTGRESQL',  ## padrão = 5432
+              }
+
+conexao = postgreSQL.db(credenciais)
+```
+
+O nome do schema deve ser declarado no contexto da query. Se desejar alterar o schema padrão, adicione *`'options' : '-c search_path=[NOME_SCHEMA]',`* ao dicionário.
+
+Todos os parametros de conexão do pacote *psycopg2* são aceitos como entrada de dicionário.
+
+2) O método `postgreSQl.csv_df()` lê arquivo texto do tipo CSV e o converte para o objeto Dataframe do Pandas. A assinatura exige que se forneça o caminho do arquivo CSV e, opcionalmente o caracter delimitador. Se o caracter demilitador não for informado, será assumido `;`. Considere usar a função `Path` para tratar o caminho do arquivo de origem.
+
+```
+from pathlib import Path
+arquivo_csv = Path('./diretorio/arquivo_exemplo.csv')
+dados = postgreSQL.csv_df(arquivo_csv, CsvDelim=',') # usando vírgula como separador. se omisso, assume ";'
+```
+
+3) O método `postgreSQl.db_insert_df()` insere dados a partir de um Dataframe (pandas) em uma tabela do banco com estrutura equivalente.
+
+A assinatura da função é `postgreSQL.db_insert_df([conexao], [dataframe_origem], [tabela_destino], Schema=None, Colunas=None, OnConflict=None)`
+
+É necessário que os nomes das colunas do dataframe coincidam com o nome das colunas da tabela. 
+Não há como traduzir/compatibilizar (de-para) nomes de colunas entre o dataframe e a tabela.
+
+Os três primeiros parametros são posicionais e correspondem, respectivamente, (1) o objeto da conexão com o banco, (2) o objeto que contém o dataframe e (3) o nome da tabela de destino.
+Assume que a tabela esteja no schema padrão (definido na variável _search_path_ do servidor). Caso a tabela de destino esteja em um _schema_ diferente do padrão, deve-se informar o nome do schema no parâmetro opcional `Schema`.
+
+O parametro opcional `Colunas` espera um objeto do tipo _lista_ que contenha a relação das colunas a serem importadas. 
+As colunas listadas neste objeto precisam existir nas duas pontas (dataframe e tabela).
+Caso seja omisso, todas as colunas do dataframe serão inseridas na tabela. Neste caso, pode haver colunas na tabela que não exitam no dataframe (serão gravadas como NULL), mas o inveso provocará erro. 
+
+O último parametro opcional `OnConflict` espera uma declaração para tratar o que fazer caso o dado a ser inserido já exista na tabela, baseado na cláusula [*ON CONFLICT*](https://www.postgresql.org/docs/current/sql-insert.html#SQL-ON-CONFLICT) do comando INSERT. A claúsula deve ser declarada explicita e integralmente (clausula, _target_ e _action_) nessa variável e não sobre crítica/validação pelo método, podendo gerar erros.
+
+Exemplo de uso:
+
+```
+from lbx_toolkit import postgreSQL
+from pathlib import Path
+
+credenciais = {
+                'dbname': 'NOME_BANCO',
+                'user': 'USUARIO'',        
+                'password': 'SENHA',     
+                'host': 'IP_OU_DNS_SERVIDOR',
+                'port': 'PORTA_POSTGRESQL',  ## padrão = 5432
+              }
+
+conexao = postgreSQL.db(credenciais)
+
+arquivo_csv = Path('./diretorio/arquivo_exemplo.csv')
+dados = postgreSQL.csv_df(arquivo_csv, CsvDelim=',') # usando vírgula como separador. se omisso, assume ";'
+
+postgreSQL.db_insert_df(conexao, dados, 'teste_table', Schema='meu_esquema', OnConflict='on conflict (coluna_chave_primaria) do nothing')
+
+# conexão com o banco precisa ser fechada explicitamente após a chamada do método, caso não seja mais utilizada:
+conexao.close()
+```
+
+4) O método `postgreSQl.db_select()` executa consultas no banco de dados e retorna um cursor com o resultado.
+
+A assinatura da função é `postgreSQL.db_select([conexao], [query])`
+
+São permitidas apenas instruções de consulta. A presença de outras instruções SQL de manipulação de dados e metadados não são permitidas e abortação a execução da query.
+
+O cursor é fechado no contexto do método, antes do retorno e não pode ser manipulado após recebido da função.
+
+A função retorna *dois objetos*, o primeiro contendo os dados do cursor, o segundo, contendo os nomes das respectivas colunas.
+
+Exemplo de uso:
+
+```
+from lbx_toolkit import postgreSQL
+from pathlib import Path
+
+credenciais = {
+                'dbname': 'NOME_BANCO',
+                'user': 'USUARIO'',        
+                'password': 'SENHA',     
+                'host': 'IP_OU_DNS_SERVIDOR',
+                'port': 'PORTA_POSTGRESQL',  ## padrão = 5432
+              }
+
+conexao = postgreSQL.db(credenciais)
+
+query = 'select * from meu_esquema.teste_table'
+
+dados, colunas = postgreSQL.db_select(conexao, query)
+conexao.close()
+```
+
+5) O método `postgreSQl.db_update()` executa updates no banco
+
+A assinatura da função é `postgreSQL.db_update([conexao], [query])`
+
+São permitidas apenas instruções de update. A presença de outras instruções SQL de manipulação de dados e metadados não são permitidas e abortação a execução da query.
+
+O cursor é fechado no contexto do método, antes do retorno e não pode ser manipulado após recebido da função.
+
+A função retorna *a quantidade de linhas alteradas*.
+
+Exemplo de uso:
+
+```
+from lbx_toolkit import postgreSQL
+from pathlib import Path
+
+credenciais = {
+                'dbname': 'NOME_BANCO',
+                'user': 'USUARIO'',        
+                'password': 'SENHA',     
+                'host': 'IP_OU_DNS_SERVIDOR',
+                'port': 'PORTA_POSTGRESQL',  ## padrão = 5432
+              }
+
+conexao = postgreSQL.db(credenciais)
+
+query = "update meu_esquema.teste_table set coluna='novo_valor' where pk='chave'"
+
+result = postgreSQL.db_update(conexao, query)
+conexao.close()
+```
+
+
+#### Classe **api_rest**
+
+Destina-se a interatir com APIs RESTfull, em especial as publicadas pela SoftPlan para o [Plataforma Sienge](https://api.sienge.com.br/docs/).
+
+São 3 métodos: `api_rest.auth_basic()`, para autenticação e instanciamento da sessão, `api_rest.endpoint_json` para a chamada do endpoint e `close()` para encerra a instância/sessão.
+
+A classe deve ser instanciada fornecendo como parâmetros posicionais a URL base da API e as credenciais de autenticação básica HTTP (user, password). Assim como a classe de interação com o PostgreSQL, essa credenciais precisam ser fornecidas na forma de um _dicionário_, no formato abaixo:
+
+```
+credenciais = {
+                'user': 'USUARIO_API',
+                'password': 'TOKEN_USUARIO'
+              }
+```
+
+Essa classe ainda não suporta outros tipos de autenticação que não seja a básica.
+
+O consumo é feito pelo método `api_rest.endpoint_json` que suporta penas  APIs cujo payload seja esperado no formato JSON.
+
+Esse método espera como parametros o endereço do endpoint, o objeto do payload e o verbo http esperado pelo endpoint (get, post, path ou put são suportados). Note que o endereço do endpoint *não* é a URL completa da API, apenas o path/caminho do serviço específico. Portanto, a URL corresponde à concatençao da *_URL Base_ + _path do Endpoint_*. Como parametro da chamada do método `api_rest.endpoint_json` deve ser fornecido apenas o path do serviço e não a URL completa, já que URL base foi informada no instanciamento do classe.
+
+Abaixo, exemplo de uso:
+
+```
+from lbx_toolkit import api_rest
+credenciais = {
+                'user': 'USUARIO_API',
+                'password': 'TOKEN_USUARIO'
+              }
+ApiSienge = api_rest(Url,AuthSienge)
+Auth = ApiSienge.auth_basic()
+EndPoint = f'/bills/{nutitulo}/installments/{nuparcela}/payment-information/pix'
+AlteraPix = ApiSienge.endpoint_json(EndPoint, Payload, 'patch')              
+```
+
+No exemplo acima não é esperado que o endpoint retorne nenhum objeto (`post`).
+
+Quando se usa o método `get` e se espera o retorno de algum objeto, usar o método .json do pacote `request` request para receber o objeto retorno.
