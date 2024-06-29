@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: TimeStampProcessing
+Version: 0.1.2
+Summary: A package for timestamp-related data processing
+Home-page: http://github.com/yourusername/TimeStampProcessing
+Author: Wei Wang
+Author-email: wwang487@wisc.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TimeStampProcessing
+
+`TimeStampProcessing` is a Python package designed to simplify and enhance operations involving timestamps and time series data. This package includes a wide range of utilities for parsing, comparing, and manipulating timestamps, which can be particularly useful in time-sensitive data analysis tasks.
+
+## Features
+
+- **Time Parsing and Formatting**: Convert strings to time or datetime objects with custom formats.
+- **Time Comparisons**: Easily compare different timestamps to determine order or calculate differences.
+- **Interval Handling**: Generate, merge, and manage lists of time intervals, including finding gaps and overlaps.
+- **Time Zone Conversions**: Convert timestamps between different time zones.
+- **Time Adjustments**: Add or subtract time from timestamps to calculate new times.
+
+## Installation
+
+You can install `TimeStampProcessing` using pip:
+
+```bash
+pip install TimeStampProcessing
+
+
