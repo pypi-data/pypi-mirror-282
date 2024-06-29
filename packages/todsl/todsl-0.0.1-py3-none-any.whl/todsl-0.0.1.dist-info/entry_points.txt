@@ -1,0 +1,2 @@
+[console_scripts]
+todsl = todsl.__main__:main
