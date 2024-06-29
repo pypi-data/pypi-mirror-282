@@ -1,0 +1,13 @@
+NameComparator/NameComparator.py,sha256=p55jqhL-uZIpasWPUzwHpD6T-ldN-ZRGlw3mYZwjLs0,67575
+NameComparator/requirements.txt,sha256=rjqrC2ElGGtM_b9Ld1rMr67-w_fklGTi4NFFoWTtUmo,41
+NameComparator/jsonData/_ipa_all_names.json,sha256=uxL9U6XC_hyk58m-mQnNxCUrWB3In6fluahD3r_AIUw,1458189
+NameComparator/jsonData/_ipa_common_word_parts.json,sha256=R88HuFrl3Y1PaS2h6ct3xKu8WR3ifwI4A6lXbh32dgQ,200503
+NameComparator/jsonData/_nickname_sets.json,sha256=AN3L4WZVsJLkM1pAjy3zIFJFkIBKuQ4Y1Ll5UcXK4kM,22657
+NameComparator/jsonData/_rules_ipa.json,sha256=NMmkvuCZy-7mz8x6ofCtNo-j9B_52lhRBdxk0_YnBnU,3528
+NameComparator/jsonData/_rules_spelling.json,sha256=_8zex3XqKEieY0weViQ0e46j0Q94K1X-QYLA9eho8BU,3098
+NameComparator/jsonData/_top_surnames.json,sha256=YbpydXPUmPWGGmFf9JytoBarsm9pdgfrtaEzGsQoP1Q,78578
+NameComparator-1.0.0.dist-info/LICENSE,sha256=QqB8E7wgo9VgTIkhrCgXum7G9b9yMobz0d-m9-g3NWw,1088
+NameComparator-1.0.0.dist-info/METADATA,sha256=DkGMiSr-KRvqmuNDX5MSFbjOnb0KrvDk7X77Khsh4H4,4405
+NameComparator-1.0.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+NameComparator-1.0.0.dist-info/top_level.txt,sha256=ZOkz7zOW6TCiAN-o3dUFeX2l-Y-pz3dELef_qKRfOls,39
+NameComparator-1.0.0.dist-info/RECORD,,
