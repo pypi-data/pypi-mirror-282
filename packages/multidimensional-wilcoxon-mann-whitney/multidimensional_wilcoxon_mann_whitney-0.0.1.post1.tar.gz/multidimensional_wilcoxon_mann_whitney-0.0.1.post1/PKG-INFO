@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: multidimensional-wilcoxon-mann-whitney
+Version: 0.0.1.post1
+Summary: Multidimensional Wilcoxon-Mann-Whitney U statistic
+Project-URL: Homepage, https://github.com/habla-liaa/multidimensional-wilcoxon-mann-whitney
+Author-email: Pablo Riera <priera@dc.uba.ar>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Multidimensional Wilcoxon Mann Whitney U Test
+
