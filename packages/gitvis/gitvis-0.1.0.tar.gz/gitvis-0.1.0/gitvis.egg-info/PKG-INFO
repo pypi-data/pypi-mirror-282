@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gitvis
+Version: 0.1.0
+Summary: A CLI made with Python to visualize your Git commits
+Home-page: https://github.com/aldinash
+Author: Aldinash Seitenov
+Author-email: aldinash.seitenov@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: click>=8.1.7
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: gitdb>=4.0.11
+Requires-Dist: GitPython>=3.1.43
+Requires-Dist: smmap>=5.0.1
+Requires-Dist: setuptools>=70.1.1
