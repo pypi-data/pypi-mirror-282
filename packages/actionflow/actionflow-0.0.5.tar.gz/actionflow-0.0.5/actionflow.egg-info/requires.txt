@@ -1,0 +1,7 @@
+loguru
+beautifulsoup4
+fire
+openai
+python-dotenv
+sqlalchemy
+pydantic
