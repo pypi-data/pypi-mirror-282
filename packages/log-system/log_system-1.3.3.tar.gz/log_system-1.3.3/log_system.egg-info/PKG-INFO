@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: log_system
+Version: 1.3.3
+Summary: decorative logging, lock management, and error notification system
+Author: Yinghao Li
+Author-email: yinghao.li@hilabs.com
