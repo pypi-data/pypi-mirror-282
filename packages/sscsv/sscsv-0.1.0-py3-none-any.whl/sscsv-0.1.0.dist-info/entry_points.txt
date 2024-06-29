@@ -1,0 +1,3 @@
+[console_scripts]
+sscsv=sscsv.run:main
+
