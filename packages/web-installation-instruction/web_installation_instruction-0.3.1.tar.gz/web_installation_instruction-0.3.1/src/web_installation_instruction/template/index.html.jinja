@@ -1,0 +1,188 @@
+<!doctype html>
+{#
+  Copyright 2024 Adam McKellar, Kanushka Gupta, Timo Ege
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. 
+#}
+
+{% import 'forms.html.jinja' as forms %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>{{ title }}</title>
+    <meta name="description" content={{ description }} />
+
+    <script src="https://cdn.jsdelivr.net/npm/nunjucks@3/browser/nunjucks.min.js"></script>
+
+    <script>
+      "use strict";
+
+      let input = new Map();
+      let radio = new Set();
+      let bool = new Set();
+      let availableEnumValues = new Map();
+    </script>
+
+  </head>
+  <body>
+    <header class="container">
+      <hgroup>
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+      </hgroup>
+    </header>
+    <main class="container">
+
+      <form>
+
+        {% for key, prop in properties.items() %}
+          {% if prop.type == "number" %}
+            {{ forms.number(prop) }}
+          {% elif prop.type == "string" %}
+            {{ forms.text(prop) }}
+          {% elif prop.type == "boolean" %}
+            {{ forms.switch(prop) }}
+          {% elif prop.type == "enum" %}
+            {{ forms.radio(prop) }}
+          {% else %}
+            <p>
+              Error occured @
+              {{ prop | pprint }}
+              with type
+              {{ prop.type | pprint }}
+            </p>
+          {% endif %}
+        {% endfor %}
+      </form>
+
+      <h4>Instructions</h4>
+      <div>
+        <pre>
+          <Code id="output"></Code>
+        </pre>
+      </div>
+      <button id="copybtn" class="secondary" onclick="copyToClipboard()" style="width: 100%;">Copy</button>
+
+    </main>
+    <footer class="container">
+      <small>
+        <p>
+          This website was generated using 
+          <a href="https://github.com/instructions-d-installation/web-installation-instruction" class="secondary">web-installation-instruction</a>, 
+          which is under 
+          <a href="https://github.com/instructions-d-installation/web-installation-instruction/blob/main/LICENSE" class="secondary">Apache-2.0</a>,
+          and utilizes 
+          <a href="https://picocss.com/" class="secondary">Pico CSS</a>, licensed under 
+          <a href="https://github.com/picocss/pico/blob/main/LICENSE.md" class="secondary">MIT</a>, and
+          <a href="https://mozilla.github.io/nunjucks/" class="secondary">Nunjucks</a>, licensed under
+          <a href="https://github.com/mozilla/nunjucks/blob/master/LICENSE" class="secondary">BSD-2-Clause</a>.
+        </p>
+      </small>
+    </footer>
+
+    <script>
+      nunjucks.configure({ autoescape: true, trimBlocks: true, lstripBlocks: true });
+      nunjucks.installJinjaCompat()
+
+      const raiseRegex = /\[\[ERROR\]\](.*?)\[\[\/ERROR\]\]/g;
+
+      {% raw %}
+      const raiseMacro = "{% macro raise(error) %} [[ERROR]]{{ error }}[[/ERROR]] {% endmacro %}";
+      {% endraw %}
+
+      let template = nunjucks.compile(raiseMacro + `{{ __web_template__ }}`);
+
+      if (input.has("__os__")) {
+        let defaultOS = input.get("__os__");
+        if (defaultOS === "None") {
+          defaultOS = null;
+        }
+        let availableOS = availableEnumValues.get("__os__");
+        let realOS = null;
+        if (availableOS) {
+          realOS = getOS(availableOS);
+        }
+        input.set("__os__", realOS ?? defaultOS);
+      }
+
+      let defaultInput = structuredClone(input);
+
+      let copyBtn = document.getElementById("copybtn");
+      let outputElem = document.getElementById("output");
+      let outputDefaultStyle = outputElem.style.getPropertyValue("--pico-code-color");
+      let output;
+
+      render()
+
+
+      function render() {
+        for (const key of input.keys()) {
+          let val;
+          if (radio.has(key)) {
+            val = document.querySelector(`input[name="${key}"]:checked`)?.id;
+            if (!val && input.get(key)) {
+              document.getElementById(input.get(key)).checked = true;
+              val = input.get(key);
+            }
+          } else if (bool.has(key)) {
+            val = document.getElementById(key)?.checked
+          } else {
+            val = document.getElementById(key)?.value || defaultInput.get(key);
+          }
+          input.set(key, val);
+        }
+        output = template.render(Object.fromEntries(input.entries()));
+        let errmsg = raiseRegex.exec(output)?.[1];
+        output = errmsg || output;
+        outputElem.innerHTML = output;
+
+        if (errmsg) {
+          copyBtn.setAttribute("disabled", "disabled");
+          outputElem.style.setProperty("--pico-code-color", "#ff6700");
+        } else {
+          copyBtn.removeAttribute("disabled");
+          outputElem.style.setProperty("--pico-code-color", outputDefaultStyle);
+        }
+      }
+
+      function copyToClipboard() {
+        navigator.clipboard.writeText(output);
+      }
+
+      function getOS(availableOS) {
+        let userAgent = navigator.userAgent.toLowerCase();
+        let supportedOS = {
+          win: /.*windows.*/g,
+          linux: /.*linux.*/g,
+          mac: /.*macintosh.*/g
+        };
+        
+        for (const os in supportedOS) {
+          if (supportedOS[os].test(userAgent) && availableOS.includes(os)) {
+            return os;
+          }
+        }
+
+        return null;
+      }
+    </script>
+
+  </body>
+</html>
