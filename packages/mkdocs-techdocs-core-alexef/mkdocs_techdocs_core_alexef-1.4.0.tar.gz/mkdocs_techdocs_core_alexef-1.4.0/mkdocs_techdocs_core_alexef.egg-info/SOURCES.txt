@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mkdocs_techdocs_core_alexef.egg-info/PKG-INFO
+mkdocs_techdocs_core_alexef.egg-info/SOURCES.txt
+mkdocs_techdocs_core_alexef.egg-info/dependency_links.txt
+mkdocs_techdocs_core_alexef.egg-info/entry_points.txt
+mkdocs_techdocs_core_alexef.egg-info/requires.txt
+mkdocs_techdocs_core_alexef.egg-info/top_level.txt
+src/__init__.py
+src/core.py
+src/test_core.py
