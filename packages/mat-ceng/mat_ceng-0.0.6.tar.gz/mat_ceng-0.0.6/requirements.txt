@@ -1,0 +1,11 @@
+mat_ceng
+streamlit
+numpy
+pandas
+xlwings
+pathlib
+typing
+pytest
+json
+shapely
+plotly
