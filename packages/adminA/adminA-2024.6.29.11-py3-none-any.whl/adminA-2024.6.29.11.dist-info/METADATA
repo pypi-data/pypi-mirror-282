@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: adminA
+Version: 2024.6.29.11
+Summary: 为django应用提供快速的管理员页面构建.使用drf及0代码操作提供更快捷的admin页面构建.
+Author-email: YanChengxin <yan.cheng.xin@foxmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+功能:为django应用提供快速的管理员页面构建
+用法:安装pip install adminA
+待补充
+项目开发中,目前还不能用
+
+
+
