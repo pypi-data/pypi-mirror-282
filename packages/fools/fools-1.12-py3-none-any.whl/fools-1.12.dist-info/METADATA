@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fools
+Version: 1.12
+Author: walper
+Keywords: toolsbox,tools,youtube,download,meme,walper
+Requires-Dist: Click
+Requires-Dist: opencv-python
+Requires-Dist: pytube
+Requires-Dist: moviepy
+Requires-Dist: flask
+Requires-Dist: pillow
+
