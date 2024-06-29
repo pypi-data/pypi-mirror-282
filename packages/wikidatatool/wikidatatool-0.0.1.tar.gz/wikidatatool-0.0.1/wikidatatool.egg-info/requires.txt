@@ -1,0 +1,7 @@
+numpy
+
+[all]
+wikidatatool[extra]
+
+[extra]
+pandas
