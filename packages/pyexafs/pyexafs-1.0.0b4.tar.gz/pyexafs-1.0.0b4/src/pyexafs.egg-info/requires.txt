@@ -1,0 +1,9 @@
+numpy
+matplotlib
+xraylarch==0.9.66
+scipy
+lmfit>=1.3
+
+[dev]
+black
+isort
