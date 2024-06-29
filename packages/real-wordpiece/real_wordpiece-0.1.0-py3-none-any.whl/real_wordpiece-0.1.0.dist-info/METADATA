@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: real-wordpiece
+Version: 0.1.0
+Summary: A score-based implementation of WordPiece tokenization training, compatible with HuggingFace tokenizers.
+Author: Kacper Łukawski
+Author-email: lukawski.kacper@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: tokenizers (>=0.19.1,<0.20.0)
+Description-Content-Type: text/markdown
+
+# real-wordpiece
+
