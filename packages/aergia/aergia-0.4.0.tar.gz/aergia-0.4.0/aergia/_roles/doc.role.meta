@@ -1,0 +1,4 @@
+{
+    "description": "Role to add doc strings to the given source code.",
+    "model": "gpt-4o"
+}

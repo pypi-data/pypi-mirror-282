@@ -1,0 +1,4 @@
+{
+    "description": "Role to convert data from a given format to a specified format.",
+    "model": "gpt-4o"
+}

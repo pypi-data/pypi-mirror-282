@@ -1,0 +1,4 @@
+{
+    "description": "Fix typos in a given text, keep for and special syntaxes.",
+    "model": "gpt-4o"
+}
