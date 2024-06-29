@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: py4me
+Version: 0.0.1a0
+Summary: Python SDK for 4me API
+Home-page: https://github.com/rodo7936/py4me
+Author: rodo7936 - Patryk Szczepański
+License: MIT
+Keywords: 4me,api,py4me,sdk,4me api,python 4me,4me python,4me sdk
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: requests
+
+Python SDK for 4me API
