@@ -1,0 +1,2 @@
+[console_scripts]
+deserialise = serialise:main

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+serialise/__init__.py
+serialise/_lib.py
+serialise.egg-info/PKG-INFO
+serialise.egg-info/SOURCES.txt
+serialise.egg-info/dependency_links.txt
+serialise.egg-info/entry_points.txt
+serialise.egg-info/top_level.txt
