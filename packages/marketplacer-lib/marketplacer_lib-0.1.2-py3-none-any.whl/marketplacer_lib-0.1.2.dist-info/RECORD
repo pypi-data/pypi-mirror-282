@@ -1,0 +1,6 @@
+marketplacer_lib/__init__.py,sha256=VqACU0O4rpLLZOsXDjWufrIYpaDrUqArTrmanMVR8_c,206
+marketplacer_lib/gql_client.py,sha256=o4AOutIZmttS2-cSq3WiakhN6uFLiIfaHqyKV2M0g1w,3561
+marketplacer_lib/rest_client.py,sha256=pjsd5u_8hFUTcTyC-y8R3pDU2KFmNHg2DSe4_mO6IYY,2218
+marketplacer_lib-0.1.2.dist-info/METADATA,sha256=e1WtVnxZsJ-L00Q5mxcx9nneJxLYOQm0FGehu6x-FBc,432
+marketplacer_lib-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+marketplacer_lib-0.1.2.dist-info/RECORD,,
