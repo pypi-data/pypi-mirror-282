@@ -1,0 +1,10 @@
+pandas
+python-dotenv
+google-cloud-bigquery
+db-dtypes
+openai
+boto3
+tokencost
+tqdm
+fsspec
+huggingface-hub
