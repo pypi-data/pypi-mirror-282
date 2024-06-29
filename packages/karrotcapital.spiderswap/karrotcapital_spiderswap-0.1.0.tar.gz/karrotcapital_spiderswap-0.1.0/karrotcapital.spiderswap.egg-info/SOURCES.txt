@@ -1,0 +1,11 @@
+README.md
+setup.py
+karrotcapital.spiderswap.egg-info/PKG-INFO
+karrotcapital.spiderswap.egg-info/SOURCES.txt
+karrotcapital.spiderswap.egg-info/dependency_links.txt
+karrotcapital.spiderswap.egg-info/requires.txt
+karrotcapital.spiderswap.egg-info/top_level.txt
+spiderswap/__init__.py
+spiderswap/quote.py
+spiderswap/spiderswap.py
+spiderswap/swap.py
