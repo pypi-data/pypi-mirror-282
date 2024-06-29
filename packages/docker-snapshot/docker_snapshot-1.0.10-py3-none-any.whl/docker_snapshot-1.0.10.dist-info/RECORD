@@ -1,0 +1,11 @@
+docker_snapshot/__init__.py,sha256=4sklRqezFRIxcyGmE_Smolfop6dNYJG23R5EY6voBA8,4144
+docker_snapshot/container.py,sha256=o1T3_TbVKmNxXdqkLMacHSBal9BY14qaRAnhAZHMuBc,5083
+docker_snapshot/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docker_snapshot/images/rsync,sha256=yeY0pOt_xAv0rdnz3ShzDpxaaV0zoxW0eOzuOr29Uas,95
+docker_snapshot/settings.py,sha256=8YGR8FkwMVRz5IG1swseG9MXvLjF8RscQEUfIQlm1JY,1102
+docker_snapshot/snapshot.py,sha256=HKmdPnT5TmVlPHgsYHJ4lXIzz9_npzXYCzZiMSUIGvE,3437
+docker_snapshot/utils.py,sha256=fS7BA45mTwRtXbZyk5Q2upKXhKOdZ5QZdGaBy3SxDh4,263
+docker_snapshot-1.0.10.dist-info/METADATA,sha256=CLOFH-ch7G7KZBSZC697AvdKKA8p3rRiS5gaHDc5QFw,2875
+docker_snapshot-1.0.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+docker_snapshot-1.0.10.dist-info/entry_points.txt,sha256=jvjbyG8r5tR1R_TcjAi5Yf1KPX2I5ojLuY6fnYYyAP8,50
+docker_snapshot-1.0.10.dist-info/RECORD,,
