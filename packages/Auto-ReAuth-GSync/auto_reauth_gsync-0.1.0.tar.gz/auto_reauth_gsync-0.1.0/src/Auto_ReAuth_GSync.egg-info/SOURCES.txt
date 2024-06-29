@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/gdrive.py
+src/main.py
+src/pull.py
+src/push.py
+src/Auto_ReAuth_GSync.egg-info/PKG-INFO
+src/Auto_ReAuth_GSync.egg-info/SOURCES.txt
+src/Auto_ReAuth_GSync.egg-info/dependency_links.txt
+src/Auto_ReAuth_GSync.egg-info/entry_points.txt
+src/Auto_ReAuth_GSync.egg-info/requires.txt
+src/Auto_ReAuth_GSync.egg-info/top_level.txt

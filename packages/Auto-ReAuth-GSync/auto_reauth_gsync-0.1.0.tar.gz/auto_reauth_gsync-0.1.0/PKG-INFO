@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Auto-ReAuth-GSync
+Version: 0.1.0
+Summary: Google Drive syncing script
+Home-page: https://github.com/hengtseChou/Auto_ReAuth-GSync
+Author: hengtseChou
+Author-email: hankthedev@gmail.com
+License: MIT
+Keywords: sync
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pydrive2
+
+# Auto-ReAuth-GSync
+
+A google drive sync tool that does not requires re-authorize.
+
+Some of the code was inspired by the [Google-Drive-sync](https://github.com/dtsvetkov1/Google-Drive-sync) project and refactored with PyDrive2 packages.
