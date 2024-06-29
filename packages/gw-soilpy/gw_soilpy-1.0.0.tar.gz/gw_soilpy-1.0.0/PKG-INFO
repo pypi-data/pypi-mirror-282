@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gw_soilpy
+Version: 1.0.0
+Summary: Modules for soil data manipulation processes.
+Author-email: Bhav Culleechurn <bculleechurn@woodrill.com>
+Project-URL: My_GitHub, https://github.com/bculleec
+Keywords: soil mapping,filtering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: geopandas
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# Overview
+---
+
+Install with
+```
+pip install gw-soilpy
+```
+
+Import with
+```
+import gw-soilpy
+```

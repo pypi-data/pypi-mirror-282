@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+gw_soilpy.py
+pyproject.toml
+gw_soilpy.egg-info/PKG-INFO
+gw_soilpy.egg-info/SOURCES.txt
+gw_soilpy.egg-info/dependency_links.txt
+gw_soilpy.egg-info/entry_points.txt
+gw_soilpy.egg-info/requires.txt
+gw_soilpy.egg-info/top_level.txt
