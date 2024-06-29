@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: pppmodels
+Version: 0.4.0
+Summary: Add your description here
+Author-email: galenseilis <galen.seilis@seilis.ca>
+License-File: LICENSE
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# PPPModels
+Package for making predictions with Poisson point processes.
