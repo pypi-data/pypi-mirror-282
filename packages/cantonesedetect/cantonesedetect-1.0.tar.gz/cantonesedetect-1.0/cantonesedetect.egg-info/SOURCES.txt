@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+cantonesedetect/__init__.py
+cantonesedetect/cli.py
+cantonesedetect/judge.py
+cantonesedetect/version.py
+cantonesedetect.egg-info/PKG-INFO
+cantonesedetect.egg-info/SOURCES.txt
+cantonesedetect.egg-info/dependency_links.txt
+cantonesedetect.egg-info/top_level.txt
+tests/test_judge.py
