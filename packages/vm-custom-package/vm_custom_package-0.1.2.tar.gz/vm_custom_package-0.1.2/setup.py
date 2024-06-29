@@ -1,0 +1,13 @@
+from setuptools import setup
+
+setup(
+    name='vm_custom_package',
+    version='0.1.2',
+    packages=['vm_custom_package'],
+    include_package_data=True,
+    install_requires=[
+        "python-telegram-bot>=21.2",
+        "psutil>=5.9.8",
+        "requests>=2.32.2",
+    ],
+    )
