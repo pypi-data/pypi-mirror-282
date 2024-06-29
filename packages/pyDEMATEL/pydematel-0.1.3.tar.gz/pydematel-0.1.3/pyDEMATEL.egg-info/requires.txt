@@ -1,0 +1,4 @@
+tkinter
+numpy>=1.22.0
+matplotlib>=3.4.3
+openpyxl>=3.0.9
