@@ -1,0 +1,9 @@
+{
+    "AGENT_APK": {
+        "name": "android-tools.apk",
+        "md5": "822e535a96135670c99df7ed091b27bc",
+        "main": "android.tools.Main",
+        "size": 87179,
+        "time": "2024-06-29 00:26:22"
+    }
+}
