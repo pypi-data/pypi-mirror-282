@@ -1,0 +1,11 @@
+argsync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+argsync/gdrive.py,sha256=oUQGW-w2jnWbZd9yRwnMH9vvzdI_uyUT8YUYEJxoU4A,697
+argsync/main.py,sha256=Htq-_lmzMMmCmCkU3YC9Vk7B8_V4-EkVsno6nK7ZET0,1631
+argsync/pull.py,sha256=ws3XzMbwJNTFkjgNoSW-BRN3udxFKHO3tZV1mw4ilqI,8461
+argsync/push.py,sha256=hy2msNUNVoWtzb5ZNvqNPmN-AEsjJXW9YfX8vG6g6_k,11108
+argsync-0.1.3.dist-info/LICENSE,sha256=kPxwhQ2awuuS_dWJOKRAahj34wiRLS9EQYSICwYWIyA,1068
+argsync-0.1.3.dist-info/METADATA,sha256=s843SGg87iLwXhAPhtCNlUbHpf6yQ4iLLLKMWh9GzmY,723
+argsync-0.1.3.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+argsync-0.1.3.dist-info/entry_points.txt,sha256=hHzLaQNoO_cWbSXHwF6rpKx9d3c4iknmn6P5jeR54AA,45
+argsync-0.1.3.dist-info/top_level.txt,sha256=YSU8oWKJFq0iI4qpQygh5lu-lV5QZnyp8y4BVTyCaWk,8
+argsync-0.1.3.dist-info/RECORD,,
