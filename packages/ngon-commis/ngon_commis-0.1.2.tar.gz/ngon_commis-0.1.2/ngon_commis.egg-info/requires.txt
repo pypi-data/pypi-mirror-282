@@ -1,0 +1,5 @@
+dataclasses
+numpy
+python-opencv
+pytest
+setuptools~=69.5.1
