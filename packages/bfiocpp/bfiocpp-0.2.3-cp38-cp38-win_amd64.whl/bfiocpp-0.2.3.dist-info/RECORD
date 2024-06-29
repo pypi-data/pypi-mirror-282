@@ -1,0 +1,14 @@
+bfiocpp/libbfiocpp.cp38-win_amd64.pyd,sha256=Hl_CKg9b7Yz2l__TZ6JbUzdHf_oGTyJQx1G6KwqT0Cw,25933312
+bfiocpp/tsreader.py,sha256=zvb0-vHENimUjW_Dk_6tymiqwEYD7SeiNxz_ZU5ZLiU,1860
+bfiocpp/tswriter.py,sha256=t_6rAQsEg3ngBW9nubyBbTyFVweQPsWAf8kXhhmJrBI,1531
+bfiocpp/_version.py,sha256=XnlPSvNrkNxuoWyJf9NfuDOv5dXgPRpL41-RP3ypdds,518
+bfiocpp/__init__.py,sha256=LDjjUhe3Rlg12YjMprWy8405Xa_Wj7iNlMOo_JDy6wk,1567
+bfiocpp-0.2.3.dist-info/DELVEWHEEL,sha256=WdJhCmUHMmH7XZpLmMRu2SXeK2ZNxEvtypgajNbh7sg,351
+bfiocpp-0.2.3.dist-info/LICENSE,sha256=T_kEEKETpLxo9V077KV2bYYIyRaEkSl_AQXGjhuo8wM,1085
+bfiocpp-0.2.3.dist-info/METADATA,sha256=wl0mzmaHcMcehzofL9T1HTs8MYZfAb3II06nJuc7plM,1710
+bfiocpp-0.2.3.dist-info/RECORD,,
+bfiocpp-0.2.3.dist-info/top_level.txt,sha256=nkNO9zrsONNDyuBrzna9Zf-PMGQoOS1d_Jc0sETI_QQ,27
+bfiocpp-0.2.3.dist-info/WHEEL,sha256=KplWMgwSZbeAOumvxNxIrVbNPnn_LVzfBH7l38jDCVM,100
+bfiocpp.libs/.load-order-bfiocpp-0.2.3,sha256=kLWdl8lL0UuCHjXx0YNM7OtFxXfRbAVl2T-ZZ2qDoBI,98
+bfiocpp.libs/msvcp140-d478b168dae4a52f3cc86b7308e3ce17.dll,sha256=ATOV06H9C7--bcBIIXZUU3AddIbbsv8x3LhyDo7Iw0Y,554496
+bfiocpp.libs/vcruntime140_1-16d964052973489ebc598e524da964d7.dll,sha256=NASKuqBw7ME7MYzqMUJfTKPt0TPTUDGKxlJZ5gWMizI,37256
