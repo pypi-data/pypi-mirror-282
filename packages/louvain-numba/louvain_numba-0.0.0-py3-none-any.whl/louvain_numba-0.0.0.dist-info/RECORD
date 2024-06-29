@@ -1,0 +1,8 @@
+louvain_numba/__init__.py,sha256=wyhcnLMdMFgIi4T7BdkBb3LK_QUJsGdCB5bIzHQyZrU,158
+louvain_numba/modularity.py,sha256=0ZahIYaYQs3RpzarjjPLi-FUKHwDvJPHvFXQro1xPgI,2378
+louvain_numba/partitions.py,sha256=1zl7Fi_ykI_vtk9gtq3y650xDmlSXa_Y3940lOTNPPU,12777
+louvain_numba/typing.py,sha256=6Iykua-NEHi8w44Fduh6lsT7dYj1dhPDY0822GkjNlY,171
+louvain_numba/utils.py,sha256=o2ABZlc7m2QP3XJQunnsdPBJLyEpN3EOU-7TT9aty3w,7853
+louvain_numba-0.0.0.dist-info/METADATA,sha256=GigHtAwvBmbMeUcMIGns-MmYpEMGsyjQCIqXItDIbf0,2527
+louvain_numba-0.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+louvain_numba-0.0.0.dist-info/RECORD,,
