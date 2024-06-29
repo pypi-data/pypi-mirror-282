@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "ivhd"
+version = "0.1.0"
+description = "A fast and simple algorithm for embedding large and high-dimensional data"
+authors = [
+    "BlazejNowicki <blazej.a.now@gmail.com>",
+    "mjste <mj.stefanik@gmail.com>"
+]
+repository = "https://github.com/IVHD/IVHD"
+license = "MIT"
+packages = [
+    { include = "ivhd" }
+]
+
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.20.0"
+scikit-learn = "*"
+torch = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "*"
+matplotlib = "*"
+mypy = "*"
+pandas = "^2.2.2"
+pre-commit = "*"
+pydata-sphinx-theme = "*"
+pytest = "*"
+sphinx = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

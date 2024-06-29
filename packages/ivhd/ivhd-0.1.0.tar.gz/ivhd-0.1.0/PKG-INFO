@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ivhd
+Version: 0.1.0
+Summary: A fast and simple algorithm for embedding large and high-dimensional data
+Home-page: https://github.com/IVHD/IVHD
+License: MIT
+Author: BlazejNowicki
+Author-email: blazej.a.now@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.20.0,<2.0.0)
+Requires-Dist: scikit-learn
+Requires-Dist: torch (>=2.3.0,<3.0.0)
+Project-URL: Repository, https://github.com/IVHD/IVHD
+Description-Content-Type: text/markdown
+
+# IVHD
+
+Library implementing method described in [this paper](https://www.researchgate.net/publication/312165875_ivhd_A_fast_and_simple_algorithm_for_embedding_large_and_high-dimensional_data)
+
