@@ -1,0 +1,42 @@
+[project]
+name = "tmdybinding"
+version = "0.1.1"
+authors = [
+    {name="Bert Jorissen", email="info@bertjorissen.be"}
+]
+description = "Tight-binding lattices for TMDs for the Pybinding-package, Documentation: https://bertjorissen.github.io/tmdybinding (c) 2022-2024"
+readme = "README.md"
+dependencies = [
+    "pybinding-dev>=0.9"
+]
+requires-python = ">=3.9"
+license = {file = "LICENSE.md"}
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering :: Physics',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+]
+keywords = [
+    "pybinding",
+    "tight-binding",
+    "solid-state physics",
+    "physics",
+    "cmt",
+    "quantum",
+    "graphene",
+    "TMD",
+    "KPM",
+    "CPGF"
+]
+[project.urls]
+"repository" = "https://github.com/BertJorissen/tmdybinding"
+"documentation" = "https://bertjorissen.github.io/tmdybinding"
+"changelog" = "https://github.com/BertJorissen/tmdybinding/blob/master/changelog.md"
+
+[tool.setuptools]
+packages = ["tmdybinding"]
