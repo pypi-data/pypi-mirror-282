@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: todsl
+Version: 0.0.1
+Summary: A JDSL-like disasterpiece, but with Git and TOML.
+Author-email: hexaheximal <hexaheximal@proton.me>
+Maintainer-email: hexaheximal <hexaheximal@proton.me>
+License: Copyright (C) 2024 by hexaheximal <hexaheximal@proton.me>
+        
+        Permission to use, copy, modify, and/or distribute this software for any
+        purpose with or without fee is hereby granted.
+        
+        THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+        WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+        MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+        ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+        WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+        ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+        OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+Project-URL: Repository, https://codeberg.org/todsl/todsl.git
+Keywords: TOML,DSL,JDSL,TomIsAGenius
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: GitPython>=3.1.43
+
+# TODSL
+
+A JDSL-like disasterpiece, but with Git and TOML.
+
+## Dependencies
+
+Python >= 3.11
+GitPython >= 3.1.43

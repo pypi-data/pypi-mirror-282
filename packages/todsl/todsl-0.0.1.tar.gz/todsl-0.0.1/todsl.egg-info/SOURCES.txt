@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+todsl/__init__.py
+todsl/__main__.py
+todsl.egg-info/PKG-INFO
+todsl.egg-info/SOURCES.txt
+todsl.egg-info/dependency_links.txt
+todsl.egg-info/entry_points.txt
+todsl.egg-info/requires.txt
+todsl.egg-info/top_level.txt
