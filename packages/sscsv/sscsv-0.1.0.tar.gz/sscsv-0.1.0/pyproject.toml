@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "sscsv"
+version = "0.1.0"
+description = "A tool designed for rapid data processing and filtering, specifically tailored for handling CSV files for log analysis."
+authors = ["sumeshi <sum3sh1@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+repository = "https://github.com/sumeshi/sscsv"
+homepage = "https://github.com/sumeshi/sscsv"
+
+keywords = ['Security', 'DFIR', 'CSV']
+
+[tool.poetry.scripts]
+sscsv = 'sscsv.run:main'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.20.31"
+fire = "^0.6.0"
+rich = "^13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+nuitka = "^2.3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
