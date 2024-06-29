@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quickhost-aws
+Version: 0.2.0
+Summary: AWS plugin for quickhost
+Author-email: zeebrow <zeebrow@zeebrow.io>
+Project-URL: Homepage, https://github.com/zeebrow/quickhost
+Project-URL: Issues, https://github.com/zeebrow/quickhost/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: cryptography
+
