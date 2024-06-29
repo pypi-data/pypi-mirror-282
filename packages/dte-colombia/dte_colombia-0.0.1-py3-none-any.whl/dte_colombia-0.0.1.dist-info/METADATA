@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dte_colombia
+Version: 0.0.1
+Summary: SDK for the electronic invoicing API in Colombia by IKU Solutions
+Home-page: https://github.com/yanpierchirino/dte_colombia
+Author: Yan Chirino
+Author-email: support@yanchirino.com
+Project-URL: Documentation, https://yanpierchirino.github.io/dte_colombia
+Project-URL: Source, https://github.com/yanpierchirino/dte_colombia
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >= 3.10.0
+License-File: LICENSE
+Requires-Dist: requests >=2.32.3
+Requires-Dist: pydantic >=2.7.4
+

@@ -1,0 +1,14 @@
+dte_colombia/__init__.py,sha256=ZuvD_WAip0h8Cg5p9uGFFLPoPPr_yBxiXfoeQAtQ0QA,27
+dte_colombia/api.py,sha256=T3eQHMfXj6OoPVWc6tVNtidmT10CFEat7pMQ7Svncrs,1527
+dte_colombia/constants.py,sha256=HIlR3vcxvieqd4_Ug_Ha-Zx0G1kpFbQsJkWaASaIAek,42
+dte_colombia/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dte_colombia/utils.py,sha256=_wvdUNWN3e0hJpCOMk2XyZI9orgFf84R_5yGFsxWwAk,605
+dte_colombia/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dte_colombia/models/documents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dte_colombia/models/utilities/__init__.py,sha256=j6F8jJvksAPjnUHSj2-6wDTzDRQdma2tbSN2JHFGRfM,32
+dte_colombia/models/utilities/account.py,sha256=yQwzb5A4RRBM5vuMVLQysgm5XSlArUKrEkQWa5KZK_U,791
+dte_colombia-0.0.1.dist-info/LICENSE,sha256=LXV1L7yKX6r81v3YGR28tWuMt5cRlQoPpNBq4fLhWcw,1089
+dte_colombia-0.0.1.dist-info/METADATA,sha256=kOmSc-R6aQmn5T0W_yUIiO30TtuXSm1HXMwfR-OqpAI,938
+dte_colombia-0.0.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+dte_colombia-0.0.1.dist-info/top_level.txt,sha256=8MyPjnFZpLJfQUDW5OIGZBF6VISiju2lRuuXJ9ynyVw,13
+dte_colombia-0.0.1.dist-info/RECORD,,
