@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: GC-SFTP-DBPOSTGRES
+Version: 0.7
+Summary: Funciones para carga eficiente de datos y subida a S3
+Home-page: https://github.com/tu_usuario/GC_SFTP_DBPOSTGRES
+Author: Tu Nombre
+Author-email: tu_email@example.com
+Requires-Dist: boto3
+Requires-Dist: psycopg2
+Requires-Dist: pandas
