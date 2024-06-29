@@ -1,0 +1,4 @@
+[
+  "tests/test_round.py::test_stdintsize",
+  "tests/test_verilator.py::test_verilator_module"
+]
