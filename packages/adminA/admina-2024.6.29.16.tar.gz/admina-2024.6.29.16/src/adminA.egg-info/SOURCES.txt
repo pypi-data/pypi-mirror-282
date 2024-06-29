@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/adminA/__init__.py
+src/adminA/example.py
+src/adminA/models.py
+src/adminA/serializers.py
+src/adminA/urls.py
+src/adminA/views.py
+src/adminA.egg-info/PKG-INFO
+src/adminA.egg-info/SOURCES.txt
+src/adminA.egg-info/dependency_links.txt
+src/adminA.egg-info/top_level.txt
+src/adminA/migrations/0001_initial.py
+src/adminA/migrations/__init__.py
