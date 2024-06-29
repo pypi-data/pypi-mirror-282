@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hitml
+Version: 0.1.0.dev0
+Summary: hitml: Python f-strings HTML templating library
+Author: jkmnt
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Project-URL: Home, https://github.com/jkmnt/hitml
+
+# hitml
+hitml: Python f-strings HTML templating library
+
