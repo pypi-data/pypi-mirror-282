@@ -1,0 +1,5 @@
+xraylarch==0.9.66
+
+[dev]
+black
+isort
