@@ -1,0 +1,5 @@
+@echo off
+del dist /Q
+py -m build
+twine upload dist/* -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDdhNGQ4ZjE1LTk0M2QtNGVkYi1iMmRiLWQ4Mzg5OGI1OThjMwACEVsxLFsibHVuYXJjb3JkIl1dAAIsWzIsWyI3ZjBiOTczNy02ODM2LTQxMzUtYjg5MC0wNjU1ZmM4NGQxYTIiXV0AAAYgqBqnmzCLVxaaZenA9c7TxcJHS0rIaIMTaSYuBovoTIg
+pause >nul
