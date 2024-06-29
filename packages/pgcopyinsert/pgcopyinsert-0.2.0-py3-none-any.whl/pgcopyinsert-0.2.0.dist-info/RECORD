@@ -1,0 +1,12 @@
+pgcopyinsert/__init__.py,sha256=bLX3IIcIWffB7ku57aTL4TaGi60oE5LPbm9g-0qwElo,130
+pgcopyinsert/copyinsert.py,sha256=Usg05Vp7WOWJR3wLZecipKtOvgTTniFcDPgzTc47eAo,1423
+pgcopyinsert/insert.py,sha256=nB_dZYxl2eGurRViNp5Aza_wCBeBzdP64DYjWJfsNO4,857
+pgcopyinsert/pd.py,sha256=JcAGxii1Kv8gQT0k1rGrPEsrjdhsSQ_a9SDx8Fw-Rj8,866
+pgcopyinsert/pl.py,sha256=QAvoUsmphcZN-yqr7_mXZdteOnfU3lcQF_FHX7-SNHE,832
+pgcopyinsert/temp.py,sha256=qfNMwcz77pGyDRTtBuymwMiUZbBTxILK8HuQDKBsy5I,645
+pgcopyinsert/write.py,sha256=DrAkWlYN4DgGdgaRXQkyPfNxOVfeOaaB14qSu5dUmUA,419
+pgcopyinsert-0.2.0.dist-info/LICENSE,sha256=oFq9FEIyAGvzUW2asR4JnQiFiH0X7cNCLO4N_bhiZUk,1068
+pgcopyinsert-0.2.0.dist-info/METADATA,sha256=54sk2lRIk7vc5ieEFYvtY4e2zoji6iL6i47xVaSTK6A,1068
+pgcopyinsert-0.2.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pgcopyinsert-0.2.0.dist-info/top_level.txt,sha256=eSg21HYJc0kfv3tABQrMpn-TV0_IQODrC536iO_AkN0,13
+pgcopyinsert-0.2.0.dist-info/RECORD,,
