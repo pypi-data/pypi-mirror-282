@@ -1,0 +1,22 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+llmpackage_hilabs/__init__.py
+llmpackage_hilabs/base_model.py
+llmpackage_hilabs/config.py
+llmpackage_hilabs/dataset_creation.py
+llmpackage_hilabs/default_configs.py
+llmpackage_hilabs/few_shot.py
+llmpackage_hilabs/finetune_model.py
+llmpackage_hilabs/helper.py
+llmpackage_hilabs/infer_agent copy.py
+llmpackage_hilabs/infer_agent.py
+llmpackage_hilabs/infer_server.py
+llmpackage_hilabs/module.py
+llmpackage_hilabs/query_template.py
+llmpackage_hilabs/task_management.py
+llmpackage_hilabs.egg-info/PKG-INFO
+llmpackage_hilabs.egg-info/SOURCES.txt
+llmpackage_hilabs.egg-info/dependency_links.txt
+llmpackage_hilabs.egg-info/top_level.txt
