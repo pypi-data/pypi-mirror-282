@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_swift_crud.egg-info/PKG-INFO
+django_swift_crud.egg-info/SOURCES.txt
+django_swift_crud.egg-info/dependency_links.txt
+django_swift_crud.egg-info/requires.txt
+django_swift_crud.egg-info/top_level.txt
+swift_crud/__init__.py
+swift_crud/mixins.py
+swift_crud/utils.py
+swift_crud/views.py
