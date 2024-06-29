@@ -1,0 +1,11 @@
+coderoller-0.1.0.dist-info/METADATA,sha256=1HLat-_Ys2mP9xTKqSKJ_qcnuQn5SEzVAdsK9fM2k2k,2463
+coderoller-0.1.0.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+coderoller-0.1.0.dist-info/entry_points.txt,sha256=gV9Zg3buJso_LkJpDui9OiuuymeEMpQtqmV2oAaK3B0,74
+coderoller-0.1.0.dist-info/licenses/LICENSE,sha256=C3OntUOcD2RMuo4YqATgeVUZX3CanzSFBERt_oxqkz4,1070
+coderoller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coderoller/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coderoller/flatten_repo.py,sha256=I5AL2kCAFpsr18WpRpU9hUAdkb2BR9S-bMvbEOgcY_Q,293
+coderoller/flatten_repo.pyi,sha256=EMIezuphnr7YRB8BMV85fUsmTXJ_04xSoT6Xubd80yo,99
+coderoller/source_repo_flattener.py,sha256=sXZLuWxksnpsv8qNty9YlTd3DibA961ef3xRodfhH-E,3387
+coderoller/source_repo_flattener.pyi,sha256=yJFICm0rkFs448vzycGbf8E1sgOzMy2Qt_5YgaoiPfQ,178
+coderoller-0.1.0.dist-info/RECORD,,
