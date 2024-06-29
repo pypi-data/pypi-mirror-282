@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: falgopy
+Version: 0.1.0
+Summary: A powerful algorithms package
+Home-page: 
+Author: Zohar franco
+Author-email: 
+Keywords: CS data data structures algorithms algo
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+
+A powerful algorithms package - variety of algorithms types
