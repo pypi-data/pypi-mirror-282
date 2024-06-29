@@ -1,0 +1,2 @@
+[console_scripts]
+bread_inspektor = bread_inspektor.main:main

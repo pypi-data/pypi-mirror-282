@@ -1,0 +1,12 @@
+bread_inspektor/__init__.py,sha256=VV4qkysAqWBNPz2k3X_-O9X405dKwcnJUdqGRLFPlmE,152
+bread_inspektor/constants.py,sha256=VIIC_keJ_X8tDyOzKEsa9KKyQgpfuHT3iDG7EuHH7ts,18156
+bread_inspektor/file_utils.py,sha256=qJGJQEzERl5RM1nrMQdxSotiptnnc5-e4klsfJb5KsA,2919
+bread_inspektor/main.py,sha256=mMfGe06CQSPNfvvSWdOGzNC22vgRCi4QXOtFgqyt5dg,884
+bread_inspektor/rules.py,sha256=jAf1Tvy858Smyz4_wxuyKB9OdJ6UeHs00nCdSd7bRuE,20872
+bread_inspektor/validator.py,sha256=KanNYwo4DhrD2daLX0a8u8nz3yvU-zqscBhL8lGx9Jc,34701
+bread_inspektor-0.1.dev71.dist-info/LICENSE,sha256=rqImTplBsqsR_mrH753UEUdg51Bb6YqUalKzDmhOFzw,1531
+bread_inspektor-0.1.dev71.dist-info/METADATA,sha256=XWQd0xHm_62s0V49CrrXvqCncKFBR3227ik-Prwm3-4,3044
+bread_inspektor-0.1.dev71.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+bread_inspektor-0.1.dev71.dist-info/entry_points.txt,sha256=NE32MpBZbBCpPvToyOfu_TPbWtmACrvuM5xU9AM_Vuc,62
+bread_inspektor-0.1.dev71.dist-info/top_level.txt,sha256=qaXNapnOAHnYzb6bSKvnEmQjdYTCa1QLBhg2a_Ntfyc,16
+bread_inspektor-0.1.dev71.dist-info/RECORD,,
