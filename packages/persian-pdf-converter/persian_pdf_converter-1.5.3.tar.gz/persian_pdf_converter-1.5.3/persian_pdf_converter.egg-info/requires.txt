@@ -1,0 +1,6 @@
+tqdm
+pdf2image
+pytesseract
+Pillow
+python-docx
+requests
