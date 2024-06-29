@@ -1,0 +1,10 @@
+betty.app.extension package
+===========================
+
+Module contents
+---------------
+
+.. automodule:: betty.app.extension
+   :members:
+   :undoc-members:
+   :show-inheritance:
