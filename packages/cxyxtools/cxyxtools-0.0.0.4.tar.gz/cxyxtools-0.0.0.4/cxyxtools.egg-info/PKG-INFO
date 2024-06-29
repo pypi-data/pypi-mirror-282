@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cxyxtools
+Version: 0.0.0.4
+Summary: 常用工具类
+Home-page: http://cxyx.cn
+Author: cxyx
+Author-email: 18883325829@163.com
+License: UNKNOWN
+Description: A longer description of your package that can span multiple lines
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
