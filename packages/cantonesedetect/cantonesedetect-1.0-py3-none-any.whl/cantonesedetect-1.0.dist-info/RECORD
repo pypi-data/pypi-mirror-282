@@ -1,0 +1,9 @@
+cantonesedetect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cantonesedetect/cli.py,sha256=DVq9zIWL3e4x5n11Lgm8Gj50y9uGi7Xsf-dmCxCNfAk,2067
+cantonesedetect/judge.py,sha256=kUbmRzc_u9aHWAZApaHp1OQVidMvxwscUWSwnSX9wd0,13094
+cantonesedetect/version.py,sha256=2HXaaHC9Xl9BqTkMCzF1KrnViBZbueeO8znZSwwWG4c,19
+cantonesedetect-1.0.dist-info/LICENSE,sha256=FbLHBGr7leLwI4rL3H9QLQd7HUaXjfKjpLjPMvl4nN8,1103
+cantonesedetect-1.0.dist-info/METADATA,sha256=x6lyDXBKDIgLQ1Jl_TOUnXgCO9k4G1OgziP4Lj1nc6A,3634
+cantonesedetect-1.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+cantonesedetect-1.0.dist-info/top_level.txt,sha256=ZthQFJygQ0UGcpIZPba3l5BoTfcHVFpz8pxh1XcmKEU,16
+cantonesedetect-1.0.dist-info/RECORD,,
