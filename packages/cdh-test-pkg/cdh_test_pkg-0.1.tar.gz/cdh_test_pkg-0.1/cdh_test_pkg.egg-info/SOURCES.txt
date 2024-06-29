@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cdh-test-pkg/__init__.py
+cdh-test-pkg/main.py
+cdh_test_pkg.egg-info/PKG-INFO
+cdh_test_pkg.egg-info/SOURCES.txt
+cdh_test_pkg.egg-info/dependency_links.txt
+cdh_test_pkg.egg-info/top_level.txt
+tests/test_cdh-test-pkg.py
