@@ -1,0 +1,90 @@
+Explanation of the Pyros module:
+This module is important for people who want to create applications that are not large (small and medium) and are not proficient in dealing with databases. This module allows you to handle text files as if they were a simple database.
+This module allows this through 6 functions.
+
+*1:dump(obj : list , file , clean = False):
+
+The basic function that adds data to the file. The function takes several variables (obj, file, clean).
+obj is : the data you want to enter.
+file is :'FileName'
+clean: This is very important if you want to enter a list that contains a lot of lists or dictionaries....
+If you set clean to true, it will take every value in the main list and put them in a separate row, like:
+in :
+dump(obj = [1,2,3] , file = 'filename' , clean = false)
+out in txt: 
+1:[1,2,3]
+If you set the variable clean to true 
+out in txt :
+1:[1]
+3:[2] 
+5:[3]
+If you look carefully, you will find that by using clean, the list items are removed and placed 
+------+------+------+------
+*2:load(file , type : 'list' | 'dict' | 'both'):
+
+The load function is a basic function for fetching all data in the form of a list or dictionary, and then you can sort them as you like and take whatever you want from them.
+
+The load function takes two variables:
+file : 'FileName'
+type: takes between 3 objects ('list', 'dict', 'both')
+**Note that the values ​​entered into the type variable are a string and not a class, such as “list” not list 
+If you write 'dict' [default]: it will return: for each dictionary, the key is the row number, while the value is the row value.
+
+If you write 'list': the data will be returned to you in a form that is not in alphabetical order of rows from 1, then 3, then 5.....
+
+Or if you write 'both': it will return a list and a dictionary together....
+------+------+------+------
+*3:fetch_by_row(row_number | int , file):
+
+fetch_by_row function This function returns a single row by passing the row number to it.
+The function takes two variables:
+file : 'FileName'
+row_number: [int] is the number of the row you want to return.
+------+------+------+------
+*4:fetchall_rows_numbers(file):
+fetchall_rows_numbers function
+It is a function that returns all the number of rows and takes one variable:
+file : FileName it is the file in which data is stored using dump()
+------+------+------+------
+*5:replace_row(row_number : int , new_row_value : str | int | list | dict | set , file):
+this func take row number to search by it and set new value
+row_number : row number to search by it
+new_row_value : any data type you can put (int,str,list,dict,set...) and he will set it value in the same row and delete old value
+file : 'FileName'
+for ex:
+we will assume row number 5 = [1,2] ** old value
+in : replace_row(row_number = 5 , new_row_value = [7,8],file = 'FileName')
+out in txt : row number 5 will be [7,8] not [1,2] 
+** also we can see the change by fetch_by_row func
+in : fetch_by_row(5)
+out in txt old : [1,2]
+out in txt new : [7,8]
+------+------+------+------
+*replace_rows(from_ : int , to : int ,file , values):
+this func can replace old values in some rows to new values that you selected
+and this func take 4 variables:
+from_ : from here our counter will be start ** it will change start row
+to : from here our counter will be stop here ** it will not change final row
+file : 'FileName'
+values : these are new values ​​that you want to set in some of the rows that you selected
+ex:
+we will assume row 1 ,3 5 7
+row 1 =1
+row 3 = 2
+row 5 = 3
+row 7 = 4
+in : replace_rows(from_= 1 , to = 7 , file = 'FileName' ,values = [9,8,7])
+out in txt = 
+row 1 = 9
+row 3 = 8
+row 5 = 7
+row 7 = 4 ** it still the same value 
+if we want reset row 7  , we have to method to do that 
+first:
+in : replace_rows(from_= 1 , to = 9 , file = 'FileName' ,values = [9,8,7,6])
+now row 7 will be changed 
+second:
+in : replace_rows(from_= 1 , to = 7+2 , file 'FileName ,values = [9,8,7,6])
+also here it will be changed
+** note : don't forget edit your new values list if you will reset 5 rows make sure that length(values list) = number of fetchall_rows_numbers
+------/\------/\------/\------/\------/\------/\------/\------/\------/\------/\------
