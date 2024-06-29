@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyResearchInsights
+Version: 1.60
+Summary: End-to-end tool for scientific literature analysis
+Home-page: https://github.com/SarthakJShetty/pyResearchInsights
+Download-URL: https://github.com/SarthakJShetty/pyResearchInsights/archive/v_160.tar.gz
+Author: Sarthak J. Shetty
+Author-email: sarthakshetty97@gmail.com
+License: MIT
+Keywords: Educational Tools,Analysis,Scraper,Natural Language Processing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib==3.5.2
+Requires-Dist: scipy==1.10.1
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: pyLDAvis
+Requires-Dist: gensim
+Requires-Dist: beautifulsoup4
+
+Check out the detailed README [here](https://github.com/SarthakJShetty/pyResearchInsights)!
