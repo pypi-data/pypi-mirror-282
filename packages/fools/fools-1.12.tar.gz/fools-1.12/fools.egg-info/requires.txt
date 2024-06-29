@@ -1,0 +1,7 @@
+Click
+opencv-python
+pytube
+moviepy
+flask
+pillow
+moviepy

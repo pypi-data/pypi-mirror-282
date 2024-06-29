@@ -1,0 +1,3 @@
+[console_scripts]
+afools = fools.main:cli
+fools = fools.main:start
