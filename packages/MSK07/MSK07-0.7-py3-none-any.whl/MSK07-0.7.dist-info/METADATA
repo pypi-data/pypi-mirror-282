@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: MSK07
+Version: 0.7
+Summary: Pacote teste do Massaki
+Home-page: https://github.com/massakiigarashi2/
+Author: Seu Nome
+Author-email: prof.massaki@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# **ACT - SoluÃ§Ãµes para Pessoas**. 
+### Web App desenvolvido por Massaki de O. Igarashi.
+
+### Este espaÃ§o permite usar formataÃ§Ã£o Markdown para adicionar informaÃ§Ãµes neste espaÃ§o. Para mais informaÃ§Ãµes acesse [link(]https://www.markdownguide.org)
+
+# MSK01
+
+Pacote pessoal MSK07 versÃ£o 0.0.7.
+
+## InstalaÃ§Ã£o
+
+```bash
+pip install MSK07
+
+
+
+***fim do conteÃºdo publicado***
