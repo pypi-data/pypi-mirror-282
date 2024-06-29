@@ -1,0 +1,11 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+trans.py
+trans_rebuild.egg-info/PKG-INFO
+trans_rebuild.egg-info/SOURCES.txt
+trans_rebuild.egg-info/dependency_links.txt
+trans_rebuild.egg-info/requires.txt
+trans_rebuild.egg-info/top_level.txt
