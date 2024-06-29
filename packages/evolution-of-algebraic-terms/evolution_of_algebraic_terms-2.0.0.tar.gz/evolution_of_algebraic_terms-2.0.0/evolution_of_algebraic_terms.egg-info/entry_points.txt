@@ -1,0 +1,2 @@
+[console_scripts]
+eat = eat.runeat:main
