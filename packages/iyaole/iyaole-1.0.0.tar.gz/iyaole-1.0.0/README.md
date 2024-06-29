@@ -1,0 +1,65 @@
+# iyaole
+
+"完美的"README模板
+
+## Installation
+
+```
+pip install iyaole
+```
+
+https://pypi.org/project/iyaole/
+
+
+## Usage
+
+example:
+
+```python
+import iyaole
+print(iyaole.iyaole.时间操作().获取时间())
+```
+
+another example:
+
+```python
+import iyaole.iyaole
+
+
+def loopmenu():
+    print(iyaole.iyaole.时间操作().获取时间())
+
+
+if __name__ == "__main__":
+    while True:
+        loopmenu()
+```
+
+## Get help
+
+Get help ➡️ [Github]()
+
+## Update log
+
+
+`1.0.0` first release
+
+```python
+import iyaole.iyaole
+iyaole.iyaole.时间操作().获取时间()
+```
+
+`1.0.0` first release
+
+## how to upload a new version (for me)
+
+en: https://packaging.python.org/tutorials/packaging-projects/ 
+
+zh: https://python-packaging-zh.readthedocs.io/zh_CN/latest/minimal.html#id2
+
+> make sure have twine installed first
+
+1. change `setup.py`
+2. testing `python setup.py develop`
+3. `python setup.py sdist`
+4. `twine upload dist/*`
