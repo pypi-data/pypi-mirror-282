@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jun_wen
+Version: 1.0.1
+Summary: 这是一个计算列表中所有数值类型的元素之和的函数
+Author-email: yang_qiu_jun_we <1725681535@qq.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Jun-wen's Package
+
+> 这是一个计算列表中所有数值类型的元素之和的函数
+
+### 创作更多样的readme，请参考以下网址
+- [ ] [GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+- [ ] [Add emoji in README](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
