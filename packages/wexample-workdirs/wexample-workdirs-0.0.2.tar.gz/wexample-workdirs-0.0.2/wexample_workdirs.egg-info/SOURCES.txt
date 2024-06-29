@@ -1,0 +1,10 @@
+README.md
+setup.py
+wexample_workdirs/__init__.py
+wexample_workdirs.egg-info/PKG-INFO
+wexample_workdirs.egg-info/SOURCES.txt
+wexample_workdirs.egg-info/dependency_links.txt
+wexample_workdirs.egg-info/requires.txt
+wexample_workdirs.egg-info/top_level.txt
+wexample_workdirs/utils/__init__.py
+wexample_workdirs/utils/workdir.py
