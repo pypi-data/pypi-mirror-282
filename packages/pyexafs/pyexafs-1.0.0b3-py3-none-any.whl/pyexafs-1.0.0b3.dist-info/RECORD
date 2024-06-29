@@ -1,0 +1,21 @@
+plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugins/read_data.py,sha256=X7byQk3953fzCn5FZslprVkUdcQi0-Iw_PRQXgOjlos,19178
+pyexafs/__init__.py,sha256=_UJ1nIk2M1V7ck_R4UzebQCAKHSJVXmPO8fxY3i8R5w,70
+pyexafs/__main__.py,sha256=hwJ6yq3nYpJocDnOZjJz05--rFeMMOoKHMm-zQmN7-I,65
+pyexafs/criteria.json,sha256=HFlly_aj_9vRUhdOPegXDc7YReNIrRUAF7fIG9cztfc,3113
+pyexafs/criteria_json.py,sha256=mpkVDwuq5BiUt7qonAz6Qqq5gOTtVSM1VjRDUQBohiI,3600
+pyexafs/pyexafs.py,sha256=S57qTqsngC3i_nyaZsSUzj-1zGJKovTnHfST_9HIwlY,34914
+pyexafs/example_data/LABORATORY/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyexafs/example_data/SYNCHROTRON/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyexafs/example_data/SYNCHROTRON/Co_metal_Delta.txt,sha256=HQlBMWV9VKsYsIzFECefBLbTxl84VRj1Ay7mcS2YGC8,18619
+pyexafs/example_data/SYNCHROTRON/Cu2O Cu K Elettra.txt,sha256=ArXq2mZLFpMUStVZK32QZg8EpWBi2ovCtBo3bTBxyek,67811
+pyexafs/example_data/SYNCHROTRON/Mo_foil Mo K ROCK Soleil.txt,sha256=XX1xuG8rT3I0zVK_Bwa1MbdF2n9bg17P_GZzdpYN6rI,41111
+pyexafs/example_data/SYNCHROTRON/Nb_scan14_raw_BL8.txt,sha256=EkyKBs2alynVvUXGlt2AynToDd7IcleKEVDE4efOD3c,28063
+pyexafs/example_data/SYNCHROTRON/Pt_foil Pt L3 SAMBA Soleil.txt,sha256=nxytD4P5aqJUvvj9-2VQvn9b25hvZ-YOKl82Q4--wbU,700443
+pyexafs/example_data/SYNCHROTRON/Pt_foil_Pt L3 SLS.txt,sha256=hQcoRP-93fKy8LoCWMiPwrd1wQexvtYLY04ReVZLDDM,83291
+pyexafs-1.0.0b3.dist-info/LICENSE,sha256=3kYfWvbyaQ5r29OvxCf4ywojAElrlmAATU329FW9Sdg,1098
+pyexafs-1.0.0b3.dist-info/METADATA,sha256=fVj4WlIk5cydc-ETTqGD438wqoYf5tz5oFx_ZPfeQS0,4064
+pyexafs-1.0.0b3.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pyexafs-1.0.0b3.dist-info/entry_points.txt,sha256=gexEOkhWk8NasI8mGRvql7hiIYBVAv42y4tmrA4UM3w,50
+pyexafs-1.0.0b3.dist-info/top_level.txt,sha256=C22VCNxAyu7QzTtKlermwMYyhbLM1oX5O4lMHORwOAQ,16
+pyexafs-1.0.0b3.dist-info/RECORD,,
