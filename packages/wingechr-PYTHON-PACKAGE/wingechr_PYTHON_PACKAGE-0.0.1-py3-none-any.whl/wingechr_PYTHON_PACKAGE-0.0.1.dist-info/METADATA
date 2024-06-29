@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wingechr-PYTHON_PACKAGE
+Version: 0.0.1
+Summary: DESCRIPTION
+Home-page: https://github.com/wingechr/PROJECT_TEMPLATE
+Author: Christian Winger
+Author-email: c@wingechr.de
+License: CC0-1.0
+Project-URL: Bug Tracker, https://github.com/wingechr/PROJECT_TEMPLATE
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
