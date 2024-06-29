@@ -1,0 +1,103 @@
+[build-system]
+requires = ["setuptools>=61.1.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyexafs"
+version = "1.0.0b9"
+description = "A simple package for fast analysis of EXAFS data"
+readme = "README.md"
+authors = [{ name = "Sebastian Paripsa", email = "paripsa@uni-wuppertal.de" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+]
+keywords = ["research-and-development", "exafs", "data-science"]
+dependencies = [
+    "xraylarch == 0.9.66",
+    "lmfit == 1.1.0",
+    "asteval==0.9.33",
+    "cchardet==2.1.7",
+    "certifi==2024.2.2",
+    "charset-normalizer==3.3.2",
+    "contourpy==1.2.1",
+    "cycler==0.12.1",
+    "exceptiongroup==1.2.1",
+    "fabio==2024.4.0",
+    "fonttools==4.52.1",
+    "future==1.0.0",
+    "greenlet==3.0.3",
+    "h5py==3.11.0",
+    "hdf5plugin==4.4.0",
+    "idna==3.7",
+    "imageio==2.34.1",
+    "iniconfig==2.0.0",
+    "joblib==1.4.2",
+    "kiwisolver==1.4.5",
+    "latexcodec==3.0.0",
+    "lazy-loader==0.4",
+    "lxml==5.2.2",
+    "matplotlib==3.7.0",
+    "monty==2024.5.24",
+    "mpmath==1.3.0",
+    "networkx==3.3",
+    "numdifftools==0.9.41",
+    "numexpr==2.10.0",
+    "numpy==1.24.2",
+    "packaging==24.0",
+    "palettable==3.3.3",
+    "pandas==2.2.2",
+    "peakutils==1.3.4",
+    "pillow==10.3.0",
+    "platformdirs==4.2.2",
+    "plotly==5.22.0",
+    "pluggy==1.5.0",
+    "ply==3.11",
+    "psutil==5.9.8",
+    "pybtex==0.24.0",
+    "pycifrw==4.4.6",
+    "pyfai==2024.5.0",
+    "pymatgen==2023.9.25",
+    "pyparsing==3.1.2",
+    "pyshortcuts==1.9.0",
+    "pytest==8.2.1",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2024.1",
+    "pyyaml==6.0.1",
+    "requests==2.32.2",
+    "ruamel-yaml==0.18.6",
+    "ruamel-yaml-clib==0.2.8",
+    "scikit-image==0.23.2",
+    "scikit-learn==1.5.0",
+    "scipy==1.10.0",
+    "silx==2.1.0",
+    "six==1.16.0",
+    "spglib==2.4.0",
+    "sqlalchemy==2.0.30",
+    "sympy==1.12",
+    "tabulate==0.9.0",
+    "tenacity==8.3.0",
+    "termcolor==2.4.0",
+    "threadpoolctl==3.5.0",
+    "tifffile==2024.5.22",
+    "toml==0.10.2",
+    "tomli==2.0.1",
+    "tqdm==4.66.4",
+    "typing-extensions==4.12.0",
+    "tzdata==2024.1",
+    "uncertainties==3.1.7",
+    "urllib3==2.2.1",
+    "xraydb==4.5.4",
+]
+
+[project.optional-dependencies]
+dev = ["black", "isort"]
+
+[project.urls]
+Homepage = "https://github.com/San-WierPa/pyexafs"
+
+[project.scripts]
+pyexafs = "pyexafs.__main__:main"
