@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flask-apscheduler-plus
+Version: 1.0.3
+Summary: This is my flask apscheduler package
+Home-page: https://github.com/ckf10000/flask-apscheduler-plus
+Author: ckf10000
+Author-email: ckf10000@sina.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: six>=1.16.0
+Requires-Dist: pytz>=2022.1
+Requires-Dist: werkzeug>=3.0.3
+Requires-Dist: flask>=3.0.3
+Requires-Dist: apscheduler>=3.9.1
+Requires-Dist: redis-cluster-python>=0.0.2
+Requires-Dist: python-dateutil>=2.9.0.post0
+
+This is my flask apscheduler package
