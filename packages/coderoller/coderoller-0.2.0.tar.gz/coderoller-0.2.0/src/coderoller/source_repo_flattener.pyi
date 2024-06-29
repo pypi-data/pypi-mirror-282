@@ -1,0 +1,6 @@
+from _typeshed import Incomplete
+
+FILE_TYPES: Incomplete
+
+def find_readme(root_folder: str) -> str: ...
+def flatten_repo(root_folder: str, output_folder: str | None = None): ...

@@ -1,0 +1,3 @@
+from coderoller.source_repo_flattener import flatten_repo as flatten_repo
+
+def main() -> None: ...
