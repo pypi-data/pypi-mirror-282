@@ -1,0 +1,6 @@
+setup.py
+ric_smart_df2/__init__.py
+ric_smart_df2.egg-info/PKG-INFO
+ric_smart_df2.egg-info/SOURCES.txt
+ric_smart_df2.egg-info/dependency_links.txt
+ric_smart_df2.egg-info/top_level.txt
