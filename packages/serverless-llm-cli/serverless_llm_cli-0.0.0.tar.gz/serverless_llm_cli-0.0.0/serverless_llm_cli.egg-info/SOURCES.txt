@@ -1,0 +1,7 @@
+README.md
+setup.py
+serverless_llm_cli/__init__.py
+serverless_llm_cli.egg-info/PKG-INFO
+serverless_llm_cli.egg-info/SOURCES.txt
+serverless_llm_cli.egg-info/dependency_links.txt
+serverless_llm_cli.egg-info/top_level.txt
