@@ -1,0 +1,18 @@
+[project]
+name = "jun_wen"
+version = "1.0.1"
+authors = [
+  { name="yang_qiu_jun_we", email="1725681535@qq.com" },
+]
+description = "这是一个计算列表中所有数值类型的元素之和的函数"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
