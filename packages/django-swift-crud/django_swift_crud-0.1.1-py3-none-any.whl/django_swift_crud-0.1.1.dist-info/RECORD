@@ -1,0 +1,8 @@
+swift_crud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swift_crud/mixins.py,sha256=fg1ZZaDnlB-v8bRE2i4la9Gux5aA62ljAIRlcK80B9k,3033
+swift_crud/utils.py,sha256=Dxut-NzsPPyYxBmb3AE_Lu_B-5rDLQeQ33jO6MavMDI,1275
+swift_crud/views.py,sha256=5NU0kxQ6gsJAbLFJkPLYlUQmA_wCy9QDCo9w1j9nC2w,7251
+django_swift_crud-0.1.1.dist-info/METADATA,sha256=6czVyZ6646dOBBB3d0dEjpDCiqd4UtOV1Mc7rckM3pc,5293
+django_swift_crud-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+django_swift_crud-0.1.1.dist-info/top_level.txt,sha256=rVNurPDvtRiuZWlB6pWVJr7eBUY6lef9ANKLbqj9eeg,11
+django_swift_crud-0.1.1.dist-info/RECORD,,
