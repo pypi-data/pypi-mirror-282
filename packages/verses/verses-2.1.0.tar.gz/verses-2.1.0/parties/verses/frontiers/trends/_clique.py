@@ -1,0 +1,109 @@
+
+
+
+
+
+
+#/
+#
+from verses.frontiers.trends.monetary.DB_verses_trends.collection_treasures.document.insert import insert_document
+from verses.frontiers.trends.monetary.DB_verses_trends.collection_treasures.document.search import search_treasures
+from verses.frontiers.trends.monetary.DB_verses_trends.collection_treasures.document.count import count_treasures
+#
+from verses.frontiers.trends.quests.saves._clique import saves_clique
+#
+#
+import click
+#
+#
+import ast
+from pprint import pprint
+#
+#\
+
+def trends_clique ():
+	@click.group ("trends")
+	def group ():
+		pass
+	
+	''''
+		verses trends insert-document --domain "wallet.1" --names "[ 'name_1', 'name_2' ]"
+		verses_1 trends insert-document --domain "wallet.1" --names "[ 'name_1', 'name_2' ]" --topics "[ 'aptos' ]" 
+		
+		verses_1 trends insert-document --domain "solid_food.1" --topics "[ 'food' ]" --cautions "[ 'homo-sapiens ages months 6+' ]"
+	"'''
+	@group.command ("insert-document")
+	@click.option ('--domain', required = True)
+	@click.option ('--names', default = '[]')
+	@click.option ('--topics', default = '[]')	
+	@click.option ('--cautions', default = '[]')
+	def command_insert_document (domain, names, topics, cautions):
+		insert_document ({
+			"document": {
+				"domain": domain,
+				"names": ast.literal_eval (names),
+				"topics": ast.literal_eval (topics),
+				"cautions": ast.literal_eval (cautions)
+			}
+		})
+	
+	
+
+		
+	''''
+		verses_1 trends insert-directory --domain "wallet.1" --path "./wallet.1" --version freshest
+	"'''
+	''''
+		"directories": {
+			"freshest": ""
+		} 
+	"'''
+	@group.command ("insert-directory")
+	@click.option ('--domain', required = True)
+	@click.option ('--path', required = True)
+	@click.option ('--version', default = 'freshest')
+	def command_insert_directory (domain, path, version):
+		#
+		#	moves:
+		#		1. tar the directory with "ships"
+		#
+	
+		return;
+	
+	
+	''''
+		verses_1 trends search --domain "wallet.1"
+	"'''
+	@group.command ("search")
+	@click.option ('--domain', required = True)
+	def command_search (domain):
+		treasures = search_treasures ({
+			"filter": {
+				"domain": domain
+			}
+		})
+		for treasure in treasures:
+			pprint (treasure, indent = 4)
+			
+	@group.command ("count")
+	def command_search ():
+		count = count_treasures ()
+		print ("count:", count)
+		
+	@group.command ("itemize")
+	def on ():
+		print ("on")
+		
+
+	group.add_command (saves_clique ())
+
+
+	return group
+
+
+
+
+#
+
+
+
