@@ -1,0 +1,4 @@
+avocado-framework==106.0
+cffi
+pycparser
+ansible-core
