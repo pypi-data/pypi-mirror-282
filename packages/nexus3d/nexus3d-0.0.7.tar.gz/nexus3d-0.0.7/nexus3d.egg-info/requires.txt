@@ -1,0 +1,15 @@
+h5py>=3.8.0
+numpy
+pint
+numpy-stl
+click
+pygltflib
+xarray
+
+[dev]
+mypy
+ruff==0.4.10
+pycodestyle
+pytest
+pytest-cov
+scipy
