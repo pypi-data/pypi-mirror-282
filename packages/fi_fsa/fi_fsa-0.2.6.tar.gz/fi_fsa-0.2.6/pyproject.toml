@@ -1,0 +1,15 @@
+[project]
+name = "fi_fsa"
+version = "0.2.6"
+description = "Default template for PDM package"
+authors = [
+    {name = "Huigang Wang", email = "huigang.wang@fftai.com"},
+]
+dependencies = []
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = true
