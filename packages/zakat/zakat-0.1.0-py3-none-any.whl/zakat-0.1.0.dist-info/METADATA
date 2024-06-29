@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: zakat
+Version: 0.1.0
+Summary: This module provides the ZakatTracker class for tracking and calculating Zakat.
+Author: Abdelaziz Elrashed Elshaikh Mohamed
+
