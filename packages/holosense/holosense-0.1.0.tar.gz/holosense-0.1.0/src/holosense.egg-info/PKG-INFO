@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: holosense
+Version: 0.1.0
+Summary: Depth perception and spatial localization from MediaPipe face mesh coordinates. Tracks within an inch at 5ft distance from the camera
+Author-email: Bala Venkataraman <balav2k7@gmail.com>
+License: Copyright <2024> <Bala Venkataraman>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: repository, https://github.com/balavenkataraman123/Holosense_library
+Project-URL: documentation, https://midnight-club-devgroup.github.io/holosense/
+Keywords: AR,spatial,vision
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: mediapipe
+
+# Holosense 
+
+Tracks the location of your face in 3 dimensions relative to the camera, using coordinates from MediaPipe FaceMesh.
+
+## How to use
+
+
+Holosense is setup like this.
+
+```Python
+from holosense import SpatialTracker
+
+spatial_tracker = SpatialTracker(
+    fov=78.5,
+    aspectratio=16/9,
+    eyedistance=4,
+    eyenosedistance=3,
+    single_output=True
+    )
+```
+
+The keyword arguments represent the camera's field of view, image aspect ratio, distance between the corners of the eye of the user, distance between the corner of the eye and tip of the nose of the user, and whether the program provides a single set of coordinates (if it is set to true) or a list with the coordinates of both eyes and the nose.
+
+Now, to use the tracker, run:
+
+```Python
+res = spatial_tracker.calculatePosition(face_landmarks)
+```
+where face_landmarks are the facial landmarks determined by mediapipe facemesh
+
+
+
+
+ 

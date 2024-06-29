@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/spatialtracker.py
+src/holosense.egg-info/PKG-INFO
+src/holosense.egg-info/SOURCES.txt
+src/holosense.egg-info/dependency_links.txt
+src/holosense.egg-info/requires.txt
+src/holosense.egg-info/top_level.txt
