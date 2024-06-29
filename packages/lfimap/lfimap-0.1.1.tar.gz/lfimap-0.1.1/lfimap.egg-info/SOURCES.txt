@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+lfimap.egg-info/PKG-INFO
+lfimap.egg-info/SOURCES.txt
+lfimap.egg-info/dependency_links.txt
+lfimap.egg-info/entry_points.txt
+lfimap.egg-info/requires.txt
+lfimap.egg-info/top_level.txt
