@@ -1,0 +1,24 @@
+[project]
+name = "pyruciw"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "galenseilis", email = "galen.seilis@seilis.ca" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.12"
+license = { text = "AGPL-3.0-or-later" }
+
+[build-system]
+requires = ["maturin>=1.2,<2.0"]
+build-backend = "maturin"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.maturin]
+python-source = "python"
+module-name = "pyruciw._lowlevel"
+features = ["pyo3/extension-module"]

@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: pyruciw
+Version: 0.1.0
+License-File: LICENSE.txt
+Summary: Add your description here
+Author-email: galenseilis <galen.seilis@seilis.ca>
+License: AGPL-3.0-or-later
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# pyruciw
+
+Describe your project here.
+* License: AGPL-3.0-or-later
+
