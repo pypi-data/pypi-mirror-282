@@ -1,0 +1,3 @@
+[console_scripts]
+unfurl = unfurl.app:cli
+unfurl_app = unfurl.app:web_app
