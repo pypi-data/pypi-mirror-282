@@ -1,0 +1,16 @@
+SimpleGomoku/__init__.py,sha256=qvMGv1EXB8noOnF6y2UwHtHHSwDtuh72jB1OJNtP524,153
+SimpleGomoku/env/Gomoku.py,sha256=45wvs5lP43TvZRKz75WUxnLyDHaiNn1cuzecezH_8oI,4007
+SimpleGomoku/env/TicTacToe.py,sha256=pi1He4on_ZkxOvdiVf33PkYx1mSGTJeRtqKZquhKFbA,1711
+SimpleGomoku/env/__init__.py,sha256=7oK-ZAGvzrhLff25OhjPq_APyjP9bcPV7OLGQ6rhUek,82
+SimpleOthello/__init__.py,sha256=jeX1SPgPb-_3s-NZAPJ_b0usoPvaUlOuiNMOLfcB1u0,63
+SimpleOthello/agent.py,sha256=WlEdOU7GCC3lHNOpolTiOOmKpEAUKf0lIoQawXM9s-c,149
+SimpleOthello/config.py,sha256=hFwnnq76Zw-_StxUWNwFPMUPJKuJEXqYW08wdVzTY0E,138
+SimpleOthello/env.py,sha256=8pism50fy01qYFi4AA9vpcQLWkFxFxHF-Ln_XW0Zv_o,220
+SimpleOthello/humanPlayer.py,sha256=NM2nkqRbrwtiqZodvmPnoLFyfJ29oEw5XcPCE1YhNvI,662
+SimpleOthello/main.py,sha256=i_bv65cL-UOr7aFAxIx4T4mp2OJDHH6MR-LBZPmv8Lk,825
+SimpleOthello/othello.py,sha256=9MOOg25-q4-gmEMvo5oz0-Rvzi4ht1o6NzKuSdtRG6M,4641
+SimpleOthello/randomPlayer.py,sha256=QJcKtuY72I6o0EQ85qo-Xaio_-ESMXLwHsrpzBmaoug,563
+AlphaZero_GameEnv-1.0.0.0.dist-info/METADATA,sha256=D1cBiecNFydB9dXkOyRoLlWCtwGdkF6oKQ11HyYgZJE,1121
+AlphaZero_GameEnv-1.0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+AlphaZero_GameEnv-1.0.0.0.dist-info/top_level.txt,sha256=l-7Jb1azRbEnDqoamXLPYCqFXBUiQO8Get2CEFaq4gY,27
+AlphaZero_GameEnv-1.0.0.0.dist-info/RECORD,,
