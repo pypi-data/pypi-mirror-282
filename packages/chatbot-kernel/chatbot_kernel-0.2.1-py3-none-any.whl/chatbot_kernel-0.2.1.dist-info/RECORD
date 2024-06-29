@@ -1,0 +1,8 @@
+chatbot_kernel/__init__.py,sha256=bveLsjL99_CRMEoWtB9ii-FPov8lf25DdB9ywAM9xzE,115
+chatbot_kernel/__main__.py,sha256=0dgHfs_O6TKvUqiXAPtU5lq3iff5KCMgqIE7Y1D8GZc,278
+chatbot_kernel/kernel.py,sha256=K-Ntl67COwNS4pp-sCalcUMAhofRWR-lin4_XfYUM1Y,6139
+chatbot_kernel/kernelspec.py,sha256=bfWX3O-CCfmQCAf7ZB_x8SL0izxHsb1OLhhlEb8Lhr4,2280
+chatbot_kernel-0.2.1.dist-info/METADATA,sha256=rSJUW5F5WzXpOfnlQkQdu5bcJI7-ZdRmunl4wEl1mBQ,3985
+chatbot_kernel-0.2.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+chatbot_kernel-0.2.1.dist-info/licenses/LICENSE,sha256=FYv5cXfYOcACjieZdzpj764Vc4liQvUYPpihKN1LECY,1500
+chatbot_kernel-0.2.1.dist-info/RECORD,,
