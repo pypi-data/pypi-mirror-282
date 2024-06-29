@@ -1,0 +1,3 @@
+[console_scripts]
+sgbench=sgbench.__main__:cli
+
