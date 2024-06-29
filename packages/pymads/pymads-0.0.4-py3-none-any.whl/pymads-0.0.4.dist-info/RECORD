@@ -1,0 +1,9 @@
+mads/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mads/agent_manager.py,sha256=zBr2Y6uap8xomroNEpwTF4RYtlHeullP8s6ZcCqqWEo,17740
+mads/chat_manager.py,sha256=SRrm2sk5mMaUDb9vCLU1Tdoa-RpauQmU-jL-QM_gglA,7974
+mads/config.py,sha256=AJObMkL0x-q1GPLhQXQ5wq63yGK-2h2HgUrspDl55kk,4214
+pymads-0.0.4.dist-info/LICENSE,sha256=_mvQ_JECOUGGgfYn8z3Upkq6leL61Z2WY8frCycrgmQ,1093
+pymads-0.0.4.dist-info/METADATA,sha256=_HpxTQbTAbGBkmoXA5wqTsL_jWufdB1V2JEfvtzfhv0,7026
+pymads-0.0.4.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pymads-0.0.4.dist-info/top_level.txt,sha256=UuzKlxOL3hgFRReDKczT6V5UjFGf4mqqT5BvMmaSTw8,5
+pymads-0.0.4.dist-info/RECORD,,
