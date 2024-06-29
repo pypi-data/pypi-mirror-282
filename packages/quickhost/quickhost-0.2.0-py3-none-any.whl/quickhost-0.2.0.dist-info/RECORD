@@ -1,0 +1,14 @@
+quickhost/Cli.py,sha256=KF-RoyWqQxPXNXy5hm-GwifBBLfQPda0A6fG4tYkg0I,1847
+quickhost/QuickhostPlugin.py,sha256=Jk12mHB_HHSIaC2gd7YAvEbjfjfc1TpiKEdnxHgSZuA,4434
+quickhost/__init__.py,sha256=BPj_jYwzpAUNpTvm2ihe88RBt6RzhrIOjUsgCeYY60Q,964
+quickhost/constants.py,sha256=kebg5dI3ubCbyyumEqxvxcAa4wsuL3shxUtF9Rf732U,985
+quickhost/quickhost_app_base.py,sha256=BzXPm1DLxqjzpnSmsCLaUINLG7R1KpUNivslM25a7Bg,2947
+quickhost/temp_data_collector.py,sha256=I1N7kHXHDM6MWmtv11znMFHFVCEKUlAwfQxqClzSNDw,2331
+quickhost/utilities.py,sha256=1MeOsxIHZt78-Xoj7zGKO8ODb5jWVimgsUwAcauyeJU,4031
+scripts/main.py,sha256=yyG7SZA2sq0awg_VmZYTUEXvz0pL8cmFqyU9KlHuZUI,4112
+quickhost-0.2.0.dist-info/LICENSE.txt,sha256=uXvVf2nwKu6QW4W_2GjOC6pCUZMHUR6Y8-qAYWPAGiA,32453
+quickhost-0.2.0.dist-info/METADATA,sha256=yKIhdnyAoLvHCNVTLxIsroK2R4cV5abAM_ULMK_mZOA,1723
+quickhost-0.2.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+quickhost-0.2.0.dist-info/entry_points.txt,sha256=9gdAQ8Odeb9Xu84eTZ0Ufid60qL7Ixl8zO3sfU2Mf68,43
+quickhost-0.2.0.dist-info/top_level.txt,sha256=fgkkPYasHcOY1TMBwb6dhkEoZVa0WnJRUskTz4jsJCA,18
+quickhost-0.2.0.dist-info/RECORD,,
