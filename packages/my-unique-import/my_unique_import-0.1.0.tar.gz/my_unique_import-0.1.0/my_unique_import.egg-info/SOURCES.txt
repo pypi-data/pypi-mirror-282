@@ -1,0 +1,9 @@
+README.md
+setup.py
+my_import/__init__.py
+my_import/custom_importer.py
+my_import/setup_paths.py
+my_unique_import.egg-info/PKG-INFO
+my_unique_import.egg-info/SOURCES.txt
+my_unique_import.egg-info/dependency_links.txt
+my_unique_import.egg-info/top_level.txt
