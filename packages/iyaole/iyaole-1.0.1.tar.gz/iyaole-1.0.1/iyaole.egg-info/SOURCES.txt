@@ -1,0 +1,8 @@
+README.md
+setup.py
+iyaole/__init__.py
+iyaole.egg-info/PKG-INFO
+iyaole.egg-info/SOURCES.txt
+iyaole.egg-info/dependency_links.txt
+iyaole.egg-info/requires.txt
+iyaole.egg-info/top_level.txt
