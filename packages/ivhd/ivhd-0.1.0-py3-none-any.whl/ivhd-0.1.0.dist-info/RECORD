@@ -1,0 +1,7 @@
+ivhd/__init__.py,sha256=XWRZO1fedKm6FC9hzsFMB6KjSNELsW8WPY8je-1MYEI,98
+ivhd/ivhd.py,sha256=auXb6a0otEBdder8H-IyXRJDHVHVUlpa2X7ZQJcgmhQ,5252
+ivhd/ivhd_grad.py,sha256=-r8apRcsmapMEOcYVqTdMx1e6s_yX1whGuqQoWXL0Zs,4909
+ivhd-0.1.0.dist-info/LICENSE.md,sha256=1eUCemvU-Fuawkcox4_d6zrcLfJxSv3NujRe0bz9jEQ,1066
+ivhd-0.1.0.dist-info/METADATA,sha256=bFm3FFChXGBsIT7XeCaUSBrCipp7SrQ_SYuX4Z4qsis,967
+ivhd-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ivhd-0.1.0.dist-info/RECORD,,
