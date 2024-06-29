@@ -1,0 +1,17 @@
+vectorshift/__init__.py,sha256=TL2uX9fpwUsrcyhPKivIfSqqwsdXr17bXoo4pzQqlL4,296
+vectorshift/agent.py,sha256=3zqMeWEMxWbrsuNO9elN9v_kn45PPAo9eKUjYIVGt0Q,14791
+vectorshift/automation.py,sha256=FMGFRl5gzUOfDfndhwi3y-h8LIBXcu2wha1ynPoUEIs,8465
+vectorshift/chatbot.py,sha256=FOWiePkk1J5YphV2kDTO7Ufr5vRPnlyE8xvAmgksjAo,6762
+vectorshift/consts.py,sha256=cBQLN9l_JwtKMaoac1eV1EPMr_PHslRePmrvXmAPGoo,27967
+vectorshift/deploy.py,sha256=2lJ_PG_kj6fui8nRvbR_9fqH_zfAlnRggCbjtj_ewCo,21513
+vectorshift/integration.py,sha256=Qq8hgrGp-mMZhIYvrC_uBXsoBSegykgNLcpoPoNZzNY,6793
+vectorshift/knowledge_base.py,sha256=76rHHxZON21vifX_DLZt0r3GVgMFjz1Z6g0nsJf3nPk,23711
+vectorshift/node.py,sha256=u5_juLhDllIdsefOqMbgFpTdYRnlbT3fpTQQuN7HoBQ,211211
+vectorshift/node_utils.py,sha256=V_huaR4Omu_hC55VJ9ZhUb94QfdGCHteKOEblqxCCbE,11623
+vectorshift/pipeline.py,sha256=579V2QlfharbPEwRSmM9-Ma_bfp6EuztjwD66vtFQbk,45624
+vectorshift/pipeline_data_types.py,sha256=ZodVftYrGsAKQiK3NWSGyX56-mBCF0YO7lNT-DAFr44,3674
+vectorshift/tools.py,sha256=KICUULBjRrEY243mdRRT1oMpzOV3lC05aVLEvNaOjW8,9642
+vectorshift-0.0.67.dist-info/METADATA,sha256=P2fQuesNyFQYJT_5RyWxNIi0A_Rfx2XbGhfTUSELt4M,362
+vectorshift-0.0.67.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+vectorshift-0.0.67.dist-info/top_level.txt,sha256=UU6Ui0FD3zjwhO9greqVTtdtv7rNDBKzaIjc226B_Lk,12
+vectorshift-0.0.67.dist-info/RECORD,,
