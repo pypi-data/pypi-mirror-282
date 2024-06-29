@@ -1,0 +1,10 @@
+pyoperon/sklearn.py,sha256=eGJU6gi9S9ZmdOTsAxjdcLO6sCcBqPu0WFoEh8ymNkk,28201
+pyoperon/pyoperon.cpython-312-aarch64-linux-gnu.so,sha256=XzndaFnEGufOgcWkZ0ipsT4AZaZyIzzsUvFBsaT7TvQ,3149361
+pyoperon/__init__.py,sha256=pFdfMe_pCElAr_Cv2095w-VLTylmI4ljLXbRAGarRBE,116
+pyoperon.libs/libxxhash-76acaf98.so.0.8.2,sha256=r2tmn4mhqbJXWCuAw7Df5OC8VKsRfjOzre1KxREZNx0,132825
+pyoperon.libs/libzstd-28866717.so.1.4.4,sha256=lDQghTmGsPb0pphhQTH7NMdQ0pG4UcWhSe4onSfRhxg,661681
+pyoperon-0.4.0.dist-info/LICENSE,sha256=hvwK4VE6jGKoB-SOcQ6_kkiuSNElKOXFiiJrjmHDFco,1075
+pyoperon-0.4.0.dist-info/WHEEL,sha256=IS1RZMn4DRQmCB0cgCNa1kh_8olDRbuHnkwtT-AImao,109
+pyoperon-0.4.0.dist-info/RECORD,,
+pyoperon-0.4.0.dist-info/top_level.txt,sha256=7hvoqJzFlHUdTtHHc5jOwvRxd3XzgvNPLq4CaTwcRjI,9
+pyoperon-0.4.0.dist-info/METADATA,sha256=KgvoqxSbfAUC_6V12GGsZZ9hzg_0g46PdUwFFyfP7oo,3082
