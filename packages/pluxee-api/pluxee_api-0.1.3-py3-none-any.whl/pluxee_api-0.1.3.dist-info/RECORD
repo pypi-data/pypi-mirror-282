@@ -1,0 +1,11 @@
+pluxee/__init__.py,sha256=Jh4D-3zLoO2xL9Jc620FdIdHSd-LPqdGMiizd3tVa5w,276
+pluxee/base_pluxee_client.py,sha256=cA7DPl6h5oC3hgZX3p2qf2p4xYCI5FZ-vynsfC2KWII,6969
+pluxee/exceptions.py,sha256=EYsi-UB_pxus2xtXc0nNmdjSTj4Yaf68MBNq-T68hNQ,249
+pluxee/pluxee_async_client.py,sha256=PM-kC5PrRRFfWkpFXtficQpXzqqYEcN2ywKuPtb4GA4,4393
+pluxee/pluxee_client.py,sha256=x-N7scn3ma9g_ev-cz_cpbBtUdh5Efs-apSe2yicDhI,4616
+pluxee/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pluxee_api-0.1.3.dist-info/LICENSE,sha256=g1Akkt45VS5xtGsW4K9kd60-HkuaxpXe0UB49846v0o,1062
+pluxee_api-0.1.3.dist-info/METADATA,sha256=7UGqfnTAY-7sDyXy1ezrdwlmpXPGHcqENRBSraGsTs0,4353
+pluxee_api-0.1.3.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pluxee_api-0.1.3.dist-info/top_level.txt,sha256=nki6JyPDN8UOyBcgdFDqNFPDhZohCrmLYedTpGn16xI,7
+pluxee_api-0.1.3.dist-info/RECORD,,
