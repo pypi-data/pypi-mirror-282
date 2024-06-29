@@ -1,0 +1,2 @@
+[console_scripts]
+traceq = traceq.cli:cli
