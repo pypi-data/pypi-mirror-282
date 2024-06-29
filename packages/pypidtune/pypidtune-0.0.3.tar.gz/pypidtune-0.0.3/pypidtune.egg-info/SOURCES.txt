@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pypidtune.egg-info/PKG-INFO
+pypidtune.egg-info/SOURCES.txt
+pypidtune.egg-info/dependency_links.txt
+pypidtune.egg-info/requires.txt
+pypidtune.egg-info/top_level.txt
