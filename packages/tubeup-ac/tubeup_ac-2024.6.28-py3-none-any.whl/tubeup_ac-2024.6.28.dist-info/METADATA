@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tubeup_ac
+Version: 2024.6.28
+Summary: Youtube (and other video site) to atCensored Uploader, based on tubeup
+Home-page: https://github.com/altCensored/tubeup_ac
+Author: altCensored
+License: GPL 3
+License-File: LICENSE
+Requires-Dist: internetarchive
+Requires-Dist: docopt ==0.6.2
+Requires-Dist: yt-dlp
+
