@@ -1,0 +1,8 @@
+numpy
+matplotlib
+xraylarch==0.9.66
+scipy
+
+[dev]
+black
+isort

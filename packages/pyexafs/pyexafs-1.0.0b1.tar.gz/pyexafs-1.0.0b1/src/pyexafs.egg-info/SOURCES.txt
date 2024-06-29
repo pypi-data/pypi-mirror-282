@@ -1,0 +1,29 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+unittest.cfg
+src/plugins/__init__.py
+src/plugins/read_data.py
+src/pyexafs/__init__.py
+src/pyexafs/__main__.py
+src/pyexafs/criteria.json
+src/pyexafs/criteria_json.py
+src/pyexafs/pyexafs.py
+src/pyexafs.egg-info/PKG-INFO
+src/pyexafs.egg-info/SOURCES.txt
+src/pyexafs.egg-info/dependency_links.txt
+src/pyexafs.egg-info/entry_points.txt
+src/pyexafs.egg-info/requires.txt
+src/pyexafs.egg-info/top_level.txt
+src/pyexafs/example_data/LABORATORY/.gitkeep
+src/pyexafs/example_data/SYNCHROTRON/.gitkeep
+src/pyexafs/example_data/SYNCHROTRON/Co_metal_Delta.txt
+src/pyexafs/example_data/SYNCHROTRON/Cu2O Cu K Elettra.txt
+src/pyexafs/example_data/SYNCHROTRON/Mo_foil Mo K ROCK Soleil.txt
+src/pyexafs/example_data/SYNCHROTRON/Nb_scan14_raw_BL8.txt
+src/pyexafs/example_data/SYNCHROTRON/Pt_foil Pt L3 SAMBA Soleil.txt
+src/pyexafs/example_data/SYNCHROTRON/Pt_foil_Pt L3 SLS.txt
+tests/__init__.py
+tests/test_pyexafs.py
