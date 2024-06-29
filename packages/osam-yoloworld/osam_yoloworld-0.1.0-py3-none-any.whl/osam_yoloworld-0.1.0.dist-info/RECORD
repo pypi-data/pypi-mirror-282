@@ -1,0 +1,11 @@
+osam_yoloworld/__init__.py,sha256=YrTxl07V7h--mZ24pbanV26ReqLp2QMwBDsFqJEV-t4,100
+osam_yoloworld/_models.py,sha256=T22DDvZ-vl5B5bNVBsgsIp8GlvUx5HgCaMB4LobJqew,5924
+osam_yoloworld/clip/LICENSE,sha256=iTlRs7-U243xsT4F2lzetJlACWDk1Eo5YqizPtC08o4,1063
+osam_yoloworld/clip/__init__.py,sha256=nDfSZ1h2IX2MoEXKOCvSDFXaWTBJA5fQF15OZCv1Ztw,41
+osam_yoloworld/clip/bpe_simple_vocab_16e6.txt.gz,sha256=kkaRrCiOVECSNhFWUq1KolD0ggPeUKnkcipuzUjWgEo,1356917
+osam_yoloworld/clip/clip.py,sha256=PDK45iSTy5_eyLh-lEMBe82bNGxIczYaOYUSiIIYP9o,973
+osam_yoloworld/clip/simple_tokenizer.py,sha256=if0P84YM370z7GhGXKc4uMsf2IFoDeQUMgook53lJk4,4983
+osam_yoloworld-0.1.0.dist-info/METADATA,sha256=y5ateAiS-W2GOG_j56vY90JAdCDA4Z8_h7POw4LXdv4,1404
+osam_yoloworld-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+osam_yoloworld-0.1.0.dist-info/licenses/LICENSE,sha256=4dKDt6B7CWTjjd0IDmn5W1LstA9ZQlQWiZTxgWx9eCk,70296
+osam_yoloworld-0.1.0.dist-info/RECORD,,
