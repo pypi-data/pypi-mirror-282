@@ -1,0 +1,10 @@
+pytest_test_tracer_for_pytest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_test_tracer_for_pytest/constants.py,sha256=xQODgrqznyVVIZ37GCfa3f2jvu9HN9Mr2uTBV1hakdI,436
+pytest_test_tracer_for_pytest/hooks.py,sha256=XOtVlmTqmw2ucCy7dH1u0OJ-D3hwB0w1PKL3qIf7PVw,1814
+pytest_test_tracer_for_pytest/plugin.py,sha256=HlDU2WftXgU6aP6UKt6zxUZh082ZPZL_AIg4D6d_qes,8252
+pytest_test_tracer_for_pytest-0.1.0.dist-info/LICENSE,sha256=kRmhfEugz4ecHqHyHxQsM18MfMY_XpubOaehgSt5xCY,1079
+pytest_test_tracer_for_pytest-0.1.0.dist-info/METADATA,sha256=g8szkg8pfKdmZ-W-7O0Bltkaj-KV21Ta83dARhB8NSU,6383
+pytest_test_tracer_for_pytest-0.1.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pytest_test_tracer_for_pytest-0.1.0.dist-info/entry_points.txt,sha256=TywvKlXn9M-fuSsayITmj70qASLCsvo9Ea4oZd9JmuU,72
+pytest_test_tracer_for_pytest-0.1.0.dist-info/top_level.txt,sha256=Kt9zQLswzlvJg5jVy-VyRFaMcdq92x8GE0xvatFHdxI,30
+pytest_test_tracer_for_pytest-0.1.0.dist-info/RECORD,,
