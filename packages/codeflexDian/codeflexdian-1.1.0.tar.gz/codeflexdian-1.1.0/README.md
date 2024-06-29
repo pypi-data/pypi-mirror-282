@@ -1,0 +1,148 @@
+[![MIT License][license-shield]](https://s3.amazonaws.com/www.codeflex.lat/documentos/c3320017-1937-4353-8881-475e3c89e25e/LICENSE.txt)
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://codeflex.com.co">
+    <img src="https://s3.amazonaws.com/www.codeflex.lat/documentos/c3320017-1937-4353-8881-475e3c89e25e/Paginas/logo2.png" alt="Logo" width="260">
+  </a>
+
+  <h3 align="center">CODEFLEX CLOUD S.A.S | DIAN</h3>
+
+  <p align="center">
+    Codificación y Almacenamiento Simplificados | IDE
+    <br />
+    <a href="https://docs.codeflex.com.co/"><strong>Explore the docs »</strong></a>
+    <br />
+  </p>
+</p>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+ 
+[![miniatura][miniatura]](https://codeflex.com.co)
+
+
+<!-- GETTING STARTED 
+## Getting Started
+
+### Prerequisites
+
+You need to make sure you have installed the following modules.
+* Requests
+  ```s
+  pip install requests
+  ```
+-->
+
+### Installation
+
+```python
+pip install codeflexDian
+```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+* Example 1 | Lambda Function | GetNumberingRange
+    ```python 
+  import lxml.etree as ET
+  from codeflexDian.SOAPSing import SOAPSing
+  from codeflexDian.Signing import Signing
+  import boto3
+  import os
+  from string import Template
+
+  def lambda_handler(event, context):
+  
+      # VARIABLES
+      ProviderSub = event['ProviderSub']
+      accountCode = event['accountCode']
+      accountCodeT = event['accountCodeT']
+      softwareCode = event['softwareCode']
+      
+
+      s3subir = boto3.client('s3')
+      s3 = boto3.resource('s3')
+  
+      pathCert = "/tmp/" + ProviderSub + "/certificado.pfx"
+      pathClave = "/tmp/" + ProviderSub + "/clave.txt"
+      
+      metodo = "GetNumberingRange"
+
+      # CREA DIRECTORIO DE TRABAJO SI NO EXISTE
+      directory = "/tmp/" + ProviderSub
+      if not os.path.exists(directory):
+          os.makedirs(directory)
+      
+      # Descarga el certificado
+      s3.Bucket(ProviderSub).download_file("certificado.pfx", pathCert)
+      
+      # Descarga la clave
+      s3.Bucket(ProviderSub).download_file("clave.txt", pathClave)
+      
+      # Lee la clave
+      with open(pathClave) as f:
+          passwordCert = f.readline().strip()
+
+      # Si la clave es NA entonces la clave será un blanco
+      if (passwordCert == "NA"):
+          passwordCert = ""
+      
+      signing = Signing(pathCert, passwordCert)
+      signer = SOAPSing(signing, metodo)
+      template = Template('''<wcf:GetNumberingRange xmlns:wcf="http://wcf.dian.colombia"><wcf:accountCode>${accountCode}</wcf:accountCode><wcf:accountCodeT>${accountCodeT}</wcf:accountCodeT><wcf:softwareCode>${softwareCode}</wcf:softwareCode></wcf:GetNumberingRange>''')      
+      value = {
+          'accountCode': accountCode,
+          'accountCodeT': accountCodeT,
+          'softwareCode': softwareCode
+      }
+      templateOk = template.substitute(value)
+      element = ET.fromstring(templateOk)
+      soapSigned = signer.sing(element)
+      soapSingedStrin = ET.tostring(soapSigned)
+
+      # Escribe Request firmado en /tmp
+      open('/tmp/'+ProviderSub+'/'+'RANGOS-SIGN.xml', 'wb').write(soapSingedStrin)
+      
+      # Sube Request firmado de /tmp a s3
+      s3subir.upload_file('/tmp/'+ProviderSub+'/'+'RANGOS-SIGN.xml', ProviderSub, 'RANGOS-SIGN.xml')
+      
+      # Retorno de información de destino
+      return {
+          'ProviderSub': event['ProviderSub'],
+          'ProviderEmail': event['ProviderEmail']
+      }
+
+
+
+    ```
+
+_For more examples, please refer to the [Documentation](https://docs.codeflex.com.co/docs-page.html#section-3)_
+
+_[CODEFLEX CLOUD S.A.S.](https://codeflex.com.co/)_
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+Telefono: +57 3008130562 |
+Email: info@codeflex.com.co
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/avmmodules/AVMWeather.svg?style=for-the-badge
+[contributors-url]: https://github.com/avmmodules/AVMWeather/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/avmmodules/AVMWeather.svg?style=for-the-badge
+[forks-url]: https://github.com/avmmodules/AVMWeather/network/members
+[stars-shield]: https://img.shields.io/github/stars/avmmodules/AVMWeather.svg?style=for-the-badge
+[stars-url]: https://github.com/avmmodules/AVMWeather/stargazers
+[issues-shield]: https://img.shields.io/github/issues/avmmodules/AVMWeather.svg?style=for-the-badge
+[issues-url]: https://github.com/avmmodules/AVMWeather/issues
+[license-shield]: https://img.shields.io/github/license/avmmodules/AVMWeather.svg?style=for-the-badge
+[license-url]: https://github.com/avmmodules/AVMWeather/blob/main/LICENSE
+[miniatura]: https://codeflex.com.co/assets/img/ggg.webp
+[miniatura2]: https://s3.amazonaws.com/www.codeflex.lat/documentos/76527625-b9dd-4efe-a987-6374f56e3d22/Pagina-Codeflex/Capturadsd.PNG
