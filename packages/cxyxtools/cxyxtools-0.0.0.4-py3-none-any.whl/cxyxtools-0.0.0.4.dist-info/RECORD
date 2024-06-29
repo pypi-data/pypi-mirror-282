@@ -1,0 +1,7 @@
+core/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+core/gradient.py,sha256=zZZ6GbzuMlmA-DOiiF80pwNWfuK54-bUc-hkG-RHXCE,1863
+core/variable.py,sha256=QfL_wSIeQpfAMOL0Hs1HUPGRUZKmELmwM5fPKLRPGeY,665
+cxyxtools-0.0.0.4.dist-info/METADATA,sha256=CeUw4SjZ5nW9WVkRHrowBF-Dv4W5FoziRn7lUkTpkcM,444
+cxyxtools-0.0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cxyxtools-0.0.0.4.dist-info/top_level.txt,sha256=0ebp8k35dOTHVwbY3UcokRsjC7cWLN_iaJ70tIcmODU,5
+cxyxtools-0.0.0.4.dist-info/RECORD,,
