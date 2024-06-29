@@ -1,0 +1,10 @@
+README.md
+setup.py
+indigenous_claims/__init__.py
+indigenous_claims/indigenous_landclaims.py
+indigenous_claims.egg-info/PKG-INFO
+indigenous_claims.egg-info/SOURCES.txt
+indigenous_claims.egg-info/dependency_links.txt
+indigenous_claims.egg-info/entry_points.txt
+indigenous_claims.egg-info/requires.txt
+indigenous_claims.egg-info/top_level.txt

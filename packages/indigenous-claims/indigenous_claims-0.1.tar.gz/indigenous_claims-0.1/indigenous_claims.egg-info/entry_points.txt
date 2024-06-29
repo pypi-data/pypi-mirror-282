@@ -1,0 +1,2 @@
+[console_scripts]
+indigenous_claims = indigenous_claims.indigenous_claims:main
