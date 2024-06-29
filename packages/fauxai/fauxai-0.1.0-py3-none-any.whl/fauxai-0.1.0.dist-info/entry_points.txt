@@ -1,0 +1,3 @@
+[console_scripts]
+fauxai=fauxai.cli:cli
+

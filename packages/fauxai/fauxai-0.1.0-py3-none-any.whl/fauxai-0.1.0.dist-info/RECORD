@@ -1,0 +1,16 @@
+fauxai/__init__.py,sha256=EH1gpB7ZwT1Ekt4OvsBrFIknYiXLywSiIVNZZoCuisQ,546
+fauxai/cli.py,sha256=2oXAHhsJEQb2DPQIc81Aaj6-8emq0p8SV7mvytS4L_w,753
+fauxai/clients/__init__.py,sha256=rzShaTsFTCqWGHOUVgstL1A--gK7W1rmy2va0J7Fo0M,98
+fauxai/clients/anthropic.py,sha256=-5xQ4mvTtqV_FuUCpzgIWO5gQqt28mNS9xE5ZMgnEnY,722
+fauxai/clients/cohere.py,sha256=ubHQcPJ5f3eaxERub-Awl5-3gQwyV_ZbHDp20NaVNxY,428
+fauxai/clients/mistralai.py,sha256=XfGoiuaDQzdQ8S8E1mxmktsDkQmM9Ryn-pvUqhcBTOo,514
+fauxai/clients/openai.py,sha256=XB82SMH1mOgH1luT6-FQ35ecKMzPtd6PIS7TwvCjcEs,727
+fauxai/constants.py,sha256=mZJm-gRaVaXuxT_97Z5Uw24xA88Gc8qwQJlH2IQ_qw0,167
+fauxai/server/__init__.py,sha256=x2QM0tLpQRdQY9TVL8tLGxKyV0HqBX5-j9EfYme9aMQ,54
+fauxai/server/main.py,sha256=pK50EbLEhem3UDcCwTdapgjYpLwCOx-Djks1tCNGeZI,2814
+fauxai/server/models.py,sha256=YW2xvkB69-m_-PSkS0Gjv1XGLOxCpLr7tgQUEHgS1Cw,469
+fauxai/server/responses.py,sha256=F1nQnF59u-AXvDK0LUEp50ubQeZOLGIB6te6vnQ72BQ,4021
+fauxai-0.1.0.dist-info/METADATA,sha256=5B_OmV4xaVPYV6FWu5pP1Hsy1xjvranAlADnsF6HZKQ,6650
+fauxai-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fauxai-0.1.0.dist-info/entry_points.txt,sha256=Pivo7Ea4oeOpyZq62NofR17XlVWPjl4zVp2-3RTuEOQ,41
+fauxai-0.1.0.dist-info/RECORD,,
