@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: bincfg
+Version: 1.0.2
+Summary: Library to read, manipulate, and normalize binary Control Flow Graph (CFG) objects in python.
+Author: Justin Allen
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.10
+
+# BinCFG
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![PyPI](https://img.shields.io/pypi/v/bincfg)](https://pypi.org/project/bincfg/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/bincfg.svg)](https://pypi.org/project/bincfg/)
+[![Documentation status](https://readthedocs.org/projects/bincfg/badge/?version=latest)](https://bincfg.readthedocs.io/en/latest/?badge=latest)
+![Tests](https://github.com/LLNL/BinCFG/actions/workflows/tests.yml/badge.svg)
+
+A Python tool designed to parse binary analyzer outputs to produce call flow graphs (CFG), tokenize and normalize the assembly
+lines within those CFGs, and convert that data into ML-ready formats.
+
+
+## Documentation
+
+Our documentation can be found here: https://bincfg.readthedocs.io/en/latest/#
+
+## Installation
+
+You can install BinCFG with pip:
+
+```sh
+pip install bincfg
+```
