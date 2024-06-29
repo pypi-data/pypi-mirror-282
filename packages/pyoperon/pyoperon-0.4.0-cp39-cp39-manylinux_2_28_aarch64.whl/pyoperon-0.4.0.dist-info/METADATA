@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyoperon
+Version: 0.4.0
+Summary: python bindings for the operon library
+Home-page: UNKNOWN
+Author: Bogdan Burlacu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
