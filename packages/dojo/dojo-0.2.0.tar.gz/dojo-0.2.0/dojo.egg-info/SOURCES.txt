@@ -1,0 +1,7 @@
+README.md
+setup.py
+dojo/__init__.py
+dojo.egg-info/PKG-INFO
+dojo.egg-info/SOURCES.txt
+dojo.egg-info/dependency_links.txt
+dojo.egg-info/top_level.txt
