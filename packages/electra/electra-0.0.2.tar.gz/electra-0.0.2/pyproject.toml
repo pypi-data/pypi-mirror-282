@@ -1,0 +1,60 @@
+[project]
+name = "electra"
+version = '0.0.2'
+description = "Electra"
+dynamic = ["readme"]
+requires-python = ">=3.10.10"
+license = {file = "LICENSE"}
+keywords = ["electra", "http", "async", "concurrency"]
+authors = [
+    {name = "Trevor Hobenshield", email = "trevorhobenshield@gmail.com"}
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "httpx[http2]",
+    "uvloop; platform_system != 'Windows'",
+    "aiofiles",
+    "orjson",
+    "tqdm",
+]
+
+[project.urls]
+repository = "https://github.com/trevorhobenshield/electra"
+
+[build-system]
+requires = ["hatchling", "hatch-fancy-pypi-readme"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = [
+    "electra/*",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["electra"]
+
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+content-type = "text/markdown"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "README.md"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+# replace relative links with absolute links
+pattern = '\[(.+?)\]\(((?!https?://)\S+?)\)'
+replacement = '[\1](https://github.com/trevorhobenshield/electra/tree/main/\g<2>)'
