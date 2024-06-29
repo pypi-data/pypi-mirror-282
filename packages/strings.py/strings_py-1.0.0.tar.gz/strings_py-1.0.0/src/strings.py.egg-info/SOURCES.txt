@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/strings/__init__.py
+src/strings/__main__.py
+src/strings/py.typed
+src/strings.py.egg-info/PKG-INFO
+src/strings.py.egg-info/SOURCES.txt
+src/strings.py.egg-info/dependency_links.txt
+src/strings.py.egg-info/requires.txt
+src/strings.py.egg-info/top_level.txt
+tests/testfile.py
