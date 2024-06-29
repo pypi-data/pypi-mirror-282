@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+MassWalletETH.egg-info/PKG-INFO
+MassWalletETH.egg-info/SOURCES.txt
+MassWalletETH.egg-info/dependency_links.txt
+MassWalletETH.egg-info/top_level.txt
