@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: streamlit-plotly-events2
+Version: 0.0.7
+Summary: Reviving the Streamlit community package, streamlit-plotly-events
+Home-page: https://github.com/malariagen/streamlit-plotly-events2
+Author: Chiyun Lee
+Author-email: chiyun.alberto.lee@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: devel
+License-File: LICENSE
+
+# streamlit-plotly-events2
+
+Reviving this package: https://github.com/null-jones/streamlit-plotly-events/tree/master
