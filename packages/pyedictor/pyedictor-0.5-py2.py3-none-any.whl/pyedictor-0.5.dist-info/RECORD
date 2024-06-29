@@ -1,0 +1,10 @@
+pyedictor/__init__.py,sha256=Lqh5HiiOKLuU5D_zl95PrlqmQG3SkSJkHeM9Ie148l8,604
+pyedictor/cli.py,sha256=_B90PRHOXUk8KNwL5Mf9-JmXKpFtxHlpz1CWobJaIPs,6297
+pyedictor/sqlite.py,sha256=58w7GZ-XKFlYm1iEkaDLholm9mZtVPtEAAbPv3EsVfI,1172
+pyedictor/util.py,sha256=lS_zfnUGEXcgkWkvro6h8W8rSYq4_hvIVZOzE4GzPns,1333
+pyedictor-0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyedictor-0.5.dist-info/METADATA,sha256=351rjwL7_Jr4lFJYM5Qqi5H9YDuW25rjDlJ7PJsGa5U,1470
+pyedictor-0.5.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+pyedictor-0.5.dist-info/entry_points.txt,sha256=uiJoxQxZ3CJfgEaRLGJdLqLHUFFYr-CtNSFAK2Z66xE,47
+pyedictor-0.5.dist-info/top_level.txt,sha256=fyKbaoU_4hPxeR6Kv7iIyIDWuv2DPFOpGdMSN3Gihh0,10
+pyedictor-0.5.dist-info/RECORD,,
