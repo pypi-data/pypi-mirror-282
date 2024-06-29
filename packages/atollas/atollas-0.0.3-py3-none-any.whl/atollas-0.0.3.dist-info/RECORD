@@ -1,0 +1,9 @@
+atollas/__init__.py,sha256=P1GtrplgNT1bhclnjXfvC8TNciVrzuB2T1iHgKbIGy0,117
+atollas/aggregations.py,sha256=91IdbeBOwjcbrQuUL4WJz6kf41qfXw6El_kOujO8MB4,1092
+atollas/dataframe.py,sha256=jNsS5mNdEEywAbTHA4YBYCsqsB_13JvHEDjLTx7AzVI,11885
+atollas/dataframe_schema.py,sha256=beFPDYD_NzgtPfjYrCN5OLXC95dCCh74C2iP05wLaXE,3133
+atollas/io.py,sha256=23iYFYBNydFCkEUgKrP8e-Q5Gy7PJM7Gh7EfMvoMFx0,1479
+atollas/types.py,sha256=nN6lEOpavjRq0bFMrA1hp8CCtPAKcy1zuxEdt8tBybs,1109
+atollas-0.0.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+atollas-0.0.3.dist-info/METADATA,sha256=6yUsyHDciS6TH6UV3DO9LhnacWF95pTElQ8Bx6kHrzI,4237
+atollas-0.0.3.dist-info/RECORD,,
