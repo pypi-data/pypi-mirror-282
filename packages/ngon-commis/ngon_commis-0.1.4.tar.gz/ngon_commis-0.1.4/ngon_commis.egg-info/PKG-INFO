@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ngon-commis
+Version: 0.1.4
+Author: Silver
+Requires-Python: >=3.6
+Requires-Dist: dataclasses
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pytest
+Requires-Dist: setuptools~=69.5.1
