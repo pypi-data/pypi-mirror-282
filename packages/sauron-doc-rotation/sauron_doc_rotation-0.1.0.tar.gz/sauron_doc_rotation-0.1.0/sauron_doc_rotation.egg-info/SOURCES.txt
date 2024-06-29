@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+sauron_doc_rotation/__init__.py
+sauron_doc_rotation/deskew.py
+sauron_doc_rotation/sauron_rotate.py
+sauron_doc_rotation/skew_detect.py
+sauron_doc_rotation.egg-info/PKG-INFO
+sauron_doc_rotation.egg-info/SOURCES.txt
+sauron_doc_rotation.egg-info/dependency_links.txt
+sauron_doc_rotation.egg-info/requires.txt
+sauron_doc_rotation.egg-info/top_level.txt
