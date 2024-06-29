@@ -1,0 +1,11 @@
+core/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+core/gradient.py,sha256=zZZ6GbzuMlmA-DOiiF80pwNWfuK54-bUc-hkG-RHXCE,1863
+core/variable.py,sha256=QfL_wSIeQpfAMOL0Hs1HUPGRUZKmELmwM5fPKLRPGeY,665
+cxyx_tools/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+cxyx_tools/core/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+cxyx_tools/core/gradient.py,sha256=zZZ6GbzuMlmA-DOiiF80pwNWfuK54-bUc-hkG-RHXCE,1863
+cxyx_tools/core/variable.py,sha256=QfL_wSIeQpfAMOL0Hs1HUPGRUZKmELmwM5fPKLRPGeY,665
+cxyxtools-0.0.0.5.dist-info/METADATA,sha256=79bKj3xwnb_fllvGi_7S4AL1xB-9h7czRyP4qdjS8TY,444
+cxyxtools-0.0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cxyxtools-0.0.0.5.dist-info/top_level.txt,sha256=uuNqWh6WEiA-9c72kaiBhOIFXjLUJcx6FgtMyklc9Mc,11
+cxyxtools-0.0.0.5.dist-info/RECORD,,
