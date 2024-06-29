@@ -1,0 +1,8 @@
+setup.py
+getweather_tam/__init__.py
+getweather_tam/getweather_tam.py
+getweather_tam.egg-info/PKG-INFO
+getweather_tam.egg-info/SOURCES.txt
+getweather_tam.egg-info/dependency_links.txt
+getweather_tam.egg-info/requires.txt
+getweather_tam.egg-info/top_level.txt

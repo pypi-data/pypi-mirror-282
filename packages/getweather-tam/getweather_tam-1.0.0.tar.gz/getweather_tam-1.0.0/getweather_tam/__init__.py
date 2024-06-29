@@ -1,0 +1,1 @@
+from getweather_tam.getweather_tam import Weather
