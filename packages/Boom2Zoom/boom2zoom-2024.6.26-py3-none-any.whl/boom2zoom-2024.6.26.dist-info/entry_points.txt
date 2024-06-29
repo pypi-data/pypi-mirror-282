@@ -1,0 +1,3 @@
+[console_scripts]
+boom2zoom=boom2zoom.__main__:app
+
