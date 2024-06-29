@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: pppmodels
+Version: 0.5.0
+Summary: Add your description here
+Author-email: galenseilis <galen.seilis@seilis.ca>
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: pppmodels>=0.0.3
+Requires-Dist: pymc>=5.16.1
+Description-Content-Type: text/markdown
+
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json)](https://rye.astral.sh)
+[![GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/galenseilis/PPPModels/blob/main/LICENSE)
+
+# PPPModels
+Package for making predictions with Poisson point processes.
