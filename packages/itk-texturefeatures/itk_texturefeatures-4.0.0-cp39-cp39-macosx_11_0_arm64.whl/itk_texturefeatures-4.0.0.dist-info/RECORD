@@ -1,0 +1,11 @@
+itk/Configuration/TextureFeaturesConfig.py,sha256=MTkDPSwmKD69UMmk0j5jjAtrXkN9zu5VKtuWT6fUHmc,21503
+itk/Configuration/TextureFeatures_snake_case.py,sha256=t-yeHWbRY9glcGuWfibQNBdriUNTkJJLwgDyeOB6nzQ,198
+itk/TextureFeaturesPython.py,sha256=itYd-8pVmEeagVGtt84q1o3S0lKoROtQ9cGMz9uUMWY,2306
+itk/_TextureFeaturesPython.so,sha256=U6J2L6Bcqqc9byG2ndqecRCDV61eRWciaqo-VgloCQU,8041800
+itk/itkCoocurrenceTextureFeaturesImageFilterPython.py,sha256=H3F7Z8HeU4moi2mM8fp0u5ebktr0hxwsG5b-KFig_Q0,413756
+itk/itkRunLengthTextureFeaturesImageFilterPython.py,sha256=Z0nl1V4D_m8MQTQouoZjLCgeJhh8iPZXipLENTkz3c8,421064
+itk_texturefeatures-4.0.0.dist-info/METADATA,sha256=-Z6fobrsWvGnDJ2e7-y2iQHyV9gEVtcrHFfv8V7uxVs,16555
+itk_texturefeatures-4.0.0.dist-info/WHEEL,sha256=85LZ_j97Cufg7An8XT3MSVhGYcpzkkUNDrzScqPw7E0,111
+itk_texturefeatures-4.0.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+itk_texturefeatures-4.0.0.dist-info/licenses/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_texturefeatures-4.0.0.dist-info/RECORD,,
