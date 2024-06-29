@@ -1,0 +1,14 @@
+asdf_zarr/__init__.py,sha256=ZHq9FBO2vKQcED-V4Tr9MzPkKtjM4ggq54MWReHyz_E,72
+asdf_zarr/_version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+asdf_zarr/converter.py,sha256=TlhEwcWwuGgyJUNjllmbDt_He28iIMHIszsxH09WP-M,3349
+asdf_zarr/extensions.py,sha256=Qq6wd9OfaCNz5M0nt_jp2JNDAHahuBFftTWoEZQmul4,312
+asdf_zarr/storage.py,sha256=FDTJBO3XSBVwpVhqaM4IpBC8Yzw7DoKM08WOgnxhNbk,7654
+asdf_zarr/util.py,sha256=hSMFBsAyeOSHH5Cb-5mihX3m9RTxCzuK61KQROsXPWQ,2400
+asdf_zarr/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asdf_zarr/tests/test_zarr.py,sha256=ROYxEGFzmK5Mxovl5Tph9SR0Hl5g5AEZ_MXtV7ml4sc,5322
+asdf_zarr-0.0.4.dist-info/LICENSE,sha256=Zm10lBS4cqbatOCeaIFsZZ9yBwbskVsKRr9xvaHF9Pw,1561
+asdf_zarr-0.0.4.dist-info/METADATA,sha256=oxtZuCAV9EENDBYsO9hwrXBFOliAnaCR5WuOVzskbO4,4412
+asdf_zarr-0.0.4.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+asdf_zarr-0.0.4.dist-info/entry_points.txt,sha256=sQaX7sJ6i8uylXNsQaStQ0B6raUtlQBy57qgRWX5W9g,61
+asdf_zarr-0.0.4.dist-info/top_level.txt,sha256=1Fnrg863Jy5pwZcmSA3zPcodpHSqvqMxOtbdAgH_SeE,10
+asdf_zarr-0.0.4.dist-info/RECORD,,
