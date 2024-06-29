@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: femtodriver
+Version: 0.16.0
+Summary: Femtorun defines the runtime interface for Femtosense software
+Home-page: https://github.com/femtosense/femtodriver
+Author: Femtosense
+Author-email: info@femtosense.ai
+Project-URL: Source, https://github.com/femtosense/femtodriver
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy <2.0.0,>=1.18.0
+Requires-Dist: femtorun ==1.*,>=1.1.0
+Requires-Dist: femtocrux >=0.4.0
+Requires-Dist: redis >=4.0.0
+Requires-Dist: pyyaml
+
+# Femtosense Femtodriver
+
+Using the memory images emitted by femtocrux, creates an SD card programming file that the firmware uses.
+
+# License
+
+By using this software package, you agree to abide by the terms and conditions in the license agreement found [here.](https://femtosense.ai/legal/eula/)
+
+## Installation:
+
+From source, from `femtodriver/femtodriver/`
+
+```
+pip install -e .
+```
+
+Or from PyPI:
+
+```
+pip install femtodriver
+```
+
+In addition to the package, this will install two executables: 
+`sd_from_femtocrux` and `femtodrive`.
+
+Python 3.10 is required. Femtocrux requires docker to be installed (see other instructions for femtocrux).
+
+## Usage:
+
+#### To generate SD programming files from a previously generated memory image zip
+
+First, unpack the memory image .zip emitted by femtocrux.
+
+```
+sd_from_femtocrux <path-to-unzipped-femtocrux-output-directory>
+```
+
+this will create an `apb_records` directory, which has the `0PROG_A` and `0PROG_D` files which can be downloaded to the SD card. Note that future firmware might allow multiple models to coexist on the SD card. The leading '0' indicates that this is the first model. In some cases, with multiple models loaded, you may need to edit the number in the filename.
+
+#### To generate SD programming files from a previously saved FQIR pickle
+
+This currently only works with the PyTorch flow. For now, for TFLite use `sd_from_femtocrux`.
+
+You can pickle the femtocrux's input, the FQIR graph, with `torch.save()` (In the pytorch/TF femtocrux walkthroughs, this variable is called `fqir_graph`).
+
+`femtodrive` works on these pickles, invoking the femtocrux docker to compile them and produce a zip containing memory images. It then does the same thing that `sd_from_femtocrux` does, producing SD card programming files. 
+
+For now, you must supply the `--norun` option (in the future, this is the script that will be used to control a cable-connected SPU)
+
+Example:
+
+```
+femtodrive ../models/my_model.pt --norun
+```
+
+As a "hello world" you can invoke:
+
+```
+femtodrive LOOPBACK --norun
+```
+
+This will call femtodrive on an "identity" network that is installed with the package. 
+
+Notice the `images.zip` that appears and was unpacked to `docker_data/`. `apb_records` can be found in `model_datas/<supplied model name>/io_records` and contains the same contents as with `sd_from_femtocrux`.
+
+Pickles are notoriously unportable. Ideally, any pickling/unpickling is done on one machine, but failing that, try to ensure the pickle is unpacked using the same tool versions it was generated with.
+
+## Future
+
+With EVK3, `femtodrive` enables:
+- a direct connection `PC <--(USB)--> host <--(SPI)--> SPU`
+    - this will allow for direct issuing of SPI commands from the PC to the SPU
+    - it will also enable side-by-side comparison of the SPU and the golden model running inside the docker container
