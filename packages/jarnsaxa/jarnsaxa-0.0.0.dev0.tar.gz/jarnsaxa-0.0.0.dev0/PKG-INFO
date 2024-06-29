@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jarnsaxa
+Version: 0.0.0.dev0
+Summary: Minimal python package containg common dependencies for my other projects.
+Author-email: Grant Giesbrecht <grant.giesbrecht@colorado.edu>
+Project-URL: Homepage, https://github.com/Grant-Giesbrecht/jarnsaxa
+Project-URL: Issues, https://github.com/Grant-Giesbrecht/jarnsaxa/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jarnsaxa
+Minimal python package containg common dependencies for my other projects.
