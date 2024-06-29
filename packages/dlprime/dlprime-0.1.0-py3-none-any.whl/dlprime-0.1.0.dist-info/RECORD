@@ -1,0 +1,10 @@
+dlprime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlprime/activation.py,sha256=LV-lkgeHfz4hVlc2cgaLnImU2gyM6fcVWUeH-qwPxBY,368
+dlprime/data.py,sha256=bmfoBqR9ooPHIerUUsKLbLTYf8Psj7X9qfcHDwU8878,856
+dlprime/dl.py,sha256=N4B6vVoJSQmRbA95jPk17RkGkyegHq7f_qRVhQ6w788,1518
+dlprime/ml.py,sha256=eRb2Fb5C22jkxZWvson2eXCLetQkKV5VdW8eD_cBFBQ,2759
+dlprime/testing.py,sha256=kLEvEiY9ELU9Gl4kJob_9ifOhe8i6yl_sJTfGcf-SRA,629
+dlprime-0.1.0.dist-info/METADATA,sha256=9BgLbiAD6pZ5030OSm0AVj0Vje-RbcFqVI13m4d0o2o,307
+dlprime-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dlprime-0.1.0.dist-info/top_level.txt,sha256=Esdu53Ib2bbzWZuvGGleZ5eZL1sPAH-qiLQSh3Vs6Dg,8
+dlprime-0.1.0.dist-info/RECORD,,

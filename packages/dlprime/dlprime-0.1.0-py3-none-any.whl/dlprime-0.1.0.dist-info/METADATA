@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dlprime
+Version: 0.1.0
+Summary: A library that includes basic machine learning and deep learning tools such as the Perceptron, LinearRegression, LogisticRegression etc.
+Author: Jiho Lee
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+
