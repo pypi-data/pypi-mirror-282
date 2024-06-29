@@ -1,0 +1,12 @@
+jaalvarez2818_airport_docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaalvarez2818_airport_docs/normalize.py,sha256=p5hvEm5oX7KAAdebcZsV6k-pouO-F4h7c0GQchjmQ9Q,654
+jaalvarez2818_airport_docs/pnl.py,sha256=xhwtchHpmjsYTWB3XjhhxqharoGB2bWLKYnJW9C3y3k,3495
+jaalvarez2818_airport_docs/test.py,sha256=CKWF3k3QaubUI773rV-7RzbYUSV2MLTi2kJkknt39Uo,8827
+jaalvarez2818_airport_docs/entities/__init__.py,sha256=qCQuK5POZ9HrjtVOGlf1HHNoV0xc6ID664mWy0FK4no,86
+jaalvarez2818_airport_docs/entities/contact_info.py,sha256=CgmQuNUCc2BJD0Q04ZsN7LWADP8SQ33_MdmuXMXCG1I,239
+jaalvarez2818_airport_docs/entities/flight.py,sha256=VjH-xwsrFvbtLU-9rEQgyKraClZTkI-jPej0pJiTE2I,1169
+jaalvarez2818_airport_docs/entities/pax.py,sha256=nCIdT1AXldSHHQl2xaHyoLIitRgzoZRWWesM7XU_rhs,2756
+jaalvarez2818_airport_docs-0.4.dist-info/METADATA,sha256=j8R0O1UqQqvBlI5Ct4HrXQGlcDFhg-WEdqCuM6JwElA,639
+jaalvarez2818_airport_docs-0.4.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+jaalvarez2818_airport_docs-0.4.dist-info/top_level.txt,sha256=h1DfVhIDWj-Of3FlRyTm_yflktxLfj01rHMHNDU469o,27
+jaalvarez2818_airport_docs-0.4.dist-info/RECORD,,
