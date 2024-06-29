@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+NameComparator/NameComparator.py
+NameComparator/requirements.txt
+NameComparator.egg-info/PKG-INFO
+NameComparator.egg-info/SOURCES.txt
+NameComparator.egg-info/dependency_links.txt
+NameComparator.egg-info/requires.txt
+NameComparator.egg-info/top_level.txt
+NameComparator/jsonData/_ipa_all_names.json
+NameComparator/jsonData/_ipa_common_word_parts.json
+NameComparator/jsonData/_nickname_sets.json
+NameComparator/jsonData/_rules_ipa.json
+NameComparator/jsonData/_rules_spelling.json
+NameComparator/jsonData/_top_surnames.json
