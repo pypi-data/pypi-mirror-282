@@ -1,0 +1,17 @@
+AUTHORS.rst
+LICENSE
+LICENSE.rst
+MANIFEST.in
+README.rst
+pyproject.toml
+doc/examples/zro2_mo.xy
+src/diffpy/__init__.py
+src/diffpy.labpdfproc.egg-info/PKG-INFO
+src/diffpy.labpdfproc.egg-info/SOURCES.txt
+src/diffpy.labpdfproc.egg-info/dependency_links.txt
+src/diffpy.labpdfproc.egg-info/top_level.txt
+src/diffpy/labpdfproc/__init__.py
+src/diffpy/labpdfproc/functions.py
+src/diffpy/labpdfproc/labpdfprocapp.py
+src/diffpy/labpdfproc/tools.py
+src/diffpy/labpdfproc/version.py
