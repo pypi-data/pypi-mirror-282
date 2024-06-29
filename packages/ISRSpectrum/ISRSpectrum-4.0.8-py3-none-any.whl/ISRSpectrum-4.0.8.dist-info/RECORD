@@ -1,0 +1,15 @@
+ISRSpectrum/ISRSpectrum.py,sha256=O7OhV0947o9yt5ZzXc3h9P7WULlXnH89PN2PfgUj2M8,14503
+ISRSpectrum/__init__.py,sha256=3_U2D_2xGsvbT5Wty3i_GodFFodwMeGFzKn-ysa1cY0,255
+ISRSpectrum/_version.py,sha256=CSwke07ydmuPMVrxXNxDLU5SkCI0bn0KS4tjEEZjCFM,497
+ISRSpectrum/collision_calc.py,sha256=3FBzotfgQcGLtWsxeSEMncASeS7cChprqlzbnsjU_N4,6789
+ISRSpectrum/ion2ion.csv,sha256=TcNkqfyLCwXxUIqlON2q2jlIrBJlse239o8YVEwPn2g,582
+ISRSpectrum/ion2neu.csv,sha256=0kS6TPfZMoPjV3MtHx3vliyISlz4KTm-Bj1r67j-CiE,416
+ISRSpectrum/plugins/__init__.py,sha256=c_wT3-dlYh_Bgbpm4pN3Lf4018Klmr-EpM8vIpQzdWw,829
+ISRSpectrum/plugins/gord_default.py,sha256=r4CqJ3qZw87Ua3HxKCZmL430qY2BNjFPBwSIHAx1QZk,15433
+ISRSpectrum/plugins/gord_simple.py,sha256=VjwWWsxt504tEB98gSGuk_huKEbgqY92IN6Vli5-tsc,2555
+ISRSpectrum/plugins/mathutils.py,sha256=d2Em9AQ4kRw0AILL5xoeAIpnDvXQq_4DxRvilFcYqIM,8160
+ISRSpectrum-4.0.8.dist-info/LICENSE.md,sha256=ou88q0VixWDO8T_5VS7oTPz2QtVcqu9ZE2wcT-Fkvb8,1079
+ISRSpectrum-4.0.8.dist-info/METADATA,sha256=Kjk0i5xPRTsoViNHShZyUIrXuQbbWKt8H39z3nrIUqQ,4422
+ISRSpectrum-4.0.8.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+ISRSpectrum-4.0.8.dist-info/top_level.txt,sha256=hZ9PYqtXv9ph4A_kzoOMgi5vUZRv6lGstzoxz7KmynY,12
+ISRSpectrum-4.0.8.dist-info/RECORD,,
