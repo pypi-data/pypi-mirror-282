@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xbee-image-transfer
+Version: 0.0.1
+Author: Rahul Sunil
+Author-email: rahulsunil2@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xbee-python
+Requires-Dist: PIL
+
+Image Transfer using XBee
