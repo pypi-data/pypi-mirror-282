@@ -1,0 +1,2 @@
+[console_scripts]
+idir2pdf = idir2pdf.idir2pdf:main
