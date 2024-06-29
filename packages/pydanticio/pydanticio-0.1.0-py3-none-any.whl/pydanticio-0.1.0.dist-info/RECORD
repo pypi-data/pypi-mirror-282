@@ -1,0 +1,10 @@
+pydanticio/__init__.py,sha256=cd4_NbH4fqJK0V7_IUCpeqnEy07auT7YZC_AqCN5CwI,3645
+pydanticio/common.py,sha256=GB0Thg5PMzKa9dkZcgBByBCTy_fijIOeCLLQjhQO-II,94
+pydanticio/csv.py,sha256=j4xEbB5Ms01o54KkwYXi67ptr_uyB17H_UmaYyEb_Uc,641
+pydanticio/json.py,sha256=8VjkLU_Nyxp5EuUMoqEadJsZb-eaXPZyn-ul_o4N6S0,311
+pydanticio/json_lines.py,sha256=FXDrgoDk7VvFe1QTTjGRUVFuhhkNmXovAidQXA-XV3o,381
+pydanticio/version.py,sha256=kbQfuaAIs4jl95ObP39AhhcD--WzvzZ2M6Rm6Y7df3E,82
+pydanticio-0.1.0.dist-info/METADATA,sha256=G-6BVvgHzWLaUWc8PLIvgqxNR1beaogI9Sqct2StAYc,2070
+pydanticio-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pydanticio-0.1.0.dist-info/licenses/LICENSE,sha256=dVc_rT7GXs7ahhEJcO96A3arR9IokNNtHjbHmx279ZQ,1067
+pydanticio-0.1.0.dist-info/RECORD,,
