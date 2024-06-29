@@ -1,0 +1,9 @@
+sscsv/controllers/CsvController.py,sha256=2SXnk6JCpkYDpKRSClxnFT1hzZv4Nf4qBJ4BHWqmPUI,359
+sscsv/controllers/DataFrameController.py,sha256=X6hrnRenUstZsjmvrKxwXDuVN1lx1WutkGVIaAQp0K0,5416
+sscsv/run.py,sha256=IeD_yPT3EmAgo3jDKwvaFpouIrw799TKy4KXqS0097Q,374
+sscsv/views/TableView.py,sha256=kVVAhXNAFOZnJiW8vN9GpYhNQS07ioJaphQmyZ9Sjr4,405
+sscsv-0.1.1.dist-info/LICENSE,sha256=d6O0mGrHyaRWoFSGXEgawJriIcrv7PqEG3n6e_tJar0,1065
+sscsv-0.1.1.dist-info/METADATA,sha256=i7JaeRMvo2KWNBF_FlRDWJfCqs2mhYvtcqtZqlDbWz4,3963
+sscsv-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sscsv-0.1.1.dist-info/entry_points.txt,sha256=hxoGctJQdjelB4Fju4nn658hSspCNsneByN1-gymCys,40
+sscsv-0.1.1.dist-info/RECORD,,
