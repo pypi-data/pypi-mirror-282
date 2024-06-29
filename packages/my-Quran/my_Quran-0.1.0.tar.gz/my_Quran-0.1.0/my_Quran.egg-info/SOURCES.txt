@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+my_Quran/QuoranDb.py
+my_Quran/__init__.py
+my_Quran/fullquranDb.db
+my_Quran/main.py
+my_Quran.egg-info/PKG-INFO
+my_Quran.egg-info/SOURCES.txt
+my_Quran.egg-info/dependency_links.txt
+my_Quran.egg-info/entry_points.txt
+my_Quran.egg-info/requires.txt
+my_Quran.egg-info/top_level.txt
