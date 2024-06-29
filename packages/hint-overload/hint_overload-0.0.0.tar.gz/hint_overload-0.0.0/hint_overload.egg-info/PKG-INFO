@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: hint-overload
+Version: 0.0.0
+Summary: A project to allow overloading functions and methods based of the type hints
+Author: RJ_Infinity
+License: MIT License
+        
+        Copyright (c) 2024 RJ_Infinity
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/RJ-Infinity/overload
+Project-URL: Documentation, https://github.com/RJ-Infinity/overload
+Project-URL: Repository, https://github.com/RJ-Infinity/overload
+Project-URL: Issues, https://github.com/RJ-Infinity/overload/issues
+Keywords: overload,function overloading,type-hints,method overloading,multiple dispatch,dynamic dispatch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rj-type-hint-checker
+
+# overload
+
+this allows for overloads based upon type hints amongst other things
+
+```py
+#just use @overload
+@overload
+def a()->None:
+	"""this one prints 1st and returns none"""
+	print("1st")
+@overload
+def a(a):print("2nd")
+@overload
+def a(a,b,*args):print("3rd")
+
+a() # prints 1st
+a(0) # prints 2nd
+a(a=0) # prints 2nd
+a(0,1,2,3,4,5) # prints 3rd
+```

@@ -1,0 +1,1 @@
+rj-type-hint-checker

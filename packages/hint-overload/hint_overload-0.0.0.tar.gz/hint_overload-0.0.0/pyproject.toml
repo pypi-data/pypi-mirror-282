@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "hint-overload"
+requires-python = ">= 3.12"
+authors = [{name = "RJ_Infinity"},]
+description = "A project to allow overloading functions and methods based of the type hints"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["overload", "function overloading", "type-hints", "method overloading", "multiple dispatch", "dynamic dispatch"]
+
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+dependencies = [
+	"rj-type-hint-checker"
+]
+
+[project.urls]
+Homepage = "https://github.com/RJ-Infinity/overload"
+Documentation = "https://github.com/RJ-Infinity/overload"
+Repository = "https://github.com/RJ-Infinity/overload"
+Issues = "https://github.com/RJ-Infinity/overload/issues"
