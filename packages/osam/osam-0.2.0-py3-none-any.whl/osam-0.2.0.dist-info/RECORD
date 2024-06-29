@@ -1,0 +1,14 @@
+osam/__init__.py,sha256=VEMlq83G2YoMN2D0lY_6ErxXK6nptRAVBoG3AVjJLMs,180
+osam/__main__.py,sha256=fqCOGOIewCfbdkzqfnxW01ImdT0ORVSoW31Nq77FWmg,5633
+osam/__main___test.py,sha256=bGjj-dk9zBsolVEXA-q5BWWyY7c_hcxIp1ul_UHVAKU,361
+osam/_humanize.py,sha256=2u9-WfL3QvJsD6TMkVH6h4Fko4IpYDTVdRrTf_CACZs,789
+osam/_models.py,sha256=0V_8UycaPU34NF4QDJM28ZUubsnh_6R-XhppjpSK-Zo,145
+osam/_server.py,sha256=eYVrfltsEEf_S3sO_kBLfmkLTu8or5y7L2XBOKr8FMQ,933
+osam/_tabulate.py,sha256=rIvjVx5vzwUDvKmQT-whdy1GGmV-wDBzZppFX2MMf44,484
+osam/apis.py,sha256=Zl5W7JoOCKFpBvQ1oqmemdTWBy7qZV2MBHZAE7a38gE,43
+osam/types.py,sha256=_uSOhajJdu7CAv4lJabcy8SUC1ChoixAHjX759p0T6s,44
+osam-0.2.0.dist-info/METADATA,sha256=mC9p-lLRAyN8HhKB0sV1eZ85yyGG7rvMfYEkh-BzMlI,5071
+osam-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+osam-0.2.0.dist-info/entry_points.txt,sha256=eYQwZ5014JIarOx52NTzOpEKdaEzOXgpee8Ia1QFwxQ,43
+osam-0.2.0.dist-info/licenses/LICENSE,sha256=-V0EgZK-ZzX3HurTWJbVeXcDypkjBOtMapASY652D0A,1070
+osam-0.2.0.dist-info/RECORD,,
