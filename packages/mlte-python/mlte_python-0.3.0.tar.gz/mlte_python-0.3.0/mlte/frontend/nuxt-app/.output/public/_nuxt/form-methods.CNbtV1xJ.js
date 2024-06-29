@@ -1,0 +1,1 @@
+function a(s,e){alert(`${s}, ${e}, has been saved successfully.`)}function c(s){confirm("Are you sure you want to leave this page? All unsaved changes will be lost.")&&(location.href=s)}export{c,a as s};
