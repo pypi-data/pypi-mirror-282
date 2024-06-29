@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+tool.py
+dirA/__init__.py
+dirA.egg-info/PKG-INFO
+dirA.egg-info/SOURCES.txt
+dirA.egg-info/dependency_links.txt
+dirA.egg-info/top_level.txt
