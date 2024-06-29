@@ -1,0 +1,55 @@
+from contextlib import contextmanager
+from typing import (
+    Optional,
+    Type,
+    List,
+)
+
+from sqlalchemy import Engine, NullPool
+from sqlmodel import SQLModel, create_engine, Session as SQLModelSession
+
+from pjdev_sqlmodel.settings import SqlModelSettings
+
+
+class DBContext:
+    initialized: bool = False
+    engine: Optional[Engine] = None
+
+
+__ctx = DBContext()
+
+
+def init(settings: SqlModelSettings) -> None:
+    database_url = f"sqlite:///{settings.data_path}"
+    __ctx.engine = create_engine(database_url, echo=False, poolclass=NullPool)
+
+
+def initialize_engine(
+    settings: SqlModelSettings,
+    tables: List[Type[SQLModel]],
+    echo: bool = False,
+) -> Engine:
+    if len(tables) == 0:
+        raise ValueError("Must specify at least one table")
+
+    database_url = f"sqlite:///{settings.data_path}"
+
+    engine = create_engine(database_url, echo=echo, poolclass=NullPool)
+
+    for t in tables:
+        t.__table__.create(bind=engine, checkfirst=True)
+
+    return engine
+
+
+def configure_single_context(settings: SqlModelSettings, tables: List[Type[SQLModel]]):
+    __ctx.engine = initialize_engine(settings, tables)
+
+
+@contextmanager
+def session_context() -> SQLModelSession:
+    with SQLModelSession(__ctx.engine) as session:
+        try:
+            yield session
+        finally:
+            session.close()
