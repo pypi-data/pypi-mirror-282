@@ -1,0 +1,5 @@
+pydantic
+beanie
+pyjwt
+fastapi
+motor
