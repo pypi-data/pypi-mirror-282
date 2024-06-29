@@ -1,0 +1,43 @@
+[project]
+requires-python = ">=3.11"
+
+
+[tool.poetry]
+name = "fastapi_crudbuilder"
+version = "0.2.2"
+description = "CRUDBuilder helps you to create CRUD endpoints for your FastAPI/ SqlAlchemy database models."
+keywords = ["FastAPI", "CRUD", "SQLAlchemy"]
+authors = ["Leonard Mazzone <lenny@tetricuslabs.com>", "Rich Winslow <rich@tetricuslabs.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/TetricusLabs/crudbuilder"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Framework :: FastAPI",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+sqlalchemy = "^2.0.31"
+
+[tool.poetry.group.optional.dependencies]
+pymemcache = "^4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.10"
+
+[tool.poetry.group.testing.dependencies]
+pytest = "^8.2.1"
+
+[tool.pytest.ini_options]
+testpaths = ["./tests/"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
