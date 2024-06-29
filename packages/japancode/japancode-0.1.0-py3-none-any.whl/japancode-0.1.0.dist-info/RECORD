@@ -1,0 +1,15 @@
+japancode/__init__.py,sha256=xcYEZWcm90pIawiLhz16__ajZxlcviz4Vrdf4P6IKiY,254
+japancode/codes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+japancode/codes/isocode.py,sha256=-xt1jifCa-NYeRyTLsKfbDhSbQaTOvfSgTYUS8Mj3WM,751
+japancode/codes/jiscode.py,sha256=RgnPZcqmwVu5JS3cIvLbK7WSEyBcY9FuSi57edRpJvY,687
+japancode/codes/lgcode.py,sha256=5GePuN_K3EirIt0P08-L8-SbvzgtoN4Mp4ugwVmVscw,892
+japancode/data/municipalities.json,sha256=LHyJfBGgtPX8K-FxXPxJsrDY8RRQ2KxEgKM5v7UHmG8,392371
+japancode/data/prefectures.json,sha256=TQ_zYO5pr7ce4v3R6biYbbU2wGfIi2przEojrbBHLTw,13772
+japancode/names/__init__.py,sha256=1O-Xx8aicuoNqXi9p0ABHlX4sewDsOIh0mYIEpE3d7Q,65
+japancode/names/kana_roman.py,sha256=MA2lBXT1668ZPSVxPtCEBaeIdQTLPU63FQhAPLytvNc,985
+japancode/region.py,sha256=7hsDWk_ei2IcM-F2nKFCv4pveoPEFOj7IH5JJ7gaoj8,5513
+japancode/utils.py,sha256=LDNh6vdgXupwsL2pY7ijtkjMoOYfUtCtQ2ZBuFRQrzI,2759
+japancode-0.1.0.dist-info/LICENSE.txt,sha256=T8I8i_6ynDy5cX7cPs81GxC2WCTjkIdofxQzgdWKths,1070
+japancode-0.1.0.dist-info/METADATA,sha256=L-pPCkeuOuhPe2KkCG0M8yWwyrJXkSRKSWNVaG_LdoI,3068
+japancode-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+japancode-0.1.0.dist-info/RECORD,,
