@@ -1,0 +1,8 @@
+coverage
+mypy
+numpy<2
+onnx
+pre-commit>=2
+pytest==8.2.2
+pytest-timeout
+requests
