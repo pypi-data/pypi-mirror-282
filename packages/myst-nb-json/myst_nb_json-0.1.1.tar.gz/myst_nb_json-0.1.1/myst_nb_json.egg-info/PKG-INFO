@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: myst-nb-json
+Version: 0.1.1
+Summary: A MIME-type plugin for rendering JSON output from Jupyter notebooks to HTML
+Author-email: "Alexandrov Team, EMBL" <andreas.eisenbarth@embl.de>, Andreas Eisenbarth <andreas.eisenbarth@embl.de>
+License: MIT
+Keywords: docutils,sphinx,json
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Requires-Python: ==3.9.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docutils
+Requires-Dist: myst-nb>=1.0.0
+Provides-Extra: dev
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+Requires-Dist: pre-commit>=3.6.0; extra == "dev"
+Requires-Dist: ruff>=0.1.14; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: docutils>=0.21.2; extra == "docs"
+Requires-Dist: ipython>=8.12.0; extra == "docs"
+Requires-Dist: myst-nb>=1.0.0; extra == "docs"
+Requires-Dist: pydantic>=2.0; extra == "docs"
+Requires-Dist: Sphinx>=7.2.6; extra == "docs"
+Requires-Dist: sphinx-book-theme>=1.1.3; extra == "docs"
+Provides-Extra: test
+Requires-Dist: ipython>=8.12.0; extra == "test"
+Requires-Dist: pytest~=7.1; extra == "test"
+Requires-Dist: pytest-cov>=5.0.0; extra == "test"
+Requires-Dist: pytest-regressions>=2.5.0; extra == "test"
+Requires-Dist: selenium~=4.22; extra == "test"
+Requires-Dist: Sphinx[test]>=7.2.6; extra == "test"
+Provides-Extra: type-hints
+Requires-Dist: types-docutils>=0.21.0.20240423; extra == "type-hints"
+
+# MyST-NB JSON
+
+A MIME-type plugin for rendering JSON output from Jupyter notebooks to HTML
+
+______________________________________________________________________
+
+Outputs from Jupyter notebook code cells usually contain representations in one or multiple MIME
+types (image, text…). IPython provides multiple built-in output types, but not all of them
+have a representation for HTML, and fall back to a stringified version of the Python object.
+
+This is the case for the `application/json` type:
+
+It is nicely rendered in Jupyter because Jupyter includes a
+[JSON renderer](https://github.com/jupyterlab/jupyterlab/tree/7909745d075aceb0cf1099ad53a3174e92b575ae/packages/json-extension),
+but [MyST-NB](https://myst-nb.readthedocs.io) can only use IPython's built-ins which display as
+`<IPython.core.display.JSON object>`.
+
+## Jupyter Lab
+
+![Screenshot of json_dict in Jupyter](./docs/images/example1-jupyter.png)
+
+## MyST-NB without plugin
+
+![Screenshot of json_dict in HTML by MyST-NB](./docs/images/example1-myst-nb.png)
+
+## MyST-NB with myst-nb-json plugin
+
+![Screenshot of json_dict in HTML with myst-nb-json](./docs/images/example1-myst-nb-json.png)

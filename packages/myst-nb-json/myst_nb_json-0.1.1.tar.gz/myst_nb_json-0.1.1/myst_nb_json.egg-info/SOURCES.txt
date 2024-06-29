@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+myst_nb_json/__init__.py
+myst_nb_json/py.typed
+myst_nb_json.egg-info/PKG-INFO
+myst_nb_json.egg-info/SOURCES.txt
+myst_nb_json.egg-info/dependency_links.txt
+myst_nb_json.egg-info/entry_points.txt
+myst_nb_json.egg-info/requires.txt
+myst_nb_json.egg-info/top_level.txt
+myst_nb_json/resources/myst-nb-json.css
+myst_nb_json/resources/myst-nb-json.js
+tests/test_interactivity.py
+tests/test_mime_plugin.py
+tests/test_myst_nb.py
