@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+scripts/mock_up_data.py
+src/bread_inspektor/__init__.py
+src/bread_inspektor/constants.py
+src/bread_inspektor/file_utils.py
+src/bread_inspektor/main.py
+src/bread_inspektor/rules.py
+src/bread_inspektor/validator.py
