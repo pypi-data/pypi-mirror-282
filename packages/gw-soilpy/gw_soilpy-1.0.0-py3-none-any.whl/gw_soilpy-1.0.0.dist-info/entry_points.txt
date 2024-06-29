@@ -1,0 +1,2 @@
+[console_scripts]
+soilpy = soilpy.__main__:main
