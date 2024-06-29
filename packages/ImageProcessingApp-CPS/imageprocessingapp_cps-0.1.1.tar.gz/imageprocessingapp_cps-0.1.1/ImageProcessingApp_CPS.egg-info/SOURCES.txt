@@ -1,0 +1,7 @@
+README.md
+setup.py
+ImageProcessingApp_CPS.egg-info/PKG-INFO
+ImageProcessingApp_CPS.egg-info/SOURCES.txt
+ImageProcessingApp_CPS.egg-info/dependency_links.txt
+ImageProcessingApp_CPS.egg-info/requires.txt
+ImageProcessingApp_CPS.egg-info/top_level.txt
