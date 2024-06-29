@@ -1,0 +1,17 @@
+tezapi/__init__.py,sha256=uc2Ghn-LHMqF87BV2VGj4LJmvSAupb6PU71eg8b5quE,89
+tezapi/app.py,sha256=veLbSZ0BkjJrcGBxJIkr1qROZoaoNgdlVyiWo1OBNa4,4039
+tezapi/middleware.py,sha256=ZkHXWDWbAEi9Qfenb11fe_IfW13brKJuEjT5Rxg3ir8,149
+tezapi/responses.py,sha256=LuVn1SJcDxUiHBYdkNM0nw_A5FlcMIlfeEoYQ2VAmo0,1526
+tezapi/router_field.py,sha256=TPPwSzeQJVlbqcUl6OvfckMq8ypLVsvZiCVPlS9f53U,2209
+tezapi/routes.py,sha256=2ojzpa6yFGqqBKZ4jCPmeohIRKWdzldvuzk9hEcrSSs,2568
+tezapi/schemas.py,sha256=3XrFHO9mV3Yw4lbRflie82YykmVRrxcESD-bGJretVI,971
+tezapi/templating.py,sha256=XAnAaSZuqawfWyfEg57zbaLbeFXZ3Fay22QaAt0gB1A,419
+tezapi/exceptions/__init__.py,sha256=P_Q_ENCWQ6MisBAxrpvo3Hcnapv9d5x2B_rSMvT3y8A,63
+tezapi/exceptions/apiexception.py,sha256=qFN_iU_xk1DN9DfnhXAAfqqdTwB8OW_jEGnaZT--wxk,1501
+tezapi/exceptions/base_exceptions.py,sha256=u38nsnkG1pnzA1ciRsMK6Wacr5_LKy6IeyUQDic5JEg,361
+tezapi/exceptions/catching_exc.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tezapi-0.0.6.dist-info/LICENSE,sha256=rPu7AY6_bzROWmGPTDLx_6x6H0BIW-bP4Lsns_nkZEw,1072
+tezapi-0.0.6.dist-info/METADATA,sha256=FjnpovRvOsj5EJvDzAp0CREd25SNP7M-axyxTb6WPSc,4645
+tezapi-0.0.6.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+tezapi-0.0.6.dist-info/top_level.txt,sha256=wHnwJr5fuMMMPOrVQfFETRdergIZaoc5x_QIRIw5KhQ,7
+tezapi-0.0.6.dist-info/RECORD,,
