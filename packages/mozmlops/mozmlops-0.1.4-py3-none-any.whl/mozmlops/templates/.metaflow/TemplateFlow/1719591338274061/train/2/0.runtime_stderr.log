@@ -1,0 +1,52 @@
+[MFLOG|0|2024-06-28T16:15:41.343485Z|runtime|d2c3d2f0-8735-4e1c-8d5c-9f6d65d5471e]<flow TemplateFlow step train> failed:
+[MFLOG|0|2024-06-28T16:15:41.353691Z|runtime|dce8b003-8821-48f4-9282-d18014459652]    Internal error
+[MFLOG|0|2024-06-28T16:15:41.355154Z|runtime|10ddbf7e-a2a2-4c8d-986b-7f8fc39438fe]Traceback (most recent call last):
+[MFLOG|0|2024-06-28T16:15:41.355276Z|runtime|5004f59b-1d84-468e-bb9a-42d4fa51165b]  File "/tmp/tmpjowp5wot/metaflow/cli.py", line 1123, in main
+[MFLOG|0|2024-06-28T16:15:41.355390Z|runtime|3e3e7fda-399d-400a-b510-46e365417055]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-06-28T16:15:41.355478Z|runtime|dfc5e285-44f3-4c87-ad58-3ff24e9d067d]  File "/tmp/tmpjowp5wot/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-06-28T16:15:41.355579Z|runtime|8280c9d8-c056-4b1a-b127-796ade9cf3dc]    return func(args, kwargs)
+[MFLOG|0|2024-06-28T16:15:41.477381Z|runtime|652dc11a-2855-48dc-b82a-77ba1ed01cc9]  File "/tmp/tmpjowp5wot/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-06-28T16:15:41.477563Z|runtime|15e689d8-a071-436b-a3dd-9696d30f0ddb]    return self.main(args, kwargs)
+[MFLOG|0|2024-06-28T16:15:41.477608Z|runtime|85093bda-a0ee-4ff9-abcc-4cfa503c18be]  File "/tmp/tmpjowp5wot/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-06-28T16:15:41.477693Z|runtime|ef2634c4-b60b-422a-85c1-5df4af064f56]    rv = self.invoke(ctx)
+[MFLOG|0|2024-06-28T16:15:41.477739Z|runtime|4ef01423-4f20-439f-b6d9-0674604704e1]  File "/tmp/tmpjowp5wot/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-06-28T16:15:41.477772Z|runtime|ec4c13a4-8d35-4709-b9d3-8545aad0defd]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-06-28T16:15:41.477797Z|runtime|1d32baa2-d611-4229-8a5b-52e8ae916c5b]  File "/tmp/tmpjowp5wot/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-06-28T16:15:41.477823Z|runtime|517e9a52-73e0-48c4-95bd-bfe4f15ce137]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2024-06-28T16:15:41.477848Z|runtime|f3cd50e0-e3ad-4464-a790-9c64b33f44b0]  File "/tmp/tmpjowp5wot/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-06-28T16:15:41.477875Z|runtime|9918e788-510f-4d77-8d47-2592a1163f19]    return callback(args, kwargs)
+[MFLOG|0|2024-06-28T16:15:41.477902Z|runtime|87dea323-a4ff-4355-ab5f-51d5db4f25fe]  File "/tmp/tmpjowp5wot/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-06-28T16:15:41.477924Z|runtime|9ab71567-46fa-4913-be1f-1f2c9e57e4a2]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2024-06-28T16:15:41.477946Z|runtime|c28360cb-838b-4c1f-94cf-2098de924aa2]  File "/tmp/tmpjowp5wot/metaflow/cli.py", line 467, in step
+[MFLOG|0|2024-06-28T16:15:41.477973Z|runtime|d8e4bacb-c048-4d71-a927-c3b537aff597]    task.run_step(
+[MFLOG|0|2024-06-28T16:15:41.478006Z|runtime|d79fa19f-a309-413b-89d4-febdc8fece54]  File "/tmp/tmpjowp5wot/metaflow/task.py", line 608, in run_step
+[MFLOG|0|2024-06-28T16:15:41.478038Z|runtime|42a0dac0-3e7b-4962-88de-13b643b50540]    self._exec_step_function(step_func)
+[MFLOG|0|2024-06-28T16:15:41.478065Z|runtime|49fa1b0b-cb98-4edc-8058-025a1d2b2b1f]  File "/tmp/tmpjowp5wot/metaflow/task.py", line 59, in _exec_step_function
+[MFLOG|0|2024-06-28T16:15:41.478091Z|runtime|c35fe11a-b973-460f-bfd8-5f4b35732a31]    step_function()
+[MFLOG|0|2024-06-28T16:15:41.478128Z|runtime|9ddf2107-8d58-4439-a2d9-cf683306c696]  File "/Users/chelseatroy/mozilla/mozmlops/src/mozmlops/templates/template_flow.py", line 137, in train
+[MFLOG|0|2024-06-28T16:15:41.478157Z|runtime|bf629278-cf90-46b2-9704-d7fa9957a8b7]    storage_client.store(data=predictions_for_storage, storage_path=prediction_path)
+[MFLOG|0|2024-06-28T16:15:41.478183Z|runtime|e6878fed-99c3-4b64-b2bb-a0d85b25a4bc]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/mozmlops/cloud_storage_api_client.py", line 45, in store
+[MFLOG|0|2024-06-28T16:15:41.478213Z|runtime|933467fb-4619-4915-aad8-05fd7cb94fb0]    bucket = client.get_bucket(self.gcs_bucket_name)
+[MFLOG|0|2024-06-28T16:15:41.478239Z|runtime|7d366cfc-8c6e-4d96-80e4-d8ff9ea02c23]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/client.py", line 857, in get_bucket
+[MFLOG|0|2024-06-28T16:15:41.478258Z|runtime|9a64c5bf-be90-4320-b0a5-1275d1be116a]    bucket.reload(
+[MFLOG|0|2024-06-28T16:15:41.478278Z|runtime|d0abbbfd-a6aa-4833-97fb-47152c8125c3]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1083, in reload
+[MFLOG|0|2024-06-28T16:15:41.478301Z|runtime|cbd9d3a0-08fa-4f59-8612-96ad49974784]    super(Bucket, self).reload(
+[MFLOG|0|2024-06-28T16:15:41.478328Z|runtime|bbd3c853-33d7-4eb5-b0d1-70465d05ea90]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[MFLOG|0|2024-06-28T16:15:41.478354Z|runtime|8502dc0b-de03-465d-93cb-d8ed577fa51e]    api_response = client._get_resource(
+[MFLOG|0|2024-06-28T16:15:41.478380Z|runtime|5c1c91a4-fb60-40d2-983f-7b7401d786ef]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/client.py", line 462, in _get_resource
+[MFLOG|0|2024-06-28T16:15:41.478406Z|runtime|5e076209-ba0c-4b9f-99f4-9abbd47e5b4d]    return self._connection.api_request(
+[MFLOG|0|2024-06-28T16:15:41.478430Z|runtime|0ee2bcb1-49ac-4bd6-b971-edb24a0ce5dd]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 78, in api_request
+[MFLOG|0|2024-06-28T16:15:41.478457Z|runtime|b8cfc4b0-d0a5-4d66-ad45-d3744823f18b]    return call()
+[MFLOG|0|2024-06-28T16:15:41.478482Z|runtime|587ab9fa-199a-4e86-9b05-651278a4427f]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[MFLOG|0|2024-06-28T16:15:41.478510Z|runtime|c10a9d70-6ae4-4ab1-bbd7-b9dc58da1da5]    return retry_target(
+[MFLOG|0|2024-06-28T16:15:41.478536Z|runtime|b5d8a433-a1bb-40b9-bf51-3aface824523]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[MFLOG|0|2024-06-28T16:15:41.478563Z|runtime|434bb254-f92e-48b4-90fa-45303bdd4b2c]    _retry_error_helper(
+[MFLOG|0|2024-06-28T16:15:41.478590Z|runtime|0bcd48f8-3e1d-4310-8d74-42584f4d05ce]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[MFLOG|0|2024-06-28T16:15:41.478617Z|runtime|2556c120-08c1-4a99-8fb4-aa1a995f6ffb]    raise final_exc from source_exc
+[MFLOG|0|2024-06-28T16:15:41.478643Z|runtime|031a9600-1683-4749-ac3f-db797975ca9b]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[MFLOG|0|2024-06-28T16:15:41.478668Z|runtime|580d5c4f-e27d-404a-9b66-00ef7d66585b]    result = target()
+[MFLOG|0|2024-06-28T16:15:41.478693Z|runtime|b0ea3692-b981-4b42-baba-cf6f97f8aad8]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+[MFLOG|0|2024-06-28T16:15:41.478727Z|runtime|d251f678-9b51-43e0-84aa-75b5e9b3401c]    raise exceptions.from_http_response(response)
+[MFLOG|0|2024-06-28T16:15:41.478758Z|runtime|ebf6b70a-1fc0-436a-9544-58c43a59e793]google.api_core.exceptions.Forbidden: 403 GET https://storage.googleapis.com/storage/v1/b/bucket-name-here?projection=noAcl&prettyPrint=false: ctroy@mozilla.com does not have storage.buckets.get access to the Google Cloud Storage bucket. Permission 'storage.buckets.get' denied on resource (or it may not exist).
+[MFLOG|0|2024-06-28T16:15:41.478806Z|runtime|e259f3b0-d143-4daf-96d0-4aa6cc2afbaa]
+[MFLOG|0|2024-06-28T16:15:41.479227Z|runtime|8a1e89b0-79b1-4ccc-b344-1ea9c12d1d9d]Task failed.

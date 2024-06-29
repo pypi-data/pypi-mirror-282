@@ -1,0 +1,66 @@
+[MFLOG|0|2024-06-28T16:06:40.268021Z|runtime|d0474140-4991-44e2-82c4-08ea77cfd5aa]<flow TemplateFlow step train> failed:
+[MFLOG|0|2024-06-28T16:06:40.279744Z|runtime|3e4e38fe-6e71-4dc9-ba22-0ac1f4fbbefa]    Internal error
+[MFLOG|0|2024-06-28T16:06:40.283190Z|runtime|3eb4dfff-0516-40a6-94d4-e088b5e207b0]Traceback (most recent call last):
+[MFLOG|0|2024-06-28T16:06:40.283340Z|runtime|ed53dd59-ae60-451a-9132-851bb8efc69e]  File "/tmp/tmpgdqdmm7h/metaflow/cli.py", line 1123, in main
+[MFLOG|0|2024-06-28T16:06:40.283462Z|runtime|520c5687-8c4e-4add-9df1-c73da7524fc5]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-06-28T16:06:40.283550Z|runtime|04c3dbb4-b283-424f-b675-e97d14fab24d]  File "/tmp/tmpgdqdmm7h/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-06-28T16:06:40.283655Z|runtime|845c275b-6cac-4f63-a4cd-db48c1b15971]    return func(args, kwargs)
+[MFLOG|0|2024-06-28T16:06:40.471439Z|runtime|001ebffd-9cef-41c9-9942-a7566b764de4]  File "/tmp/tmpgdqdmm7h/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-06-28T16:06:40.471734Z|runtime|2ce73a8d-5ca4-4164-9b80-2f984eeacf19]    return self.main(args, kwargs)
+[MFLOG|0|2024-06-28T16:06:40.471781Z|runtime|6791fb9e-2da4-40a2-8b5b-abae11467ffd]  File "/tmp/tmpgdqdmm7h/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-06-28T16:06:40.471819Z|runtime|458add0e-1df7-42a9-9e09-3f490e2fa3df]    rv = self.invoke(ctx)
+[MFLOG|0|2024-06-28T16:06:40.471866Z|runtime|9aa83382-d13f-4a82-8f29-a495ca2c9460]  File "/tmp/tmpgdqdmm7h/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-06-28T16:06:40.471896Z|runtime|6d1323bc-ba61-4f33-9595-71e3c8cd5911]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-06-28T16:06:40.471931Z|runtime|4e863ab9-5d4a-4d1b-94aa-e200d90354bb]  File "/tmp/tmpgdqdmm7h/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-06-28T16:06:40.471952Z|runtime|c11c53d9-9a3a-43a9-ab89-9a99a5acc3dc]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2024-06-28T16:06:40.471975Z|runtime|d32c51da-98e3-4ef7-9a17-ea99f535f0df]  File "/tmp/tmpgdqdmm7h/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-06-28T16:06:40.472022Z|runtime|17829aac-ccde-44d0-8763-fa1aff29dd6c]    return callback(args, kwargs)
+[MFLOG|0|2024-06-28T16:06:40.472042Z|runtime|e40bde8b-fdce-44f4-b14d-d4f333c18b31]  File "/tmp/tmpgdqdmm7h/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-06-28T16:06:40.472063Z|runtime|4fa95793-b372-494f-ac46-9dc64be940bf]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2024-06-28T16:06:40.472087Z|runtime|0736cf0e-a665-4d8b-af59-6719d91bdfb4]  File "/tmp/tmpgdqdmm7h/metaflow/cli.py", line 467, in step
+[MFLOG|0|2024-06-28T16:06:40.472115Z|runtime|deb6abad-8cf3-4296-a486-eef71f3f317a]    task.run_step(
+[MFLOG|0|2024-06-28T16:06:40.472149Z|runtime|98b81b5c-ba90-4ef1-adc7-8db9045b7890]  File "/tmp/tmpgdqdmm7h/metaflow/task.py", line 608, in run_step
+[MFLOG|0|2024-06-28T16:06:40.472174Z|runtime|1a49bdab-4312-42c5-9cdb-b7b1f486b519]    self._exec_step_function(step_func)
+[MFLOG|0|2024-06-28T16:06:40.472200Z|runtime|3ba00223-53d9-4fd0-9fe0-0bbe378a8ac7]  File "/tmp/tmpgdqdmm7h/metaflow/task.py", line 59, in _exec_step_function
+[MFLOG|0|2024-06-28T16:06:40.472225Z|runtime|2f844aaf-90a9-4285-a9e3-b34f69c5c43c]    step_function()
+[MFLOG|0|2024-06-28T16:06:40.472251Z|runtime|f0f250ba-b19b-48cf-a29f-026b496b200d]  File "/Users/chelseatroy/mozilla/mozmlops/src/mozmlops/templates/template_flow.py", line 137, in train
+[MFLOG|0|2024-06-28T16:06:40.472287Z|runtime|36191681-1774-461d-a50a-5f4687de5751]    storage_client.store(data=predictions_for_storage, storage_path=prediction_path)
+[MFLOG|0|2024-06-28T16:06:40.472313Z|runtime|634da267-0d73-4612-a0f9-5bea16b87e9d]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/mozmlops/cloud_storage_api_client.py", line 45, in store
+[MFLOG|0|2024-06-28T16:06:40.472342Z|runtime|12d67ce4-46f2-40e1-b6cb-ea4f77cb78c2]    bucket = client.get_bucket(self.gcs_bucket_name)
+[MFLOG|0|2024-06-28T16:06:40.472367Z|runtime|60492fbb-8c89-4ac2-83f7-5270bd00b43c]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/client.py", line 857, in get_bucket
+[MFLOG|0|2024-06-28T16:06:40.472393Z|runtime|ddc0477b-3487-4f16-88f7-3d35e52b4df4]    bucket.reload(
+[MFLOG|0|2024-06-28T16:06:40.472430Z|runtime|0dc40d67-e06e-4a0a-a8ec-64ffc1ccb6f8]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/bucket.py", line 1083, in reload
+[MFLOG|0|2024-06-28T16:06:40.472457Z|runtime|ab246e7e-ed9f-423c-902a-349ee165f0db]    super(Bucket, self).reload(
+[MFLOG|0|2024-06-28T16:06:40.472477Z|runtime|0c6ac4aa-8e39-461d-8833-47aed533675a]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/_helpers.py", line 300, in reload
+[MFLOG|0|2024-06-28T16:06:40.472499Z|runtime|ffddc78f-8367-496b-81c9-1ee66b38bc89]    api_response = client._get_resource(
+[MFLOG|0|2024-06-28T16:06:40.472526Z|runtime|173066d5-1098-422b-bd2e-692cf5f59145]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/client.py", line 462, in _get_resource
+[MFLOG|0|2024-06-28T16:06:40.472552Z|runtime|4b8a54b1-c3ad-42a9-a1f3-d5960b79a1d1]    return self._connection.api_request(
+[MFLOG|0|2024-06-28T16:06:40.472577Z|runtime|49a5ae63-44d4-4a31-9d78-b373027c646b]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 78, in api_request
+[MFLOG|0|2024-06-28T16:06:40.472603Z|runtime|109af4bb-0d48-470b-948c-18f0c4507512]    return call()
+[MFLOG|0|2024-06-28T16:06:40.472635Z|runtime|2a055c9d-2de2-4299-89ce-12793a10fcda]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+[MFLOG|0|2024-06-28T16:06:40.472672Z|runtime|c0313d3a-41bb-458d-b67c-2c53ef075308]    return retry_target(
+[MFLOG|0|2024-06-28T16:06:40.472699Z|runtime|f0896d78-975b-4a63-94ad-7f35832a0e29]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+[MFLOG|0|2024-06-28T16:06:40.472726Z|runtime|f49e34b5-8b4c-48f9-85cf-61db3ad3508c]    _retry_error_helper(
+[MFLOG|0|2024-06-28T16:06:40.472752Z|runtime|47595624-7d56-49bf-a111-3d6fd93e1509]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+[MFLOG|0|2024-06-28T16:06:40.472779Z|runtime|72f70eb4-3c11-4baf-b499-dbeb50b75421]    raise final_exc from source_exc
+[MFLOG|0|2024-06-28T16:06:40.472803Z|runtime|3345b2b6-8fd2-42f8-9cf4-c268885cd0ce]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+[MFLOG|0|2024-06-28T16:06:40.472830Z|runtime|4b17d42e-ab94-4e54-a937-542ba4cc69cf]    result = target()
+[MFLOG|0|2024-06-28T16:06:40.472857Z|runtime|77c78f2c-2eea-4b84-91cd-6e8795b5e476]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+[MFLOG|0|2024-06-28T16:06:40.472882Z|runtime|93948ce0-9695-485b-9aae-437e649233cd]    response = self._make_request(
+[MFLOG|0|2024-06-28T16:06:40.472909Z|runtime|842aa144-ccf7-452e-b218-df8e3d1444dd]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+[MFLOG|0|2024-06-28T16:06:40.472936Z|runtime|4b2c1afa-52ce-4904-bae5-363f21055582]    return self._do_request(
+[MFLOG|0|2024-06-28T16:06:40.472961Z|runtime|43fc9578-93f1-45cf-a014-fd639dde583a]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+[MFLOG|0|2024-06-28T16:06:40.472988Z|runtime|65881058-42b7-4682-9e1c-7a78a64d8e91]    return self.http.request(
+[MFLOG|0|2024-06-28T16:06:40.473011Z|runtime|d158a2eb-2471-412c-b45e-804caf6f7aed]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/auth/transport/requests.py", line 534, in request
+[MFLOG|0|2024-06-28T16:06:40.473037Z|runtime|e3b3d347-2a13-4e96-ae1a-899662d32fac]    self.credentials.before_request(auth_request, method, url, request_headers)
+[MFLOG|0|2024-06-28T16:06:40.473058Z|runtime|b5e466fe-d6b4-4bba-b586-3e837d0d9f0a]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/auth/credentials.py", line 230, in before_request
+[MFLOG|0|2024-06-28T16:06:40.473080Z|runtime|c2afe534-3f96-4318-90da-fd527faa3109]    self._blocking_refresh(request)
+[MFLOG|0|2024-06-28T16:06:40.473108Z|runtime|0a1b63ed-54d0-4789-8d16-8a3262170466]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/auth/credentials.py", line 193, in _blocking_refresh
+[MFLOG|0|2024-06-28T16:06:40.473134Z|runtime|83d5c11e-3f67-42a4-8ea2-265786fbb435]    self.refresh(request)
+[MFLOG|0|2024-06-28T16:06:40.473162Z|runtime|e1e9078c-f72b-4491-b237-f55b42a2b916]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/oauth2/credentials.py", line 431, in refresh
+[MFLOG|0|2024-06-28T16:06:40.473189Z|runtime|04dae0dc-f1e6-47ed-8d31-b66343b124cd]    ) = reauth.refresh_grant(
+[MFLOG|0|2024-06-28T16:06:40.473220Z|runtime|7b540ee1-8a31-4461-ac0d-91ea54154085]  File "/Users/chelseatroy/micromamba/envs/metaflow/osx-arm64/a90864f1f49dde8/lib/python3.10/site-packages/google/oauth2/reauth.py", line 349, in refresh_grant
+[MFLOG|0|2024-06-28T16:06:40.473247Z|runtime|f68db3c0-db53-4472-aece-e06fa9a8bbbc]    raise exceptions.RefreshError(
+[MFLOG|0|2024-06-28T16:06:40.473273Z|runtime|6b4275e4-d840-454c-8523-0379ddfeef50]google.auth.exceptions.RefreshError: Reauthentication is needed. Please run `gcloud auth application-default login` to reauthenticate.
+[MFLOG|0|2024-06-28T16:06:40.473319Z|runtime|d7157e55-02e6-4e64-b2b7-6e35e3996b44]
+[MFLOG|0|2024-06-28T16:06:40.474001Z|runtime|ab00e908-22b0-4475-8264-90b3c9883bac]Task failed.
