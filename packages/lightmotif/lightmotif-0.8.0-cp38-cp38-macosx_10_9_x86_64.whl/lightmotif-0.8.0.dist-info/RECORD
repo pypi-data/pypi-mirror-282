@@ -1,0 +1,13 @@
+lightmotif/__init__.py,sha256=rY8zfOHrHW5f9_-uN6hS1VcD-rqNhZDC0gCF0mUlnJ4,303
+lightmotif/lib.cpython-38-darwin.so,sha256=L7eRJjQCnSImdZ_1pKYjxOp8d-uxyjz2j-ceV5ZfEOw,695528
+lightmotif/tests/test_sequence.py,sha256=mGtdy0f9KxMFQJMRUIu8nqq_Pw_qu1QyQEisA8S3XEI,2127
+lightmotif/tests/__init__.py,sha256=SVp0272CwQvGPn1geN96kvij2ejYRkhlAP4dBf0LPZs,299
+lightmotif/tests/test_pvalue.py,sha256=JmodVofCDKzGU1IUVZ7yPqHjlQZhDgnOyFcJVBS77XM,777
+lightmotif/tests/unittest.rs,sha256=i507prtADhLOFPu2quNEuKB2-Yiu118iNyehrDuMPgg,1484
+lightmotif/tests/test_pipeline.py,sha256=a2fUgpk1eU5nbYAEy7e75HaLtBeBYC6hVMbv9Vkf8zg,1415
+lightmotif-0.8.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lightmotif-0.8.0.dist-info/RECORD,,
+lightmotif-0.8.0.dist-info/WHEEL,sha256=0BG0vRfXE4xhXOVR3atjDq9YLDwNiOg_Aa6NyijgmQg,108
+lightmotif-0.8.0.dist-info/COPYING,sha256=gjc-4BjloJlLnT70onjmay99ePKgf00618tEbXavCkA,1098
+lightmotif-0.8.0.dist-info/top_level.txt,sha256=v_ynh2gr_I4KdZc-5cw0kVx8wHnfySKdMKSl_Bm8Zpk,11
+lightmotif-0.8.0.dist-info/METADATA,sha256=3aR5YhTf4_VZE7_sFxytgFe34MK_RCZbUgkfcAFI860,11226
