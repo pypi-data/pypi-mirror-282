@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+mdpw/__init__.py
+mdpw/drums.py
+mdpw/instruments.py
+mdpw.egg-info/PKG-INFO
+mdpw.egg-info/SOURCES.txt
+mdpw.egg-info/dependency_links.txt
+mdpw.egg-info/requires.txt
+mdpw.egg-info/top_level.txt
