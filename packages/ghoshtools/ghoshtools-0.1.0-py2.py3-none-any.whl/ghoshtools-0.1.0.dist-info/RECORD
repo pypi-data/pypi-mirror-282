@@ -1,0 +1,16 @@
+ghoshtools/__init__.py,sha256=rC8JlOLZv3MEzDSdG8gJqwjuZgUze8YQFuFG7qPpNSY,2056
+ghoshtools/extract_method.py,sha256=8jIlRkQwosBt53f-91ulAk4U8de8waTabVAM8TOf5_o,2711
+ghoshtools/ghoshtools.py,sha256=Bcbd_VZyA__EIpAdbn3gav3m3OCJVTYuoj0UVUFtAns,13048
+ghoshtools/globals.py,sha256=C2WP5hmLdzNMCkEru0IcGLdry3BqLKtWwJigkAaSH7A,173
+ghoshtools/utils.py,sha256=78qkOdKqcj5FqUDnyt8aDABGexALg6dD3JF4zni8dao,1718
+ghoshtools/resources/nextflow.config,sha256=Jl39O2n_PcsUGuy76UZEz5uZvs__3u5TFVMiJIyfXCA,1662
+ghoshtools/resources/nextflow_helper_script.py,sha256=jqikKIR4c7qX-nZtKQG22pw6K4FyT1fjk_vKC11vpPg,2026
+ghoshtools/resources/poop.yml,sha256=IAuKJzTxFPAjJPd7mSWDOW1Gyhos3IT2LghO8zc6EIU,13280
+ghoshtools/resources/run_python_function.nf,sha256=keoFlXjKLarVk5Fqg9NH96hGuGq4SU0vJaWC9MsNnQM,970
+ghoshtools/resources/run_python_function_batched.nf,sha256=jBKRoIKjaVEGeGxHiobDwZVzrbfo5gKBz1QbOatFdDw,2031
+ghoshtools-0.1.0.dist-info/AUTHORS.rst,sha256=t1TPC4LAYvJQVi7OFV8D82rWXuq33BjCgmjSMKD2xB4,157
+ghoshtools-0.1.0.dist-info/LICENSE,sha256=DsHpsJl0-y1J62ZJfPiR3dJbTg6aFKSKTzuO0tVgMac,1070
+ghoshtools-0.1.0.dist-info/METADATA,sha256=kP0LfZTsQhSGGqJ7uGWCz9BcP3ieipZRwQp8ZKWAbOY,1770
+ghoshtools-0.1.0.dist-info/WHEEL,sha256=pOwdCRdxkCaq8tWTvnGIC-q_meWYHwmqvvQPkeaM2I4,109
+ghoshtools-0.1.0.dist-info/top_level.txt,sha256=-BP9A7HTJUfkscaPLqOqcPd93EpN0mqZRzZQU7Elss8,11
+ghoshtools-0.1.0.dist-info/RECORD,,
