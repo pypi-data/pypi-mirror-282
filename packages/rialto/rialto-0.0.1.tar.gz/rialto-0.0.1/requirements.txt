@@ -1,0 +1,5 @@
+python-dotenv
+specklepy
+pandas
+requests
+twine
