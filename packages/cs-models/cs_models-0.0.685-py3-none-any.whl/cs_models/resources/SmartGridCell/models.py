@@ -1,0 +1,45 @@
+from datetime import datetime
+
+from sqlalchemy import Column, DateTime, Boolean, ForeignKey, Integer, Text, String
+from sqlalchemy.orm import relationship
+
+from ...database import Base
+
+
+class SmartGridCellModel(Base):
+    __tablename__ = "smart_grid_cells"
+
+    id = Column(Integer, primary_key=True)
+    block_id = Column(
+        Integer,
+        ForeignKey("workbook_blocks.id"),
+        nullable=False,
+    )
+    row = Column(Integer, nullable=False)
+    col = Column(Integer, nullable=False)
+    type = Column(String(20), nullable=False)
+    data = Column(Text, nullable=True)
+    user_query_id = Column(
+        Integer,
+        ForeignKey("assistant_user_queries.id"),
+        nullable=True,
+    )
+    is_deleted = Column(Boolean, nullable=True)
+    updated_at = Column(
+        DateTime,
+        nullable=False,
+        # https://stackoverflow.com/questions/58776476/why-doesnt-freezegun-work-with-sqlalchemy-default-values
+        default=lambda: datetime.utcnow(),
+        onupdate=lambda: datetime.utcnow(),
+    )
+
+    # These are ORM fields. Don't need to be added in the corresponding migration.
+    # https://docs.sqlalchemy.org/en/14/orm/tutorial.html#building-a-relationship
+    workbook_block = relationship(
+        "WorkbookBlockModel",
+        back_populates="grid",
+    )
+
+    user_query = relationship(
+        "AssistantUserQueryModel",
+    )
