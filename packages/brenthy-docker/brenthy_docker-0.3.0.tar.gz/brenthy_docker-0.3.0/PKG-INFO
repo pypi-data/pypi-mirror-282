@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: brenthy_docker
+Version: 0.3.0
+Summary: Interact with docker containers running IPFS and Brenthy.
+Project-URL: Github, https://github.com/emendir/BrenthyAndWalytis/tree/master/tests/brenthy_docker/brenthy_docker/ReadMe.md
+Project-URL: Homepage, https://emendir.tech/#BrenthyAndWalytis/tests/
+Project-URL: IPNS, https://ipfs.io/ipns/emendir.tech/#BrenthyAndWalytis/tests/
+Keywords: brenthy,walytis,docker,test
+Description-Content-Type: text/markdown
+Requires-Dist: docker
+Requires-Dist: ipfs-toolkit
+Requires-Dist: termcolor
+Requires-Dist: pyperclip
+
+# Brenthy Docker Python Package
+
+This package contains a `BrenthyDocker` class for interacting with docker containers running IPFS and Brenthy.
+It contains useful methods for managing containers, transferring files into them and running python and bash code in them.
+
+The main use-case for this class is for automated tests of Brenthy's blockchains and the applications built on them.
+
+
+## Usage
+
+**Simplest:**
