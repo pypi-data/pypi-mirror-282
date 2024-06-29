@@ -1,0 +1,2 @@
+[console_scripts]
+my-quran = my_Quran.main:run
