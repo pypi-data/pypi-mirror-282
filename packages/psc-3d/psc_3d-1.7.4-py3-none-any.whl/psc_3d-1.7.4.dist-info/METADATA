@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: psc-3d
+Version: 1.7.4
+Summary: # Solubility Calculator (Version: 1.7.4)
+Home-page: UNKNOWN
+Author: Ronald Oguz
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: rich
+
+UNKNOWN
+
