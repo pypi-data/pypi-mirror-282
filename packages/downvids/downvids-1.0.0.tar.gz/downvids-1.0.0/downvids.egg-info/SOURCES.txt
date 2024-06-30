@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+downvids/__init__.py
+downvids/downvids.py
+downvids.egg-info/PKG-INFO
+downvids.egg-info/SOURCES.txt
+downvids.egg-info/dependency_links.txt
+downvids.egg-info/entry_points.txt
+downvids.egg-info/requires.txt
+downvids.egg-info/top_level.txt
