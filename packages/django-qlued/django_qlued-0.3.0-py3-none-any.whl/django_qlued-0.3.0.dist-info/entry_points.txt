@@ -1,0 +1,3 @@
+[console_scripts]
+runtests=runtests:run_test
+
