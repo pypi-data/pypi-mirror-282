@@ -1,0 +1,2 @@
+[console_scripts]
+edictor3 = edictor.cli:main

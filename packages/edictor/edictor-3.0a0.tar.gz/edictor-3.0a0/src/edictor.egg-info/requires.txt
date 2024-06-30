@@ -1,0 +1,15 @@
+
+[dev]
+build
+wheel
+twine
+tox
+
+[lingpy]
+lingpy
+lingrex
+
+[test]
+pytest
+pytest-cov
+coverage
