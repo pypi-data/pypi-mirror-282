@@ -1,0 +1,123 @@
+# WS2812-GPT-LP
+
+This library allows you to control WS2812 LEDs using SPI on Orange Pi. Tested on Orange Pi 5 plus.
+Cette bibliothèque permet de contrôler les LEDs WS2812 via SPI sur Orange Pi.
+
+## Important Note
+**You must solder a 100nF capacitor between the VCC and GND of the WS2812 LEDs to avoid interference.**
+
+## Before you start
+
+Depending on the board you are using, multiple SPI buses may be enabled depending on which pin you want to use.<br>
+For example, on the Orange Pi 5 Plus, there are 3 SPI buses: SPI0-m2, SPI4-m1, and SPI4-m2.<br>
+You must connect the signal line of the WS2812 LEDs to the MOSI pin of the SPI bus that you have activated on your Orange Pi.<br>
+You should refer to this table: http://www.orangepi.org/orangepiwiki/index.php/Orange_Pi_5_Plus#40_pin_SPI_test_2
+
+If you enable SPI0-m2, the LED must be connected to pin 19.<br>
+If you enable SPI4-m1, the LED should be connected to pin 12.<br>
+If you enable SPI4-m2, the LED should be connected to pin 8.<br>
+
+Example of SPI4-m2 activation: you must edit the file `/boot/armbianenv.txt` or `/boot/dietpiEnv.txt`<br>
+and add this line: `overlays=spi4-m2-cs0-spidev`
+
+The different activated modules must be separated by a space:<br>
+`overlays=i2c2-m0 spi4-m2-cs0-spidev pwm11-m0`
+
+After saving your file, you must reboot.
+
+After reboot, you can check the correct loading of the SPI module by running: `ls /dev/spi*`<br>
+It should return something like: `/dev/spidev4.0`
+
+Notice the ending `/dev/spidev4.0` => 4 and 0 you will need to config the library. First number is spi_bus, second number is spi_device, hold it.<br>
+
+Remember that all this concerns exclusively the Orange Pi 5 Plus board. If you use another board, you must refer to its documentation to know the SPI buses.
+
+## Installation
+
+pip install spidev ws2812-gpt-lp
+
+## Usage example
+
+from ws2812_gpt_lp import WS2812
+
+# Configuration
+If numbers of LED you are using is 12:<br>
+num_leds = 12<br>
+ws2812 = WS2812(spi_bus=4, spi_device=0, num_leds=num_leds)
+
+# Example - Set colors for 8 LEDs
+
+The color is defined by a value which goes from 0 to 255 the maximum.
+
+colors = [<br>
+    (255, 0, 0),  # Red<br>
+    (0, 255, 0),  # Green<br>
+    (0, 0, 255),  # Blue<br>
+    (255, 255, 0),  # Yellow<br>
+    (0, 255, 255),  # Cyan<br>
+    (255, 0, 255),  # Magenta<br>
+    (255, 255, 255),  # White<br>
+    (0, 0, 0)     # Black (off)<br>
+]
+
+ws2812.send_colors(colors)
+
+# Change the color of the first LED to blue
+ws2812.send_color(0, 0, 0, 255) # send_color( <LED index>, <Red value>, <Green value>, <Blue value> )
+
+# Turn off all LEDs
+ws2812.send_off()
+
+# Set all LEDs to red
+ws2812.send_to_all(255, 0, 0)	# send_to_all( <Red value>, <Green value>, <Blue value> )
+
+# Close the SPI connection
+ws2812.close()
+
+# Example.py
+
+- Connect the plus of the ws2812 LED to the VCC 5V pin.
+- Connect the Sign IN pin of the LED to physical pin 8 of the Orange Pi.
+- Connect the GND pin of the LED to any GND pin di pi.
+
+```
+import spidev
+from ws2812_gpt_lp import WS2812
+import time
+
+if __name__ == "__main__":
+    num_leds = 12
+    ws2812 = WS2812(spi_bus=4, spi_device=0, num_leds=num_leds)
+
+    # Changer la couleur de la première LED à bleu
+    ws2812.send_color(0, 0, 0, 255)
+    time.sleep(5)
+
+    # Éteindre toutes les LEDs
+    ws2812.send_off()
+    time.sleep(1)
+
+    # Envoyer la couleur rouge à toutes les LEDs
+    ws2812.send_to_all(255, 0, 0)
+    time.sleep(5)
+
+    # Éteindre toutes les LEDs
+    ws2812.send_off()
+
+    # Terminer la connexion SPI
+    ws2812.close()
+```
+
+run with : 
+
+```
+python3 Example.py
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Authors
+
+This library was jointly developed by Laurent Pastor and ChatGPT 4.
