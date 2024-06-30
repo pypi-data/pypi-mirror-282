@@ -1,0 +1,20 @@
+[build-system]
+requires = ["maturin>=0.14,<0.15"]
+build-backend = "maturin"
+
+[project]
+name = "orgora"
+requires-python = ">=3.9"
+classifiers = [
+	"Programming Language :: Rust",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Programming Language :: Python :: Implementation :: PyPy",
+]
+description = "org mode peg parser"
+
+[project.urls]
+Homepage = "https://github.com/codegod100/orgorapython"
+
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
