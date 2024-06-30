@@ -1,0 +1,20 @@
+[project]
+name = "bfiola-operator-core"
+version = "0.2.4a0"
+dependencies = [
+    "fastapi",
+    "kopf",
+    "lightkube",
+    "lightkube-models",
+    "pydantic",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine"
+]
+
+[tool.setuptools.packages.find]
+include = ["operator_core"]

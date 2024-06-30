@@ -1,0 +1,10 @@
+fastapi
+kopf
+lightkube
+lightkube-models
+pydantic
+uvicorn
+
+[dev]
+build
+twine
