@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pandasxmltool
+Version: 1.0.0
+Summary: Pandas and XML Measurement Tool
+Home-page: 
+Author: ROInsight
+Author-email: <roinsight.com@gmail.com>
+License: BSD
+Keywords: python,audit
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Version Control :: Git
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
