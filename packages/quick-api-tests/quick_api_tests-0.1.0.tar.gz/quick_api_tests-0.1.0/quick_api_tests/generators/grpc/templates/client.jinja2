@@ -1,0 +1,65 @@
+from abc import (
+    ABC,
+)
+from typing import (
+    Optional,
+    List,
+    Tuple,
+    Iterable,
+)
+import google.protobuf.empty_pb2 as empty_pb2
+{% if imports %}
+{%  for import in imports %}
+{{ import }}
+{%  endfor %}
+{% endif %}
+
+from quick.grpc_client.sync_client import BaseSyncClient
+
+Empty = empty_pb2.Empty
+
+class {{ stub_name }}(BaseSyncClient, ABC):
+    stub_factory = _{{ stub_name }}
+
+    {% for handler in handlers %}
+    def {{ handler.stub_method | to_snake_case }}(
+        self,
+        {% if handler.method_type == 'UnaryUnary' %}
+        request: {{ handler.request }},
+        metadata: Optional[List[Tuple[str, str]]] = None,
+        timeout: Optional[float] = None,
+        {% elif handler.method_type == 'UnaryStream' %}
+        request: {{ handler.request }},
+        metadata: Optional[List[Tuple[str, str]]] = None,
+        timeout: Optional[float] = None
+        {% elif handler.method_type == 'StreamStream' %}
+        request_iterator: Iterable[{{ handler.request }}],
+        metadata: Optional[List[Tuple[str, str]]] = None,
+        timeout: Optional[float] = None
+        {% elif handler.method_type == 'StreamUnary' %}
+        request_iterator: Iterable[{{ handler.request }}],
+        metadata: Optional[List[Tuple[str, str]]] = None,
+        timeout: Optional[float] = None
+        {% endif %}
+        {% if handler.method_type == 'UnaryUnary' or handler.method_type == 'StreamUnary'%}
+    ) -> {{ handler.response }}:
+        {% elif handler.method_type == 'UnaryStream'  or handler.method_type == 'StreamStream'%}
+    ) -> Iterable[{{ handler.response }}]:
+        {% endif %}
+        call = self._do_call(
+            "{{ handler.stub_method }}",
+            {% if handler.method_type == 'UnaryUnary' %}
+            request=request,
+            {% elif handler.method_type == 'UnaryStream' %}
+            request=request,
+            {% elif handler.method_type == 'StreamStream' %}
+            request_iterator=request_iterator,
+            {% elif handler.method_type == 'StreamUnary' %}
+            request_iterator=request_iterator,
+            {% endif %}
+            metadata=metadata,
+            timeout=timeout,
+        )
+        return call
+
+    {% endfor %}
