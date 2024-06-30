@@ -1,0 +1,15 @@
+[package]
+name = "corrosiff-python"
+version = "0.1.1"
+edition = "2021"
+rust-version = "1.66.0"
+
+[dependencies]
+corrosiff = { git = "https://github.com/MaimonLab/Corrosiff.git" , branch = "master"}
+#corrosiff = {path = "../corrosiff"}
+numpy = ">=0.18"
+pyo3 = { version = ">=0.21", features = ["extension-module"] }
+
+[lib]
+name = "corrosiffpy"
+crate_type = ["cdylib"]
