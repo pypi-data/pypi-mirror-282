@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ofxstatement-satispay
+Version: 0.1.3
+Summary: A ofxstatement plugin to manage Satispay CSVs
+Home-page: https://github.com/bennesp/ofxstatement-satispay
+Keywords: ofx,banking,statement,plugin,ofxstatement
+Author: bennesp
+Author-email: bennesp@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: babel (>=2.15.0,<3.0.0)
+Requires-Dist: ofxstatement (>=0.9.1,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Satispay plugin for ofxstatement
+
+This project provides the plugin for ofxstatement to convert Satispay CSVs
+
+[ofxstatement](https://github.com/kedder/ofxstatement) is a tool to
+convert proprietary bank statement to OFX format, suitable for importing
+to GnuCash. Plugin for ofxstatement parses a particular proprietary bank
+statement format and produces common data structure, that is then
+formatted into an OFX file.
+
+Users of ofxstatement have developed several plugins for their banks.
+They are listed on main
+[ofxstatement](https://github.com/kedder/ofxstatement) site. If your
+bank is missing, you can develop your own plugin.
+
+
