@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: noisecc
+Version: 0.0.2
+Summary: An Ambient Noise Package
+License: Apache-2.0
+Author: Fu Yin
+Author-email: oucyinfu@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Provides-Extra: full
+Requires-Dist: h5py (>=3.11.0,<4.0.0)
+Requires-Dist: joblib (>=1.4.2,<2.0.0)
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: obspy (>=1.4.1,<2.0.0)
+Requires-Dist: scipy (>=1.14.0,<2.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Description-Content-Type: text/markdown
+
+# NoiseCC
+
+[![Actions Status](https://github.com/ohmyshake/noisecc/actions/workflows/workflow.yml/badge.svg)](https://github.com/ohmyshake/noisecc/actions)
+[![coverage](https://codecov.io/gh/ohmyshake/noisecc/branch/main/graph/badge.svg)](https://codecov.io/gh/ohmyshake/noisecc)
+[![docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://ohmyshake.github.io/noisecc/)
+[![supported versions](https://img.shields.io/pypi/pyversions/noisecc.svg?label=python_versions)](https://pypi.python.org/pypi/noisecc)
+[![](https://badge.fury.io/py/noisecc.svg)](https://badge.fury.io/py/noisecc)
+
+
+A python package for ambient noise cross-correlation leveraging CPUs and GPUs.
+
+**WARNING**: NoiseCC is still very new and under development.
+
+
