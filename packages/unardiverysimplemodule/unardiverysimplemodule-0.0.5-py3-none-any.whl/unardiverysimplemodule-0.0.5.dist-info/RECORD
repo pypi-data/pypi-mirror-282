@@ -1,0 +1,11 @@
+unardiverysimplemodule/__init__.py,sha256=2DGZnRmL5W_AUsB6POEf5KRyqS5MesO8xjPWCWXzCzQ,56
+unardiverysimplemodule/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unardiverysimplemodule/add.py,sha256=wOKxilrMIGI2gidTcLtMMNHwXC_f5DNAWLcl_vnGzPo,30
+unardiverysimplemodule/subtract.py,sha256=a27Ons0u7KW5upCd-w-2jH27yp81XRrlWxWCG3ciZ8g,35
+unardiverysimplemodule/extras/__init__.py,sha256=kaL7lUX84Sv-2geITdXqplMK-h-mkUjtsOF4Ds2z-hk,62
+unardiverysimplemodule/extras/divide.py,sha256=dFcm7rgp14qB4E9YlYlid1W5s2CKjtzCLgT1OF9f9gI,33
+unardiverysimplemodule/extras/multiply.py,sha256=vOnB8Ny7THMCJXlA8aR0qa4fSfo3QG5Oh7gYMYZYaWU,35
+unardiverysimplemodule-0.0.5.dist-info/METADATA,sha256=UEKb67uGfScdoRJtoE68yCDCzVilWwZcG5stICneXf4,530
+unardiverysimplemodule-0.0.5.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+unardiverysimplemodule-0.0.5.dist-info/top_level.txt,sha256=5-bSDecbg_al90k2Zn1xWakIDIVIr34J9dWzer_7j4c,23
+unardiverysimplemodule-0.0.5.dist-info/RECORD,,
