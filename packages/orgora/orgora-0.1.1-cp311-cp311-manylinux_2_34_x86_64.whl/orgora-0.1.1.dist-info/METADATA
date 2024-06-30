@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: orgora
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9
+Project-URL: Homepage, https://github.com/codegod100/orgorapython
