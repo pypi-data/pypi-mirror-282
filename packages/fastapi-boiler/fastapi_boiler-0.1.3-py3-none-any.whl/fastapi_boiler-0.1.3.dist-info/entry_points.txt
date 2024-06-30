@@ -1,0 +1,4 @@
+[console_scripts]
+fastapi-boiler=fastapi_boiler.create_app:create_app
+fastapi_boiler=fastapi_boiler.create_app:create_app
+
