@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: traderman
+Version: 0.0.dev1
+Summary: Python SDK to build, train, and deploy trading systems
+Author-email: Francisco Munoz <if.francisco.me@gmail.com>
+Maintainer-email: Francisco Munoz <if.francisco.me@gmail.com>
+Project-URL: Homepage, https://github.com/iteralabs/traderman
+Project-URL: Issues, https://github.com/iteralabs/traderman/issues
+Keywords: python3,trading,sdk
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: requests
+Requires-Dist: toml
+Provides-Extra: dev
+Requires-Dist: rich ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# Traderman
+Python SDK to build, train, stress-test, deploy and monitor trading strategies
+
+# installation
+
+## Using pip
+
+```shell
+pip install traderman
+
+```
+
+## Clone repo
+
+```shell
+git clone
+```
+
+# Usage
+
+1. install with pip
+2. Add `api_key` and `secret_key` as environment variables
+3. run `python3 -m examples/basic_trading.py`
+
+## References
+
+Environment Variables
+
+BINANCE_API_KEY
+BINANCE_SECRET_KEY
