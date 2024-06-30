@@ -1,0 +1,2 @@
+[console_scripts]
+ivory = ivory.main:app
