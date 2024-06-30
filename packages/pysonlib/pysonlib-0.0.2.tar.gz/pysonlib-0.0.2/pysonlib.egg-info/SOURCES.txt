@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pysonlib/__init__.py
+pysonlib/__main__.py
+pysonlib/pyson_helper.py
+pysonlib/pyson_object.py
+pysonlib/resources.py
+pysonlib.egg-info/PKG-INFO
+pysonlib.egg-info/SOURCES.txt
+pysonlib.egg-info/dependency_links.txt
+pysonlib.egg-info/top_level.txt
+resources/data.pyson
+tests/__init__.py
+tests/test_one.py
