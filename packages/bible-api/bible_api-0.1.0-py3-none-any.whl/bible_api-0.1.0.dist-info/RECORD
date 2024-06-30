@@ -1,0 +1,10 @@
+bible_api/__init__.py,sha256=e6XYdg8sbHyjzeTzxuOJ7xW9_23sIZaAA41REiMUdJ8,97
+bible_api/analysis.py,sha256=9bDNXbBq3Xcy9obrEL4ND3LuoomSEQo_iZGN1WxZLhQ,1441
+bible_api/data.py,sha256=Szk-PRMkyBP1CLGvsWobLhGiXg3TS83J3AAlGuAHXDc,187
+bible_api/query.py,sha256=sfAAizvdEvzkrAnRvNB-O7QvpFhcXslD-3PehovdNco,1197
+bible_api/quiz.py,sha256=rhlu-BlbDARk81MIqleSrf3KxjSEAirhIWr5qy_foQ4,4892
+bible_api-0.1.0.dist-info/METADATA,sha256=CRfDy542eXhiZDwHYDs3EMhUyK0UTT4uUIf4vCO9wA8,823
+bible_api-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bible_api-0.1.0.dist-info/entry_points.txt,sha256=XVFIbhBo0rh11CV0kIj6kXNyNKg2HMo1IIzzVZ-2XMU,54
+bible_api-0.1.0.dist-info/top_level.txt,sha256=XzPJ6-LVNRuAOvmv7vfvKhWKjfrLm1r0_bpt5mN6XSE,10
+bible_api-0.1.0.dist-info/RECORD,,
