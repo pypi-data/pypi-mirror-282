@@ -1,0 +1,9 @@
+hexon_mini/__init__.py,sha256=qOr6QDncnB7OE7k2jdm5R0KBz1LE2qXvCdxwfJN_w6w,43
+hexon_mini/hexon_mini_client.py,sha256=dQW-6R58rRTdVCsJ_94WLc2o2ostGwTNMcFqfXf6jdE,3432
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hexon_mini.py,sha256=_UNdGz-iISHP-a1HV1gtdgnb0jHL-pHf3RqyYf4qN4E,876
+hexon_mini-0.1.2.dist-info/LICENSE,sha256=tMmDXsv2ynKHCVWpHa0yfML3O-z41twQaAxl63p5k5M,1092
+hexon_mini-0.1.2.dist-info/METADATA,sha256=8a-wTLatpMdFh_xNimqGW3MeozKnHjnnOws2cPL4ows,650
+hexon_mini-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hexon_mini-0.1.2.dist-info/top_level.txt,sha256=UHmf7lVdRWfCMBAskep5pfYrYJg0kT6PpVek5tQSItY,17
+hexon_mini-0.1.2.dist-info/RECORD,,
