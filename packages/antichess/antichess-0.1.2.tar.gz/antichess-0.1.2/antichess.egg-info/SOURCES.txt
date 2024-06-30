@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+antichess/Agent.py
+antichess/AntiChessGame.py
+antichess/GameState.py
+antichess/Piece.py
+antichess/__init__.py
+antichess.egg-info/PKG-INFO
+antichess.egg-info/SOURCES.txt
+antichess.egg-info/dependency_links.txt
+antichess.egg-info/requires.txt
+antichess.egg-info/top_level.txt
