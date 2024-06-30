@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: animefan
+Version: 1.1.2
+Summary: A CLI tool for anime quotes and ASCII art
+Home-page: https://github.com/arman0333/anime-cli
+Author: Arman Sethi
+Author-email: armansethi64@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pyfiglet
+
