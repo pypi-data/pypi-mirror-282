@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bootloader_flashing
+Version: 0.1.3
+Summary: utils for flashing bootloader
+Home-page: https://github.com/my-python-utils/bootloader_flashing
+License: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bootloader Flashing
+
+[![Upload Python Package](https://github.com/my-python-utils/bootloader_flashing/actions/workflows/python-publish.yml/badge.svg)](https://github.com/my-python-utils/bootloader_flashing/actions/workflows/python-publish.yml)
+
+> utils for flashing bootloader
+
+## help
+
+- [Bootloader](https://www.canfd.net/bootloader.html)
+
+- [S19&HEX](https://www.canfd.net/s19.html)
