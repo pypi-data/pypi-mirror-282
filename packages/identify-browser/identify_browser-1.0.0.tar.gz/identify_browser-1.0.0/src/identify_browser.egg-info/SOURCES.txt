@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/identify_browser/__init__.py
+src/identify_browser.egg-info/PKG-INFO
+src/identify_browser.egg-info/SOURCES.txt
+src/identify_browser.egg-info/dependency_links.txt
+src/identify_browser.egg-info/requires.txt
+src/identify_browser.egg-info/top_level.txt
+tests/test_identify_browser.py
