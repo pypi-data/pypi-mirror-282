@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: exchange_rates-selim
+Version: 0.1
+Summary: A Python library for fetching exchange rates.
+Home-page: https://github.com/selimerdinc/exchange-rates-selim
+Author: selimerdinc
+Author-email: serdinc10@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: flask
+Requires-Dist: flasgger
+
