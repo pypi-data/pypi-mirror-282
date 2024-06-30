@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: SwimM
+Version: 0.0.1
+Summary: A simple math example library
+Home-page: http://github.com/PsilAxis/SwimMath
+Author: SWIM
+Author-email: example@gmail.com
+License: MIT
+License-File: LICENSE

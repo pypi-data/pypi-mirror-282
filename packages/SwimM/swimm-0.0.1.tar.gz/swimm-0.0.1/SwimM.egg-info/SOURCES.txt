@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+SwimM.egg-info/PKG-INFO
+SwimM.egg-info/SOURCES.txt
+SwimM.egg-info/dependency_links.txt
+SwimM.egg-info/top_level.txt
+SwimMath/Math.py
+SwimMath/__init__.py
