@@ -1,0 +1,2 @@
+[console_scripts]
+bible_api = bible_api.__main__:main
