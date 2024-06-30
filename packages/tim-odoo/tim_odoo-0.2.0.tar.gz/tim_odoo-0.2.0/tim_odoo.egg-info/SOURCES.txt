@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+code/__init__.py
+code/main.py
+tim_odoo.egg-info/PKG-INFO
+tim_odoo.egg-info/SOURCES.txt
+tim_odoo.egg-info/dependency_links.txt
+tim_odoo.egg-info/top_level.txt
