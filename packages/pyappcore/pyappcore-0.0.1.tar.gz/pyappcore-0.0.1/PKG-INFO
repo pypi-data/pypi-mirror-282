@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyappcore
+Version: 0.0.1
+Summary: Python Simple Framework.
+Home-page: https://github.com/ddukbaek2/pyappcore
+Author: ddukbaek2
+Author-email: ddukbaek2@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyappcore
+- 파이썬 기반의 앱을 구현할 때 사용할 수 있는 프레임워크 입니다.
