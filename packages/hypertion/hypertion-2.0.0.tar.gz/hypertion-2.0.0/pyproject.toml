@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hypertion"
+version = "2.0.0"
+description = "Streamlined and Efficient LLM function calling."
+authors = ["Harsh Verma <synacktra.work@gmail.com>"]
+keywords = ["function-calling", "functionary", "gorilla", "mistral", "claude", "gpt"]
+readme = "readme.md"
+license = "GPL-3.0-only"
+homepage = "https://github.com/synacktraa/hypertion"
+repository = "https://github.com/synacktraa/hypertion"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+pydantic = ">=1.10"
+docstring-parser = "^0.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
