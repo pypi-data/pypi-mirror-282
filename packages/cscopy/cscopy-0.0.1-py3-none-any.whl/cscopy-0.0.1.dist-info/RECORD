@@ -1,0 +1,11 @@
+cscopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cscopy/cli.py,sha256=XyXwRwXRDF2zZU9YpdzRpBzTBm6FpI4KsGXl5vEKQng,517
+cscopy/model.py,sha256=0cXGkmt2NaOw_INyToi84T4UDq57c7FDZqQWqfGgNUo,395
+cscopy/workspace.py,sha256=sF-MB-LL-jd9J4sTFwlBi_6rMA6NEeqY9CwdBR5Xq90,4779
+cscopy/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cscopy/utils/common.py,sha256=IBYE_5GNhin10JltQxYVMvOcG0AHNPtd-p-JqD5s3Vo,1012
+cscopy-0.0.1.dist-info/LICENSE,sha256=pWcgMkMJd4oqSgyMEdZQqkkfBxOFafK8FsYAjAg3hE8,1068
+cscopy-0.0.1.dist-info/METADATA,sha256=w4juQmqgPoVc4Da3R84hUk4RE4_KTleXukPQH1ITUAo,274
+cscopy-0.0.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+cscopy-0.0.1.dist-info/top_level.txt,sha256=lAh7MxywGu59Iu7atUTWDYcoy1w9ASZhQnU3N1xcEV8,7
+cscopy-0.0.1.dist-info/RECORD,,
