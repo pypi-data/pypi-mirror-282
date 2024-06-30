@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: myrecorder
+Version: 0.0.0.6rc0
+Home-page: 
+Author: Nghia Huynh
+Author-email: huynhnguyenhieunghia1999@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=0.63
+Requires-Dist: SpeechRecognition
