@@ -1,0 +1,3 @@
+[console_scripts]
+pbo = portobello.cli:main
+portobello = portobello.cli:main
