@@ -1,0 +1,6 @@
+[console_scripts]
+YWP = YWP:help
+YWP.help = YWP:help
+YWP.install_packages = YWP:install_system_packages
+YWP.upgrade_libraries = YWP:upgrade_required_libraries
+YWP.upgrade_library = YWP:upgrade_library
