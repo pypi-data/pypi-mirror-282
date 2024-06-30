@@ -1,0 +1,4 @@
+Copyright (c) 2024-present Buehler Maximilian <maximilian.buehler@tuwien.ac.at>
+
+
+This software is released under the GNU AGPLv3 license. The license can be found at https://www.gnu.org/licenses/agpl-3.0.html
