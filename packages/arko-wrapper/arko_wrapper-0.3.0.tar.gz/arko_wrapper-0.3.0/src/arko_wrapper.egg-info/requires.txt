@@ -1,0 +1,8 @@
+typing_extensions
+
+[more]
+more-itertools
+
+[test]
+pytest
+pytest-rerunfailures
