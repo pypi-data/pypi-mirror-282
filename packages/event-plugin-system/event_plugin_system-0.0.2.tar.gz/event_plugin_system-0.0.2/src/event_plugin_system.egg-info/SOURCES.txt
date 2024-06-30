@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/event_plugin_system.egg-info/PKG-INFO
+src/event_plugin_system.egg-info/SOURCES.txt
+src/event_plugin_system.egg-info/dependency_links.txt
+src/event_plugin_system.egg-info/top_level.txt
