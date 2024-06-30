@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ImageProcessingApp_CPS
+Version: 0.1.4
+Summary: This is a django application for image processing
+Home-page: https://github.com/HariNarayan-IIC/ImageProcessingApp
+Author: R Hari Narayan
+Author-email: 
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Django
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Django==5.0.6
+Requires-Dist: numpy==1.26.4
+Requires-Dist: opencv-python==4.9.0.80
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: tzdata==2024.1
+
+# ImageProcessingApp
+This is a Django based Python web application designed for image processing .
