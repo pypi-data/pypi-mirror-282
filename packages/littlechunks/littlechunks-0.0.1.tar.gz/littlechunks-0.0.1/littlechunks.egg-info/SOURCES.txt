@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+littlechunks/__init__.py
+littlechunks/__main__.py
+littlechunks/csv.py
+littlechunks/utils.py
+littlechunks.egg-info/PKG-INFO
+littlechunks.egg-info/SOURCES.txt
+littlechunks.egg-info/dependency_links.txt
+littlechunks.egg-info/entry_points.txt
+littlechunks.egg-info/requires.txt
+littlechunks.egg-info/top_level.txt
+littlechunks/data/chunk_0.csv
+littlechunks/data/chunk_1.csv
+littlechunks/data/chunk_2.csv
+littlechunks/data/test_file.csv
