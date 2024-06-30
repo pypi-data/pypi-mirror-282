@@ -1,0 +1,3 @@
+[console_scripts]
+contextify=contextify.__main__:main
+
