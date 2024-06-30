@@ -1,0 +1,5 @@
+typing-extensions>=4.9
+
+[doc]
+myst_nb
+sphinx_book_theme
