@@ -1,0 +1,8 @@
+README.md
+gavathilang_cli.py
+setup.py
+gavathilang_cli.egg-info/PKG-INFO
+gavathilang_cli.egg-info/SOURCES.txt
+gavathilang_cli.egg-info/dependency_links.txt
+gavathilang_cli.egg-info/entry_points.txt
+gavathilang_cli.egg-info/top_level.txt
