@@ -1,0 +1,4 @@
+pydantic
+pyjwt
+fastapi
+motor
