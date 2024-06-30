@@ -1,0 +1,9 @@
+profanity_check/__init__.py,sha256=_y3VZZsZjfdFv826bDS6BN54UWCChTw5JmwAyuxeXLg,71
+profanity_check/data/clean_data.csv,sha256=J7X5dJh1szIgEWu8evwnwqPBN0yDA2IY3cj00YuYAhk,65535263
+profanity_check/data/model.joblib,sha256=PcvWkRUzJqqwbEHwY2sFXMGMjsM-ijDrcE224Jx7Fy4,621256
+profanity_check/data/vectorizer.joblib,sha256=-9zyK84iglmvxQwSKoh2qBNuXmEcyJ6rvNPN5gnIzus,4080201
+profanity_check/profanity_check.py,sha256=TgsZ7jtuoLTtarC3AbBIog6tD82yrYkD0bnTGVgps4k,2195
+profanity_check2-0.1.1.dist-info/LICENSE,sha256=qoi7lBw8vnmMj67BZ1av0F03_DkpSvvoNBgeXyw4Glc,1068
+profanity_check2-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+profanity_check2-0.1.1.dist-info/METADATA,sha256=ksnoqvuxvaZ_voBROemqDHk02jqcdyVRb-nFCvGMbP4,6690
+profanity_check2-0.1.1.dist-info/RECORD,,
