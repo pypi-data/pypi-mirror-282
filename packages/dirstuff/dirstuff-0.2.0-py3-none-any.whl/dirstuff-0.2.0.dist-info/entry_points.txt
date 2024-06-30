@@ -1,0 +1,3 @@
+[console_scripts]
+dirstuff=dirstuff._cli.main:main
+
