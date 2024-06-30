@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: githubcifun
+Version: 0.1.4
+Summary: 
+Author: Konstantin Wrede
+Author-email: konstantin.wrede@eas.iis.fraunhofer.de
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fmpy (>=0.3.20,<0.4.0)
+Requires-Dist: gymnasium (>=0.29.1,<0.30.0)
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pytest (>=8.1.1,<9.0.0)
+Requires-Dist: pytest-cov (>=5.0.0,<6.0.0)
+Description-Content-Type: text/markdown
+
+# GitHubCIFun
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![CI](https://github.com/wredsen/GitHubCIFun/actions/workflows/python-package.yml/badge.svg)
+
+
+Trying out how Github CI works
+
