@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-gitignore-generator
+Version: 0.0.1
+Summary: Library to create gitignore files
+Author: yeffian (Adit Chakraborty)
+Author-email: <mail@adit.chakraborty2009@gmail.com>
+Keywords: python,github,git,tools
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+
+A package that allows you to get gitignore's for different languages and/or frameworks.
