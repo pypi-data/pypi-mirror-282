@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "appium-swipe-actions"
+version = "0.1.0"
+description = "Enhanced Swipe Actions Library for Appium."
+authors = ["Tanakrit-D <127579510+Tanakrit-D@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Appium-Python-Client = "^4.0.0"
+selenium = "^4.20.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.0"
+pylint-pytest = "^1.1.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
