@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: LangChainUtility
+Version: 0.0.1
+Summary: LangChain Utility Library
+Home-page: https://github.com/snoopykr/LangChainUtility
+Author: Lee Wan
+Author-email: snoopy_kr@yahoo.com
+Keywords: langchain,snoopy_kr
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+License-File: LICENSE
+Requires-Dist: langchain
+
