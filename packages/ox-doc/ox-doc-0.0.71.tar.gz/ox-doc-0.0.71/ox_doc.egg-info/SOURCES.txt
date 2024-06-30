@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+ox_doc/__init__.py
+ox_doc/ld.py
+ox_doc.egg-info/PKG-INFO
+ox_doc.egg-info/SOURCES.txt
+ox_doc.egg-info/dependency_links.txt
+ox_doc.egg-info/requires.txt
+ox_doc.egg-info/top_level.txt
+test/test.oxd.py

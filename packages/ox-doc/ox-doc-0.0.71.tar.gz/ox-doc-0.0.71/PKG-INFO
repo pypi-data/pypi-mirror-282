@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ox-doc
+Version: 0.0.71
+Summary: A lib to handle documents read write of different data structures efficiently and serialization, deserialization and processing
+Home-page: https://github.com/ox-ai/ox-doc.git
+Author: Lokeshwaran M
+Author-email: lokeshwaran.m23072003@gmail.com
+License: MIT
+Keywords: ox-doc ox-ai
+License-File: LICENSE
