@@ -1,0 +1,9 @@
+pymailscraper/__init__.py,sha256=QBKTc5ipe1thipvwFdHJFEPxkYCcbOBnMPkE81nk7vE,83
+pymailscraper/cli.py,sha256=Y3qwIAv7_oiLT72Cvdx3fx24WGD2fkdVW1ajAK_VBsY,3234
+pymailscraper/scraper.py,sha256=Fe3LTZpWK77pV7Qa-2drezP7vnZ95U5TqZaoObAx_aw,8932
+pymailscraper-0.1.0.dist-info/LICENSE,sha256=xDq46c2Zu1uSPVp3BHJAf_BWfYPiktzn3mq3Wzb5CnA,1081
+pymailscraper-0.1.0.dist-info/METADATA,sha256=DfcHep3eiy8kn-O4AzXES95YaibyPGbzSB0lWcUKaeY,4010
+pymailscraper-0.1.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pymailscraper-0.1.0.dist-info/entry_points.txt,sha256=1rRBsNpG6abBRB14Z4oR0FbETRwN-WJw0Fv3CTIBE0s,57
+pymailscraper-0.1.0.dist-info/top_level.txt,sha256=22pV3GnDgNSCYLm3tdVZqmouWh_26_TRePM0jHBiwa4,14
+pymailscraper-0.1.0.dist-info/RECORD,,
