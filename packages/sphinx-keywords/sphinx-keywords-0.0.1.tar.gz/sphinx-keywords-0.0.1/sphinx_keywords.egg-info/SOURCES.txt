@@ -1,0 +1,7 @@
+README.md
+setup.py
+sphinx-keywords/__init__.py
+sphinx_keywords.egg-info/PKG-INFO
+sphinx_keywords.egg-info/SOURCES.txt
+sphinx_keywords.egg-info/dependency_links.txt
+sphinx_keywords.egg-info/top_level.txt
