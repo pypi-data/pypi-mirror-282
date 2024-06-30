@@ -1,0 +1,10 @@
+names_dataset/.DS_Store,sha256=liBv_5fbND5b4OV5JtDjtpXyTP2peDS88VWmLConr8s,6148
+names_dataset/__init__.py,sha256=S_gyYb7gZVF7HdY2SPOiT-AHdb6UEOy3iOC-1z0rPkI,104
+names_dataset/nd_v4.py,sha256=COii2ps-NHmaUi2QyfTTff6wDIy6V5dNMSGah3a5Vko,5812
+names_dataset/v4/.DS_Store,sha256=3ZmHEQ4z16U34tYEdSQ2ur9wUSvrqZ8UBvGH5Y79Sgk,6148
+names_dataset/v4/first_names.pkl,sha256=ebWM_Gz6uAPUDZjIbEqImWtkqDNlNkxUCk50BKna3k8,89581268
+names_dataset/v4/last_names.pkl,sha256=StIy07GyCSqSTrC4urK1cUciDZzUeegUw_Sts2H72mo,105450883
+names_dataset_pickle-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+names_dataset_pickle-1.0.0.dist-info/METADATA,sha256=6SnAJQKHJWzJCYM1uxCXL5vhMgBWXK5VLjokI_W0cho,7269
+names_dataset_pickle-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+names_dataset_pickle-1.0.0.dist-info/RECORD,,
