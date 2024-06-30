@@ -1,0 +1,15 @@
+# coding: utf-8
+from dataclasses import dataclass
+{%- set service_name = service_name %}
+{%- set api_names = api_names %}
+from clients.http.{{ service_name|to_snake_case }} import (
+{%- for api_name in api_names %}
+    {{ api_name|to_camel_case }}Api,
+{%- endfor %}
+)
+
+@dataclass
+class {{ service_name|to_camel_case }}:
+    {%- for api_name in api_names %}
+    {{ api_name|to_snake_case }}: {{ api_name|to_camel_case }}Api
+    {%- endfor %}
