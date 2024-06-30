@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pandasxmltool/__init__.py
+pandasxmltool/functions.py
+pandasxmltool.egg-info/PKG-INFO
+pandasxmltool.egg-info/SOURCES.txt
+pandasxmltool.egg-info/dependency_links.txt
+pandasxmltool.egg-info/top_level.txt
+pandasxmltool/support/__init__.py
