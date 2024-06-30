@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: machinetool
+Version: 0.0.0
+Summary: machinetool
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: apscheduler<4,>=3.10.4
+Requires-Dist: fastapi<1,>=0.111.0
+Requires-Dist: pandas<3,>=2.0.3
+Requires-Dist: pillow<11,>=10.3.0
+Requires-Dist: uvicorn[standard]<1,>=0.30.1
