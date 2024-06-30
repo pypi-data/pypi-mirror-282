@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: streamlit-list-with-loader
+Version: 0.1.0
+Summary: A streamlist component that allows you to have a liist with loading status
+Author: Firdaus A. Indradhirmaya
+Author-email: fai14@pitt.edu
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit >=1.2
+Requires-Dist: jinja2
+
+# streamlit-list-with-loader
+
+A streamlist component that allows you to have a liist with loading status
+
+## Installation instructions 
+
+```sh
+pip install streamlit-list-with-loader
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from streamlit_list_with_loader import streamlit_list_with_loader
+
+value = streamlit_list_with_loader()
+
+st.write(value)
+```
+
+## Dev
+
+```sh
+streamlit run streamlit-list-with-loader/src/streamlit_list_with_loader/__init__.py
+```

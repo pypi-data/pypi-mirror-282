@@ -1,0 +1,33 @@
+.container {
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container:hover {
+    background-color: rgb(38, 39, 48);
+    cursor: pointer;
+}
+
+.name {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0.7rem;
+    margin: 0px;
+}
+
+.loader {
+    border: 3px solid rgb(38, 39, 48); /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    animation: spin 1.3s linear infinite;
+    margin: 0.7rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
