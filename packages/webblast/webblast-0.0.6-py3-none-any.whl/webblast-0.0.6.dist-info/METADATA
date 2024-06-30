@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: webblast
+Version: 0.0.6
+Summary: 
+Author: Chang Ye
+Author-email: yech1990@gmail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pysam (>=0.22.1,<0.23.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich-click (>=1.8.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# web-blast
+
+[![Pypi Releases](https://img.shields.io/pypi/v/webblast.svg)](https://pypi.python.org/pypi/webblast)
+[![Downloads](https://pepy.tech/badge/webblast)](https://pepy.tech/project/webblast)
+
