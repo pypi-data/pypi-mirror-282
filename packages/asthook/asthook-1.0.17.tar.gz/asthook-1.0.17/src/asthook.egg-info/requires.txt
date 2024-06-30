@@ -1,0 +1,16 @@
+Pillow==6.2.2
+pure-python-adb
+pyyaml
+sty
+graphviz
+shutils
+jinja2
+gitpython
+javalang
+apk2java
+frida==16.3.3
+requests
+Matplotlib
+tabulate
+apkpatcher>=0.1.9
+gitpython

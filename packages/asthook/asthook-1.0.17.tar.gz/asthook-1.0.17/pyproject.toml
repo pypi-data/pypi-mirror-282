@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asthook"
+dynamic = ["version", "readme"]
+dependencies = [
+  'Pillow==6.2.2',
+  'pure-python-adb',
+  'pyyaml',
+  'sty',
+  'graphviz',
+  'shutils',
+  'jinja2',
+  'gitpython',
+  'javalang',
+  'apk2java',
+  'frida==16.3.3',
+  'requests',
+  'Matplotlib',
+  'tabulate',
+  'apkpatcher>=0.1.9',
+  'gitpython',
+  ]
+
+requires-python = ">=3.5"
+authors = [
+  {name = "Benoit Forgette (MadSquirrel)", email = "benoit.forgette@ci-yow.com"},
+]
+maintainers = [
+  {name = "Benoit Forgette (MadSquirrel)", email = "benoit.forgette@ci-yow.com"},
+]
+description = "Analyse apk source code and make a dynamic analysis"
+license = {file = "LICENSE"}
+keywords = []
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.entry-points.console_scripts]
+asthook = "asthook:main"
+asthook-bootstrap = "asthook.bootstrap:main"
+#asthook-manager = "asthook-manager:main"
+
+
+
+[tool.setuptools.dynamic]
+version = {attr = "asthook.conf.VERSION"}
+readme = {file = ["README.md"]}
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+asthook = ["logo.ans", "bin/Frida.zip", "script_frida/*.js"]
+
+[project.urls]
+Homepage = "https://ci-yow.com"
+Repository = "https://gitlab.com/MadSquirrels/mobile/asthook"
+Documentation = "https://madsquirrels.gitlab.io/mobile/asthook/"
+Issues = "https://gitlab.com/MadSquirrels/mobile/asthook/-/issues"
+
