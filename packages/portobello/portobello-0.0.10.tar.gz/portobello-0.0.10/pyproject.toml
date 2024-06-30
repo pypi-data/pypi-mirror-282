@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "portobello"
+description = "Python package for various helpful CLI utilities."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Cameron Fazakerley", email = "moose@nommumail.co.uk" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pykeepass",
+    "ldap3",
+    "psutil"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent"
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/nommu-moose/portobello"
+"Bug Tracker" = "https://github.com/nommu-moose/portobello/issues"
+
+[project.scripts]
+your_command = "portobello.cli:main"
+
+[tool.hatch.version]
+path = "src/portobello/__init__.py"  # Adjust this path to where your __version__ variable is
+
+[tool.hatch.build.targets.sdist]
+include = ["src/**/*"]
+
+[tool.hatch.build.targets.wheel]
+include = ["src/**/*"]
