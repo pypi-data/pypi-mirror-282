@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cxyxtools
+Version: 0.0.0.8
+Summary: 常用工具类
+Home-page: https://gitee.com/chenxiyuxiao/cxyx_tools
+Author: chenxiyuxiao
+Author-email: 18883325829@163.com
+License: UNKNOWN
+Description: 请访问 : https://gitee.com/chenxiyuxiao/cxyx_tools , 如果对大家有帮助,麻烦给个免费的star!!
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
