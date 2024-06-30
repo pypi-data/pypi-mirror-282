@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_first_new_package"
+version = "0.0.1"
+description = "A short description of your package"
+license = { file = "LICENSE.txt" }
+
+[tool.build-system]
+requires = ["setuptools", "wheel"]
