@@ -1,0 +1,7 @@
+setup.py
+pythonion/__init__.py
+pythonion.egg-info/PKG-INFO
+pythonion.egg-info/SOURCES.txt
+pythonion.egg-info/dependency_links.txt
+pythonion.egg-info/requires.txt
+pythonion.egg-info/top_level.txt

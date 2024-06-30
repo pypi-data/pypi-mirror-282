@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pythonion
+Version: 0.0.0
+Summary: Python for Ternion development
+Author: Santi Nuratch
+Author-email: santi.inc.kmutt@gmail.com
+Keywords: python,pythonion,ternion
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pyserial
+Requires-Dist: colorlog
+Requires-Dist: customtkinter
+
+Python fot Ternion development
