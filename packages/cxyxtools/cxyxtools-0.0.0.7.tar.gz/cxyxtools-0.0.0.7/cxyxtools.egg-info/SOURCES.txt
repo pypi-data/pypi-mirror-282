@@ -1,0 +1,10 @@
+README.md
+setup.py
+cxyx_tools/__init__.py
+cxyx_tools/core/__init__.py
+cxyx_tools/core/gradient.py
+cxyx_tools/core/variable.py
+cxyxtools.egg-info/PKG-INFO
+cxyxtools.egg-info/SOURCES.txt
+cxyxtools.egg-info/dependency_links.txt
+cxyxtools.egg-info/top_level.txt
