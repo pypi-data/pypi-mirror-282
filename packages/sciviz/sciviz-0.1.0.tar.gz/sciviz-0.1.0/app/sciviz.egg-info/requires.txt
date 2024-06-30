@@ -1,0 +1,4 @@
+
+[dev]
+unittest
+twine>=4.0.2
