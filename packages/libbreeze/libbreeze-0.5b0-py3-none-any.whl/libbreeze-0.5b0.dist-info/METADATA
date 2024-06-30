@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: libbreeze
+Version: 0.5b0
+Summary: Assemble static sites
+Home-page: https://github.com/BasementCat/breeze
+Author: Alec Elton
+Author-email: alec.elton@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: jinja2
+Requires-Dist: markdown
+Requires-Dist: arrow
+Requires-Dist: libsass
+Requires-Dist: cchardet
+Requires-Dist: python-magic
+
+# Breeze
+
+Assemble static sites
+
+## Changelog
+
+### v0.5b
+
+  * Update docstring for MergedDict to be correct
+  * Demote plugin won't pass *args to superclass
+  * Directory argument to Data plugin was not used, now it is
+  * Implement unit tests
+  * Port to Python 3
