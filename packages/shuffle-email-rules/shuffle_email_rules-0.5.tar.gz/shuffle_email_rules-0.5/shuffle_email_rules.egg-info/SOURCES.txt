@@ -1,0 +1,16 @@
+README.md
+setup.py
+./shuffle_email_rules/
+./shuffle_email_rules/evaluate.py
+shuffle_email_rules/__init__.py
+shuffle_email_rules/evaluate.py
+shuffle_email_rules/main.py
+shuffle_email_rules.egg-info/PKG-INFO
+shuffle_email_rules.egg-info/SOURCES.txt
+shuffle_email_rules.egg-info/dependency_links.txt
+shuffle_email_rules.egg-info/top_level.txt
+shuffle_email_rules/lib/go.mod
+shuffle_email_rules/lib/go.sum
+shuffle_email_rules/lib/libhello.h
+shuffle_email_rules/lib/libhello.so
+shuffle_email_rules/lib/main.go
