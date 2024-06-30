@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+netops_cadiz/__init__.py
+netops_cadiz/netops.py
+netops_cadiz.egg-info/PKG-INFO
+netops_cadiz.egg-info/SOURCES.txt
+netops_cadiz.egg-info/dependency_links.txt
+netops_cadiz.egg-info/not-zip-safe
+netops_cadiz.egg-info/requires.txt
+netops_cadiz.egg-info/top_level.txt
