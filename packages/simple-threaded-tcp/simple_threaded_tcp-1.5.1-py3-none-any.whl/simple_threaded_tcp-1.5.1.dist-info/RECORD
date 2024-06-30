@@ -1,0 +1,8 @@
+sttcp/__init__.py,sha256=LMXh1_6Idd2Vsl-gVxmIBttOiRmnuoFcZXhSrEtAcbs,231
+sttcp/client.py,sha256=_Yrun3ln1MNEmi0x11mm0-JRUTCA4_08zFNmgga5V_4,8154
+sttcp/general.py,sha256=NbvYcy3mtBJv5mDCRZCWIYvd0B8WU2OFoVaLFO4IjvA,1840
+sttcp/server.py,sha256=zEoNlf-mIYQRqda6wrHfzQ-J_31ItlELKP_QDjGqKR0,8329
+simple_threaded_tcp-1.5.1.dist-info/METADATA,sha256=3uGG97JWQzYZviF3T4EsPL0vC0B6Saon2twiJUSc7-k,8085
+simple_threaded_tcp-1.5.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+simple_threaded_tcp-1.5.1.dist-info/top_level.txt,sha256=GJZc3sZSxUYee6wp78tmqC827hdyMtSv4HrwwOKKvR8,6
+simple_threaded_tcp-1.5.1.dist-info/RECORD,,
