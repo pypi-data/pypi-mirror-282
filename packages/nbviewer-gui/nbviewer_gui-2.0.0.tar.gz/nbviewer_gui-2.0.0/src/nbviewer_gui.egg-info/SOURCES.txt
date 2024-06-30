@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/nbviewer/__init__.py
+src/nbviewer/main.py
+src/nbviewer_gui.egg-info/PKG-INFO
+src/nbviewer_gui.egg-info/SOURCES.txt
+src/nbviewer_gui.egg-info/dependency_links.txt
+src/nbviewer_gui.egg-info/entry_points.txt
+src/nbviewer_gui.egg-info/requires.txt
+src/nbviewer_gui.egg-info/top_level.txt
