@@ -1,0 +1,13 @@
+README.md
+icon.png
+setup.py
+ywp_script.py
+YWP/__init__.py
+YWP/packlib.py
+YWP/ywp.py
+YWP.egg-info/PKG-INFO
+YWP.egg-info/SOURCES.txt
+YWP.egg-info/dependency_links.txt
+YWP.egg-info/entry_points.txt
+YWP.egg-info/requires.txt
+YWP.egg-info/top_level.txt
