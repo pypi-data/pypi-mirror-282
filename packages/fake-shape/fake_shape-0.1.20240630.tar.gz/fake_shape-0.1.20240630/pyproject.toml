@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fake-shape"
+version = "0.1.20240630"
+description = ""
+authors = ["Qianyi Zhang <landy123007@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "fake_shape"}]
+
+[tool.poetry.urls]
+homepage = "https://github.com/qianyizhang/fake-shape"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
