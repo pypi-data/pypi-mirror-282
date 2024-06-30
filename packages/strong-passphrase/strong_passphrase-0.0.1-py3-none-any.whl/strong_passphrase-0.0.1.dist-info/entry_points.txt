@@ -1,0 +1,2 @@
+[console_scripts]
+strong-passphrase = strong_passphrase:main
