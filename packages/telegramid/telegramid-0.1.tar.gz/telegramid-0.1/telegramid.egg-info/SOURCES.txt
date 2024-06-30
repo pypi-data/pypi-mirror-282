@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+telegramid/__init__.py
+telegramid/main.py
+telegramid.egg-info/PKG-INFO
+telegramid.egg-info/SOURCES.txt
+telegramid.egg-info/dependency_links.txt
+telegramid.egg-info/entry_points.txt
+telegramid.egg-info/requires.txt
+telegramid.egg-info/top_level.txt
