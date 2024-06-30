@@ -1,0 +1,10 @@
+chat_openai.py,sha256=L-vIOED4NRJlZX05EZLeIxvp6CoSJ38RGMt5cb2hDkU,3226
+chat/__init__.py,sha256=ly5a_2iMgNxZb3HvZpuYXwqDC1oVo-h--0Z3KiD7VGE,52
+chat/audio.py,sha256=Pr1uLugiVo5W65Nqt1X3rtbiSa7Ma85PJztDGP14sTA,1009
+chat/chat.py,sha256=vhZ3uLRIRhh5M3yjG0l7LxSQqmKLg39kj-Ap_aa8HJo,4944
+chat_in_a_nutshell-0.2.dist-info/LICENSE,sha256=VgvthRrG_V3LPQDXw-JzAiKDF_4iHkng-HtVsXXlOcY,1070
+chat_in_a_nutshell-0.2.dist-info/METADATA,sha256=Wb88UnSUI8nws7t4s2CYelncGCpyG9e2kwuuZq-0RS4,211
+chat_in_a_nutshell-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chat_in_a_nutshell-0.2.dist-info/entry_points.txt,sha256=Bvp_OG5x0HEFo5oyL4vuKE2PKjsh6_zMRvosOygZgM0,43
+chat_in_a_nutshell-0.2.dist-info/top_level.txt,sha256=oQq094YsTe8sKyUcUG8kA0aoUWMYmv556jTxePVUdGI,17
+chat_in_a_nutshell-0.2.dist-info/RECORD,,
