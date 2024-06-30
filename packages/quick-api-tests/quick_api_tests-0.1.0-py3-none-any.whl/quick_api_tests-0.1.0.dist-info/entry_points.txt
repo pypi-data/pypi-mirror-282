@@ -1,0 +1,3 @@
+[console_scripts]
+quick_api_tests=quick_api_tests.cli.main:cli
+
