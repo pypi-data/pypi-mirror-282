@@ -1,0 +1,10 @@
+goodstats/__init__.py,sha256=bN6KD0A9Qj2cWTyjuAcFEfYCc_sTdd64vQ1rxlxIpJY,258
+goodstats/_model.py,sha256=rtCbsTwyrY1QRrgeW8H_fVAvZZg-mWUyRoiwTUADq50,7082
+goodstats/_model_curvefit.py,sha256=S5jRy-SWqRfuafXNHsakZJT1SSKpuTJvx90BNT2CuZk,5716
+goodstats/_model_ols.py,sha256=s5CJxlF3REDftfUKqBR6c39IAvQmwl89FSQZn3Z5MmA,3926
+goodstats/_test_ttest.py,sha256=YApTZuOs-nDuHOvmEgmv2SsyegR19KdBwzK3qs5MAXI,16994
+goodstats/_utils.py,sha256=_01F-i_5cBBb4J-WXR0_wkLTqVM236-16dUbFVDiv5M,2243
+goodstats-0.0.1.dist-info/METADATA,sha256=as4HfDrNLOZWNmwW3DhIEaYZUgT-eLA5TGHT25XBCbk,41750
+goodstats-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+goodstats-0.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+goodstats-0.0.1.dist-info/RECORD,,
