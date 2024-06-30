@@ -1,0 +1,11 @@
+fastapi
+kopf
+kubernetes
+pydantic
+uvicorn
+
+[dev]
+build
+python-semantic-release
+toml
+twine
