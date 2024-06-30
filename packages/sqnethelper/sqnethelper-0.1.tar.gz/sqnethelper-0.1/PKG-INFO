@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: sqnethelper
+Version: 0.1
+Requires-Dist: Click
+Requires-Dist: aliyun-python-sdk-core
+Requires-Dist: aliyun-python-sdk-ecs
