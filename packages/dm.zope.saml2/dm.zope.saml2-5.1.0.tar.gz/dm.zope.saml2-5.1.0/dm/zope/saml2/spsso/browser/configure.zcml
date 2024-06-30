@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
+
+    <browser:page
+      name="saml_select_idp"
+      for="..plugin.DetachedSimpleSpssoPlugin"
+      class=".idp.SelectIdp"
+      permission="zope.Public"
+      />
+
+    <browser:page
+      name="saml_failure"
+      for="..plugin.DetachedSimpleSpssoPlugin"
+      class=".failure.Failure"
+      permission="zope.Public"
+      />
+
+</configure>
