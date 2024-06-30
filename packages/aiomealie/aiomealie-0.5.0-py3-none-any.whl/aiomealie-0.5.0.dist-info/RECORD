@@ -1,0 +1,9 @@
+aiomealie/__init__.py,sha256=BMPPYUsp-L1xP_5v5sBb0h3Z7kKySYBpwIyFg4ww0sw,839
+aiomealie/exceptions.py,sha256=1J-rcGOxy9tvr7U-5Q7N5UCXrTmAXx3sncvAIhpTXyI,363
+aiomealie/mealie.py,sha256=YJDcLVZFy7sHE0U3nxpAL0hjFiQM0DXZDAKKIIE2TXI,7608
+aiomealie/models.py,sha256=xe1eMIOc_GA6AECKk106UORs0pYYTlg2f6qNQGjlwGk,6520
+aiomealie/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiomealie-0.5.0.dist-info/LICENSE.md,sha256=2Fz95PZCi9jPeMJzazl7s0Pw6wVute_qGFUIxr4D2cQ,1077
+aiomealie-0.5.0.dist-info/METADATA,sha256=DfCGx73uhlsl8MqZMy0fnPMLXcsbXxB-WO13Vf25Xg0,6078
+aiomealie-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aiomealie-0.5.0.dist-info/RECORD,,
