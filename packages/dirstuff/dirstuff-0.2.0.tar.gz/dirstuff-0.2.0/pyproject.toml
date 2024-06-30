@@ -1,0 +1,96 @@
+[tool.poetry]
+authors = ["Chris Gregory <christopher.b.gregory@gmail.com>"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+]
+description = "Directory summary tool."
+keywords = ['directory', 'file', 'summary']
+license = "Apache Software License"
+name = "dirstuff"
+readme = "README.md"
+repository = "https://github.com/gregorybchris/dirstuff"
+version = "0.2.0"
+
+[[tool.poetry.packages]]
+include = "dirstuff"
+
+[tool.poetry.dependencies]
+click = "^8.1.0"
+colorama = "^0.4.0"
+python = ">=3.11"
+
+[tool.poetry.group.dev.dependencies]
+covcheck = { version = "^0.4.3", extras = ["toml"] }
+mypy = "^1.10.0"
+pytest = "^8.2.0"
+pytest-cov = "^5.0.0"
+ruff = "^0.5.0"
+semver = "^3.0.0"
+
+[tool.poetry.scripts]
+dirstuff = "dirstuff._cli.main:main"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.covcheck]
+branch = 73.0
+line = 75.0
+
+[tool.mypy]
+disallow_incomplete_defs = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 120
+src = ["dirstuff"]
+
+[tool.ruff.lint]
+ignore = ["A001", "A002", "D100", "D104", "D203", "D213", "FIX002", "TD003"]
+select = [
+    "A",
+    "ARG",
+    "B",
+    "BLE",
+    "C4",
+    "D",
+    "E",
+    "EM",
+    "ERA",
+    "F",
+    "FIX",
+    "G",
+    "I",
+    "ICN",
+    "ISC",
+    "LOG",
+    "N",
+    "PL",
+    "PT",
+    "PTH",
+    "PLR",
+    "RET",
+    "RUF",
+    "SIM",
+    "SLF",
+    "T20",
+    "TCH",
+    "TD",
+    "TID",
+    "W",
+]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 120
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.extend-per-file-ignores]
+"**/tests/**/*.py" = ["D", "SLF", "PLR2004"]
