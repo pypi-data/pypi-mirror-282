@@ -1,0 +1,2 @@
+recursive-include src/my_pkg/resources *
+recursive-include persian_pdf_converter/*
