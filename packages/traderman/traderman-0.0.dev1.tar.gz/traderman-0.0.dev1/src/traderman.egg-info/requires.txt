@@ -1,0 +1,12 @@
+numpy
+pandas
+torch
+requests
+toml
+
+[dev]
+rich
+pre-commit
+
+[test]
+pytest
