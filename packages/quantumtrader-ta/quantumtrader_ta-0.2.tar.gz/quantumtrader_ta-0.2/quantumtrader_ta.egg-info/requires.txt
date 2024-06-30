@@ -1,0 +1,6 @@
+freqtrade
+pandas_ta
+TA-Lib
+PyWavelets
+scipy
+matplotlib
