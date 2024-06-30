@@ -1,0 +1,9 @@
+concoction/__init__.py,sha256=eTvD30SvqFK8pwwfEoUWiRLq2wsS-rjoXThTSScqMFM,134
+concoction/core.py,sha256=xlik8oGDCow8rxIia9O3JNzLwLOOkyoq_YUOBiGWpGg,1451
+concoction/values/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+concoction/values/dataclass.py,sha256=7WqSZyc6tcdKnna47zlBbEID2yhme-QJNpn09YT18Dc,350
+concoction/values/pydantic.py,sha256=RsV13LhLfDLiXFLJA7d2L_QrY-LDZ529paWyo7Kg_OA,370
+concoction-0.1.1.dist-info/LICENSE,sha256=gLHb4NnZPjKLKpHks3_D5tjwgFrcIJccwCJMFCzwT4Y,1071
+concoction-0.1.1.dist-info/METADATA,sha256=vMJ_UXHTai6zBfuRACAy4FsaaUoYIWFaR3nRTlJoTRY,3093
+concoction-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+concoction-0.1.1.dist-info/RECORD,,
