@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+myrecorder/__init__.py
+myrecorder.egg-info/PKG-INFO
+myrecorder.egg-info/SOURCES.txt
+myrecorder.egg-info/dependency_links.txt
+myrecorder.egg-info/requires.txt
+myrecorder.egg-info/top_level.txt
