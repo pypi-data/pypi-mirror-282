@@ -1,0 +1,7 @@
+README.md
+setup.py
+pandas_xml.egg-info/PKG-INFO
+pandas_xml.egg-info/SOURCES.txt
+pandas_xml.egg-info/dependency_links.txt
+pandas_xml.egg-info/entry_points.txt
+pandas_xml.egg-info/top_level.txt
