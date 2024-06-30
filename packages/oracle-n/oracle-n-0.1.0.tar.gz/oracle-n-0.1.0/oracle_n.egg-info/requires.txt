@@ -1,0 +1,6 @@
+tensorflow
+transformers
+datasets
+apache-beam
+pandas
+scikit-learn
