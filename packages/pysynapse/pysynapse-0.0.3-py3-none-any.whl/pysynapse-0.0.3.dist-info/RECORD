@@ -1,0 +1,10 @@
+pysynapse/__init__.py,sha256=HqDUs1D0vGmqwBtxlUtD9DSadJmoz_k76gnYym5Mr8E,77769
+pysynapse/__version__.py,sha256=L2YJGrfiHjPTVP0RnnyNuceZ6YZ7QD1aiNU45BS3yso,425
+pysynapse/endpoints.py,sha256=x3gIIjYvyV6hHZeHXYCNKxic2jffQzrtZ_MaQFkqElo,9021
+pysynapse/exceptions.py,sha256=aHhd7iiMQqA0vANVrJOVSiqPaY5r6lA6T4dT9fsGBvg,706
+pysynapse/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysynapse-0.0.3.dist-info/LICENSE,sha256=-5gWaMGKJ54oX8TYP7oeg2zITdTapzyWl9PP0tispuA,34674
+pysynapse-0.0.3.dist-info/METADATA,sha256=l-AAnCbwHHXlODMNmiZ5JCf4s9igyi_WZ0I4rok8e7U,40081
+pysynapse-0.0.3.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pysynapse-0.0.3.dist-info/top_level.txt,sha256=ubxkTYxIUfmspUrW8Mnn_lnf48RTvlZMYpfar-l2S_w,10
+pysynapse-0.0.3.dist-info/RECORD,,
