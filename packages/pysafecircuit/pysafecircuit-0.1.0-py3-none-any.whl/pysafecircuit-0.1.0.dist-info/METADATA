@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pysafecircuit
+Version: 0.1.0
+Summary: This Python code defines a CircuitBreaker class with configurable failure thresholds and timeouts, managing state transitions and callbacks for open, half-open, and closed states.
+Home-page: https://github.com/fadedreams/pycircuitbreaker
+License: MIT
+Keywords: circuit breaker,error,utilities
+Author: fadedreams7
+Author-email: fadedreams7@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/fadedreams/pycircuitbreaker
+Description-Content-Type: text/markdown
+
+
