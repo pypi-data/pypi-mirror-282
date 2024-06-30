@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pymailscraper/__init__.py
+pymailscraper/cli.py
+pymailscraper/scraper.py
+pymailscraper.egg-info/PKG-INFO
+pymailscraper.egg-info/SOURCES.txt
+pymailscraper.egg-info/dependency_links.txt
+pymailscraper.egg-info/entry_points.txt
+pymailscraper.egg-info/requires.txt
+pymailscraper.egg-info/top_level.txt
+tests/test_scraper.py

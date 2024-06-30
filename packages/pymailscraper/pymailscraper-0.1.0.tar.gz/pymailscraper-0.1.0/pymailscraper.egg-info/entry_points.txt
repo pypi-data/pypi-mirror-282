@@ -1,0 +1,2 @@
+[console_scripts]
+pymailscraper = pymailscraper.cli:main
