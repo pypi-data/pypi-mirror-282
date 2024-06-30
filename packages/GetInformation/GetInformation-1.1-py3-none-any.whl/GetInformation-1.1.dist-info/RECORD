@@ -1,0 +1,9 @@
+GetInformation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GetInformation/facebook.py,sha256=nfU_UOnTEEpPMEYPuFxN9LAuJeX2evx11CHwKboLZNs,3035
+GetInformation/search_engines.py,sha256=rtWCaN5FjVv4VMiijiq8YPQUUNLDI8LRcDvaPoKt1Q0,2505
+GetInformation/search_engines_tor.py,sha256=blIDrdKdCzm3VWg4AbHbqKTh6hVW_6tY0Q1p_TAe9ps,2046
+GetInformation/twitter.py,sha256=0qxAYTf5GgVuBzmaURh0p6LEAhsDGSKJl_2hJzP_-sw,375
+GetInformation-1.1.dist-info/METADATA,sha256=aV0Fz_EvzQhl6VoPHJuuCF1mzxSrFbBDI9kc1O4KtlU,124
+GetInformation-1.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+GetInformation-1.1.dist-info/top_level.txt,sha256=488P1xw6qAB7vI3D7VaqsxBPC50U7LHqmLrikTSITfk,15
+GetInformation-1.1.dist-info/RECORD,,
