@@ -1,0 +1,14 @@
+studipy/__init__.py,sha256=vhFyIlNTg_dd1kNeAg3WwzE-igAPCdXELo7nPRNH-1w,44
+studipy/browser.py,sha256=Hu7n_cacRSumS-jFGCNkOc3PBOlNQ25uBXt5aWRH1_s,3115
+studipy/client.py,sha256=Da8aAABcJwGiifvpFSc_Zl-TQmAH4NViOJnNY5YNwFw,1211
+studipy/constants.py,sha256=brh24ul6PQObI25hpccVME2nPC1kxDW2Sc1NjtNbgQ4,895
+studipy/courses.py,sha256=3nykFur6bVX5QNi9Sf8QVZeKrpkcXhgrFIGrnd2trAk,1314
+studipy/files.py,sha256=g_-W8VM4wc7Pzf5-Vt7PMtTrAuFsEoXwArdIzRaHdqk,6315
+studipy/helper.py,sha256=cMM-AV2JWPWzILcVkHq1NC1D4k_bZ8ispPcJV9w4dB8,207
+studipy/messages.py,sha256=o4N2I8B7Gy2zWHsahV4FtqiZZiPTnjE1cR3hkO9yJM0,3094
+studipy/types.py,sha256=955e9UW1xk5FaRr1fwozSB8bSe7IW_1vlY3XWupE4RM,1094
+studipy/users.py,sha256=0VfcCQcvktN5g0-5gc9CW52O4tiajY9cASS-x2SdYKU,947
+studipy-0.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+studipy-0.2.3.dist-info/METADATA,sha256=LB8LteLwYAmZF_GlHonNUwHZ20JX5jWLCCRs9jkdOcM,1890
+studipy-0.2.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+studipy-0.2.3.dist-info/RECORD,,
