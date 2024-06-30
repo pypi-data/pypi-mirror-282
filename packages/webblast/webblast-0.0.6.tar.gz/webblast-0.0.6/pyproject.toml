@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "webblast"
+version = "0.0.6"
+description = ""
+authors = ["Chang Ye <yech1990@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+requests = "^2.32.3"
+rich-click = "^1.8.3"
+pysam = "^0.22.1"
+
+[tool.poetry.scripts]
+webblast = 'webblast.blast:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
