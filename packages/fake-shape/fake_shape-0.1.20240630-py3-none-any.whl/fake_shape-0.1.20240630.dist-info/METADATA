@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fake-shape
+Version: 0.1.20240630
+Summary: 
+Author: Qianyi Zhang
+Author-email: landy123007@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: homepage, https://github.com/qianyizhang/fake-shape
+Description-Content-Type: text/markdown
+
+## fake-shape
+make simulated shape for ML CV projects
+
