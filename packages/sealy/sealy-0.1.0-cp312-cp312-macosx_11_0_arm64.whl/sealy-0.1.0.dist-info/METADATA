@@ -1,0 +1,49 @@
+Metadata-Version: 2.3
+Name: sealy
+Version: 0.1.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: Typing :: Typed
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: maturin ; extra == 'build'
+Provides-Extra: tests
+Provides-Extra: build
+License-File: LICENSE
+Summary: Microsoft SEAL bindings for Python
+Keywords: federated-learning,fl,ai,machine-learning
+Author: marcosfpr <mfprezende@gmail.com>
+Author-email: marcos pontes <mfprezende@gmail.com>
+Maintainer-email: marcos pontes <mfprezende@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Changelog, https://github.com/marcosfpr/sealy/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://github.com/marcosfpr/sealy/blob/main/README.md
+Project-URL: Homepage, https://github.com/marcosfpr/sealy
+Project-URL: Repository, https://github.com/marcosfpr/sealy
+
+<br />
+<p align="center">
+  <h3 align="center">SEALy</h3>
+
+  <p align="center">
+    <a href="https://www.microsoft.com/en-us/research/project/microsoft-seal"><strong>Microsoft SEAL bindings for Rust and Python</strong></a>
+    <br />
+  </p>
+</p>
+
+### 🌟 SEALy
+
+Microsoft SEAL bindings for Rust and Python.
+
