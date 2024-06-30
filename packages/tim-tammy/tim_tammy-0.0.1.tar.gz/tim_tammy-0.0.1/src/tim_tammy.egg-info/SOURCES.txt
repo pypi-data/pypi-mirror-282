@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/lib.py
+src/tim_tammy.egg-info/PKG-INFO
+src/tim_tammy.egg-info/SOURCES.txt
+src/tim_tammy.egg-info/dependency_links.txt
+src/tim_tammy.egg-info/top_level.txt
