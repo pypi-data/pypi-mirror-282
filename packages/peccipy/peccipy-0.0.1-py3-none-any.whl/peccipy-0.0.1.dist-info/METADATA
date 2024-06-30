@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: peccipy
+Version: 0.0.1
+Summary: A package for doing preprocessing. Not something new but just combined.
+Home-page: https://github.com/ashiknazar/peccipy
+Author: ashik
+Author-email: datas293@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+

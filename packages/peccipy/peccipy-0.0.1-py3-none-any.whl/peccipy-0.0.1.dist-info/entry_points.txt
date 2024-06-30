@@ -1,0 +1,2 @@
+[console_scripts]
+peccipy_hello = peccipy.main:hello
