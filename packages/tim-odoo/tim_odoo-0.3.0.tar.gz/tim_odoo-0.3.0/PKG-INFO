@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tim_odoo
+Version: 0.3.0
+Summary: API func for Odoo
+Home-page: https://github.com/OrcCyber/tim.git
+Author: Bùi Đức Tuấn
+Author-email: buiductuan12081995@gmail.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: wheel
+
+# Library of Tim
+Command:
+    python -m twine upload --repository testpypi dist/*
+    python -m twine upload --repository pypi dist/*

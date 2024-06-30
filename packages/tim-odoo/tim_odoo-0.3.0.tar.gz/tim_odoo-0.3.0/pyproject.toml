@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tim_odoo"
+description = "API func for Odoo"
+version = "0.3.0"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["setuptools","wheel"]
