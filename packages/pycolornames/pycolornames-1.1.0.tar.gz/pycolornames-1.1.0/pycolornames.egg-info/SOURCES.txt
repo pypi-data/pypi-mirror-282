@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+colornames.py
+pyproject.toml
+test-many-python-versions.zsh
+tests.py
+.github/workflows/publish-to-pypi.yaml
+.github/workflows/test.yaml
+pycolornames.egg-info/PKG-INFO
+pycolornames.egg-info/SOURCES.txt
+pycolornames.egg-info/dependency_links.txt
+pycolornames.egg-info/top_level.txt
+tools/colors.json
+tools/prep_tree.py

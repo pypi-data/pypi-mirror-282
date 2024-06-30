@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pycolornames
+Version: 1.1.0
+Summary: Finds the name of any color.
+Author-email: Robin Gustafsson <robin@rgson.se>
+License: MIT License
+        
+        Copyright (c) 2017 Robin Gustafsson
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/rgson/python-colornames
+Project-URL: Issues, https://github.com/rgson/python-colornames/issues
+Project-URL: Repository, https://github.com/rgson/python-colornames.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-colornames
+
+A Python library for finding the names of colors.
+
+The `colornames` library gives you the name of any RGB color. If the exact color you're looking for doesn't have a name, it'll find the closest match instead.
+
+
+## Usage
+
+A single function, `find`, is exposed by the library. It finds the name of a given color.
+
+```python
+>>> import colornames
+>>> colornames.find(255, 255, 255)   # Decimal RGB
+'White'
+>>> colornames.find('#3e3e3e')       # Hexadecimal notation
+'Dune'
+>>> colornames.find('#abc')          # Shorthand hexadecimal
+'Cadet Blue'
+>>> colornames.find('f5f5f5')        # Optional '#' prefix
+'Wild Sand'
+>>> colornames.find((123, 12, 1))    # Decimal RGB as a tuple
+'Dark Burgundy'
+```
+
+
+## License
+
+The code is licensed under the MIT license.
+Certain parts are licensed under CC BY 2.5 (see [acknowledgements](#acknowledgements)).
+
+
+## Acknowledgements
+
+The list of color names is based on Chirag Mehta's [ntc js](http://chir.ag/projects/ntc), licensed under [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/).
