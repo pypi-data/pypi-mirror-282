@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: harlequin-datafusion
+Version: 0.1.0
+Summary: A Harlequin adapter for DataFusion.
+Home-page: https://github.com/mesejo/datafusion-adapter
+License: MIT
+Author: Daniel Mesejo
+Author-email: mesejoleon@gmail.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Dist: datafusion (>=38.0.1,<39.0.0)
+Requires-Dist: harlequin (>=1.7,<2.0)
+Project-URL: Repository, https://github.com/mesejo/datafusion-adapter
+Description-Content-Type: text/markdown
+
+# harlequin-datafusion
+This repo provides the [Harlequin](https://harlequin.sh) adapter for [DataFusion](https://datafusion.apache.org/) 
+
+
