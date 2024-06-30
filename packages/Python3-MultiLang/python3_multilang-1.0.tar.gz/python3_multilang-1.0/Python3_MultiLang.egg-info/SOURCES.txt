@@ -1,0 +1,7 @@
+setup.py
+Python3_MultiLang.egg-info/PKG-INFO
+Python3_MultiLang.egg-info/SOURCES.txt
+Python3_MultiLang.egg-info/dependency_links.txt
+Python3_MultiLang.egg-info/top_level.txt
+multilang/__init__.py
+multilang/main.py
