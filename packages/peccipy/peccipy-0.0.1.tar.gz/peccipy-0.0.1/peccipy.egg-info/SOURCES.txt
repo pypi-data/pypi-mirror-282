@@ -1,0 +1,10 @@
+README.md
+setup.py
+peccipy/__init__.py
+peccipy/main.py
+peccipy.egg-info/PKG-INFO
+peccipy.egg-info/SOURCES.txt
+peccipy.egg-info/dependency_links.txt
+peccipy.egg-info/entry_points.txt
+peccipy.egg-info/requires.txt
+peccipy.egg-info/top_level.txt
