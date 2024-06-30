@@ -1,0 +1,3 @@
+py4cli/maximal
+py4cli/minimal
+py4cli/moderate
