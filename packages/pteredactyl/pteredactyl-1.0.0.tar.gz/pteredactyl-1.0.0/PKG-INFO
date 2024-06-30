@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pteredactyl
+Version: 1.0.0
+Summary: Pteredactyl performs free-text redaction and masking of peronally identifiable information (PII) in clinical free text. It can be deployed as an API from a container or as a python module
+License: MIT
+Author: Cai Davis
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: iprogress
+Requires-Dist: ipykernel
+Requires-Dist: ipywidgets
+Requires-Dist: pandas
+Requires-Dist: presidio-analyzer
+Requires-Dist: presidio-anonymizer
+Requires-Dist: prompt_toolkit (==3.0.30)
+Requires-Dist: pyyaml
+Requires-Dist: spacy
+Requires-Dist: spacy-legacy
+Requires-Dist: spacy-loggers
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Description-Content-Type: text/markdown
+
+# Pteredactyl
+
+_Pteredactyl utilizes advanced natural language processing techniques to identify and anonymize personal information in clinical free text._
+
+## Features
+
+- Anonymization of various entities such as names, locations, and phone numbers.
+- Support for processing both strings and pandas DataFrames.
+- Text highlighting for easy identification of anonymized parts.
+- Hide in plain site replacement
+
+## Installation
+
+Can be installed using pip from the RDS PyPi repository:
+
+```bash
+pip install --index-url https://pypi.rds.uhs.nhs.uk/simple/ --trusted-host pypi.rds.uhs.nhs.uk pteredactyl
+```
+
+## Guides
+
+* [User Guide](./docs/user-guide.md)
+* [Developer Guide](./docs/developer-guide.md)
+
+
+## Contributions
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+
+## License
+Pteredactyl was created at University Hospital Southampton NHSFT by the Research Data Science Team. It is licensed under the terms of the MIT license.
+
