@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cythonscreencap2ppm/README.MD
+cythonscreencap2ppm/__init__.py
+cythonscreencap2ppm/convertimagecy.pyx
+cythonscreencap2ppm/convertimagecy_compile.py
+cythonscreencap2ppm/requirements.txt
+cythonscreencap2ppm/thirdparty.json
+cythonscreencap2ppm.egg-info/PKG-INFO
+cythonscreencap2ppm.egg-info/SOURCES.txt
+cythonscreencap2ppm.egg-info/dependency_links.txt
+cythonscreencap2ppm.egg-info/requires.txt
+cythonscreencap2ppm.egg-info/top_level.txt
