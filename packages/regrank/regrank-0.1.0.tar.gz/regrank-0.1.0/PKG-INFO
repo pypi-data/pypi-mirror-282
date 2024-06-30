@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: regrank
+Version: 0.1.0
+Summary: Regularized methods for efficient ranking in networks
+License: LGPL-3.0-or-later
+Author: Tzu-Chi Yen
+Author-email: tzuchi.yen@colorado.edu
+Requires-Python: >=3.10, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*, !=3.8.*, !=3.9.*
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cvxpy (>=1.5.2,<2.0.0)
+Requires-Dist: distinctipy (>=1.3.4,<2.0.0)
+Requires-Dist: marimo (>=0.6.23,<0.7.0)
+Requires-Dist: matplotlib (>=3.5.0,<4.0.0)
+Requires-Dist: numba (>=0.60.0,<0.61.0)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: pooch (>=1.8.2,<2.0.0)
+Requires-Dist: prettytable (>=3.0.0,<4.0.0)
+Requires-Dist: scikit-learn (>=1.5.0,<2.0.0)
+Requires-Dist: scipy (>=1.10.0,<2.0.0)
+Requires-Dist: zstandard (>=0.22.0,<0.23.0)
+Description-Content-Type: text/markdown
+
+
