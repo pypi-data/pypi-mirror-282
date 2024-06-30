@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+
+from setuptools import find_packages, setup
+exec(open("mario/version.py").read())
+setup(
+    name="mariopy",
+    description=(
+        "A python package for automating input-output (IO) calculations, models"
+        ",visualization and scenario analysis"
+    ),
+    long_description = open("README.rst",encoding="utf8").read(),
+    url="https://github.com/it-is-me-mario/MARIO",
+    author="Mohammad Amin Tahavori, Lorenzo Rinaldi, Nicolo Golinucci",
+    author_email="amin.tahavori@enextgen.it",
+    version=__version__,
+    license="GNU General Public License v3.0",
+    #python_requires=">.3.7.0",
+    include_package_data=True,
+    packages=[
+        "mario",
+        'mario/core',
+        'mario/log_exc',
+        'mario/test',
+        'mario/tools',
+        "mario/settings"
+    ],
+    package_data={
+        "mario/settings": ["*.yaml"],
+        'mario/tools': ["*.csv"],
+        "mario/test":["*.xlsx"],
+        },
+    install_requires=[
+        "pandas",
+        "numpy >= 1.21.2",
+        "xlsxwriter",
+        "plotly >= 4.12.0",
+        "tabulate >= 0.8.9",
+        "openpyxl >= 3.0.6",
+        "IPython >= 7.22.0",
+        "pymrio >= 0.4.6",
+        "pyyaml >= 5.4.1"
+
+    ],
+    # classifiers=[
+    #     "Programming Language :: Python :: 3.7",
+    #     "Programming Language :: Python :: 3.8",
+    #     "Programming Language :: Python :: 3.9",
+    #     "Intended Audience :: End Users/Desktop",
+    #     "Intended Audience :: Developers",
+    #     "Intended Audience :: Science/Research",
+    #     "Operating System :: MacOS :: MacOS X",
+    #     "Operating System :: Microsoft :: Windows",
+    #     "Programming Language :: Python",
+    #     "Topic :: Scientific/Engineering",
+    #     "Topic :: Utilities",
+    # ],
+)
