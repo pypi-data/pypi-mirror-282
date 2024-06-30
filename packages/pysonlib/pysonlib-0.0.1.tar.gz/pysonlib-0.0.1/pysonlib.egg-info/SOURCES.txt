@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pysonlib/__init__.py
+pysonlib/__main__.py
+pysonlib.egg-info/PKG-INFO
+pysonlib.egg-info/SOURCES.txt
+pysonlib.egg-info/dependency_links.txt
+pysonlib.egg-info/top_level.txt
+tests/__init__.py
+tests/__main__.py

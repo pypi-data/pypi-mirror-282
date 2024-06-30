@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pysonlib
+Version: 0.0.1
+Summary: Python Script Object Notation (pysonlib) is a standard text-based format for expressing structured data using Python object syntax.
+Home-page: https://github.com/ddukbaek2/pysonlib
+Author: ddukbaek2
+Author-email: ddukbaek2@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pysonlib
+- Python Script Object Notation (pyson) is a standard text-based format for expressing structured data using Python object syntax.
