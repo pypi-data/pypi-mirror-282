@@ -1,0 +1,12 @@
+shuffle_email_rules/__init__.py,sha256=6lqhoxpvw9KGwmNqeDQcyiSeoohbasy3LILnLylhVFI,124
+shuffle_email_rules/evaluate.py,sha256=Lzrc3fgnFdo4Jlcg6cDYHDktu1ylXEi0KR996IIHVAA,1434
+shuffle_email_rules/main.py,sha256=MwvzvgESsQfKzlg1kRLya9dZOIBlDP_ejtP5OHrrdGA,733
+shuffle_email_rules/lib/go.mod,sha256=JooI9Zgp-X_Tk_sZsNO--39AMpmle6r4GNiG0DSnw34,544
+shuffle_email_rules/lib/go.sum,sha256=_KEhJURxDaLLuRMORJqLp9zqmvddznWAFvhb0h4a60s,2988
+shuffle_email_rules/lib/libhello.h,sha256=wKAL4F2ireY1N6VdyR7cOjXlv1z2veJMa8zurIJx2mo,1826
+shuffle_email_rules/lib/libhello.so,sha256=LzaysiatSSt4HttN9IADZ72jSziGeO4KG9QC9STBkMQ,9235042
+shuffle_email_rules/lib/main.go,sha256=zlTe1KHBYCiv0RMwkvw_kN0abEfT1YmkTkHZldEpH8c,3835
+shuffle_email_rules-0.5.dist-info/METADATA,sha256=PvPePg3V1JVejI2lKQGwFk1UV_gAme9yoC41Ch8MAjA,584
+shuffle_email_rules-0.5.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+shuffle_email_rules-0.5.dist-info/top_level.txt,sha256=He_X8XcjnoSF4-8vjLGfAd5mXJpHn4yqVG24CHHYQKE,20
+shuffle_email_rules-0.5.dist-info/RECORD,,
