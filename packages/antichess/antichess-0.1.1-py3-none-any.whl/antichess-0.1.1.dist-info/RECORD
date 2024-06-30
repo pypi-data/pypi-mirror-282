@@ -1,0 +1,10 @@
+antichess/Agent.py,sha256=JGcILsUM77kr_blDmu6_gwL8h0bPh4RVsFrcQiEq2Qs,7564
+antichess/AntiChessGame.py,sha256=cfHUW5JxUzG6Zxfjjj6CKlllUBeJwhx8NOBwv7au4a8,5328
+antichess/GameState.py,sha256=Rc3yGLN8do9Hn_WVaQY9RRQ2utaq186vgUb_pZAEaz8,20505
+antichess/Piece.py,sha256=W-zh74uJkjJxB7uewk5Iv-2RM5ZMsuJShqTHwyyQGbk,2001
+antichess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antichess-0.1.1.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+antichess-0.1.1.dist-info/METADATA,sha256=S4JPw5oATrMaEjRGEP8z5lnxluS9udVI2tVzCTEksSQ,3572
+antichess-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+antichess-0.1.1.dist-info/top_level.txt,sha256=u2R41fFL2ZmXmG_ZkV5MxJLVmbvpr88Il431iozj6M4,10
+antichess-0.1.1.dist-info/RECORD,,
