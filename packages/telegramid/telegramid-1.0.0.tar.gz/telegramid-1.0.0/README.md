@@ -1,0 +1,66 @@
+# telegramid
+
+`telegramid` is a Python package for easily fetching Telegram bot information such as chat ID, user ID, username, and message details using the Telegram Bot API.
+
+## Overview
+Managing interactions with Telegram bots often involves retrieving specific information such as chat IDs, user IDs, usernames, and details about incoming messages. The telegramid package simplifies this process by providing straightforward functions to fetch these details using the Telegram Bot API.
+
+## Usage
+### Fetching Chat ID, User ID, and Username
+To retrieve essential information about the Telegram bot's interactions:
+
+```python
+from telegramid import telegram_chat
+
+# Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your actual Telegram bot token
+token = "YOUR_TELEGRAM_BOT_TOKEN"
+
+# Fetch chat ID
+chat_id = telegram_chat.id(token)
+if chat_id:
+    print(f"Chat ID: {chat_id}")
+else:
+    print("Failed to fetch chat ID within the specified time.")
+
+# Fetch user ID
+user_id = telegram_chat.user_id(token)
+if user_id:
+    print(f"User ID: {user_id}")
+else:
+    print("Failed to fetch user ID within the specified time.")
+
+# Fetch username
+username = telegram_chat.username(token)
+if username:
+    print(f"Username: {username}")
+else:
+    print("Failed to fetch username within the specified time.")
+
+```
+
+### Fetching Message Information
+To retrieve detailed information about the latest message received by the bot:
+```python
+# Fetch message info
+message_info = telegram_chat.message_info(token)
+if message_info:
+    print(f"Telegram group ID: {message_info['group_id']}")
+    print(f"Telegram group username: {message_info['group_username']}")
+    print(f"Message sender user ID: {message_info['user_id']}")
+    print(f"Message sender username: {message_info['username']}")
+else:
+    print("Failed to fetch message info within the specified time.")
+```
+
+
+### Explanation:
+
+- **Overview:** Provides a brief introduction to the package's purpose and benefits.
+- **Usage:** Offers practical examples of using the package functions to fetch essential Telegram bot information.
+- **Functionality Details:** Explains the package's features, including synchronous fetching, retry mechanism, handling timeouts, and the structure of returned message information.
+- **Additional Information:** Provides guidance on ensuring bot permissions and refers users to official Telegram Bot API documentation for more information.
+- **License:** Mentions the licensing terms under which the package is distributed.
+
+This README.md file is designed to provide comprehensive information and guidance for users of the `telegramid` package, enhancing clarity and usability.
+
+
