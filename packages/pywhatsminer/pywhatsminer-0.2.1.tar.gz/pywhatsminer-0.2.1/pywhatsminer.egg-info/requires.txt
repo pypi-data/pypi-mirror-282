@@ -1,0 +1,5 @@
+passlib
+pycryptodome
+dataclasses-json
+Deprecated
+networkscan
