@@ -1,0 +1,101 @@
+import argparse
+import os
+import subprocess
+import sys
+
+# Define ascii color to avoid cluttering print statements in the code
+dblue = "\033[1;94m"
+blue = "\033[94m"
+reset = "\033[0m"
+dgreen = "\033[1;92m"
+green = "\033[92m"
+dmagenta = "\033[1;95m"
+red = "\033[31m"
+
+
+def main():
+    # Initialize the argument parser
+    parser = argparse.ArgumentParser(
+        description="Compile kotlin files/directory using kotlinc")
+
+    # Define command line arguements
+    parser.add_argument("input",
+                        help="directory all file to compile")
+    parser.add_argument("-run", action="store_true",
+                        help="Run compiled jar file")
+    parser.add_argument("-CR", action="store_true",
+                        help="Compile and run files sequentially")
+
+    # Create objects for the arguements for easy reference
+    args = parser.parse_args()
+    _input = args.input
+    run = args.run
+    CR = args.CR
+
+    if not os.path.exists(_input):
+        print(f"{red}Path/file not found{reset}")
+
+        # Run already compiled .jar files
+    if run and os.path.exists(_input) and os.path.isfile(_input):
+        try:
+            if _input.split('.')[-1] != "jar":
+                print(f"{red}File to run must be compiled jar file{reset}")
+                sys.exit(1)
+            print(f"{green}Run{blue} {_input}{reset}")
+            subprocess.run(["java", "-jar", _input, "2>/dev/null"])
+        except Exception as e:
+            print(e)
+
+    # compile file
+    if not run and os.path.exists(_input) and os.path.isfile(_input):
+        try:
+            jar = _input.split('.')[0] + ".jar"
+            print(
+                f"Compile {dblue}{_input}{reset} ➡️ {dblue}{jar}{reset}")
+            subprocess.run(
+                ["kotlinc", _input, "-include-runtime", "-d", jar])
+
+            compiled = True
+        except Exception as e:
+            print(e)
+            compiled = False
+            sys.exit(1)
+            # print(f"{red}Compile failure{reset}")
+        # Run the compile files after compilation succeeds
+        finally:
+            print(compiled)
+            if compiled is True:
+                print(f"{dgreen}Compile ✅{reset}")
+                if CR:
+                    print(f"{green}Run{dblue} {jar}{reset}")
+                    subprocess.run(["java", "-jar", jar, "2>/dev/null"])
+
+    # Compile directory/folder
+    elif not run and os.path.exists(_input) and os.path.isdir(_input):
+        try:
+            print(f"{dmagenta}Compile{reset}")
+            for root, dirs, files in os.walk(_input):
+
+                for file in files:
+                    if file.split('.')[-1] in {"kts", "kt"}:
+                        path = os.path.join(root, file)
+                        jar = path.split('.')[0] + ".jar"
+
+                        print(f"{dblue}{path}{reset} ➡️ {dblue}{jar}{reset}")
+                        subprocess.run(
+                            ["kotlinc", _input, "-include-runtime", "-d", jar])
+                        print("\n")
+
+                # Run the compile files after compilation succeeds
+                # if CR is True:
+                # subprocess.run(["java", "-jar", "main.jar", "2 > /dev/null"])
+        except Exception as e:
+            print(e)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nQuit!")
+        sys.exit(1)

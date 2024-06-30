@@ -1,0 +1,6 @@
+[console_scripts]
+compile = compiler:main
+compile_kotlin = compiler:main
+kcompiler = compiler:main
+kotlin_compiler = compiler:main
+krun = compiler:main
