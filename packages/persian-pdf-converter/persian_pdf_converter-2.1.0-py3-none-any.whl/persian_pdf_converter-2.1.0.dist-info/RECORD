@@ -1,0 +1,9 @@
+persian_pdf_converter/__init__.py,sha256=b2gFO7k95KsIPO7BVi-Vf87r6ZEez8c5_bxn-MVrmoo,372
+persian_pdf_converter/pdf_converter.py,sha256=cI7pDNVLIS_yP7XWT4F0kG7kN0fYYtrXx3k1IfR-GNo,1920
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/my_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/my_pkg/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persian_pdf_converter-2.1.0.dist-info/METADATA,sha256=2635_HkRYaj-yDhMZGYmHw1k0jYT3gvz4TAxrD0-sbw,3353
+persian_pdf_converter-2.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+persian_pdf_converter-2.1.0.dist-info/top_level.txt,sha256=75CY2kmaHtIAs0ORHsrsAmDoO9z5e2y9q2ouWeovz3w,26
+persian_pdf_converter-2.1.0.dist-info/RECORD,,
