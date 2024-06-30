@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: swcpy
+Version: 0.0.3
+Summary: Example Software Development Kit (SDK) from Hands-On API Book for AI and Data Science
+Author: Ryan Day
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pytest >=8.1
+Requires-Dist: httpx >=0.27.0
+
+# swcpy software development kit (SDK)
+This is an example python SDK to to interact with the SportsWorldCentral Football API, which was created for the book [Hands-On APIs for AI and Data Science](https://hands-on-api-book.com).
+
+## Example Usage
+
+To call the SDK functions for normal API endpoints, here is an example:
+
+```python
+from swcpy import SWCClient
+from swcpy import SWCConfig
+
+config = SWCConfig(url="http://127.0.0.1:8000",backoff=False)
+client = SWCClient(config)    
+leagues_response = client.list_leagues()
+print(leagues_response)
+```
+
