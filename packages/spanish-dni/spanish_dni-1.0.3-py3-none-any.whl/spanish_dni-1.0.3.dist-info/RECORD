@@ -1,0 +1,14 @@
+spanish_dni/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spanish_dni/constants.py,sha256=vUBF4rLoqbaNdpUP5NAj6q_PirMU556fh1Xn48ym1-0,340
+spanish_dni/control_digit.py,sha256=q1xf0tsHoLIz5R_uOv5EOk4NLkZ63kKiYVKzkEhLuLY,681
+spanish_dni/dni.py,sha256=yKMChLekYF5noNPr97wZ23l0-0ntzMAWjKwSSFoLIXU,562
+spanish_dni/generator/__init__.py,sha256=mcyrbAWJ-MQn2Yj0ONxWQQ5MtSNE738JMb0QJQViwPw,57
+spanish_dni/generator/exceptions.py,sha256=SmrJ7Mf5ss6FP8kx9APdfvRbk62n4mnwxREXo9otml0,138
+spanish_dni/generator/generator.py,sha256=cNt7rU7-D-si5kmKO8gGNTBgxDqx3650Y1O6z14hk1M,1769
+spanish_dni/validator/__init__.py,sha256=W5RkhdungO2ZNeNnFFph2eBw_nZRSBkZxtYbqCDNrZQ,57
+spanish_dni/validator/exceptions.py,sha256=VfZwBT6EB_szfcvxUkIBnTbYp13t5jA7psGZ_ONLnNg,49
+spanish_dni/validator/validator.py,sha256=WV8AWUz2lDnNpwztUSgyNAhvXmMlnGOCQbsKl7Bet0E,648
+spanish_dni-1.0.3.dist-info/METADATA,sha256=N0K6CmuNB12baTdiYVTF5Pp2J-ksVLoOt-dhDmNmShk,2060
+spanish_dni-1.0.3.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+spanish_dni-1.0.3.dist-info/top_level.txt,sha256=i8BbFDcekOmO15f9R4VBwlYuZjoOjDvGYesH-dO2HZg,12
+spanish_dni-1.0.3.dist-info/RECORD,,
