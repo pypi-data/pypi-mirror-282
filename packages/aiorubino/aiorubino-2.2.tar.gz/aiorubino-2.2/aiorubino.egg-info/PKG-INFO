@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: aiorubino
+Version: 2.2
+Summary: aiorubino is asynchronous Rubino API library in Python 
+Home-page: https://github.com/irvanyamirali/aiorubino
+Author: AmirAli Irvany
+Author-email: irvanyamirali@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# AIORubino
+aiorubino is asynchronous Rubino API library in Python
+
+### Install and update
+```bash
+pip install -U aiorubino
+```
+
+### Start
+```python
+from aiorubino import Client
+
+client = Client("auth")
+
+async def main():
+    result = await client.get_my_profile_info()
+    print(result.name)
+    
+
+client.run(main())
+```
+
+### Contributors
+Contributions to the project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
+
+### License
+aiorubino is released under the MIT License. See the bundled [LICENSE](https://github.com/irvanyamirali/aiorubino/blob/main/LICENSE) file for details.
