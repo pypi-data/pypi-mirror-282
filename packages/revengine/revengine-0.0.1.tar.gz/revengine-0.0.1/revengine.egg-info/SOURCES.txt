@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+revengine.egg-info/PKG-INFO
+revengine.egg-info/SOURCES.txt
+revengine.egg-info/dependency_links.txt
+revengine.egg-info/requires.txt
+revengine.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py

@@ -1,0 +1,4 @@
+# Revengine
+
+Revengine is a video game engine written in python. It is being developed as the engine for which the game [INSERT GAME TITLE] will be built upon. The engine will use the Pyglet library for rendering and input handling and pymunk for physics. 
+Additionally, the engine will use my own custom libraries [entyty](https://github.com/primal-coder/entyty), [dicepy](https://github.com/primal-coder/dicepy), [CharActor](https://github.com/primal-coder/CharActor), [CharObj](https://github.com/primal-coder/CharObj) and [grid-engine](https://github.com/primal-coder/grid-engine). The engine will be designed to be modular and easy to use, with the goal of making it easy to create games with it. The engine is titled as such because it is a revision of the [BegIngine](https://github.com/primal-coder/BegIngine) engine, which I had been working on previously.

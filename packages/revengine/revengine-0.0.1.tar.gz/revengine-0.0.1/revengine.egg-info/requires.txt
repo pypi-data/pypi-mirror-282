@@ -1,0 +1,7 @@
+dicepy
+entyty
+CharActor
+CharObj
+gridengine_framework
+pyglet
+pymunk
