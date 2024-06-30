@@ -1,0 +1,8 @@
+README.md
+setup.py
+EzCommit.egg-info/PKG-INFO
+EzCommit.egg-info/SOURCES.txt
+EzCommit.egg-info/dependency_links.txt
+EzCommit.egg-info/entry_points.txt
+EzCommit.egg-info/requires.txt
+EzCommit.egg-info/top_level.txt
