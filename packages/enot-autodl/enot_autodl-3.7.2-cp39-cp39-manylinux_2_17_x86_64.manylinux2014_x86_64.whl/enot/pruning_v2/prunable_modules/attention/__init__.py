@@ -1,0 +1,5 @@
+# pylint: disable=useless-import-alias
+from enot.pruning_v2.prunable_modules.attention.in_projection import AttentionInProjection as AttentionInProjection
+from enot.pruning_v2.prunable_modules.attention.out_projection import AttentionOutProjection as AttentionOutProjection
+from enot.pruning_v2.prunable_modules.attention.torch_attention import PrunableTorchAttention as PrunableTorchAttention
+from enot.pruning_v2.prunable_modules.attention.torch_attention import TorchAttentionCore as TorchAttentionCore
