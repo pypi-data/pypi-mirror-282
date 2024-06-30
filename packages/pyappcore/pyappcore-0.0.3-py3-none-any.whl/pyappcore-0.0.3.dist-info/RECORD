@@ -1,0 +1,14 @@
+pyappcore/__init__.py,sha256=DhWg1EcT3FRhfZNgubArayHhZWdKAluVwpL9SDAvfo0,507
+pyappcore/__main__.py,sha256=jNClL-8S7NJLE9lsItGuW90WuOYmXy0d5yvCqJMXQAI,430
+pyappcore/ansicode.py,sha256=yG268VsApoppEE3BPwaogLatf86Gbz935IXO4uCnPfc,6584
+pyappcore/jsonutils.py,sha256=Z3QxvcTuEVRZnfSxIzaAR-IJ9-x-LFNrXp1_uN7Hse4,1580
+pyappcore/math3d.py,sha256=g9lBnRINBZs-hSbRohB3o4HcaCYuBbE8HIXA2JqSx8I,6147
+pyappcore/property.py,sha256=Ckf4j73NNppbNrafBOGcGdQmUBD3kk7ZhdvgrqvsQMM,4491
+pyappcore/resources.py,sha256=YrUJ-VFr9i7Hzy188NvrQ12GUEqj1i7PXUEfHAcVZXA,409
+tests/__init__.py,sha256=5TbGDAK7tsHUCil2OjZufGVRbAYu0Ow0TJOfre-Jc2k,173
+tests/test_pyappcore.py,sha256=mDs4qVQMWUcpnS0-qivo3nGyXYz18VRz_R4GnbMlRyU,740
+pyappcore-0.0.3.dist-info/LICENSE,sha256=AU8OrUcHYBTd6RuKzW0BQx6bM2ALTnqc8vRQwMcRIW0,1087
+pyappcore-0.0.3.dist-info/METADATA,sha256=pszG3CKPzZ3xiGzYUuN5UJohQUe77mFu79EU_eCkNH8,619
+pyappcore-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyappcore-0.0.3.dist-info/top_level.txt,sha256=bjlxJGhYhSuGXue_sTlfd5Z9TiK5uZjKmnIQSHtg5Uk,16
+pyappcore-0.0.3.dist-info/RECORD,,
