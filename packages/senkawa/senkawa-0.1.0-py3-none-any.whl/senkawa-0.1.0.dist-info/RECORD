@@ -1,0 +1,9 @@
+senkawa/__init__.py,sha256=TYPaLlO01tfxiNHB-yUuoYa7Wll7PUwiBftR6GdTTWc,225
+senkawa/brace_expand.py,sha256=0z1VqswRCXsLGXi8hH48zYAmlUKomCDgQpQU3R9ep24,6369
+senkawa/errors.py,sha256=wxcIWP19zXQ4G-81hu_RtUNJZ7-h824qdSrVpMszY_Q,50
+senkawa/expressions.py,sha256=gDUI1JgMSY1j6AqbWUocQ-bq-LNCC3c_QSJCUFD4KeU,531
+senkawa/glob.py,sha256=HlYoY3BTtiKlzP-sppPCVfTUBaF5MxPwt_zE2sMFeR8,1238
+senkawa-0.1.0.dist-info/LICENSE,sha256=Qt4j6TVi93b4z9Jf1e9g8WN1BBM-Tu9Cw6EgtOfgcWM,1070
+senkawa-0.1.0.dist-info/METADATA,sha256=bwtyH7MqvGFwst5-JSoTViNEA5nBH8vuUAgQzE_03K8,2305
+senkawa-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+senkawa-0.1.0.dist-info/RECORD,,
