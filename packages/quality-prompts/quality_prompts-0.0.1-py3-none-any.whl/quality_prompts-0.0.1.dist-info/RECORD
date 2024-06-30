@@ -1,0 +1,10 @@
+quality_prompts/__init__.py,sha256=XdTjTtAQw5ULt3BNhlepVdq-khvtgWegWzV7xurChrM,106
+quality_prompts/exemplars.py,sha256=9VlxVjkleZWqV5-_67wGw9d3OmzdVaTAMTZLsYr69zY,1789
+quality_prompts/prompt.py,sha256=4Rl85jTt46AxZHPJhwA2aI3wgOmaDir0GbO-8FbFfig,3019
+quality_prompts/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quality_prompts/utils/llm.py,sha256=lAiHYv5R8SqAbRAILH2VVagjnTvjT2ZXmBxA2ORNtkg,360
+quality_prompts-0.0.1.dist-info/LICENSE,sha256=fyQfQOHYNDL751rS7m2pnXeHAdzh0pW2WsrzLd-Fx1g,1058
+quality_prompts-0.0.1.dist-info/METADATA,sha256=Z4zxVGehZ72L9WgfyH4Hgz_Eehu2yRLvoleHvidPj5k,2519
+quality_prompts-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quality_prompts-0.0.1.dist-info/top_level.txt,sha256=g59siO14Uq26ZPZ1vihhpmAuDqCHHzUycQYhY40o43c,16
+quality_prompts-0.0.1.dist-info/RECORD,,
