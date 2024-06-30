@@ -1,0 +1,18 @@
+from scapy.fields import *
+
+AggressorSide = lambda name : EnumField(name, default="NoAggressor", enum={'NoAggressor': 0, 'Buy': 1, 'Sell': 2},fmt="B")
+EventType = lambda name : EnumField(name, default="Activation", enum={'Activation': 5, 'LastEligibleTradeDate': 7},fmt="B")
+HaltReason = lambda name : EnumField(name, default="GroupSchedule", enum={'GroupSchedule': 0, 'SurveillanceIntervention': 1, 'MarketEvent': 2, 'InstrumentActivation': 3, 'InstrumentExpiration': 4, 'Unknown': 5, 'RecoveryInProcess': 6},fmt="B")
+LegSide = lambda name : EnumField(name, default="BuySide", enum={'BuySide': 1, 'SellSide': 2},fmt="B")
+MDEntryType = lambda name : EnumField(name, default="Bid", enum={'Bid': '0', 'Offer': '1', 'Trade': '2', 'OpenPrice': '4', 'SettlementPrice': '6', 'TradingSessionHighPrice': '7', 'TradingSessionLowPrice': '8', 'ClearedVolume': 'B', 'OpenInterest': 'C', 'ImpliedBid': 'E', 'ImpliedOffer': 'F', 'BookReset': 'J', 'SessionHighBid': 'N', 'SessionLowOffer': 'O', 'FixingPrice': 'W', 'ElectronicVolume': 'e', 'ThresholdLimitsandPriceBandVariation': 'g'},fmt="c")
+MDEntryTypeBook = lambda name : EnumField(name, default="Bid", enum={'Bid': '0', 'Offer': '1', 'ImpliedBid': 'E', 'ImpliedOffer': 'F', 'BookReset': 'J'},fmt="c")
+MDEntryTypeDailyStatistics = lambda name : EnumField(name, default="SettlementPrice", enum={'SettlementPrice': '6', 'ClearedVolume': 'B', 'OpenInterest': 'C', 'FixingPrice': 'W'},fmt="c")
+MDEntryTypeStatistics = lambda name : EnumField(name, default="OpenPrice", enum={'OpenPrice': '4', 'HighTrade': '7', 'LowTrade': '8', 'HighestBid': 'N', 'LowestOffer': 'O'},fmt="c")
+MDUpdateAction = lambda name : EnumField(name, default="New", enum={'New': 0, 'Change': 1, 'Delete': 2, 'DeleteThru': 3, 'DeleteFrom': 4, 'Overlay': 5},fmt="B")
+OpenCloseSettlFlag = lambda name : EnumField(name, default="DailyOpenPrice", enum={'DailyOpenPrice': 0, 'IndicativeOpeningPrice': 5},fmt="B")
+OrderUpdateAction = lambda name : EnumField(name, default="New", enum={'New': 0, 'Update': 1, 'Delete': 2},fmt="B")
+PutOrCall = lambda name : EnumField(name, default="Put", enum={'Put': 0, 'Call': 1},fmt="B")
+SecurityTradingEvent = lambda name : EnumField(name, default="NoEvent", enum={'NoEvent': 0, 'NoCancel': 1, 'ResetStatistics': 4, 'ImpliedMatchingON': 5, 'ImpliedMatchingOFF': 6},fmt="B")
+SecurityTradingStatus = lambda name : EnumField(name, default="TradingHalt", enum={'TradingHalt': 2, 'Close': 4, 'NewPriceIndication': 15, 'ReadyToTrade': 17, 'NotAvailableForTrading': 18, 'UnknownorInvalid': 20, 'PreOpen': 21, 'PreCross': 24, 'Cross': 25, 'PostClose': 26, 'NoChange': 103},fmt="B")
+SecurityUpdateAction = lambda name : EnumField(name, default="Add", enum={'Add': 'A', 'Delete': 'D', 'Modify': 'M'},fmt="c")
+TemplateId = lambda name : EnumField(name, default="ChannelReset", enum={'ChannelReset': 4, 'AdminHeartbeat': 12, 'AdminLogin': 15, 'AdminLogout': 16, 'MDInstrumentDefinitionFuture': 54, 'MDInstrumentDefinitionSpread': 56, 'SecurityStatus': 30, 'MDIncrementalRefreshBook': 46, 'MDIncrementalRefreshDailyStatistics': 49, 'MDIncrementalRefreshLimitsBanding': 50, 'MDIncrementalRefreshSessionStatistics': 51, 'MDIncrementalRefreshVolume': 37, 'SnapshotFullRefresh': 52, 'QuoteRequest': 39, 'MDInstrumentDefinitionOption': 55, 'MDIncrementalRefreshTradeSummary': 48, 'MDIncrementalRefreshOrderBook': 47, 'SnapshotFullRefreshOrderBook': 53},fmt="<H")
