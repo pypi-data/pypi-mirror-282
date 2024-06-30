@@ -1,0 +1,9 @@
+README.md
+setup.py
+ignore/__init__.py
+ignore/ignore.py
+python_gitignore_generator.egg-info/PKG-INFO
+python_gitignore_generator.egg-info/SOURCES.txt
+python_gitignore_generator.egg-info/dependency_links.txt
+python_gitignore_generator.egg-info/requires.txt
+python_gitignore_generator.egg-info/top_level.txt
