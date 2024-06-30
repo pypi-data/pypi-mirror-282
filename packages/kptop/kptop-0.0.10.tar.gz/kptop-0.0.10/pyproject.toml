@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kptop"
+version = "0.0.9"
+description = "A CLI tool for building CLI based custom dashboards and commands from simple yaml manifests"
+authors = ["Eslam Gomaa"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+kptop = "kptop_tool:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
