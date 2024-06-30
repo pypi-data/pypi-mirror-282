@@ -1,0 +1,4 @@
+import os
+
+PORTMIDI_DEVNUM = int(os.getenv("PORTMIDI_DEVNUM", "0"))
+DEFAULT_MULTICAST_PORT = int(os.getenv("PYSTEPSEQ_MULTICAST_PORT", "8123"))
