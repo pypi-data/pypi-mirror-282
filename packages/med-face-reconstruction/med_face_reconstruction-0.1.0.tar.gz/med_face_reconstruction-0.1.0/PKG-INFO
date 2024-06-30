@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: med_face_reconstruction
+Version: 0.1.0
+Summary: 3D face reconstruction using mediapipe 3D Face mesh
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
