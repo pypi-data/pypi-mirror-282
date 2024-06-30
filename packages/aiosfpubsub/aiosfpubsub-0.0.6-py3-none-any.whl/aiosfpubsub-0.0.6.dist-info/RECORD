@@ -1,0 +1,9 @@
+aiosfpubsub/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+aiosfpubsub/client.py,sha256=fVkL9h8Sqz5bJ69q9Yb1LVP60Xn8i4Sl93L0VwWrJ5Y,9154
+aiosfpubsub/pubsub_api_pb2.py,sha256=3m-O90bUaoVtC_1uV3dTcABNAy7BMwd6oRCWIF_kDA4,7303
+aiosfpubsub/pubsub_api_pb2_grpc.py,sha256=J2jaWcqxyhyJksrkK2GOIVvpZztD_sIY0YbFv7gf9Qc,18177
+aiosfpubsub-0.0.6.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+aiosfpubsub-0.0.6.dist-info/METADATA,sha256=SeYmqFTw3DNnVtxYnE7RYV4QhcShPbVY_Q6BZIqo81g,2207
+aiosfpubsub-0.0.6.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+aiosfpubsub-0.0.6.dist-info/top_level.txt,sha256=bdyGke0FxyuWfvd5j5XQsPwqwXSHuFTcdCWwkemTMBo,12
+aiosfpubsub-0.0.6.dist-info/RECORD,,
