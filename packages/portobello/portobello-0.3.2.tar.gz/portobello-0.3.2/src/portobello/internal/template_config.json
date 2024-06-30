@@ -1,0 +1,18 @@
+{
+  "ldap":{
+    "bind_users": [
+      {"bind_user": "", "kp_search_string": ""}
+    ],
+    "servers": [
+    ],
+    "saved_queries": [
+    ],
+    "saved_domains": [
+    ]
+  },
+  "netstat": {
+    "hostnames": [],
+    "ports": []
+  },
+  "keepass_location": ""
+}
