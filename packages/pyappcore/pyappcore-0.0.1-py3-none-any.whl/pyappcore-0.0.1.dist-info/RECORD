@@ -1,0 +1,13 @@
+pyappcore/__init__.py,sha256=Q6qdQNEFq19juF76WWEW0wvI-UEymsM2LKqPXTqohdE,486
+pyappcore/__main__.py,sha256=SWKn4oa_eFW1PA1ZC9O-pWfAqHE0yuFpOLsT_elSUvk,442
+pyappcore/pyson_blueprint.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyappcore/pyson_helper.py,sha256=BhYnqbg7VYnf7x_w3PusW76RALpyWsI_SD_3OPvJ1kg,1804
+pyappcore/pyson_object.py,sha256=vbj1PgcrXrgJyupVa1gzpwTfMFA-XtEPH0AClVe7qkQ,2500
+pyappcore/resources.py,sha256=YrUJ-VFr9i7Hzy188NvrQ12GUEqj1i7PXUEfHAcVZXA,409
+tests/__init__.py,sha256=5TbGDAK7tsHUCil2OjZufGVRbAYu0Ow0TJOfre-Jc2k,173
+tests/test_one.py,sha256=I2MFptubxC2lZJdtYP1Xn3ghnnWZdsnIIQrOTKylUy0,785
+pyappcore-0.0.1.dist-info/LICENSE,sha256=AU8OrUcHYBTd6RuKzW0BQx6bM2ALTnqc8vRQwMcRIW0,1087
+pyappcore-0.0.1.dist-info/METADATA,sha256=B1JBWj7jR74IWs-ENmxX7KzXYR01U4uXhgasQPZZtkQ,540
+pyappcore-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyappcore-0.0.1.dist-info/top_level.txt,sha256=bjlxJGhYhSuGXue_sTlfd5Z9TiK5uZjKmnIQSHtg5Uk,16
+pyappcore-0.0.1.dist-info/RECORD,,
