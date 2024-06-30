@@ -1,0 +1,11 @@
+LICENSE.md
+MANIFEST.in
+README.md
+nimb.py
+pyproject.toml
+etc/PKG-README.md
+nimb.egg-info/PKG-INFO
+nimb.egg-info/SOURCES.txt
+nimb.egg-info/dependency_links.txt
+nimb.egg-info/entry_points.txt
+nimb.egg-info/top_level.txt
