@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chat-in-a-nutshell
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy ~=2.0.0
+Requires-Dist: openai ~=1.35.7
+Requires-Dist: pydub ~=0.25.1
+Requires-Dist: sounddevice ~=0.4.7
+
+UNKNOWN
+
+
