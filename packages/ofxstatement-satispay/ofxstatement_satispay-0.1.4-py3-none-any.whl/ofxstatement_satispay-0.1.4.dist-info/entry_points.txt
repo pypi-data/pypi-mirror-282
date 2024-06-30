@@ -1,0 +1,3 @@
+[console_scripts]
+satispay=ofxstatement_satispay.plugin:SatispayPlugin
+
