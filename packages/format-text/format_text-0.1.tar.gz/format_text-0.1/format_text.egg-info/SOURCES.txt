@@ -1,0 +1,8 @@
+README.md
+setup.py
+format_text/__init__.py
+format_text/format_text.py
+format_text.egg-info/PKG-INFO
+format_text.egg-info/SOURCES.txt
+format_text.egg-info/dependency_links.txt
+format_text.egg-info/top_level.txt
