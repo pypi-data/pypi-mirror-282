@@ -1,0 +1,13 @@
+whale_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whale_client/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whale_client/api/entry.py,sha256=1Mx-1GeQG0HV0SwHxBIbQ1KrCpABmQe-qhIHnU70oYg,1144
+whale_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whale_client/models/api/entry.py,sha256=CyXZvYsXTKIT7KRiLpqCyfTVjIEX85LW_u1iBquTqdo,157
+whale_client/models/application.py,sha256=5N74Gc98zT2d_Ac5gjmUX5XvTzFZopZ7d0HYKYV-NL4,799
+whale_client/models/manager.py,sha256=GElImW2OJDsXqmkVxkxMhMQWKEhOHWBNjoTSHs2Y1Ds,846
+whale_client/models/table.py,sha256=m9l17ynOtQxs3X9A3ouMUpPPOi8p_Avle6iyUiNBfHU,441
+whale_client/sandbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whale_client/sandbox/main.py,sha256=Wen-dcL9XnCS0hmaVEY05KlSBRckhDklQ56UjvmEqic,1161
+whale_client-0.1.1.dist-info/METADATA,sha256=cSquO8NOWSV5CTxYRs6hzcngoTkwzIHHYI_fmUlpwRc,712
+whale_client-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+whale_client-0.1.1.dist-info/RECORD,,
