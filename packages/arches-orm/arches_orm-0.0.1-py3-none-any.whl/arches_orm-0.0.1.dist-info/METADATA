@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: arches-orm
+Version: 0.0.1
+Summary: Experimental Arches Object Relational Mapper
+Author-email: Phil Weir <phil.weir@flaxandteal.co.uk>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: tabulate
+Requires-Dist: geojson
+Provides-Extra: arches
+Requires-Dist: arches ; extra == 'arches'
+Provides-Extra: graphql
+Requires-Dist: starlette ; extra == 'graphql'
+Requires-Dist: starlette-context ; extra == 'graphql'
+Requires-Dist: starlette-graphene3 ; extra == 'graphql'
+Requires-Dist: oauth2-provider ; extra == 'graphql'
+Requires-Dist: aiodataloader ; extra == 'graphql'
+Requires-Dist: django-oauth2-provider ; extra == 'graphql'
+Requires-Dist: graphene-file-upload ; extra == 'graphql'
+Requires-Dist: graphene ; extra == 'graphql'
+Requires-Dist: uvicorn[standard] ; extra == 'graphql'
+Requires-Dist: aiohttp ; extra == 'graphql'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: httpx ; extra == 'test'
+Requires-Dist: spatialite ; extra == 'test'
+Requires-Dist: pytest-django ; extra == 'test'
+Requires-Dist: arches-graphql-client ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+
+# (Unofficial) Arches ORM [EXPERIMENTAL]
+
+This provides simple (server-side) access to Arches resources from Python
+as Python objects. It makes no guarantees about efficiency or type-accuracy
+but such issues raised will be addressed as far as possible.
+
+## Well-known Resource Models
+
+To provide a partial boundary, this package expects a settings object called
+`WELL_KNOWN_RESOURCE_MODELS` to list, at least, the models that should be
+wrapped by this system.
+
+It should be a list:
+
+    WELL_KNOWN_RESOURCE_MODELS = [
+        {
+            "model_name": "Person",
+            "graphid": "4110f743-1a44-11e9-9a37-000d3ab1e500",
+            "nodes": {}, # optional additional configuration
+            "to_string": lambda wkrm: str(wkrm) # optional callback for stringifying
+        }
+    ]
+
+You must _not_ take this list as an exclusive boundary of data that can be accessed.
+
+## Hooks
+
+This package also contains experimental functionality for hooking tile saves,
+so that client code can use the `MyModel.post_save` signal to get well-known
+resource model events. To avoid any unintended overhead, it does not load
+unless explicitly turned on with `arches_orm.add_hooks()`.
+
+## Tests
+
+Note that the tests require `spatialite` and so a Python that allows Sqlite3
+extension loading:
+
+    PYTHON_CONFIGURE_OPTS="--enable-loadable-sqlite-extensions" pyenv install 3.10.10
+
+## Documentation
+
+Documentation is generated using [pdocs](https://github.com/timothycrosley/pdocs) but,
+as the `arches_django` subpackage expects a running Arches instance to be importable
+(a side-effect of Django), we add an initialization routine.
+
+    python docs/make_doc.py
+
+## Thanks
+
+Particular thanks to the funders of this work, and to the Arches community for
+their work on which this builds. Particular thanks to Historic England's team
+for the underlying resource models used in the test-cases.
