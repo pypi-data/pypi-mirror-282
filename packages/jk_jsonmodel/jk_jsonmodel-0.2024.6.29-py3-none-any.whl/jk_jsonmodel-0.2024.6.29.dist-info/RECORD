@@ -1,0 +1,10 @@
+jk_jsonmodel/AbstractConstraint.py,sha256=0rp9UaWM0sqS2_c5WLlW-eMuz6fkVSjKNbd-SveVIfg,3265
+jk_jsonmodel/JMLocation.py,sha256=-zYU9XOJDET7UMKKqdqyIVg0cU_IBLybMaPA1rS-cSI,555
+jk_jsonmodel/JMRetriever.py,sha256=tZN7nglvQ4CuP8yL_UE-XRIyWfAx6oAMjlxIBUguAjc,5694
+jk_jsonmodel/JsonParserRelaxedModel.py,sha256=03q1yrtxKtMhGh1DF-IMbydF-NbCt5nQpYAfF93kPMw,8301
+jk_jsonmodel/__init__.py,sha256=zAeI-G8Iw9f1an-49i1eoaO0U4oYbJzZbc6WAv07gzk,7710
+jk_jsonmodel/constraints.py,sha256=e00TZbcninUbRzhfGCesVsBb-FhX-dDlWZ3_i_7EySI,9500
+jk_jsonmodel/jclasses.py,sha256=8q6IKKqzu92qDELokl9vkCBsLdk_tKxlQlQD-Vfeow4,41440
+jk_jsonmodel-0.2024.6.29.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+jk_jsonmodel-0.2024.6.29.dist-info/METADATA,sha256=hlvf1qZNk6TQM6U3RitvrIOL6_GyN2IuUN83l6lTEvI,10209
+jk_jsonmodel-0.2024.6.29.dist-info/RECORD,,
