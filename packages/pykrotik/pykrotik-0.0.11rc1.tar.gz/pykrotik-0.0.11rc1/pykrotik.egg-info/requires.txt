@@ -1,0 +1,11 @@
+pydantic
+
+[dev]
+build
+packaging
+pytest
+pytest-asyncio
+python-dotenv
+python-semantic-release
+toml
+twine
