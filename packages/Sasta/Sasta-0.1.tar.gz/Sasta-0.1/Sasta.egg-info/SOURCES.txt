@@ -1,0 +1,9 @@
+setup.py
+Sasta/__init__.py
+Sasta/cli.py
+Sasta/setup.py
+Sasta.egg-info/PKG-INFO
+Sasta.egg-info/SOURCES.txt
+Sasta.egg-info/dependency_links.txt
+Sasta.egg-info/entry_points.txt
+Sasta.egg-info/top_level.txt
