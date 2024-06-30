@@ -1,0 +1,3 @@
+[console_scripts]
+my_in_memory_db = my_in_memory_db.cli:main
+

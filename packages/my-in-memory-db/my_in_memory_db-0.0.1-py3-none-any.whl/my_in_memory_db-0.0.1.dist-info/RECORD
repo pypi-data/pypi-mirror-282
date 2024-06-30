@@ -1,0 +1,11 @@
+my_in_memory_db/__init__.py,sha256=BPMAwzxpv4kZZDoq0Noq2CZetvkKTHZbtYVcQgRlVDU,63
+my_in_memory_db/cli.py,sha256=A_MfGRGZSRNGszKtPYrXnzk8GTQHDm8Ur-cVsY0xpus,1236
+my_in_memory_db/db.py,sha256=2NfLIKh4XcYi6am80IZCgM_1g24A7bAx1A_53yU483M,1766
+tests/__init__.py,sha256=iViLDCvp2HIGDniqaMz5X5TKJ-pry3mkNQnWbClsc84,20
+tests/test_db.py,sha256=AME3RNsUsi5Qm4u4YhgsUvy96ngTN4YAUdoe2yWbUfE,1083
+my_in_memory_db-0.0.1.dist-info/LICENSE,sha256=y3P8dn_xWnJC7jTv-JQ3ogn24txpUl476m07ko-By1k,21
+my_in_memory_db-0.0.1.dist-info/METADATA,sha256=EHY6FaNiAVD8augyHfgI9VbeBJP4Tb5OfiN3p0j5XiA,642
+my_in_memory_db-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+my_in_memory_db-0.0.1.dist-info/entry_points.txt,sha256=EDrMux7cLYSruIphOr5lg1FuZ89aYJi64BmL-WlDIuw,62
+my_in_memory_db-0.0.1.dist-info/top_level.txt,sha256=1tttmKRPZaQe-ET_TL0z6HDwOW_kadZGMVqsqwI-9Z8,22
+my_in_memory_db-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: my-in-memory-db
+Version: 0.0.1
+Summary: A simple in-memory database with transaction support
+Home-page: https://github.com/unix1998/my_in_memory_db
+Author: unix1998
+Author-email: unix1998@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# my_in_memory_db
+Author Unix1998
+A simple in-memory database with transaction support.
+
+
+## Installation
+
+```bash
+pip install my_in_memory_db'''
+
+
+
