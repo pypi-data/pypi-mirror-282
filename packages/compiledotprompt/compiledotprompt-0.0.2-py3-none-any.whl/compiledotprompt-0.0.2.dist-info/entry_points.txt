@@ -1,0 +1,3 @@
+[console_scripts]
+compiledotprompt=compiledotprompt.main:gen
+
