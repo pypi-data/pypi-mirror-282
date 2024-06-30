@@ -1,0 +1,37 @@
+Metadata-Version: 2.3
+Name: ivory
+Version: 0.4.0
+Summary: Hydra + MLflow
+Project-URL: Documentation, https://daizutabi.github.io/ivory
+Project-URL: Source, https://github.com/daizutabi/ivory
+Project-URL: Issues, https://github.com/daizutabi/ivory/issues
+Author-email: daizutabi <daizutabi@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: MkDocs
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# ivory
+
+[![PyPI Version][pypi-v-image]][pypi-v-link]
+[![Python Version][python-v-image]][python-v-link]
+[![Build Status][GHAction-image]][GHAction-link]
+[![Coverage Status][codecov-image]][codecov-link]
+
+<!-- Badges -->
+[pypi-v-image]: https://img.shields.io/pypi/v/ivory.svg
+[pypi-v-link]: https://pypi.org/project/ivory/
+[python-v-image]: https://img.shields.io/pypi/pyversions/ivory.svg
+[python-v-link]: https://pypi.org/project/ivory
+[GHAction-image]: https://github.com/daizutabi/ivory/actions/workflows/ci.yml/badge.svg?branch=main&event=push
+[GHAction-link]: https://github.com/daizutabi/ivory/actions?query=event%3Apush+branch%3Amain
+[codecov-image]: https://codecov.io/github/daizutabi/ivory/coverage.svg?branch=main
+[codecov-link]: https://codecov.io/github/daizutabi/ivory?branch=main
