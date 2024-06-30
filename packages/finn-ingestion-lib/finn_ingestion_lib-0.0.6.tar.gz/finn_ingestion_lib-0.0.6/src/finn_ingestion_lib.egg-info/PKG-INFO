@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: finn_ingestion_lib
+Version: 0.0.6
+Summary: Yep
+Author-email: Me <alexanderhaugerud@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pandas==2.2.2
+Requires-Dist: bs4==0.0.2
+Requires-Dist: SQLAlchemy==2.0.31
+Requires-Dist: psycopg2-binary==2.9.9
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-cache==1.2.1
