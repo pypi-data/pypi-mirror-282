@@ -1,0 +1,4 @@
+[console_scripts]
+pkg1=pkg1.main:main
+pkg2=pkg2.main:main
+

@@ -1,0 +1,7 @@
+pkg1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg1/main.py,sha256=_qGuP02wdRCiDA3qU70Ox0bZi4QWbuIsPqgFJA1LR7E,34
+pkg2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+youht_pub_test-0.1.0.dist-info/METADATA,sha256=Rj9aEETWlvH552hhQCxprBUq42cLOnI5cKts5YVada4,286
+youht_pub_test-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+youht_pub_test-0.1.0.dist-info/entry_points.txt,sha256=BkiTeIq7wfNYN4SeEAQxDdRBzFjJH845wY8teDhEHa4,59
+youht_pub_test-0.1.0.dist-info/RECORD,,
