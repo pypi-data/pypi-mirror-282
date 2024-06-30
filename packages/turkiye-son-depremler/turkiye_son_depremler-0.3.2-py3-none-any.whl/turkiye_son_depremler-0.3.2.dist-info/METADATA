@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: turkiye-son-depremler
+Version: 0.3.2
+Summary: Türkiye ve yakın çevresindeki son 500 deprem.
+Home-page: https://github.com/aribilgiogr/turkiye-son-depremler
+Author: Arıbilgi Akademi
+Author-email: aribilgiogr@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: request
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+
+## TÜRKİYE VE YAKIN ÇEVRESİNDEKİ SON 500 DEPREM
+
+#### BOĞAZİÇİ ÜNİVERSİTESİ KANDİLLİ RASATHANESİ VE DEPREM ARAŞTIRMA ENSTİTÜSÜ (KRDAE) BÖLGESEL DEPREM-TSUNAMİ İZLEME VE DEĞERLENDİRME MERKEZİ (BDTİM)
+
+## Kurulum
+
+```bash
+pip install turkiye-son-depremler
+```
+## Kullanım
+
+```bash
+from turkiye_son_depremler import DepremData
+
+depremler = DepremData().data
+
+for deprem in depremler:
+    print(deprem['TarihSaat'], deprem['Konum'], deprem['Siddet'])
+
+```
