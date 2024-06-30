@@ -1,0 +1,5 @@
+[compass.actions]
+convert = compass_lib.commands.convert:convert
+
+[console_scripts]
+compass = compass_lib.commands.main:main
