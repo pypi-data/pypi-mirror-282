@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-speedy"
+version = "0.1.2"
+description = ""
+authors = ["Ali Heydarli <ali@getwhelp.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_speedy"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.0.0"
+
+[tool.poetry.scripts]
+fastapi_speedy = "fastapi_speedy.create_app:create_app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+include = [
+    "fastapi_boilerplate/**"
+]
