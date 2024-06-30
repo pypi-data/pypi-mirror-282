@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ultramiko
+Version: 0.1
+Summary: Esta es la descripcion de mi paquete
+Home-page: https://github.com/villamar32/ultramiko
+Author: Josue Villamar
+Author-email: 
+License: MIT
+Download-URL: https://github.com/villamar32/ultramiko/tarball/0.1
+Keywords: network,automation,python
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+### ULTRAMIKO
+
