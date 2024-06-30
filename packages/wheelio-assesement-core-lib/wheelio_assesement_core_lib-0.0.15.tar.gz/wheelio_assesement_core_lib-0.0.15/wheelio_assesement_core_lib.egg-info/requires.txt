@@ -1,0 +1,6 @@
+pyjwt
+fastapi
+motor
+tenacity
+starlette_authlib
+pika
