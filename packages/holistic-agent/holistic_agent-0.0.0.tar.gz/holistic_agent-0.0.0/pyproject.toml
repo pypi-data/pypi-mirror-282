@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "holistic-agent"
+version = "0.0.0"
+description = "holistic agent for all"
+authors = ["CambioML <wanwanaiai45@gmail.com>"]
+maintainers = ["Rachel Hu <goldpiggy@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

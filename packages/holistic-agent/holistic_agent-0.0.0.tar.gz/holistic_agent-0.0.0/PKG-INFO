@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: holistic-agent
+Version: 0.0.0
+Summary: holistic agent for all
+Author: CambioML
+Author-email: wanwanaiai45@gmail.com
+Maintainer: Rachel Hu
+Maintainer-email: goldpiggy@berkeley.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
