@@ -1,0 +1,6 @@
+pyproject.toml
+src/finn_ingestion_lib/__init__.py
+src/finn_ingestion_lib.egg-info/PKG-INFO
+src/finn_ingestion_lib.egg-info/SOURCES.txt
+src/finn_ingestion_lib.egg-info/dependency_links.txt
+src/finn_ingestion_lib.egg-info/top_level.txt
