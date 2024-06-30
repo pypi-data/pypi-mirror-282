@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: oracle-n
+Version: 0.0.1
+Summary: A model for sentiment analysis
+Home-page: https://github.com/hilarl/oracle-n
+Author: Hilal Agil
+Author-email: hilal@tenzro.com
+Requires-Dist: tensorflow
+Requires-Dist: transformers
+Requires-Dist: datasets
