@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: littlechunks
+Version: 0.0.1
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: pre-commit
+Requires-Dist: pytest
+Requires-Dist: coverage
+

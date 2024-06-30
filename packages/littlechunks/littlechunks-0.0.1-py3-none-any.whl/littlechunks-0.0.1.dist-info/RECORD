@@ -1,0 +1,14 @@
+littlechunks/__init__.py,sha256=PQfcsRTZvbewIqHU9B23aKeMM1eJVQlmTD5GIpOOBws,213
+littlechunks/__main__.py,sha256=NvRxRumOj2-4etFGGpId8wq3GZY2ev1Nqm3zsZKG4hM,82
+littlechunks/csv.py,sha256=9Lmdu-YI3JoK8SRG7LGf0pvqN4ryyH_J0OUaTBmjffs,2499
+littlechunks/utils.py,sha256=Zbpll5oZFEZMc2p2DFW4OEDUwviNEIePLz7GZ-kRBWo,682
+littlechunks/data/chunk_0.csv,sha256=bubTbMOBC2i4yzCfyEA2OP4eOLkIieJ7zNGFmTdMIrk,229
+littlechunks/data/chunk_1.csv,sha256=Ezbziz5y61lBqonKxt3xJHJf-0YtjPty4dBIa2qzc5Q,308
+littlechunks/data/chunk_2.csv,sha256=H3N5gtDqu4-SNtnLuoNvNX33SvgNI7-LvlP_CsUA1tM,243
+littlechunks/data/test_file.csv,sha256=-siIsbk4RsV_e0CzavulPYljj3p-w6X_7poxnQIsQOM,433
+littlechunks-0.0.1.dist-info/LICENSE,sha256=RZrmhJ0yPulD9ukxGw1H7sdidUVpnSB7JI3MlecdB8c,1089
+littlechunks-0.0.1.dist-info/METADATA,sha256=IJrKHoarYnP6dTF1ahfMZ6-2ETO_K0LFmXmn11Y8mms,184
+littlechunks-0.0.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+littlechunks-0.0.1.dist-info/entry_points.txt,sha256=rxivZCs8_usfid73L32KDOJvm8_HyfVZBSrNQpcFPno,51
+littlechunks-0.0.1.dist-info/top_level.txt,sha256=4fiyTSq9L8BLcpO026DiSkvd3wMwVMLwABzEKSrPeas,13
+littlechunks-0.0.1.dist-info/RECORD,,
