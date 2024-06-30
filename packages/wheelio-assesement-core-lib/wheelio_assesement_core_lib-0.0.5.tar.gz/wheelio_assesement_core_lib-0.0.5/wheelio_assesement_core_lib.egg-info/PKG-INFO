@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wheelio-assesement-core-lib
+Version: 0.0.5
+Summary: A common package for shared utilities and models for wheel.io technical challenge
+Home-page: https://github.com/yourusername/common_package
+Author: Ashwin Singh
+Author-email: ashwinsinghgr8@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pyjwt
+Requires-Dist: fastapi
+Requires-Dist: motor
+
+Do not use this, this will go off in some time
