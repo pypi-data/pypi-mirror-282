@@ -1,0 +1,3 @@
+[console_scripts]
+asthook = asthook:main
+asthook-bootstrap = asthook.bootstrap:main
