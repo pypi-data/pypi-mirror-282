@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: speedcheck
+Version: 0.0.1
+Summary: A Python package for running internet speed tests
+Home-page: https://github.com/samapriya/speedcheck
+Author: Samapriya Roy
+Author-email: samapriya.roy@gmail.com
+License: Apache 2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deepdiff >=7.0.1
+Requires-Dist: playwright >=1.44.0
+Requires-Dist: requests >=2.32.3
+Requires-Dist: speedtest-cli >=2.1.3
+Requires-Dist: websockets >=12.0
+
+# speedcheck
+Simple CLI to run different types of network speedtests
