@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "names-dataset-pickle"
+version = "1.0.0"
+description = "The python library to handle names"
+authors = ["satya-500 <satyabrata.swain@500apps.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "names_dataset" }]
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.13"
+pycountry = "^24.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
