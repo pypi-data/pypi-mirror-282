@@ -1,0 +1,3 @@
+[harlequin.adapter]
+datafusion=harlequin_datafusion:DataFusionAdapter
+
