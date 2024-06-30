@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: pysimultan-freecad
+Version: 0.0.4
+Project-URL: Documentation, https://github.com/BÃ¼hler Maximilian/pysimultan-freecad#readme
+Project-URL: Issues, https://github.com/BÃ¼hler Maximilian/pysimultan-freecad/issues
+Project-URL: Source, https://github.com/BÃ¼hler Maximilian/pysimultan-freecad
+Author-email: BÃ¼hler Maximilian <maximilian.buehler@a1.digital>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: gmsh
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pysimultan
+Requires-Dist: pysimultanui
+Description-Content-Type: text/markdown
+
+# pysimultan_freecad
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pysimultan-freecad.svg)](https://pypi.org/project/pysimultan-freecad)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pysimultan-freecad.svg)](https://pypi.org/project/pysimultan-freecad)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install pysimultan-freecad
+```
+
+## License
+
+`pysimultan-freecad` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
