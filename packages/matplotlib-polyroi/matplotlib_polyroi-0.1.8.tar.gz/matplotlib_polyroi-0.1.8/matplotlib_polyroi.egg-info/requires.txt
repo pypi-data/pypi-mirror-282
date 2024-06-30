@@ -1,0 +1,13 @@
+numpy
+matplotlib
+scipy
+scikit-image
+ipympl
+
+[dev]
+pre-commit
+black
+pip-tools
+
+[doc]
+sphinx_rtd_theme==1.0.0
