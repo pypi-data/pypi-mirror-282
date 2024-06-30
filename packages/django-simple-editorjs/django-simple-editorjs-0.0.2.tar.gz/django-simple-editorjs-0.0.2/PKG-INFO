@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: django-simple-editorjs
+Version: 0.0.2
+Summary: A simple editorjs for django
+Home-page: https://github.com/gerardoaballesterjr/django-simple-editorjs
+Author: Gerardo A. Ballester Jr.
+Author-email: gerardoaballesterjr@gmail.com
+License: MIT
+Keywords: django simple editorjs
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Requires-Python: >=3.4,<4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Installation
+
+```bash
+pip install django-simple-editorjs
+```
+
+# Setup
+
+```python
+# settings.py
+INSTALLED_APPS = [
+    ...
+    'django_simple_editorjs',
+]
+
+```
+
+# Example
+
+```python
+# models.py
+from django.db import models
+from django_simple_editorjs import EditorJsField
+
+class Post(models.Model):
+    title = models.CharField(max_length=255, unique=True)
+    content = EditorJsField()
+```
