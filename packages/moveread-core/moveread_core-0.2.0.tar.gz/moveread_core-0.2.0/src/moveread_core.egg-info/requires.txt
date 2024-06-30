@@ -1,0 +1,14 @@
+pydantic
+haskellian
+robust-extraction2
+chess-pairings
+chess-notation
+kv-api
+kv-sqlite-sync
+kv-fs
+
+[cli]
+ocr-dataset
+files-dataset
+typer
+fs-tools
