@@ -1,0 +1,13 @@
+rf2rnd/__init__.py,sha256=BMQSOQzKgt4Cn8cVhNbXkgQu0a-09R6nz5RqtBUNC5o,232
+rf2rnd/collector.py,sha256=MnGLPqcgsWfUbipc2VwhNS8wYenB6jAGCw-VBHO4SnQ,700
+rf2rnd/extractor.py,sha256=I9dzbncjZkfcj2n5fY-nTQUjMKRkZDLBu1IGy-m94Jg,2932
+rf2rnd/generator.py,sha256=xQtVD9FdhJ9-Rk8-yMBArLEP5dRKHLHCWdvoOV8474k,2209
+tests/__init__.py,sha256=wDP0-GvPyIHdqfDdRrHAFm9DlmD6Y_Uqy7S_6_nezxI,20
+tests/test_0.py,sha256=9uPFyzErLNydPwzuQYv6QEz9fQY_TCDKDNPOwGqtWnQ,1238
+tests/test_cum_sum.py,sha256=pnIYwMZ06cyB4CxCPklev5E3O3VzdsnNu31uSYnRFz0,648
+tests/test_monobit.py,sha256=P0d9PjO4GqKQ9w25ZzT6IbA7U784IoyxzlFcJlQHI-g,1020
+tests/test_rand_excursion.py,sha256=T76c9cJi6MDYxUlmGAPz6xldpf5gbKVb-YYuDTkhVCU,2277
+rf2rnd-0.1.0.dist-info/METADATA,sha256=vedQ6_QGntg58KflqEFaATKq6TPmyJXkmgCx1-efZaE,6021
+rf2rnd-0.1.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+rf2rnd-0.1.0.dist-info/top_level.txt,sha256=ijq0_H3Twlr4nfSTFlV-bbplGMivQkFfgckSTWSXJnM,13
+rf2rnd-0.1.0.dist-info/RECORD,,
