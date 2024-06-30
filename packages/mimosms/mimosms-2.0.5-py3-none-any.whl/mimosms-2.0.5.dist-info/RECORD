@@ -1,0 +1,11 @@
+mimo/__init__.py,sha256=wdC41qyKs00p-MFepKze3D2E0QgrQL_XF_2cdxAIkQQ,32
+mimo/factory.py,sha256=KfObz2JXuRU4y2Dxv9kdwfOGMZXNtmIExnsSQOsbJCs,736
+mimo/gateway.py,sha256=fUn4P3ej17zeUm5wNEKY66BQ1F4cyiJFhJMIxHp7Yu8,1059
+mimo/message.py,sha256=kmycbpwvZX-Atluqft-E6k-fLtZCebrV3tFsm-87bF4,1895
+mimo/sender.py,sha256=mkw8omZO5LlZTGJNDfCjOsZZTBYGveJ9YxkuTOaoV4U,1900
+mimo/tools.py,sha256=wVjAe6ZYcpkAdiTed1Lr5tpKKVA6mX-D6LM4KDyE4UA,411
+mimosms-2.0.5.dist-info/LICENSE,sha256=gNOgXwC44mtea6_bi3onMbiV-vyTDyY2dR5mSVjEwWo,1070
+mimosms-2.0.5.dist-info/METADATA,sha256=G1vNsfbqMJVt_qaFn6phWVceeUIBIJb7WNSs8DEH7uI,2270
+mimosms-2.0.5.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+mimosms-2.0.5.dist-info/top_level.txt,sha256=KDllsl4taVntePkRq_xk3i5hCTDbdtreF124n1TO90U,5
+mimosms-2.0.5.dist-info/RECORD,,
