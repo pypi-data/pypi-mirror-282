@@ -1,0 +1,8 @@
+flexible_datetime/__init__.py,sha256=FFPSMwEZQz4FZ8f1_rxwWZmNHV95BipL4xeHsa2ejlo,141
+flexible_datetime/flexible_datetime.py,sha256=ZxPqteRCSx3ZYKRtEU11hv3PYeNol6yUa_q7NcmetOc,10561
+flexible_datetime/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flexible_datetime/pydantic_arrow.py,sha256=WAexrW8o3gTLAeQQrKKQp0VnS4X9FvffJ3fSyw2RPmM,1505
+flexible_datetime/time_utils.py,sha256=Z8S_wSsb4DfT04nTh8jGLYTvZeVLdEKf5FeCb1H1i2o,1954
+flexible_datetime-0.2.0.dist-info/METADATA,sha256=NHEy8PRwHgrz1jjK0hHqwBzLUISxu5y_s1NLIssOuKw,3229
+flexible_datetime-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+flexible_datetime-0.2.0.dist-info/RECORD,,
