@@ -1,0 +1,10 @@
+cxyx_tools/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+cxyx_tools/core/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+cxyx_tools/core/gradient.py,sha256=LpWg5IjIiVwmk6xAQqa0uODKm1b-IiMa_OWQYputuCE,3953
+cxyx_tools/core/variable.py,sha256=7Ync6rhWuRw79SZgHVrDmyW5F3hNX9_QXSsBUP9cRZk,5423
+cxyx_tools/utils/__init__.py,sha256=26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM,4
+cxyx_tools/utils/method_wrapper.py,sha256=BYH9dZoOPo9gjdReMDxeu1VmSNWQvel91739UgkRsjM,440
+cxyxtools-0.0.0.8.dist-info/METADATA,sha256=5a8LlAHteJ6kY606_1QXuszCKDXbw1dlo4x3RisKocM,522
+cxyxtools-0.0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cxyxtools-0.0.0.8.dist-info/top_level.txt,sha256=uuNqWh6WEiA-9c72kaiBhOIFXjLUJcx6FgtMyklc9Mc,11
+cxyxtools-0.0.0.8.dist-info/RECORD,,
