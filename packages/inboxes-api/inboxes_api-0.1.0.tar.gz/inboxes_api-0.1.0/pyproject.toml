@@ -1,0 +1,79 @@
+[tool.poetry]
+name = "inboxes-api"
+version = "0.1.0"
+description = "Simple wrapper over https://inboxes.com API, for generating and work with temporary emails"
+authors = ["grehban <maximfeedback19@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Framework :: AsyncIO",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications :: Chat",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.7.4"
+aiohttp = "^3.9.5"
+isort = "^5.13.2"
+black = "^24.4.2"
+mypy = "^1.10.1"
+aiodns = "^3.2.0"
+certifi = "^2024.6.2"
+ujson = "^5.10.0"
+types-ujson = "^5.10.0.20240515"
+
+[tool.mypy]
+plugins = "pydantic.mypy"
+python_version = "3.11"
+show_error_codes = true
+show_error_context = true
+pretty = true
+ignore_missing_imports = false
+warn_unused_configs = true
+disallow_subclassing_any = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+follow_imports_for_stubs = true
+namespace_packages = true
+show_absolute_path = true
+
+[tool.black]
+line-length = 79
+target-version = ['py310', 'py311']
+exclude = '''
+(
+    \.eggs
+  | \.git
+  | \.tox
+  | build
+  | dist
+  | venv
+  | docs
+)
+'''
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
