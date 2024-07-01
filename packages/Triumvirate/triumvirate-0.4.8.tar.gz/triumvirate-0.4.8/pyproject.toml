@@ -1,0 +1,170 @@
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = [
+    'setuptools>=61.0',
+    'setuptools_scm>=6.4',
+    'Cython>=3.0',
+    'extension-helpers>=1.1',
+    'numpy>=2.0',
+]
+
+[project]
+name = 'Triumvirate'
+description = "Three-point clustering measurements in large-scale structure analyses."
+authors = [
+    {name = 'Mike S Wang'},
+    {name = 'Naonori S Sugiyama'},
+]
+maintainers = [
+    {name = 'Mike S Wang', email = "32841762+MikeSWang@users.noreply.github.com"},
+]
+license = {file = "LICENCE"}
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: C++",
+    "Programming Language :: Cython",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dynamic = [
+  'version',
+  'readme',
+]
+requires-python = '>=3.10'
+dependencies = [
+    'numpy>=1.23',
+    'scipy>=1.13',
+    'sympy>=1.12.1',
+    'astropy>=4.2',
+    'pyyaml>=5.1',
+    'tqdm',
+]
+
+[project.optional-dependencies]
+nbk = ['nbodykit']
+
+[project.urls]
+# Home = "https://mikeswang.github.io/Triumvirate"
+Documentation = "https://triumvirate.readthedocs.io/"
+Source = "https://github.com/MikeSWang/Triumvirate"
+Changelog = "https://github.com/MikeSWang/Triumvirate/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+# version = {attr = 'triumvirate.__version__'}
+readme = {file = "README.rst"}
+
+[tool.setuptools.packages.find]
+where = ['src']
+namespaces = false
+exclude = [
+    'triumvirate.include*',
+    'triumvirate.src*',
+    'triumvirate.resources*',
+]
+
+[tool.setuptools.package-data]
+'triumvirate' = ["*.pxd", "*.pyx"]
+'triumvirate.include' = ["*.hpp"]
+'triumvirate.src' = ["*.cpp"]
+'triumvirate.resources' = ["*.ini", "*.yml"]
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+minversion = '7.0'
+addopts = "--full-trace --verbose --capture=no --runslow"
+testpaths = [
+    "tests",
+]
+
+[tool.cibuildwheel]
+build-frontend = 'build'
+skip = [
+    'pp*',
+    '*-win32',
+    '*-manylinux_i686',
+    '*-musllinux*',
+    '*_ppc64le',
+    '*_s390x',
+]
+environment = { PY_BUILD_PARALLEL='-j', SYSTEM_VERSION_COMPAT='0' }
+test-requires = "pytest>=7.0"
+test-command = "pytest {project}/tests"
+
+manylinux-x86_64-image = 'manylinux_2_28'
+manylinux-aarch64-image = 'manylinux_2_28'
+
+[tool.cibuildwheel.linux]
+before-all = [
+    "yum install -y gsl-devel fftw3-devel",
+]
+
+[tool.cibuildwheel.macos]
+before-all = [
+    "brew install gsl fftw libomp",
+]
+
+[tool.autopep8]
+in-place = true
+recursive = true
+aggressive = 3
+max_line_length = 79
+ignore = "E226,"
+
+[tool.docformatter]
+recursive = true
+wrap-summaries = 72
+wrap-descriptions = 72
+blank = true
+close-quotes-on-newline = true
+
+[tool.codespell]
+skip = "publication/joss/paper.bib,"
+ignore-words-list = "ERRO,"
+count = true
+quiet-level = 3
+
+[tool.ruff]
+target-version = 'py310'
+line-length = 79
+exclude = [
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".ipynb_checkpoints",
+    ".nox",
+    ".pyenv",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
+[tool.ruff.lint]
+fixable = ['ALL']
+unfixable = []
+
+# [tool.ruff.format]
+# quote-style = 'preserve'
+# indent-style = 'space'
+# line-ending = 'auto'
+# skip-magic-trailing-comma = true
+# docstring-code-format = false
+# docstring-code-line-length = 'dynamic'
