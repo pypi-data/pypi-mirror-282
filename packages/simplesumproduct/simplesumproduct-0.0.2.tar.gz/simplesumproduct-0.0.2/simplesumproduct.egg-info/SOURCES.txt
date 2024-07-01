@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+simplesumproduct/__init__.py
+simplesumproduct/producttool.py
+simplesumproduct/sumtool.py
+simplesumproduct.egg-info/PKG-INFO
+simplesumproduct.egg-info/SOURCES.txt
+simplesumproduct.egg-info/dependency_links.txt
+simplesumproduct.egg-info/requires.txt
+simplesumproduct.egg-info/top_level.txt
