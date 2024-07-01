@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "fasr"
+version = "0.1.1"
+description = "FASR: Fast Automatic Speech Recognition"
+authors = ["wangmengdi06 <wangmengdi06@58.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jsonargparse = "^4.29.0"
+funasr = ">=1.0.27"
+modelscope = ">=1.14.0"
+loguru = ">=0.7.2"
+librosa = ">=0.10.2"
+lightning_utilities = ">=0.11.2"
+kaldiio = ">=2.18.0"
+hydra-core = ">=1.3.2"
+numpy = "1.26.4"
+torch_complex = ">=0.4.3"
+protobuf = "3.20.2"
+
+funasr-onnx = ">=0.3.1"
+onnxruntime = ">=0.18.0"
+
+grpcio = ">=1.64.0"
+grpc-interceptor = ">=0.15.4"
+seldon-core = ">=1.18.2"
+threadpool = ">=1.3.2"
+matplotlib = ">=3.9.0"
+
+
+
+
+[tool.poetry.extras]
+onnx = ["onnxruntime", "funasr-onnx"]
+test = ["grpcio", "grpc-interceptor", "seldon-core", "threadpool", "matplotlib"]
+
+
+[tool.poetry.scripts]
+fasr = "fasr.__main__:run"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
