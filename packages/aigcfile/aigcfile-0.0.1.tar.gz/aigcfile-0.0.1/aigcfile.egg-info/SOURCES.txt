@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+aigcfile.egg-info/PKG-INFO
+aigcfile.egg-info/SOURCES.txt
+aigcfile.egg-info/dependency_links.txt
+aigcfile.egg-info/entry_points.txt
+aigcfile.egg-info/requires.txt
+aigcfile.egg-info/top_level.txt
+aigcfile/clis/click/cli.py
+aigcfile/clis/click/commands/rename.py
+aigcfile/clis/click/utils/datatype.py
+aigcfile/image/rename.py
+aigcfile/image/rename_test.py
+aigcfile/module/rename.py
+aigcfile/utils/globfile.py
