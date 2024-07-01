@@ -1,0 +1,6 @@
+# Some files for local runs
+__pycache__
+test.py
+pylogic.egg-info/
+.coverage
+coverage.*
