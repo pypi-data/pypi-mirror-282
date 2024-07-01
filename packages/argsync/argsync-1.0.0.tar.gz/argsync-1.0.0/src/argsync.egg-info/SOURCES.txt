@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/argsync/__init__.py
+src/argsync/gdrive.py
+src/argsync/main.py
+src/argsync/pull.py
+src/argsync/push.py
+src/argsync.egg-info/PKG-INFO
+src/argsync.egg-info/SOURCES.txt
+src/argsync.egg-info/dependency_links.txt
+src/argsync.egg-info/entry_points.txt
+src/argsync.egg-info/requires.txt
+src/argsync.egg-info/top_level.txt
