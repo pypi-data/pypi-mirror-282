@@ -1,0 +1,10 @@
+syncfile/__init__.py,sha256=YovjJCgFqbfD5KK97W_ufRe0tb_OHtSV4d2cKbwk2J0,221
+syncfile/__main__.py,sha256=GVX7xPjXMZYNBiuFx2BbQiIAArZnGBQ8WlF9Z6n-asQ,779
+syncfile/client.py,sha256=PYKHX87og-cSyLo0ugb1RHPVoquTiyDPRkkp20wmtzE,5555
+syncfile/down.py,sha256=0w7RZ09fpDgsb9s7qNNYec1LrdNe9JdrEHf7dLQYAOw,5106
+syncfile/server.py,sha256=_qJQ4lwQ5b3f47x5cU6r-136ih1mODd-METCvCgf2Wc,2783
+syncfile/utils.py,sha256=rIbUuueYMfQ13J50CrpTho6ChEg0b37XVXBvjJsPfV4,71
+syncfile-0.3.1.1.dist-info/METADATA,sha256=-KgfndinK1U36SNxEwZvD_Q46VhuwcGBvetC8N8tSdg,42890
+syncfile-0.3.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+syncfile-0.3.1.1.dist-info/licenses/LICENCE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+syncfile-0.3.1.1.dist-info/RECORD,,
