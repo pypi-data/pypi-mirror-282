@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+gitvis/__init__.py
+gitvis/__main__.py
+gitvis/cli.py
+gitvis/print_m.py
+gitvis/scan.py
+gitvis/stats.py
+gitvis/utils.py
+gitvis.egg-info/PKG-INFO
+gitvis.egg-info/SOURCES.txt
+gitvis.egg-info/dependency_links.txt
+gitvis.egg-info/entry_points.txt
+gitvis.egg-info/requires.txt
+gitvis.egg-info/top_level.txt
