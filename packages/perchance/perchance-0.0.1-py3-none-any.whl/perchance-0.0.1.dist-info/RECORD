@@ -1,0 +1,12 @@
+LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+perchance/__init__.py,sha256=7WE_My-qx0tW1dpAJjP11nfCpu_ZH-P7IP9cHAYqWZc,70
+perchance/aigen.py,sha256=i0QzH9sKAyVG4jSrJR1gErjj6Co3_f9KFDOah8KroXo,1141
+perchance/errors.py,sha256=exwT61Hcuud6tcZMqSlPUGzr6yPYEDZKOnz4s2xM0sQ,182
+perchance/imagegen.py,sha256=Eoz3Zz8qF9F4WcV-Era-SXF2cLl8Rfm1YtT0e_CV3aw,8022
+perchance/textgen.py,sha256=xOTvx7QX7WFc7ZwJzJfBFIpNJYYAxirGXK58bSbOqrM,4772
+perchance/utils.py,sha256=D9uF-0Rr249Vn3yPANLDnpJNNkuU7Od2WhkhZS-OLms,437
+pyproject.toml,sha256=KLVb07dbG_OywfgFfuG6KpUltrxLL_dbGBUwI9Er4e8,465
+perchance-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+perchance-0.0.1.dist-info/METADATA,sha256=T9QA40W0q_ewRwjDbEzIiKDCPFUN9jWvun1MUhRpeeM,1836
+perchance-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+perchance-0.0.1.dist-info/RECORD,,
