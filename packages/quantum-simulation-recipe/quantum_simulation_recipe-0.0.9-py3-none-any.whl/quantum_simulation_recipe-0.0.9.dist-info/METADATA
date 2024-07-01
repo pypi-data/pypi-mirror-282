@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: quantum-simulation-recipe
+Version: 0.0.9
+Summary: Recipe for quantum simulation
+Home-page: https://github.com/Jue-Xu/quantum-simulation-recipe
+Author-email: xujue@connect.hku.hk
+License: Apache-2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax ==0.4.12
+Requires-Dist: qiskit >=1.0.2
+Requires-Dist: openfermion >=1.5.1
+Requires-Dist: openfermionpyscf >=0.5
+Requires-Dist: matplotlib >=3.8.2
+Requires-Dist: scipy >=1.12.0
+Requires-Dist: numpy >=1.23.5
+Requires-Dist: pandas >=2.2.2
+
+# Quantum Simulation Recipes
+<!-- ![Figure](./figs/idea.png) -->
+[![License](https://img.shields.io/github/license/qiskit-community/qiskit-algorithms.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)
+
+This python package contains ingredients for quantum simulation, such as the Hamiltonians and algorithm primitives.
+
+## Usage 
+```bash
+conda create --name qsenv python=3.10 
+pip install quantum-simulation-recipe
+```
+
+<!-- ### Requirements
+- qiskit version == 
+- openfermion
+- python (version = 3.10), numpy, scipy, matplotlib, jax -->
+
+## Examples
+https://github.com/Jue-Xu/Quantum-Simulation-Recipe/tree/main/tests/test.ipynb
