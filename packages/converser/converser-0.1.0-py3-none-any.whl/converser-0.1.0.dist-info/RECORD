@@ -1,0 +1,15 @@
+converser/__init__.py,sha256=NM1iHlQWvP-yuvueeaVseUzTU9EL63Vfxr5MpILcSEU,367
+converser/conversation_memory/__init__.py,sha256=wz2MrFOoD_x5n2pGzKF-j_4JfYMgcmyGckjiWVuQx70,84
+converser/conversation_memory/memory.py,sha256=1MJCZUL5_7Vcs0aKjiAea_2peYP4m2f6TPjuml47ccc,1478
+converser/converse/__init__.py,sha256=jVfVIDDlRpCCKgBSzST9eZhx_JKfcBFUyOVVSKV0KRM,96
+converser/converse/converse.py,sha256=FhBVkphH2xOdNA49_O_SqYPpr8TT4iRToy7KX_aRMQc,5605
+converser/models/__init__.py,sha256=EufxJ9coeILzx6-Q6aa3RKJQmRp7R5xVC6AVD-QGpYY,133
+converser/models/models.py,sha256=-8_EjCsEQ-Ge62SL9eAMeOZHoXgESHTpUt7v5NAkAtw,1104
+converser/streaming/__init__.py,sha256=YYioAAMrYCY4SE-EqbqjxovG5qHURux0MVmEC1uFgmo,110
+converser/streaming/streaming.py,sha256=uRx-ytAdyhqk2adMZHMcQFHRReBJGqDvrJhPIlzTMZw,2659
+converser/utils/__init__.py,sha256=IdkenPMFq7imoAn3l7Ql6_78e9hwrtRwpQ1C4WlerpU,165
+converser/utils/bedrock_runtime_client/__init__.py,sha256=DP1BD3BW64McchJQp8qwjtTafjl2Xqc8fIccmq2lyjU,52
+converser/utils/bedrock_runtime_client/bedrock_runtime_client.py,sha256=MksACw6nqBPwvQ94PwwnMcW_PcjbnyzkZfEddaw6Hpc,974
+converser-0.1.0.dist-info/METADATA,sha256=Sa-fIt-PPP9wsA1jv6Wt-tlQrTnEAW-67OfL4DWU4fg,625
+converser-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+converser-0.1.0.dist-info/RECORD,,
