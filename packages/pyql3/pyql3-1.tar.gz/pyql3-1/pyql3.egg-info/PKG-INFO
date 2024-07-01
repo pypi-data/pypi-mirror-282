@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyql3
+Version: 1
+Summary: The package provides a wrapper for working with SQLite databases.
+Home-page: https://github.com/GooseG4G/pyql3
+Author: GooseG4G
+Author-email: danilanegusev@gmail.com
