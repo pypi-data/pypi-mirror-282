@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/vgc_zero_lcd_teriyakigod/__init__.py
+src/vgc_zero_lcd_teriyakigod/config.py
+src/vgc_zero_lcd_teriyakigod/lcd.py
+src/vgc_zero_lcd_teriyakigod/test.py
+src/vgc_zero_lcd_teriyakigod/vgc.py
+src/vgc_zero_lcd_teriyakigod.egg-info/PKG-INFO
+src/vgc_zero_lcd_teriyakigod.egg-info/SOURCES.txt
+src/vgc_zero_lcd_teriyakigod.egg-info/dependency_links.txt
+src/vgc_zero_lcd_teriyakigod.egg-info/top_level.txt
