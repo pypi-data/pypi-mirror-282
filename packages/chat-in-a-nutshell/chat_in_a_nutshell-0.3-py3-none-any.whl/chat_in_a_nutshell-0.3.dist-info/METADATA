@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: chat-in-a-nutshell
+Version: 0.3
+Summary: A terminal-based script for interacting with OpenAI's API.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: openai ~=1.35.7
+
+UNKNOWN
+
+
