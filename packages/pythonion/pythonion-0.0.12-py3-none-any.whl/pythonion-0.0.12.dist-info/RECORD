@@ -1,0 +1,13 @@
+pythonion/__init__.pyc,sha256=pYBzmyxgm6YnM5MJ0Gtz8E2mF9c0hNL7NLKnwdrAjS0,209
+pythonion/board/__init__.pyc,sha256=YMbmGOQUR_jTQ42oeoauRfYeKvphAk5IMjz6YEoHA7s,211
+pythonion/board/board.pyc,sha256=kTa3jjU-kvBpqKWXEl1Xkylo0xnskzzbh1tXgYOkTRw,11673
+pythonion/link/__init__.pyc,sha256=s6JMqMqEir_0ye0zREsg1p0jdfw1vKJsppJgDDrnJO8,209
+pythonion/link/link.pyc,sha256=nIJ6ClbPjx09KT1SivbBfG-YBxO4fZUGPcy9bjGeNcg,7870
+pythonion/logs/__init__.pyc,sha256=4PjMvMJudvAHIeK4-ke2h0jnLbBmJd4ZusiSCMLVJaE,212
+pythonion/logs/logs.pyc,sha256=-_e_GDNu-7OBwUwYqMAghCwQ2Ri9y6HzCZWFOpetlWo,4077
+pythonion/uart/__init__.pyc,sha256=5IaHhoJsMe1uMT1E-ClNXKx7s5sxKYFp8tVYjtuwI38,209
+pythonion/uart/uart.pyc,sha256=bL3-aRHtAL2nhIXDhOSLV017g_WFzMiAVnekdRGdsu0,20773
+pythonion-0.0.12.dist-info/METADATA,sha256=93mA8B7u7iR4-8XgpVAryC6N8RPXK4WtTTcIrF7yvxc,635
+pythonion-0.0.12.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+pythonion-0.0.12.dist-info/top_level.txt,sha256=AGvf_rXw077gnhgi7E9ToHcx4e0qdGinf5WV-n0B29k,10
+pythonion-0.0.12.dist-info/RECORD,,
