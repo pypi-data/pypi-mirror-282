@@ -1,0 +1,2 @@
+[console_scripts]
+smyth = smyth.__main__:app
