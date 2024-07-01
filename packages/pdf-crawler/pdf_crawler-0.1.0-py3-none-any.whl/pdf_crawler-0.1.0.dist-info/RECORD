@@ -1,0 +1,14 @@
+pdf_crawler/__init__.py,sha256=lt0ucMgGtGDwYAfHQvKnZBrIojyfbrJRVi5fJG7Y8C0,144
+pdf_crawler/data/downloaded_reports.json,sha256=usanZkXEgGTxmOcRMBSSrOOGEQgx04HzO6aKPbaEe9Q,4
+pdf_crawler/fonts/FrutigerLTStd-Black.ttf,sha256=R9q_5wWSGTvBxFrVJ31cv1d_3qF8_qxu3ANduUWWx4g,26372
+pdf_crawler/fonts/FrutigerLTStd-Bold.ttf,sha256=7G09rROtNzNDHUZW4-JSzFHxksCV0NqKSub1Xbf-ZfE,26976
+pdf_crawler/fonts/FrutigerLTStd-Cn.ttf,sha256=LWG8CTioWZiEEtsSkzEtwKHYAe9AmRw7egKcZrqMz2M,27728
+pdf_crawler/fonts/FrutigerLTStd-Italic.ttf,sha256=v2sGK3E_G0PV3uNbs_d8qFI3ldj_KBL55adBxHn9HKU,28148
+pdf_crawler/fonts/FrutigerLTStd-LightCn.ttf,sha256=xmtbPoIv0B9l70ilObfGxROqcMRTi7i9Zz7s5TaaagA,30140
+pdf_crawler/fonts/FrutigerLTStd-Roman.ttf,sha256=ljqgH9PW5xHs8gopwq7qanBYk08bUHxYXanEn38BFx4,26880
+pdf_crawler/report_generator.py,sha256=4yYUkrIhQn1h6A8upaGhQsnaAaAuCA6-o9_hLNVI6ZM,78044
+pdf_crawler/selenium_crawler.py,sha256=vu8q6hhvuiACm0y_3b83aDHFqw-0GEHgG-7e2Sw7JZw,40990
+pdf_crawler/ui.py,sha256=BpGxK-MzTSlfbknRmME-9ozr9YzPuYVo_YAWmRTgLLk,11948
+pdf_crawler-0.1.0.dist-info/METADATA,sha256=PhIegl6cgL7R5LRMO7Q9YRcqqRhKzdpenzkKpcXJkjg,791
+pdf_crawler-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pdf_crawler-0.1.0.dist-info/RECORD,,
