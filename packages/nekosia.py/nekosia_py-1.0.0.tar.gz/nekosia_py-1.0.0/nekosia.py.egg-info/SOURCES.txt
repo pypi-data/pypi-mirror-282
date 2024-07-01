@@ -1,0 +1,8 @@
+README.rst
+setup.py
+NekosiaAPI/__init__.py
+nekosia.py.egg-info/PKG-INFO
+nekosia.py.egg-info/SOURCES.txt
+nekosia.py.egg-info/dependency_links.txt
+nekosia.py.egg-info/requires.txt
+nekosia.py.egg-info/top_level.txt

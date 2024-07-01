@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nekosia.py
+Version: 1.0.0
+Summary: api nekosia
+Home-page: 
+Author: ubijacz
+Author-email: neczko05@gmail.com
+License: MIT
+Keywords: nekosia api anime
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Requires-Dist: easy-pil
+Requires-Dist: discord.py
+
+test
