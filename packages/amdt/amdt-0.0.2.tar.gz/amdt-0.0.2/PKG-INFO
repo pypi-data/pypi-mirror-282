@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: amdt
+Version: 0.0.2
+Summary: Additive Manufacturing Digital Twin
+Author: Peter Pak
+Author-email: Peter Pak <ppak10@gmail.com>, Francis Ogoke <oogoke@andrew.cmu.edu>
+Project-URL: Homepage, https://github.com/ppak10/amdt
+Project-URL: Issues, https://github.com/ppak10/amdt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+![pytest](https://github.com/ppak10/amdt/workflows/pytest/badge.svg)
+
+# Additive Manufacturing Digital Twin (AMDT)
+
+## Getting Started
+- Install local package with:
+  ```bash
+  pip install -e .
+  ```
