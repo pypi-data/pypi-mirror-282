@@ -1,0 +1,6 @@
+setup.py
+jiku.egg-info/PKG-INFO
+jiku.egg-info/SOURCES.txt
+jiku.egg-info/dependency_links.txt
+jiku.egg-info/requires.txt
+jiku.egg-info/top_level.txt
