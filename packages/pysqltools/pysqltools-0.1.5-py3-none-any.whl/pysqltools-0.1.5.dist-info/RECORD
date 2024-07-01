@@ -1,0 +1,8 @@
+pysqltools/__init__.py,sha256=Yng2Yw-zkYFHyfrgd4QIDw6Wq-DhaVVAZMGeXQGs15I,158
+pysqltools/src/__init__.py,sha256=tbGf8pYAiUQuuTN9xqmw56J4Calu_DiL1Y_8wp6nj7k,108
+pysqltools/src/queries/__init__.py,sha256=EQcrC7WJqPb32A8qp3S18KTbBKCnkf92OM6WlAfk_qQ,129
+pysqltools/src/queries/constants.py,sha256=k_ZUzSTiGl2Y3gdkxIMeZzO64POTqxsg5EkVRfyT9sk,125
+pysqltools/src/queries/queries.py,sha256=6U_ecdebBKU_pTIER0HJ7Tc0p2zR2IxL4KBna2P8ODo,4473
+pysqltools-0.1.5.dist-info/METADATA,sha256=XhfybaKmIql3SW4Vtfe2PvdiYYgO51fbMOcjuA4Mq70,699
+pysqltools-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pysqltools-0.1.5.dist-info/RECORD,,
