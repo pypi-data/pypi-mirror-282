@@ -1,0 +1,15 @@
+nginx_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nginx_python/cli.py,sha256=jSu0FqZM1XSP3AuIdFq3UE-eWGF0fTrsB2eR7Iyelpo,802
+nginx_python/core.py,sha256=eRmC8GWLsvcD33ennCL74fR-JpyZ29kSHvXlc8TvxQo,819
+python-nginx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python-nginx/cli.py,sha256=jSu0FqZM1XSP3AuIdFq3UE-eWGF0fTrsB2eR7Iyelpo,802
+python-nginx/core.py,sha256=5XJvCDOGhdlq5UdOvqEBo2Wl8nTwPr0PWgszCkiwMWY,850
+python_nginx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_nginx/cli.py,sha256=jSu0FqZM1XSP3AuIdFq3UE-eWGF0fTrsB2eR7Iyelpo,802
+python_nginx/core.py,sha256=y897l4ZVsAK9dQ1TYLSXloFf5cMWHVB5Epj1hnPclxQ,820
+nginx_python-0.1.1.dist-info/LICENSE,sha256=F-4b93u0OVrVwGXgMwBRq6MlGyUT9zmre1oh5Gft5Ts,1066
+nginx_python-0.1.1.dist-info/METADATA,sha256=580RqcuBdDCRb0LeS0UwRXVgtZVmj_jCSLwu_ww3QR0,3172
+nginx_python-0.1.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+nginx_python-0.1.1.dist-info/entry_points.txt,sha256=lrYTAnLGhVFJZq8Q7yj9S1XpPwK6D09PhByKBW6ifRE,55
+nginx_python-0.1.1.dist-info/top_level.txt,sha256=HO4DpSHT9xG60iMSi7aKlZwoE6wvRFbMWru9SEAI7dA,13
+nginx_python-0.1.1.dist-info/RECORD,,
