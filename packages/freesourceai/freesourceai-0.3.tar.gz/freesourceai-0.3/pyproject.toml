@@ -1,0 +1,13 @@
+[project]
+name = "freesourceai"
+version = "0.3"
+authors = [
+  { name="Ruslan German", email="projectsruslans@gmail.com" },
+]
+description = "FreeSourceAI(FreeGPT) - ChatGPT but without prompt.API By:MubiLop"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
