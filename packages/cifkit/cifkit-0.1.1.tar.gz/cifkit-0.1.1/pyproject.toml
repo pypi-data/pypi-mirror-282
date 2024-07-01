@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cifkit"
+version = "0.1.1"
+description = "A description of cifkit"
+authors = ["Sangjoon Lee <bobleesj@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src/cifkit"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+gemmi = "^0.6.6"
+pyvista = "^0.43.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
