@@ -1,0 +1,7 @@
+setup.py
+predictor_gradient_descent/__init__.py
+predictor_gradient_descent/main.py
+predictor_gradient_descent.egg-info/PKG-INFO
+predictor_gradient_descent.egg-info/SOURCES.txt
+predictor_gradient_descent.egg-info/dependency_links.txt
+predictor_gradient_descent.egg-info/top_level.txt
