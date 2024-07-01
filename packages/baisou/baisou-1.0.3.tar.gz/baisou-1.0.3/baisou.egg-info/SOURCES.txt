@@ -1,0 +1,8 @@
+baisou.py
+setup.py
+baisou.egg-info/PKG-INFO
+baisou.egg-info/SOURCES.txt
+baisou.egg-info/dependency_links.txt
+baisou.egg-info/entry_points.txt
+baisou.egg-info/requires.txt
+baisou.egg-info/top_level.txt
