@@ -1,0 +1,11 @@
+bibli_ls/__init__.py,sha256=zYz9gW4zaQWK9ngkSnYCPGXg3QEXnTX34ehHiiWm3Hs,74
+bibli_ls/bibli_config.py,sha256=FCaOMSW3gWfb5rKGNzc-ShEcrgPmMZKnYP82Wbge7Ho,1779
+bibli_ls/cli.py,sha256=e53D99FINZ6700Jix2JEqQDb0QVtH12xqctBCyznPNo,2491
+bibli_ls/server.py,sha256=WCowl67ZY0i4_7WtHMH1Xsv0bkXpl5pVep1UVDkarLw,13283
+bibli_ls/utils.py,sha256=aGd82Lt_v0k2wWRmQljIKhKnpIr0MCy4b0ooaJ49d0Y,3145
+bibli_ls-0.1.4.1.dist-info/LICENSE,sha256=3qLQn2eNRZLd3WT-tq5I69liMNRFuxoV3idFv0ZH_zI,1056
+bibli_ls-0.1.4.1.dist-info/METADATA,sha256=mL0EF8Dzi5eTPyQIL_qT_bH4lUe2YaTHLjqnoIdcaWU,4546
+bibli_ls-0.1.4.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+bibli_ls-0.1.4.1.dist-info/entry_points.txt,sha256=ef_BhxoZgpZhpBrpX9AS4WQ0VsynCGGMd_ByntWndCQ,46
+bibli_ls-0.1.4.1.dist-info/top_level.txt,sha256=zk6wzLSAXHnerwWG3nHLT_n3vZYDx4Dz6JTDAXnjqdk,9
+bibli_ls-0.1.4.1.dist-info/RECORD,,
