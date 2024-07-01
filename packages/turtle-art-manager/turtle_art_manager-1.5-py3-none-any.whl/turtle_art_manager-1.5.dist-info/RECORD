@@ -1,0 +1,11 @@
+turtle_art_manager/SizedTurtleArt.py,sha256=r9dtiTSdOo4a5ZLWuDBsig7THQmpfF-elVpFc6vHi4s,1775
+turtle_art_manager/__init__.py,sha256=q5Oc_6EIEy67JMmgQWkjaH1zShXJY-J-_cZlfHDD_So,178
+turtle_art_manager/circle.py,sha256=uaAjpVW8fdWeL0wRW-NC0xMLvMQLVW8qr2b9NjuzwwA,1487
+turtle_art_manager/rectangle.py,sha256=72rZ8jdt_aaPkUFGPJPJ3ph1M8Eyai42f_Lz1eQ2BO4,1216
+turtle_art_manager/sized_turtle_art.py,sha256=r9dtiTSdOo4a5ZLWuDBsig7THQmpfF-elVpFc6vHi4s,1775
+turtle_art_manager/turtle_art.py,sha256=7Q9x6g1YYVtCVHaiPhFw07VNDh7wRGflTPGLI2biN5E,2779
+turtle_art_manager/turtle_draw.py,sha256=rLTU_5JI72IAq8I8cWpBYPBWFLPJavxlJ4dhgKOz_pw,1231
+turtle_art_manager-1.5.dist-info/METADATA,sha256=c-D6xO064RZaikXlcRVls6xvC2xGsW-FuFOya2gNEmk,1960
+turtle_art_manager-1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+turtle_art_manager-1.5.dist-info/top_level.txt,sha256=k9r9KqJ907hnKHCHe5kljasWIGQsOVcu7KHx82m0vEM,19
+turtle_art_manager-1.5.dist-info/RECORD,,
