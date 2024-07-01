@@ -1,0 +1,2 @@
+[console_scripts]
+pythreatmatrix = pythreatmatrix.main:cli
