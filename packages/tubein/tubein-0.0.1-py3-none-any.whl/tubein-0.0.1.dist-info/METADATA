@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tubein
+Version: 0.0.1
+Summary: a VOD service to altCensored.com uploader based on tubeup
+Author-email: admin altCensored <admin@altCensored.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# tubein
+
+    a VOD service to altCensored.com uploader based on tubeup
+
+
