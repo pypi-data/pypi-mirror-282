@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=AAsWV3YArvmHCgKC7dDCnspmlUVyn7RCOP8hIDbq0Sw,1499
+zipher/__init__.py,sha256=_5xoxBvqik7-PeMx5hwvFygQoUHpV34lQIJj__e4LaA,26
+zipher/client.py,sha256=-AGz6T6N3TqdiAdmcG-8rvdy1hnShyTXx-JxTBIgWdA,1954
+zipher/conf.py,sha256=s7y2p_mk_VzcimTu8ybNYd6tMkJdg2VR_fCS8HOzWCY,169
+zipher/models.py,sha256=ptIp_4TbUHWzGQ7DTN7RKRo9UKhUVywnyeByiuRegXo,172
+zipher_sdk-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+zipher_sdk-0.1.5.dist-info/METADATA,sha256=Uiw68Tut4W062O3BK6v4THGKXwmuLTxKim9dvueOj8Q,2211
+zipher_sdk-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zipher_sdk-0.1.5.dist-info/top_level.txt,sha256=62SxNz91zBDOSIBMG141gqeKWlw4HWM57H8NCuATbl8,13
+zipher_sdk-0.1.5.dist-info/RECORD,,
