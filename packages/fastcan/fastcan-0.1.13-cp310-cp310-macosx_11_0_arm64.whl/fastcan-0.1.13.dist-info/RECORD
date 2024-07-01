@@ -1,0 +1,12 @@
+fastcan/__init__.py,sha256=mi9j6IXIdWsBS7RicC4Uo6-h5xiWGIzR2TSSmgURyFc,128
+fastcan/_cancorr_fast.c,sha256=Cpq72KRKsRlKhnAMEFuXA4j1JWn5CLJggHIieu8BT0w,1348944
+fastcan/_cancorr_fast.cpython-310-darwin.so,sha256=uL3zu6nf-wVNg3N8EkBYPs-olTB49oZN2W3WFQK_64Y,231888
+fastcan/_fastcan.py,sha256=Jruw3DR8JK5SfnIZzBfqXE2e1UoYitNgiy_0wbzSG3A,8417
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_correlation.py,sha256=OkuRhdM_ge6ov9_w3U21kly-nRKEjI8phgwimkli_yc,1327
+tests/test_init.py,sha256=vae-Kqb0reGaA75HjG3e-wMg1BrnAWPEGjZeyA2Gnfk,432
+fastcan-0.1.13.dist-info/LICENSE,sha256=4knthSthzsMkZBhYMyYAZYsndNb8M8t5l95vh7kcZN8,1068
+fastcan-0.1.13.dist-info/METADATA,sha256=b_S1G8chXCiqiVqv-XEh2jTdWmPX8ejnGkm3b8S--CA,2683
+fastcan-0.1.13.dist-info/WHEEL,sha256=-h9omGws5mNk1JNCPjJw-Elug71_E6JM9ylV1yx54W8,109
+fastcan-0.1.13.dist-info/top_level.txt,sha256=0ykU2m0XDNKZW-FbVrxd1kQnBKQbnI6kGxETlDEIuIc,14
+fastcan-0.1.13.dist-info/RECORD,,
