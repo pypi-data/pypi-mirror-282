@@ -1,0 +1,9 @@
+kafkareport/__init__.py,sha256=_XYKjRBwj5SeAJ37iVk7geS79CFE_KAdypEX_Z6yClg,10719
+kafkareport/cli.py,sha256=m2O_tBy-XFiI-VmywpgvciHT7MGM1M4QWl8diTEc0VQ,4535
+kafkareport/helpers.py,sha256=nHRRvwz1Pvi0f84oh93yaHoU7PJOgl_KdlOpzfDfA5o,307
+kafkareport/logdirs.py,sha256=jZIQNBjSvwxV97Uu0kMO39NJvj5zKfrC01RpVG6cHRI,4618
+kafkareport-0.0.1.dist-info/LICENSE,sha256=pJYJ7zYg9LOEXdIe0BuIvlTaFff9j-tqGx2KQLaRnoM,1065
+kafkareport-0.0.1.dist-info/METADATA,sha256=Gl9k9b7cBIKeoYlt7I3848i4kCHO8pBW6AX9k-3ddOE,6275
+kafkareport-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+kafkareport-0.0.1.dist-info/entry_points.txt,sha256=RqQx5muWY4PDCy7HwkgvFFFmmrGPShHd80-fd7p1kyI,52
+kafkareport-0.0.1.dist-info/RECORD,,
