@@ -1,0 +1,10 @@
+vgc_zero_lcd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vgc_zero_lcd/config.py,sha256=bnzhDPQU-7S0zaRdQsTbduJXXRzTNxNWa5lyGYhe9eE,3012
+vgc_zero_lcd/lcd.py,sha256=bh3JWO9MB6R57kXQbWkYcffNiF-zlEqqLKaoHdMktJ8,8612
+vgc_zero_lcd/test.py,sha256=4dE3unpjQfvxMovzeRcWytEJ9cYjEXfJ367dBt2gazw,1116
+vgc_zero_lcd/vgc.py,sha256=ZBoHMyq8JKXzW85QVvToryinNUffIbEWuS0NN54-1t8,1395
+vgc_zero_lcd-1.0.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vgc_zero_lcd-1.0.0.dist-info/METADATA,sha256=T9yfWIaVKGn-PN54GeKAVmO8eWLonPEOjO_jRJ7jdmg,765
+vgc_zero_lcd-1.0.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+vgc_zero_lcd-1.0.0.dist-info/top_level.txt,sha256=iOT6DM4bHJxy13X5pzWvzoiqOyCXgWF5Ju0FhUHiw98,13
+vgc_zero_lcd-1.0.0.dist-info/RECORD,,

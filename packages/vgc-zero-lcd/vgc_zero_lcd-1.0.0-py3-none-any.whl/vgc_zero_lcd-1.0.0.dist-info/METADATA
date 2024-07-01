@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vgc_zero_lcd
+Version: 1.0.0
+Summary: This package allows to draw pygame display surface to 1.44 inch waveshare lcd hat module and read input values.
+Author-email: Kacper Akdag-Ochnik <kacperochnik01@gmail.com>
+Project-URL: Homepage, https://github.com/TeriyakiGod/vgc-zero-lcd
+Project-URL: Issues, https://github.com/TeriyakiGod/vgc-zero-lcd/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorzero ==2.0
+Requires-Dist: gpiozero ==2.0.1
+Requires-Dist: numpy ==2.0.0
+Requires-Dist: pygame ==2.6.0
+Requires-Dist: spidev ==3.6
+
+# vgc
