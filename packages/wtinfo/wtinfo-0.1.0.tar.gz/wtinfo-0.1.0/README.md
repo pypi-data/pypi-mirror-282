@@ -1,0 +1,3 @@
+# wtinfo
+
+Webtoon Information Scraper
