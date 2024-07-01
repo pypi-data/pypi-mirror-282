@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pysqltools
+Version: 0.1.5
+Summary: PySQLTools
+License: None
+Author: Pablo Minué
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black
+Requires-Dist: coverage
+Requires-Dist: multimethod (>=1.11.2,<2.0.0)
+Requires-Dist: mypy
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: pillow (>=10.3.0,<11.0.0)
+Requires-Dist: pre-commit (>=3.7.1,<4.0.0)
+Requires-Dist: pylint
+Requires-Dist: pytest (>=8.2.0,<9.0.0)
+Requires-Dist: pytest-cov
+Description-Content-Type: text/markdown
+
+
