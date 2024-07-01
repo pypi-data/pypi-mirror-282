@@ -1,0 +1,10 @@
+pyberry/__init__.py,sha256=N5KruciLhtDKfO_9rtFpLlszqADqyrox3rlGRJHVfvc,31
+pyberry/datadict.py,sha256=c2x-yJjgzRIw7gyGWk4rIJ8WB7Dj5IYFwob_rAT2KPM,6036
+pyberry/temp_tests.py,sha256=6h2Y6_m8lrFvT0FnnYkhJ2LbgueU6PRpmXVkDScL3E8,832
+pymelon/__init__.py,sha256=N5KruciLhtDKfO_9rtFpLlszqADqyrox3rlGRJHVfvc,31
+pymelon/datadict.py,sha256=omG01C9VO1Z4kPbtxEQKGrn-ET7DS6w2nZhy7Jgfc5I,13605
+pymelon/temp_tests.py,sha256=fru-S0nC_KafQNUWoauhU86D3BDuaaxPigxNnexVplI,1994
+pymelon-0.4.0.dist-info/METADATA,sha256=_S18nsS_0cYa0U3205pv1R1CCklDImZbr4eLx5EZNdc,3656
+pymelon-0.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pymelon-0.4.0.dist-info/top_level.txt,sha256=sTa0LykOHAocy3n05_1-G-58cE531FvFDF1V9Bm_jNU,8
+pymelon-0.4.0.dist-info/RECORD,,
