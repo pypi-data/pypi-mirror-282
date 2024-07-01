@@ -1,0 +1,7 @@
+numpy<2.0.0,>=1.21
+scipy
+matplotlib
+plotly
+scikit-image<0.23,>=0.18.0
+moviepy
+pillow
