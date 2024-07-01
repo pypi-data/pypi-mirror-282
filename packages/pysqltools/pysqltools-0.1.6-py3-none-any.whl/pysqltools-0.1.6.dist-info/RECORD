@@ -1,0 +1,11 @@
+pysqltools/__init__.py,sha256=-dd5hraVc9sE_m-TJXgiXCKrLMoMrdBoGgqqBLGo0-8,210
+pysqltools/src/__init__.py,sha256=xmfejpq8-FU_nIW3CcuKhkJ7Q1VZ3OKNYa2ctYkvAL8,170
+pysqltools/src/log/__init__.py,sha256=5oD_o0Hyda003S-lRpbUU-Dliqq50NfiKEXMKZA7-hQ,24
+pysqltools/src/log/log.py,sha256=AjdXRPee2Y_dgyrvKQ9YjYcMGd0QBM7iW7OJpBaFPi8,1739
+pysqltools/src/queries/__init__.py,sha256=xXIjbFlvlt43gfG3ZxWhZgJZOXGi_0g-t8FpkrJ-3dU,127
+pysqltools/src/queries/constants.py,sha256=k_ZUzSTiGl2Y3gdkxIMeZzO64POTqxsg5EkVRfyT9sk,125
+pysqltools/src/queries/insert.py,sha256=hZjzK7PaVsymxF3e3cLEvdrUQeoCn-lyTMv5-CC3Xk4,3035
+pysqltools/src/queries/query.py,sha256=OoHWwrONDcQqoYk_a8aQlU0s1l0QScMjO_tM_i0Ca9A,4574
+pysqltools-0.1.6.dist-info/METADATA,sha256=w4rm2cw77b6h6ArMgpOsAu1Kln3gHYPsTA7AAXaizA0,2754
+pysqltools-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pysqltools-0.1.6.dist-info/RECORD,,
