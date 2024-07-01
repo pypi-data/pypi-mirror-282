@@ -1,0 +1,9 @@
+pylogic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylogic/common_defs.py,sha256=StsrJvUuYTx-hqLbOstm-wFGQguw_a2ybJDp9RRufp8,147
+pylogic/fol.py,sha256=k9CPOelEcz2YR8L2946fYDF_pNZUqdx9dcVYKJInxbY,13706
+pylogic/propositional.py,sha256=d9Hp0ML9mp6KAFKm8xGa0poHuHKvfdWU862Uo2rUies,23323
+python_logic-0.0.1.dist-info/LICENSE,sha256=Pnxq4FZpEkmMFR4TIEYEzJ70ayVXK6o9o-w4GC1iTTA,1068
+python_logic-0.0.1.dist-info/METADATA,sha256=I5xM6P_tyEUcVbALumEve9drqmpf9IBzn_mdV1WmurI,9284
+python_logic-0.0.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+python_logic-0.0.1.dist-info/top_level.txt,sha256=srFtmSmSmTpII2Xv7fp4xqVjLNa7MWFK2cqvFs2ep4g,8
+python_logic-0.0.1.dist-info/RECORD,,
