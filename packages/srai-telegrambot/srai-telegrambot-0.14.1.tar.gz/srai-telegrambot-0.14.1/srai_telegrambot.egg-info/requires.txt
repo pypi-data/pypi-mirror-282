@@ -1,0 +1,2 @@
+python_telegram_bot~=13.11
+srai-openai>=0.8.1
