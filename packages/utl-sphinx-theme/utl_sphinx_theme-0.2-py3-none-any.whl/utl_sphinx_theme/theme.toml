@@ -1,0 +1,10 @@
+[theme]
+inherit = "basic"
+stylesheets = ["basic.css", "utl_sphinx_theme.css"]
+pygments_style = { default = "default" }
+sidebars = []
+
+[options]
+title = "Documentation"
+logo = "_static/logo.svg"
+show_relbar = false
