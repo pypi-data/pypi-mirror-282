@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+openapi2tools/__init__.py
+openapi2tools/tool.py
+openapi2tools.egg-info/PKG-INFO
+openapi2tools.egg-info/SOURCES.txt
+openapi2tools.egg-info/dependency_links.txt
+openapi2tools.egg-info/entry_points.txt
+openapi2tools.egg-info/top_level.txt
