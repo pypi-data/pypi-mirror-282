@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: graphexecutor
+Version: 0.1.5
+Summary: Graphed based execution of Python paradigms
+Author: siranipour
+Author-email: si292@cam.ac.uk
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click
+Requires-Dist: dask
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy (<2.0.0)
+Requires-Dist: rich
