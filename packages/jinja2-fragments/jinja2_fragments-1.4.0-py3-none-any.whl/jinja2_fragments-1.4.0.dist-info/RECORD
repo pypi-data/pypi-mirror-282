@@ -1,0 +1,12 @@
+jinja2_fragments/__init__.py,sha256=Uc9b72PCoh38on-1tbMx5M0nvYGTnp7AOvwUz750pak,2999
+jinja2_fragments/fastapi.py,sha256=1GaGku5PksF_yuBVVthTIi0-pTRQd_mayLu3QLS58WI,1730
+jinja2_fragments/flask.py,sha256=xTfUAugmyxOrjYI4OsgojIcHLITbNaOKzSUvNTPTX7E,1459
+jinja2_fragments/litestar.py,sha256=34iAsT5l4Ku9Z4m9UMJ7gKzEgTdhn5ZCN347Scq7Lgo,4864
+jinja2_fragments/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jinja2_fragments/quart.py,sha256=JZwRSZXQptq7XuH5HmaR4hPKq0Ez8W-OWDPgO5VdTYA,2138
+jinja2_fragments/sanic.py,sha256=PWpK1Ag9GUFoIwV-nS8Stq7rtAWen-xvhmV340OzBhU,2591
+jinja2_fragments-1.4.0.dist-info/LICENSE,sha256=HOUottR3sB7qZC-pqk0xtZz5wovNniuUYOfQWeUppW8,1130
+jinja2_fragments-1.4.0.dist-info/METADATA,sha256=W4_WCDCpPqiEdJdqVmeKJsVs73ogizezZdXZcZ0RLKg,8314
+jinja2_fragments-1.4.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+jinja2_fragments-1.4.0.dist-info/top_level.txt,sha256=6wYjGEsJk7vl1RnHVhPFVXxNEyrGvlDhYrM4ex_531M,17
+jinja2_fragments-1.4.0.dist-info/RECORD,,
