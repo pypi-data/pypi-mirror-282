@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pictriever
+Version: 0.1.1
+Summary: Python library for image scraping, from popular image gallery sites.
+Home-page: https://github.com/kelechi-c/pictriever
+License: apache 2.0
+Keywords: image,datasets,scraping
+Author: tensorkelechi
+Author-email: kelechichibuzo7@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: selenium (>=4.21.0,<5.0.0)
+Requires-Dist: tqdm (>=4.66.4,<5.0.0)
+Project-URL: Repository, https://github.com/kelechi-c/pictriever
+Description-Content-Type: text/markdown
+
+## pictriever (*still in development..*)
+##### An image scraping scraping library in python...
+##### for efficient and flexible mass download of images, dataset creation etc
+
+### usage guide
+pictriever can be used for downloading a wide range images in few lines of Python, from popular image sites like Bing images, Pexels, Google, etc.
+
+Install the library with `pip install pictriever`
+
+
+For images from Pexels(You could also use this template for others)
+
+```python
+from pictriever.image_scraper import Pexelscraper
+# sample code for downlaoding images of clouds
+imscraper = Pexelscraper(search_term='clouds', min_count=10, max_count=100) # start scraper instance
+image_links = imscraper.get_imlinks() # to get all the image links; set get_all_links=True
+imscraper.download_all_images(link_list=image_links, output_folder='clouds', verbose=False) # set verbose to True if you want progress printing
+
