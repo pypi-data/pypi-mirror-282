@@ -1,0 +1,2 @@
+[ewoks.tasks.class]
+ewoksid11.* = ewoksid11
