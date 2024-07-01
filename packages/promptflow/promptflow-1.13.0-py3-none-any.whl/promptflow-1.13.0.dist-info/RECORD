@@ -1,0 +1,8 @@
+promptflow/__init__.py,sha256=zDDn2DlUQwRZhiXjLSOFQqwyEZJN5DblHRcxul8ibpU,2762
+promptflow/_version.py,sha256=KI9SA3KU3CzLw2kh-_AQ2Nm4-y78Y_qlz51nn5EVlhU,200
+promptflow-1.13.0.data/scripts/pf.autocomplete.sh,sha256=hb3vW_GV5o_cy6cV88F9YNhn9Cq0u6yQtMuYlh9mQSo,168
+promptflow-1.13.0.dist-info/METADATA,sha256=CkDjeQW2rrgkkesyMiGdmll_EV6veb2LjqUM2U3o4aE,25740
+promptflow-1.13.0.dist-info/NOTICE.txt,sha256=dpTGNlqqWA14RYIazdeHt10hJBfDsyEIkObZMmFqXRI,34988
+promptflow-1.13.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+promptflow-1.13.0.dist-info/top_level.txt,sha256=rwizUd4qofiJ-BXiH1_9uiw5yBhJqzADIN89yQ6XkN4,11
+promptflow-1.13.0.dist-info/RECORD,,
