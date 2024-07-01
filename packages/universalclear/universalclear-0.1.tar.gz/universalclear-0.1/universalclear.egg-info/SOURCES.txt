@@ -1,0 +1,8 @@
+README.md
+setup.py
+universalclear/__init__.py
+universalclear/__main__.py
+universalclear.egg-info/PKG-INFO
+universalclear.egg-info/SOURCES.txt
+universalclear.egg-info/dependency_links.txt
+universalclear.egg-info/top_level.txt
