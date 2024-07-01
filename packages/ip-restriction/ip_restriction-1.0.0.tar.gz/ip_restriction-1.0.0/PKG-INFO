@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: ip_restriction
+Version: 1.0.0
+Summary: A middleware for IP-based access restriction in Django
+Home-page: https://github.com/Bothrajvasu/IP-Restriction-Middleware
+Author: Bothraj P
+Author-email: bothrajvasu@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IP Restriction Middleware
+
+A Django middleware for restricting access based on IP addresses.
+
+## Installation
+
+```sh
+pip install ip_restriction_middleware
+
+# Usage
+    To use the IPRestrictionMiddleware in your Django project, follow these steps:
+
+## 1. Add Middleware to Django Settings
+        Add IPRestrictionMiddleware to the MIDDLEWARE list in your Django settings (settings.py):
+
+```sh
+# settings.py
+
+MIDDLEWARE = [
+    # Other middleware...
+    'ip_restriction_middleware.middleware.IPRestrictionMiddleware',
+    # Other middleware...
+]
+
+## 2. Configure IP and Path Restrictions
+        Add the following settings to configure the allowed IP addresses and restricted paths:
+
+```sh
+# settings.py
+
+# List of IP addresses allowed to access non-admin paths
+ALLOWED_IPS = ['127.0.0.1', '192.168.1.1']
+
+# List of IP addresses allowed to access admin paths
+ALLOWED_ADMIN_IPS = ['127.0.0.1', '192.168.1.1']
+
+# Dictionary of restricted paths with IP restrictions
+RESTRICTED_PATH = {
+    "127.0.0.1": ["/test/servicev1/", "/test/servicev2/", "/test/servicev3/"],
+    "2.0.34.22": ["/test/servicev2/"],
+    "2.0.30.1,127.0.0.2": ["/test/servicev3/"]
+}
+
+# Middleware Details
+## IPRestrictionMiddleware
+    The IPRestrictionMiddleware class is responsible for checking the client's IP address against the allowed lists and the restricted paths. If the IP address is not allowed to access the requested path, the middleware returns a 403 Forbidden response.
+
+#Initialization
+    The middleware is initialized with the following attributes:
+
+    allowed_ips: Set of allowed IP addresses for non-admin paths.
+    allowed_admin_ips: Set of allowed IP addresses for admin paths.
+    restricted_paths_and_IP: Dictionary of restricted paths and their allowed IP addresses.
+    Request Processing
+    The middleware processes each request to check the client's IP address and the requested path. If the IP address is not allowed, it returns a 403 Forbidden response.
+
+#License
+    This project is licensed under the MIT License. See the LICENSE file for details.
+
+#Contributing
+    Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
+
+#Contact
+    For questions or comments, please contact Bothraj P.
