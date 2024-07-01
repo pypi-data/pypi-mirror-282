@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pykrotik
+Version: 0.0.12
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: bfiola-devtools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: python-dotenv; extra == "dev"

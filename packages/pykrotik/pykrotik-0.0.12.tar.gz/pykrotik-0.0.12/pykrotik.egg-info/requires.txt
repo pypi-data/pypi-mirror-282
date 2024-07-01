@@ -1,0 +1,7 @@
+pydantic
+
+[dev]
+bfiola-devtools
+pytest
+pytest-asyncio
+python-dotenv
