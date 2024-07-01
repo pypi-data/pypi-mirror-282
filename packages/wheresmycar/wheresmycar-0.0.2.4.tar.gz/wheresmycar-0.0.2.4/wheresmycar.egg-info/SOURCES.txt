@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+tests/test_plate_detector.py
+wheresmycar/__init__.py
+wheresmycar/plate_detector.py
+wheresmycar.egg-info/PKG-INFO
+wheresmycar.egg-info/SOURCES.txt
+wheresmycar.egg-info/dependency_links.txt
+wheresmycar.egg-info/requires.txt
+wheresmycar.egg-info/top_level.txt
