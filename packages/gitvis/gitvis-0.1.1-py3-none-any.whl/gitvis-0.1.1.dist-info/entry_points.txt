@@ -1,0 +1,2 @@
+[console_scripts]
+gitvis = gitvis.__main__:main
