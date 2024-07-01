@@ -1,0 +1,11 @@
+scipy
+sphinx-rtd-theme
+mock
+pip
+bump2version
+wheel
+Sphinx
+twine
+coveralls
+py
+pytest
