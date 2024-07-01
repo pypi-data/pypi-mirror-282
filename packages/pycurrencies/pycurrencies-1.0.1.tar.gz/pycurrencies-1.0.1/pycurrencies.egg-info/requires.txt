@@ -1,0 +1,5 @@
+termcolor
+requests
+typer
+bs4
+typing-extensions

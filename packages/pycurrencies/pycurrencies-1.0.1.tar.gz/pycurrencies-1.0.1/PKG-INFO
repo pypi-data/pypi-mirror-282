@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pycurrencies
+Version: 1.0.1
+Summary: pycurrencies is a package that you can use to take the current value of the dollar in Argentina
+Author-email: Tomas Vazquez <vazquezt2018@gmail.com>
+Project-URL: repository, https://github.com/vazqueztomas/dolar-scrapper
+Keywords: web,dolar,scrap,dollar,currencies
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: termcolor
+Requires-Dist: requests
+Requires-Dist: typer
+Requires-Dist: bs4
+Requires-Dist: typing-extensions
+
+# Pycurrencies
+
+Pycurrencies is a project that allows the user to obtain different types of prices for various currencies through the console.
+
+It is made in Python and is open-source.

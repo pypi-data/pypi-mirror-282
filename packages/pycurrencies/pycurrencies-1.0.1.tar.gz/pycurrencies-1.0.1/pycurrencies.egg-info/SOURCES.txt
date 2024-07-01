@@ -1,0 +1,13 @@
+MANIFEST.in
+Pipfile
+README.md
+pyproject.toml
+pycurrencies/__init__.py
+pycurrencies/dolar_scrapper.py
+pycurrencies/main.py
+pycurrencies.egg-info/PKG-INFO
+pycurrencies.egg-info/SOURCES.txt
+pycurrencies.egg-info/dependency_links.txt
+pycurrencies.egg-info/entry_points.txt
+pycurrencies.egg-info/requires.txt
+pycurrencies.egg-info/top_level.txt
