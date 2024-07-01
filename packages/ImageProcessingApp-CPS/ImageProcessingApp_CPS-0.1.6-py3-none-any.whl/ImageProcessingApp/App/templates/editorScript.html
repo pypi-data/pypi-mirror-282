@@ -1,0 +1,220 @@
+<script>
+    function updateRangeValue(rangeInput) {
+        var spanId = rangeInput.id + '_value';
+        $('#' + spanId).text(rangeInput.value);
+    }
+    $(document).ready(function(){
+        function updateButtonState(){
+            var historyList = $('#historyList');
+            var listHistoryItems = historyList.children('li');
+            if (listHistoryItems.length === 0){
+                $('#applyToBatchButton').addClass('disabled');
+            }
+            else {
+                $('#applyToBatchButton').removeClass('disabled');
+            }
+        }
+
+        updateButtonState();
+
+
+        $('#Category').change(function() {
+            var categoryId = $(this).val();
+            $.ajax({
+                url: '{% url "ajax_load_operations" %}',
+                data: {
+                    'category_id': categoryId
+                },
+                success: function(data) {
+                    $('#Operation').html('<option value="">Select Operation</option>');
+                    data.forEach(function(operation) {
+                        $('#Operation').append('<option value="' + operation.id + '">' + operation.name + '</option>');
+                    });
+                }
+            });
+        });
+    
+        
+        $('#Operation').change(function() {
+            var operationId = $(this).val();
+            var type = "apply";
+            $.ajax({
+                url: '{% url "ajax_load_parameters" %}',
+                data: {
+                    'operation_id': operationId,
+                    'type': type
+                },
+                success: function(data) {
+                    $('#parameters').empty();
+                    data.forEach(function(parameter) {
+                        if (parameter.inputType=='range'){
+                            let html = `
+                                <div class="d-flex">
+                                    <label for="${parameter.id}" class="form-label">${parameter.name} :</label>
+                                    <span id="${parameter.id}_value" class="ms-1">${parameter.defaultValue}</span>
+                                </div>
+                                
+                                <input type="range" class="form-range" min="${parameter.minValue}" max="${parameter.maxValue}" value="${parameter.defaultValue}" id="${parameter.id}" name="${parameter.name}" oninput="updateRangeValue(this)">
+                                <div class="d-flex">
+                                    <label class="me-auto">${parameter.minValue}</label>
+                                    <label>${parameter.maxValue}</label>
+                                </div> 
+                            `;
+                            $('#parameters').append(html);
+                            
+                        }
+                        else if (parameter.inputType=='select'){
+                            
+                            $.ajax({
+                                url: '{% url "ajax_load_options" %}',
+                                data: {
+                                    'parameter_id': parameter.id
+                                    
+                                },
+                                success: function(data) {
+                                    var selectHtml = '<select class="form-select" aria-label="Default select example" name="' + parameter.name +'"><br>';
+                                    data.forEach(function(option) {
+                                        selectHtml += '<option>'+ option.value +'</option>';
+                                    });
+                                    selectHtml += '</select>';
+                                    $('#parameters').append(selectHtml);
+                                }
+                            });
+                        }    
+                        else {
+                            $('#parameters').append('<label for="' + parameter.id + '">' + parameter.name +':</label><br>');
+                            $('#parameters').append('<input type="' + parameter.inputType + 'class = "form-control"' + '" id="' + parameter.id + '" name="' + parameter.name + '"><br>');
+                        }
+                    });
+                }
+            });
+        });
+        
+
+        $('.btn').click(function() {
+            updateButtonState();
+        });
+    
+        // Handle click event on pencil icon
+        $('.update').click(function() {
+            $('#updateModal').modal('show');
+            event.preventDefault();
+            var historyId = $(this).data('history');
+            console.log(historyId);
+            var type= "update";
+            $.ajax({
+                url: '{% url "ajax_load_parameters" %}',
+                data: {
+                    'history_id': historyId,
+                    'type': type
+                },
+                success: function(data) {
+                    $('#updateForm').empty();
+                    $('#updateForm').append('<input type= "hidden" name="history_id" value="'+ historyId +'">');
+                    data.forEach(function(parameter) {
+                        if (parameter.inputType=='range'){
+                            let html = `
+                                <div class="d-flex">
+                                    <label for="${parameter.id}" class="form-label">${parameter.name} :</label>
+                                    <span id="${parameter.id}_value" class="ms-1">${parameter.currentValue}</span>
+                                </div>
+                                
+                                <input type="range" class="form-range" min="${parameter.minValue}" max="${parameter.maxValue}" value="${parameter.currentValue}" id="${parameter.id}" name="${parameter.name}" oninput="updateRangeValue(this)">
+                                <div class="d-flex">
+                                    <label class="me-auto">${parameter.minValue}</label>
+                                    <label>${parameter.maxValue}</label>
+                                </div> 
+                            `;
+                            $('#updateForm').append(html);
+                        }
+                        else if (parameter.inputType=='select'){
+                            
+                            $.ajax({
+                                url: '{% url "ajax_load_options" %}',
+                                data: {
+                                    'parameter_id': parameter.id,
+                                    
+                                },
+                                success: function(data) {
+                                    var selectHtml = '<select class="form-select" aria-label="Default select example" name="' + parameter.name +'"><br>';
+                                    data.forEach(function(option) {
+                                        selectHtml += '<option>'+ option.value +'</option>';
+                                    });
+                                    selectHtml += '</select>';
+                                    $('#updateForm').append(selectHtml);
+                                }
+                            });
+                        }    
+                        else {
+                            $('#updateForm').append('<label for="' + parameter.id + '">' + parameter.name +':</label><br>');
+                            $('#updateForm').append('<input type="' + parameter.inputType + 'class = "form-control"' + '" id="' + parameter.id + '" name="' + parameter.name + '"><br>');
+                        }
+                    });
+                }
+            });
+        }); 
+    
+        $('#applyToBatchButton').click(function(){
+            $('#applyToBatchModal').modal('show');
+            
+        })
+
+        $('selectedZipFile').change(function(){
+            $('#uploadBatchButton').removeClass('disabled');
+            $('#uploadBatchButton').show();
+            $('#downloadBatchButton').attr('hidden',true);
+        })
+
+        $('#uploadBatchButton').click(function(){
+            $(this).addClass('disabled');
+            $(this).empty();
+            $(this).append('<span class="spinner-border spinner-border-sm" aria-hidden="true">');
+            $(this).append('</span><span role="status">Processing...</span>');
+            $('#batchForm').submit(function(event){
+                event.preventDefault();
+                var formData = new FormData(this);
+                
+                $.ajax({
+                    url: "{% url "uploadZip" %}",
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(data){
+                        console.log(data);
+                        $('#uploadBatchButton').removeClass('disabled');
+                        $('#uploadBatchButton').hide();
+                        $('#downloadBatchButton').attr('hidden',false);
+                    }
+                });
+            })
+            $('#batchForm').submit();
+            
+            //
+        })
+
+        $('#updateButton').click(function() {
+            $('#updateForm').submit();
+        });
+
+        $('#colorMode').change(function(){
+            if ($(this).prop('checked')==true){
+                console.log('Dark Mode');
+                $('.border').addClass('border-light').removeClass('border-dark');
+                $('.border-bottom').addClass('border-light').removeClass('border-dark');
+                $('.border-top').addClass('border-light').removeClass('border-dark');
+                $('html').attr('data-bs-theme', 'dark');
+                $('.navbar').addClass('bg-dark').removeClass('bg-secondary');
+            }
+            else {
+                console.log('Light Mode');
+                $('.border').addClass('border-dark').removeClass('border-light');
+                $('.border-bottom').addClass('border-dark').removeClass('border-light');
+                $('.border-top').addClass('border-dark').removeClass('border-light');
+                $('html').attr('data-bs-theme', 'light');
+                $('.navbar').addClass('bg-secondary').removeClass('bg-dark');
+            }
+        })
+
+    });
+</script>
