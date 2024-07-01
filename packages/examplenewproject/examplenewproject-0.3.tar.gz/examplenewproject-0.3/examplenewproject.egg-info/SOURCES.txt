@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+examplenewproject/__init__.py
+examplenewproject/examplenewproject.cpython-311-darwin.so
+examplenewproject/wrapper.py
+examplenewproject.egg-info/PKG-INFO
+examplenewproject.egg-info/SOURCES.txt
+examplenewproject.egg-info/dependency_links.txt
+examplenewproject.egg-info/not-zip-safe
+examplenewproject.egg-info/top_level.txt
