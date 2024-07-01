@@ -1,0 +1,4 @@
+motor
+tenacity
+pika
+python-consul
