@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+pandavs/__init__.py
+pandavs.egg-info/PKG-INFO
+pandavs.egg-info/SOURCES.txt
+pandavs.egg-info/dependency_links.txt
+pandavs.egg-info/top_level.txt
