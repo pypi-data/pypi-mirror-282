@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cifkit"
+version = "0.27"
+description = "A description of cifkit"
+authors = [{name = "Sangjoon Lee", email = "bobleesj@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["keyword1", "keyword2"]
+
+
+[tool.setuptools]
+# Setuptools-specific configuration goes here
+
+
