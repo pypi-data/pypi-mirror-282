@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Directories
+.idea/
+__pycache__/
+materialdatabase.egg-info/
+tests/temp/
+.eggs/
+build/
+dist/
+gpgit/
+docs/build
+materialdatabase/core_materials_temp.pro
+
+# Files
+tests/core_materials_temp.pro
+materialdatabase/paths.py
+
+# General File Types
