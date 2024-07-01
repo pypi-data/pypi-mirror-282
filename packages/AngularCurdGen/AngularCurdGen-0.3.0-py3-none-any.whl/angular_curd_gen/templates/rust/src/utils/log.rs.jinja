@@ -1,0 +1,103 @@
+{% set left = '{{' -%}
+use axum::extract::State;
+use crate::config::SETTINGS;
+use crate::{entities};
+use crate::utils::state;
+
+
+pub struct MongoLogger {
+    pub project: String,
+    pub app: String,
+}
+
+impl MongoLogger {
+    pub fn new(project: &str, app: &str) -> Self {
+        Self {
+            project: project.to_string(),
+            app: app.to_string(),
+        }
+    }
+
+    pub async fn log(&self, log: &str, user: i64, state: State<state::AppState>, func: &str, level: &str) {
+        let mongo = state.mongo.lock().await;
+        let db = mongo.database(SETTINGS.mongo.name.as_str());
+        let collection = db.collection("log_record");
+        let payload = entities::models::log::NewLogRecord {
+            app: self.app.clone(),
+            func: func.to_string(),
+            log: log.to_string(),
+            project: self.project.clone(),
+            user,
+            level: level.to_string(),
+            created: bson::DateTime::now(),
+        };
+        collection.insert_one(payload).await.unwrap();
+    }
+}
+
+#[macro_export]
+macro_rules! func_name {
+    () => {{ left }}
+        fn f() {}
+        fn type_name_of<T>(_: T) -> &'static str {
+            std::any::type_name::<T>()
+        }
+        let arr :Vec<&str>= type_name_of(f).split("::").collect();
+        arr[arr.len() - 3]
+    }};
+}
+#[macro_export]
+macro_rules! file_name {
+    () => {{ left }}
+        use std::path::Path;
+        let file_name = Path::new(file!()).file_name().unwrap().to_str().unwrap();
+        let file_name_without_ext = file_name.strip_suffix(".rs").unwrap_or(file_name);
+        file_name_without_ext
+    }};
+}
+#[macro_export]
+macro_rules! log_with_level {
+    ($log:expr, $user:expr, $state:expr,$level:expr) => {{ left }}
+        use crate::{func_name, file_name};
+        use crate::config::SETTINGS;
+        use crate::utils::log::MongoLogger;
+        let func_name = func_name!();
+        let file_name = file_name!();
+        let logger: MongoLogger = {
+            MongoLogger::new(SETTINGS.project.as_str(), file_name)
+        };
+        logger.log($log, $user, $state, func_name, $level).await;
+    }};
+}
+
+#[macro_export]
+macro_rules! info {
+    ($log:expr, $user:expr, $state:expr) => {
+        use crate::log_with_level;
+        log_with_level!( $log, $user, $state, "info")
+    };
+}
+
+#[macro_export]
+macro_rules! warning {
+    ($log:expr, $user:expr,  $state:expr) => {
+        use crate::log_with_level;
+        log_with_level!( $log, $user, $state, "warning")
+    };
+}
+
+#[macro_export]
+macro_rules! error {
+    ($log:expr, $user:expr, $state:expr) => {
+        use crate::log_with_level;
+        log_with_level!( $log, $user, $state, "error")
+    };
+}
+
+#[macro_export]
+macro_rules! debug {
+    ($log:expr, $user:expr, $state:expr) => {
+        use crate::log_with_level;
+        log_with_level!( $log, $user, $state, "debug")
+    };
+}
