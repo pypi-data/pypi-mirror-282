@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: avcontext
+Version: 0.1.0
+Summary: Interactive script for converting letters to various cases and transformations.
+Home-page: https://x.com/Lanaev0li
+Author: Avinion
+Author-email: shizofrin@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# avcontext
+
+An interactive Python script for converting letters (Latin and Cyrillic) to various cases and other transformations.
+
+## Installation
+
+```bash
+pip install avcontext
+
+
+Usage
+Run the script using Python:
+avcontext
+ 
+Author:
+Avinion
+
+Email: shizofrin@gmail.com
+URL: https://x.com/Lanaev0li
