@@ -1,0 +1,8 @@
+qupcrypt/__init__.py,sha256=d9_o9_CxAzKoiEmThVVuZU21zw9yof64Jcv8pSmW3-0,56
+qupcrypt/encryption.py,sha256=jrvdkZGnnrtuR5nl4505KXTZXc2uvJx2FO-wPCtpvcY,958
+tests/__init__.py,sha256=fYpPQ0DQVgYcafJq_wRT2soN5FFa9WHoz4C32isvL6E,84
+tests/test_encryption.py,sha256=3Aa8DL87FBi5ucHBa-StjXI8O-aygjnra8NkAZz1Tng,469
+qupcrypt-0.1.0.dist-info/METADATA,sha256=F0bqP_iKpc8xOl8p4CfHvfNq-l8OMEvsNi9rbcm64WM,428
+qupcrypt-0.1.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+qupcrypt-0.1.0.dist-info/top_level.txt,sha256=ShVRFH2--DArlsoOI3o5YQ1Wy7ROdTMkZ5sWghs5GG4,15
+qupcrypt-0.1.0.dist-info/RECORD,,
