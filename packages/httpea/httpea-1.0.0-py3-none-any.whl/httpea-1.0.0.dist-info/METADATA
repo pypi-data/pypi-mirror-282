@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: httpea
+Version: 1.0.0
+Summary: Httpea is a python library for abstracting http protocol components.
+License: MIT
+Author: Dawid Kraczkowski
+Author-email: dawid.kraczkowski@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pyaml (>=24.4.0,<25.0.0)
+Description-Content-Type: text/markdown
+
+# Httpea
+
+Httpea is an abstraction library which provides a set of classes that represent different parts of the http communication process. These classes can be used to build custom http clients and servers, or to extend existing ones.
+
+The idea behind this library is to provide an interface for manipulating http requests and responses in a way that is easy to use and understand.
+
+## Features
+- HttpRequest and HttpResponse classes for representing http requests and responses
+- Multipart body parsing for handling file uploads
+- Fast and efficient parsing and building of http messages from scratch
+- Fast routing and router for your application
+- Query string parsing
+- Cookie parsing and building
+
+## Installation
+
+You can install Httpea using pip:
+```bash
+pip install httpea
+```
+
+,or with poetry:
+```bash
+poetry add httpea
+```
+
+## Usage
+
+This is an example guide of how basic usage of the library looks like. More detailed examples can be found in tests.
+
+### HttpRequest
+
+HttpRequest objects can be compared, they support query string parsing, cookies, headers and body parsing, including multipart body parsing.
+
+```python
+from httpea import HttpRequest, HttpCookie
+
+request = HttpRequest(HttpRequest.GET, "/" ,query_string="name=John&age=30")
+# set headers
+request.headers["Content-Type"] = "application/json"
+# set body
+request.body.write(b"Hello, World!")
+# set cookies
+request.cookies["session"] = "1234567890"
+
+assert isinstance(request.cookies["session"], HttpCookie)
+assert request.query_string["name"] == "John"
+assert request.query_string["age"] == 30
+assert str(request.query_string) == "name=John&age=30"
+```
+
+### HttpResponse
+
+Same like HttpRequest, HttpResponse objects can be compared, they support cookies, headers and body writing.
+
+```python
+from httpea import HttpResponse, HttpCookie, HttpStatus
+
+response = HttpResponse("Example response", HttpStatus.OK)
+
+# write body
+response.write(b"Hello, World!")
+
+# set cookies
+response.cookies.append(HttpCookie("cookie-name", "cookie-value", secure=True, http_only=True))
+```
+
+### Route and Router
+
+```python
+from httpea import Route
+
+route = Route("/example/{pattern}")
+result = route.match("/example/test")
+
+assert result
+assert result["pattern"] == "test"
+assert not route.match("/example")
+
+# wildcard route
+route = Route("/example/*")
+assert route.match("/example/test")
+assert route.match("/example/test/123")
+assert not route.match("/invalid")
+```
+
+```python
+from httpea import Router, HttpRequest, HttpNotFoundError
+
+router = Router()
+router.append("/users/{user_id}", lambda request, response, user_id: response.write(user_id), HttpRequest.GET)
+
+try:
+    route, callback = router.match("/users/123", HttpRequest.GET)
+except HttpNotFoundError:
+    pass
+
+```
+
+
+
+
