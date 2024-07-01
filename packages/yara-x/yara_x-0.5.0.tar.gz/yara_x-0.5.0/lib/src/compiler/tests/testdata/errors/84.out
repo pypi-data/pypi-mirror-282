@@ -1,0 +1,6 @@
+error[syntax_error]: syntax error
+ --> line:3:10
+  |
+3 |   $a = { G0 }
+  |          ^ expected bytes
+  |
