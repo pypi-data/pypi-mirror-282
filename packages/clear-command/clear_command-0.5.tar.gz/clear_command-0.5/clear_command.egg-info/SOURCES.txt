@@ -1,0 +1,9 @@
+README.md
+setup.py
+clear-command/__init__.py
+clear-command/__main__.py
+clear-command/clear_command.py
+clear_command.egg-info/PKG-INFO
+clear_command.egg-info/SOURCES.txt
+clear_command.egg-info/dependency_links.txt
+clear_command.egg-info/top_level.txt
