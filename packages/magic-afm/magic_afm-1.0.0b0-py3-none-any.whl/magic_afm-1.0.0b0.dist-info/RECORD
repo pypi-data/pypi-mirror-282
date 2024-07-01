@@ -1,0 +1,14 @@
+magic_afm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_afm/_make_version.py,sha256=mTQyX5G3aN0Cu0AZIO5Qc7KY_FO1gTTE6ddouE6hs3E,718
+magic_afm/_vendored_lstsq.py,sha256=-WPqxM8URcxEiYxVSf05Z0K9QRithQtj8cOWXjwPP_w,35699
+magic_afm/async_tools.py,sha256=-qHdMiXupAfgbZk1XhzqmirR-NLBjLZAP8fmAq-hpPY,8452
+magic_afm/calculation.py,sha256=sMSF07EC259ErAyg_DQbrJsrrYNQtJCdUdcGOMUwIfw,37860
+magic_afm/data_readers.py,sha256=YzEXGcr--lV0STwmOV2hfK3cC_9TVVSttA7AuGf-7-g,59015
+magic_afm/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_afm/gui/__main__.py,sha256=bozzRcsqPgaTVe_HnI0_uEZj5oYI7rd_VIgrrbjH3pg,746
+magic_afm/gui/_impl.py,sha256=ZmOLUDvYJfNGMNdknvmxVJnbnADn8lr2hltQgzAVHYM,102465
+magic_afm-1.0.0b0.dist-info/LICENSE,sha256=mg2_5UXOhuHKXGfbrL92PaxKMZr1dufE6VH8vAH-S5Q,35165
+magic_afm-1.0.0b0.dist-info/METADATA,sha256=KippUPQpS-tW10vYYKzb0KdKaWiqcWsstEHmmgga1ws,12515
+magic_afm-1.0.0b0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+magic_afm-1.0.0b0.dist-info/top_level.txt,sha256=lrMH0Zxp9sUo3_NQoW23kMsatCKfJ7LIpm3bNL-ZTs4,10
+magic_afm-1.0.0b0.dist-info/RECORD,,
