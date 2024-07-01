@@ -1,0 +1,8 @@
+lpm.cpython-310-x86_64-linux-gnu.so,sha256=C0i6zdvuCZxBW61-oRoCgaRqPqs19Vzl_i9qgFNjUOU,54301593
+lpmalgos.cpython-310-x86_64-linux-gnu.so,sha256=C0i6zdvuCZxBW61-oRoCgaRqPqs19Vzl_i9qgFNjUOU,54301593
+lpm/__init__.py,sha256=vcO9kGoVgBAEinrw4k1p-oK3kD-q-4BphmMXV71IdfE,33074
+lpmalgos-1.0.4.dist-info/RECORD,,
+lpmalgos-1.0.4.dist-info/METADATA,sha256=UH1dRAkXuNfi6IhH392SSfE9bluSgaAE6cYExIW4ge0,315
+lpmalgos-1.0.4.dist-info/top_level.txt,sha256=xWqkme_oil4RKBdWsF_ZUFmAlBEdgty3jADbgI_8Pz0,13
+lpmalgos-1.0.4.dist-info/WHEEL,sha256=CzQQWV-lNyM92gr3iaBk8dvO35YDHRxgzkZ-dxumUIM,152
+lpmalgos.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
