@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: predictor_gradient_descent
+Version: 0.1.0
+Summary: A library which Predicts the Y value(output) for given test data points using gradient descent algorithm.
+Author: K ABHISHEK MENON
+Author-email: kabhishekmenon@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# predictor_gradient_descent
+
+A library which Predicts the Y value(output) for given test data points using gradient descent algorithm.
+      Use:    import gradient_descent as gd
+              gd.output_predictor() 
+              #and run the code..You will be guided.
+              # Predicts the Y value(output) for given test data points. The model must be trained with samples and output before.
+    Just need to call the function. Accuracy of equation will depend on the no of samples entered..(Directly proportional)
+    Equation should be of the form Ax(0) + Bx(1) + Cx(2) = Y, where A,B and C are coefficients of the linear equation.
+    Input: No of samples, x(0),x(1) and x(2) of all the samples and their Y value
+    Output: Y value for new set of x(0), x(1) and x(2)
+
+Sample output:
+
+ENTER THE NO OF SAMPLES AVAILABLE:3
+Enter the samples:
+
+
+Enter the elements in sample 1
+
+Enter the value of X0:
+1
+Enter the value of X1:
+2
+Enter the value of X2:
+3
+Enter the value of Y:
+6
+
+
+Enter the elements in sample 2
+
+Enter the value of X0:
+2
+Enter the value of X1:
+3
+Enter the value of X2:
+4
+Enter the value of Y:
+9
+
+
+Enter the elements in sample 3
+
+Enter the value of X0:
+1
+Enter the value of X1:
+1
+Enter the value of X2:
+1
+Enter the value of Y:
+3
+
+ MODEL IS BEING TRAINED..PLEASE WAIT!!
+
+MODEL TRAINED!!!
+
+ENTER THE NEW SAMPLE TO GET THE Y
+
+Enter the element X0:
+10
+Enter the element X1:
+90
+Enter the element X2:
+11
+PREDICTED Y:111.0
+
+[Program finished] 
+
+
+## Installation
+
+```sh
+pip install predictor-gradient-descent
