@@ -1,0 +1,11 @@
+matpowercaseframes/__init__.py,sha256=Pw-yQOqSXWkf9rXgb3Uy-qfixcPeAa16Qa49vgL6Is0,90
+matpowercaseframes/constants.py,sha256=fpbi24oZRSDzOLY2eJRFeckoCRFhdOKk4XVxt4q6-fQ,2385
+matpowercaseframes/core.py,sha256=devsVK0flKud0fpn2EvXfdB5F5SAWC6XcEJ8jblLP9M,11049
+matpowercaseframes/reader.py,sha256=_GOQ-IpXgZo7krnhlCy62_6aPLTqV6LU9C0T-yki470,1931
+matpowercaseframes/utils.py,sha256=CnK2bISO1PchxtehQbcRss8_DIDki1_PliV65K0cLpI,178
+matpowercaseframes/version.py,sha256=NND_6JDYnYnGzN3-RTpS5F7wzv62vDf7hAxiyTSBJfE,22
+matpowercaseframes-1.0.8.dist-info/LICENSE.rst,sha256=3QaNh68vDW-MDjh0GSGHkjoOjDnfROSIAKhOaXy1t8E,3457
+matpowercaseframes-1.0.8.dist-info/METADATA,sha256=0zjWlidxo8Jp7FwUDuByuKDDHQ40tYQPDUM95dgwzeA,6203
+matpowercaseframes-1.0.8.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+matpowercaseframes-1.0.8.dist-info/top_level.txt,sha256=-bKxn8K2vBeO50d_hS-9gaq5o4_lxfaEHr3djw1zuXI,19
+matpowercaseframes-1.0.8.dist-info/RECORD,,
