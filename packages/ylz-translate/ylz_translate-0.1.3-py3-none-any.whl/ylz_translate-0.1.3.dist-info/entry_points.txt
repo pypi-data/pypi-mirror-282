@@ -1,0 +1,3 @@
+[console_scripts]
+ylz_translate=translate.main:main
+
