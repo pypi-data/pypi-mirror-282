@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pygdst/__init__.py
+src/pygdst/convert.py
+src/pygdst/example.py
+src/pygdst/gdst.py
+src/pygdst/paras.py
+src/pygdst.egg-info/PKG-INFO
+src/pygdst.egg-info/SOURCES.txt
+src/pygdst.egg-info/dependency_links.txt
+src/pygdst.egg-info/top_level.txt
