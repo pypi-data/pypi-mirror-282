@@ -1,0 +1,10 @@
+build
+venv
+.vscode
+**__pycache__**
+Generated
+traces
+dist
+obj_dir
+wheelhouse
+.env
