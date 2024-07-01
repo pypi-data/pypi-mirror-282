@@ -1,0 +1,7 @@
+icecream>=2.2
+pandas
+tqdm
+requests
+cogent3>=2024.4
+pyfaidx>=0.8
+biopython>=1.83
