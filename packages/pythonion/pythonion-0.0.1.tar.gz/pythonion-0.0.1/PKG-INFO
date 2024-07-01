@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pythonion
+Version: 0.0.1
+Summary: Python package for Ternion microcontroller board
+Home-page: https://github.com/drsanti/pythonion
+Author: Ternion Development Team
+Author-email: santi.inc.kmutt@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Pythonion Package
+This package contains the Pythonion library used to Ternion microcontroller board.
+
+```
+pythonion_root
+pythonion_root/
+    â”œâ”€â”€ pythonion/
+    â”‚   â”œâ”€â”€ __init__.py
+    â”‚   â”œâ”€â”€ logs/
+    â”‚   â”‚   â””â”€â”€ __init__.py
+    â”‚   â”œâ”€â”€ link/
+    â”‚   â”‚   â””â”€â”€ __init__.py
+    â”‚   â””â”€â”€ uart/
+    â”‚       â””â”€â”€ __init__.py
+    â”œâ”€â”€ setup.py
+    â””â”€â”€ main.py
+
+```
