@@ -1,0 +1,6 @@
+README.md
+setup.py
+prefixed_id_beanie.egg-info/PKG-INFO
+prefixed_id_beanie.egg-info/SOURCES.txt
+prefixed_id_beanie.egg-info/dependency_links.txt
+prefixed_id_beanie.egg-info/top_level.txt
