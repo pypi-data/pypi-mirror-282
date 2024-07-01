@@ -1,0 +1,14 @@
+kedro_init-0.1.0.dist-info/METADATA,sha256=Vc-n9CwJ-fkxp2CkmBJCYGecSSh0L2sywYruK2VNXt8,4289
+kedro_init-0.1.0.dist-info/WHEEL,sha256=7sv5iXvIiTVJSnAxCz2tGBm9DHsb2vPSzeYeT7pvGUY,90
+kedro_init-0.1.0.dist-info/entry_points.txt,sha256=KIuSwVWbOxMWBMSszA6eLMuZUO5-A11YtAs94GosXDo,51
+kedro_init-0.1.0.dist-info/licenses/LICENSE,sha256=SG5ECH5_9kf6vmTDUk9k2c7eTztTll3QQpPXORFasR4,1339
+kedro_init/__init__.py,sha256=kG4UZ_5NaFJQG8FNywvr7KvxVgRTVatTPoRV8v8RKLY,102
+kedro_init/build_config.py,sha256=D6CzxPdIAnTCmU-SPUi6Sw2TlqbRAQFmbYYs2HwKNQo,3993
+kedro_init/cli.py,sha256=4EM2AfgkE27MYL-794Cjosxk9yZc8SktrGBZQiO2qCs,954
+kedro_init/config_dirs.py,sha256=d17tYLRxdd78dcHigLTCjl04UiFrGe5_ECuISl6P_t8,812
+kedro_init/init.py,sha256=FpT-iOureC-R4JLcXtZjw958aGHCCkfUkPj0E0Xay2A,1280
+kedro_init/modules.py,sha256=c3sVawA8jEsDXDpeOG_QZzfN329KE_OGKUeTl8NhrMU,1477
+kedro_init/py.typed,sha256=y6ARoGfTDlsXOfaq7TVR9t6NIdTNhmGRDVrNNj0Hs64,27
+kedro_init/templates/pipeline_registry.py,sha256=5odslbP8vLDF0ZzFoSt--hbjQ18QAFZlLgVnLlFMEOo,472
+kedro_init/templates/settings.py,sha256=13H9Yyg5hS8A5EdV5AfGoVT56IYWp_oZHOApJFCWoxQ,414
+kedro_init-0.1.0.dist-info/RECORD,,
