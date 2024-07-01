@@ -1,0 +1,11 @@
+lmdb/__init__.py,sha256=neECYFFuAejkGPf2Y5xQvOam_3zk5060gSEK6Lui_ow,1710
+lmdb/__main__.py,sha256=kh64iYNdVMGSeV-82oZDCwmkCIi9t0olKC-hxiQJCTU,866
+lmdb/_config.py,sha256=aaI1ZvaFzSHHKVrN7S3mMpVQz-9bXP2C-E5Emwz6aNk,247
+lmdb/cffi.py,sha256=046ob6yGn6PSZfctC9UtMOSxgO3Cziedz1jF5elQzSo,92210
+lmdb/lmdb_cffi.cpython-38-darwin.so,sha256=L0rGmQd5mAr4Ott3BKLNh7XtjIG_bYnasfJuWMSXGoM,378016
+lmdb/tool.py,sha256=UMDg6vq8ewJxYKSAuUTRAYFpnDQN3YijOOyjofRAF7w,19675
+lmdb-1.5.0.dist-info/LICENSE,sha256=MQ_iXIWKlRX8jI19HySmfJSW-EqR4KDkHqmXWxNx5Wk,2214
+lmdb-1.5.0.dist-info/METADATA,sha256=49chyttvTZFsoy1lfBZ51AK4kEjhqQudtyM7xVWXO5Q,1092
+lmdb-1.5.0.dist-info/WHEEL,sha256=9UOeUGuff2gUdl-l37k6tPvu_nriafbN954MZ0t1kuw,113
+lmdb-1.5.0.dist-info/top_level.txt,sha256=-Lnc2yZRFwxksKqOzSqOlKBjDSb6jjel_LVF7v4lZW0,15
+lmdb-1.5.0.dist-info/RECORD,,
