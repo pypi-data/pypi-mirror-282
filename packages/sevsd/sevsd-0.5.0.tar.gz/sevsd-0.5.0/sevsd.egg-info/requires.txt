@@ -1,0 +1,6 @@
+torch
+diffusers
+transformers
+omegaconf
+peft>=0.11.0
+setuptools
