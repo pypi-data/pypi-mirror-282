@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sine_generator
+Version: 0.1.0
+Summary: A library to generate sinusoidal waveforms with a DC offset.
+Author: K ABHISHEK MENON
+Author-email: kabhishekmenon@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: unittest ; extra == 'dev'
+
+# sine_generator
+
+A library to generate sinusoidal waveforms with a DC offset.
+Usage: import sine_generator as gen
+t,sine_wave=gen.sine_generate(amplitude, frequency, sampling_rate, duration)
+#t: Time array
+#sine_wave_with_offset: Sine wave with DC offset
+
+## Installation
+
+```sh
+pip install sine_generator
