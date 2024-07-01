@@ -1,0 +1,12 @@
+pydanticio/__init__.py,sha256=5nYR6uB--0l2VPc8DKpvcZvvZqMA7SqCmQEjHTdeJBc,4157
+pydanticio/common.py,sha256=GB0Thg5PMzKa9dkZcgBByBCTy_fijIOeCLLQjhQO-II,94
+pydanticio/csv.py,sha256=vVhIgzLWqGzotzKKGBipYK5wCpTXQYJ-t9duA_nVJCg,663
+pydanticio/json.py,sha256=8VjkLU_Nyxp5EuUMoqEadJsZb-eaXPZyn-ul_o4N6S0,311
+pydanticio/json_lines.py,sha256=FXDrgoDk7VvFe1QTTjGRUVFuhhkNmXovAidQXA-XV3o,381
+pydanticio/version.py,sha256=kbQfuaAIs4jl95ObP39AhhcD--WzvzZ2M6Rm6Y7df3E,82
+pydanticio/yaml.py,sha256=ja0Wquv2DCscX7rJikUVgifVuD7lea9MndXgg433jSE,343
+pydanticio/yaml_stub.py,sha256=nlOPrUFBBUw5dr_IPrRFH7zjbsnqmw0Nr1gdmLGJi3w,328
+pydanticio-0.2.0.dist-info/METADATA,sha256=5JRDgw8wTsuUQOuVQQQRbNMqzv1bu50Gt7eiaGY4h9c,2329
+pydanticio-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pydanticio-0.2.0.dist-info/licenses/LICENSE,sha256=dVc_rT7GXs7ahhEJcO96A3arR9IokNNtHjbHmx279ZQ,1067
+pydanticio-0.2.0.dist-info/RECORD,,
