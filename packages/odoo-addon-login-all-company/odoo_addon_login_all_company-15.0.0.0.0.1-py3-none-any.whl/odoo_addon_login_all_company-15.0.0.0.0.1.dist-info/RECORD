@@ -1,0 +1,13 @@
+odoo/addons/login_all_company/README.rst,sha256=FwSsCxfnrrDsm_gX6j1jiG9llunZ5KmlnQREuRYUIa8,2935
+odoo/addons/login_all_company/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/login_all_company/__manifest__.py,sha256=Ev4RpipOBcSlwNQRrhyaST2f4QEuhn2mHtbXyrxQMHA,517
+odoo/addons/login_all_company/i18n/login_all_company.pot,sha256=BIyTShSvBhiJMqh2td4QGlxB8SDDzDZd0Pqu6WZgBR8,341
+odoo/addons/login_all_company/readme/CONTRIBUTORS.rst,sha256=eWHvm4IrA7ThyWNoVR_7HDyN7oGw7HpjK8f9ckrLqO8,57
+odoo/addons/login_all_company/readme/DESCRIPTION.rst,sha256=zShNVCEr2lzaO9UTQMIokM0ncsgQf1bcV7EBuLuvdHA,140
+odoo/addons/login_all_company/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/login_all_company/static/description/index.html,sha256=gor0KMraWHhP4TmB9Hwlo5cvrmmAX18aogZ6cEOteq0,12213
+odoo/addons/login_all_company/static/src/js/company_service.esm.js,sha256=Fr6v50yUnkNIdvF880Y_gDAHnMMNeNzn_XWN8m5-DUo,735
+odoo_addon_login_all_company-15.0.0.0.0.1.dist-info/METADATA,sha256=xp4Hza2oZGM4gR8kemWe0kv0eyeWB7Y1p_tUI4PHSmw,3491
+odoo_addon_login_all_company-15.0.0.0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo_addon_login_all_company-15.0.0.0.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_login_all_company-15.0.0.0.0.1.dist-info/RECORD,,
