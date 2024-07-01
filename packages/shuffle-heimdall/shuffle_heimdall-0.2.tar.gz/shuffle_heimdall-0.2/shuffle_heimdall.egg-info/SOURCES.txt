@@ -1,0 +1,17 @@
+README.md
+setup.py
+heimdall/__init__.py
+heimdall/errors.py
+heimdall/evaluate.py
+heimdall/main.py
+heimdall/lib/binaries/libshuffleemail_darwin_amd64
+heimdall/lib/binaries/libshuffleemail_darwin_arm64
+heimdall/lib/binaries/libshuffleemail_darwin_arm64.h
+heimdall/lib/binaries/libshuffleemail_linux_amd64
+heimdall/lib/binaries/libshuffleemail_linux_arm64
+heimdall/lib/binaries/libshuffleemail_windows_amd64
+heimdall/lib/binaries/libshuffleemail_windows_arm64
+shuffle_heimdall.egg-info/PKG-INFO
+shuffle_heimdall.egg-info/SOURCES.txt
+shuffle_heimdall.egg-info/dependency_links.txt
+shuffle_heimdall.egg-info/top_level.txt
