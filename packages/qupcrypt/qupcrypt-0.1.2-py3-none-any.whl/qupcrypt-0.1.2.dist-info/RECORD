@@ -1,0 +1,11 @@
+qupcrypt/__init__.py,sha256=dVL7ermjIbT42iWH9lMGAArkqINA8IvEdewOOojUENU,89
+qupcrypt/custom_aes.py,sha256=GcESxLSkxwDDt9Mg0zkSs1zxPvM1T4mNK8ETaX23_aU,1660
+qupcrypt/encryption.py,sha256=jrvdkZGnnrtuR5nl4505KXTZXc2uvJx2FO-wPCtpvcY,958
+qupcrypt/ext.py,sha256=PGWaQ6T4ZSi9X6uX8FaOjet0AkfhnvCG4zcoLfTfFv4,1518
+tests/__init__.py,sha256=fYpPQ0DQVgYcafJq_wRT2soN5FFa9WHoz4C32isvL6E,84
+tests/test_custom_aes.py,sha256=ui7EL3Rzg8DXXbPjD91H1WSCQ4oEH9mR1gpuoytuhtQ,721
+tests/test_encryption.py,sha256=3Aa8DL87FBi5ucHBa-StjXI8O-aygjnra8NkAZz1Tng,469
+qupcrypt-0.1.2.dist-info/METADATA,sha256=t-U-YnO3F4-oQXZKtLFitCXAIF-xEmXP7SffE_6Ot7o,659
+qupcrypt-0.1.2.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+qupcrypt-0.1.2.dist-info/top_level.txt,sha256=ShVRFH2--DArlsoOI3o5YQ1Wy7ROdTMkZ5sWghs5GG4,15
+qupcrypt-0.1.2.dist-info/RECORD,,
