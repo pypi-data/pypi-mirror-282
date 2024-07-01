@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: examplenewproject
+Version: 0.1
+Summary: A Python wrapper for a C++ project
+Home-page: https://github.com/brainvs/examplenewproject
+Author: Vasfi Tataroglu
+Author-email: testestteestetestes2009@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ExampleNewProject
+
+This is a Python wrapper for a C++ project.
+
+## Installation
+```
+pip install examplenewproject
+
+```
+
+____________________
+
+```
+
+
+from examplenewproject.wrapper import process_files
+
+num_iterations = 100
+threshold = 0.0001
+num_clusters = 12
+seed = 17
+file_list = [
+    "../../Sample_Data/Breastcancer.csv",
+    "../../Sample_Data/CreditRisk.csv",
+    "../../Sample_Data/census.csv",
+    "../../Sample_Data/birch.csv"
+]
+
+results = process_files(num_iterations, threshold, num_clusters, seed, file_list)
+
+for result in results:
+    print(result)
+
+```
