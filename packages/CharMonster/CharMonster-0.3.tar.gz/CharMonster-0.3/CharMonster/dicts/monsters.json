@@ -1,0 +1,41 @@
+{
+    "0": {
+        "monster_name": "Fire Dragon",
+        "level": 10,
+        "hitpoints": 200,
+        "ability_scores": {
+            "strength": 18,
+            "dexterity": 14,
+            "constitution": 16,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 14
+        },
+        "armor_class": 18,
+        "attack_bonus": 8,
+        "saving_throws": {
+            "fortitude": 10,
+            "reflex": 8,
+            "will": 6
+        },
+        "damage": {
+            "number_of_dice": 2,
+            "dice_value": 8
+        },
+        "initiative": 2,
+        "speed": {
+            "walk": 30,
+            "fly": 60
+        },
+        "size": "Large",
+        "monster_type": "Dragon",
+        "subtype": "Fire",
+        "alignment": "Chaotic Evil",
+        "special_abilities": {
+            "Fire Breath": "The dragon exhales fire in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one.",
+            "Flight": "The dragon can fly up to its speed as part of its move.",
+            "Fear Aura": "The dragon can project a 30-foot radius fear aura as a free action. A creature in the area must succeed on a DC 20 Will save or be affected as though by a fear spell (caster level 10th). A creature that successfully saves cannot be affected again by the same dragon’s aura for 24 hours."
+        },
+        "description": "A large, terrifying dragon that breathes fire and sows chaos wherever it goes."
+    }
+}
