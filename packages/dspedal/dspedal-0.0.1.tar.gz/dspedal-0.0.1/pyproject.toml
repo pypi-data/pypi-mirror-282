@@ -1,0 +1,39 @@
+[build-system]
+requires = ["scikit-build-core", "nanobind"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "dspedal"
+dynamic = ["version"]
+requires-python = ">=3.12"
+
+[tool.scikit-build.metadata.version]
+provider = "scikit_build_core.metadata.regex"
+input = "src/dspedal/__init__.py"
+
+[tool.scikit-build]
+cmake.build-type = "Release"
+# Setuptools-style build caching in a local directory
+build-dir = "build/{wheel_tag}"
+
+# Build stable ABI wheels for CPython 3.12+
+wheel.py-api = "cp312"
+
+[tool.scikit-build.cmake.define]
+VERILATOR_ROOT = { env = "VERILATOR_ROOT", default = "EMPTY" }
+
+[project.scripts]
+dspedal = "dspedal.cli:main"
+dspedal_generate = "dspedal.generate:main"
+
+[tool.cibuildwheel]
+# Necessary to see build output from the actual compilation
+build-verbosity = 1
+manylinux-x86_64-image = "manylinux_2_28"
+
+[tool.cibuildwheel.linux]
+before-all = "bash install_verilator.sh"
+
+# Run pytest to ensure that the package was correctly built
+test-command = "pytest {project}/tests"
+test-requires = "pytest"
