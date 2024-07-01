@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ctxl
+Version: 0.0.2
+Summary: A CLI tool to dump projects into an LLM ideal format.
+Author-email: Binal Patel <binalkp91@gmail.com>
+License: MIT
+Keywords: cli,folder,structure
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pathspec
+
