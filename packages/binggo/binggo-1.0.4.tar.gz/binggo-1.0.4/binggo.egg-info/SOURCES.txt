@@ -1,0 +1,8 @@
+binggo.py
+setup.py
+binggo.egg-info/PKG-INFO
+binggo.egg-info/SOURCES.txt
+binggo.egg-info/dependency_links.txt
+binggo.egg-info/entry_points.txt
+binggo.egg-info/requires.txt
+binggo.egg-info/top_level.txt
