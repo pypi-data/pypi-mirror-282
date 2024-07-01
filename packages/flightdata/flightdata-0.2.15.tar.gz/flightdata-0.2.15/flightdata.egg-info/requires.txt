@@ -1,0 +1,12 @@
+numpy
+pandas
+simplejson
+pfc-geometry>=0.2.7
+
+[dev]
+numpy
+pandas
+simplejson
+pfc-geometry>=0.2.7
+ardupilot-log-reader>=0.3.3
+pytest
