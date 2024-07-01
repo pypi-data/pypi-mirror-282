@@ -1,0 +1,2 @@
+[console_scripts]
+sfastping = wingtools1.Superfast_multithread_ping:main
