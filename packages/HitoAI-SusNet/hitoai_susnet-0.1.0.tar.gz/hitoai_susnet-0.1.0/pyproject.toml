@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HitoAI_SusNet"
+version = "0.1.0"
+requires-python = ">=3.8"
+authors = [
+  {name = "Shenal Elekuttige", email = "shenaal.h@hitoai.ai"},
+  {name = "Shahram Azizi Sazi"}
+]
+description = "A project to predict temperature using an Artificial Neural Network."
+readme = {file = "README.md", content-type = "text/markdown"}
+
+dependencies = [
+  "tensorflow>=2.0.0",
+  "keras>=2.3.0",
+  "numpy>=1.18.0",
+  "pandas>=1.0.0",
+  "scikit-learn>=0.22.0"
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
