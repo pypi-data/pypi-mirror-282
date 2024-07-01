@@ -1,0 +1,4 @@
+[console_scripts]
+dspedal = dspedal.cli:main
+dspedal_generate = dspedal.generate:main
+
