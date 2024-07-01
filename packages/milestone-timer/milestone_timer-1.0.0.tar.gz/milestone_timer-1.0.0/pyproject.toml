@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "milestone-timer"
+version = "1.0.0"
+description = "A minimalist Python package to allow you to time different sections of your code."
+authors = ["Simon Notley"]
+readme = "README.md"
+license = "BSD-3-Clause"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
