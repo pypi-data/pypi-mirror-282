@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+tinyredis.py
+tinyredis.egg-info/PKG-INFO
+tinyredis.egg-info/SOURCES.txt
+tinyredis.egg-info/dependency_links.txt
+tinyredis.egg-info/requires.txt
+tinyredis.egg-info/top_level.txt
