@@ -1,0 +1,8 @@
+setup.py
+pyql3/__init__.py
+pyql3/core.py
+pyql3/shell.py
+pyql3.egg-info/PKG-INFO
+pyql3.egg-info/SOURCES.txt
+pyql3.egg-info/dependency_links.txt
+pyql3.egg-info/top_level.txt

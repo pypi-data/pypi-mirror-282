@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: pyql3
+Version: 2
+Summary: The package provides a wrapper for working with SQLite databases.
+Home-page: https://github.com/GooseG4G/pyql3
+Author: GooseG4G
+Author-email: danilanegusev@gmail.com
+Description-Content-Type: text/markdown
+
+# PyQL3
+
+PyQL3 - это проект на Python, предназначенный для работы с базами данных SQLite. Он включает в себя ряд классов, которые
+облегчают взаимодействие с базами данных и обеспечивают удобный интерфейс для выполнения запросов и обработки
+результатов.
+
+## Структура проекта
+
+Проект состоит из следующих модулей:
+
+- `pyql3.core`: Содержит базовые классы, используемые в других частях проекта.
+- `pyql3.shell`: Содержит функции для взаимодействия с оболочкой.
+
+## Установка
+
+Устнаdите пакет: `pip install pyql3`
+
+## Использование
+
+```python
+from pyql3.shell import PyConnection
+
+# Создаем новое соединение с базой данных
+conn = PyConnection('my_database.db')
+
+# Получаем таблицу из базы данных
+table = conn.get('my_table')
+
+# Получаем строку из таблицы
+row = table.rows.get(1)
+
+# Получаем значение столбца из строки
+value = row.get('my_column')
+
+# Устанавливаем новое значение для столбца
+row.set('my_column', 'new_value')
+
+# Сохраняем изменения и закрываем соединение
+conn.commit()
+conn.close()
+```
+
+## Примеры
+
+### Получение данных из таблицы
+
+```python
+from pyql3.shell import PyConnection
+
+# Создаем новое соединение с базой данных
+conn = PyConnection('my_database.db')
+
+# Получаем таблицу из базы данных
+table = conn.get('users')
+
+# Выводим все строки таблицы
+for row in table.rows:
+    print(row)
+
+# Закрываем соединение
+conn.close()
+```
+
+### Вставка новой строки в таблицу
+
+```python
+from pyql3.shell import PyConnection
+
+# Создаем новое соединение с базой данных
+conn = PyConnection('my_database.db')
+
+# Получаем таблицу из базы данных
+table = conn.get('users')
+
+# Вставляем новую строку в таблицу
+table.rows.insert(values=('John Doe', 'john.doe@example.com'))
+
+# Сохраняем изменения и закрываем соединение
+conn.commit()
+conn.close()
+```
+
+### Обновление данных в таблице
+
+```python
+from pyql3.shell import PyConnection
+
+# Создаем новое соединение с базой данных
+conn = PyConnection('my_database.db')
+
+# Получаем таблицу из базы данных
+table = conn.get('my_table')
+
+# Получаем строку из таблицы
+row = table.rows.get(1)
+
+# Обновляем значение в столбце
+row.set('my_column', 'new_value')
+
+# Сохраняем изменения и закрываем соединение
+conn.commit()
+conn.close()
+```
+
+### Удаление строки из таблицы
+
+```python
+from pyql3.shell import PyConnection
+
+# Создаем новое соединение с базой данных
+conn = PyConnection('my_database.db')
+
+# Получаем таблицу из базы данных
+table = conn.get('my_table')
+
+# Удаляем строку из таблицы
+table.rows.delete(1)
+
+# Сохраняем изменения и закрываем соединение
+conn.commit()
+conn.close()
+```
+
+### Получение информации о столбцах таблицы
+
+```python
+from pyql3.shell import PyConnection
+
+# Создаем новое соединение с базой данных
+conn = PyConnection('my_database.db')
+
+# Получаем таблицу из базы данных
+table = conn.get('my_table')
+
+# Выводим информацию о столбцах таблицы
+for column in table.columns:
+    print(f'Column ID: {column.id}')
+    print(f'Type: {column.type}')
+    print(f'Not Null: {column.not_null}')
+    print(f'Default: {column.default}')
+    print(f'Primary Key: {column.pk}')
+
+# Закрываем соединение
+conn.close()
+```
