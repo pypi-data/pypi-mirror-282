@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+LegacyDataValidator.egg-info/PKG-INFO
+LegacyDataValidator.egg-info/SOURCES.txt
+LegacyDataValidator.egg-info/dependency_links.txt
+LegacyDataValidator.egg-info/top_level.txt
+datavalidator/__init__.py
+datavalidator/validator.py
+tests/test_validator.py
