@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="649b62bf-379f-4863-accb-a5d3cfd5117b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/depends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/distro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/dump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/i18n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/predicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/procedural.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/rawinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/tc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/attr/dogtail/wrapped.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pylinuxauto/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_attr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2icl8XtqBwz21UN9Gbluxsp61re" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/mikigo/github/youqu3-plugins/pylinuxauto/pylinuxauto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pylinuxauto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pylinuxauto" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="649b62bf-379f-4863-accb-a5d3cfd5117b" name="Changes" comment="" />
+      <created>1719797587910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719797587910</updated>
+      <workItem from="1719797588980" duration="1569000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
