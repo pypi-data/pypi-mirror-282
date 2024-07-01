@@ -1,0 +1,6 @@
+starlette_gzip_request/__init__.py,sha256=P77b2IogdBkCIIz_zPfeJs9xl_CU0fxuyTtJjYCRmAA,128
+starlette_gzip_request/middleware.py,sha256=mPxA03c93Se-enDUgy-ZfsoZFEVW7qkdt2rf5STjjJw,2664
+starlette_gzip_request-0.1.0.dist-info/METADATA,sha256=_-TV9FdccVT8Pi-C9saZdQXR1PHmTWuw1EPZO-JX0pw,1118
+starlette_gzip_request-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+starlette_gzip_request-0.1.0.dist-info/licenses/LICENSE,sha256=-FAsRtrJPN4ee_Vy2mo_e5uSzLcOxvlsk4i-B51Gz9g,1497
+starlette_gzip_request-0.1.0.dist-info/RECORD,,
