@@ -1,0 +1,58 @@
+use axum::extract::{Query, State};
+use axum::{Extension, Json, Router};
+use axum::response::{IntoResponse, Response};
+use axum::routing::{get, post};
+use redis::AsyncCommands;
+use axum::http::StatusCode;
+use serde_json::json;
+use crate::entities::models::demo::{RedisKey, RedisKeyValue};
+use crate::info;
+use crate::utils::state;
+
+pub fn demo_routes() -> Router<state::AppState> {
+    Router::new()
+        .route("/redis", get(get_by_redis).post(set_redis_key))
+        .route("/mongo", post(set_mongo_record))
+        .route("/jwt", get(get_jwt_user_id))
+}
+
+async fn get_by_redis(state: State<state::AppState>, Query(params): Query<RedisKey>) -> Response {
+    info!(&format!("params: {params:?}"), 0, state.clone());
+
+    let mut redis = state.redis.lock().await;
+    match redis.get::<_, Option<String>>(&params.key).await {
+        Ok(Some(value)) => (StatusCode::OK, value).into_response(),
+        Ok(None) => (
+            StatusCode::BAD_REQUEST,
+            format!("Key '{}' not found", params.key),
+        ).into_response(),
+        Err(err) => (
+            StatusCode::INTERNAL_SERVER_ERROR,
+            format!("Failed to get key '{}': {}", params.key, err),
+        ).into_response(),
+    }
+}
+
+async fn set_redis_key(state: State<state::AppState>, Json(payload): Json<RedisKeyValue>) -> Response {
+    info!(&format!("payload: {payload:?}"), 0, state.clone());
+
+    let mut redis = state.redis.lock().await;
+    match redis.set::<_, _, ()>(&payload.key, &payload.value).await {
+        Ok(_) => (StatusCode::CREATED, "Key set").into_response(),
+        Err(err) => (
+            StatusCode::INTERNAL_SERVER_ERROR,
+            format!("Failed to set key '{}':'{}' error:{}", payload.key, payload.value, err),
+        ).into_response(),
+    }
+}
+
+async fn set_mongo_record(state: State<state::AppState>) -> Response {
+    info!("set a mongo log", 0, state.clone());
+
+    (StatusCode::CREATED, "Record set").into_response()
+}
+
+async fn get_jwt_user_id(Extension(user_id): Extension<i64>) -> Response {
+    // for jwt insert user_id, not need to test
+    (StatusCode::OK, Json(json!({ "user_id": user_id }))).into_response()
+}
