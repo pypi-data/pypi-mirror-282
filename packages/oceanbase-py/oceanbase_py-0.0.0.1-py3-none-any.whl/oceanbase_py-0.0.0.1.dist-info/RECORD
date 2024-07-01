@@ -1,0 +1,10 @@
+oceanbase_py/__init__.py,sha256=mdwI_ICPprRpCnAuRa2Kr5zdOBPhsgjI4yyYjRdW3yg,831
+oceanbase_py/sqlalchemy/__init__.py,sha256=fZBtGbyZULSTzLxw0KuE8IlIFppIxu9Y6dfvNEtHnn4,935
+oceanbase_py/sqlalchemy/datatype.py,sha256=0Je8eyC05DnDGB--fHGcxNi3WAQM1irG-dsC3xK3JWU,2535
+oceanbase_py/sqlalchemy/dialect.py,sha256=LtZrUWSFR3MQQbg1P2OC1AMDparjuEPLNzrmwSWy_hs,7534
+oceanbase_py-0.0.0.1.dist-info/LICENSE.txt,sha256=_yVOtnbW7Ss28mp058UEEc1X4Rgj8-kQBP_kj8_Sc88,11585
+oceanbase_py-0.0.0.1.dist-info/METADATA,sha256=wthkKMqC1d8LvD_21F0k2MOMI9PpE3bkJh0hxYUhMIc,2606
+oceanbase_py-0.0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+oceanbase_py-0.0.0.1.dist-info/entry_points.txt,sha256=NT_nDnEs30q5c126Pby7Ajx3UodwWJSmSEDoLss2Dz0,147
+oceanbase_py-0.0.0.1.dist-info/top_level.txt,sha256=g8Wno3dJ2uH0maeM5Upa38xH10lUCHYgcW1HWZS1mPk,13
+oceanbase_py-0.0.0.1.dist-info/RECORD,,
