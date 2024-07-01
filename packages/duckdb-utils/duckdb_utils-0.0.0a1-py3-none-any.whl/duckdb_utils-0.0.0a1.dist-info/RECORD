@@ -1,0 +1,8 @@
+duckdb_utils/__init__.py,sha256=5ka_ue9d1DFAsiwX9HqEZhT0PvMv8rykVanHNYU1AYY,41
+duckdb_utils/cli.py,sha256=fy07ap5v8jZvdL5f9XaBFFBTv9ptr4ZYpcqflS-wVz4,229
+duckdb_utils-0.0.0a1.dist-info/LICENSE,sha256=P63ASE8bNwbgFYGn6xEbGFFp3eppPKvyk4QzXJF2G7o,1509
+duckdb_utils-0.0.0a1.dist-info/METADATA,sha256=_qrStNnfguamWWJNxZtz1N0F755rl4vZQn7eYQ75m_4,2274
+duckdb_utils-0.0.0a1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+duckdb_utils-0.0.0a1.dist-info/entry_points.txt,sha256=m1-OoGJoitks1BaFVN12aTN5izqFiMHYuoctv9KVzn8,54
+duckdb_utils-0.0.0a1.dist-info/top_level.txt,sha256=SWnEFJuovES4tTtYKnLIB-aiFxBzOk_8YyiUvwPpvtQ,13
+duckdb_utils-0.0.0a1.dist-info/RECORD,,
