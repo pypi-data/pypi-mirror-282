@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+easy_multiprocess/__init__.py
+easy_multiprocess/easy_multiprocess.py
+easy_multiprocess.egg-info/PKG-INFO
+easy_multiprocess.egg-info/SOURCES.txt
+easy_multiprocess.egg-info/dependency_links.txt
+easy_multiprocess.egg-info/top_level.txt
+tests/test.py

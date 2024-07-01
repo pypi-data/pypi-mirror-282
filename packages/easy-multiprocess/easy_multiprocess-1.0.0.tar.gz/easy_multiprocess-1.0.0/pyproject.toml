@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy_multiprocess"
+version = "1.0.0"
+description = "Use all your cores with no extra code"
+authors = [{name = "Pranay"}]
+license = {text = "MIT License"}
+readme = "README.md"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
