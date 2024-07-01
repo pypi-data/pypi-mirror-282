@@ -1,0 +1,12 @@
+msgpack>=1
+bitarray
+
+[dev]
+pytest-cov
+pytest-benchmark
+pytest-asyncio
+black
+ruff
+
+[numpy]
+numpy
