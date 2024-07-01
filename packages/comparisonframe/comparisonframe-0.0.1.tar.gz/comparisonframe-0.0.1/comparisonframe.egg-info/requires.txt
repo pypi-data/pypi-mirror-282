@@ -1,0 +1,4 @@
+pandas==2.1.1
+dill==0.3.7
+attrs>=22.2.0
+mocker_db==0.1.2
