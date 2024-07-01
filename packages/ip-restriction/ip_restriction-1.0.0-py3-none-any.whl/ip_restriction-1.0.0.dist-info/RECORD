@@ -1,0 +1,7 @@
+ip_restriction/__init__.py,sha256=1rkswpsWvWhAK-LdbvGzccVFaQG9YPbdSxc5rsmxLzU,47
+ip_restriction/middleware.py,sha256=1iGSDHzgUfeMSASpD37GhEC_Q7K6bWSvD6vi-8WUI8I,3432
+ip_restriction-1.0.0.dist-info/LICENSE,sha256=tRa-_TUiZoEcOTsO1Jj6_bH0g51jAdI0NPB5f15V1Zs,1064
+ip_restriction-1.0.0.dist-info/METADATA,sha256=jfgkNM56QDYPqcoEJKoezjIa_mZiBOgoID_i_uZde-c,2730
+ip_restriction-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ip_restriction-1.0.0.dist-info/top_level.txt,sha256=GkFw1al0ae-0pEp0hrulG8C7Sdh3oiIMThxbyKgCh4M,15
+ip_restriction-1.0.0.dist-info/RECORD,,
