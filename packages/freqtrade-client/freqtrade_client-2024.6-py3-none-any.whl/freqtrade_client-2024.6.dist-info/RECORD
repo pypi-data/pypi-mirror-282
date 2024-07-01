@@ -1,0 +1,9 @@
+freqtrade_client/__init__.py,sha256=q-K-YGhr3LDv0g1owNBGMQogJQCWSGlo-YPsCu0S9dI,1016
+freqtrade_client/ft_client.py,sha256=WVv0vrw1Nd-qK7Y7yHP9fqK_SM-ildVYFEgRqgRLnZ4,3591
+freqtrade_client/ft_rest_client.py,sha256=55TDrxBx6EHsLdnN7sfq7JT_7hn2nEudTOELlD4T-lI,14324
+freqtrade_client-2024.6.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+freqtrade_client-2024.6.dist-info/METADATA,sha256=ixwn1HC6vqi9y7Nw0odKJclj1j5DLITgSFzQ0fqLDeM,1339
+freqtrade_client-2024.6.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+freqtrade_client-2024.6.dist-info/entry_points.txt,sha256=ZdrU2EQmUgJGe4Aq-6stQBnmhE4vYGoT9IHrlcLFvDQ,69
+freqtrade_client-2024.6.dist-info/top_level.txt,sha256=5G0oM5gdw3e1256Zbln46pTwXjiRi6R2FwcPWDdku0w,17
+freqtrade_client-2024.6.dist-info/RECORD,,
