@@ -1,0 +1,9 @@
+espejo/__init__.py,sha256=lsWkYEuL6v3Qol-lwSUvB6y63tm6AKcCMUd4DZDx3Cg,350
+espejo/compare.py,sha256=-DLEmaBIZvm25ZvzBn9yKYiOUamxHht8j6xR2oe8Ri4,5664
+espejo/config.py,sha256=LbdLJE1KIebFq_tX7zcERhPvopKhnzcTqMCnS3jN124,381
+espejo/errors.py,sha256=wqphE1Xn7K6n16uvUhDC45m2BxbsMUhIF2olPbhqf4o,1192
+espejo/ignore.py,sha256=I3nIurPpi0On1e3ldh91h9OQKRGbs-UX-IeAjLkhL0E,2602
+espejo-0.1.2.dist-info/LICENSE.txt,sha256=6oDGCb-zBN8qiz-MdRj7ahWv4lUsSXl_RQpUhTXwZdc,1116
+espejo-0.1.2.dist-info/METADATA,sha256=3YHMDSBl6QFLhCP-SNCSufiWNGmNT8rwqvWHFYE-Qpk,5704
+espejo-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+espejo-0.1.2.dist-info/RECORD,,
