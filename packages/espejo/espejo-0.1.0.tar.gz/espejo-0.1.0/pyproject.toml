@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "espejo"
+version = "0.1.0"
+description = "a compare utility"
+license = "MIT"
+authors = [
+    "Gleb Karpushkin <rugleb@gmail.com>",
+    "Jorge Gueorguiev Garcia <jorge.gueorguiev@twoormore.eu>",
+]
+maintainers = [
+    "Jorge Gueorguiev Garcia <jorge.gueorguiev@twoormore.eu>",
+]
+readme = "README.md"
+homepage = "https://pypi.org/project/espejo"
+repository = "https://github.com/twoormore/espejo"
+documentation = "https://github.com/twoormore/espejo/blob/master/README.md"
+keywords = [
+    "json",
+    "compare",
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Testing",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^5.0.0"
+add-trailing-comma = "^3.1"
+bandit = "^1.7"
+codecov = "^2.1"
+coverage = "^7.3"
+flake8 = "^7.0.0"
+isort = "^5.0"
+mypy = "^1.10"
+pytest = "^8.0.0"
+pytest-sugar = "^1.0.0"
+twine = "^4.0"
+
+
+[tool.poetry.group.lsp.dependencies]
+python-lsp-server = {extras = ["flake8", "isort", "rope"], version = "^1.11.0"}
+pylsp-rope = "^0.1.16"
+python-lsp-isort = "^0.1"
+pylsp-mypy = "^0.6.8"
+
+[tool.pytest.ini_options]
+addopts = "--cov-report term --cov-report html --cov-report xml"
+
+[tool.coverage.report]
+ignore_errors = false
+skip_covered = true
+fail_under = 85
+
+[tool.coverage.html]
+directory = ".reports/coverage/html"
+
+[tool.coverage.xml]
+output = ".reports/coverage/index.xml"
+
+[tool.isort]
+atomic = true
+case_sensitive = true
+combine_star = true
+include_trailing_comma = true
+indent = 4
+line_length = 79
+multi_line_output = 3
+use_parentheses = true
+
+[build-system]
+requires = ["poetry-core>=1.0"]
+build-backend = "poetry.core.masonry.api"
