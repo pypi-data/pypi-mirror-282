@@ -1,0 +1,2 @@
+[console_scripts]
+smadi_run = smadi.workflow:main
