@@ -1,0 +1,10 @@
+fastcore
+geopandas
+rasterio
+h3==4.0.0b5
+contextily
+pysal==24.1
+gstools
+ipywidgets
+
+[dev]
