@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: simframe
+Version: 1.0.5rc2
+Summary: Framework for Scientific Simulations
+Keywords: numerical,simulation,integration,science,mathematics,physics
+Author-Email: Sebastian Stammler <sebastian.stammler@gmail.com>, Til Birnstiel <til.birnstiel@lmu.de>
+Maintainer-Email: Sebastian Stammler <sebastian.stammler@gmail.com>, Tilman Birnstiel <til.birnstiel@lmu.de>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2020-2023, Simframe developers
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Project-URL: Repository, https://github.com/stammler/simframe/
+Project-URL: Documentation, https://simframe.readthedocs.io/
+Requires-Dist: dill
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# Simframe
+
+[![Documentation Status](https://readthedocs.org/projects/simframe/badge/?version=latest)](https://simframe.readthedocs.io/en/latest/?badge=latest) [![GitHub](https://img.shields.io/github/license/stammler/simframe) ](https://github.com/stammler/simframe/blob/master/LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/stammler/simframe/blob/master/.github/CODE_OF_CONDUCT.md)  
+[![status](https://joss.theoj.org/papers/0ef61e034c57445e846b2ec383c920a6/status.svg)](https://joss.theoj.org/papers/0ef61e034c57445e846b2ec383c920a6)  
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/simframe?label=PyPI%20downloads)](https://pypistats.org/packages/simframe) [![Fedora package](https://img.shields.io/fedora/v/python3-simframe?color=blue&label=Fedora%20Linux&logo=fedora)](https://src.fedoraproject.org/rpms/python-simframe)
+
+### Framework for scientific simulations
+
+`Simframe` is a Python framework to facilitate scientific simulations. The scope of the software is to provide a framework which can hold data fields, which can be used to integrate differential equations, and which can read and write data files.
+
+Data fields are stored in modified `numpy.ndarray`s. Therefore, `Simframe` can only work with data, that can be stored in `NumPy` arrays.
+
+## Installation
+
+`pip install simframe`
+
+## Documentation
+
+[https://simframe.readthedocs.io/](https://simframe.readthedocs.io/)
+
+* [1. Simple Integration](https://simframe.readthedocs.io/en/latest/1_simple_integration.html)
+* [2. Advanced Integration](https://simframe.readthedocs.io/en/latest/2_advanced_integration.html)
+* [3. Updating Groups and Fields](https://simframe.readthedocs.io/en/latest/3_updating.html)
+* [4. Custom Integration Schemes](https://simframe.readthedocs.io/en/latest/4_custom_schemes.html)
+* [5. Adaptive Integration Schemes](https://simframe.readthedocs.io/en/latest/5_adaptive_schemes.html)
+* [6. Implicit Integration](https://simframe.readthedocs.io/en/latest/6_implicit_integration.html) <br /> &nbsp;
+* [Example: Coupled Oscillators](https://simframe.readthedocs.io/en/latest/example_coupled_oscillators.html)
+* [Example: Double Pendulum](https://simframe.readthedocs.io/en/latest/example_double_pendulum.html)
+* [Example: Compartmental Models](https://simframe.readthedocs.io/en/latest/example_compartmental_models.html)
+* [Example: N-body Problem](https://simframe.readthedocs.io/en/latest/example_nbody.html) <br /> &nbsp;
+* [A. Citation](https://simframe.readthedocs.io/en/latest/A_citation.html)
+* [B. Contributing/Bugs/Features](https://simframe.readthedocs.io/en/latest/B_contrib_bug_feature.html)
+* [C. Changelog](https://simframe.readthedocs.io/en/latest/C_changelog.html) <br /> &nbsp;
+* [Module Reference](https://simframe.readthedocs.io/en/latest/api.html)
+
+## Ackowledgements
+
+`simframe` has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme under grant agreement No 714769.
+
+`simframe` was developed at the [University Observatory](https://www.usm.uni-muenchen.de/index_en.php) of the [Ludwig Maximilian University of Munich](https://www.en.uni-muenchen.de/index.html).
