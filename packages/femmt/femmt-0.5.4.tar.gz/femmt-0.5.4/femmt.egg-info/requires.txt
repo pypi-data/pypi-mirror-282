@@ -1,0 +1,14 @@
+pandas~=2.2.1
+numpy~=1.26.0
+matplotlib~=3.8.0
+gmsh>=4.13.1
+onelab>=1.0
+scipy~=1.12.0
+pytest
+pycodestyle
+PyQt5>=5.15.6
+mplcursors>=0.5.1
+deepdiff>=6.2.1
+materialdatabase==0.3.0
+optuna
+plotly
