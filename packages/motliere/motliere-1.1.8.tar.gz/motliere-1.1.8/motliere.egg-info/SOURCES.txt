@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+motliere/__init__.py
+motliere/motliere.py
+motliere.egg-info/PKG-INFO
+motliere.egg-info/SOURCES.txt
+motliere.egg-info/dependency_links.txt
+motliere.egg-info/requires.txt
+motliere.egg-info/top_level.txt
