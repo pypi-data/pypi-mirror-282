@@ -1,0 +1,22 @@
+[project]
+name = "bfiola-devtools"
+version = "0.0.1"
+dependencies = [ "black", "build", "click", "isort", "packaging", "pydantic", "python-semantic-release", "toml", "twine",]
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+devtools = "devtools:main"
+
+[tool.semantic_release.branches.dev]
+match = "dev"
+prerelease = true
+prerelease_token = "rc"
+
+[tool.semantic_release.branches.main]
+match = "main"
+prerelease = false
+
+[tool.setuptools.packages.find]
+include = [ "devtools",]
