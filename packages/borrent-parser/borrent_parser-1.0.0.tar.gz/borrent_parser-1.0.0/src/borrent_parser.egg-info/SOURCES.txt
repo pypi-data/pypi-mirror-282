@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/borrent_parser/__init__.py
+src/borrent_parser/decoder.py
+src/borrent_parser/encoder.py
+src/borrent_parser.egg-info/PKG-INFO
+src/borrent_parser.egg-info/SOURCES.txt
+src/borrent_parser.egg-info/dependency_links.txt
+src/borrent_parser.egg-info/top_level.txt
+tests/testcase_generator.py
