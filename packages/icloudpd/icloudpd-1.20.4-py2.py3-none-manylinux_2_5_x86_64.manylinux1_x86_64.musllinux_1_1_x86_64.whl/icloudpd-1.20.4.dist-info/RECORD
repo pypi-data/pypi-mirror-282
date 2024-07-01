@@ -1,0 +1,12 @@
+icloud/icloud,sha256=hyaDUKeYoLjSAhFwaYm4G1XrZE3BHqnCnMGJqjXOnWY,28296648
+icloud/__main__.py,sha256=kcRhMxnwNE7oYmM6GeIO9cbrM8rtQKRrvZ_Dhw_CzAk,134
+icloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icloudpd/icloudpd,sha256=4GBZ5E51JtOwAk2zSYCm19VWXpISbiWspNh-rEHQf0E,28472616
+icloudpd/__main__.py,sha256=uOzsHmfhUPenVk9m74as8RvCe3iMP6ZE1DOkzqD9Q_U,136
+icloudpd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icloudpd-1.20.4.dist-info/entry_points.txt,sha256=aAEUYpyNkByjNQgmkeUeSfLAMyfo_AGTz5_FMThL22Q,72
+icloudpd-1.20.4.dist-info/LICENSE.md,sha256=uwT2rbVc8xLz9f78VZvzMryPsr1oDjCQQUScGGRK44U,1083
+icloudpd-1.20.4.dist-info/WHEEL,sha256=E2WRjKKLNLiEtNna_2ASBHSmFdlcN7In5zfQzH_RfMI,230
+icloudpd-1.20.4.dist-info/top_level.txt,sha256=UXPBxdd9_un6gBQaE4iwy2mtvRwbxTZHMjrSGjID9Yw,16
+icloudpd-1.20.4.dist-info/RECORD,,
+icloudpd-1.20.4.dist-info/METADATA,sha256=WTwgJQbUmvjAWem05Lojv_lHZP3dZGoGHzYBIQPkyI0,4199
