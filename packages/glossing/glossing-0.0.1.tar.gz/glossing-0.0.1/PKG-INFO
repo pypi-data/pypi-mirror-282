@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: glossing
+Version: 0.0.1
+Summary: Python manipulation of interlinear glossed text
+Project-URL: Homepage, https://github.com/michaelpginn/igt
+Project-URL: Issues, https://github.com/michaelpginn/igt/issues
+Author-email: Michael Ginn <michael.ginn@colorado.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
