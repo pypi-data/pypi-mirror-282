@@ -1,0 +1,7 @@
+my_import/__init__.py,sha256=prSAVD9KA_mwzeYewtUnvU6m8q433LWLnfMPXr7vslE,164
+my_import/custom_importer.py,sha256=CaPrMH4pNl0S9DfDYYr7ybgyMZPLwejZJgMRAUcW7z8,409
+my_import/setup_paths.py,sha256=3dYU3vVBKq6GgGK41EiC-St9d6YKeFL3vBpx-L11bx4,1606
+my_unique_import-0.2.1.dist-info/METADATA,sha256=7LIxt1vkEevRfRTZc9_yoADv3j44IwSDhejZF9TGHjI,2645
+my_unique_import-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+my_unique_import-0.2.1.dist-info/top_level.txt,sha256=S3CFNNXgbB6KydINcXgF7wZdKT5aAQKB1ACS_QCLi6U,10
+my_unique_import-0.2.1.dist-info/RECORD,,
