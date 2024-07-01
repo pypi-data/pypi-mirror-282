@@ -1,0 +1,258 @@
+solutions_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/cli/add.py,sha256=mE3sf1hqdG7k1UfF6f-0InIYI8I63R4jCgJMSnTuJlM,1825
+solutions_builder/cli/cli.py,sha256=J-4SmRl-jUzxxt94bveK1mGk0q0NSEgNHJNxKr-zgZU,12392
+solutions_builder/cli/cli_constants.py,sha256=ulvPZAClzETbHdmAzTGdTDpTe1wKnUFtytqIYeC03-g,809
+solutions_builder/cli/cli_utils.py,sha256=nCqAvFOxU19Kolbr8vaxHa-bxfDRNnDa5YP-bCG_bos,7636
+solutions_builder/cli/component.py,sha256=LsO0awZ6DMIqJ_n99w_xHqdB88K25LL0tNRuzJ1jvPc,8153
+solutions_builder/cli/infra.py,sha256=4LK2CZgN3KG4VmfBoQLWI-zc3v_5f3EkWqw7M5Iy2Eo,6585
+solutions_builder/cli/list.py,sha256=Ml1VwHJOY6A-QfhwDm6lMlHM1BevzRg2C3QrzeodKiw,857
+solutions_builder/cli/replay.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/cli/set.py,sha256=jYFtE3Iqo4IRJAMMNf4YhjEAR9oewqtvkYmu_Hdrh7I,2567
+solutions_builder/cli/template.py,sha256=DB01Wg5jdD09hm3ocQnWSOmL0z7sHsHUmZyXuCsiRdY,1459
+solutions_builder/cli/update.py,sha256=G2BZYpib6km8IprP2JHsj6kGLHHIuDQHmmYj9-PqIhY,2684
+solutions_builder/cli/vars.py,sha256=mCo2XD39gpHtel7e2AxXfPdumzsrhlhYXcQZqd8qt_8,5831
+solutions_builder/cli/vars_test.py,sha256=LMtaOYASwT-rfU8TOfsZJHWzSOjsUumN0nQwyUnFcLM,3942
+solutions_builder/copier_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/copier_extensions/context.py,sha256=MccgOH8pG8bJMxbPf5395YmMVRSaKKDxPihyKBnR4KI,1563
+solutions_builder/copier_extensions/sb_helpers.py,sha256=NR5ndC3sIJTKjLY7m4_EVyQyHIYoT5JtpZFcHizEpWE,8054
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/HEAD,sha256=KNJb-Cr0wOK3L1CVmyvrhZ4-YLljCl6MYD2tTdsrboA,21
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/config,sha256=VU8I9kQTTaMzsQCmna4Y-iow0FSAnR_lrDCCgBMH45c,366
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/description,sha256=hatsFj1DoX6pz3eIMIvKFGbxsKjRzJLibpv2PaQGKu4,73
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/applypatch-msg.sample,sha256=AiNJeguLAzqlijpSG4YphpOGz3qw4vEBlj0yiqYhk_c,478
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/commit-msg.sample,sha256=H3TV6SkpebVz69WXQdRsuT_zkazdCD00C5Q3B1PZJDc,896
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/fsmonitor-watchman.sample,sha256=4FSZZOk4l7UZvY4zPAN-Uf_w-IuhPghqMxWSv4AfodA,4726
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/post-update.sample,sha256=gXZa8trvMjBh3LxeYfwWSBy3SzusmtihdLGGUjWG9sU,189
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/pre-applypatch.sample,sha256=4VxbRp6j4KaVvqbyyCvPjmKCEHSTnd2Ft34AB_8WVHU,424
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/pre-commit.sample,sha256=Vxhbe58FI516tS2wRfW4nrMTSNeyF36rIU9euHLhlxs,1649
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/pre-merge-commit.sample,sha256=04JacDN5QOu9ClwHKYThMkWSDN-ImL0iXI0npt_Jy1M,416
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/pre-push.sample,sha256=7M6cfgTT9d2ditqBdT3R1UmpY0smdwBCtY3aACF9CGo,1374
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/pre-rebase.sample,sha256=T-vOhneQBSM4B29OZsxH77FIedGAl9HWHIJhhZ6qp7M,4898
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/pre-receive.sample,sha256=pMPSuce7P9jRRBwxvU7nGlldZrRPz0ndsxAlIyAWmYk,544
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/prepare-commit-msg.sample,sha256=6d3KpBif3dJe2X_Ix4nsp7bKFjkLI5KuMnbwyOGqRhk,1492
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/push-to-checkout.sample,sha256=pT0HQXmLKHxt16-mSu5HPzBeZdP0lGO7nXQI7DsSv18,2783
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/sendemail-validate.sample,sha256=ROv8kj3FRmvACWAvDs8Ge5xlRZq_6IaN3Em3jmztepI,2308
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/hooks/update.sample,sha256=jV8vqD4QPPCLV-qmdSHfkZT0XL28s32lKtWGCXoU0QY,3650
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/index,sha256=DrFd6zuLDEd3vwGbqIqSu9LH0g6yNrIacyO-tw7m06Q,4626
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/info/exclude,sha256=ZnH-g7egfIky7okWTR8nk7IxgFjri5jcXAbuClo7DsE,240
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/logs/HEAD,sha256=ryacKtUA3Gbxs7hfZR8ud4w48s5p0M4oG7cEfzUSJWA,238
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/logs/refs/heads/main,sha256=ryacKtUA3Gbxs7hfZR8ud4w48s5p0M4oG7cEfzUSJWA,238
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/logs/refs/remotes/origin/HEAD,sha256=ryacKtUA3Gbxs7hfZR8ud4w48s5p0M4oG7cEfzUSJWA,238
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/objects/pack/pack-432564ed3e6ebb155b4883cfb07e5c2cb9b37814.idx,sha256=naXyBwFr9ngFQMyT2Xa_luWTmkr9Bi4kZNR2O9ul6ug,3172
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/objects/pack/pack-432564ed3e6ebb155b4883cfb07e5c2cb9b37814.pack,sha256=I9gCSNpc_AuK7zN__-3uqqMdf9FCm7_Bbk4B_vUinYM,31946
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/objects/pack/pack-432564ed3e6ebb155b4883cfb07e5c2cb9b37814.rev,sha256=Gj-vEkuRpxSCZvwHt_5eKY2Izlc60GOKZ-DqWU0pAfQ,352
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/packed-refs,sha256=38QB20EUsCdS5PB66bl-VWMhzLlOjkRi7Q690OF8TXM,112
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/refs/heads/main,sha256=7kMOu3XTKmx6EBVCqaxyeGmnhun77M3uG2i0s4qgVnI,41
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/.git/refs/remotes/origin/HEAD,sha256=K7aiSqD8bEhBAPXVGim7rYQc0sdV9dk_qiBOXbtOsrQ,30
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/README.md,sha256=7Qk6_gbtgI_-S6qkmWsi3CV5GXeW9l3yfBWKU9dUsKs,6316
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/copier_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/copier_extensions/context.py,sha256=MccgOH8pG8bJMxbPf5395YmMVRSaKKDxPihyKBnR4KI,1563
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/copier_extensions/sb_helpers.py,sha256=DYo6cSQScZhPJYu8gYoOb-qekbXOhP1jjp4oK6pcJM0,7609
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/copier.yaml,sha256=89VvrQcZOWX2DrFAxRTJManFinRUwniu337Hq_lclQI,1597
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/skaffold.yaml.patch,sha256=Ox4vRlqe4zprMo4JNHJCcFYvLASVU0qmjcCU5pTJhO0,102
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/terraform/stages/3-application/{{component_name}}_cloudrun.tf,sha256=gZ8Fha4LDnQFJaU9_tImph6fGNNKPYOWxWeYItRVi6g,867
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/Dockerfile,sha256=3rCtYCNIq5xrzz0m48UKZ3yRQbQZPltJ0qIQzzZkwMs,545
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/README.md,sha256=YY7nGvNbUnclKskdY589sjHa7dAJfeZPm56DCoKSJdI,1300
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/requirements-test.txt,sha256=VddCZg48KZrPt3PuK7L95KLqV1VzmtRSi6cJ_SWhBmw,77
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/requirements.txt,sha256=0LBjUHe9jV6zB0_WV7rLYhKcdRsjR9hZK0K12hCMB-Y,98
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/skaffold.yaml,sha256=QJmqo-daCfS7jVZGo_5j7Bcj1JSx-GsoVerTtva6CpY,2744
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/src/config.py,sha256=EewME9XMhJU9dKeKe2w38yCHKxbPnaSAWbklsz4je_s,911
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/src/main.py,sha256=bXyyg1JFF424pZKsf7wcd-ICY8HZEq8DRQdKQFyTeRs,1610
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/src/routes/sample.py,sha256=-EHu3lnoBU_Og95XCQflh-mdQGf4ruKLxxLMBqTolwk,903
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/deployment.yaml,sha256=SX40xdmsQI8iaz7u-pOKQu5CPtuBAqydeNnpWUC7T28,1232
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/kustomization.yaml,sha256=fizGkdKxMZAC6m5n05zlMTi6V5aKHf0csMzY4gDUQNM,197
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/properties.env,sha256=mk90-ZDqDMv4zNMuWBRpw6ajV5fvbthQfZpHMlDbOs4,60
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/service.yaml,sha256=CRtnV2XBpcwXElqH67SEH6sRyluz7wvDXbdX720S8go,229
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/hpa/hpa.yaml,sha256=wqZroZIH59zoxUPJKlnzIYFXysXGDaJKPX-M2_YCUSs,421
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/hpa/kustomization.yaml,sha256=BTrckITXN723aFgAPhUv8_ADPicTAQziwuuMoNZS1aQ,103
+solutions_builder/downloaded_repos/git@gitlab.com:google-cloud-ce/communities/NATT-AIML/genai-fsa/northam/experimental/sb-templates.git/modules/blank_service/{{destination_path}}/{{component_name}}/{{'manifests' if deploy_method=='cloudrun' else ''}}/cloudrun-service.yaml,sha256=fWvaWV-4uorW5CI0BELlXGhGo-b9gM8tYUxSXH3rAuM,215
+solutions_builder/helper_modules/init_sb_yaml/copier.yaml,sha256=tUJqmijTTkHKmfaC6T1Xc9bMF3XKTK-mjQAi3qc7SOA,1215
+solutions_builder/helper_modules/init_sb_yaml/sb.yaml,sha256=ehApWY8HjUFNPvIlmfYtLaxiBI6ztIc7M-MKBVaXJaI,631
+solutions_builder/helper_modules/module_template/README.md,sha256=ryhwRc3A_z8hbRQnUxSGNgqoDS9Is8nOSxnVYC48RLg,766
+solutions_builder/helper_modules/module_template/copier.yaml,sha256=0h88LIKlImO6w375LcAfRCZ4UGTyP5tDtXCfS2ZAoVk,868
+solutions_builder/helper_modules/module_template/docs/components/{{'{{component_name}}'}}.md,sha256=aEIL0mSO1hlak_oZXmoXtn45sFGGJzPD0Tb1r0d1Mtc,89
+solutions_builder/helper_modules/module_template/template_copier.yaml,sha256=vsQ8WqtfFMVA0HdgcZREj31ObUsiHRXzO_X8FH7aXbc,1051
+solutions_builder/helper_modules/module_template/{{'terraform' if has_terraform_stage}}/stages/{{terraform_stage if has_terraform_stage}}/backend.tf,sha256=MbEdG-ANdpiMisaVpCtLvRJwAqtwrEmgVwSoRXFetEw,736
+solutions_builder/helper_modules/module_template/{{'terraform' if has_terraform_stage}}/stages/{{terraform_stage if has_terraform_stage}}/main.tf,sha256=b_9CY_kH9sndNxCt4CWLTYgjm23MlWR9P8_RjufS5tI,636
+solutions_builder/helper_modules/module_template/{{'terraform' if has_terraform_stage}}/stages/{{terraform_stage if has_terraform_stage}}/providers.tf,sha256=TsoDtLa6Kb20nt1XhFVZMre8nfxxa992Vq6zfbTb7S0,836
+solutions_builder/helper_modules/module_template/{{'terraform' if has_terraform_stage}}/stages/{{terraform_stage if has_terraform_stage}}/terraform.tfvars,sha256=PcX4jZQ2Ie7QYy5TCdBch1mm_FTe8OSLRLOrbMTeo38,777
+solutions_builder/helper_modules/module_template/{{'terraform' if has_terraform_stage}}/stages/{{terraform_stage if has_terraform_stage}}/variables.tf,sha256=Xds5t1EDR2MKGmqV4Dl5arUEsFnBW4M6_imvpvidwEE,858
+solutions_builder/helper_modules/module_template/{{'{{destination_path}}'}}/{{'{{component_name}}'}}/Dockerfile,sha256=T51jTsmjHmhAz67GL4RJEftYQA2kcqFLUKkRL-q1JLY,566
+solutions_builder/helper_modules/module_template/{{'{{destination_path}}'}}/{{'{{component_name}}'}}/requirements.txt,sha256=ks15j5Carxclgp1_LGOk_EH7Wk725HIbPbYYtAwzI6E,109
+solutions_builder/helper_modules/module_template/{{'{{destination_path}}'}}/{{'{{component_name}}'}}/skaffold.yaml,sha256=Vz5EP5QGCPlw3Kn0fEfwXzyAgJEiMWjoD7Ops1OuPok,2745
+solutions_builder/helper_modules/module_template/{{'{{destination_path}}'}}/{{'{{component_name}}'}}/src/main.py,sha256=6MCQn34LfapaDfCa6ylY1g2KqZXaX0qLevmSINEAxUE,590
+solutions_builder/helper_modules/module_template/{{'{{destination_path}}'}}/{{'{{component_name}}'}}/st_module.yaml,sha256=6ft9myyDdCMre6pBHE_IyrYZkMQSrUHjdy97iFIIV8E,81
+solutions_builder/modules/blank_service/copier.yaml,sha256=Yae5sxBhU23bBLhVtq_CYv9zcTu0pUbfaPptWovHfJE,1662
+solutions_builder/modules/blank_service/skaffold.yaml.patch,sha256=Ox4vRlqe4zprMo4JNHJCcFYvLASVU0qmjcCU5pTJhO0,102
+solutions_builder/modules/blank_service/terraform/stages/3-application/{{component_name}}_cloudrun.tf,sha256=fZ_jn3xT-OUZhrWCncbIToZFDEAPQNUQJPXA9HUtfXg,929
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/Dockerfile,sha256=3rCtYCNIq5xrzz0m48UKZ3yRQbQZPltJ0qIQzzZkwMs,545
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/README.md,sha256=YY7nGvNbUnclKskdY589sjHa7dAJfeZPm56DCoKSJdI,1300
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/requirements-test.txt,sha256=VddCZg48KZrPt3PuK7L95KLqV1VzmtRSi6cJ_SWhBmw,77
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/requirements.txt,sha256=0LBjUHe9jV6zB0_WV7rLYhKcdRsjR9hZK0K12hCMB-Y,98
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/skaffold.yaml,sha256=P9vuFwaY7Kht1uktIa5p0LyIbMKjefoPZpW-CAAfuEI,2736
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/src/config.py,sha256=EewME9XMhJU9dKeKe2w38yCHKxbPnaSAWbklsz4je_s,911
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/src/main.py,sha256=bXyyg1JFF424pZKsf7wcd-ICY8HZEq8DRQdKQFyTeRs,1610
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/src/routes/sample.py,sha256=-EHu3lnoBU_Og95XCQflh-mdQGf4ruKLxxLMBqTolwk,903
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/deployment.yaml,sha256=SX40xdmsQI8iaz7u-pOKQu5CPtuBAqydeNnpWUC7T28,1232
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/kustomization.yaml,sha256=fizGkdKxMZAC6m5n05zlMTi6V5aKHf0csMzY4gDUQNM,197
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/properties.env,sha256=mk90-ZDqDMv4zNMuWBRpw6ajV5fvbthQfZpHMlDbOs4,60
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/service.yaml,sha256=CRtnV2XBpcwXElqH67SEH6sRyluz7wvDXbdX720S8go,229
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/hpa/hpa.yaml,sha256=wqZroZIH59zoxUPJKlnzIYFXysXGDaJKPX-M2_YCUSs,421
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/hpa/kustomization.yaml,sha256=BTrckITXN723aFgAPhUv8_ADPicTAQziwuuMoNZS1aQ,103
+solutions_builder/modules/blank_service/{{destination_path}}/{{component_name}}/{{'manifests' if deploy_method=='cloudrun' else ''}}/cloudrun-service.yaml,sha256=fWvaWV-4uorW5CI0BELlXGhGo-b9gM8tYUxSXH3rAuM,215
+solutions_builder/modules/cicd_github/.github/{{'workflows' if default_deploy_method=='cloudrun' else ''}}/deployment_cloudrun_dev.yaml,sha256=_TsgNjmvOCVhZf_eqa_c4uqgu6y2QaWX20-vRl2nHO8,2635
+solutions_builder/modules/cicd_github/.github/{{'workflows' if default_deploy_method=='cloudrun' else ''}}/e2e_cloudrun_api_test.yaml,sha256=fq7LVSpSOJb0VR0nDjQyKGN0bQlMPnXw7vHz32G8WjM,5777
+solutions_builder/modules/cicd_github/.github/{{'workflows' if default_deploy_method=='cloudrun' else ''}}/unit_test_linter_common.yaml,sha256=9Kz2jmob08l6L-zENXbxRVOlOsDdcOZ3SUD57NhnlG8,3130
+solutions_builder/modules/cicd_github/.github/{{'workflows' if default_deploy_method=='gke' else ''}}/deployment_gke_dev.yaml,sha256=HlGq2QNrJ2GGVfNfOITrgbxXzm_DZ47o6xyWgOB_g3E,2681
+solutions_builder/modules/cicd_github/.github/{{'workflows' if default_deploy_method=='gke' else ''}}/e2e_gke_api_test.yaml,sha256=8LvEmywhWc5OX76aBzdw7crzrjJ4aHthA4ChOycaZMA,8040
+solutions_builder/modules/cicd_github/.github/{{'workflows' if default_deploy_method=='gke' else ''}}/unit_test_linter_common.yaml,sha256=9Kz2jmob08l6L-zENXbxRVOlOsDdcOZ3SUD57NhnlG8,3130
+solutions_builder/modules/cicd_github/copier.yaml,sha256=KAMNB1GWQsS0WnfcVAnSrLb9PEbaNl1BRLzfKq2-ano,744
+solutions_builder/modules/restful_service/README.md,sha256=XagPLgMzs8FsgFYyWj-9moB9-aqJjCE2UmqWkzdu3Jc,1363
+solutions_builder/modules/restful_service/copier.yaml,sha256=_2C7h_hJfD92yYJ_z6nfVaNY4t4oVoXIxHJVeb6E0h0,1923
+solutions_builder/modules/restful_service/docs/components/{{component_name}}.md,sha256=t_qi7cavIZhLW7Rz7A5UzRPEc0vNALEOgAyZvJRbwQs,120
+solutions_builder/modules/restful_service/skaffold.yaml.patch,sha256=Ox4vRlqe4zprMo4JNHJCcFYvLASVU0qmjcCU5pTJhO0,102
+solutions_builder/modules/restful_service/terraform/stages/{{'3-application' if cloudrun_neg}}/{{component_name}}_cloudrun.tf,sha256=fZ_jn3xT-OUZhrWCncbIToZFDEAPQNUQJPXA9HUtfXg,929
+solutions_builder/modules/restful_service/tests/e2e/{{component_name}}_e2e_test.py,sha256=p_0hgJzXIX9nd4q3kEA0dARIk7QMb2JMbafHJWJTIxI,3223
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/Dockerfile,sha256=3rCtYCNIq5xrzz0m48UKZ3yRQbQZPltJ0qIQzzZkwMs,545
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/README.md,sha256=qpH5FdQFR4_K8R5OGtlVFn-Vq6ucF6OE2c5kA8QJYi4,1309
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/requirements-test.txt,sha256=VddCZg48KZrPt3PuK7L95KLqV1VzmtRSi6cJ_SWhBmw,77
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/requirements.txt,sha256=0LBjUHe9jV6zB0_WV7rLYhKcdRsjR9hZK0K12hCMB-Y,98
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/skaffold.yaml,sha256=P9vuFwaY7Kht1uktIa5p0LyIbMKjefoPZpW-CAAfuEI,2736
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/src/config.py,sha256=Vuh81fpM-4eWrCfGDqe0PVSZzPJrgl4bqsf7wn3X65c,862
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/src/main.py,sha256=7vk2cftsTnGWY-untBn4KWhhu5WM4povImZ4FhN5tM0,1711
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/src/models/{{data_model}}.py,sha256=i3ftxNekTMLZaccPoTaQNQogRjLs0EYFfMlmy9V8bKs,1725
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/src/routes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/src/routes/{{data_model_plural}}.py,sha256=Kl1JCmkW0zW1UXuf3Etxivh7iDvb-ee0va2-ym3elbk,3876
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/src/schemas/{{data_model}}.py,sha256=VUxXfOEjFBBj2k1CeV8Ucil3jHWXX-z-H90iESSkRkU,1222
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/src/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/deployment.yaml,sha256=SX40xdmsQI8iaz7u-pOKQu5CPtuBAqydeNnpWUC7T28,1232
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/kustomization.yaml,sha256=fizGkdKxMZAC6m5n05zlMTi6V5aKHf0csMzY4gDUQNM,197
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/properties.env,sha256=mk90-ZDqDMv4zNMuWBRpw6ajV5fvbthQfZpHMlDbOs4,60
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/base/service.yaml,sha256=CRtnV2XBpcwXElqH67SEH6sRyluz7wvDXbdX720S8go,229
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/hpa/hpa.yaml,sha256=wqZroZIH59zoxUPJKlnzIYFXysXGDaJKPX-M2_YCUSs,421
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/{{'kustomize' if deploy_method=='gke' else ''}}/hpa/kustomization.yaml,sha256=BTrckITXN723aFgAPhUv8_ADPicTAQziwuuMoNZS1aQ,103
+solutions_builder/modules/restful_service/{{destination_path}}/{{component_name}}/{{'manifests' if deploy_method=='cloudrun' else ''}}/cloudrun-service.yaml,sha256=fWvaWV-4uorW5CI0BELlXGhGo-b9gM8tYUxSXH3rAuM,215
+solutions_builder/modules/streamlit_app/copier.yaml,sha256=JjrRjMP1bWjufXqvu4EUEznQs6SO4p8kY_2jUOIFZDE,1593
+solutions_builder/modules/streamlit_app/skaffold.yaml.patch,sha256=Ox4vRlqe4zprMo4JNHJCcFYvLASVU0qmjcCU5pTJhO0,102
+solutions_builder/modules/streamlit_app/{{destination_path}}/{{component_name}}/Dockerfile,sha256=_7dpsckCpggxgQpq7X19cE9YPAi38lggVI7bAzSkuHM,518
+solutions_builder/modules/streamlit_app/{{destination_path}}/{{component_name}}/README.md,sha256=72vklueINsCNpVSgzAgco_hgxSYPIEGU7t1IVwKV8pc,3365
+solutions_builder/modules/streamlit_app/{{destination_path}}/{{component_name}}/requirements.txt,sha256=IIHUBY9pJjweDXfbABQx-qGG1jFF-HBUXXOJmXydObw,107
+solutions_builder/modules/streamlit_app/{{destination_path}}/{{component_name}}/skaffold.yaml,sha256=P9vuFwaY7Kht1uktIa5p0LyIbMKjefoPZpW-CAAfuEI,2736
+solutions_builder/modules/streamlit_app/{{destination_path}}/{{component_name}}/src/main.py,sha256=Tb9zzv4FDdGbmDecoSya6uthxBKXymEWnlu5i2xejI0,1070
+solutions_builder/modules/streamlit_app/{{destination_path}}/{{component_name}}/src/pages/page_1.py,sha256=GM0GeQ4CVNp9O4rZrsGAxNmsG_HdfX0HLkmb__qjhPY,739
+solutions_builder/modules/terraform_base/copier.yaml,sha256=YGMJfIdoxttgAHlxatDs9Ta7WPqrgX8w_XrToth4IwM,882
+solutions_builder/modules/terraform_base/terraform/modules/cloudbuild/main.tf,sha256=yqAd9v48KApRcRUf0m_FYblcsuqshw6ErKK-lQ6Dm2Q,921
+solutions_builder/modules/terraform_base/terraform/modules/cloudbuild/variables.tf,sha256=SL12aiKulBGhFY_c1EHhwdGgwUDd8FkL4ObliZvmG-U,730
+solutions_builder/modules/terraform_base/terraform/modules/cloudrun/main.tf,sha256=qYLT_iZXHPsGqJXWmJZu0PxFu3Kjof5EDCAyUVk1v7Q,3585
+solutions_builder/modules/terraform_base/terraform/modules/cloudrun/variables.tf,sha256=wXiyPwoLL5E16ZoOTS9XUsEEruMhsmuFFT4GsXalshI,1178
+solutions_builder/modules/terraform_base/terraform/modules/compute_backend/main.tf,sha256=jL8B9DQVhj3Uzk6yK2TadKBJpo6UY_nNv5aIlPRMc3o,5024
+solutions_builder/modules/terraform_base/terraform/modules/compute_backend/outputs.tf,sha256=hR660xVY6sIqfe0RIDfl0T-5SnQyLeAFsQKiwWP2fs8,190
+solutions_builder/modules/terraform_base/terraform/modules/compute_backend/providers.tf,sha256=Xhba9Hu6h0flEU9Kl7sN5QxuwiEvvldpcprcMGx6wwg,1186
+solutions_builder/modules/terraform_base/terraform/modules/compute_backend/variables.tf,sha256=iLiiMHPbaWRf43VfbhTT7RAHyIlNAbTMTz8kU3l17dY,1601
+solutions_builder/modules/terraform_base/terraform/modules/firebase/main.tf,sha256=iQ1uqF1F-thEkPjDM4COpkmI0mWlW4-Addqu6pFj4ak,2364
+solutions_builder/modules/terraform_base/terraform/modules/firebase/variables.tf,sha256=ina7tza4fMRtKDda-1nzPDNKXTzBznyn6ukv-D4cyoM,1190
+solutions_builder/modules/terraform_base/terraform/modules/gke/main.tf,sha256=_YeI-JezXrr1HJcvMhmuNaTmGad5vmdzvH4E6qL_7Ho,3868
+solutions_builder/modules/terraform_base/terraform/modules/gke/outputs.tf,sha256=oXs0vSztFCz61oWZwTUmNs_y0wlj8WTu63hd3YBEpgQ,832
+solutions_builder/modules/terraform_base/terraform/modules/gke/variables.tf,sha256=r0HuT_YvFikm09Wf6oGq38MUUPB4EkxY4flXZLosUJs,3453
+solutions_builder/modules/terraform_base/terraform/modules/ingress_nginx/main.tf,sha256=OMK78Bl9lDGYuaVe8apeYSXJEnpforCU_iaXgZ8ghlo,3012
+solutions_builder/modules/terraform_base/terraform/modules/ingress_nginx/outputs.tf,sha256=JDopScj3qf0B_bBy-32GFakEpe7XRVthiLNEwACfDrM,692
+solutions_builder/modules/terraform_base/terraform/modules/ingress_nginx/variables.tf,sha256=7_dQszo95jZ79eV70FcU1jPfZLaIFkk9AqmHH7X2gq4,1087
+solutions_builder/modules/terraform_base/terraform/modules/project_services/main.tf,sha256=MuXFV6kUCtCnituReIoVtqrRxh5iRiixhfRCCICyo0I,827
+solutions_builder/modules/terraform_base/terraform/modules/project_services/variables.tf,sha256=B0KRBOqZpd0ln4c83rdoO1QrOQtTh_988TOwdYW-zQA,774
+solutions_builder/modules/terraform_base/terraform/modules/service_account/main.tf,sha256=rNNcRj0chT3iz2stQBZaf-oQNAHm2XyQgRZoFM1aNyo,953
+solutions_builder/modules/terraform_base/terraform/modules/service_account/variables.tf,sha256=9NblFBadRwOiW2GipYAHPbvM1V0U4pnNdlEN_nX61_8,1037
+solutions_builder/modules/terraform_base/terraform/modules/terraform_cicd/main.tf,sha256=vVe8ik1lI8xH-o5OJXx2808vC2Zx2UR9zkjcufCOl1s,1529
+solutions_builder/modules/terraform_base/terraform/modules/terraform_cicd/variables.tf,sha256=NLuZ5qJDUVFmU_XrvN8PP7xzOPkjygh71ruMP6r3iHQ,678
+solutions_builder/modules/terraform_base/terraform/modules/vpc_network/main.tf,sha256=wPgbK9BXjx-TmoiHxk6lgRaW2Neidrzg8tw1aT-e3OM,1333
+solutions_builder/modules/terraform_base/terraform/modules/vpc_network/variables.tf,sha256=2NwBG6fTx1CIzddSDp8Rc2thX6GxcpZW66SmrGnCJmA,1269
+solutions_builder/modules/terraform_base/terraform/stages/1-bootstrap/bootstrap.tf,sha256=mwJUFHYVuI_2H0-9G6SbCdnmOTgww-j9JzTEKuqnnLc,2211
+solutions_builder/modules/terraform_base/terraform/stages/1-bootstrap/terraform.tfvars,sha256=9JEN-st4S2K5Z0b4KvEfYoaggQIZf2uzCjXHAvvFFU4,232
+solutions_builder/modules/terraform_base/terraform/stages/1-bootstrap/variables.tf,sha256=WwMhVMxU5dHDIu_SAmwWxinbJR1qUgCilOcxFmWe7vs,1535
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/artifact_registry.tf,sha256=a5qWGMrOQFHNifjuvq2JhrMGRXJ8Q7UsA_9BX5F5uAs,209
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/backend.tf,sha256=O0bs-gAazFtEgh6Zj3K293e59sxRqsNWK0WjFTlQLeU,869
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/firestore_setup.tf,sha256=GOIVYLojMBN9U4Sz6Jl6VJcRUD_5V78gcBsrXK1FN2I,1669
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/iam.tf,sha256=RjiTpIxvzebn_6fBCJARVumddG9StvYVWzVstfdFj7w,1568
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/identity_platform.tf,sha256=Lp5GM6ytEv9IgTWutErdg1FpgSlTCJe7G3X-aujP6i0,1032
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/main.tf,sha256=lA5P8Rd7VUqAAbjazh-RsyPUOx3jF5GgmTe4Myk6pOY,2754
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/outputs.tf,sha256=JS0MIdztds6Ke5lDUHtIWVRwZPU9yDTvKz_Eb2eGw8o,991
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/providers.tf,sha256=dlxjjP8f6w_ofLU8IsFp0YEB8cnJkVdutPrhHlJ38oc,921
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/service_accounts.tf,sha256=Mgysmnun5B-1oNeI6SMwatUOQB-ASAezplepl0x5YGc,2191
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/terraform.tfvars,sha256=6mukZLXQZvE5LT7ZacK_IYF7MTJeCFwdChYDv9sIZrM,641
+solutions_builder/modules/terraform_base/terraform/stages/2-foundation/variables.tf,sha256=9kMDh9YG2XgDQdjDFcWiNd9mA4EU55Wlo9vXrXsqaIc,2729
+solutions_builder/modules/terraform_base/terraform/stages/3-application/terraform.tfvars,sha256=fWKGSOd41TRTaGf8xV1LaauFdYL5yYfp7qPQJ6YGNKA,96
+solutions_builder/modules/terraform_base/terraform/stages/3-application/variables.tf,sha256=ZX9dlI_X-S2ImwjawzH6T0DPH0dIHvFAK66CIRTFbfk,1035
+solutions_builder/modules/terraform_base/terraform/stages/{{'0-jumphost' if use_jumphost}}/bastion_startup.sh,sha256=2PTkbRj7J8NhMDb0kXjzO7ZEv1ihFnuuFvcVLmfc1RE,2561
+solutions_builder/modules/terraform_base/terraform/stages/{{'0-jumphost' if use_jumphost}}/main.tf,sha256=OVH09YS-JhLe3IbbMKKrVNMMhpG-VnOhAXVuCt-_EM8,3593
+solutions_builder/modules/terraform_base/terraform/stages/{{'0-jumphost' if use_jumphost}}/terraform.tfvars,sha256=_kzrARC4Jpzlhdv-zojHHpVRJLei_jNMy38yTU8sbzo,174
+solutions_builder/modules/terraform_base/terraform/stages/{{'0-jumphost' if use_jumphost}}/variables.tf,sha256=Hop4dQZhBxXps1y5rzGfKfagfZsrl-zY6eqcCCCNkfM,782
+solutions_builder/modules/terraform_gke/.sb/module_answers/{{component_name}}.yaml,sha256=07wwiaSckwInuSFc7zo93RPlRo__GAphAx_thP-IHyI,80
+solutions_builder/modules/terraform_gke/copier.yaml,sha256=tD-WIj69bjAUFgyWn6plIwLM8QdHkqsCF9j7kCFigII,1370
+solutions_builder/modules/terraform_gke/docs/components/{{component_name}}.md,sha256=tZ0HAVcBALYApRg9NHxGdCbKqotcRVmqeO9mIj514Oc,784
+solutions_builder/modules/terraform_gke/terraform/stages/2-foundation/gke.tf,sha256=F6GEt3_1H0sIE_Xw_5T_6_I8jqmBVhTrtM9m-a8_n3Y,4636
+solutions_builder/modules/terraform_gke/terraform/stages/2-foundation/gke.tfvars,sha256=hj6aZ1yVgV217bEordOkIeZnyuXFoJowbnkz_7lnMWk,300
+solutions_builder/modules/terraform_gke_autopilot/.sb/module_answers/{{component_name}}.yaml,sha256=07wwiaSckwInuSFc7zo93RPlRo__GAphAx_thP-IHyI,80
+solutions_builder/modules/terraform_gke_autopilot/copier.yaml,sha256=tgWNQv7JtzrgDUT-B7tdgy8_G6Ho6BbMLDFxObg-byg,942
+solutions_builder/modules/terraform_gke_autopilot/docs/components/{{component_name}}.md,sha256=RtshoJYM0F5ZIXogEtQoMdDdcA5StoVmKAspx8NKFww,650
+solutions_builder/modules/terraform_gke_autopilot/terraform/stages/{{terraform_stage_name}}/backend.tf,sha256=ZcSrNJHcvXXEk--YVjg5_NCojwv478nhbgdvMGHH40E,763
+solutions_builder/modules/terraform_gke_autopilot/terraform/stages/{{terraform_stage_name}}/main.tf,sha256=n4nZI19xlgQA9OmmrgFqhxtt5t_FoXzaQWodjCkN_vU,1490
+solutions_builder/modules/terraform_gke_autopilot/terraform/stages/{{terraform_stage_name}}/providers.tf,sha256=K3VsUF3lz1dxeHVP1_gCYgW3D1H6Vjd_JfJ9OA-20TE,1002
+solutions_builder/modules/terraform_gke_autopilot/terraform/stages/{{terraform_stage_name}}/terraform.tfvars,sha256=K-BxtGWF4pJK2culg3QvKG-mSI5YavEPW0fzRgVMxGQ,134
+solutions_builder/modules/terraform_gke_autopilot/terraform/stages/{{terraform_stage_name}}/variables.tf,sha256=jUL5Ny6veuSxrsIOI4e9nqV9FKPct3LgfBB9kAZD83g,1140
+solutions_builder/modules/terraform_gke_ingress/.sb/module_answers/{{component_name}}.yaml,sha256=07wwiaSckwInuSFc7zo93RPlRo__GAphAx_thP-IHyI,80
+solutions_builder/modules/terraform_gke_ingress/copier.yaml,sha256=2ZLd7p3eX1Q2-9wzF9ipuEnufnuNgdzgjxQ0EqkefMw,2388
+solutions_builder/modules/terraform_gke_ingress/ingress/kustomize/gke/frontend_config.yaml,sha256=wkgCSCSq2ObldoX2HVrGVdL6e_oHgV-AuGyn_s1Hx4M,181
+solutions_builder/modules/terraform_gke_ingress/ingress/kustomize/gke/ingress.yaml,sha256=zL-AkchN1dbk95BK0QoAzEK8SfgfPOUJaSDcjL75wyk,658
+solutions_builder/modules/terraform_gke_ingress/ingress/kustomize/gke/kustomization.yaml,sha256=e2UXPzdVwd-cCGFKA6orDItIfA9VFSXNsckD1xbHFBw,145
+solutions_builder/modules/terraform_gke_ingress/ingress/kustomize/gke/managed_cert.yaml,sha256=WSuYMYlPDeXt4RAhQ0dO4k2VVpPkEnq3b9c9M8JL70o,225
+solutions_builder/modules/terraform_gke_ingress/ingress/skaffold.yaml,sha256=SVRSXaSUvLdWnvVS_GxPGA_Mjbfffa_1vyWjxJUJbWs,378
+solutions_builder/modules/terraform_gke_ingress/skaffold.yaml.patch,sha256=3ieFD4EOrDwelylEJWL3EK22P0VqSxumYjOEhCyL-bw,59
+solutions_builder/modules/terraform_gke_ingress/terraform/modules/ingress_gce/main.tf,sha256=9MXgUhJOHAUAWj9fygmlgmOd8gSTc1oYDRln4KmzgG0,1695
+solutions_builder/modules/terraform_gke_ingress/terraform/modules/ingress_gce/outputs.tf,sha256=eHPu8Bo2W_XhlhuA8E7D8rghVgA8sURPv4YNHAGsvxw,670
+solutions_builder/modules/terraform_gke_ingress/terraform/modules/ingress_gce/variables.tf,sha256=eX3GXHcW08mplrIjxutnaaKRQOgOppasIXwX3BUoIwE,1264
+solutions_builder/modules/terraform_gke_ingress/terraform/stages/{{terraform_stage_name}}/backend.tf,sha256=bWQfIVjniu0VvxnKQPGSqse7CfGBDzBGcAfFzrrHX2s,752
+solutions_builder/modules/terraform_gke_ingress/terraform/stages/{{terraform_stage_name}}/iam.tf,sha256=RjiTpIxvzebn_6fBCJARVumddG9StvYVWzVstfdFj7w,1568
+solutions_builder/modules/terraform_gke_ingress/terraform/stages/{{terraform_stage_name}}/main.tf,sha256=cPoFiZKRKJcQZCCTgw5vj63maTwi91PV-J5A2LmnVr4,1695
+solutions_builder/modules/terraform_gke_ingress/terraform/stages/{{terraform_stage_name}}/providers.tf,sha256=GfIuciNmlllx0YHtPF4ClLljDv7tC-tGs7eonfYKTXI,1877
+solutions_builder/modules/terraform_gke_ingress/terraform/stages/{{terraform_stage_name}}/terraform.tfvars,sha256=cRFkETt0_iX3QRB4FGAuxqjtCdNO9_kLGt0QCgv-eyw,508
+solutions_builder/modules/terraform_gke_ingress/terraform/stages/{{terraform_stage_name}}/variables.tf,sha256=XeFpRcAp4RMXfyccyylRnXR4Npnwwql3WeQCdVT-G8c,1802
+solutions_builder/modules/terraform_httplb_cloudrun/.sb/module_answers/{{component_name}}.yaml,sha256=07wwiaSckwInuSFc7zo93RPlRo__GAphAx_thP-IHyI,80
+solutions_builder/modules/terraform_httplb_cloudrun/copier.yaml,sha256=aPa1xXJMToeY0Jp0PEbRxO7UX4GwFVt9vVGkq9xrJbk,1048
+solutions_builder/modules/terraform_httplb_cloudrun/terraform/stages/3-application/httplb_cloudrun.tf,sha256=1yuxfIN3jEnXwKdiUBJUeihtBxsjd1yMRf2DPACSpio,4130
+solutions_builder/modules/terraform_httplb_cloudrun/terraform/stages/3-application/httplb_cloudrun.tfvars,sha256=XEJabyjk0ahXyQUjyyDaGHaxJ-WVJEyfwrIbaalwTfc,232
+solutions_builder/modules/terraform_httplb_cloudrun/terraform/stages/3-application/httplb_cloudrun_vars.tf,sha256=er1k8esWnhXAM630eD7ZrrRdp8FB3J8ZTGklKk7pRwQ,1984
+solutions_builder/requirements.txt,sha256=10o_WFMO1ky-l_YTfNwUR7VdPAEUapBZk4K94B59U1A,90
+solutions_builder/template_root/.gitignore,sha256=QzKGl0JrKW7aNmCgiKmRCHulBsIHbpbKHe6Z6Q01DpU,471
+solutions_builder/template_root/.pylintrc,sha256=7ehtBAG1at2HT5c0YbC06IF5FAJ-vE5aRyuqGNM77Xo,14552
+solutions_builder/template_root/README.md,sha256=CnYIBJVCFsENJDTfmj9IVvH9e_otMxaqZHJnkBgUf60,2597
+solutions_builder/template_root/copier.yaml,sha256=8GAwb-cReEqGk5lL_UG8P_4uiRiZqK34aV4RvgiE05s,2674
+solutions_builder/template_root/firebase.json,sha256=Urx6HjmqMdMAlouovT0wyMc8VWSnx9zz8UdPTdRPktA,97
+solutions_builder/template_root/sb.yaml,sha256=MX5wMX4NSoW64q9ZS2kMUaffvAnYBGD5SF7dgt9LpA4,594
+solutions_builder/template_root/setup.cfg,sha256=UXLZWDyMb0-c3T3pkISm7GXA4HHREfDWhPuq7dNwbsg,98
+solutions_builder/template_root/skaffold.yaml,sha256=G0a-AaT5Rh82v7QyTLELYE8ACwClhCvdUbJvD0xbAh8,215
+solutions_builder/template_root/utils/disable_org_policies.sh,sha256=xycvWju-eSchWGEBL9_kxrfdOnojViFdutq1uJ6JKKA,952
+solutions_builder/template_root/utils/init_env_vars.sh,sha256=oZVD80_9RrbcQCOHmt1h13ltKOGmJasjzuUQHlB_L5s,990
+solutions_builder/template_root/utils/setup_ksa.sh,sha256=KD1lwzf0w59848QWvALqK79rQgy8BfRSvRyc-XVOw54,1845
+solutions_builder/template_root/{{_copier_conf.answers_file}},sha256=jZ8kY-LpVUKbOcH_ma17Q5kkFwlaRoga0ERfiCBkg68,81
+solutions_builder/template_root/{{common_path if has_common}}/Dockerfile,sha256=FMtOmiG2mgJj3yentt0H7vFILX5YbwqF1o_QivurgKY,893
+solutions_builder/template_root/{{common_path if has_common}}/Dockerfile.unittest,sha256=sXoV24zcRsAM_ug6TEf5mbrfeCOR29bpBjoM9llAOLQ,1101
+solutions_builder/template_root/{{common_path if has_common}}/requirements-test.txt,sha256=mQbe2FtuO5giosUDK8MyBv2pljkARdcgnwHYwxChHKU,111
+solutions_builder/template_root/{{common_path if has_common}}/requirements.txt,sha256=GbyLMTZCFoQYbb0KVTXDfaW830J3VTF5-X0qycEKJfI,240
+solutions_builder/template_root/{{common_path if has_common}}/skaffold.yaml,sha256=DGcOIw4lhv5WFVe-YwbUri3oWp30KxOKGDNx1N-OSVs,571
+solutions_builder/template_root/{{common_path if has_common}}/src/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/template_root/{{common_path if has_common}}/src/common/config.py,sha256=nX6wZFBHb4Aa1sVC8OO5ogzeM6c17LRsVq-40d8tVHI,831
+solutions_builder/template_root/{{common_path if has_common}}/src/common/db_client.py,sha256=zkgjVIyKP_MHAZWcxv4VvVLQBwN9VNG2ptn2IaCGPko,695
+solutions_builder/template_root/{{common_path if has_common}}/src/common/models/README.md,sha256=77zyZNxxXSmxSDWQVaFo_8tFuuYXRXCvY8QvMIcow7k,35
+solutions_builder/template_root/{{common_path if has_common}}/src/common/models/__init__.py,sha256=qoFENqDA1881dfFjH1sRR8w_QzCluefcj74aulOzSWk,91
+solutions_builder/template_root/{{common_path if has_common}}/src/common/models/example.py,sha256=y9CN-I7zYppE6VSR7szIu6AnpT410S5C-7l83NBLTTg,1376
+solutions_builder/template_root/{{common_path if has_common}}/src/common/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/template_root/{{common_path if has_common}}/src/common/testing/bq_client_fixture.py,sha256=YkUGLPwYFYp5oOsWxpBKTHDl6Y7cOwHFr6-3FWgp36s,754
+solutions_builder/template_root/{{common_path if has_common}}/src/common/testing/client_with_emulator.py,sha256=0TE7O3pN_lyem_GBN3JGYzGvQMNtJ9f6ynzrjxmcIrI,1006
+solutions_builder/template_root/{{common_path if has_common}}/src/common/testing/firestore_emulator.py,sha256=dQgv_yLzpyp107Nz2hs43Z-A0SdbwZcrZP-hPaNyZGw,2243
+solutions_builder/template_root/{{common_path if has_common}}/src/common/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder/template_root/{{common_path if has_common}}/src/common/utils/logging_handler.py,sha256=T4cKQSOwHQXEHrm6UEy3dOpQ7Bzptpv3gMXkoKrjpyg,1002
+solutions_builder/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solutions_builder-2.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+solutions_builder-2.0.0.dist-info/METADATA,sha256=3eDZnjFthp_jXaSvfRMoNpYUv4rd9bg3omOFKRc4SCk,7765
+solutions_builder-2.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+solutions_builder-2.0.0.dist-info/entry_points.txt,sha256=nBYulNcdfJ04GSG53ImDQ9SR0_rzicTGK9wZCBXJRSo,53
+solutions_builder-2.0.0.dist-info/RECORD,,
