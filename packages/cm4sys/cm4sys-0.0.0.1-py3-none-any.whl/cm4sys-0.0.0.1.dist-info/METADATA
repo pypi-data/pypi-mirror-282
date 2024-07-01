@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cm4sys
+Version: 0.0.0.1
+Summary: TBD
+Author-email: Grigori Fursin <gfursin@cknowledge.org>
+Project-URL: Homepage, https://access.cKnowledge.org
+Project-URL: Source, https://access.cKnowledge.org
+Keywords: cmind,cm4sys,automation,portability,modularity,cknowledge,ctuning,mlcommons,system
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: cmind
+
+TBD
