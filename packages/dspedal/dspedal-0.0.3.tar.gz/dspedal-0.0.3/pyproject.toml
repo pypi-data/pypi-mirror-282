@@ -1,0 +1,41 @@
+[build-system]
+requires = ["scikit-build-core>=0.9.5", "nanobind>=2.0.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "dspedal"
+dynamic = ["version"]
+requires-python = ">=3.12"
+
+[tool.scikit-build.metadata.version]
+provider = "scikit_build_core.metadata.regex"
+input = "src/dspedal/__init__.py"
+
+[tool.scikit-build]
+cmake.build-type = "Release"
+# Setuptools-style build caching in a local directory
+build-dir = "build/{wheel_tag}"
+
+# Build stable ABI wheels for CPython 3.12+
+wheel.py-api = "cp312"
+
+[project.scripts]
+dspedal = "dspedal.cli:main"
+dspedal_generate = "dspedal.generate:main"
+
+[tool.cibuildwheel]
+# Necessary to see build output from the actual compilation
+build-verbosity = 1
+manylinux-x86_64-image = "manylinux_2_28"
+build = ["cp312-win_amd64", "cp312-manylinux_x86_64"]
+# skip = ["*-manylinux_i686", "*-musllinux*"]
+
+[tool.cibuildwheel.linux]
+before-all = "bash scripts/configure_manylinux.sh"
+
+# [tool.cibuildwheel.windows]
+# before-all = "powershell.exe scripts/configure_windows.bat"
+
+# # Run pytest to ensure that the package was correctly built
+# test-command = "pytest {project}/tests -s"
+# test-requires = "pytest"
