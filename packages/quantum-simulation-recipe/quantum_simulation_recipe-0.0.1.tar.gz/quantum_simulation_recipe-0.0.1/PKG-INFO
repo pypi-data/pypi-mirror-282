@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: quantum-simulation-recipe
+Version: 0.0.1
+Summary: Recipe for quantum simulation
+Home-page: https://github.com/Jue-Xu/quantum-simulation-recipe
+Author: Jue XU
+Author-email: xujue@connect.hku.hk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax==0.4.12
+Requires-Dist: qiskit>=1.0.2
+Requires-Dist: openfermion>=1.5.1
+Requires-Dist: openfermionpyscf>=0.5
+Requires-Dist: matplotlib>=3.8.2
+Requires-Dist: scipy>=1.14.0
+Requires-Dist: numpy>=1.23.5
+Requires-Dist: pandas>=2.2.2
+
+# Quantum-Simulation-Recipe
+
+<!-- ![Figure](./figs/idea.png) -->
+
+
+## Usage 
+<!-- - Create python environment `conda create --name myenv python=3.10`
+- Install requirements `pip install -r ./code/requirements.txt` -->
+```
+# Create python environment
+conda create --name myenv python=3.10 
+
+# Install requirements
+pip install -r ./code/requirements.txt 
+```
+
+<!-- ### Requirements
+- qiskit version == 
+- openfermion
+- python (version = 3.10), numpy, scipy, matplotlib, jax -->
