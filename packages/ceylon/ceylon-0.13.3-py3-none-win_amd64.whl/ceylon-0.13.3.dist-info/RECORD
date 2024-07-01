@@ -1,0 +1,13 @@
+ceylon-0.13.3.dist-info/METADATA,sha256=2G2W157i1O0jRZ5U79mNS6OAz39f6mnyiUPRIcY3t2Q,1861
+ceylon-0.13.3.dist-info/WHEEL,sha256=brQLXivWHsAIY2DMrPTUlWsjdxS-4rnBjABBUz3bpIE,93
+ceylon-0.13.3.dist-info/license_files/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ceylon/llm/llm_agent.py,sha256=6-TcpxP-nIcacBMErOu_5OLXG4aQQO7wPCmXZeTjA5k,4324
+ceylon/llm/llm_caller.py,sha256=PkpZdp8soLGyYq3xoj5lMrqh6tHoT3FcRKrcXFhhcbg,1526
+ceylon/llm/worksheet.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ceylon/llm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ceylon/runner.py,sha256=jDG8m8nstOsprSNw3GQgTL3QVJYOG1QjGQNfw8MGJh0,1216
+ceylon/__init__.py,sha256=X2I1COiNESAaIDP-NwGem1DPtbwqniSNyMaMhlCz1Yc,33
+ceylon/ceylon/__init__.py,sha256=TS69avGSX8_qQw_oINokk21xPaZNAVIXlO8aW5Pdg74,30
+ceylon/ceylon/ceylon.py,sha256=Ee2acEcynuYDeZAHHLxud7fRGA4CxB-Q6OIgG22WvMU,69198
+ceylon/ceylon/uniffi_ceylon.dll,sha256=tlb_XTHPTKjHJUyTtHUoWISrP6UdKoa6ezcaeiEWRG4,12101632
+ceylon-0.13.3.dist-info/RECORD,,
