@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: kedro-init
+Version: 0.1.0
+Summary: A simple CLI command that initialises a Kedro project from an existing Python package
+Author-Email: =?utf-8?q?Juan_Luis_Cano_Rodr=C3=ADguez?= <juan_luis_cano@mckinsey.com>
+License: Copyright (c) 2023 by Juan Luis Cano Rodríguez <juan_luis_cano@mckinsey.com>
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are
+        met:
+        
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright
+          notice, this list of conditions and the following disclaimer in the
+          documentation and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+        "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+        LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+        A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+        OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+        LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+        DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+        THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Source, https://github.com/astrojuanlu/kedro-init
+Project-URL: Tracker, https://github.com/astrojuanlu/kedro-init/issues
+Project-URL: Documentation, https://kedro-init.readthedocs.io
+Requires-Python: >=3.9
+Requires-Dist: click
+Requires-Dist: installer
+Requires-Dist: kedro>=0.18.14
+Requires-Dist: pygetimportables>=0.2.1
+Requires-Dist: tomlkit
+Requires-Dist: rich; extra == "rich"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: hypothesis; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: furo; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Requires-Dist: sphinx>=5; extra == "doc"
+Requires-Dist: sphinx-copybutton; extra == "doc"
+Provides-Extra: rich
+Provides-Extra: test
+Provides-Extra: doc
+Description-Content-Type: text/markdown
+
+# kedro-init
+
+[![Documentation Status](https://readthedocs.org/projects/kedro-init/badge/?version=latest)](https://kedro-init.readthedocs.io/en/latest/?badge=latest)
+[![Code style: ruff-format](https://img.shields.io/badge/code%20style-ruff_format-6340ac.svg)](https://github.com/astral-sh/ruff)
+[![PyPI](https://img.shields.io/pypi/v/kedro-init)](https://pypi.org/project/kedro-init)
+
+A simple CLI command that initialises a Kedro project from an existing Python package
+
+## Installation
+
+To install, run
+
+```
+(.venv) $ pip install "kedro-init @ https://github.com/astrojuanlu/kedro-init.git"
+```
+
+## Usage
+
+For example, from a Poetry package:
+
+```
+(.venv) $ poetry new --src test-project && cd test-project
+(.venv) $ kedro-init .
+[00:19:38] Looking for existing package directories                             cli.py:25
+[00:19:45] Initialising config directories                                      cli.py:25
+           Creating modules                                                     cli.py:25
+           🔶 Kedro project successfully initialised!                           cli.py:26
+```
+
+## Development
+
+To run style checks:
+
+```
+(.venv) $ pip install pre-commit
+(.venv) $ pre-commit run -a
+```
