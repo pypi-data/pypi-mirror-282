@@ -1,0 +1,63 @@
+from collections.abc import Sequence
+from typing import overload
+
+import dspedal.framework
+
+
+class Gain:
+    @overload
+    def __init__(self, clk: dspedal.framework.Signal8, rst: dspedal.framework.Signal8, s_axis_tdata: dspedal.framework.Signal32, s_axis_tvalid: dspedal.framework.Signal8, s_axis_tready: dspedal.framework.Signal8, m_axis_tdata: dspedal.framework.Signal32, m_axis_tvalid: dspedal.framework.Signal8, m_axis_tready: dspedal.framework.Signal8, k: dspedal.framework.Signal32) -> None: ...
+
+    @overload
+    def __init__(self, clk: dspedal.framework.Signal8, rst: dspedal.framework.Signal8, s_axis: dspedal.framework.Axis32, m_axis: dspedal.framework.Axis32, k: dspedal.framework.Signal32) -> None: ...
+
+    @property
+    def DW(self) -> int: ...
+
+    @property
+    def COEFW(self) -> int: ...
+
+    @property
+    def COEFQ(self) -> int: ...
+
+    @property
+    def context(self) -> dspedal.framework.Context: ...
+
+class IIR:
+    @overload
+    def __init__(self, clk: dspedal.framework.Signal8, rst: dspedal.framework.Signal8, s_axis_tdata: dspedal.framework.Signal32, s_axis_tvalid: dspedal.framework.Signal8, s_axis_tready: dspedal.framework.Signal8, m_axis_tdata: dspedal.framework.Signal32, m_axis_tvalid: dspedal.framework.Signal8, m_axis_tready: dspedal.framework.Signal8, coefs: Sequence[dspedal.framework.Signal32]) -> None: ...
+
+    @overload
+    def __init__(self, clk: dspedal.framework.Signal8, rst: dspedal.framework.Signal8, s_axis: dspedal.framework.Axis32, m_axis: dspedal.framework.Axis32, coefs: Sequence[dspedal.framework.Signal32]) -> None: ...
+
+    @property
+    def DW(self) -> int: ...
+
+    @property
+    def COEFW(self) -> int: ...
+
+    @property
+    def COEFQ(self) -> int: ...
+
+    @property
+    def ORDER(self) -> int: ...
+
+    @property
+    def context(self) -> dspedal.framework.Context: ...
+
+class Skid:
+    @overload
+    def __init__(self, clk: dspedal.framework.Signal8, rst: dspedal.framework.Signal8, s_axis_tdata: dspedal.framework.Signal32, s_axis_tvalid: dspedal.framework.Signal8, s_axis_tready: dspedal.framework.Signal8, m_axis_tdata: dspedal.framework.Signal32, m_axis_tvalid: dspedal.framework.Signal8, m_axis_tready: dspedal.framework.Signal8) -> None: ...
+
+    @overload
+    def __init__(self, clk: dspedal.framework.Signal8, rst: dspedal.framework.Signal8, s_axis: dspedal.framework.Axis32, m_axis: dspedal.framework.Axis32) -> None: ...
+
+    @property
+    def DW(self) -> int: ...
+
+    @property
+    def context(self) -> dspedal.framework.Context: ...
+
+def get_context() -> dspedal.framework.Context: ...
+
+def set_context(context: dspedal.framework.Context) -> None: ...
