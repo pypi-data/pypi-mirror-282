@@ -1,0 +1,2 @@
+[console_scripts]
+ImageProcessingApp = ImageProcessingApp.cli:main
