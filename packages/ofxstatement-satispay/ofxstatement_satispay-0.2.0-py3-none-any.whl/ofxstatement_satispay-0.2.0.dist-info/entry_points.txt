@@ -1,0 +1,3 @@
+[ofxstatement]
+satispay=ofxstatement_satispay.plugin:SatispayPlugin
+
