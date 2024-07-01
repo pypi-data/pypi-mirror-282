@@ -1,0 +1,8 @@
+README
+setup.py
+bin/serial2tcp
+serial2tcp.egg-info/PKG-INFO
+serial2tcp.egg-info/SOURCES.txt
+serial2tcp.egg-info/dependency_links.txt
+serial2tcp.egg-info/requires.txt
+serial2tcp.egg-info/top_level.txt
