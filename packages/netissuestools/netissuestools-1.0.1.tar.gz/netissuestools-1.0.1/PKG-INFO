@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: netissuestools
+Version: 1.0.1
+Summary: To solve some network issues
+Home-page: https://github.com/Wing9897/Network_issues_solution.git
+Author: wing
+Author-email: tomt99688@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# wingtools
+
+wingtools 是一個測試專案,用於演示如何創建和發佈 Python 套件。
+
+## 功能
+
+- 提供了一些常用的工具函數
+- 支持快速多線程 ping 功能
+
+## 安裝
+
+可以使用 pip 安裝:
