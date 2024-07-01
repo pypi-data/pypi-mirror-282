@@ -1,0 +1,13 @@
+wagtail_pagetranslation/__init__.py,sha256=wLtkGT107gjpTZZTSFtHfyJqr3l_VtA3H5F6mD6Gdss,148
+wagtail_pagetranslation/apps.py,sha256=1B8pZw438nNQuAm_AWdkgLinCXUm4tLYioCbVbYc-b0,3141
+wagtail_pagetranslation/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_pagetranslation/settings.py,sha256=OqrsfbJWs3J72Lm7tJ4risuXWBW7FtURAf4oxIEf-AM,545
+wagtail_pagetranslation/translation.py,sha256=dVr8QomdPgEbN4rDxJg4gUYbCHzNJcz7IDmy4SRG94Y,2168
+wagtail_pagetranslation/wagtail_hooks.py,sha256=4lWbfoJWahYIuui1ycEKhKlgqSEZyf16PGbBIyH1Faw,776
+wagtail_pagetranslation/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_pagetranslation/templates/translations_inline_panel.html,sha256=fBoCUjYZXG16xrHNe6KjxOrqsgPw4pFE-ABy8tR6oAw,1824
+wagtail_pagetranslation/templates/translations_inline_panel_child.html,sha256=e3Aa6sC6Qmaeqb3cbAQgHRSXMmXtvDWtPNCPepemBtQ,1475
+wagtail_pagetranslation-0.0.1.dist-info/LICENSE,sha256=w-4TGR3MqGrgsPkseq7yR1kW0s31vZtXQRJ6KdvpIUc,1072
+wagtail_pagetranslation-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+wagtail_pagetranslation-0.0.1.dist-info/METADATA,sha256=qTZUcJmi91xnWnxtREmbnRw1H8l34vPj__x5OsIluXs,5392
+wagtail_pagetranslation-0.0.1.dist-info/RECORD,,
