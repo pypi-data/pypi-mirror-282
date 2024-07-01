@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dxh_py
+Version: 0.0.1
+Summary: A python CLI to generate pypi packages.
+Home-page: https://github.com/devxhub/dxh-py
+Author: DEVxHUB
+Author-email: tech@devxhub.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: cookiecutter >=2.0.0
+
+# dxh_py
+
+A python CLI to generate pypi packages.
+
+## Installation
+
+```sh
+pip install dxh-py
+```
+
+## Usage
+
+```sh
+dxh_py https://github.com/devxhub/django-boilerplate
+```
