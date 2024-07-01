@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: calculator_sdk
+Version: 0.1.0
+Summary: A simple calculator SDK
+Requires-Dist: py4j
+
