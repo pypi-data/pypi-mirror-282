@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: iyaole
+Version: 1.0.4
+Summary: Encapsulation
+Home-page: UNKNOWN
+Author: 浮生
+Author-email: iyaole@vip.qq.com
+License: UNKNOWN
+Keywords: python,windows
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# 简介
+
+封装方便调用
+
+## 联系人
+
+作者: 浮生
+邮箱: iyaole@vip.qq.com
+
+## 支持的 Python 版本
+
+Python 3.9+
+
+## 安装
+
+```
+pip install iyaole
+```
+
+https://pypi.org/project/iyaole/
+
+## 示例
+
+```python
+from iyaole import *
+#后台鼠标点击
+鼠标操作.后台激活点击(100, 200)
+#找色判断 检查颜色匹配(x坐标, y坐标,起始颜色, 颜色偏移)
+颜色信息 = (100, 50, "FF0000, 10|20|FF0000,5|-5|00FF00")
+找色操作.检查颜色匹配(颜色信息)
+#查找元素
+网页操作.查找单个元素('xp','//div[@id="uu"]')
+#文件写入
+文件操作.写入文件('文件名.txt',123)
+#时间获取
+时间操作.获取时间()
+```
+
+## 更新日志
+
+`1.0.4` 添加封装
+
+`1.0.3` 添加封装
+
+`1.0.2` 添加封装
+
+`1.0.1` 添加封装
+
+`1.0.0` 首次发布
+
+
+
