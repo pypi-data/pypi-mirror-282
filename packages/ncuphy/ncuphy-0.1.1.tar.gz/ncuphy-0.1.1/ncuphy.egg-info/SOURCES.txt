@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ncuphy.egg-info/PKG-INFO
+ncuphy.egg-info/SOURCES.txt
+ncuphy.egg-info/dependency_links.txt
+ncuphy.egg-info/requires.txt
+ncuphy.egg-info/top_level.txt
