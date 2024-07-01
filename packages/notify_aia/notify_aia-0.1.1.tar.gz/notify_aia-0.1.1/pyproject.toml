@@ -1,0 +1,126 @@
+[tool.poetry]
+name = "notify_aia"
+version = "0.1.1"
+description = ""
+authors = ["Kyle MacMillan <kyle.w.macmillan@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/k-macmillan/notify_aia"
+
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+aiobotocore = "*"
+aiohttp = "*"
+cryptography = "*"
+itsdangerous = "*"
+fastapi = "*"
+gunicorn = "*"
+tenacity = "*"
+ujson = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+
+
+[tool.poetry.group.docs]
+optional = true
+[tool.poetry.group.docs.dependencies]
+mkdocs = "*"
+mkdocstrings = {extras = ["python"], version = "*"}
+mkdocs-material = "*"
+mkdocs-gen-files = "*"
+mkdocs-literate-nav = "*"
+
+[tool.poetry.group.static_tools]
+optional = true
+[tool.poetry.group.static_tools.dependencies]
+mypy = "*"
+pytest = "*"
+ruff = "*"
+types-ujson = "*"
+
+# Any test involving external calls (boto3, requests, etc.)
+[tool.poetry.group.integration_test]
+optional = true
+[tool.poetry.group.integration_test.dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+
+
+# Unit and internal integration white-box tests
+[tool.poetry.group.non_integration_test]
+optional = true
+[tool.poetry.group.non_integration_test.dependencies]
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+
+
+[tool.mypy]
+strict = true
+
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
+line-length = 120
+indent-width = 4
+target-version = "py312"
+
+[tool.ruff.lint]
+# select = ["C901", "E4", "E7", "E9", "F", "I", "W"]
+select = ["C901", "D", "E", "F", "I", "W"]
+ignore = ["D203", "D211", "D212"]
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.mccabe]
+# 5 to limit test complexity
+max-complexity = 5
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]
+
+[tool.ruff.format]
+docstring-code-format = true  # https://docs.astral.sh/ruff/settings/#format-docstring-code-format
+# docstring-code-line-length = "dynamic"  # https://docs.astral.sh/ruff/settings/#format-docstring-code-line-length
+indent-style = "space"
+line-ending = "auto"
+quote-style = "single"
+skip-magic-trailing-comma = false
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
