@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "earthscale"
+version = "0.1.0"
+description = "Large scale geospatial processing"
+authors = [
+  "Bernhard Stadlbauer <bernhard@earthscale.ai>",
+  "Noah Golmant <noah@earthscale.ai>",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
