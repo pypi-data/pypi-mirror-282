@@ -1,0 +1,16 @@
+README.md
+setup.py
+my_import/__init__.py
+my_import/custom_importer.py
+my_import/file_config.py
+my_import/hsr_decorator.py
+my_import/hsr_list.py
+my_import/hsr_math.py
+my_import/performer_helper.py
+my_import/setup_paths.py
+my_import/string_processing.py
+my_import/webscraper.py
+my_unique_import.egg-info/PKG-INFO
+my_unique_import.egg-info/SOURCES.txt
+my_unique_import.egg-info/dependency_links.txt
+my_unique_import.egg-info/top_level.txt
