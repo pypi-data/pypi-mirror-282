@@ -1,0 +1,15 @@
+heimdall/__init__.py,sha256=6lqhoxpvw9KGwmNqeDQcyiSeoohbasy3LILnLylhVFI,124
+heimdall/errors.py,sha256=3Vx_WQgWDTW2gv5pyuQvSJDn9PkwWYylpvukQ6qGY-o,157
+heimdall/evaluate.py,sha256=YPKl4X6aI_gVa1875oActEI5P8Pldkf5wZthucIH8_Q,2746
+heimdall/main.py,sha256=MMLcKxHJ6rgBq4oCZshaIIkWdFo0diWaoXCWHpA-3Ho,3203
+heimdall/lib/binaries/libshuffleemail_darwin_amd64,sha256=AqhS0ITf3xcZST1NRt-wVz5h33wNTFtLr7iWFLpQ6QE,12709976
+heimdall/lib/binaries/libshuffleemail_darwin_arm64,sha256=izHUozJJMln5X1htbVHu1pIueKZt8FHUEJKguZqCRxU,9235362
+heimdall/lib/binaries/libshuffleemail_darwin_arm64.h,sha256=ncbHRloi6NBM48cU9r-FRXmNz_yhrIFgQV8ZkVnAac4,1855
+heimdall/lib/binaries/libshuffleemail_linux_amd64,sha256=AqhS0ITf3xcZST1NRt-wVz5h33wNTFtLr7iWFLpQ6QE,12709976
+heimdall/lib/binaries/libshuffleemail_linux_arm64,sha256=AqhS0ITf3xcZST1NRt-wVz5h33wNTFtLr7iWFLpQ6QE,12709976
+heimdall/lib/binaries/libshuffleemail_windows_amd64,sha256=AqhS0ITf3xcZST1NRt-wVz5h33wNTFtLr7iWFLpQ6QE,12709976
+heimdall/lib/binaries/libshuffleemail_windows_arm64,sha256=AqhS0ITf3xcZST1NRt-wVz5h33wNTFtLr7iWFLpQ6QE,12709976
+shuffle_heimdall-0.2.2.dist-info/METADATA,sha256=M01P4kvF-_ah7S9msApJeoHdW8fkHqY2IFv2DrwlNTg,953
+shuffle_heimdall-0.2.2.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+shuffle_heimdall-0.2.2.dist-info/top_level.txt,sha256=mmOMUbWGe01br2_nGMS12XKJahI6PTHA8jgcbsMCGkE,9
+shuffle_heimdall-0.2.2.dist-info/RECORD,,
