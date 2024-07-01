@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pysqltools"
+version = "0.1.8"
+description = "PySQLTools"
+authors = ["Pablo Minué"]
+license = "None"
+readme = "README.md"
+packages = [{include = "pysqltools"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.2.0"
+pytest-cov = "*"
+pylint = "*"
+mypy = "*"
+black = "*"
+coverage  = "*"
+pillow = "^10.3.0"
+pre-commit = "^3.7.1"
+pandas = "^2.2.2"
+multimethod = "^1.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint]
+disable = [
+    "C0114",  # Missing module docstring
+    "C0116",  # Missing function or method docstring
+    "C0301",
+    "E0102",
+]
+
+[tool.pylint.MASTER]
+ignore-paths = '^pysqltools/src/__pycache__'
+
