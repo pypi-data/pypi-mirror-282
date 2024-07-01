@@ -1,0 +1,12 @@
+qupcrypt/WebCrypt.py,sha256=tntIG0VmxsiVKbPpfxrair2g-dWC2aQ52hqPUUkU1Pw,4263
+qupcrypt/__init__.py,sha256=gpBiB60lKhzlBtO4KdKItgsajitrrTYwZLm4DA6__NA,117
+qupcrypt/encryption.py,sha256=jrvdkZGnnrtuR5nl4505KXTZXc2uvJx2FO-wPCtpvcY,958
+qupcrypt/ext.py,sha256=RdIN1S8kgYOn8AcNplJt7XTFrcdl8KZk_IXb18yHI_w,2678
+tests/__init__.py,sha256=fYpPQ0DQVgYcafJq_wRT2soN5FFa9WHoz4C32isvL6E,84
+tests/test_custom_aes.py,sha256=31_ymthIxx2Jdi3s2uPoVn91xbPLiFURNWtResYE6Bs,714
+tests/test_encryption.py,sha256=3Aa8DL87FBi5ucHBa-StjXI8O-aygjnra8NkAZz1Tng,469
+tests/test_webcrypt.py,sha256=bpQzvCvxxUQWvw5rl_J1-mMxvMdQILL5fK4NlKyLN30,1139
+qupcrypt-0.1.6.dist-info/METADATA,sha256=_VPWDIBlEgWqyjidJQ15Sf2Y5RtI-OvtxdcegZ8VK3E,756
+qupcrypt-0.1.6.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+qupcrypt-0.1.6.dist-info/top_level.txt,sha256=ShVRFH2--DArlsoOI3o5YQ1Wy7ROdTMkZ5sWghs5GG4,15
+qupcrypt-0.1.6.dist-info/RECORD,,
