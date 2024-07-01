@@ -1,0 +1,24 @@
+[project]
+name = "pykrotik"
+version = "0.0.12-rc.1"
+dependencies = [ "pydantic",]
+
+[project.optional-dependencies]
+dev = [ "bfiola-devtools", "pytest", "pytest-asyncio", "python-dotenv",]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+asyncio_mode = "auto"
+testpaths = [ "tests",]
+
+[tool.semantic_release.branches.dev]
+match = "dev"
+prerelease = true
+prerelease_token = "rc"
+
+[tool.semantic_release.branches.main]
+match = "main"
+prerelease = false
+
+[tool.setuptools.packages.find]
+include = [ "pykrotik",]
