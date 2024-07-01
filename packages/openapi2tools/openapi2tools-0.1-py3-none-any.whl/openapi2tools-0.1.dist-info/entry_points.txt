@@ -1,0 +1,2 @@
+[console_scripts]
+pyoat = openapi2tools.tool:main
