@@ -1,0 +1,11 @@
+jjpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jjpdf/pdf2image.py,sha256=ni5dtWRUDWJQQL0Ur26V50Ydm-anncQ5muYftYPthlI,38
+jjpdf/pdf2text.py,sha256=38HRWpEVXKo1tMs4fRO77mS59-SCEzmtHVng-Ov7Hr4,37
+jpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpdf/pdf2image.py,sha256=ni5dtWRUDWJQQL0Ur26V50Ydm-anncQ5muYftYPthlI,38
+jpdf/pdf2text.py,sha256=38HRWpEVXKo1tMs4fRO77mS59-SCEzmtHVng-Ov7Hr4,37
+jjpdf-1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+jjpdf-1.0.dist-info/METADATA,sha256=6L90reOes5fZk-X0ETkPXLPh7izaFFTkbY7Xeb_Ko8M,107
+jjpdf-1.0.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+jjpdf-1.0.dist-info/top_level.txt,sha256=rNsBozOxDDCUs2_BHsozQQ9l9sew1GIg__FT8Mh_8Pw,6
+jjpdf-1.0.dist-info/RECORD,,
