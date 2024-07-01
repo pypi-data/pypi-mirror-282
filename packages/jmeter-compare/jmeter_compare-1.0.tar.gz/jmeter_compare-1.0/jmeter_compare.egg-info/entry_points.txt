@@ -1,0 +1,2 @@
+[console_scripts]
+jmeter_compare = jmeter_compare.main:main

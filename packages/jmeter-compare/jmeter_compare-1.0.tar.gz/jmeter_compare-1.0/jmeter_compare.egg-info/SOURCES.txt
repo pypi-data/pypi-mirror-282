@@ -1,0 +1,11 @@
+README.md
+setup.py
+jmeter_compare/__init__.py
+jmeter_compare/main.py
+jmeter_compare.egg-info/PKG-INFO
+jmeter_compare.egg-info/SOURCES.txt
+jmeter_compare.egg-info/dependency_links.txt
+jmeter_compare.egg-info/entry_points.txt
+jmeter_compare.egg-info/requires.txt
+jmeter_compare.egg-info/top_level.txt
+test/__init__.py
