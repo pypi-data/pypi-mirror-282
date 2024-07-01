@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: retile
+Version: 0.2.1
+Author-email: Karl Knechtel <zahlman@proton.me>
+License: MIT License
+        
+        Copyright (c) 2024 Karl Knechtel
+        
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: imageio
+
+# `retile` - simple image conversion and tilemapping 
+
+`retile` can read and write images in either any format understood by `imageio`, or else in a "raw" format described in a TOML configuration file.
+
+The config file also describes a tile-mapping operation that extracts tiles from the source image, rearranges them as desired, and saves the result - as if repeatedly copying small rectangular regions out of the source image and pasting them onto an output canvas. The dimensions of the output are automatically determined, and the output may be saved in any format.
+
+Detailed explanation pending, as the interface is still being worked out.
+
+`retile` is offered under a permissive MIT license as described in LICENSE.txt.
