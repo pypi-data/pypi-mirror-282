@@ -1,0 +1,8 @@
+README.md
+setup.py
+telx/__init__.py
+telx/base.py
+telx.egg-info/PKG-INFO
+telx.egg-info/SOURCES.txt
+telx.egg-info/dependency_links.txt
+telx.egg-info/top_level.txt
