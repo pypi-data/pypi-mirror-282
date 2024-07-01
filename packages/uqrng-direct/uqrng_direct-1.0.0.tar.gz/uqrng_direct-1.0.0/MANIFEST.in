@@ -1,0 +1,7 @@
+exclude uqrng_direct/uqrng.proto
+recursive-exclude tests *
+recursive-exclude docs *
+include README.md
+exclude README-developers.md
+include *.yml
+recursive-include uqrng_direct *.yml

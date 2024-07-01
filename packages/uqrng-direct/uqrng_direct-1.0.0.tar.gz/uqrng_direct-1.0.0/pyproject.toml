@@ -1,0 +1,63 @@
+# (C) Quantum Computing Inc., 2022.
+
+# THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE of the Copyright Holder.
+# The contents of this file may not be disclosed to third parties, copied
+# or duplicated in any form, in whole or in part, without the prior written
+# permission of the Copyright Holder.
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'uqrng_direct'
+description = "Client interface for QCi's uniform quantum random number generator (uQRNG) device."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = []
+license = {text = "Apache 2.0"}
+authors = [
+    {name = "Quantum Computing Inc."},
+    {email = "support@quantumcomputinginc.com"},
+]
+maintainers = [
+    {name = "David Haycraft"},
+    {email = "dhaycraft@quantumcomputinginc.com"}
+]
+
+classifiers = []
+dependencies = [
+         "grpcio-tools==1.47.0",
+	 "protobuf==3.20.3",
+    	 "numpy>=1.24.1, <2",
+         ]
+
+dynamic = [
+    "version"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black >=22.6.0, <23",
+    "build >=0.10.0, <0.11.0",
+    "check-manifest >=0.48, <0.49",
+    "coverage[toml] >=6.4.2, <7",
+    "pylint >=2.14.0, <3",
+    "pytest >=7.1.0, <8",
+    "sphinx-rtd-theme >=1.3.0",
+]
+
+[tool.setuptools]
+packages = ["uqrng_direct"]
+
+[tool.setuptools_scm]
+relative_to = "pyproject.toml"
+
+[tool.coverage.report]
+fail_under = 100
+
+[tool.pylint]
+max-line-length = 88
+ignore = ["venv",".venv", "build", "docs"]
+recursive = true
+disable = ["line-too-long"]

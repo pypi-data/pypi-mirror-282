@@ -1,0 +1,17 @@
+.gitignore
+.gitlab-ci.yml
+MANIFEST.in
+README.md
+pyproject.toml
+uqrng_direct/.gitlab-ci.yml
+uqrng_direct/__init__.py
+uqrng_direct/client.py
+uqrng_direct/uqrng_pb2.py
+uqrng_direct/uqrng_pb2_grpc.py
+uqrng_direct/uqrng_server_sim.py
+uqrng_direct/utils.py
+uqrng_direct.egg-info/PKG-INFO
+uqrng_direct.egg-info/SOURCES.txt
+uqrng_direct.egg-info/dependency_links.txt
+uqrng_direct.egg-info/requires.txt
+uqrng_direct.egg-info/top_level.txt
