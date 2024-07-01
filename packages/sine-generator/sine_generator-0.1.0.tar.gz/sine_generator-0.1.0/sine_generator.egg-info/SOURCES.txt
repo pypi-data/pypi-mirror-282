@@ -1,0 +1,8 @@
+setup.py
+sine_generator/__init__.py
+sine_generator/main.py
+sine_generator.egg-info/PKG-INFO
+sine_generator.egg-info/SOURCES.txt
+sine_generator.egg-info/dependency_links.txt
+sine_generator.egg-info/requires.txt
+sine_generator.egg-info/top_level.txt
