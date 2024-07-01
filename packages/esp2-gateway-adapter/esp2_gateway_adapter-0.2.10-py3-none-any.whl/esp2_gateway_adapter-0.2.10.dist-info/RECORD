@@ -1,0 +1,8 @@
+esp2_gateway_adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esp2_gateway_adapter/esp3_serial_com.py,sha256=lAuhDnqs4rjAF8TcGYcXUtm3VCU4z4H4ZF04ybSfiWo,15682
+esp2_gateway_adapter/esp3_tcp_com.py,sha256=_9PdTMvzOoWyAaLByR9EY7ISpy5mbcFClo1m-N397CU,5981
+esp2_gateway_adapter-0.2.10.dist-info/LICENSE,sha256=Kl4RGMjPNLPNdJhaq-X-ZfkqudbAHQAo5fECNDeQt4U,1070
+esp2_gateway_adapter-0.2.10.dist-info/METADATA,sha256=VB6Rovk6n4diJsnXskihqmcvlv_1KdvCQzCSzuzvWqo,2207
+esp2_gateway_adapter-0.2.10.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+esp2_gateway_adapter-0.2.10.dist-info/top_level.txt,sha256=5jzvstsYqw-E9MFTGcHMhZM3GhABG_0ZmtCmGqqVnrI,21
+esp2_gateway_adapter-0.2.10.dist-info/RECORD,,
