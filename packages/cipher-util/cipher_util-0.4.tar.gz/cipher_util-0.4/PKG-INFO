@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cipher_util
+Version: 0.4
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.8
+Requires-Dist: Flask>=2.0.0
