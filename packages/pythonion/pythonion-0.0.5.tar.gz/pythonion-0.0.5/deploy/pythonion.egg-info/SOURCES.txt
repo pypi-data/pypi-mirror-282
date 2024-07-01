@@ -1,0 +1,6 @@
+README.md
+setup.py
+deploy/pythonion.egg-info/PKG-INFO
+deploy/pythonion.egg-info/SOURCES.txt
+deploy/pythonion.egg-info/dependency_links.txt
+deploy/pythonion.egg-info/top_level.txt
