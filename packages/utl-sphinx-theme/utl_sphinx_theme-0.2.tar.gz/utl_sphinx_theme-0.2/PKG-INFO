@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: utl-sphinx-theme
+Version: 0.2
+Summary: UTLCo documentation Sphinx theme
+Author-email: Claude Zervas <claude@utlco.com>
+License: BSD-2-Clause
+Project-URL: Repository, https://github.com/utlco/utl-sphinx-theme
+Project-URL: Documentation, https://utlco.github.io/utl-sphinx-theme/
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development :: Documentation
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: sphinx; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+
+
+================
+utl_sphinx_theme
+================
+
+* Github: https://github.com/utlco/utl-sphinx-theme
+* Documentation: https://utlco.github.io/utl-sphinx-theme/
+
+Very simple
+`Sphinx <https://www.sphinx-doc.org/en/master/index.html>`_
+theme derived from **sphinx13** which is used for official Sphinx documentation.
+
+There are a few small differences, mainly in colors and header styling.
+
+Some basic options have been added as well.
+
+How to use
+==========
+
+Install the theme from GitHub::
+
+    pip install https://github.com/utlco/utl-sphinx-theme/archive/refs/heads/main.zip
+
+Add the following line to your conf.py::
+
+    html_theme = 'utl_sphinx_theme'
+
+To change the theme options (also in conf.py)::
+
+    html_options = {
+        'title': 'MyTitle',
+        'logo': '_static/my-logo.svg',
+    }
+
+By default it will use the logo image **_static/logo.svg**.
+

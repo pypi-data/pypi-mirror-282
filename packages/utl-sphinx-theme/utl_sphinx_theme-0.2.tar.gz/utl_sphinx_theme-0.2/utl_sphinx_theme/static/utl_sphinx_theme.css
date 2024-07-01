@@ -1,0 +1,441 @@
+/* Stylesheet for TCNC documentation - derived from sphinx13 */
+
+/* TODO: convert em to rem */
+
+/* Set master colors */
+:root {
+    --fonts-sans-serif: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --color-theme: #9DABB3;
+    --color-header: #8A6843;;
+    --color-header-small: #733D02;;
+    --color-text: #333;
+    --color-links-light: #057;
+    --color-related: #73665D;
+    --color-related-border: #4c7595;
+}
+
+body {
+    font-family: var(--fonts-sans-serif);
+    margin: 0 auto;
+    color: var(--color-text);
+}
+
+.pageheader {
+    display: flex;
+    column-gap: 1em;
+    align-items: center;
+    /*
+    width: 100%;
+    background-color: var(--color-theme);
+     */
+    background-color: #A87550;
+    padding: 10px 20px;
+}
+
+.pageheader a {
+    width: 5%;
+}
+
+.pageheader img {
+    filter: invert(1) drop-shadow(1px 1px 2px black);
+}
+
+.pageheader h1 {
+    color: white;
+    margin: 0;
+    margin-left: 1rem;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+div.document {
+    display: flex;
+    margin: 0;
+}
+
+div.body {
+    border-left: 1px solid var(--color-related);
+    margin: 0;
+    padding-top: 0;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    min-width: 0;
+    max-width: 800px;
+}
+
+div.body p {
+  hyphens: manual;
+}
+
+div.body li {
+  hyphens: manual;
+  line-height: 1.3rem;
+}
+
+div.body dt {
+  font-weight: 500;
+  color: #000;
+}
+
+div.related {
+    display: flex;
+    color: white;
+    background-color: var(--color-related);
+    border-top: 1px solid var(--color-related-border);
+    padding-bottom: 3px;
+    min-height: .4rem;
+}
+
+div.related ul li {
+    margin: 0 5px 0 0;
+    float: left;
+}
+
+div.related ul li a {
+    padding: 0 5px 0 5px;
+    line-height: 1.2rem;
+    color: white;
+}
+
+div.related ul li a:hover {
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+div.sphinxsidebarwrapper {
+    padding: 0;
+}
+
+div.sphinxsidebar {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    height: 100vh;
+    width: auto;
+    min-width: 180px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    margin: 0;
+    padding-right: 15px;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+div.sphinxsidebar h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+div.sphinxsidebar h4 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-right: 14px;
+    padding-left: 14px;
+    color: #333;
+    font-weight: 300;
+}
+
+div.sphinxsidebar h3 a {
+    color: #333;
+}
+
+div.sphinxsidebar ul {
+    color: #444;
+    margin-top: 7px;
+    padding: 0;
+    line-height: 130%;
+}
+
+div.sphinxsidebar ul ul {
+    margin-left: 1rem;
+    list-style-type: none;
+    font-size: .9em;
+}
+
+/* De-dent the first list because we hide the top-level item */
+.sphinxsidebar .sphinxsidebar-navigation__contents > ul > li > ul {
+    margin-left: 0;
+}
+
+div.sphinxsidebar p.caption {
+  display: none;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+div.sphinxsidebar a {
+  color: var(--color-links-light);
+  text-decoration: none;
+}
+
+div.sphinxsidebar a:visited {
+  color: var(--color-links-light);
+}
+
+div.sphinxsidebar li.current > a {
+    font-weight: 600;
+}
+
+.sphinxsidebar-navigation__contents > ul > li > a {
+    display: none;
+}
+
+div.sphinxsidebar #searchbox {
+    margin: 12px 0 20px 0;
+}
+
+div.footer {
+    background-color: var(--color-related);
+    color: #eee;
+    padding: 2px 8px 3px 8px;
+    clear: both;
+    font-size: 0.8rem;
+}
+
+/* no need to make a visible link to Sphinx on the Sphinx page */
+div.footer a {
+    color: #ccc;
+}
+
+/* -- body styles ----------------------------------------------------------- */
+
+p {
+    margin: 0.8em 0 0.5em 0;
+}
+
+a {
+    color: var(--color-links-light);
+    text-decoration: none;
+}
+
+div.body a {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 1.6rem 0 1rem 0;
+    font-size: 2.2rem;
+    color: var(--color-header);
+    font-weight: 400;
+}
+
+h1 span.pre {
+    /* for code in titles */
+    word-break: break-all;
+    white-space: normal;
+}
+
+h2 {
+    margin: 1.3rem 0 0.3rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0;
+    color: var(--color-header);
+}
+
+h3 {
+    margin: 1.3rem 0 0.1rem 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--color-header);
+}
+
+h4 {
+    margin: 1.3rem 0 0 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-header-small);
+}
+
+h5 {
+    margin: 1.2rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-header-small);
+}
+
+div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
+    text-decoration: none;
+}
+
+div.body h1 a tt, div.body h2 a tt, div.body h3 a tt, div.body h4 a tt, div.body h5 a tt, div.body h6 a tt {
+    color: var(--color-related) !important;
+    font-size: inherit !important;
+}
+
+a.headerlink {
+    color: var(--color-links-light) !important;
+    font-size: .5em;
+    margin-left: 6px;
+    padding: 0 4px 0 4px;
+    text-decoration: none !important;
+}
+
+a.headerlink:hover {
+    background-color: var(--color-links-light);
+    color: white!important;
+}
+
+/* avoid font-size when :mod: role in headings */
+h1 code, h2 code, h3 code, h4 code {
+    font-size: inherit;
+}
+
+cite, code, tt {
+    font-family: 'Consolas', 'DejaVu Sans Mono',
+                 'Bitstream Vera Sans Mono', monospace;
+    font-size: 1em;
+    letter-spacing: -0.02em;
+}
+
+table.deprecated code.literal {
+    word-break: break-all;
+}
+
+tt {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #333;
+    padding: 1px 0.2em;
+}
+
+tt.descname, tt.descclassname, tt.xref {
+    border: 0;
+}
+
+hr {
+    border: 1px solid #abc;
+    margin: 2em;
+}
+
+a tt {
+    border: 0;
+    color: var(--color-links-light);
+}
+
+pre {
+    font-family: 'Consolas', 'Courier New', 'DejaVu Sans Mono',
+                 'Bitstream Vera Sans Mono', monospace;
+    font-size: 1em;
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+}
+
+pre a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+td.linenos pre {
+    padding: 0.5em 0;
+}
+
+div.quotebar {
+    background-color: #f8f8f8;
+    max-width: 250px;
+    float: right;
+    padding: 0px 7px;
+    border: 1px solid #ccc;
+    margin-left: 1em;
+}
+
+blockquote.epigraph {
+    font-size: 1.5em;
+    padding-left: 1rem;
+    margin-left: 0;
+}
+
+nav.contents,
+div.topic,
+aside.topic {
+    background-color: #f8f8f8;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 -0.5em 0 -0.5em;
+}
+
+table td, table th {
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+div.admonition, div.warning {
+    font-size: 0.9em;
+    margin: 1em 0 1em 0;
+    border: 1px solid #86989B;
+    border-radius: 2px;
+    background-color: #f7f7f7;
+    padding: 1rem;
+}
+
+div.admonition > p, div.warning > p {
+    margin: 0;
+    padding: 0;
+}
+
+div.admonition > pre, div.warning > pre {
+    margin: 0.4em 1em 0.4em 1em;
+}
+
+div.admonition > p.admonition-title,
+div.warning > p.admonition-title {
+    font-weight: bold;
+}
+
+div.warning {
+    border: 1px solid #940000;
+}
+
+div.admonition > ul,
+div.admonition > ol,
+div.warning > ul,
+div.warning > ol {
+    margin: 0.1em 0.5em 0.5em 3em;
+    padding: 0;
+}
+
+div.admonition div.highlight {
+    background: none;
+}
+
+.viewcode-back {
+    font-family: var(--fonts-sans-serif);
+}
+
+div.viewcode-block:target {
+    background-color: #f4debf;
+    border-top: 1px solid #ac9;
+    border-bottom: 1px solid #ac9;
+}
+
+figcaption .caption-text {
+  margin-left: .5rem;
+}
+
+
+/* media queries */
+
+/* Reduce padding & margins for smaller screens */
+@media (max-width: 750px) {
+    .sphinxsidebar {
+        display: none;
+    }
+    div.body {
+        border-left: none;
+    }
+}

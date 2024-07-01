@@ -1,0 +1,15 @@
+README.rst
+pyproject.toml
+tests/test_build.py
+utl_sphinx_theme/__init__.py
+utl_sphinx_theme/layout.html
+utl_sphinx_theme/theme.conf
+utl_sphinx_theme/theme.toml
+utl_sphinx_theme.egg-info/PKG-INFO
+utl_sphinx_theme.egg-info/SOURCES.txt
+utl_sphinx_theme.egg-info/dependency_links.txt
+utl_sphinx_theme.egg-info/entry_points.txt
+utl_sphinx_theme.egg-info/requires.txt
+utl_sphinx_theme.egg-info/top_level.txt
+utl_sphinx_theme/static/logo.svg
+utl_sphinx_theme/static/utl_sphinx_theme.css

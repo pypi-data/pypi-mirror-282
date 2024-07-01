@@ -1,0 +1,10 @@
+
+[dev]
+pytest
+black
+ruff
+sphinx
+
+[test]
+pytest
+sphinx

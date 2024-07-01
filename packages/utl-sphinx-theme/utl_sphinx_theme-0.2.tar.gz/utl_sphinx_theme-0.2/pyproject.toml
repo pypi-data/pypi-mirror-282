@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utl-sphinx-theme"
+version = "0.2"
+authors = [{name = "Claude Zervas", email = "claude@utlco.com"}]
+description = "UTLCo documentation Sphinx theme"
+readme = "README.rst"
+license = {text = "BSD-2-Clause"}
+classifiers = [
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Documentation",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: Software Development :: Documentation",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "sphinx",
+]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+    "sphinx",
+]
+
+[project.urls]
+Repository = "https://github.com/utlco/utl-sphinx-theme"
+Documentation = "https://utlco.github.io/utl-sphinx-theme/"
+
+[project.entry-points."sphinx.html_themes"]
+utl_sphinx_theme = "utl_sphinx_theme"
+
+[tool.setuptools]
+packages = ["utl_sphinx_theme"]
+
+[tool.setuptools.package-data]
+"utl_sphinx_theme" = [
+    "*.css",
+    "*.html",
+    "theme.conf",
+    "theme.toml",
+    "static/*.svg",
+    "static/*.css",
+    "static/*.html",
+    "static/*.js",
+]
+

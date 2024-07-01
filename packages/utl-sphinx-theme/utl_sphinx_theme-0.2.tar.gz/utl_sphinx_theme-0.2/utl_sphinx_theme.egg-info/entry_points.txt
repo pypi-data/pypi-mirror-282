@@ -1,0 +1,2 @@
+[sphinx.html_themes]
+utl_sphinx_theme = utl_sphinx_theme

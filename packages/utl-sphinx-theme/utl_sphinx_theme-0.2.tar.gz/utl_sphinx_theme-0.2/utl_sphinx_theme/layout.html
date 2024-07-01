@@ -1,0 +1,63 @@
+{# Sphinx layout template for the utl_sphinx_theme theme. #}
+{%- extends "basic/layout.html" %}
+
+{% block extrahead %}
+{{ super() }}
+{%- if not embedded and pagename == root_doc %}
+<style>.related { display: none; }</style>
+{%- endif %}
+{% endblock %}
+
+{% block header %}
+<div class="pageheader">
+  <a href="https://utlco.com">
+    <img src="{{ pathto(theme_logo, resource=True) }}" alt="logo" />
+  </a>
+  <h1>{{ theme_title or html_short_title or docstitle }}</h1>
+</div>
+{% endblock %}
+
+{%- block relbar1 %}
+<div class="related" role="navigation" aria-label="related navigation">
+{% if theme_show_relbar %}
+  <ul>
+    <li><a href="{{ pathto(root_doc)|e }}">Home</a> &raquo;</li>
+    {%- for parent in parents %}
+      <li class="nav-item nav-item-{{ loop.index }}">
+        <a href="{{ parent.link|e }}" {% if loop.last %}{{ accesskey("U") }}{% endif %}>{{ parent.title }}</a>
+        {{ reldelim1 }}
+      </li>
+    {%- endfor %}
+    <li class="nav-item nav-item-this"><a href="{{ link|e }}">{{ title }}</a></li>
+  </ul>
+{% endif %}
+</div>
+{% endblock %}
+
+{%- block content %}
+<div class="document">
+  <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+    {%- include "searchfield.html" %}
+    <a href="{{ pathto(root_doc)|e }}">Home</a>
+    {{ toctree(maxdepth=2, includehidden=True, titles_only=True) }}
+    <h4>Page Contents</h4>
+    <div class="sphinxsidebar-navigation__contents">
+      {{ toc }}
+    </div>
+  </div>
+  {%- block document %}
+  <div class="body" role="main">
+    {% block body %}{% endblock %}
+  </div>
+  {%- endblock %}
+</div>
+{%- endblock %}
+
+{%- block relbar2 %}{% endblock %}
+
+{%- block footer %}
+<div class="footer" role="contentinfo">
+  {{ copyright_block() }}
+  {% trans sphinx_version=sphinx_version|e %}Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}{% endtrans %}, utl_sphinx_theme
+</div>
+{%- endblock %}
