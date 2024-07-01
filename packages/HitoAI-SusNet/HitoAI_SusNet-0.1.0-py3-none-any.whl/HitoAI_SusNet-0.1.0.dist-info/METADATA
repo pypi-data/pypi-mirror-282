@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: HitoAI_SusNet
+Version: 0.1.0
+Summary: A project to predict temperature using an Artificial Neural Network.
+Author: Shahram Azizi Sazi
+Author-email: Shenal Elekuttige <shenaal.h@hitoai.ai>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow >=2.0.0
+Requires-Dist: keras >=2.3.0
+Requires-Dist: numpy >=1.18.0
+Requires-Dist: pandas >=1.0.0
+Requires-Dist: scikit-learn >=0.22.0
+
+# HitoAI_SusNet
+
+HitoAI_SusNet is a machine learning project that uses an Artificial Neural Network (ANN) to predict temperature based on various weather parameters. The project utilizes libraries such as TensorFlow, Keras, NumPy, Pandas, and Scikit-learn.
+
+## Project Structure
+
+- `preprocess_data(filepath, test_size)`: Preprocesses the data, handles missing values, encodes categorical variables, scales features, and splits the data into training and testing sets.
+- `train_model(X_train, y_train)`: Defines and trains the ANN model.
+- `calculate_rmse(model, X_test, y_test)`: Calculates the Root Mean Squared Error (RMSE) of the model.
+- `calculate_r2(model, X_test, y_test)`: Calculates the R-squared score of the model.
+- `predict_temperature(model, X_test)`: Predicts the temperature using the trained model.
+- `select_features(model, X_train, X_test, threshold)`: Selects important features based on the model's weights. default threshold=0.1
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/shenaal1992/HitoAI_SusNet.git
+    cd HitoAI_SusNet
+    ```
+
+2. Install the dependencies:
+    ```bash
+    poetry install
+    ```
+
+3. Activate the virtual environment:
+    ```bash
+    poetry shell
+    ```
+
+## Usage
+
+1. Prepare your dataset in a CSV file with columns: `temp`, `pressure`, `humidity`, `dew_point`, `clouds`, `wind_speed`, `wind_deg`, `weather_description`.
+
+2. Import the necessary functions and preprocess your data:
+    ```python
+    from your_module import preprocess_data, train_model, calculate_rmse, calculate_r2, predict_temperature, select_features
+
+    # Preprocess the data
+    X_train, X_test, y_train, y_test = preprocess_data('path_to_your_file.csv', test_size=0.2)
+    ```
+
+3. Train the model:
+    ```python
+    model, history = train_model(X_train, y_train)
+    ```
+
+4. Evaluate the model:
+    ```python
+    rmse = calculate_rmse(model, X_test, y_test)
+    r2 = calculate_r2(model, X_test, y_test)
+
+    print(f"RMSE: {rmse}")
+    print(f"R-squared: {r2}")
+    ```
+
+5. Make predictions:
+    ```python
+    y_pred = predict_temperature(model, X_test)
+    ```
+
+6. Select important features:
+    ```python
+    X_train_selected, X_test_selected, selected_features = select_features(model, X_train, X_test, threshold=0.1)
+    ```
+
+## Dependencies
+
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+- Scikit-learn
+
+These dependencies are listed in the `pyproject.toml` file and can be installed using Poetry.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+
+For any inquiries or feedback, please contact [Shenal](mailto:shenaal.h@hitoai.ai).
