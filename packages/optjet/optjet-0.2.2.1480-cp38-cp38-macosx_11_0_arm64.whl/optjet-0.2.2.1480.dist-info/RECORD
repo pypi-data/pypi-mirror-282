@@ -1,0 +1,8 @@
+optjet/__init__.py,sha256=U_NqKVU8C0zIjJJmeNZjJrSFqXBVa9BTXicFQbV3ELw,188
+optjet/md_encoder.cpython-38-darwin.so,sha256=rbDzQ59GEn4wX1dgjCZG7mRTb_GkujGkiXbH0SamjnQ,1324096
+optjet/quant_engine.cpython-38-darwin.so,sha256=FdB-7Esr2Ss1Be1t3LV4NliUIifUMX5TBP_rkznezBg,15545888
+optjet-0.2.2.1480.dist-info/LICENSE,sha256=PIjlyuzuCwBAQ3VONPT9ljOaE_D4XAIF5gmlYUvBlcQ,1481
+optjet-0.2.2.1480.dist-info/METADATA,sha256=0WHGr9gfwfyjodCN1SC0vzZtdge8WAYgBghE0AZD0zo,3434
+optjet-0.2.2.1480.dist-info/WHEEL,sha256=u4QqA7H2pf1dPxKPeW9qBzWLhxiCwo8eclZb40cjazk,107
+optjet-0.2.2.1480.dist-info/top_level.txt,sha256=OgevicQAlBHU9o15Yrg-iO8_np5nRn5KIAO51dPIW8c,7
+optjet-0.2.2.1480.dist-info/RECORD,,
