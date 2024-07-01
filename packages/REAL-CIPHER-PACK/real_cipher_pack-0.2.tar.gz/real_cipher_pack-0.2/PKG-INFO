@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: REAL_CIPHER_PACK
+Version: 0.2
+Summary: A simple example package
+Author: Abdelrahman Mahmoud
+Author-email: a.mahmoud1803@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# cipher_package
+
+A simple Caesar Cipher package for encrypting and decrypting messages.
+
+## Installation
+
+```sh
+pip install cipher_package
+
+
+#importing 
+from REAL_CIPHER_PACK. import CaesarCipher
