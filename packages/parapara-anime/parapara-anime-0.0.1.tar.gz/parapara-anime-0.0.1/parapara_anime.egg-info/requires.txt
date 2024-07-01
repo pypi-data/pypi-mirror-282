@@ -1,0 +1,6 @@
+IPython>=8.0.0
+matplotlib>=3.0.0
+numpy>=1.15
+pyvirtualdisplay>=3.0
+
+[tutorial]
