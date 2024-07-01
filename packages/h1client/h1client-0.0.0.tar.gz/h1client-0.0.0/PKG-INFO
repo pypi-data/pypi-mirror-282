@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: h1client
+Version: 0.0.0
+Summary: A very tiny HTTP/1.x client that is only used to deal with APIs. It is not designed to be bulletproof or full-featured like requests.
+Home-page: https://github.com/nggit/h1client
+Author: nggit
+Author-email: contact@anggit.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# h1client
+A very tiny HTTP/1.x client that is only used to deal with APIs. It is not designed to be bulletproof or full-featured like requests.
+
+## License
+MIT

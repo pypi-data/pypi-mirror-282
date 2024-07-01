@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+h1client/__init__.py
+h1client/h1client.py
+h1client/response.py
+h1client/utils.py
+h1client.egg-info/PKG-INFO
+h1client.egg-info/SOURCES.txt
+h1client.egg-info/dependency_links.txt
+h1client.egg-info/top_level.txt
