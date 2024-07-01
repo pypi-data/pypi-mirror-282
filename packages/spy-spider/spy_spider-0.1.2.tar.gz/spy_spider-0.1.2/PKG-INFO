@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: spy-spider
+Version: 0.1.2
+Summary: 
+Author: mathewgeola
+Author-email: mathewgeola@163.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: colorlog (>=6.8.2,<7.0.0)
+Requires-Dist: drissionpage (>=4.0.5.4,<5.0.0.0)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: py-mini-racer (>=0.6.0,<0.7.0)
+Requires-Dist: pyexecjs (>=1.5.1,<2.0.0)
+Requires-Dist: typing-extensions (>=4.12.2,<5.0.0)
+Requires-Dist: ujson (>=5.10.0,<6.0.0)
+Description-Content-Type: text/markdown
+
+#spy_spider
+
+
+~~~
+pip install poetry
+
+poetry init
+
+poetry build
+
+poetry config pypi-token.pypi <your-pypi-token>
+
+poetry publish --build
+~~~
