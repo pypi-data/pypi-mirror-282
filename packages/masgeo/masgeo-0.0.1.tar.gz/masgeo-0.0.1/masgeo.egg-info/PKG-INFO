@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: masgeo
+Version: 0.0.1
+Summary: A python package demo for Mangrove and seagrass identification analysis
+Author-email: Carrie Lian <13202920401@163.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/Ljlgee/masgeo
+Keywords: masgeo
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: masgeo[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# masgeo
+
+
+[![image](https://img.shields.io/pypi/v/masgeo.svg)](https://pypi.python.org/pypi/masgeo)
+[![image](https://img.shields.io/conda/vn/conda-forge/masgeo.svg)](https://anaconda.org/conda-forge/masgeo)
+
+
+**A python package demo for Mangrove and seagrass identification analysis**
+
+
+-   Free software: MIT License
+-   Documentation: https://Ljlgee.github.io/masgeo
+    
+
+## Features
+
+-   TODO
+undated the readme
