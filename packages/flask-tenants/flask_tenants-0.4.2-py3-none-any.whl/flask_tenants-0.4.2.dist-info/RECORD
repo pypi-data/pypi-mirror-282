@@ -1,0 +1,10 @@
+flask_tenants/__init__.py,sha256=NTTBt8GOTuw7APdXqxGc7KUyRZJoizfI7xjRqGxEeyQ,505
+flask_tenants/context.py,sha256=YUneNxdC9QOea6OGWBgMn8ItUzWort7p-r9diTf9-Nc,313
+flask_tenants/middleware.py,sha256=-2NoIWwuOpsj9kVqW_6NHJM4fnGHprb9j4mhPZE0lDE,3029
+flask_tenants/models.py,sha256=s20MjX30i8If9mrrbwRAaUApQdFjGcWcUU1vDV06Cac,1000
+flask_tenants/utils.py,sha256=DqqO7WctbcNe0ZpUVzof1okTppnJhZIJ2-DWOwIzCiY,4983
+flask_tenants-0.4.2.dist-info/LICENSE,sha256=dyRUH1_mKFg_LhNddNnIoYUYYjQq1aCaOxFfbfYpIJ8,1070
+flask_tenants-0.4.2.dist-info/METADATA,sha256=UZ7xOvdgNRpis1k0RxEXmqIFydlJKNLO0htdLj_B8Go,7288
+flask_tenants-0.4.2.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+flask_tenants-0.4.2.dist-info/top_level.txt,sha256=Yisj5MUWKTvXGIa0qKO13-6thcQaqSkaQwx9Wwdv_o4,14
+flask_tenants-0.4.2.dist-info/RECORD,,
