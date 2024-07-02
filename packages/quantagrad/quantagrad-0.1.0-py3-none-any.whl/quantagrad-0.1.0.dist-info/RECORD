@@ -1,0 +1,15 @@
+quantagrad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantagrad/activations.py,sha256=jp7NMu-HSlPp0FzN7gyB7zIgiuGdrrX8AypffF40LEU,1850
+quantagrad/activations_base_class.py,sha256=Ctf89_j8f8brD6LRVUQ7AAkWz31aN_UeJoPxcLfDhYs,392
+quantagrad/engine.py,sha256=xrT1G6co05izSo-RDFbXYoFOUVnV_AbRbCaxPlFop_0,9187
+quantagrad/logger.py,sha256=rwcIy0PRwOQenobo_IsgtZLZFH79EvxOhXQ-X5Sco_4,473
+quantagrad/loss_functions.py,sha256=u-2J0vpj553uZCTbepEioQOn1ilSAdwDa8_hTeES_Ls,1851
+quantagrad/module.py,sha256=7UrDjPjhT4K8KofKhHXB2OaJn3hO-4nqc1L7-McMmLs,1885
+quantagrad/neural_net.py,sha256=4kEQSs2OJmaUOdJuWWQn2gQqsR2FyW3GYgf2qUbnvSs,3768
+quantagrad/operations.py,sha256=IWZnjktja_NZam9I9E8l7vfSYCINuIeN03a7qK67WHA,1349
+quantagrad/optimizers.py,sha256=J8Ve_jp6dKsVlWjw8pRUg4EbxNXWKaFHOdg7hAYpqGs,473
+quantagrad-0.1.0.dist-info/LICENSE,sha256=c6zDLvn7gNcn3UdPZuOriNgwTMktSEVAPbx593Ng8jk,1090
+quantagrad-0.1.0.dist-info/METADATA,sha256=5BR4I_w5sfbdbdhYAnYgTNk2Ac-I6xyU5TtXraqTUHk,2340
+quantagrad-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+quantagrad-0.1.0.dist-info/top_level.txt,sha256=2vrFyZUqYSors7qRm1YvOHkhIDe02mDLkQEsJxrXklg,11
+quantagrad-0.1.0.dist-info/RECORD,,
