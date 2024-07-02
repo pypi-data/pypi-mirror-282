@@ -1,0 +1,3 @@
+[console_scripts]
+py-ts-interfaces=python_to_typescript_interfaces.cli:main
+
