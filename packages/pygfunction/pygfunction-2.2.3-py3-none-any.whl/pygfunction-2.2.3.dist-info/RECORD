@@ -1,0 +1,14 @@
+pygfunction/__init__.py,sha256=NF4ZwJrcfRDuu_xIQMPe-b8zU8htVdtodJhpvVXXMIA,194
+pygfunction/boreholes.py,sha256=rnUeX10NQThQ_6-1HnNJepSSryZm33jeUn5aoUEdY1Q,46643
+pygfunction/gfunction.py,sha256=AKyy0_Xx3oIdQhnocr66wXLU-qvVcIR4pSFo-DGBRDg,185131
+pygfunction/heat_transfer.py,sha256=TlfII4L8w2qctLrCErFTRPqsEG3u_e6TLADb7PFK0pE,59683
+pygfunction/load_aggregation.py,sha256=poZ7r9gs7SWKbbiNTnZmBdYz_YRO3lNw20Hfh9k-X98,25888
+pygfunction/media.py,sha256=QLI-s36YU04mVk7PaoBQl7TC4uMBhYQIOy7718BsvT4,5794
+pygfunction/networks.py,sha256=ZntGgI7IAyDHmCba9jlU-u4b97GtYAFOsyaGeI1VxG4,63560
+pygfunction/pipes.py,sha256=28Tm4Lz5kRiULQFSQLITf2FoRcq_sWM-Xsc3bjKyCEo,126849
+pygfunction/utilities.py,sha256=JBpAQCXywDaq1EhHP0myT5-BPsFcsoJFwf-BF4cFHzc,24810
+pygfunction-2.2.3.dist-info/LICENSE.md,sha256=YZgcIaUliQjrzXIP_13pCvoa9BT22gtw7tkLxat1iEM,1490
+pygfunction-2.2.3.dist-info/METADATA,sha256=iQQPxRlw-UAVx-gO9FpYhP6ixU2sH951CUtOKgeBDZM,32185
+pygfunction-2.2.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+pygfunction-2.2.3.dist-info/top_level.txt,sha256=tSyBAHoMmteHjZtettbLLk4BlL6-T7cPVpbTdjioy_g,12
+pygfunction-2.2.3.dist-info/RECORD,,
