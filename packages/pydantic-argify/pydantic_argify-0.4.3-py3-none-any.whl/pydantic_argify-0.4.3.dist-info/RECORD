@@ -1,0 +1,9 @@
+pydantic_argify/__init__.py,sha256=nBvRorb7XxEMlHgC2576Fa9O8hXn5ZXcIad-cYKcg38,384
+pydantic_argify/__version__.py,sha256=Nyg0pmk5ea9-SLCAFEIF96ByFx4-TJFtrqYPN-Zn6g4,22
+pydantic_argify/cli.py,sha256=3QWvM_VujREzT8spgOmNZJVazmSrhbXIJn7b1iy_Fm0,4042
+pydantic_argify/config.py,sha256=rHsAHSAYsdES4AqEyZZZOO4_Ve7qa-5ZrtRmuZj9Pjw,464
+pydantic_argify/parse.py,sha256=AWHid39ayAmILIpStoDkGOEURMlsxzuNOp_a_Nt70FE,13862
+pydantic_argify-0.4.3.dist-info/LICENSE,sha256=qn2zMcR3YJgQp_xiWS6SrILKrN7ZyBF3K0jlKRDUho8,11336
+pydantic_argify-0.4.3.dist-info/METADATA,sha256=rg_2L1jLitX4-1MwQUcVCF21ekljxtoD1-PPWw-Q0Pw,5470
+pydantic_argify-0.4.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydantic_argify-0.4.3.dist-info/RECORD,,
