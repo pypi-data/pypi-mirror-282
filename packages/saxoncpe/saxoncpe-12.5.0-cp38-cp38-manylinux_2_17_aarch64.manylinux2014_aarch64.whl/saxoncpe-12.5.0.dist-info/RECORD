@@ -1,0 +1,10 @@
+saxoncpe.cpython-38-aarch64-linux-gnu.so,sha256=V-EXcN0XIYviRbg0SAXdp0vGXzAPHkPs2_zofDNrtYY,10646729
+saxoncpe/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxoncpe/setup.py,sha256=vR2ukJgclwxrpqdQw900X8zPeqI3Tvaftde0zR1D_Gk,3152
+saxoncpe/conftest.py,sha256=JhS8Vl2R_MlRTw_LfDuz0Uy3C4HvJVWw668-xp8HVvY,180
+saxoncpe/test_saxonc.py,sha256=0-HnNNU6osb8w3_8mkPCPwRB0Y3xHZujPgjdqqi5jJg,75786
+saxoncpe.libs/libsaxon-pec-12-d31b7277.5.0.so,sha256=qth3ZG8FLjjpTPy-qP6K0zPURojNv_c0SebVTzPqOzM,92180049
+saxoncpe-12.5.0.dist-info/WHEEL,sha256=4GeH8IQTGTPH95MsAPlniHs1H99pAGmPSEH5bd3hLWw,150
+saxoncpe-12.5.0.dist-info/top_level.txt,sha256=haekWAxl5i3fEt0xlT4r7Xv3DRIwVPNvUM0P2Ee6-NQ,9
+saxoncpe-12.5.0.dist-info/RECORD,,
+saxoncpe-12.5.0.dist-info/METADATA,sha256=--movnSGo51pp0QRshU2oZz_5OedywziUAu3pkcbDT8,5694
