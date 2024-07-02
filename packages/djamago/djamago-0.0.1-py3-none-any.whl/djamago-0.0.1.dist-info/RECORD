@@ -1,0 +1,9 @@
+djamago/__init__.py,sha256=OBHipZ6VnvLNS13k0ug8XIzrCeg5qksVpc9JERYWmLI,28419
+djamago/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djamago/contrib/spellcheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djamago/contrib/spellcheck/correction.py,sha256=12u8w6jZ2LDez8bAqK8D6sU2EnE5QINvxZjUYAe6US8,2177
+djamago-0.0.1.dist-info/LICENSE,sha256=2zLqh5iS2zH4JP4JEJPQI17OHMyAUlnEijjkwP3_69U,1066
+djamago-0.0.1.dist-info/METADATA,sha256=LVSfA1xVUL6qgmUbou9cbIW2buCqVDvVJEWeSc5yV9s,12578
+djamago-0.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+djamago-0.0.1.dist-info/top_level.txt,sha256=q9t6cyPfVI1lSOcnmRHWCGFq2XV_jBvEACfEa6l6L5s,8
+djamago-0.0.1.dist-info/RECORD,,
