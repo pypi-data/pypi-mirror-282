@@ -1,0 +1,2 @@
+[console_scripts]
+genomics = genomics.__main__:main
