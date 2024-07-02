@@ -1,0 +1,11 @@
+matplotlib
+numpy
+optuna
+pandas
+scikit-image
+scikit-learn
+seaborn
+sphinx
+sphinx
+sphinx-autobuild
+sphinx_rtd_theme

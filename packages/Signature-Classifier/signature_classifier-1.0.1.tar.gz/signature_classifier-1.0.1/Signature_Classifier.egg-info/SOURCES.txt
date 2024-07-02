@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Signature_Classifier.egg-info/PKG-INFO
+Signature_Classifier.egg-info/SOURCES.txt
+Signature_Classifier.egg-info/dependency_links.txt
+Signature_Classifier.egg-info/requires.txt
+Signature_Classifier.egg-info/top_level.txt
+signature_classifier/__init__.py
+signature_classifier/main.py
