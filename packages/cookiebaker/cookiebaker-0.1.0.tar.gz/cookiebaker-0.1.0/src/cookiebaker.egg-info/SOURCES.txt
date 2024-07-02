@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+src/cookiebaker/.__init__.py.swp
+src/cookiebaker/__init__.py
+src/cookiebaker.egg-info/PKG-INFO
+src/cookiebaker.egg-info/SOURCES.txt
+src/cookiebaker.egg-info/dependency_links.txt
+src/cookiebaker.egg-info/entry_points.txt
+src/cookiebaker.egg-info/requires.txt
+src/cookiebaker.egg-info/top_level.txt
+src/cookiebaker/__pycache__/__init__.cpython-310.pyc
+src/cookiebaker/default_cookiecutter/cookiecutter.json
+src/cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/README.md
+src/cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/pyproject.toml

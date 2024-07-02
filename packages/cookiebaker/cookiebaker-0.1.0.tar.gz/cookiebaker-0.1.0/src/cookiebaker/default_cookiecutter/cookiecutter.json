@@ -1,0 +1,14 @@
+{
+    "project_short_description": "(TBD)",
+    "github_username": "",
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "versioning": ["semver", "calver"],
+    "open_source_license": ["MIT", "BSD", "ISC", "ASL2", "GPL3", ""],
+    "__project_name": "",
+    "__pypi_slug": "",
+    "__rtd_slug": "",
+    "__full_name": "",
+    "__email": "",
+    "__year": "",
+    "__month": ""
+}
