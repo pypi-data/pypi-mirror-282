@@ -1,0 +1,17 @@
+cookiebaker/__init__.py,sha256=TayS9UyEYXo6kkqnehaj9m7s2Fc4VkUT4oSR6HKc0tk,1686
+cookiebaker/__pycache__/__init__.cpython-310.pyc,sha256=lZyM1se44D_4GaIr5Trdb9lQOcV8ePnC41yqeIZGQes,1924
+cookiebaker/default_cookiecutter/cookiecutter.json,sha256=Tcq0Igf6m4lWC2CDvFZkYKGLtAEw20fqW-Bw6FYNiIQ,408
+cookiebaker/default_cookiecutter/templates/MIT License,sha256=4OwiURka6mAsopYCajFJQVDIxiqQUl3X0ZCu7uWN5QY,1108
+cookiebaker/default_cookiecutter/templates/Unlicense,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/LICENSE.txt,sha256=jsxiUj7V3633A3kuQS3Z7pxyzEO940n0KTVq1ybdGuE,42
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/README.md,sha256=sdaH3hAiAKh-BfBq6tyXd7qhrjlwdb7mdvoGzIxsZvM,961
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/pyproject.toml,sha256=-1eaSIoDluZ5--9XxKK1V1uBClzGimVAyCkCKQKKmH0,932
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/{{ cookiecutter.__gitignore }},sha256=Vz63nX3b_kCV3wKpw_2OrKCXJkRfF7ECldZa1ZHNDPw,120
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/.local/run-acceptance-test,sha256=-2Ejdy4C0EFhlPzBtUBqC0e2waVjTjq1h7QUn_vgXeI,200
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/.local/{{ cookiecutter.__gitignore }},sha256=nJGh-84srKHA7fti4XojPAPxeZ7k59u4p79qqff9NJc,200
+cookiebaker-0.2.0.dist-info/LICENSE.txt,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+cookiebaker-0.2.0.dist-info/METADATA,sha256=-dHv3iDlbBNdLfd0lOxJza14wJdD0lyqEeNVhh8C5es,3099
+cookiebaker-0.2.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+cookiebaker-0.2.0.dist-info/entry_points.txt,sha256=8jhXb5iL6RMv6N45jU3SWbkFjfZSseIaLv_i6pLsg8Q,48
+cookiebaker-0.2.0.dist-info/top_level.txt,sha256=XyMISYMC-i1dAAr1z20XycZnhkvknEnovdQQlZUQuxs,12
+cookiebaker-0.2.0.dist-info/RECORD,,
