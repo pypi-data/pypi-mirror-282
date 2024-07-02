@@ -1,0 +1,2 @@
+[console_scripts]
+vsd = vspk.cli.cli:main
