@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+prettify_json/__init__.py
+prettify_json.egg-info/PKG-INFO
+prettify_json.egg-info/SOURCES.txt
+prettify_json.egg-info/dependency_links.txt
+prettify_json.egg-info/top_level.txt

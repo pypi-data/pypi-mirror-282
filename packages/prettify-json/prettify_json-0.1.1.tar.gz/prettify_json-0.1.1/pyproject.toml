@@ -1,0 +1,18 @@
+[project]
+name = "prettify-json"
+version = "0.1.1"
+authors = [
+  { name="jinjin xu", email="jinxu95@outlook.com" },
+]
+description = "make pretty json"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/VeritasXu/prettify-json"
+Issues = "https://github.com/VeritasXu/prettify-json/issues"
