@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: locobuzz-python-orm
+Version: 0.1
+Summary: Python database orm functions for Locobuzz,  common code that is required in all projects
+Home-page: https://github.com/LocoBuzz-Solutions-Pvt-Ltd/locobuzz_python_utils
+Author: Sheikh Muhammed Shoaib
+Author-email: shoaib.sheikh@locobuzz.com
+Keywords: locobuzz,python,database
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: Cython
+
