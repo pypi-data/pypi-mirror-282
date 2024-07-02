@@ -1,0 +1,2 @@
+Version: 1.7.0
+Arguments: ['X:\\Downloads\\SHTOOLS\\.venv\\Scripts\\delvewheel', 'repair', '.\\dist\\pyshtools_winmac-4.12.2-cp312-cp312-win_amd64.whl', '-w', 'dist']
