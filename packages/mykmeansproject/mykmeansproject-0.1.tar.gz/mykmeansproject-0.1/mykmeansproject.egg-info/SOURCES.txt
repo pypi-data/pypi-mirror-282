@@ -1,0 +1,9 @@
+README.md
+setup.py
+mykmeansproject/__init__.py
+mykmeansproject/kmeans.py
+mykmeansproject/yeni44.out
+mykmeansproject.egg-info/PKG-INFO
+mykmeansproject.egg-info/SOURCES.txt
+mykmeansproject.egg-info/dependency_links.txt
+mykmeansproject.egg-info/top_level.txt
