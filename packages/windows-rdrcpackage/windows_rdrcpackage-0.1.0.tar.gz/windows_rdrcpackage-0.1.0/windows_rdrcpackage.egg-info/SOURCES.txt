@@ -1,0 +1,10 @@
+README.md
+setup.py
+windows_package/__init__.py
+windows_package/windows_canny.py
+windows_package/windows_rename.py
+windows_rdrcpackage.egg-info/PKG-INFO
+windows_rdrcpackage.egg-info/SOURCES.txt
+windows_rdrcpackage.egg-info/dependency_links.txt
+windows_rdrcpackage.egg-info/requires.txt
+windows_rdrcpackage.egg-info/top_level.txt
