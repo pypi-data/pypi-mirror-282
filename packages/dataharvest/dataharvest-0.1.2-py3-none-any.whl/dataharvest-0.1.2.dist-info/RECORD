@@ -1,0 +1,12 @@
+dataharvest/__init__.py,sha256=AzkDi9Ldle_OUyIgxkSjd_Gi4ULUXGEm2s2qHGg6lEM,56
+dataharvest/base.py,sha256=G0X6n4FJLl8TBZ15gEyliy-tvIK4wWPAxoOS0pe4JB8,117
+dataharvest/purifier/__init__.py,sha256=DfFBJDQBvupq1onTHg0hRfvsniu5cEv_KMnJ6jSHz34,195
+dataharvest/purifier/common_purifier.py,sha256=XDP_hqfD-QtbKjxPmNH9yckFmwGl6pxMRKduLGqzcjk,668
+dataharvest/purifier/purifier.py,sha256=GtVQSZNnEJEx1KupyIEo-VXb5F3xZxBkxNh887gdegY,886
+dataharvest/spider/__init__.py,sha256=K2bdgTZBDVd77qlMCw4cirzTzBw64i6mWoWZSk3N0XE,246
+dataharvest/spider/common_spider.py,sha256=quh0XSj0IpgQ79U6FInhL0YvND5G19LDMFpm5WsQoK8,1430
+dataharvest/spider/spider.py,sha256=V8mzU8LqutHS_nWsXE7Z9gCnIo-C-QxRpIEu3t-ZDyw,983
+dataharvest/spider/zhihu_spider.py,sha256=0sJP6cUcr5sjIsN_Fm1QIv9AGX-aN7RrEbvVt3olGpY,1129
+dataharvest-0.1.2.dist-info/METADATA,sha256=h9YbAwgJ-2sMDttz7wWpK4KZ9a9neYxjJrH-eioTUnM,336
+dataharvest-0.1.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dataharvest-0.1.2.dist-info/RECORD,,
