@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test1Yyc"
+version = "0.1.2"
+description = ""
+authors = ["u7133414 <u7133414@anu.edu.au>"]
+readme = "README.md"
+packages = [{include = "test1",from="."},{include ="utils",from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flash = "^1.0.3"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
