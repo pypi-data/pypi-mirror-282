@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gptsummary
+Version: 0.0.1
+Summary: AI-Powered Summary Tools
+Author: Ainancer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+An AI-Powered Summary Tool
