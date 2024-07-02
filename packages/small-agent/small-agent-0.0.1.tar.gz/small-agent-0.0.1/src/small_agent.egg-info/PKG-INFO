@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: small-agent
+Version: 0.0.1
+Summary: Code generation LLM agent for fast prototyping
+Home-page: UNKNOWN
+Author: George
+Author-email: george.scratch.dev@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

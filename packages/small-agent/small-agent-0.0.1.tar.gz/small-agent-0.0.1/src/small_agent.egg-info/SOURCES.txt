@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.py
+src/code_agent/__init__.py
+src/code_agent/chat_completion.py
+src/small_agent.egg-info/PKG-INFO
+src/small_agent.egg-info/SOURCES.txt
+src/small_agent.egg-info/dependency_links.txt
+src/small_agent.egg-info/requires.txt
+src/small_agent.egg-info/top_level.txt
