@@ -1,0 +1,8 @@
+README.md
+setup.py
+avnum/__init__.py
+avnum/avnum.py
+avnum.egg-info/PKG-INFO
+avnum.egg-info/SOURCES.txt
+avnum.egg-info/dependency_links.txt
+avnum.egg-info/top_level.txt

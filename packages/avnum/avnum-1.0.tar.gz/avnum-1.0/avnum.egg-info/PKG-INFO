@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: avnum
+Version: 1.0
+Summary: A simple module to calculate the average of numbers
+Home-page: https://github.com/andreimotin/avnum
+Author: Andrei Motin
+Author-email: motinandrei@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# avnum
+
+A simple Python module to calculate the average of numbers.
+
+## Installation
+
+```bash
+pip install avnum
+```
+
+## Usage
+
+```python
+import avnum
+avnum.average()
+```
+
+## Examples
+
+Example 1:
+```python
+import avnum
+list = [1, 2, 3]
+avnum.average(list)
+```
+
+Example 2:
+```python
+import avnum
+avnum.average(1, 2, 3)
+```
+
+Example 3:
+```python
+import avnum
+num_input = input()
+num_average = avnum.average(num_input)
+print(num_average)
