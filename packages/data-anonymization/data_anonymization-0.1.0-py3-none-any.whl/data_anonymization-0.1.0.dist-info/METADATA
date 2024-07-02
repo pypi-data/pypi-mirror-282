@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: data_anonymization
+Version: 0.1.0
+Summary: A FastAPI application for DICOM data anonymization and uploading to Firebase.
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: aiohttp
+Requires-Dist: firebase-admin
+Requires-Dist: pydicom
+Requires-Dist: python-multipart
+Requires-Dist: werkzeug
+
