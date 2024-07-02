@@ -1,0 +1,2 @@
+[myst_nb.mime_renderers]
+application_json = myst_nb_json:JsonMimeRenderPlugin
