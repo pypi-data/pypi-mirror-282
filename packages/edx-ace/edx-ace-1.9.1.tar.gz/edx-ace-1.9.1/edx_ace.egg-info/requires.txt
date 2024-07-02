@@ -1,0 +1,10 @@
+Django>=2.2
+attrs>=17.2.0
+edx-django-utils>=5.14.2
+python-dateutil
+sailthru-client==2.2.3
+six
+stevedore>=1.10.0
+
+[sailthru]
+sailthru-client<2.3,>2.2
