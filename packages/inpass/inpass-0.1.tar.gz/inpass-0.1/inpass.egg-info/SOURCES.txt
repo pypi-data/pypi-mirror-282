@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+inpass.egg-info/PKG-INFO
+inpass.egg-info/SOURCES.txt
+inpass.egg-info/dependency_links.txt
+inpass.egg-info/entry_points.txt
+inpass.egg-info/top_level.txt
