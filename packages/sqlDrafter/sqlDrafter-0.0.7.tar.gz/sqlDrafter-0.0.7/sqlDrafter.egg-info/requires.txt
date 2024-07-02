@@ -1,0 +1,12 @@
+requests
+prompt-toolkit>=3.0.38
+fastapi
+uvicorn
+tqdm
+pwinput
+mysql-connector-python
+sasl
+thrift
+thrift-sasl
+PyHive
+openpyxl
