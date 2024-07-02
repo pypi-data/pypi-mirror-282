@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pykniout_reward
+Version: 0.0.1
+Summary: コード引き換えライブラリ
+Home-page: https://github.com/nmlyz/pykniout_reward
+Author: nmlyz
+Author-email: 
+License: MIT
+Keywords: nmlyz project
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+Requires-Dist: requests>=2.14.2
