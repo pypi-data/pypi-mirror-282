@@ -1,0 +1,2 @@
+numpy>=1.25; python_version >= '3.9'
+numpy; python_version < '3.9'
