@@ -1,0 +1,5 @@
+[console_scripts]
+sdnaintegral = sDNA.bin.sdnaintegral:main
+sdnalearn = sDNA.bin.sdnalearn:main
+sdnapredict = sDNA.bin.sdnapredict:main
+sdnaprepare = sDNA.bin.sdnaprepare:main
