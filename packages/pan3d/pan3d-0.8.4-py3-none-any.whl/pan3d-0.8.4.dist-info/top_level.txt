@@ -1,0 +1,4 @@
+docs
+pan3d
+pan3d-js
+tests
