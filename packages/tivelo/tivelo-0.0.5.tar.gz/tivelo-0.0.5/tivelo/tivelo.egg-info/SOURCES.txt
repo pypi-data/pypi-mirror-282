@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tivelo/tivelo.egg-info/PKG-INFO
+tivelo/tivelo.egg-info/SOURCES.txt
+tivelo/tivelo.egg-info/dependency_links.txt
+tivelo/tivelo.egg-info/requires.txt
+tivelo/tivelo.egg-info/top_level.txt
