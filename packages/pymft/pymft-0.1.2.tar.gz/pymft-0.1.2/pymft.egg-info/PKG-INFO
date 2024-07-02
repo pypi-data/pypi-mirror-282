@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pymft
+Version: 0.1.2
+Summary: Library for Midi Fighter Twister Interfacing in Python
+Author: Sina Solaimanpour
+Author-email: sinas.cb@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: python-rtmidi>=1.5.8
+Requires-Dist: typing>=3.7.4
