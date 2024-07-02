@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dyno_dino
+Version: 1.0.4
+Summary: Set of useful methods to speed up conversion of objects to AWS services
+Home-page: https://github.com/JoaoGodoi/dyno-dino
+Author: João Victor Godoi Bernardino
+Author-email: joaogodoi1010@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# DynoDino
+
+Set of useful methods to speed up conversion of objects to AWS services
+``` 
+pip install dyno-dino
+``` 
