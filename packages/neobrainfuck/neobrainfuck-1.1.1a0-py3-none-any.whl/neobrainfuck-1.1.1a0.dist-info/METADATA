@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: neobrainfuck
+Version: 1.1.1a0
+Summary: Just another rethink of the BrainFuck language
+Home-page: https://github.com/kusrabyzarc/NeoBrainF--k
+Author: kusrabyzarc
+Author-email: crazybarsuk@mail.ru
+Keywords: BrainFuck interpreter extended programming language esolang development python library brainfuck-interpreter esoteric extended-brainfuck
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NeoBrainFuckInterpreter
+
+NeoBrainFuckInterpreter is a Python interpreter for the Brainfuck programming language with additional commands for extended functionality.
+
+## Overview
+
+This interpreter supports the basic Brainfuck commands (`+`, `-`, `<`, `>`, `[`, `]`, `.`, `,`) and introduces three additional commands:
+
+- `$`: Switches IO mode to ASCII.
+- `%`: Switches IO mode to integers.
+- `^`: Jumps to memory cell with address which equals the value of current memory cell.
+- `&`: Jumps to the instruction with address which equals the value of current memory cell.
+- `0`: NOP (No operation)
+
+The interpreter manages memory using a dynamic stack (`MemoryStack`), allowing for negative indices and dynamic memory expansion.
+
+## Usage
+
+### Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/kusrabyzarc/NeoBrainF--k.git
+cd NeoBrainF--k
+```
+
+### Interpreter args
+```text
+code: [str] BrainFuck code
+do_debug: [bool] print debug info (default: False)
+vanilla_cell_behaviour: [bool] clamp the values in memory to the range 0-255 (default: False)
+vanilla_memory_stack: [bool] use static 30k-sized memory stack instead of dynamic one (default: False)
+```
+### Examples
+~~You can find examples [here](https://github.com/kusrabyzarc/NeoBrainF--k/tree/main/examples).~~\
+In progress.
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
