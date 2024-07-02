@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "httpquick"
+version = "0.1.1"
+description = "A HttpQuick that executes on the command line to make http requests"
+authors = ["mi-ztyanya"]
+license = "MIT"
+readme = "README.md"
+include = ["README.md",
+            "LICENSE",]
+homepage = "https://github.com/mi-ztyanya/HttpQuick/"
+
+[tool.poetry.scripts]
+httpquick = "httpquick.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+certifi = "^2024.6.2"
+chardet = "^5.2.0"
+cryptography = "^42.0.8"
+idna = "^3.7"
+logging = "^0.4.9.6"
+pyreadline3 = "^3.4.1"
+requests = "^2.32.3"
+urllib3 = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
