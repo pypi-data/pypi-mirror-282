@@ -1,0 +1,25 @@
+airscript:
+  init:
+    scripts:
+      - samples/rc
+  verbose: true
+  download-dir: .
+  timeout: 20.0
+  tls:
+    verify: false
+
+servers:
+  test:
+    - name: test
+      hostname: 10.92.0.17
+      apikey: eyJlbm...
+      mgmt: true
+  prod:
+    - name: prod1
+      hostname: 192.168.200.1
+      apikey: eyJlbm...
+      peer: prod2
+    - name: prod2
+      hostname: 192.168.200.2
+      apikey: eyJlbm...
+      peer: prod1
