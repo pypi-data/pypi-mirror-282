@@ -1,0 +1,11 @@
+README.md
+setup.py
+tsassure_feature/__init__.py
+tsassure_feature/feature_extractor.py
+tsassure_feature/main.py
+tsassure_feature.egg-info/PKG-INFO
+tsassure_feature.egg-info/SOURCES.txt
+tsassure_feature.egg-info/dependency_links.txt
+tsassure_feature.egg-info/entry_points.txt
+tsassure_feature.egg-info/requires.txt
+tsassure_feature.egg-info/top_level.txt
