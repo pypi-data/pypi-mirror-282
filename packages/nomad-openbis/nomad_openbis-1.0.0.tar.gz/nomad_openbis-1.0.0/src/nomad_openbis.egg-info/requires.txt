@@ -1,0 +1,11 @@
+requests
+urllib3
+pandas
+texttable
+tabulate
+python-dateutil
+
+[dev]
+ruff
+pytest
+structlog

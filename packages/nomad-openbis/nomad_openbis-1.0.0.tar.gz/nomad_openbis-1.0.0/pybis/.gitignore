@@ -1,0 +1,10 @@
+*~
+.*.sw?
+.ipynb_checkpoints/
+*.ipynb
+dist
+deleteDatasetsAlreadyDeletedFromApplicationServerTaskLastSeen
+notebooks
+*__pycache__/
+*.mypy_cache/
+build/
