@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/TimeStampProcessing.egg-info/PKG-INFO
+src/TimeStampProcessing.egg-info/SOURCES.txt
+src/TimeStampProcessing.egg-info/dependency_links.txt
+src/TimeStampProcessing.egg-info/requires.txt
+src/TimeStampProcessing.egg-info/top_level.txt
+src/timestampprocessing/__init__.py
+src/timestampprocessing/timestampprocessing.py
