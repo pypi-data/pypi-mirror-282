@@ -1,0 +1,11 @@
+numpy
+torch
+torchvision
+einops
+pytorch_metric_learning
+faiss-gpu
+prettytable
+timm
+opencv-python
+h5py
+scikit-image
