@@ -1,0 +1,16 @@
+[build-system]
+requires=["setuptools","setuptools-scm"]
+build-backend="setuptools.build_meta"
+
+[project]
+name = "hangman_letter"
+version = "1.8.1"
+description = "Hangman Game is an interesting word letter guessing game"
+
+[dependencies]
+rich = "*"
+pyfiglet = "*"
+
+[project.scripts]
+hangman = "hangman_letter.__main__:main"
+

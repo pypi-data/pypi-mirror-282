@@ -1,0 +1,8 @@
+pyproject.toml
+hangman_letter/__main__.py
+hangman_letter/hangman_letter.py
+hangman_letter.egg-info/PKG-INFO
+hangman_letter.egg-info/SOURCES.txt
+hangman_letter.egg-info/dependency_links.txt
+hangman_letter.egg-info/entry_points.txt
+hangman_letter.egg-info/top_level.txt

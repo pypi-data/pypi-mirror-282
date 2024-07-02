@@ -1,0 +1,2 @@
+[console_scripts]
+hangman = hangman_letter.__main__:main
