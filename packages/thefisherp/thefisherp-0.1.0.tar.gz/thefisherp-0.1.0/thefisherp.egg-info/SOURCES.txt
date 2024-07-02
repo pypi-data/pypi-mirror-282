@@ -1,0 +1,5 @@
+setup.py
+thefisherp.egg-info/PKG-INFO
+thefisherp.egg-info/SOURCES.txt
+thefisherp.egg-info/dependency_links.txt
+thefisherp.egg-info/top_level.txt
