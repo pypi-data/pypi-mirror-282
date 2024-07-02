@@ -1,0 +1,12 @@
+easysense/__init__.py,sha256=HDet5gWVLFT7SRgo9c2hX6dH-pNSlgymdaBUSHYpdUI,62
+easysense/cli.py,sha256=lYPOOZUDH3OujE1NsGW4_ETjAYKszS6_JXLswZO62Vk,1823
+easysense/config.yaml,sha256=rA7sJNbg2KCqgX6CWfvwnOEuUV-0MG282ek2nxOcrs0,551
+easysense/easysense.py,sha256=MMt2RXY2rFv_pUPTGCA79dxbfp7y_6wQkOuQWKQisQA,599
+easysense/main.py,sha256=m6fptALFQ2xclRBWhRh-G6iGQn6Pla5amkXYPvh22JA,12540
+easysense/sensors/.example/main.py,sha256=uV6OT3X3LL9-DOvLvbyfSAiiDhwvtWahXZWdRJQ2SSM,1554
+easysense/sensors/.example/requirements.txt,sha256=12uqJjrAqhuFlUnDluUQ_N6ifweeXLa04-JBv88IHAg,12
+easysense-1.0.11.dist-info/METADATA,sha256=Sa088LNHgj6a2t3TpFBxp-p5779a03lCDDbmx8Ysnp4,3649
+easysense-1.0.11.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+easysense-1.0.11.dist-info/entry_points.txt,sha256=MLaO18aWUwf0o-VX1N21dWqiFBSXu31odLxHMmF1fIw,50
+easysense-1.0.11.dist-info/licenses/LICENSE,sha256=4UktTZaHvJulnPfwv8rbjuNvb154Sp29lY1InCVt-jE,1065
+easysense-1.0.11.dist-info/RECORD,,
