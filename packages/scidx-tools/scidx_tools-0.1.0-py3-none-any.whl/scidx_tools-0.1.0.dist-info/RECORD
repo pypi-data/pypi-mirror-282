@@ -1,0 +1,15 @@
+scidx_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scidx_tools/client/__init__.py,sha256=9QIdC75l9xuOUoWiK4-0RidhPqipcQNuC18q-2zQj9g,611
+scidx_tools/client/consume_kafka.py,sha256=9MkVP_VxzjziHmZno6fKJFWoVYCnjnAoSnDhOTuvkdM,2674
+scidx_tools/client/init_client.py,sha256=FIHv_ptx1SLLgMMYePw5-rLVIPuOcgpu4BRyHefu19Y,687
+scidx_tools/client/random_name.py,sha256=dOJWHNg-IMbo_LlQ4S8ilIwW_Akxv25E3hyzwn4h968,163
+scidx_tools/client/send_random_messages.py,sha256=yxc9jgI_QCGoO6dhO_pABsn9KaLFQzY-b2myg7Lq7pg,535
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_full_api_flow.py,sha256=XF4TClL83GZJQrLXQx50S8tnjQ4AIEGVucR6S6JxUMo,3982
+tests/test_full_kafka_flow.py,sha256=Vbpt3dZMbbZK0_OXLfTqtYT9N9JxCfWfc-OvJ5QPIFQ,4641
+scidx_tools-0.1.0.dist-info/AUTHORS,sha256=xdyF0eRZwcrxD5zNwvUp59W8ryIIQKOQ2DDoi6UyUGY,230
+scidx_tools-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scidx_tools-0.1.0.dist-info/METADATA,sha256=aK_CqYB-VbpWo2k36ND7aLgcnWjx5OjbbC4FuN3PFk0,4562
+scidx_tools-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scidx_tools-0.1.0.dist-info/top_level.txt,sha256=PigPhN8bpFYh39esLgbC0MHTGScJ2lI5PxLC9vqL1BE,18
+scidx_tools-0.1.0.dist-info/RECORD,,
