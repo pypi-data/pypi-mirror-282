@@ -1,0 +1,1 @@
+from .avnum import average
