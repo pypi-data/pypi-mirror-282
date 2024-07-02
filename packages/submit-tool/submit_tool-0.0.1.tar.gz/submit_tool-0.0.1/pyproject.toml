@@ -1,0 +1,25 @@
+[project]
+name = "submit_tool"
+version = "0.0.1"
+authors = [
+  { name="Zesen", email="zesenwang2@gmail.com" },
+]
+description = "A simple tool to cache the configuration files of the commands"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.gui-scripts]
+submit-tool = "submit_tool:submit"
+
+[project.urls]
+Homepage = "https://github.com/WangZesen/submit-tool"
+Issues = "https://github.com/WangZesen/submit-tool/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
