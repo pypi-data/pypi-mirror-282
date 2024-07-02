@@ -1,0 +1,6 @@
+README.md
+setup.py
+py_semantic_caching.egg-info/PKG-INFO
+py_semantic_caching.egg-info/SOURCES.txt
+py_semantic_caching.egg-info/dependency_links.txt
+py_semantic_caching.egg-info/top_level.txt
