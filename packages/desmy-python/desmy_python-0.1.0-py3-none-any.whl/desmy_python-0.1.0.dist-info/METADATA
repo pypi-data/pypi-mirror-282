@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: desmy-python
+Version: 0.1.0
+Summary: A Django manager for create, update, delete, and read operations with pagination, search, and sorting.
+Home-page: https://github.com/yourusername/desmy-python
+Author: Desmy Dev
+Author-email: desmydev@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=3.0
+
+# Desmy Python
+
+A Django manager for create, update, delete, and read operations with pagination, search, and sorting.
+
+## Installation
+
+```bash
+pip install desmy-python

@@ -1,0 +1,10 @@
+desmy_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+desmy_python/models.py,sha256=ZrTvNksyVH9xA_2wQprC2er7IAbfyl_z3CSq2_wJWuM,1298
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/models.py,sha256=-6WC9I3ayAkBus5Bf9-KUKjmFtTvm1SUQzuVCPhfKs4,264
+tests/test_models.py,sha256=cbdNtT8LcCOZh67aco19TvgtIBR4LuuSrXrlWOOApE0,1435
+desmy_python-0.1.0.dist-info/LICENSE,sha256=ZhOuhoet8BcOc5PAnGbajFgUioJBRt-yKbE5MXiiRy4,141
+desmy_python-0.1.0.dist-info/METADATA,sha256=1rGpRxxChuWpKObFXa-GVgq4lVg4cjnnFi70gT6ALow,625
+desmy_python-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+desmy_python-0.1.0.dist-info/top_level.txt,sha256=Kqf3Bze3xb7I-WcNLSQL2a0enxBBtdq12ZwKc41OBBg,19
+desmy_python-0.1.0.dist-info/RECORD,,
