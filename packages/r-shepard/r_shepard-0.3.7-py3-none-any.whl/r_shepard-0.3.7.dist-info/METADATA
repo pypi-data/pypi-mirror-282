@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: r-shepard
+Version: 0.3.7
+Summary: 
+License: GPL-3.0
+Author: linozen
+Author-email: linus@sehn.dev
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: celery (>=5.4.0,<6.0.0)
+Requires-Dist: daphne (>=4.1.2,<5.0.0)
+Requires-Dist: django (>=5.0.4,<6.0.0)
+Requires-Dist: django-admin-interface (>=0.28.6,<0.29.0)
+Requires-Dist: django-otp-yubikey (>=1.1.0,<2.0.0)
+Requires-Dist: django-two-factor-auth (>=1.16.0,<2.0.0)
+Requires-Dist: phonenumberslite (>=8.13.35,<9.0.0)
+Requires-Dist: podman (>=5.0.0,<6.0.0)
+Requires-Dist: redis (>=5.0.4,<6.0.0)
+Description-Content-Type: text/markdown
+
+# r-shepard
+
+![Coverage Status](./coverage-badge.svg)
+
+Simple, self-hosted solution for collaborative (not real-time) R computing leveraging podman,
+RStudio, and Tailscale.
+
+Built with Django and HTMX.
+
+## Develop
+
+First start the development environment:
+
+```bash
+devenv up # starts redis, celery worker and celery beat
+run-tests # runs the tests
+```
+
+Then start the Django development server:
+
+```bash
+python manage.py runserver # This could also be done from your IDE / debugging environment
+```
+
+## Installation instructions (Ubuntu 22.04).
+
+### Requirements
+
+- Install [podman](https://podman.io/docs/installation) (used for running RStudio containers), git (needed for auto-commit functionality), and redis-server (needed for celery which is used for scheduling the auto-commit tasks).
+
+```bash
+sudo apt install podman git redis-server
+```
+
+### Prepare the environment
+
+First, it's advised to create a new system user for the application:
+
+```bash
+sudo adduser -r -M r-shepard
+```
+
+This user should be able to run `podman` without `sudo`. To do this, assign
+subordinate group and user ID ranges to the user:
+
+```bash
+echo "r-shepard:100000:65536" | sudo tee -a /etc/subuid
+echo "r-shepard:100000:65536" | sudo tee -a /etc/subgid
+```
+
+The user should also be able to run `tailscale` without `sudo`. To do this,
+start tailscale with the `--operator=<user>` flag:
+
+```bash
+sudo tailscale up --operator=r-shepard
+```
+
+Then, switch to your new system user and install the application:
+
+```bash
+pip install r-shepard
+```
+
+Then, apply the migrations:
+
+```bash
+DB_PATH=/home/r-shepard/db.sqlite r-shepard migrate
+```
+
+Next, generate the static files
+
+Then, you're ready to run the application:
+
+```bash
+daphne -b 0.0.0.0 -p 8000 r_shepard.asgi:application
+```
+
+Now add a systemd service file for the application:
+
+```bash
+r-shepard systemd # Not implemented yet
+cp services/* /etc/systemd/system/
+```
+
+```bash
+sudo systemctl daemon-reload
+```
+
+### Open ports
+
+If you want to access application from inside the university network, you need to open the ports 40000 to 41000.
+
+```bash
+sudo ufw allow 40000:41000/tcp # This could be improved by allowing traffic only from the OSI network (or using something like Nebula)
+```
+
+## Minimum Viable Product
+
+- [ ] Create admin command for creating systemd services
+- [ ] Add installation instructions for Ubuntu 22.04
+- [ ] ~~[gitwatch](https://github.com/gitwatch/gitwatch?tab=readme-ov-file) integration~~ Rolled my own solution. Need to document and integrate it into the UI.
+- [x] Remove tailscale as `tailscale serve/funnel` does not work (see [this issue](https://github.com/tailscale/tailscale/issues/10693#issuecomment-2183277632)).
+- [x] Publish on PyPi
+- [x] ~~Add views for project creation~~ Django admin is enough for now.
+- [x] Test R Project/Package management inside the container (e.g. `renv`)
+- [x] Add Volume management
+- [x] Setup Frontend framework (e.g. ~~Bootstrap~~, PicoCSS)
+- [x] Setup 2FA
+- [x] Add Tailscale Serve integration
+- [x] Add basic container management via podman
+- [x] Add basic views for projects and container management
+- [x] ~~Add Tailscale Funnel integration~~ Not needed right now
+- [x] ~~Make it possible to assign users to projects (only superusers should be able to create projects and assign users to them)~~ Not needed right now
+
+## Potential Future Features
+
+- LDAP integration
+- container-specific and user-specific auto-commits
+
