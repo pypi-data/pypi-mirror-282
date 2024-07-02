@@ -1,0 +1,5 @@
+setup.py
+itba_microservices_raabitmq_connectors_test2.egg-info/PKG-INFO
+itba_microservices_raabitmq_connectors_test2.egg-info/SOURCES.txt
+itba_microservices_raabitmq_connectors_test2.egg-info/dependency_links.txt
+itba_microservices_raabitmq_connectors_test2.egg-info/top_level.txt
