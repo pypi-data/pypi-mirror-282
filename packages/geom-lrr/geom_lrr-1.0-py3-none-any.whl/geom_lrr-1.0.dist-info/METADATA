@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: geom-lrr
+Version: 1.0
+Summary: Protein domain annotation tool
+Home-page: https://github.com/amcerbu/LRR-Annotation/
+Author: Boyan Xu, Alois Cerbu, Daven Lim, Chris Tralie, Ksenia Krasileva
+Author-email: boxu@berkeley.edu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: biopython
+Requires-Dist: jupyter
+Requires-Dist: mayavi
+Requires-Dist: wxPython
+
+# LRR-Annotation
+
+Tools for automatic annotation of leucine-rich repeat domains in protein structures. 
+
+To use, make a new virtual / Conda environment and call:
+```
+pip install -e .
+```
+
+The Jupyter notebook `demo.ipynb` shows the basic operation of the pipeline, and writes
+a number of `pdf` plots into the `plots` directory. The figures of the paper will be generated
+by Jupyter notebooks in the `figures` directory. 
