@@ -1,0 +1,34 @@
+---
+
+name: main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-github-pages:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - name: Clone full tree, and checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configure git user
+        run: |
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - name: Setup Python and PDM
+        uses: pdm-project/setup-pdm@v4
+        with:
+          python-version: "3.12"
+          version: "2.16.1"
+      - name: Create virtual environment
+        run: pdm install
+      - name: Publish the docs to GitHub Pages
+        run: pdm run mike deploy --push develop
+      - name: List available docs versions
+        run: pdm run mike list
