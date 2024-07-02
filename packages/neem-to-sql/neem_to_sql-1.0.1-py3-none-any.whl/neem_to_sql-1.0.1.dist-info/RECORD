@@ -1,0 +1,12 @@
+migrate_neems_to_sql.py,sha256=FzCjkymAky26bgaJQNPK5g8E_o4H4n0uob4KDar2URQ,2176
+mongo_vs_sql_query.py,sha256=35iy0Zcaw1XOHLicjSQW7EX7EX59p5O3MgjtiLExBOU,4040
+neems_to_sql/__init__.py,sha256=0SLdkOHPpmrancYi3ocbSN1bzYRLhFwYBiQmSznXUf0,28
+neems_to_sql/logger.py,sha256=o5NkHgZVI6EFRe6phHmgkx-XpHue1-766aM3JDuOf4I,3628
+neems_to_sql/neems_to_sql.py,sha256=LEzAQ9xVfriZp07ZxpNeXf9ii9FBpW6fTKAEXBjfqyQ,98252
+neems_to_sql/triples_to_sql.py,sha256=r94TtsP1cJXPsF6dM-L2oka_VL7-kBGS2m6nspfT__o,25432
+neem_to_sql-1.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+neem_to_sql-1.0.1.dist-info/METADATA,sha256=dRJZZsZL5-xlXBBM90MwmlDVrKw5RtUipiP7MVm9dus,50393
+neem_to_sql-1.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+neem_to_sql-1.0.1.dist-info/entry_points.txt,sha256=sULXRL1rEFdBzYGg39ka7fncZqyg0uNpsllOloZX_RQ,69
+neem_to_sql-1.0.1.dist-info/top_level.txt,sha256=h356Z-ZoTSj61hZR2IfzMShp-6kzK6PIbLpvKFZuLJk,53
+neem_to_sql-1.0.1.dist-info/RECORD,,
