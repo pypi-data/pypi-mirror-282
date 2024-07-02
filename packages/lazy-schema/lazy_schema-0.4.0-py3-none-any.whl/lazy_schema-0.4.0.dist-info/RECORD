@@ -1,0 +1,9 @@
+lazy_schema/__init__.py,sha256=QtBikinZzYXlX1PBKdQLzDapjlqmllbonMZ6SbFdCck,109
+lazy_schema/field.py,sha256=iM88X1HFOj3x-kN7G5WIbb6xMH6xolOfJ9BWEqhQEdI,2987
+lazy_schema/schema.py,sha256=yRJe3rrEJjcB5h5EIGuH63kHNNiusXRLFN8TXB-UWGU,5015
+lazy_schema/schema_pool.py,sha256=4mMC-PRBbUyw-0aoDktFKRdjVMxe5EGH4JDvgEczI-M,2919
+lazy_schema/utils.py,sha256=LKD4c--eZn0ZoG8pYaevs9PJTVy_9cnsN49DeryBZJo,1847
+lazy_schema/value_setter.py,sha256=Pky9FSmzgm8BICYS4nHdJfsJaxydVC0eXZZJ4jFTK1E,315
+lazy_schema-0.4.0.dist-info/METADATA,sha256=8EoXy049ymEWahZWNB8a5PmApAtQIu_IqEB9nVyLhw4,4636
+lazy_schema-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+lazy_schema-0.4.0.dist-info/RECORD,,
