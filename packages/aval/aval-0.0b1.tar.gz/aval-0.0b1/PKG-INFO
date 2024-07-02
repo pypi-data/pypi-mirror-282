@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: aval
+Version: 0.0b1
+Summary: AVal is a class capable of applying a list of validation strategies and an exception handler to an object to be validated. It can be used by calling the validation method as well as a decorator
+Home-page: https://github.com/hmxustin/aval
+Download-URL: https://github.com/hmxustin/aval/archive/refs/heads/main.zip
+Author: Maxim Ustin
+Author-email: mxustin@gmail.com
+Project-URL: GitHub, https://github.com/hmxustin/aval
+Project-URL: ZIP, https://github.com/hmxustin/aval/archive/refs/heads/main.zip
+Project-URL: Manual (RU), https://docs.mxustin.ru/micro/validator/manual/intro
+Keywords: validator,validation,data validation,abstract validator,validation strategy,validation method,validation decorator
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+
+# aval
+
+## Abstract
+
+**Abstract Validator** (``AVal``) is a class implemented in Python, capable 
+of taking a list of specific validation strategies (with parameters), as well 
+as a method for handling exceptional situations, and applying these methods to 
+the validation object. The **Abstract Validator** can be used by calling the 
+validation **method** on an instance of a class, as well as a **decorator**.
+
+## Installation
+
+Use:
+
+``pip install aval``
+
+## Basic usage
+```
+def _is_string(obj: v.VObj, params: v.VParams) -> None:
+    t = type(obj)
+    if t != str:
+        raise v.ValidationError('Some description')
+
+
+def _correct_length(obj: v.VObj, params: v.VParams) -> None:
+    mn = params.get('min_length', 1)
+    mx = params.get('max_length', 32)
+    ln = len(obj)
+    if not mn <= ln <= mx:
+        raise v.ValidationError('Some description'
+        )
+
+
+vld = v.Validator([_is_string, _correct_length])
+vld.validate('Any message')
+```
+
+## Details
+
+More detailed documentation (in Russian) can be found at
+https://docs.mxustin.ru/micro/validator/manual/intro
