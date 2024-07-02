@@ -1,0 +1,8 @@
+numpy
+pandas
+tensorflow
+scikit-learn
+matplotlib
+sobol_seq
+autogluon
+Pillow==6.2.1
