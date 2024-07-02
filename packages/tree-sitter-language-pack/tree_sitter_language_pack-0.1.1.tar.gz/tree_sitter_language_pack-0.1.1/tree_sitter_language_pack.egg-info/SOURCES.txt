@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tree_sitter_language_pack/__init__.py
+tree_sitter_language_pack/py.typed
+tree_sitter_language_pack.egg-info/PKG-INFO
+tree_sitter_language_pack.egg-info/SOURCES.txt
+tree_sitter_language_pack.egg-info/dependency_links.txt
+tree_sitter_language_pack.egg-info/requires.txt
+tree_sitter_language_pack.egg-info/top_level.txt
+tree_sitter_language_pack/bindings/__init__.py
