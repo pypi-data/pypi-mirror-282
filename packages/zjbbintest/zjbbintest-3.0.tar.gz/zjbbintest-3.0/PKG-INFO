@@ -1,0 +1,1015 @@
+Metadata-Version: 2.1
+Name: zjbbintest
+Version: 3.0
+Summary: bintest自动化框架
+Home-page: UNKNOWN
+Author: zhangjiabin01
+Author-email: zhangjiabin01@baidu.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+**bintest通过json形式维护case结构，通过解析器将HAR包解析为满足要求的json格式，再通过执行器运行json，少代码甚至0代码编写自动化case**
+<a name="fa86abf1"></a>
+# 1、case结构
+bintest是以json格式作为case保存的基本结构，一条能够被bintest执行器执行的json格式是有一定要求的，具体说明请看本章节的详细内容
+<a name="e01d22ff"></a>
+## 1.1 case基本结构
+| 参数名称 | 类型 | 说明 |
+| --- | --- | --- |
+| caseName | String | case名称，必填 |
+| description | String | case详情，非必填 |
+| priority | int | 优先级，必填 |
+| tags | list | 标签列表，非必填，每一个元素为string类型的标签 |
+| testSteps | list | case步骤，必填，每一个元素为一个dict，代表一个步骤，详细说明见1.2 |
+
+<a name="af26db57"></a>
+## 1.2 testSteps中元素的结构
+| 参数名称 | 类型 | 说明 |
+| --- | --- | --- |
+| step | int | 步骤编号，需递增，必填 |
+| request | dict | 请求，必填，dict类型，具体说明见1.2.1 |
+| action | list | 动作列表，非必填，每一个元素为string类型的动作，是一个bintest字符串 |
+| assert | list | 断言列表，非必填，每一个元素为一个dict，代表一个步骤，详细说明见1.2.2 |
+
+<a name="e9c69658"></a>
+### 1.2.1 request结构
+| 参数名称 | 类型 | 说明 |
+| --- | --- | --- |
+| url | String | 请求url，必填 |
+| path | String | 请求路径，必填 |
+| method | String | String类型的枚举值，是"GET", "POST", "PUT", "DELETE", "HEAD"中的一种，必填 |
+| headers | dict | 请求header，dict类型，非必填 |
+| param | dict | 请求queryString，dict类型比如?userId=123 对应 {"userId": "123"}，非必填 |
+| body | dict | 请求体，非必填 |
+
+<a name="27494a2a"></a>
+### 1.2.2 assert中元素的结构
+| 参数名称 | 类型 | 说明 |
+| --- | --- | --- |
+| expect | String | 期望值，必填 |
+| actual | String | 实际值，必填 |
+| operator | String | 断言操作符，必填，有默认，也可自定义 |
+
+<a name="cd959ed0"></a>
+## 1.3 样例
+```json
+{
+  "caseName": "事件记录查询", // case名称，必填
+  "description": "", // case详情，非必填
+  "priority": 0, // case优先级，必填
+  "tags": ["交付", "线上功能回归", "监控"], // case标签列表
+  "testSteps": [ // case步骤列表
+    {
+      "step": 0, // 步骤编号，递增，必填
+      "request": { // 请求，必填
+        "url": "$BT[var($conf.dev.host)]", // 请求url，必填
+        "path": "/aiob-server/manage/console/callEvent/reservation", // 请求路径，必填
+        "method": "POST", // 请求方法，必填，需大写GET, POST, PUT, DELETE等
+        "headers": { // 请求header，非必填，dict类型，对应的是请求中header的键值对
+          "Accept": "application/json, text/plain, */*",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Accept-Language": "zh-CN,zh;q=0.9",
+          "AgentId": "10183",
+          "Connection": "keep-alive",
+          "Content-Length": "63",
+          "Content-Type": "application/json",
+          "Cookie": "aicc-auth-type=COLLABORATOR; Hm_lvt_28a17f66627d87f1d046eae152a1c93d=1715589263; uc_login_unique=fd868eb2a76056538c9b2a93f26c91e3; __bce-console-referrer__=https://aicc.bce.baidu.com/; Hm_lpvt_28a17f66627d87f1d046eae152a1c93d=1715601782; SIGNIN_UC=70a2711cf1d3d9b1a82d2f87d633bd8a04656142400AVAmcmZQuQy7YchvHsGTQoxmZE4uQYjeKQS%2B1O%2FsupFKfigzFIoR%2F4CABHaYi98bROdRlOICCFCsQTrTzTWkOsda5QQc1gcBBpb%2BZa2ns543nLtLIHs8lPf95LQizENNwQXOynXuP7ZBpr3TFD9BFO%2FlWTRbT1Tt2t0YBlNb5C2Gdr2C0i8Khyh5%2F5frSomywQXOynXuP7ZBpr3TFD9BFO%2FlWTRbT1Tt2t0YBlNb5C3L2Kxl1xv4mVWlZ6BsBt2fJa8C4dRuWedOgm%2F4vAYkrW2fPKVX4hXM644IdJMDCFuhZ1Bdk5cs0KEYnjaFXy63hZxZ3bZeuprSPOfukm85QsL1%2BfRxeQGU%2BJzICeY9qjg%3D11761773989359425321345716539084; uc_recom_mark=cmVjb21tYXJrXzM0NDk0MzEy; bce-login-type=UC; bce-login-type-detail=UC; x-bce-login-redirect-url=https%3A%2F%2Faicc.bce.baidu.com%2Fconfig%2Frobot%2Fmanage; bce-fe-load-type=self; x-bce-login-redirect-url-console=https%3A%2F%2Faicc.bce.baidu.com%2Fconfig%2Frobot%2Fmanage; __cas__rn__=465614240; __cas__st__285=4827f46ab6a1ab0cda13d01f082a4504ade8fcd00c3c96910b53143a0ef863dc7dadc6cfa11aa7a14b23b50f; __cas__id__285=34494312; bce-auth-type=UC; bce-sessionid=002c5e880454e4546879a087dccc9eff366; bce-ctl-client-cookies=\"__cas__st__285,__cas__id__285,__cas__rn__,SIGNIN_UC,bce-device-cuid,bce-device-token,BAIDUID,ucbearer-clientid,ucbearer-devicecode,ucbearer-token,ucbearer-ucid\"; bce-ctl-client-parameters=castk&brt; bce-ctl-client-headers=\"\"; bce-user-info=\"2024-05-13T20:03:13Z|4493111d47e555b5fbdb7b42314200ca\"; bce-login-display-name=%E6%99%BA%E8%83%BD%E5%A4%96%E5%91%BC%E5%8E%8B%E6%B5%8B; bce-userbind-source=PASSPORT%3BUUAP; bce-session=49437e31081c4a939bb661c2ff9de6977edc9a9cf3da40e39f5938f56f74166f|c8983fcf7b819871289c138c3c35bf06; bce-ctl-sessionmfa-cookie=bce-session; bce-locale=zh-cn; UUAP_P_TOKEN=PT-996889614444429314-NPqljYMCBF-uuap; SECURE_UUAP_P_TOKEN=PT-996889614444429314-NPqljYMCBF-uuap; UUAP_TRACE_TOKEN=0338350554af5c8d98cad5be471888d7; BAIDUID=A273FCE05F3D6D1EE8F6BA6F9D02D257:FG=1; BAIDUID_BFESS=A273FCE05F3D6D1EE8F6BA6F9D02D257:FG=1; RT=\"z=1&dm=baidu.com&si=5ff08384-78e8-4efd-9be2-cd1a23936df1&ss=lw4pcdjm&sl=w&tt=5bx&bcn=https%3A%2F%2Ffclog.baidu.com%2Flog%2Fweirwood%3Ftype%3Dperf&ld=arus5\"",
+          "Host": "aicc.bce.baidu.com",
+                    "Origin": "$BT[var($conf.dev.host)]",
+                    "Referer": "https://aicc.bce.baidu.com/aiob/external/call/event",
+                    "Sec-Fetch-Dest": "empty",
+                    "Sec-Fetch-Mode": "cors",
+                    "Sec-Fetch-Site": "same-origin",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+                    "User-PK": "414",
+                    "X-Login-Source": "baidu",
+                    "X-Request-Tenantid": "10183",
+                    "X-Trace-Id": "edbbdd40-112c-11ef-99cf-615b6dabadcf",
+                    "aiccCsrfToken": "",
+                    "enName": "recordNew",
+                    "sec-ch-ua": "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": "\"macOS\"",
+                    "username": "tenantAdmin"
+                },
+                "params": { // 请求参数，dict类型，即queryString
+                    "t": "1715607013652_698575"
+                },
+                "body": { // 请求体，dict类型
+                    "orderBy": null,
+                    "order": null,
+                    "pn": 1,
+                    "ps": 20,
+                    "total": 0,
+                    "page": 1
+                }
+            },
+            "action": [ // 动作列表，list类型，非必填，表示要执行的一系列动作
+                "$BT[action(sleep(10))]",
+                "$BT[set(var, func(get_userid))]"
+            ],
+            "assert": [ // 断言列表，list类型，非必填，表示要执行的一系列断言，每一个断言为一个dict
+                {
+                    "expect": 200, // 期望值
+                    "actual": "$BT[var($resp['0'].status_code)]", // 实际值，必填
+                    "operator": "==" // 断言方式
+                }
+            ]
+        },
+        {
+            "step": 1,
+            "request": {
+                "url": "$BT[var($conf.dev.host)]",
+                "path": "/ab/robot/drawDownList",
+                "method": "GET",
+                "headers": {
+                    "Accept": "application/json, text/plain, */*",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Accept-Language": "zh-CN,zh;q=0.9",
+                    "AgentId": "10183",
+                    "Connection": "keep-alive",
+                    "Cookie": "aicc-auth-type=COLLABORATOR; Hm_lvt_28a17f66627d87f1d046eae152a1c93d=1715589263; uc_login_unique=fd868eb2a76056538c9b2a93f26c91e3; __bce-console-referrer__=https://aicc.bce.baidu.com/; Hm_lpvt_28a17f66627d87f1d046eae152a1c93d=1715601782; SIGNIN_UC=70a2711cf1d3d9b1a82d2f87d633bd8a04656142400AVAmcmZQuQy7YchvHsGTQoxmZE4uQYjeKQS%2B1O%2FsupFKfigzFIoR%2F4CABHaYi98bROdRlOICCFCsQTrTzTWkOsda5QQc1gcBBpb%2BZa2ns543nLtLIHs8lPf95LQizENNwQXOynXuP7ZBpr3TFD9BFO%2FlWTRbT1Tt2t0YBlNb5C2Gdr2C0i8Khyh5%2F5frSomywQXOynXuP7ZBpr3TFD9BFO%2FlWTRbT1Tt2t0YBlNb5C3L2Kxl1xv4mVWlZ6BsBt2fJa8C4dRuWedOgm%2F4vAYkrW2fPKVX4hXM644IdJMDCFuhZ1Bdk5cs0KEYnjaFXy63hZxZ3bZeuprSPOfukm85QsL1%2BfRxeQGU%2BJzICeY9qjg%3D11761773989359425321345716539084; uc_recom_mark=cmVjb21tYXJrXzM0NDk0MzEy; bce-login-type=UC; bce-login-type-detail=UC; x-bce-login-redirect-url=https%3A%2F%2Faicc.bce.baidu.com%2Fconfig%2Frobot%2Fmanage; bce-fe-load-type=self; x-bce-login-redirect-url-console=https%3A%2F%2Faicc.bce.baidu.com%2Fconfig%2Frobot%2Fmanage; __cas__rn__=465614240; __cas__st__285=4827f46ab6a1ab0cda13d01f082a4504ade8fcd00c3c96910b53143a0ef863dc7dadc6cfa11aa7a14b23b50f; __cas__id__285=34494312; bce-auth-type=UC; bce-sessionid=002c5e880454e4546879a087dccc9eff366; bce-ctl-client-cookies=\"__cas__st__285,__cas__id__285,__cas__rn__,SIGNIN_UC,bce-device-cuid,bce-device-token,BAIDUID,ucbearer-clientid,ucbearer-devicecode,ucbearer-token,ucbearer-ucid\"; bce-ctl-client-parameters=castk&brt; bce-ctl-client-headers=\"\"; bce-user-info=\"2024-05-13T20:03:13Z|4493111d47e555b5fbdb7b42314200ca\"; bce-login-display-name=%E6%99%BA%E8%83%BD%E5%A4%96%E5%91%BC%E5%8E%8B%E6%B5%8B; bce-userbind-source=PASSPORT%3BUUAP; bce-session=49437e31081c4a939bb661c2ff9de6977edc9a9cf3da40e39f5938f56f74166f|c8983fcf7b819871289c138c3c35bf06; bce-ctl-sessionmfa-cookie=bce-session; bce-locale=zh-cn; UUAP_P_TOKEN=PT-996889614444429314-NPqljYMCBF-uuap; SECURE_UUAP_P_TOKEN=PT-996889614444429314-NPqljYMCBF-uuap; UUAP_TRACE_TOKEN=0338350554af5c8d98cad5be471888d7; BAIDUID=A273FCE05F3D6D1EE8F6BA6F9D02D257:FG=1; BAIDUID_BFESS=A273FCE05F3D6D1EE8F6BA6F9D02D257:FG=1; RT=\"z=1&dm=baidu.com&si=5ff08384-78e8-4efd-9be2-cd1a23936df1&ss=lw4pcdjm&sl=w&tt=5bx&bcn=https%3A%2F%2Ffclog.baidu.com%2Flog%2Fweirwood%3Ftype%3Dperf&ld=arus5\"",
+                    "Host": "aicc.bce.baidu.com",
+                    "Referer": "https://aicc.bce.baidu.com/aiob/external/call/event",
+                    "Sec-Fetch-Dest": "empty",
+                    "Sec-Fetch-Mode": "cors",
+                    "Sec-Fetch-Site": "same-origin",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+                    "User-PK": "414",
+                    "X-Login-Source": "baidu",
+                    "X-Request-By": "ERApplication",
+                    "X-Request-Tenantid": "10183",
+                    "X-Trace-Id": "edbc0450-112c-11ef-99cf-615b6dabadcf",
+                    "enName": "recordNew",
+                    "sec-ch-ua": "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\"",
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": "\"macOS\"",
+                    "username": "tenantAdmin"
+                },
+                "param": {
+                    "robotType": "2",
+                    "t": "1715607013653_393500"
+                },
+                "body": {}
+            },
+            "action": [],
+            "assert": [
+                {
+                    "expect": "$BT[var($resp['1'].status_code)]",
+                    "actual": 200,
+                    "operator": "=="
+                }
+            ]
+        }
+    ]
+}
+```
+<a name="391ce2b8"></a>
+# 2、 case执行逻辑
+根据上面的case结构，执行单条case时，我们会依次执行步骤列表中的步骤<br />每个步骤中会按照请求、动作、断言的方式依次执行<br />**使用者可能会提出一些疑问：**<br />**如何处理接口之间的依赖关系？**<br />**为什么要执行动作，动作是干什么的，怎么执行动作？**<br />**如何对接口的返回结果进行断言？**<br />**······**<br />为了解决上述问题，bintest中创建了一种特殊的字符串，名为** bt字符串（bt_str）**
+<a name="2.1-bt_str"></a>
+## 2.1 bt_str
+bt_str本质上是一个按照一定格式的可执行字符串，通过**$BT[ ]**包裹，括号中为具体的动作<br />动作分为4种
+
+1. 执行函数，通过func()，具体参考2.4章节
+2. 执行动作，通过action()，具体参考2.5章节
+3. 获取变量，通过var()，具体请参考2.2章节
+4. 存储变量，通过set()，具体请参考2.2章节
+
+下面是一些具体的例子
+```python
+$BT[func(get_user_org_by_id(var($resp['0'].data.userId)))]
+# 执行用户自定义函数，实际上是一个python的函数 get_user_org_by_id()
+# 函数的参数通过var动作获取，获取的是第0个步骤中响应的data的userId字段
+```
+```python
+$BT[action(my_sleep(30))]
+# 执行用户自定义动作，实际上是一个python的函数 my_sleep()
+# 函数的参数是30
+```
+```python
+$BT[var($resp['4'].text.data.list[0].id)]
+# 获取第4步响应（从0开始）中text中的data中的list的第0个元素的id
+```
+```python
+$BT[set(userId, var($resp['4'].text.data.list[0].id))]
+# 将第4步响应（从0开始）中text中的data中的list的第0个元素的id存储在名为userId的变量中
+```
+对于bt字符串的编写可能略显复杂，不过不用担心，bintest为您提供了一步生成bt字符串的方法，并将其自动填充进case中，您只需要选择一个合适的bt字符串即可，具体会在第三章节中进行解释
+<a name="102bf55a"></a>
+## 2.2 case过程变量管理
+在上面的例子中，我们通过var获取的，或者通过set保留的其实都是在case执行过程中产生的变量<br />每条case执行过程中会产生3大类变量，分别存放在req_dict，resp_dict，case_var_dict中，都是字典类型
+<a name="8a312078"></a>
+### 2.2.1 req_dict存放请求相关内容
+<a name="5289d4bf"></a>
+#### 2.2.1.1 格式说明
+保存case执行过程中每个步骤的请求信息，是dict类型<br />dict的key是步骤编号（从0开始），对应的value是具体的请求信息<br />value的格式如下：
+
+| 参数名称 | 类型 | 说明 |
+| --- | --- | --- |
+| url | String | 请求url |
+| path | String | 请求路径 |
+| method | String | String类型的枚举值，是"GET", "POST", "PUT", "DELETE", "HEAD"中的一种 |
+| headers | dict | 请求header，dict类型 |
+| param | dict | 请求queryString，dict类型比如?userId=123 对应 {"userId": "123"} |
+| body | dict | 请求体 |
+
+示例如下:
+```json
+{
+  "0": {
+    "url": "aicc.bce.baidu.com",
+    "path": "/aiob-server/manage/robot/model/scene",
+    "method": "GET",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "zh-CN,zh;q=0.9",
+      "AgentId": "10183",
+      "Connection": "keep-alive",
+      "Cookie": "aicc-auth-type=COLLABORATOR; BAIDUID=A0DC2A4B49302BBD995B02FAFDE67D7F:FG=1; BAIDUID_BFESS=A0DC2A4B49302BBD995B02FAFDE67D7F:FG=1; uc_login_unique=183b6cb4bf0ca7d7762ce13bd653f5c7; __bce-console-referrer__=https://aicc.bce.baidu.com/; Hm_lvt_28a17f66627d87f1d046eae152a1c93d=1715589263,1715683140; Hm_lpvt_28a17f66627d87f1d046eae152a1c93d=1715683140; SIGNIN_UC=70a2711cf1d3d9b1a82d2f87d633bd8a04656955966FyeO9QcKo7Md82zkTJM13pU58rqwqwpa7lhwb%2B%2B0cajqity4pFMJbp2d4B0pURN%2BtNsYKqkvhB8%2Fz%2BC%2FYkxxWRWD0RtPW3HiG8UCowdyCyvdKx7VzwMRlVBgDVW44T9pEv0VAIGrQ%2FMyucdBgESDx6C776S%2BaSuVWRNsumfRkWq93tvpeLTjvRik%2FYEmsSiqEv0VAIGrQ%2FMyucdBgESDx6C776S%2BaSuVWRNsumfRkWomBIdNsZWINGGSiUbNBNmjzMc3eH72whZdNuxUyciD%2FRJT00zxZavybcJ3YdjV%2FdPScRBqBg6ids7TbDolYOPzHt9fCdQcuyek%2FQnf6RutKrcQy9AytI7T13XkvUrdXuo%3D73060218109505482735945898905983; uc_recom_mark=cmVjb21tYXJrXzM0NDk0MzEy; bce-login-type=UC; bce-login-type-detail=UC; x-bce-login-redirect-url=https%3A%2F%2Faicc.bce.baidu.com%2Faiob%2Ftask; bce-fe-load-type=self; x-bce-login-redirect-url-console=https%3A%2F%2Faicc.bce.baidu.com%2Faiob%2Ftask; __cas__rn__=465695596; __cas__st__285=e8e9ade05f19120472a68e2091c4f4e641332acd5e95793af1c8f543f39866d38a5a6f1dee77928cedda5a5c; __cas__id__285=34494312; bce-auth-type=UC; bce-sessionid=002b499ce229ec442aab41a4fef1499bb6a; bce-ctl-client-cookies=\"__cas__st__285,__cas__id__285,__cas__rn__,SIGNIN_UC,bce-device-cuid,bce-device-token,BAIDUID,ucbearer-clientid,ucbearer-devicecode,ucbearer-token,ucbearer-ucid\"; bce-ctl-client-parameters=castk&brt; bce-ctl-client-headers=\"\"; bce-user-info=\"2024-05-14T18:39:09Z|216d8d514b4534dca9d8a0153bfae99d\"; bce-login-display-name=%E6%99%BA%E8%83%BD%E5%A4%96%E5%91%BC%E5%8E%8B%E6%B5%8B; bce-userbind-source=PASSPORT%3BUUAP; bce-session=49437e31081c4a939bb661c2ff9de697b2e53e3e91404af78a99a9a7e518b1eb|4d9a6cabb823471e303b15994974e2ab; bce-ctl-sessionmfa-cookie=bce-session; bce-locale=zh-cn; RT=\"z=1&dm=baidu.com&si=5ff08384-78e8-4efd-9be2-cd1a23936df1&ss=lw66hlk0&sl=b&tt=418&bcn=https%3A%2F%2Ffclog.baidu.com%2Flog%2Fweirwood%3Ftype%3Dperf&ld=4qqth\"",
+      "Host": "aicc.bce.baidu.com",
+      "Referer": "https://aicc.bce.baidu.com/config/robot/manage",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+      "User-PK": "414",
+      "X-Login-Source": "baidu",
+      "X-Request-By": "ERApplication",
+      "X-Request-Tenantid": "10183",
+      "X-Trace-Id": "31ae1550-11e5-11ef-9eda-b7486b924d94",
+      "enName": "dialogue_robot",
+      "sec-ch-ua": "\".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "username": "tenantAdmin"
+    },
+    "params": {
+      "id": "171568615504393167",
+      "robotName": "演示机器人"
+    },
+    "body": {
+      
+    }
+  },
+  "1": {
+    ······
+  }
+}
+```
+<a name="4854fc33"></a>
+#### 2.2.1.2 如何引用
+我们可以通过一种类似jsonpath的方式引用req_dict中的变量<br />比如上述例子中，请求参数中的robotName为演示机器人，它的jsonpath如下：
+```
+$['0'].params.robotName
+```
+我们在后续步骤中引用该值，使用类似的方式
+```
+$rep['0'].params.robotName
+```
+区别在于，前缀从$变为了$rep，表示从请求结果中获取到对应的值
+<a name="5e1cf487"></a>
+### 2.2.2 resp_dict存放响应相关内容
+<a name="71ab78d0"></a>
+#### 2.2.2.1 格式说明
+保存case执行过程中每个步骤请求的响应信息，是dict类型<br />dict的key是步骤编号（从0开始），对应的value是具体请求的响应信息，保存了响应的状态码和返回内容<br />value的格式如下：
+
+| 参数名称 | 类型 | 说明 |
+| --- | --- | --- |
+| status_code | int | 请求的响应状态码 |
+| text | dict | 请求的返回内容 |
+
+示例如下：
+```json
+{
+  "0": {
+    "status_code": 200,
+    "text": {
+      "requestId": "31ae1550-11e5-11ef-9eda-b7486b924d94",
+      "time": 1715686155083,
+      "code": 200,
+      "msg": "OK",
+      "data": {
+        "modelSceneList": [
+          {
+            "sceneName": "客户回访场景",
+            "sceneText": "处于金融行业，用于客户回访，话术要点是询问用户反馈并感谢用户购买，期望使用机器人达到增强客户对企业的信任感和满意度，从而维护良好的客户关系的效果的场景"
+          },
+          {
+            "sceneName": "推广营销场景",
+            "sceneText": "处于快消品行业，用于销售推广，话术要点是推荐新产品特性，期望使用机器人达到增加产品曝光率、增加产品销售额、收集市场反馈的效果的场景"
+          },
+          {
+            "sceneName": "预约提醒场景",
+            "sceneText": "处于医疗行业，目标在于提高预约准时率，话术要点是提醒患者按时赴约并提供取消或更改预约的选项，期望使用机器人达到提高预约的准时率，减少患者因遗忘或错过预约而造成的不便，提升患者满意度效果的场景"
+          }
+        ]
+      }
+    }
+  },
+  "1": {
+    ······
+  }
+}
+```
+<a name="e8bcbe2e"></a>
+#### 2.2.2.2 如何引用
+和req_dict类似，基本遵循jsonpath的结构<br />上述例子中，我们想引用第一个响应结果中data的modelSceneList中的第一个元素的sceneName，它的jsonpath如下：
+```
+$['0'].text.data.modelSceneList[0].sceneName
+```
+通过bt_jsonpath引用该值
+```
+$resp['0'].text.data.modelSceneList[0].sceneName
+```
+前缀从$变为了$resp，表示从响应结果中获取到对应的值
+<a name="b77f642a"></a>
+### 2.2.3 case_var_dict存放用户主动存储的变量
+<a name="3b045df5"></a>
+#### 2.2.3.1 格式说明
+case_var_dict主要用来存放执行当条case时，用户通过set动作主动存放起来的变量<br />比如
+```
+# 假设$resp['4'].text.data.list[0].id 获得的值为171568615504393167
+$BT[set(userId, var($resp['4'].text.data.list[0].id))]
+$BT[set(username, 张三)]
+```
+将会在该条case的名称空间的case_var_dict下存放两个变量，效果类似如下：
+```json
+{
+  "userId": "171568615504393167",
+  "username": "张三"
+}
+```
+<a name="74d01cf1"></a>
+#### 2.2.3.2 如何引用
+和req_dict、resp_dict类似，基本遵循jsonpath的方式引用，比如我们想引用上述例子的userId变量，它的jsonpath如下：
+```
+$.userId
+```
+通过bt_jsonpath引用该值
+```
+$var.userId
+```
+前缀从$变为了$var，表示是从用户变量中获取到值
+<a name="043d4e9c"></a>
+### 2.2.4 全局配置变量
+<a name="345e47cf"></a>
+#### 2.2.4.1 格式说明
+在执行自动化测试的过程中，我们存在这样的情况，有些配置值，在本次测试过程中都是固定的，比如环境的ip，port等内容，并不会根据case不同而有区别，这些值就可以当成配置维护起来<br />bintest支持将这些全局不变的变量维护在一个ini文件中，执行测试时读取配置文件内容，比如下面例子
+```python
+[dev]
+host = https://www.bintest.dev.com
+username = zhangsan
+password = 123456Aa?
+
+[test]
+host = https://www.bintest.test.com
+username = zhangsan
+password = 123456Aa?
+```
+在执行测试时，先加载指定文件，之后在通过bt_jsonpath去引用对应的变量<br />可以通过zjbbintest.bintest.conf_load()方法加载配置文件，在case中引用具体变量
+```python
+from zjbbintest.bintest import conf_load
+
+if __name__ == '__main__':
+    # 1. 加载配置
+    conf_load('test-conf.ini')
+```
+加载后，我们实际会将配置文件的内容存放在一个全局作用的dict中，上面例子进行加载后，将会产生一个全局生效的conf_dict，如下：
+```json
+{
+  "dev": {
+    "host": "https://www.bintest.dev.com",
+    "username": "zhangsan",
+    "password": "123456Aa?"
+  },
+  "test": {
+    "host": "https://www.bintest.test.com",
+    "username": "zhangsan",
+    "password": "123456Aa?"
+  }
+}
+```
+<a name="f7ca34c1"></a>
+#### 2.2.4.2 如何引用
+和req_dict、resp_dict类似，基本遵循jsonpath的方式引用，比如我们想引用上述例子中dev的host变量，它的jsonpath如下：
+```
+$.dev.host
+```
+bt_jsonpath如下：
+```
+$conf.dev.host
+```
+前缀从$变为了$conf，表示是从全局配置中获取到值
+<a name="1bbbb204"></a>
+### 注意事项
+
+1. 过程变量的引用必须依赖bt字符串，即必须使用** $BT[ ] **进行包裹，同时，获取变量是var动作，需使用** var() **进行包裹，综合上述两个条件，必须使用** $BT[var( )] **将其包裹起来，才能被bintest的执行器正确解析，否则将会认为它只是一个普通的字符串
+
+比如某变量的bt_jsonpath是
+```
+$resp['0'].text.data.modelSceneList[0].sceneName
+```
+case中使用的bt_str应为
+```
+$BT[var($resp['0'].text.data.modelSceneList[0].sceneName)]
+```
+看似很复杂，其实一点也不简单，但是不要担心，bintest的解析器会帮你自动解析bt_jsonpath，你需要做的就是选择一个合适的bt_jsonpath就可以
+
+2. 除了全局配置变量，请注意其余变量的引用时机，确保在被引用时变量值已经正确产生，否则将得到null，使程序出现不可预测的错误
+
+比如，在3步骤的请求中引用6步骤响应中的内容，将会得到null，原因是在执行3步骤时，6步骤的响应还无法产生<br />再比如，在步骤中引用一个完全不存在的用户变量，将会得到null，引用用户变量时请确保该变量已经被使用set正确存储
+<a name="1966266f"></a>
+## 2.3 执行用户自定义方法-@bt_func()和func_load()
+<a name="ebb5dd37"></a>
+### 2.3.1 为什么要有
+bintest已经通过bt_jsonpath实现了执行过程中变量的引用，但是无法处理这样的需求：**请求中需要某个值，该值是通过特殊的计算得到，无法从上下文中进行获取**<br />比如验证登录的case中，我们需要一个密码加密后的字符串，这个加密后的字符串无法在之前的请求中得到，需要通过md5等方式进行计算，上下文中无法获取到加密后的字符串，需要用户自定义方法去，根据密码原文通过特定的加密算法得到加密后的密文<br />为了满足这些需求，我们引入了自定义方法的概念
+<a name="021a0b0f"></a>
+### 2.3.2 如何使用
+<a name="23bb1831"></a>
+#### 2.3.2.1 @bt_func()
+@bt_func() 是 bintest 中用来注册用户自定义方法的装饰器<br />强调两点：
+
+1. @bt_func()装饰器参数个数和其所修饰的方法参数个数一致，表示其所修饰的方法入参都是什么类型
+2. @bt_func()所修饰的方法必须有返回值
+```python
+@bt_func(str, int)
+def user_func(args1, args2):
+    pass
+    return xxx
+```
+上面这段代码表示：
+
+1. user_func为一个用户自定义方法
+2. user_func方法args1的类型为str，args2的类型为int
+<a name="89d2a5b4"></a>
+#### 2.3.2.2 func_load()
+func_load()是用来加载用户自定义方法的方法，其接收参数为一个python模块，表示加载该模块中所有用@bt_func()修饰的python方法为自定义函数<br />下面给出一个例子
+
+1. 首先在user_func.py中使用@bt_func()注册用户自定义方法
+```python
+import zjbbintest.bintest.bt_func as bt_func
+
+@bt_func(str)
+def password_md5(password):
+    """
+    md5加密
+    :param password: 
+    :return: 
+    """
+    pass
+    return new_password
+```
+
+2. 在另一个模块dome.py中使用func_load()进行加载
+```python
+from zjbbintest.bintest import func_load
+import user_func
+
+if __name__ == '__main__':
+    # 加载用户自定义方法
+    func_load(user_func)
+```
+
+3. 在case中通过bt_str进行使用
+```
+$BT[func(password_md5(123456Aa?))]
+```
+```json
+{
+  "caseName": "登录",
+  "description": "验证用户登录功能",
+  "priority": 0,
+  "tags": [
+    "线上功能回归",
+    "监控"
+  ],
+  "testSteps": [
+    {
+      "step": 0,
+      "request": {
+        ······
+        "body": {
+          "userName": "zhangsan",
+          "password": "$BT[func(password_md5(123456Aa?))]"
+        }
+        ······
+      }
+    }
+  ]
+}
+```
+这样就可以在执行过程中自动执行用户的自定义方法了
+<a name="84c64a7d"></a>
+## 2.4 执行用户自定义动作-@bt_action()和action_load()
+<a name="d540485e"></a>
+### 2.4.1 为什么要有
+在执行自动化case的过程中，我们会有这样的需求：**当执行完某一步骤后，我们需要执行某些动作**<br />比如，执行完case的最后一步时，我们期望将测试数据进行清理，操作删除数据库<br />再比如，我们的case中有类似训练模型的动作，请求完训练模型的接口后，需要等待5min等模型训练完毕在进行下一步操作<br />为了满足这些需求，我们引入了自定义动作的概念<br />可以看到，**自定义动作**和**自定义方法**的区别是，自定义动作，我们不需要依赖返回的内容，只要执行动作就可以
+<a name="bac207d2"></a>
+### 2.4.2 如何使用
+<a name="9311a34f"></a>
+#### 2.4.2.1 @bt_action()
+@bt_action() 是 bintest 中用来注册用户自定义动作的装饰器<br />强调两点：
+
+1. @bt_action()装饰器参数个数和其所修饰的方法参数个数一致，表示其所修饰的方法入参都是什么类型
+2. @bt_action()所修饰的方法没有返回值
+```python
+@bt_action(str, int)
+def user_action1(args1, args2):
+    pass
+```
+上面这段代码表示：
+
+1. user_action为一个用户自定义动作
+2. user_action方法args1的类型为str，args2的类型为int
+<a name="501438b7"></a>
+#### 2.4.2.2 action_load()
+action_load()是用来加载用户自定义动作的方法，其接收参数为一个python模块，表示加载该模块中所有用@bt_action()修饰的python方法为自定义动作<br />下面给出一个例子
+
+1. 首先在user_action.py中使用@bt_action()注册用户自定义方法
+```python
+import zjbbintest.bintest.bt_action as bt_action
+import time
+
+@bt_action(int)
+def sleep_min(time_min):
+    """
+    程序睡眠time_min分钟
+    :param time_min: 
+    :return: 
+    """
+    time.sleep(time_min * 60)
+```
+
+2. 在另一个模块dome.py中使用action_load()进行加载
+```python
+from zjbbintest.bintest import action_load
+import user_action
+
+if __name__ == '__main__':
+    # 加载用户自定义动作
+    action_load(user_action)
+```
+
+3. 在case中通过bt_str进行使用
+```
+$BT[action(sleep_min(5))]
+```
+```json
+{
+  "caseName": "训练模型",
+  "description": "验证训练模型是否正常",
+  "priority": 0,
+  "tags": [
+    "线上功能回归",
+    "监控"
+  ],
+  "testSteps": [
+    {
+      ······
+      "action": [
+        "$BT[action(sleep_min(5))]"
+      ]
+      ······
+    }
+  ]
+}
+```
+这样就可以在执行过程中自动执行用户的自定义动作了
+<a name="ab381b9d"></a>
+#### 2.4.2.3 自定义方法和自定义动作的区别
+
+1. 使用目的不同：自定义方法用于得到一个值，在case中继续使用该值，自定义动作用于执行一个动作
+2. 使用字段不同：自定义方法用于testSteps中的request字段，自定义动作用于testSteps中的action字段
+<a name="224381f7"></a>
+## 2.5 断言
+在case的每个步骤，都会有断言的部分，在case的json结构中，断言部分是一个list，list中的每个元素是一个断言项，**必须同时满足所有断言项（and逻辑），本次断言才能通过**<br />例如下面代码:
+```
+"assert": [
+    {
+        "expect": 200,
+        "actual": "$BT[var($resp['5'].status_code)]",
+        "operator": "=="
+    },
+    {
+        "expect": "$BT[var($req['4'].params.robotName)",
+        "actual": "$BT[var($resp['5'].text.robotName)]",
+        "operator": "=="
+    }
+]
+```
+当 第5步骤（从0开始）的响应状态码==200 并且 第5步骤（从0开始）响应值中的robotName == 第4步骤（从0开始）请求参数中的robotName 本条断言才能通过，否则case将执行失败
+<a name="33c6764e"></a>
+### 2.5.1 字段解释
+expect：期望值，支持字面值，也支持bt字符串<br />actual：实际值，支持字面值，也支持bt字符串<br />operator：断言运算符，系统默认断言运算符，也支持自定义断言
+<a name="af6991bf"></a>
+#### 2.5.1.1 默认断言运算符
+bintest中支持默认断言方式共8中，分别如下：
+
+| 序号 | 断言方式 | 断言operator | 说明 |
+| --- | --- | --- | --- |
+| 1 | 相等断言EQUALS | "=", "==", "相等", "等于", "一致", "一样" | 判断期望值是否和实际值相等，否则断言失败 |
+| 2 | 不等断言NOT_EQUALS | "!=", "不等于", "不等", "不一致", "不一样" | 判断期望值是否不等于实际值，否则断言失败 |
+| 3 | 大于GREATER | ">", "大于" | 判断期望值是否大于实际值，否则断言失败 |
+| 4 | 小于LESS | "<", "小于" | 判断期望值是否小于实际值，否则断言失败 |
+| 5 | 大于等于GREATER_EQUALS | ">=", "大于等于" | 判断期望值是否是否大于等于实际值，否则断言失败 |
+| 6 | 小于等于LESS_EQUALS | "<=", "小于等于" | 判断期望值是否小于等于实际值，否则断言失败 |
+| 7 | 包含IN | "in", "包含", "属于" | 判断期望值是否包含实际值，否则断言失败 |
+| 8 | 不包含NOT_IN | "not in", "不包含", "不属于" | 判断期望值是否不包含实际值，否则断言失败 |
+
+<a name="edb8144a"></a>
+#### 2.5.1.2 自定义断言运算符-@bt_assert和assert_load()
+上述8中默认断言涵盖了大部分断言的场景，但是bintest也支持自定义断言的方式满足使用者更为特殊的断言需求<br />先使用装饰器 bt_assert 进行自定义断言方法的注册：<br />需要注意的是通过@bt_assert修饰的python方法
+
+1. 入参必须为2个，第一个参数代表期望值，第二个参数代表实际值，否则将会抛出 BTAssertFormatCheckException 异常
+2. 返回值必须为一个boolean类型的值，表示断言成功还是失败，否则将会抛出 BTAssertFormatCheckException 异常
+
+下面给出一个例子：
+
+1. 首先在user_assert.py中使用@bt_assert注册用户自定义断言方法
+```python
+import zjbbintest.bintest.bt_action as bt_assert
+
+@bt_assert
+def user_assert(expect, actual):
+    """
+    用户自定义断言方法
+    :param expect: 期望值
+    :param actual: 实际值
+    :return: boolean类型，表示断言成功or失败
+    """
+    pass
+```
+
+2. 在另一个模块dome.py中使用assert_load()进行用户自定义断言的注册
+```python
+from zjbbintest.bintest import assert_load
+import user_assert
+
+if __name__ == '__main__':
+    # 加载用户自定义断言
+    assert_load(user_assert)
+```
+
+3. 在case中方法名进行使用
+```json
+{
+  ······
+  "assert": [
+    {
+      "expect": "$BT[var($resp['0'].status_code)]",
+      "actual": 200,
+      "operator": "user_assert"
+    }
+  ]
+  ······
+}
+```
+<a name="c5b4259d"></a>
+# 3、 bintest框架使用方式
+<a name="4a75cad0"></a>
+## 3.1 安装bintest
+bintest已经发布在PYPI上，通过pip安装最新包<br />pypi地址：[https://pypi.org/project/zjbbintest/](https://pypi.org/project/zjbbintest/)<br />pip安装bintest： pip install -i [https://pypi.org/simple](https://pypi.org/simple) zjbbintest
+<a name="79ce7dc8"></a>
+## 3.2 抓取har包
+chrome浏览器，F12打开开发者模式，选择Network<br />勾选Preaerve log，开始在页面上执行功能case<br />![image.png](https://cdn.nlark.com/yuque/0/2024/png/28220132/1719904673776-90a61c34-fa82-4939-8839-37e303ff553b.png#averageHue=%23f7f6f7&clientId=u957507f2-a30d-4&from=paste&height=208&id=uaddff72b&originHeight=348&originWidth=1177&originalType=binary&ratio=2&rotation=0&showTitle=false&size=46568&status=done&style=none&taskId=uaae59a98-f30f-4563-90b0-d4ece0d5116&title=&width=703.5)<br />执行完毕后将执行过程中的HAR进行保存，右击任何一个请求，选择Save all as HAR with content，将刚才操作记录进行保存<br />![image.png](https://cdn.nlark.com/yuque/0/2024/png/28220132/1719904692377-c82eec1f-cd74-4b2e-a707-0b53f5fa84ef.png#averageHue=%23eaeae9&clientId=u957507f2-a30d-4&from=paste&height=279&id=u3a2eb651&originHeight=492&originWidth=1233&originalType=binary&ratio=2&rotation=0&showTitle=false&size=188716&status=done&style=none&taskId=u84529693-6473-4ce2-9bba-16cb4ff349e&title=&width=699.5)
+<a name="be3ab1f2"></a>
+## 3.3 将HAR包解析为满足格式的json
+通过bintest提供的 zjbbintest.bintest.rebuild 方法进行解析
+```python
+rebuild(har_file_path, conf_ini_file_path, case_dir_path='')
+```
+rebuild方法共有三个参数<br />har_file_path：har文件的路径，必填<br />conf_ini_file_path：全局配置文件的路径，非必填，如果填写，可自动将配置文件中的变量通过bt_str的方式替换到case中，可参考2.2.4章节<br />case_dir_path：case文件生成的路径，非必填，如果不填写，case文件将会保存在HAR包所在位置<br />rebuild方法的作用是根据har文件和配置文件解析出case的初步形态
+```python
+from zjbbintest.bintest import rebuild
+
+if __name__ == '__main__':
+    rebuild('新建自定义标签.har', conf_ini_file_path='test-conf.ini')
+```
+运行rebuild方法后，可通过交互式操作选择要保留的url，防止非必要内容过多，导致case编写过于复杂，如下：<br />![image.png](https://cdn.nlark.com/yuque/0/2024/png/28220132/1719904734701-92edcd4a-7ea1-41f3-a714-f01de1fd5efa.png#averageHue=%232d2d2d&clientId=u957507f2-a30d-4&from=paste&height=148&id=u2ef5cb25&originHeight=296&originWidth=1823&originalType=binary&ratio=2&rotation=0&showTitle=false&size=127186&status=done&style=none&taskId=u164b2f08-1248-404b-9de6-73cab42a95d&title=&width=911.5)<br />通过用户输入 y or n 选择是否需要保留请求<br />最终会生成一个目录，目录名称为HAR文件的文件名，目录下有三个json文件，分别为：
+
+1. xxx_case.json
+2. xxx_bt_str.json
+3. xxx_req_resp.json
+
+xxx为HAR包名称<br />下面进行详细解析
+<a name="3.2.1-xxx_case.json"></a>
+### 3.2.1 xxx_case.json
+**case的json文件，是rebuild产生的最重要的文件，可直接通过修改该文件的内容实现case的编写**<br />产生本文件时会将case每个步骤的request的内容进行bt_str的替换，具体替换规则如下：<br />比如本条case在请求中body中有内容username=张三，并且『张三』在之前的请求或响应或配置文件中已经产生，那么bintest解析器就就会自动计算『张三』的bt_str，并且在本次请求中进行替换，从而实现上下文关系的自动解析<br />例子：<br />某条case第3步骤中body原本为：
+```json
+{
+  "name": "张三"
+}
+```
+但是张三这个值在本case的第2步中已经产生，第2步的返回内容是：
+```json
+{
+  "status_code": 200,
+  "text": {
+    "code": 200,
+    "msg": "success",
+    "data": {
+      "id": 3565353049423872,
+      "name": "张三"
+    }
+  }
+}
+```
+那么bintest的解析器就会将内容替换为如下
+```json
+{
+  "name": {
+    "value": "张三",
+    "type": "str",
+    "bt_str": ["$BT[var($resp['2'].text.data.name)]"]
+  }
+}
+```
+替换后的内容是一个dict类型，包含了三部分
+
+- value：原来的值
+- type：原来值的类型
+- bt_str：所有满足要求的bt_str是一个list
+
+**根据替换的内容，保留bt_str中的一个，或者value即可**<br />在解析器进行替换时，request的不同字段替换范围有所不同，具体范围如下：
+
+- url：只会从全局配置变量中进行替换
+- path：不进行替换
+- method：不进行替换
+- headers：只会从全局配置变量中进行替换
+- param：会从本步骤之前步骤的请求和响应（不包含本步骤）以及全局配置变量中进行替换
+- body：会从本步骤之前步骤的请求和响应（不包含本步骤）以及全局配置变量中进行替换
+<a name="3.2.2-xxx_bt_str.json"></a>
+### 3.2.2 xxx_bt_str.json
+保存变量对应的bt_str的文件，此文件中保存的是配置、请求和响应中所有变量对应的bt_str，用户可以翻阅此文件快速得到某一变量对应的bt_str<br />格式如下：
+```json
+{
+    "conf":{
+        全局配置变量值: 对应的bt_str的list
+        ······
+    },
+    "req": {
+        步骤序号: {
+            请求中变量值: 对应的bt_str的list
+            ······
+        }
+        ······
+    },
+    "resp": {
+        步骤序号: {
+            响应中变量值: 对应的bt_str的list
+            ······
+        }
+        ······
+    }
+}
+```
+例子：
+```json
+{
+  "conf": {
+    "https://aicc.bce.baidu.com": [
+      "$BT[var($conf.dev.host)]"
+    ],
+    "0600332f717442ae9198e3f39f22594b": [
+      "$BT[var($conf.dev.ak)]"
+    ],
+    "ed81a69cffb849c98f587a4b367a5151": [
+      "$BT[var($conf.dev.sk)]"
+    ]
+  },
+  "req": {
+    "0": {
+      "1715686155045_393167": [
+        "$BT[var($req['0'].params.t)]"
+      ]
+    },
+    "1": {
+      "1715686155045_555551": [
+        "$BT[var($req['1'].params.t)]"
+      ]
+    }
+  },
+  "resp": {
+    "0": {
+      "200": [
+        "$BT[var($resp['0'].status_code)]",
+        "$BT[var($resp['0'].text.code)]"
+      ],
+      "31ae1550-11e5-11ef-9eda-b7486b924d94": [
+        "$BT[var($resp['0'].text.requestId)]"
+      ],
+      "1715686155083": [
+        "$BT[var($resp['0'].text.time)]"
+      ],
+      "OK": [
+        "$BT[var($resp['0'].text.msg)]"
+      ]
+    },
+    "1": {
+      "200": [
+        "$BT[var($resp['1'].status_code)]",
+        "$BT[var($resp['1'].text.code)]"
+      ],
+      "31ae1551-11e5-11ef-9eda-b7486b924d94": [
+        "$BT[var($resp['1'].text.requestId)]"
+      ],
+      "OK": [
+        "$BT[var($resp['1'].text.msg)]"
+      ],
+      "realTime": [
+        "$BT[var($resp['1'].text.data.robotModelAuth)]"
+      ]
+    }
+  }
+}
+```
+<a name="3.2.3-xxx_req_resp.json"></a>
+### 3.2.3 xxx_req_resp.json
+保存了从HAR包中提取的请求和响应信息，按步骤进行保存，用户可清晰的看到某一步骤对应的请求和响应是什么<br />格式如下：
+```json
+{
+    步骤序号: {
+        "request": {
+            "url": xxx,
+            "path": xxx,
+            "method": xxx,
+            "headers": {
+                xxx: xxx
+                ······
+            },
+            "param": {
+                xxx: xxx
+                ······
+            },
+            "body": {
+                xxx: xxx
+                ······
+            }
+        },
+        "response": {
+            "status_code": 响应状态码,
+            "text": 响应非返回结果
+        }
+    }
+    ······
+}
+```
+例子：
+```json
+{
+  "0": {
+    "request": {
+      "url": "aicc.bce.baidu.com",
+      "path": "/cfg/robot",
+      "method": "GET",
+      "headers": {
+        "Accept": "application/json, text/plain, */*"
+      },
+      "params": {
+        "pn": "1",
+        "page": "1",
+        "ps": "12",
+        "pageSize": "12",
+        "robotName": "%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%9B%E5%BB%BA%E9%80%9A%E7%9F%A5%E6%9C%BA%E5%99%A8%E4%BA%BA01",
+        "robotType": "2",
+        "robotScene": "1",
+        "t": "1715690240090_917956"
+      },
+      "body": {}
+    },
+    "response": {
+      "status_code": 200,
+      "text": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "pn": 1,
+          "ps": 12,
+          "orderBy": null,
+          "order": null,
+          "total": 1,
+          "list": [
+            [
+              {
+                "robotName": "自动化测试创建通知机器人01"
+              }
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "1": {
+    "request": {
+      "url": "aicc.bce.baidu.com",
+      "path": "/cfg/robot/drawDownList",
+      "method": "GET",
+      "headers": {
+        "Accept": "application/json, text/plain, */*"
+      },
+      "params": {
+        "robotType": "2",
+        "tenantId": "10183",
+        "pn": "1",
+        "ps": "9999",
+        "t": "1715690243201_592619"
+      },
+      "body": {}
+    },
+    "response": {
+      "status_code": 200,
+      "text": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "total": 1,
+          "list": [
+            {
+              "robotName": "自动化测试创建通知机器人01"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+```
+<a name="f7ec8952"></a>
+## 3.4 执行case
+完成3.3步的解析及其相关内容的替换后，可以将case放置在一个目录下，批量运行某个目录下的case<br />整体分为6步
+
+1. 加载全局配置变量（如果有），参考2.2.4章节
+2. 加载用户自定义方法（如果有），参考2.3章节
+3. 加载用户自定义动作（如果有），参考2.4章节
+4. 加载用户自定义断言（如果有），参考2.5.1.2章节
+5. 使用case_load()进行用例加载
+6. 使用run()执行用例
+
+**下面给出例子：**
+```python
+from zjbbintest.bintest import conf_load, func_load, action_load, assert_load, case_load, run
+import test
+
+if __name__ == '__main__':
+    # 1. 加载配置，全局配置变量保存在test-conf.ini中
+    conf_load('test-conf.ini')
+    # 2. 加载用户自定义方法，将自定义方法写在了test.py中
+    func_load(test)
+    # 3. 加载用户自定义动作，将自定义动作写在了test.py中
+    action_load(test)
+    # 4. 加载用户自定义断言，将自定义断言写在了test.py中
+    assert_load(test)
+    # 5. 加载测试用例，加载aiob_case目录下的所有case
+    case_load(["aiob_case"])
+    # 6. 执行case，日志记录在./aiob.log下，产生报告的路径为res.html
+    run("./aiob.log", "res.html")
+```
+执行case后，产生的测试报告如下：<br />![image.png](https://cdn.nlark.com/yuque/0/2024/png/28220132/1719904904731-896f119e-d71a-4108-bae5-75487f43f84f.png#averageHue=%23fefdfc&clientId=u957507f2-a30d-4&from=paste&height=520&id=u5f245748&originHeight=1039&originWidth=1920&originalType=binary&ratio=2&rotation=0&showTitle=false&size=274273&status=done&style=none&taskId=ub09ebad4-e6af-4429-bd3f-5b233cedb0d&title=&width=960)
+<a name="6b29af41"></a>
+### 3.4.1 case_load()
+第5步提到的case_load是bintest中自带的加载case的方法，在zjbbintest.bintest中，使用前先进行方法导入
+```python
+from zjbbintest.bintest import case_load
+```
+case_load(path_list, tags=[], priority=[])方法接收3个参数
+
+- path_list：路径列表，支持多个路径，递归加载路径下的所有case
+- tags：加载指定标签的case，支持多个标签，比如['label1', 'label2']代表加载拥有label1和label2标签的case，非必填，不填默认加载所有标签的case
+- priority：加载指定优先级的case，支持多个优先级，比如[1, 2]代表加载1和2的case，非必填，不填默认加载所有优先级的case
+<a name="a9ef80c6"></a>
+### 3.4.2 run()
+第6步提到的run是bintest中自带的运行case的方法，在zjbbintest.bintest中，使用前先进行方法导入
+```python
+from zjbbintest.bintest import run
+```
+run(log_path, report_path)方法接收2个参数
+
+- log_path：产生日志的路径
+- report_path：生成测试报告的路径
+<a name="d44b404b"></a>
+### 3.4.3 case运行状态码
+case运行状态主要分为4大种，未执行、成功、失败和跳过<br />每个大类又细分为一些具体的异常场景，下面给出对照表
+
+| case运行状态码 | 状态码对应枚举值 | 说明 | case运行状态 |
+| --- | --- | --- | --- |
+| 0 | NOT_RUNNING | 未执行 | 未执行状态 |
+| 200 | PASS | 执行通过 | 成功状态 |
+| 401 | CASE_FORMAT_CHECK_ERROR | case格式检查异常 | 跳过状态 |
+| 402 | BT_STRING_FORMAT_ERROR | case中的bt字符串格式异常 | 跳过状态 |
+| 403 | BT_FUNC_NOT_FOUND | case中bt-func未找到异常 | 跳过状态 |
+| 404 | BT_ACTION_NOT_FOUND | case中bt-action未找到异常 | 跳过状态 |
+| 405 | BT_ASSERT_NOT_FOUND | case中bt-assert未找到异常 | 跳过状态 |
+| 406 | BT_FUNC_FORMAT_CHECK_ERROR | case中bt-func格式检查异常 | 跳过状态 |
+| 407 | BT_ACTION_FORMAT_CHECK_ERROR | case中bt-action格式检查异常 | 跳过状态 |
+| 408 | BT_ASSERT_FORMAT_CHECK_ERROR | case中bt-assert格式检查异常 | 跳过状态 |
+| 409 | ASSERT_DICT_FORMAT_ERROR | case的assert的dict格式存在问题 | 跳过状态 |
+| 410 | CASE_INFO_IS_EMPTY | case信息为空 | 跳过状态 |
+| 500 | FAIL | case断言失败，执行未通过 | 失败状态 |
+| 501 | REQUEST_EXCEPTION | 请求http接口异常 | 失败状态 |
+| 999 | OTHER_EXCEPTION | 其他异常 | 跳过状态 |
+
+
+
