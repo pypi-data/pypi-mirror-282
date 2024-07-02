@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+graphvision/__init__.py
+graphvision/segment.py
+graphvision.egg-info/PKG-INFO
+graphvision.egg-info/SOURCES.txt
+graphvision.egg-info/dependency_links.txt
+graphvision.egg-info/requires.txt
+graphvision.egg-info/top_level.txt
