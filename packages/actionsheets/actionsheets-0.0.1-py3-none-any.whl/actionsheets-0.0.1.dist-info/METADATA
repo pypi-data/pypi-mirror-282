@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: actionsheets
+Version: 0.0.1
+Summary: Quick-reference sheets defined in terms of a desired action and a code solution
+License: MIT
+Author: Niek Den Teuling
+Author-email: niekdt@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: polars (>=0.20.31,<0.21.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Description-Content-Type: text/markdown
+
+# actionsheets
