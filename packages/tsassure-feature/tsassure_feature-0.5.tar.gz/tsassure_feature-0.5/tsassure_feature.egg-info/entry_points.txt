@@ -1,0 +1,2 @@
+[console_scripts]
+tsassure = tsassure_feature.main:main
