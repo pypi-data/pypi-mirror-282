@@ -1,0 +1,3 @@
+[console_scripts]
+qgit = my_import.quick_git:main
+
