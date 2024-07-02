@@ -1,0 +1,5 @@
+biopython>=1.81
+colorama>=0.4
+matplotlib>=3.8
+networkx>=3.3
+numpy>=1.24
