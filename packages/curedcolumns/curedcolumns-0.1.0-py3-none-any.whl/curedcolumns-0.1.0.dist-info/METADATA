@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: curedcolumns
+Version: 0.1.0
+License: MIT License
+        
+        Copyright (c) 2024 Data Connect
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://www.sheffield.ac.uk/data-connect
+Project-URL: Bug_Tracker, https://github.com/CUREd-Plus/curedcolumns/issues
+Project-URL: Documentation, https://github.com/CUREd-Plus/curedcolumns/blob/main/README.md
+Project-URL: Repository, https://github.com/CUREd-Plus/curedcolumns
+Project-URL: Changelog, https://github.com/CUREd-Plus/curedcolumns/releases
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 ==1.*
+Requires-Dist: pyarrow ==16.*
+Requires-Dist: boto3-type-annotations ==0.*
+Provides-Extra: test
+Requires-Dist: pytest ==8.* ; extra == 'test'
+Requires-Dist: moto[s3] ==5.* ; extra == 'test'
+
+[![Tests passing](https://github.com/CUREd-Plus/curedcolumns/actions/workflows/test.yml/badge.svg)](https://github.com/CUREd-Plus/curedcolumns/actions/workflows/test.yml)
+
+# CUREd+ metadata generator
+
+The CUREd+ metadata generator tool generates a list of all the columns in every table in the database.
+
+# Installation
+
+```bash
+pip install curedcolumns
+```
+
+# Usage
+
+```bash
+curedcolumns --help
+```
+
+## Example
+
+Use the [AWS CLI](https://docs.aws.amazon.com/cli/v1/userguide/) profile named "clean"
+
+```bash
+curedcolumns --profile clean s3://my_bucket.aws.com
+```
+
+# Development
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
