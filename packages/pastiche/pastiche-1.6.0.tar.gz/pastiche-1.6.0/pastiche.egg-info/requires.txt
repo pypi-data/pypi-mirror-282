@@ -1,0 +1,6 @@
+pillow
+torch
+
+[dev]
+h5py
+kmeans1d
