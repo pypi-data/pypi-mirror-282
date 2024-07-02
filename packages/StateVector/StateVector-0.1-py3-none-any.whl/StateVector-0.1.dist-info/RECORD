@@ -1,0 +1,16 @@
+index/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+index/kd_tree.py,sha256=LC0gAlL7hhQjB-ShM2SkJo_1GNx33f2LvVVoV6SE3DY,242
+search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+search/nearest_neighbor.py,sha256=7pkdDX-E0_rGLMWNipVZB3HRr1LOwMA6uA2A5DeX4Nk,173
+similarity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+similarity/cosine_similarity.py,sha256=GN0505UuWgMirzUrAw81G3n24DFmZ6LNhI0X_BqGT5I,256
+similarity/quantum_cosine_similarity.py,sha256=fudNMWa_i55xsD3CaVFX_bmNaOveStxMp0Fe4MFip20,743
+tests/__init__.py,sha256=sNGbUOvaxQ62VeWuodJKqq0szvg92tKEOWuh_tQ3Fs8,15
+vector_representation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vector_representation/audio_vectorizer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vector_representation/image_vectorizer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vector_representation/text_vectorizer.py,sha256=RL22hBoJ8PAk9AFbjc424yfwDZQ2prN58j7U4JvxTFA,452
+StateVector-0.1.dist-info/METADATA,sha256=tN4EPfMdh7lLvCpDCJIvEtnyoBVfwnHKpwfpD71TzZM,4138
+StateVector-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+StateVector-0.1.dist-info/top_level.txt,sha256=7DWvSJO-J79zFr5sJOh49rEjNmhW62d978zJgf9hwok,52
+StateVector-0.1.dist-info/RECORD,,
