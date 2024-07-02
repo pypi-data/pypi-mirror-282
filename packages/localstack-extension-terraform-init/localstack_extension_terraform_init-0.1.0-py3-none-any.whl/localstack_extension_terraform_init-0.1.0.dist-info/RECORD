@@ -1,0 +1,7 @@
+localstack_terraform_init/__init__.py,sha256=pSS4pIYlrqKlLBfTTwRxdET61JJRE5bHLR47jcjaAmY,35
+localstack_terraform_init/extension.py,sha256=Ikt9owthu6bqElrogbbqz9lZ40NmYQn9Mh8QTjLo4EE,2489
+localstack_extension_terraform_init-0.1.0.dist-info/METADATA,sha256=-VIrmVuI0j1ta1L6mjYpl2hgE2bdwFRIT8mPIydfw4k,4152
+localstack_extension_terraform_init-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+localstack_extension_terraform_init-0.1.0.dist-info/entry_points.txt,sha256=d2F00x-2Y_s2yeCZB5CHNhY2q3VHInUkj3V1TR4kAHw,201
+localstack_extension_terraform_init-0.1.0.dist-info/top_level.txt,sha256=sLR7KRN4rLSDmaoH7_h6NZ74w14yiqcHLdmRE3XhGpw,26
+localstack_extension_terraform_init-0.1.0.dist-info/RECORD,,
