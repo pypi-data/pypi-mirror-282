@@ -1,0 +1,15 @@
+dotenv/__init__.py,sha256=WBU5SfSiKAhS3hzu17ykNuuwbuwyDCX91Szv4vUeOuM,1292
+dotenv/__main__.py,sha256=N0RhLG7nHIqtlJHwwepIo-zbJPNx9sewCCRGY528h_4,129
+dotenv/cli.py,sha256=PfWxjWG5YrYBZb1ZXOQf4elPMjew7h9k8NeyjAvwgsc,5811
+dotenv/ipython.py,sha256=avI6aez_RxnBptYgchIquF2TSgKI-GOhY3ppiu3VuWE,1303
+dotenv/main.py,sha256=PkMmkEaAKORu_5RsnVGXSebyXgaMjfMcWBQEaGWzq8k,12297
+dotenv/parser.py,sha256=QgU5HwMwM2wMqt0vz6dHTJ4nzPmwqRqvi4MSyeVifgU,5186
+dotenv/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+dotenv/variables.py,sha256=CD0qXOvvpB3q5RpBQMD9qX6vHX7SyW-SuiwGMFSlt08,2348
+dotenv/version.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+py_dottenv-1.0.1.dist-info/LICENSE,sha256=shWIgBV9wAstqAg0PaUNuFWjzYK4DliLKKUheTpc390,1548
+py_dottenv-1.0.1.dist-info/METADATA,sha256=9iyusupvFXbEGTD6OzqGhq9qOTzpCJieKOyu1L0VOXY,23007
+py_dottenv-1.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+py_dottenv-1.0.1.dist-info/entry_points.txt,sha256=yRl1rCbswb1nQTQ_gZRlCw5QfabztUGnfGWLhlXFNdI,47
+py_dottenv-1.0.1.dist-info/top_level.txt,sha256=eyqUH4SHJNr6ahOYlxIunTr4XinE8Z5ajWLdrK3r0D8,7
+py_dottenv-1.0.1.dist-info/RECORD,,
