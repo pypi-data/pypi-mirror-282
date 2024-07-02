@@ -1,0 +1,17 @@
+aigcfile/clis/click/cli.py,sha256=ZxdBz8A3LWyiTSX1nWTqQ6p0GrV9OlVJGC8bHFQuc-Y,725
+aigcfile/clis/click/commands/rename.py,sha256=g4SBRle9I7E5M44BiNPgSrMCl46BMQ7qaqsjBQouVdY,1337
+aigcfile/clis/click/commands/write.py,sha256=LqHud5NkjYLgceaAzs6NsceA1oEv1T56wJPnUmGLB0A,945
+aigcfile/clis/click/utils/datatype.py,sha256=eUfdyfo2pvLDrFufgvVghfG1_NHw4KEI0wzJoZXI3x0,259
+aigcfile/image/rename.py,sha256=okKK0-LqYFX5JDuhlpnJ7NBf6wo2Oia1uV4aHMpHu5U,2141
+aigcfile/image/rename_test.py,sha256=hOIm4lafFe8OG-uWzPpMvj-6bKBKNpMkI0IUfGCowDs,486
+aigcfile/module/rename.py,sha256=ukODNO2aYXlISpyoX_0xfdSej68O8fvjbX3QhbZ6gYo,305
+aigcfile/module/write.py,sha256=OEWQZ7JOk7iwe8XquqSg_YhadEWsWDrw4Z5nu0SMU0A,293
+aigcfile/text/write.py,sha256=e-Feu4aiVqNwEAt-EKG8PiohYQZskCwl0UefqTGlwBM,1883
+aigcfile/text/write_test.py,sha256=xWybcCFNayOOUFr-m4Fa431SvcIMQUazWheZSN5Kt2I,451
+aigcfile/utils/globfile.py,sha256=4JyGR0II8VJoT1jTiG6yxRE9tFDlHLyHhwO3Se8flFw,482
+aigcfile-0.0.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+aigcfile-0.0.2.dist-info/METADATA,sha256=XlFoB4KtJXo5RGBiuI5fWve26SCX-A7okOWxd1AGt6g,1486
+aigcfile-0.0.2.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+aigcfile-0.0.2.dist-info/entry_points.txt,sha256=YfbDoFd5G5tYMlc_KcDcn_gmGa6FZwUDCBucRmgb64g,57
+aigcfile-0.0.2.dist-info/top_level.txt,sha256=FaVxvk4W4mz5kRVk-Afz4Hi1KD_4IL6rDFMGkHCnmao,9
+aigcfile-0.0.2.dist-info/RECORD,,
