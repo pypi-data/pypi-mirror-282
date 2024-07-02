@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+cra5.egg-info/PKG-INFO
+cra5.egg-info/SOURCES.txt
+cra5.egg-info/dependency_links.txt
+cra5.egg-info/not-zip-safe
+cra5.egg-info/requires.txt
+cra5.egg-info/top_level.txt
