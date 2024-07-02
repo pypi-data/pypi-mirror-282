@@ -1,0 +1,7 @@
+multipledispatch>=1.0.0
+aett-eventstore>=1.2.1
+
+[dev]
+pip-tools
+pytest
+behave
