@@ -1,0 +1,12 @@
+local_gemma/__init__.py,sha256=-ivzEJgswqJ1GHK54DAj9vnqYUL_w_z8EsHJI9anrc4,666
+local_gemma/cli.py,sha256=MsjB2_5tV5uyGW_lV_WGUL_xX3b6wgPEWXoR9jNUmrY,11013
+local_gemma/modeling_local_gemma_2.py,sha256=-hsMJUDHv4bTV-ywXZ9uurQeiMDDREqwHVgEoGnnhXI,6826
+local_gemma/utils/__init__.py,sha256=qETsqCwayu6Ymj_J4_A_eiwiaMRHQ0noWKM35naanzc,606
+local_gemma/utils/benchmark.py,sha256=opfYukJlg4WiY7n3HtMLG7CyQ9R_Wkaj0A5vf2dUAKo,3013
+local_gemma/utils/config.py,sha256=Q8LXuRyz1P5IsVTGNLggYHKx9EF-VBatt81VPo83bC8,3768
+local_gemma-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+local_gemma-0.1.0.dist-info/METADATA,sha256=YPnHZ_04sOGmOpG3YofhfCJvvlMuWFXrpJx1aH3gLjQ,427
+local_gemma-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+local_gemma-0.1.0.dist-info/entry_points.txt,sha256=nRZK1BU6pwNG-sYTfZsscRE8av67fITFSE-NrES7xoM,53
+local_gemma-0.1.0.dist-info/top_level.txt,sha256=r0XBR4FpNkrP0D46snGEcOlsmyvyftzghEmKCGyKWBs,12
+local_gemma-0.1.0.dist-info/RECORD,,
