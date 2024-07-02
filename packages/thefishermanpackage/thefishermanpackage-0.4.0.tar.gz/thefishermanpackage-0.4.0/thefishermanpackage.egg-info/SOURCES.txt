@@ -1,0 +1,5 @@
+setup.py
+thefishermanpackage.egg-info/PKG-INFO
+thefishermanpackage.egg-info/SOURCES.txt
+thefishermanpackage.egg-info/dependency_links.txt
+thefishermanpackage.egg-info/top_level.txt
