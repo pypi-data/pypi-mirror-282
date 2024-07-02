@@ -1,0 +1,6 @@
+README.md
+setup.py
+scrapeshop.egg-info/PKG-INFO
+scrapeshop.egg-info/SOURCES.txt
+scrapeshop.egg-info/dependency_links.txt
+scrapeshop.egg-info/top_level.txt
