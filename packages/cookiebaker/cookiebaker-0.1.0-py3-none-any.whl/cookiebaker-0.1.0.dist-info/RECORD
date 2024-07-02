@@ -1,0 +1,12 @@
+cookiebaker/.__init__.py.swp,sha256=Wm3UwyWVzF_rYJM_j9IPFxttpww4pEP3G3-RP1kpcOg,12288
+cookiebaker/__init__.py,sha256=t7hxbajCoHmzG15UHYBVjqqv7Jy4WoY9-12W4VztYz8,1245
+cookiebaker/__pycache__/__init__.cpython-310.pyc,sha256=nzGfxa0Rl0heVf5Gg8OE2WwK19Rwk79IxnrZmK3jUI4,1323
+cookiebaker/default_cookiecutter/cookiecutter.json,sha256=fjPSybAP49U3fGrKzghcrm0xkRs2TG3vuycOzXWSnv0,391
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/README.md,sha256=q-kcsjjN30ditkpSTdtQ0G5900ADqO2QaekIr55Elmk,941
+cookiebaker/default_cookiecutter/{{ cookiecutter.__pypi_slug }}/pyproject.toml,sha256=OpMUyruVVmnNGKekf0LddfB0bqiZ1WGB3IIAE9c3lmc,939
+cookiebaker-0.1.0.dist-info/LICENSE.txt,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+cookiebaker-0.1.0.dist-info/METADATA,sha256=O6cE98OF4vdoYYTHRAaUgptdkS92kPVc9giwhiRYcTM,3098
+cookiebaker-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+cookiebaker-0.1.0.dist-info/entry_points.txt,sha256=8jhXb5iL6RMv6N45jU3SWbkFjfZSseIaLv_i6pLsg8Q,48
+cookiebaker-0.1.0.dist-info/top_level.txt,sha256=XyMISYMC-i1dAAr1z20XycZnhkvknEnovdQQlZUQuxs,12
+cookiebaker-0.1.0.dist-info/RECORD,,
