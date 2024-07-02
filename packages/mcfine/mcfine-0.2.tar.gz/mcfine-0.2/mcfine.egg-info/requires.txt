@@ -1,0 +1,17 @@
+astropy
+corner
+emcee
+lmfit
+matplotlib
+numdifftools
+numpy<2.0
+scipy
+threadpoolctl
+tqdm
+
+[docs]
+sphinx-automodapi
+sphinx-rtd-theme
+
+[rt]
+ndradexhyperfine
