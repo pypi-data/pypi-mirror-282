@@ -1,0 +1,2 @@
+[console_scripts]
+folder_to_llm = analyze_folder_for_llm.main:app

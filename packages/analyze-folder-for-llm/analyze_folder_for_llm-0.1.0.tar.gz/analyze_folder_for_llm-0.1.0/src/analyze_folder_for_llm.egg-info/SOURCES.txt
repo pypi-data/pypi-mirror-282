@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/analyze_folder_for_llm/__init__.py
+src/analyze_folder_for_llm/main.py
+src/analyze_folder_for_llm/preset.yaml
+src/analyze_folder_for_llm.egg-info/PKG-INFO
+src/analyze_folder_for_llm.egg-info/SOURCES.txt
+src/analyze_folder_for_llm.egg-info/dependency_links.txt
+src/analyze_folder_for_llm.egg-info/entry_points.txt
+src/analyze_folder_for_llm.egg-info/requires.txt
+src/analyze_folder_for_llm.egg-info/top_level.txt
+tests/test_folder_analyzer.py
