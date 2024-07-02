@@ -1,0 +1,7 @@
+setup.py
+jikuxd.egg-info/PKG-INFO
+jikuxd.egg-info/SOURCES.txt
+jikuxd.egg-info/dependency_links.txt
+jikuxd.egg-info/top_level.txt
+libname/__init__.py
+libname/run.py
