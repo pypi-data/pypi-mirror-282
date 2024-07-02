@@ -1,0 +1,10 @@
+_vec64.cpython-39-aarch64-linux-gnu.so,sha256=sU_ivm6k9glsCuh6B5c1eQt-j25V-fx8ZGs1KgggJfk,84528
+vec64-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vec64-0.0.5.dist-info/WHEEL,sha256=J3BjL0be8q-k0ZVIUnwb4YVsitgpe6epa9hkJ6B7e1c,111
+vec64-0.0.5.dist-info/top_level.txt,sha256=8h5qT2QYTk0Vl1a-9OIhZKa3Cq41XnzJIa2AR9Fq_88,13
+vec64-0.0.5.dist-info/RECORD,,
+vec64-0.0.5.dist-info/METADATA,sha256=ywYSsRpVSoffs0tdG5FxO8X3tDeILdMM9LZTkmgLiE0,1316
+vec64/span.py,sha256=uZS4Q0i4GPhwwNVFSDqtiyI9SlPJm3NInVKqgmS8Bns,568
+vec64/ctype.py,sha256=4_hDmd5p8BRIbtBavGFUGwMXW72tZBBn85euQ7600dg,3830
+vec64/split.py,sha256=JOCGWYzYGV5_7xH9gR8WsUEurk9pGW1-4KSE945SQDM,807
+vec64/__init__.py,sha256=IhZweuDI8w8YbV4CD1-PMOHLzSew5DDjz-Rh7xt9g4E,121
