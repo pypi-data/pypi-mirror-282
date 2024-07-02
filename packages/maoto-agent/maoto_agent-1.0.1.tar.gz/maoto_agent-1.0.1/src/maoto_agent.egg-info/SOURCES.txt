@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/maoto_agent/__init__.py
+src/maoto_agent/__main__.py
+src/maoto_agent/maoto_agent_module.py
+src/maoto_agent.egg-info/PKG-INFO
+src/maoto_agent.egg-info/SOURCES.txt
+src/maoto_agent.egg-info/dependency_links.txt
+src/maoto_agent.egg-info/entry_points.txt
+src/maoto_agent.egg-info/requires.txt
+src/maoto_agent.egg-info/top_level.txt
