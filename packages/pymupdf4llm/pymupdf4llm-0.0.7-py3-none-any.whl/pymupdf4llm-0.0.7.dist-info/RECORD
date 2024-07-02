@@ -1,0 +1,9 @@
+pymupdf4llm/__init__.py,sha256=Q8zaQj_lFVe6xC5AXEfS-KDMpp2sVo1jmD0sb9t80XA,324
+pymupdf4llm/helpers/get_text_lines.py,sha256=FF8z5va01YH4PBMHjC8uPUUXEM4K-PuL6WcJYEHHzMw,8248
+pymupdf4llm/helpers/multi_column.py,sha256=d9n7758Ztn_6DXphI9kqOIUuDdAo1dKz3tbCtes81N4,16291
+pymupdf4llm/helpers/pymupdf_rag.py,sha256=iG0Acmrk_hyVjHuUuca0YFIv6XbqtY5m7ul8-Bnz7Ms,25878
+pymupdf4llm/llama/pdf_markdown_reader.py,sha256=5uTyDZ3WcH5PL2x4Egwk9jWyzs4b-k6WsHxEo_mq1Us,3471
+pymupdf4llm-0.0.7.dist-info/METADATA,sha256=CRkujkDXJ0VDF0QEeKZcE443lCwf8SzkeY68yv_W5Qg,3856
+pymupdf4llm-0.0.7.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+pymupdf4llm-0.0.7.dist-info/top_level.txt,sha256=mzE_Cs3TnOnhQGJXMYFwv_eIHWKI98XEOGfm0JGiIbs,12
+pymupdf4llm-0.0.7.dist-info/RECORD,,
