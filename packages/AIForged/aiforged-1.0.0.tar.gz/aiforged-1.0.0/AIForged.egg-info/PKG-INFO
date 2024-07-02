@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AIForged
+Version: 1.0.0
+Summary: AIForged API
+Home-page: 
+Author-email: support@aiforged.com
+Keywords: Swagger,AIForged API
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    Integration with AI Forged system  # noqa: E501
+    
