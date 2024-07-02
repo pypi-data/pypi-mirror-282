@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+examplelib/__init__.py
+examplelib.egg-info/PKG-INFO
+examplelib.egg-info/SOURCES.txt
+examplelib.egg-info/dependency_links.txt
+examplelib.egg-info/top_level.txt
