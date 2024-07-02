@@ -1,0 +1,11 @@
+pypricetrend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypricetrend/demand_trend.py,sha256=0F7RbbRPnNST5Y0ngOflv2IJJ-EcEQC8K-CUByYnIdU,6107
+pypricetrend/forecast.py,sha256=lmpVkrX50YMO0lNqsStmwhLGGS9GiVhWUtvTwgAAwRA,3931
+pypricetrend/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypricetrend/tests/test_demand_trend.py,sha256=NSRSro1MP_o2fGMF5Gb8Sa_Go-0TwAo7DvocivXjYLo,3423
+pypricetrend/tests/test_forecast.py,sha256=tQBuN2QnRETkekxJdPqGNFDD_S2xsUnWwyCMtte-pRE,2033
+pypricetrend-0.1.0.dist-info/LICENSE,sha256=uInI8pSlEapkMoXm2rx_29xBEhD5noytG8qDgE_b2EQ,1072
+pypricetrend-0.1.0.dist-info/METADATA,sha256=rnawDGgSmM-6tyx4UkvQfu2Kin5q3WNdQ4uh3yaEiFc,3353
+pypricetrend-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pypricetrend-0.1.0.dist-info/top_level.txt,sha256=8A--OE-4f-FlA8vPVaqgg8Hfv4Q72EK2n7ueWHlkERw,13
+pypricetrend-0.1.0.dist-info/RECORD,,
