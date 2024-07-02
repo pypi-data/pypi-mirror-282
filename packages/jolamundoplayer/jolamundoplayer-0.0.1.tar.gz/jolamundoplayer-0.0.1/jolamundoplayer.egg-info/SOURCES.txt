@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Jolamundoplayer/__init__.py
+Jolamundoplayer/lala.py
+Jolamundoplayer/player.py
+jolamundoplayer.egg-info/PKG-INFO
+jolamundoplayer.egg-info/SOURCES.txt
+jolamundoplayer.egg-info/dependency_links.txt
+jolamundoplayer.egg-info/top_level.txt
