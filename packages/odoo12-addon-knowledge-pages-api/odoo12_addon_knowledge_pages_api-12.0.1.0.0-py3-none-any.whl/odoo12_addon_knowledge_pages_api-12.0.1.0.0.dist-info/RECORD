@@ -1,0 +1,17 @@
+odoo/addons/knowledge_pages_api/CHANGELOG.md,sha256=HMiGr4ZTyUt8wvtWs891OaOc-4R91cAFuI-W9wmVigg,422
+odoo/addons/knowledge_pages_api/README.rst,sha256=lyvfVNTLz1v0bB20ajuivCCsSMpCs2Yz2PxRitB6Kvg,2111
+odoo/addons/knowledge_pages_api/__init__.py,sha256=MvDXqkhiMaPXFMi8MgBKv9AmcDMWESFQZZ9EMW0S52Y,43
+odoo/addons/knowledge_pages_api/__manifest__.py,sha256=pKAHdQmjTCQJjQLjnwI1DUjwSKgY7L00d--2rMs0fBo,949
+odoo/addons/knowledge_pages_api/models/__init__.py,sha256=VQa4PobaSPdSGawgCEmXACi4m9J23Fe0V9SHqO-oDxE,67
+odoo/addons/knowledge_pages_api/models/document_page.py,sha256=cYGWm_USFxpgodziEsSvUSzTxEu71nHYFFpXhN3S9Z4,3321
+odoo/addons/knowledge_pages_api/models/knowledge_pages_highlight.py,sha256=5cVprX4oJMk-2iNrGfAiR1a29FfvalI1elQiGVNLKbM,594
+odoo/addons/knowledge_pages_api/security/ir.model.access.csv,sha256=ButaDjkYCScjzmQ96Y8bCmcfZfNDWyuTnJ66L1IedfE,420
+odoo/addons/knowledge_pages_api/services/__init__.py,sha256=b338XIMH2HTJOc0yFDUqRvlWM7VQuA7hE61B-8jlnc4,26
+odoo/addons/knowledge_pages_api/services/page_service.py,sha256=Jq-RupFDE52gkUwJ5O9J-eoCPWKqE4gBTEpHQ7QXR3I,5018
+odoo/addons/knowledge_pages_api/static/description/icon.png,sha256=3taXULJl0n0Ko0YOBXiXtspPonsicVgYojo1ghzHmuY,17607
+odoo/addons/knowledge_pages_api/views/knowledge_page_highlight.xml,sha256=qAkLUJRLn_A-noib_8VTkChDqS2ey7nDFM7Sj_JjF8Q,2116
+odoo/addons/knowledge_pages_api/views/knowledge_page_view.xml,sha256=V-vljqKxddwKGHjDtwhf9FTEvYwDIgRiB0cWvzuIikY,3109
+odoo12_addon_knowledge_pages_api-12.0.1.0.0.dist-info/METADATA,sha256=7cRSJdnvRLnUTYeEX8_mfVVeEN50cIoftGC5cFwKAGo,3015
+odoo12_addon_knowledge_pages_api-12.0.1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_knowledge_pages_api-12.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_knowledge_pages_api-12.0.1.0.0.dist-info/RECORD,,
