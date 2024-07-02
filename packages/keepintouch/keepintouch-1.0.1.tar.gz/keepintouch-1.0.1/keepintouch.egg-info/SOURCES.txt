@@ -1,0 +1,10 @@
+README.md
+setup.py
+keepintouch/__init__.py
+keepintouch/auth.py
+keepintouch/utils.py
+keepintouch.egg-info/PKG-INFO
+keepintouch.egg-info/SOURCES.txt
+keepintouch.egg-info/dependency_links.txt
+keepintouch.egg-info/requires.txt
+keepintouch.egg-info/top_level.txt
