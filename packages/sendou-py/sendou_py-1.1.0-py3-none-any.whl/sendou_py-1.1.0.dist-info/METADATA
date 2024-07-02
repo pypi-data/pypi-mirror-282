@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: sendou-py
+Version: 1.1.0
+Summary: An async Python library for Sendou.ink
+Home-page: https://github.com/IPLSplatoon/sendou.py/
+License: MIT
+Keywords: splatoon,sendou.ink
+Author: Vincent Lee
+Author-email: vlee@vlee.me.uk
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp-client-cache (>=0.11.0,<0.12.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Project-URL: Documentation, https://sendou.opensource.iplabs.work/
+Project-URL: Repository, https://github.com/IPLSplatoon/sendou.py/
+Description-Content-Type: text/markdown
+
+# sendou.py
+An async Python client for Sendou.ink
+
+[![Documentation Status](https://readthedocs.org/projects/sendoupy/badge/?version=latest)](https://sendoupy.readthedocs.io/latest/?badge=latest)
+
+- [Documentation](https://sendou.opensource.iplabs.work/)
+- [PyPi](https://pypi.org/project/sendou.py/)
+
+## Maintainers
+- Vincent Lee
+
+## Dependencies
+- aiohttp
+- [aiohttp-client-cache](https://pypi.org/project/aiohttp-client-cache/)
+- python-dateutil
+
+## Installation
+`pip install sendou.py`
+
+## Supported Endpoints
+- [x] Get user
+- [x] Get Calendar Entries
+- [x] Get Tournament Info
+  - [x] Get Tournament Teams
+  - [X] Get Tournament Brackets
+    - [x] Get Tournament Match Info
+
+## Usage
+```python
+import sendou
+import asyncio
+
+async def run():
+    client = sendou.Client("API_KEY")
+    player = await client.get_user("USER_ID")
+    print(player.name)
+
+asyncio.run(run())
+```
+
+## Getting an API Key
+To use this library, you must have an API key. You need to DM Sendou for an API Key currently.
+
+
