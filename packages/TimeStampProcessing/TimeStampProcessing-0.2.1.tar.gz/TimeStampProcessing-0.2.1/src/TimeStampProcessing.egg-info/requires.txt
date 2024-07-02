@@ -1,0 +1,7 @@
+setuptools
+pytest
+numpy
+pandas
+scipy
+pytz
+astral
