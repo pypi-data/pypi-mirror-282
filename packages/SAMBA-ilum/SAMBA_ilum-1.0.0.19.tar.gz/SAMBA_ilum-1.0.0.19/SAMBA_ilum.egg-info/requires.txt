@@ -1,0 +1,7 @@
+matplotlib
+pyfiglet
+requests
+plotly
+scipy
+numpy
+vasprocar
