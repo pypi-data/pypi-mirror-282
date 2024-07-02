@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+hiddelib.egg-info/PKG-INFO
+hiddelib.egg-info/SOURCES.txt
+hiddelib.egg-info/dependency_links.txt
+hiddelib.egg-info/top_level.txt
+hiddenlib/README.md
+hiddenlib/__init__.py
+hiddenlib/search.py
+hiddenlib/setup.py
