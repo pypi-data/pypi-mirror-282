@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tsassure-feature
+Version: 0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+
+UNKNOWN
+
