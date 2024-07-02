@@ -1,0 +1,17 @@
+tagra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tagra/analysis.py,sha256=hJqbVPtCM5w93Xu-aCa92eHmF9V9Ecd6B8C4gp57cEw,5922
+tagra/config.py,sha256=_BKZGUI-9h309a6kEMldC-IXBNVUMYg3PcXVDUk9HEw,2191
+tagra/graph.py,sha256=MeYOVKQ-GQCUCRY1MqxpOCflfrYMM_9B1ApXsoYhM-w,5478
+tagra/preprocessing.py,sha256=g7M-jSKp1eFZI-CotbMyFzgEQqOvDP-hB5L7IMjJis8,14687
+tagra/utils.py,sha256=8Lwh8OlXpQzk6U8CPsvvIwg2-bnQeBxvMpbLzs8Mdmg,8754
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_analysis.py,sha256=Saa4hErKhsq3g2ADfq9maYUcJ7o3-9u1IbadDXA8esQ,2447
+tests/test_config.py,sha256=sAlFo4ZlRveP1V6tp9WsIanZEGYWUNCePE7P1EluR_0,1444
+tests/test_graph.py,sha256=nLi7iGr3Jim9vee-WfkO2xTXEnceC15f-Z3kC09DjVo,977
+tests/test_preprocessing.py,sha256=V4UkD3SdfblugG8fjtnKuL8RpRpkAc0PalWj-lrPE5E,2803
+TaGra-0.2.1.dist-info/LICENSE,sha256=EQ6CSjVqET_qdOxoVTDwwtyharauKMhhSgdw46SKaK8,1084
+TaGra-0.2.1.dist-info/METADATA,sha256=JRblkWop0vXutMj_7hmMC3UDCuKaQKx4a_0fkUofEMs,19295
+TaGra-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TaGra-0.2.1.dist-info/entry_points.txt,sha256=NU8RZgo1VjIXxDrTuAEzb90ePW2bZhXGWYiPpyjvpjY,39
+TaGra-0.2.1.dist-info/top_level.txt,sha256=NaDRCW5CI2twjrz_yJZgCOi39dUhlpAyXZeBGIiVQKM,12
+TaGra-0.2.1.dist-info/RECORD,,
