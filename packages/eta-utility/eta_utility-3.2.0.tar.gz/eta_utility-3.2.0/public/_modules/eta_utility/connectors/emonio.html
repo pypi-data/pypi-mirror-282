@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eta_utility.connectors.emonio &mdash; eta_utility 3.2.0 documentation</title>
+      <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../../_static/documentation_options.js?v=4f6ddb47"></script>
+        <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../../../_static/copybutton.js?v=35a8b989"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            eta_utility
+          </a>
+              <div class="version">
+                3.2
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/python_install.html">Set up Python and Git</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/development.html">Contributing to development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/faq.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/examples.html">Usage examples</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ETA-X Optimization</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/control_algorithms.html">Control Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/envs.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/common_functions.html">Common Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/sb3_extensions.html">Extensions for <em>stable_baselines3</em></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Connectors</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/introduction.html#connection-instantiation">Connection Instantiation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/connectors.html">Connections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/emonio.html">EmonioConnection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/wetterdienst_connection.html">WetterdienstConnection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/live_connect.html">Live Connect</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/sub_handlers.html">Subscription Handlers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Servers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../servers/servers.html">Servers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Simulators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../simulators/fmu.html">Functional Mockup Units</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Timeseries</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../timeseries/timeseries.html">Timeseries</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">util</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../util/util.html">Additional Utilities</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../_stubs/api.html">eta_utility</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">eta_utility</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">eta_utility.connectors.emonio</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for eta_utility.connectors.emonio</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+
+<span class="kn">from</span> <span class="nn">collections.abc</span> <span class="kn">import</span> <span class="n">Iterable</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">TYPE_CHECKING</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="kn">from</span> <span class="nn">eta_utility.connectors.base_classes</span> <span class="kn">import</span> <span class="n">Connection</span><span class="p">,</span> <span class="n">SubscriptionHandler</span>
+<span class="kn">from</span> <span class="nn">eta_utility.connectors.modbus</span> <span class="kn">import</span> <span class="n">ModbusConnection</span>
+<span class="kn">from</span> <span class="nn">eta_utility.connectors.node</span> <span class="kn">import</span> <span class="n">Node</span><span class="p">,</span> <span class="n">NodeEmonio</span><span class="p">,</span> <span class="n">NodeModbus</span>
+<span class="kn">from</span> <span class="nn">eta_utility.util</span> <span class="kn">import</span> <span class="n">get_logger</span>
+
+<span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">collections.abc</span> <span class="kn">import</span> <span class="n">Mapping</span>
+    <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span>
+
+    <span class="kn">from</span> <span class="nn">eta_utility.type_hints</span> <span class="kn">import</span> <span class="n">Nodes</span><span class="p">,</span> <span class="n">TimeStep</span>
+
+<span class="n">log</span> <span class="o">=</span> <span class="n">get_logger</span><span class="p">(</span><span class="s2">&quot;connectors.emonio&quot;</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="EmonioConnection">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.EmonioConnection">[docs]</a>
+<span class="k">class</span> <span class="nc">EmonioConnection</span><span class="p">(</span><span class="n">Connection</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">],</span> <span class="n">protocol</span><span class="o">=</span><span class="s2">&quot;emonio&quot;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Thin wrapper class for the Emonio that uses a modbus TCP Connection.</span>
+<span class="sd">    Internally the Emonio nodes are converted to modbus nodes with</span>
+<span class="sd">    fixed parameters, expect for the name, url and channel.</span>
+<span class="sd">    If nodes have specified a phase, the connection will check if the phase is connected.</span>
+<span class="sd">    Additionally, the connection will check for Emonio errors and warnings (max. every minute).</span>
+
+<span class="sd">    When creating a :class:`~node.NodeEmonio` the :attr:`~node.NodeEmonio.parameter` (and resulting modbus channel)</span>
+<span class="sd">    is set by the name of the node (case insensitive).</span>
+<span class="sd">    See `Available Emonio Nodes` for for possible parameter names.</span>
+<span class="sd">    Alternatively, the :attr:`~node.NodeEmonio.address` (modbus channel) can be set manually.</span>
+
+<span class="sd">    The phase is set by the :attr:`~node.NodeEmonio.phase` attribute of the node.</span>
+<span class="sd">    Possible values are ``a``, ``b``, ``c`` or ``abc``, with ``abc`` being the default.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">check_error</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialize the Emonio connection.</span>
+
+<span class="sd">        :param url: URL of the Emonio.</span>
+<span class="sd">        :param nodes: List of nodes to connect to.</span>
+<span class="sd">        :param check_error: Setting to check for errors and warnings.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nodes_factory</span> <span class="o">=</span> <span class="n">NodeModbusFactory</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="c1"># The actual (Modbus) connection which will be used for reading</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_connection</span> <span class="o">=</span> <span class="n">ModbusConnection</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">)</span>
+        <span class="c1"># Dictionary to keep track of the connected phases</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_phases_connected</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_phases_status</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">check_error</span> <span class="o">=</span> <span class="n">check_error</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_last_error_check</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">minutes</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">check_warnings_and_errors</span><span class="p">()</span>
+
+        <span class="c1"># This calls self._validate_nodes(nodes) and checks phases and errors/warnings</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">nodes</span><span class="o">=</span><span class="n">nodes</span><span class="p">)</span>
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">_from_node</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">node</span><span class="p">:</span> <span class="n">NodeEmonio</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">EmonioConnection</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Create an Emonio connection from a single node.</span>
+
+<span class="sd">        :param node: The node to connect to.</span>
+<span class="sd">        :return: The Emonio connection.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">url</span><span class="p">,</span> <span class="n">nodes</span><span class="o">=</span><span class="p">[</span><span class="n">node</span><span class="p">])</span>
+
+<div class="viewcode-block" id="EmonioConnection.read">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.EmonioConnection.read">[docs]</a>
+    <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Read the values of the selected nodes.</span>
+<span class="sd">        If nodes is None, all previously selected nodes will be read.</span>
+
+<span class="sd">        :param nodes: List of nodes to read from.</span>
+<span class="sd">        :return: Dataframe with the read values.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">_nodes</span><span class="p">:</span> <span class="nb">set</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_validate_nodes</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_connection</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_prepare_modbus_nodes</span><span class="p">(</span><span class="n">_nodes</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="EmonioConnection.write">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.EmonioConnection.write">[docs]</a>
+    <span class="k">def</span> <span class="nf">write</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">values</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">,</span> <span class="n">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        .. warning::</span>
+<span class="sd">           Not implemented: Writing to Emonio nodes is not supported.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;Writing to Emonio nodes is not supported&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="EmonioConnection.subscribe">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.EmonioConnection.subscribe">[docs]</a>
+    <span class="k">def</span> <span class="nf">subscribe</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">handler</span><span class="p">:</span> <span class="n">SubscriptionHandler</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">interval</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Subscribe to the selected nodes. The Modbus connection does all the handling.</span>
+
+<span class="sd">        :param handler: The handler to subscribe.</span>
+<span class="sd">        :param nodes: List of nodes to subscribe to.</span>
+<span class="sd">        :param interval: The interval in seconds to read the values.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">_nodes</span><span class="p">:</span> <span class="nb">set</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_validate_nodes</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_connection</span><span class="o">.</span><span class="n">subscribe</span><span class="p">(</span><span class="n">handler</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_prepare_modbus_nodes</span><span class="p">(</span><span class="n">_nodes</span><span class="p">),</span> <span class="n">interval</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="EmonioConnection.close_sub">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.EmonioConnection.close_sub">[docs]</a>
+    <span class="k">def</span> <span class="nf">close_sub</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Close the subscription of the modus connection.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_connection</span><span class="o">.</span><span class="n">close_sub</span><span class="p">()</span></div>
+
+
+    <span class="k">def</span> <span class="nf">_prepare_modbus_nodes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">NodeModbus</span><span class="p">]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Convert the Emonio nodes to modbus nodes with fixed parameters.</span>
+<span class="sd">        The wordorder is little because the Emonio uses zero based word indexing.</span>
+<span class="sd">        All values are 32 bit float holding registers.</span>
+
+<span class="sd">        :param nodes: List of Emonio nodes.</span>
+<span class="sd">        :return: List of modbus nodes (will return empty list when no nodes are passed).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">Iterable</span><span class="p">):</span>
+            <span class="n">nodes</span> <span class="o">=</span> <span class="p">{</span><span class="n">nodes</span><span class="p">}</span>
+        <span class="n">modbus_nodes</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">nodes_factory</span><span class="o">.</span><span class="n">get_default_node</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">node</span><span class="o">.</span><span class="n">address</span><span class="p">)</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">modbus_nodes</span>
+
+    <span class="k">def</span> <span class="nf">_validate_nodes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">set</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Validate the nodes and return the set of nodes.</span>
+<span class="sd">        If nodes is none, return the previously selected nodes.</span>
+
+<span class="sd">        :param nodes: List of nodes to validate.</span>
+<span class="sd">        :return: Set of nodes.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">_nodes</span><span class="p">:</span> <span class="nb">set</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">]</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">_validate_nodes</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">check_error</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">check_warnings_and_errors</span><span class="p">()</span>
+        <span class="c1"># Check if the phases of the nodes are connected</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_check_phases</span><span class="p">(</span><span class="n">_nodes</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">_nodes</span>
+
+    <span class="k">def</span> <span class="nf">_get_phases_status</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">bool</span><span class="p">]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Get connection information about the phases of the Emonio.</span>
+<span class="sd">        The status is read from the discrete input registers of the Emonio.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">nodes_factory</span><span class="o">.</span><span class="n">get_discrete_input_node</span><span class="p">(</span><span class="n">phase</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">phase</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">])]</span>
+        <span class="c1"># Read the status of the phases from the Emonio</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_connection</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+        <span class="c1"># Convert the result to a dictionary</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span>
+        <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Connected phases: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+
+    <span class="k">def</span> <span class="nf">_check_phases</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeEmonio</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Check the connection status of the Emonio phases.</span>
+
+<span class="sd">        :param nodes: List of nodes to check.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">Node</span><span class="p">):</span>
+            <span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="n">nodes</span><span class="p">]</span>
+
+        <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
+            <span class="n">phase</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">phase</span>
+            <span class="k">if</span> <span class="n">phase</span> <span class="o">==</span> <span class="s2">&quot;abc&quot;</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_phases_connected</span><span class="p">[</span><span class="n">phase</span><span class="p">]:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Phase &#39;</span><span class="si">{</span><span class="n">phase</span><span class="si">}</span><span class="s2">&#39; is not connected.&quot;</span><span class="p">)</span>
+
+<div class="viewcode-block" id="EmonioConnection.check_warnings_and_errors">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.EmonioConnection.check_warnings_and_errors">[docs]</a>
+    <span class="k">def</span> <span class="nf">check_warnings_and_errors</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Calls the error and warning check if the last check was more than a minute ago.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_last_error_check</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">pass</span>
+        <span class="k">elif</span> <span class="n">now</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">_last_error_check</span> <span class="o">&lt;</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">minutes</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+            <span class="k">return</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_last_error_check</span> <span class="o">=</span> <span class="n">now</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_check_warnings_and_errors</span><span class="p">()</span></div>
+
+
+    <span class="k">def</span> <span class="nf">_check_warnings_and_errors</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Check the Emonio for errors and warnings.</span>
+<span class="sd">        This is done by reading the error and warning bits from the Emonio.</span>
+<span class="sd">        If an error bit is set, a ValueError is raised.</span>
+<span class="sd">        If a warning bit is set, a warning is logged.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">error_node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nodes_factory</span><span class="o">.</span><span class="n">get_warnings_errors_node</span><span class="p">(</span><span class="s2">&quot;Error&quot;</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+        <span class="n">warning_node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nodes_factory</span><span class="o">.</span><span class="n">get_warnings_errors_node</span><span class="p">(</span><span class="s2">&quot;Warning&quot;</span><span class="p">,</span> <span class="mi">1001</span><span class="p">)</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_connection</span><span class="o">.</span><span class="n">read</span><span class="p">([</span><span class="n">error_node</span><span class="p">,</span> <span class="n">warning_node</span><span class="p">])</span>
+
+        <span class="c1"># Check binary if corresponding error/warning bit is set</span>
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">result</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="c1"># Convert the value to a binary string and reverse it</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">bit</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">bin</span><span class="p">(</span><span class="n">value</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">])[:</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="k">if</span> <span class="n">bit</span> <span class="o">==</span> <span class="s2">&quot;1&quot;</span><span class="p">:</span>
+                    <span class="c1"># chr(97) = &quot;a&quot;, chr(98) = &quot;b&quot;, ...</span>
+                    <span class="n">msg</span> <span class="o">=</span> <span class="p">(</span>
+                        <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> bit &#39;</span><span class="si">{</span><span class="nb">chr</span><span class="p">(</span><span class="mi">97</span><span class="o">+</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; is set. &quot;</span>
+                        <span class="sa">f</span><span class="s2">&quot;See https://wiki.emonio.de/de/Emonio_P3 for more information.&quot;</span>
+                    <span class="p">)</span>
+                    <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;Warning&quot;</span><span class="p">:</span>
+                        <span class="n">log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="n">log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+                        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="NodeModbusFactory">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.NodeModbusFactory">[docs]</a>
+<span class="k">class</span> <span class="nc">NodeModbusFactory</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The NodeModbusFactory is a factory class that creates NodeModbus objects</span>
+<span class="sd">    with fixed parameters, expect: name, url and mb_channel.</span>
+
+<span class="sd">    Has to be initialized with the url of the Emonio.</span>
+
+<span class="sd">    It&#39;s a helper class for the EmonioConnection to create its modbus nodes.</span>
+<span class="sd">    It also can be used to manually create a NodeModbus object, which has to be read with a ModbusConnection.</span>
+<span class="sd">    (not recommended, use the EmonioConnection instead)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">common</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;url&quot;</span><span class="p">:</span> <span class="n">url</span><span class="p">,</span> <span class="s2">&quot;protocol&quot;</span><span class="p">:</span> <span class="s2">&quot;modbus&quot;</span><span class="p">,</span> <span class="s2">&quot;mb_byteorder&quot;</span><span class="p">:</span> <span class="s2">&quot;big&quot;</span><span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">default_params</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="o">**</span><span class="n">common</span><span class="p">,</span>
+            <span class="s2">&quot;mb_wordorder&quot;</span><span class="p">:</span> <span class="s2">&quot;little&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;mb_register&quot;</span><span class="p">:</span> <span class="s2">&quot;holding&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;dtype&quot;</span><span class="p">:</span> <span class="s2">&quot;float&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;mb_bit_length&quot;</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">discrete_input_params</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="o">**</span><span class="n">common</span><span class="p">,</span>
+            <span class="s2">&quot;mb_register&quot;</span><span class="p">:</span> <span class="s2">&quot;discrete_input&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;dtype&quot;</span><span class="p">:</span> <span class="s2">&quot;bool&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;mb_bit_length&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">warnings_errors_params</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="o">**</span><span class="n">common</span><span class="p">,</span>
+            <span class="s2">&quot;mb_register&quot;</span><span class="p">:</span> <span class="s2">&quot;holding&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;dtype&quot;</span><span class="p">:</span> <span class="s2">&quot;int&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;mb_bit_length&quot;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span>
+        <span class="p">}</span>
+
+    <span class="k">def</span> <span class="nf">__return_nodes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">params</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">NodeModbus</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">NodeModbus</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">params</span><span class="p">,</span> <span class="n">mb_channel</span><span class="o">=</span><span class="n">channel</span><span class="p">)</span>
+
+<div class="viewcode-block" id="NodeModbusFactory.get_default_node">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.NodeModbusFactory.get_default_node">[docs]</a>
+    <span class="k">def</span> <span class="nf">get_default_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NodeModbus</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Create a modbus node for reading Emonio values.</span>
+
+<span class="sd">        :param name: Name of the node.</span>
+<span class="sd">        :param channel: Modbus channel of the node. (Emonio address)</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__return_nodes</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">channel</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">default_params</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="NodeModbusFactory.get_discrete_input_node">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.NodeModbusFactory.get_discrete_input_node">[docs]</a>
+    <span class="k">def</span> <span class="nf">get_discrete_input_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NodeModbus</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Create a modbus node for reading the connection status of the Emonio phases.</span>
+
+<span class="sd">        :param name: Name of the node.</span>
+<span class="sd">        :param channel: Modbus channel of the node. (Emonio address)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__return_nodes</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">channel</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">discrete_input_params</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="NodeModbusFactory.get_warnings_errors_node">
+<a class="viewcode-back" href="../../../connectors/emonio.html#eta_utility.connectors.emonio.NodeModbusFactory.get_warnings_errors_node">[docs]</a>
+    <span class="k">def</span> <span class="nf">get_warnings_errors_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NodeModbus</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Create a modbus node for reading the error and warning registers of the Emonio.</span>
+
+<span class="sd">        :param name: Name of the node.</span>
+<span class="sd">        :param channel: Modbus channel of the node. (Emonio address)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__return_nodes</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">channel</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">warnings_errors_params</span><span class="p">)</span></div>
+</div>
+
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Technical University of Darmstadt, Institute for Production Management, Technology and Machine Tools (PTW).</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

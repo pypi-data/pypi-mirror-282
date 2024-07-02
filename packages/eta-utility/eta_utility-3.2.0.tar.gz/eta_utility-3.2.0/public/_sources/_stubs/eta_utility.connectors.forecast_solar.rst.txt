@@ -1,0 +1,7 @@
+eta\_utility.connectors.forecast\_solar module
+==============================================
+
+.. automodule:: eta_utility.connectors.forecast_solar
+   :members:
+   :undoc-members:
+   :show-inheritance:

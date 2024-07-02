@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eta_utility.connectors.wetterdienst_connection &mdash; eta_utility 3.2.0 documentation</title>
+      <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../../_static/documentation_options.js?v=4f6ddb47"></script>
+        <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../../../_static/copybutton.js?v=35a8b989"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            eta_utility
+          </a>
+              <div class="version">
+                3.2
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/python_install.html">Set up Python and Git</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/development.html">Contributing to development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../guide/faq.html">Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/examples.html">Usage examples</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ETA-X Optimization</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/control_algorithms.html">Control Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/envs.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/common_functions.html">Common Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../eta_x/sb3_extensions.html">Extensions for <em>stable_baselines3</em></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Connectors</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/introduction.html#connection-instantiation">Connection Instantiation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/connectors.html">Connections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/emonio.html">EmonioConnection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/wetterdienst_connection.html">WetterdienstConnection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/live_connect.html">Live Connect</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../connectors/sub_handlers.html">Subscription Handlers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Servers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../servers/servers.html">Servers</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Simulators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../simulators/fmu.html">Functional Mockup Units</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Timeseries</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../timeseries/timeseries.html">Timeseries</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">util</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../util/util.html">Additional Utilities</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../_stubs/api.html">eta_utility</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">eta_utility</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">eta_utility.connectors.wetterdienst_connection</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for eta_utility.connectors.wetterdienst_connection</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+
+<span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">TYPE_CHECKING</span><span class="p">,</span> <span class="n">Generic</span><span class="p">,</span> <span class="n">TypeVar</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">wetterdienst</span> <span class="kn">import</span> <span class="n">Settings</span>
+<span class="kn">from</span> <span class="nn">wetterdienst.provider.dwd.mosmix.api</span> <span class="kn">import</span> <span class="n">DwdMosmixRequest</span>
+<span class="kn">from</span> <span class="nn">wetterdienst.provider.dwd.observation.api</span> <span class="kn">import</span> <span class="n">DwdObservationRequest</span>
+
+<span class="k">if</span> <span class="n">TYPE_CHECKING</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">collections.abc</span> <span class="kn">import</span> <span class="n">Mapping</span>
+    <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span>
+
+    <span class="kn">from</span> <span class="nn">eta_utility.type_hints</span> <span class="kn">import</span> <span class="n">Nodes</span><span class="p">,</span> <span class="n">TimeStep</span>
+
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
+
+<span class="kn">from</span> <span class="nn">eta_utility</span> <span class="kn">import</span> <span class="n">get_logger</span>
+<span class="kn">from</span> <span class="nn">eta_utility.connectors.node</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">NodeWetterdienst</span><span class="p">,</span>
+    <span class="n">NodeWetterdienstObservation</span><span class="p">,</span>
+    <span class="n">NodeWetterdienstPrediction</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">.base_classes</span> <span class="kn">import</span> <span class="n">SeriesConnection</span><span class="p">,</span> <span class="n">SubscriptionHandler</span>
+
+<span class="n">log</span> <span class="o">=</span> <span class="n">get_logger</span><span class="p">(</span><span class="s2">&quot;connectors.wetterdienst&quot;</span><span class="p">)</span>
+
+<span class="n">NW</span> <span class="o">=</span> <span class="n">TypeVar</span><span class="p">(</span><span class="s2">&quot;NW&quot;</span><span class="p">,</span> <span class="n">bound</span><span class="o">=</span><span class="n">NodeWetterdienst</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="WetterdienstConnection">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection">[docs]</a>
+<span class="k">class</span> <span class="nc">WetterdienstConnection</span><span class="p">(</span><span class="n">Generic</span><span class="p">[</span><span class="n">NW</span><span class="p">],</span> <span class="n">SeriesConnection</span><span class="p">[</span><span class="n">NW</span><span class="p">],</span> <span class="n">ABC</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The WetterdienstConnection class is a connector to the Wetterdienst API for retrieving weather data.</span>
+<span class="sd">    This class is an abstract base class and should not be used directly. Instead, use the subclasses</span>
+<span class="sd">    :class:`WetterdienstObservationConnection` and :class:`WetterdienstPredictionConnection`.</span>
+
+<span class="sd">    :param url: The base URL of the Wetterdienst API</span>
+<span class="sd">    :param nodes: Nodes to select in connection</span>
+<span class="sd">    :param settings: Wetterdienst settings object</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NW</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">settings</span><span class="p">:</span> <span class="n">Settings</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">settings</span> <span class="o">=</span> <span class="n">Settings</span><span class="p">(</span><span class="n">settings</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">settings</span><span class="o">.</span><span class="n">ts_skip_empty</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">settings</span><span class="o">.</span><span class="n">ts_si_units</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">settings</span><span class="o">.</span><span class="n">ts_humanize</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="s2">&quot;https://opendata.dwd.de/&quot;</span><span class="p">,</span> <span class="n">nodes</span><span class="o">=</span><span class="n">nodes</span><span class="p">)</span>  <span class="c1"># dummy url</span>
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">_from_node</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">node</span><span class="p">:</span> <span class="n">NW</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">WetterdienstConnection</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Initialize the connection object from an wetterdienst protocol node object</span>
+
+<span class="sd">        :param node: Node to initialize from</span>
+<span class="sd">        :param kwargs: Extra keyword arguments</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="n">nodes</span><span class="o">=</span><span class="p">[</span><span class="n">node</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+<div class="viewcode-block" id="WetterdienstConnection.read_series">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection.read_series">[docs]</a>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">read_series</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">from_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span>
+        <span class="n">to_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span>
+        <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NW</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">=</span> <span class="mi">60</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Abstract base method for read_series(). Is fully implemented in</span>
+<span class="sd">        :func:`~wetterdienst.WetterdienstObservationConnection.read_series` and</span>
+<span class="sd">        :func:`~wetterdienst.WetterdienstPredictionConnection.read_series`.</span>
+
+<span class="sd">        :param nodes: List of nodes to read values from.</span>
+<span class="sd">        :param from_time: Starting time to begin reading (included in output).</span>
+<span class="sd">        :param to_time: Time to stop reading at (not included in output).</span>
+<span class="sd">        :param interval: interval between time steps. It is interpreted as seconds if given as integer.</span>
+<span class="sd">        :param kwargs: additional argument list, to be defined by subclasses.</span>
+<span class="sd">        :return: pandas.DataFrame containing the data read from the connection.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">from_time</span><span class="o">.</span><span class="n">tzinfo</span> <span class="o">!=</span> <span class="n">to_time</span><span class="o">.</span><span class="n">tzinfo</span><span class="p">:</span>
+            <span class="n">log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Timezone of from_time and to_time are different. Using from_time timezone: </span><span class="si">{</span><span class="n">from_time</span><span class="o">.</span><span class="n">tzinfo</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="WetterdienstConnection.read">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection.read">[docs]</a>
+    <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NW</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        .. warning::</span>
+<span class="sd">            Cannot read single values from the Wetterdienst API. Use read_series instead</span>
+
+<span class="sd">        :param nodes: List of nodes to read values from</span>
+<span class="sd">        :return: Pandas DataFrame containing the data read from the connection</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;Cannot read single values from the Wetterdienst API. Use read_series instead&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="WetterdienstConnection.write">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection.write">[docs]</a>
+    <span class="k">def</span> <span class="nf">write</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">values</span><span class="p">:</span> <span class="n">Mapping</span><span class="p">[</span><span class="n">NW</span><span class="p">,</span> <span class="n">Any</span><span class="p">],</span> <span class="n">time_interval</span><span class="p">:</span> <span class="n">timedelta</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        .. warning::</span>
+<span class="sd">            Cannot write to the Wetterdienst API.</span>
+
+<span class="sd">        :param values: Dictionary of nodes and data to write. {node: value}</span>
+<span class="sd">        :param time_interval: Interval between datapoints, default 1s</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;Cannot write to the Wetterdienst API.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="WetterdienstConnection.subscribe">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection.subscribe">[docs]</a>
+    <span class="k">def</span> <span class="nf">subscribe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">handler</span><span class="p">:</span> <span class="n">SubscriptionHandler</span><span class="p">,</span> <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NW</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">interval</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Subscribe to nodes and call handler when new data is available. This will return only the</span>
+<span class="sd">        last available values.</span>
+
+<span class="sd">        :param handler: SubscriptionHandler object with a push method that accepts node, value pairs</span>
+<span class="sd">        :param interval: interval for receiving new data. It is interpreted as seconds when given as an integer.</span>
+<span class="sd">        :param nodes: identifiers for the nodes to subscribe to</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;Cannot subscribe to data from the Wetterdienst API.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="WetterdienstConnection.subscribe_series">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection.subscribe_series">[docs]</a>
+    <span class="k">def</span> <span class="nf">subscribe_series</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">handler</span><span class="p">:</span> <span class="n">SubscriptionHandler</span><span class="p">,</span>
+        <span class="n">req_interval</span><span class="p">:</span> <span class="n">TimeStep</span><span class="p">,</span>
+        <span class="n">offset</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NW</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="n">data_interval</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        .. warning::</span>
+<span class="sd">            Not implemented: Cannot subscribe to data from the Wetterdienst API.</span>
+
+<span class="sd">        :param handler: SubscriptionHandler object with a push method that accepts node, value pairs</span>
+<span class="sd">        :param req_interval: Duration covered by requested data (time interval). Interpreted as seconds if given as int</span>
+<span class="sd">        :param offset: Offset from datetime.now from which to start requesting data (time interval).</span>
+<span class="sd">                       Interpreted as seconds if given as int. Use negative values to go to past timestamps.</span>
+<span class="sd">        :param data_interval: Time interval between values in returned data. Interpreted as seconds if given as int.</span>
+<span class="sd">        :param interval: interval (between requests) for receiving new data.</span>
+<span class="sd">                         It it interpreted as seconds when given as an integer.</span>
+<span class="sd">        :param nodes: identifiers for the nodes to subscribe to</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;Cannot subscribe to data from the Wetterdienst API.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="WetterdienstConnection.close_sub">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection.close_sub">[docs]</a>
+    <span class="k">def</span> <span class="nf">close_sub</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        .. warning::</span>
+<span class="sd">            Not implemented: Cannot subscribe to data from the the Wetterdienst API.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">&quot;Cannot subscribe to data from the the Wetterdienst API.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="WetterdienstConnection.retrieve_stations">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstConnection.retrieve_stations">[docs]</a>
+    <span class="k">def</span> <span class="nf">retrieve_stations</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">:</span> <span class="n">NodeWetterdienst</span><span class="p">,</span> <span class="n">request</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Retrieve stations from the Wetterdienst API and return the values as a pandas DataFrame</span>
+<span class="sd">        Stations are filtered by the node&#39;s station_id or latlon and number_of_stations</span>
+
+<span class="sd">        :param node: Node to retrieve stations for</span>
+<span class="sd">        :param request: Wetterdienst request object, containing the station data</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># Retrieve stations. If station_id is provided, use it, otherwise use latlon to get nearest stations</span>
+        <span class="k">if</span> <span class="n">node</span><span class="o">.</span><span class="n">station_id</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">stations</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">filter_by_station_id</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">station_id</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">stations</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">filter_by_rank</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">latlon</span><span class="p">,</span> <span class="n">rank</span><span class="o">=</span><span class="n">node</span><span class="o">.</span><span class="n">number_of_stations</span><span class="p">)</span>
+
+        <span class="c1"># Convert to pandas and pivot values so date is the index and</span>
+        <span class="c1"># node names combined with the station_id are the columns</span>
+        <span class="n">result_df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span> <span class="o">=</span> <span class="n">stations</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">all</span><span class="p">()</span><span class="o">.</span><span class="n">df</span><span class="o">.</span><span class="n">to_pandas</span><span class="p">()</span>
+        <span class="n">result_df</span> <span class="o">=</span> <span class="n">result_df</span><span class="o">.</span><span class="n">pivot</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="s2">&quot;value&quot;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;parameter&quot;</span><span class="p">,</span> <span class="s2">&quot;station_id&quot;</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="s2">&quot;date&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Rename the columns to the node names</span>
+        <span class="n">result_df</span> <span class="o">=</span> <span class="n">result_df</span><span class="o">.</span><span class="n">rename</span><span class="p">({</span><span class="n">node</span><span class="o">.</span><span class="n">parameter</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span> <span class="n">node</span><span class="o">.</span><span class="n">name</span><span class="p">},</span> <span class="n">axis</span><span class="o">=</span><span class="s2">&quot;columns&quot;</span><span class="p">)</span>
+        <span class="n">result_df</span> <span class="o">=</span> <span class="n">result_df</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">((</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="s2">&quot;station_id&quot;</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="s2">&quot;columns&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result_df</span></div>
+</div>
+
+
+
+<div class="viewcode-block" id="WetterdienstObservationConnection">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstObservationConnection">[docs]</a>
+<span class="k">class</span> <span class="nc">WetterdienstObservationConnection</span><span class="p">(</span>
+    <span class="n">WetterdienstConnection</span><span class="p">[</span><span class="n">NodeWetterdienstObservation</span><span class="p">],</span> <span class="n">protocol</span><span class="o">=</span><span class="s2">&quot;wetterdienst_observation&quot;</span>
+<span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The WetterdienstObservationConnection class is a connector to the Wetterdienst API</span>
+<span class="sd">    for retrieving weather observation data. Data can only be read with</span>
+<span class="sd">    :func:`~wetterdienst.WetterdienstObservationConnection.read_series`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="WetterdienstObservationConnection.read_series">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstObservationConnection.read_series">[docs]</a>
+    <span class="k">def</span> <span class="nf">read_series</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">from_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span>
+        <span class="n">to_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span>
+        <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeWetterdienstObservation</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">=</span> <span class="mi">60</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Read weather observation data from the Wetterdienst API for the given nodes and time interval</span>
+
+<span class="sd">        :param from_time: Start time for the data retrieval</span>
+<span class="sd">        :param to_time: End time for the data retrieval</span>
+<span class="sd">        :param nodes: Nodes to read data from</span>
+<span class="sd">        :param interval: Time interval between data points in seconds</span>
+<span class="sd">        :return: Pandas DataFrame containing the data read from the connection</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">read_series</span><span class="p">(</span><span class="n">from_time</span><span class="p">,</span> <span class="n">to_time</span><span class="p">,</span> <span class="n">nodes</span><span class="p">,</span> <span class="n">interval</span><span class="p">)</span>
+        <span class="n">nodes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_validate_nodes</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+        <span class="n">interval</span> <span class="o">=</span> <span class="n">interval</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">interval</span><span class="p">,</span> <span class="n">timedelta</span><span class="p">)</span> <span class="k">else</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="n">interval</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">_read_node</span><span class="p">(</span><span class="n">node</span><span class="p">:</span> <span class="n">NodeWetterdienstObservation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">Dataframe</span><span class="p">:</span>
+            <span class="c1"># Get the resolution for the node from the interval</span>
+            <span class="n">resolution</span> <span class="o">=</span> <span class="n">NodeWetterdienstObservation</span><span class="o">.</span><span class="n">convert_interval_to_resolution</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">interval</span><span class="p">)</span>
+            <span class="c1"># Create a request object for the node</span>
+            <span class="n">request</span> <span class="o">=</span> <span class="n">DwdObservationRequest</span><span class="p">(</span>
+                <span class="n">parameter</span><span class="o">=</span><span class="n">node</span><span class="o">.</span><span class="n">parameter</span><span class="p">,</span>
+                <span class="n">resolution</span><span class="o">=</span><span class="n">resolution</span><span class="p">,</span>
+                <span class="n">start_date</span><span class="o">=</span><span class="n">from_time</span><span class="p">,</span>
+                <span class="n">end_date</span><span class="o">=</span><span class="n">to_time</span><span class="p">,</span>
+                <span class="n">settings</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">settings</span><span class="p">,</span>
+            <span class="p">)</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">retrieve_stations</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">request</span><span class="p">)</span>
+
+        <span class="c1"># We can&#39;t use a ThreadPoolExecutor here, as the Wetterdienst library uses asyncio.</span>
+        <span class="c1"># As a result, we have to call the _read_node method directly, which causes type errors.</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
+            <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">_read_node</span><span class="p">(</span><span class="n">node</span><span class="p">))</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+        <span class="c1"># Convert the data to the requested interval</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">asfreq</span><span class="p">(</span><span class="n">interval</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s2">&quot;ffill&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">ffill</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="n">result</span></div>
+</div>
+
+
+
+<div class="viewcode-block" id="WetterdienstPredictionConnection">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstPredictionConnection">[docs]</a>
+<span class="k">class</span> <span class="nc">WetterdienstPredictionConnection</span><span class="p">(</span>
+    <span class="n">WetterdienstConnection</span><span class="p">[</span><span class="n">NodeWetterdienstPrediction</span><span class="p">],</span> <span class="n">protocol</span><span class="o">=</span><span class="s2">&quot;wetterdienst_prediction&quot;</span>
+<span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The WetterdienstPredictionConnection class is a connector to the Wetterdienst API</span>
+<span class="sd">    for retrieving weather prediction data (MOSMIX). Data can only be read with</span>
+<span class="sd">    :func:`~wetterdienst.WetterdienstPredictionConnection.read_series`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="WetterdienstPredictionConnection.read_series">
+<a class="viewcode-back" href="../../../connectors/wetterdienst_connection.html#eta_utility.connectors.wetterdienst_connection.WetterdienstPredictionConnection.read_series">[docs]</a>
+    <span class="k">def</span> <span class="nf">read_series</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">from_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span>
+        <span class="n">to_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span>
+        <span class="n">nodes</span><span class="p">:</span> <span class="n">Nodes</span><span class="p">[</span><span class="n">NodeWetterdienstPrediction</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="n">TimeStep</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Read weather prediction data from the Wetterdienst API for the given nodes.</span>
+<span class="sd">        The interval parameter is not used for prediction data, as predictions are always given hourly.</span>
+
+<span class="sd">        :param from_time: Start time for the data retrieval</span>
+<span class="sd">        :param to_time: End time for the data retrieval</span>
+<span class="sd">        :param nodes: Nodes to read data from</span>
+<span class="sd">        :param interval: - Not used for prediction data</span>
+<span class="sd">        :return: Pandas DataFrame containing the data read from the connection</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">read_series</span><span class="p">(</span><span class="n">from_time</span><span class="p">,</span> <span class="n">to_time</span><span class="p">,</span> <span class="n">nodes</span><span class="p">,</span> <span class="n">interval</span><span class="p">)</span>
+        <span class="n">nodes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_validate_nodes</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">_read_node</span><span class="p">(</span><span class="n">node</span><span class="p">:</span> <span class="n">NodeWetterdienstPrediction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">Dataframe</span><span class="p">:</span>
+            <span class="n">request</span> <span class="o">=</span> <span class="n">DwdMosmixRequest</span><span class="p">(</span>
+                <span class="n">parameter</span><span class="o">=</span><span class="n">node</span><span class="o">.</span><span class="n">parameter</span><span class="p">,</span>
+                <span class="n">mosmix_type</span><span class="o">=</span><span class="n">node</span><span class="o">.</span><span class="n">mosmix_type</span><span class="p">,</span>
+                <span class="n">start_date</span><span class="o">=</span><span class="n">from_time</span><span class="p">,</span>
+                <span class="n">end_date</span><span class="o">=</span><span class="n">to_time</span><span class="p">,</span>
+                <span class="n">settings</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">settings</span><span class="p">,</span>
+            <span class="p">)</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">retrieve_stations</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">request</span><span class="p">)</span>
+
+        <span class="c1"># We can&#39;t use a ThreadPoolExecutor here, as the Wetterdienst library uses asyncio.</span>
+        <span class="c1"># As a result, we have to call the _read_node method directly, which causes type errors.</span>
+        <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
+            <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">_read_node</span><span class="p">(</span><span class="n">node</span><span class="p">))</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">result</span></div>
+</div>
+
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Technical University of Darmstadt, Institute for Production Management, Technology and Machine Tools (PTW).</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
