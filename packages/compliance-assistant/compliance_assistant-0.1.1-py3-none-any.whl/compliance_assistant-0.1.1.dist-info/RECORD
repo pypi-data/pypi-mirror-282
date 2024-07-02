@@ -1,0 +1,15 @@
+complassist/__init__.py,sha256=I73gYoeiQQ7OokfdKqfBu0X0u9S7ySFdjDO2ecrmyuU,197
+complassist/_clearlydefined.py,sha256=xSVYKIVdHgUI1t0cLMndctWUjpeQGgN1TIuOzzw6WYg,8015
+complassist/_flict.py,sha256=fS00dujq-T0Fkcpjsy8NAAfHDkDtTpajDQFA6KfUwj0,1106
+complassist/_helpers.py,sha256=7Fs0m4p8qRWFd2KAKdnbX4fOROAfTma9TJvf-huzLqc,3904
+complassist/_sbom_full.py,sha256=9d0J4OUhi1TKkZdCb43AI8LBSaWdUE6Fjw9caT45un0,7191
+complassist/_sbom_generate.py,sha256=nBmdN34DlXf54UBborzefCF1vU8qhbOVr5SKmd-ZYbo,4985
+complassist/_sbom_parse.py,sha256=nY5qZQ9Y3z9j1PR8s2uF7PJrW8WM1YvW5mZuJWWd6Bw,5556
+complassist/main.py,sha256=zVvQaohLHE_4LbThlS2p2hyYRe2MeQQFCKclhsatDaU,5314
+compliance_assistant-0.1.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+compliance_assistant-0.1.1.dist-info/LICENSES/Apache-2.0.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+compliance_assistant-0.1.1.dist-info/LICENSES/CC-BY-4.0.txt,sha256=1VdTnfaOdxzB7tzJHRP3D8qTDlCNEe7cr6SxXbSeN0Q,17023
+compliance_assistant-0.1.1.dist-info/METADATA,sha256=5pTvQdlM7bEUdlThTg7SrYsyYYeMxI_ruN7u9AGWoY4,6306
+compliance_assistant-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+compliance_assistant-0.1.1.dist-info/entry_points.txt,sha256=BZHL6PnpXeg4dGJMTFEyTWXpKBRpgCAHSTYJzp-S87M,62
+compliance_assistant-0.1.1.dist-info/RECORD,,
