@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/mets/__init__.py
+src/mets/mets.py
+src/mets.egg-info/PKG-INFO
+src/mets.egg-info/SOURCES.txt
+src/mets.egg-info/dependency_links.txt
+src/mets.egg-info/entry_points.txt
+src/mets.egg-info/requires.txt
+src/mets.egg-info/top_level.txt
+tests/test_mets.py

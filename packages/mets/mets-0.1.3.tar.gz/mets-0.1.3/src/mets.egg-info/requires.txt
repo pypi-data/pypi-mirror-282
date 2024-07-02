@@ -1,0 +1,7 @@
+aiofiles
+httpx
+tqdm
+
+[test]
+pytest
+pytest-cov
