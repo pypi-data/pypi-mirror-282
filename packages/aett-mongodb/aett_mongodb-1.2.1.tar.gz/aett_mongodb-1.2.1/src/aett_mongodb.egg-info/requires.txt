@@ -1,0 +1,7 @@
+aett-domain>=1.2.1
+pymongo~=4.8.0
+
+[dev]
+pip-tools
+pytest
+behave
