@@ -1,0 +1,12 @@
+pydfirram/__init__.py,sha256=PvgYDJbfMQMErOw495Wwl1qV60HJQrW9JzftgxHs1q0,19
+pydfirram/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydfirram/core/base.py,sha256=MY6XpmklkkshRVvp3WV7Fset8cl1fYZzUq_d_OGyw6c,13400
+pydfirram/core/handler.py,sha256=hLM_6R85q3i_Y3jwCT5uIXHKdkyCq2YHRyZ594MLD8g,3687
+pydfirram/core/renderer.py,sha256=8vVeCJuycybwwDdLdXMrSeW3LtSczHQIYdl_QFKKX08,5926
+pydfirram/core/utils.py,sha256=nEeCf63kcjQ62T5vM8vH378Z7mb7MmPegcHK80OY_sY,923
+pydfirram/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydfirram/modules/windows.py,sha256=4PeqUJLUzT7zOVVExZkg5jc-EIFH3gMt_fJBBwHt6HM,213
+pydfirram-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pydfirram-1.0.0.dist-info/METADATA,sha256=qfMXaBtCZm9AcpNSjBlSBw3bJ3rH9Sih1UjSH12EFbk,3345
+pydfirram-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydfirram-1.0.0.dist-info/RECORD,,
