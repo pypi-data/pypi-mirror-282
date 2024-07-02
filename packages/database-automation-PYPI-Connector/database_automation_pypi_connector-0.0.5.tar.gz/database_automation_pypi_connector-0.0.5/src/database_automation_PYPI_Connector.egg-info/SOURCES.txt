@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/database_automation_PYPI_Connector/__init__.py
+src/database_automation_PYPI_Connector/mongo_crud.py
+src/database_automation_PYPI_Connector.egg-info/PKG-INFO
+src/database_automation_PYPI_Connector.egg-info/SOURCES.txt
+src/database_automation_PYPI_Connector.egg-info/dependency_links.txt
+src/database_automation_PYPI_Connector.egg-info/requires.txt
+src/database_automation_PYPI_Connector.egg-info/top_level.txt
