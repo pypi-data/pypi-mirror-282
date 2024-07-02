@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+prefixed_id_beanie/__init__.py
+prefixed_id_beanie.egg-info/PKG-INFO
+prefixed_id_beanie.egg-info/SOURCES.txt
+prefixed_id_beanie.egg-info/dependency_links.txt
+prefixed_id_beanie.egg-info/requires.txt
+prefixed_id_beanie.egg-info/top_level.txt
+prefixed_id_beanie/types/__init__.py
+prefixed_id_beanie/types/prefixed_id.py
