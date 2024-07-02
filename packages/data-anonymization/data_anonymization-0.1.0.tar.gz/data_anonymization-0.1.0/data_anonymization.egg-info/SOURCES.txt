@@ -1,0 +1,10 @@
+setup.py
+data_anonymization/__init__.py
+data_anonymization/api.py
+data_anonymization/firebase-key.json
+data_anonymization.egg-info/PKG-INFO
+data_anonymization.egg-info/SOURCES.txt
+data_anonymization.egg-info/dependency_links.txt
+data_anonymization.egg-info/entry_points.txt
+data_anonymization.egg-info/requires.txt
+data_anonymization.egg-info/top_level.txt

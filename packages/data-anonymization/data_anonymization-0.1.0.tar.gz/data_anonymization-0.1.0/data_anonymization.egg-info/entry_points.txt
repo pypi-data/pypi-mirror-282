@@ -1,0 +1,2 @@
+[console_scripts]
+data-anonymization = data_anonymization.api:main
