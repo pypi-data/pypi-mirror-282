@@ -1,0 +1,8 @@
+arro3_core-0.1.0.dist-info/METADATA,sha256=obHpHe-wOE_M9Wdh1qPB3JIgrkmhBTLQIWcSFHh_tOM,610
+arro3_core-0.1.0.dist-info/WHEEL,sha256=rIwRd6sRsAtCb62IdTaHNMYb8CQAkJdRIHA2YbK2BFk,90
+arro3/core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arro3/core/types.py,sha256=KCj2bp2PaxwrDiLsr4HolZoRWGXCuPc9bD1aC1-aXho,665
+arro3/core/_rust.pyi,sha256=sPl4Cyf78swx9d10sbYkpldFGjiBCOrlAdW9FB0xnJk,2440
+arro3/core/__init__.py,sha256=iMVN98LD_SsmQMBJmmRaneKyc0T3AdNzHEdPeCi1naA,88
+arro3/core/_rust.pyd,sha256=994ICG9gCv_oObmQi9xyEiB2M-rq8ikT7jGWsuhJ6yU,1018368
+arro3_core-0.1.0.dist-info/RECORD,,
