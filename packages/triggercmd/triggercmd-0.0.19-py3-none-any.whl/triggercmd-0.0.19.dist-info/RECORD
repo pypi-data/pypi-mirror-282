@@ -1,0 +1,9 @@
+triggercmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triggercmd/agent.py,sha256=LrKHTT9El7xoA28Le9twUZaOKCdjkHgdEhBPJJLk3RQ,792
+triggercmd/sails_websocket.py,sha256=tpo5GU9tzqV5XgLvuLrDgPd-6aIINuSFETjU7auif-k,3211
+triggercmd/trigger.py,sha256=nekTpWSY4bWTXNHM5Pyju7JeMOPS2gvCrWbExBSyxCE,404
+triggercmd-0.0.19.dist-info/LICENSE,sha256=DbK_HmY-AlmeRDFZRQWeERRzyI8OVPAKxEkPc8ce9FY,35813
+triggercmd-0.0.19.dist-info/METADATA,sha256=td8zJB52KA0RfYUwmO5nTA8na6uH53cc4Ls4mqIqTEQ,1941
+triggercmd-0.0.19.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+triggercmd-0.0.19.dist-info/top_level.txt,sha256=_RJpVdLH-L6LXtrWAAXvUB0QjwAzHube6NJi1F-llOc,11
+triggercmd-0.0.19.dist-info/RECORD,,
