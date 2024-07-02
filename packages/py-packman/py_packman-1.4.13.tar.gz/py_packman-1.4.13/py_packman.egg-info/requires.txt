@@ -1,0 +1,7 @@
+numpy
+scipy
+networkx
+mlxtend
+scikit-learn
+tqdm
+typing_extensions
