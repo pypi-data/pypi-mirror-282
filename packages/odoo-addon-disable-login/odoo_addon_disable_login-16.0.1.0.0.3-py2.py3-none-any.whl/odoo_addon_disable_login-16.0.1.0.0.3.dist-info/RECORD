@@ -1,0 +1,9 @@
+odoo/addons/disable_login/__init__.py,sha256=7aech0rY-7h9B6fAi0nS-IV_QbsAEntZp5tgQnSE1Ec,30
+odoo/addons/disable_login/__manifest__.py,sha256=cbW3Ifa6UjtAeAg32NVau7VyRZRsfhw0Rxj5ipn2opo,525
+odoo/addons/disable_login/controllers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/disable_login/controllers/main.py,sha256=V43LxEjLV0tgVccnKf4o3H4SbCeSayK_a85nokmd1q8,921
+odoo/addons/disable_login/views/auth_templates.xml,sha256=p__rcju7FvxuPDbWJLWkcXygmVGyN5gLHQDXzNW7Gkk,1121
+odoo_addon_disable_login-16.0.1.0.0.3.dist-info/METADATA,sha256=DSWdr5ulWxYFYOxnB5iG77Z9qyCFb8sqoTJl6Y8fqDM,495
+odoo_addon_disable_login-16.0.1.0.0.3.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo_addon_disable_login-16.0.1.0.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_disable_login-16.0.1.0.0.3.dist-info/RECORD,,
