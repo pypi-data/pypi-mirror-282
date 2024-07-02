@@ -1,0 +1,10 @@
+README.md
+setup.py
+scaching/__init__.py
+scaching/main.py
+scaching/semantic_caching.py
+scaching/test_semantic_caching.py
+scaching.egg-info/PKG-INFO
+scaching.egg-info/SOURCES.txt
+scaching.egg-info/dependency_links.txt
+scaching.egg-info/top_level.txt
