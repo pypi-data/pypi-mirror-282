@@ -1,0 +1,85 @@
+![MDPyDoc Logo](https://gitlab.com/dynovant/mdpydoc/-/blob/main/media/mdpydoc_image.webp?ref_type=heads)
+
+# MDPyDoc 📝🐍
+
+MDPyDoc is a powerful and flexible Python documentation generator that automatically creates markdown documentation from your Python source code. It analyzes the Abstract Syntax Tree (AST) of your Python files to extract docstrings, function signatures, and class structures, generating comprehensive and well-formatted documentation.
+
+## Features ✨
+
+- 📄 Generates markdown documentation for Python modules, classes, and functions
+- 🛠️ Supports both standard logging for enhanced logging capabilities
+- 📜 Includes source code in the documentation (optional)
+- ⚡ Utilizes parallel processing for faster documentation generation of large projects
+- 🎊 Provides colored console output for better readability during the generation process
+- 🔧 Supports custom logging levels
+- 🏷️ Automatically detects and documents class inheritance
+- 📊 Generates parameter tables for functions and methods
+
+## Installation 🚀
+
+You can install MDPyDoc using pip:
+
+```bash
+pip install mdpydoc
+```
+## Usage 🖥️
+You can use MDPyDoc either as a command-line tool or integrate it into your Python scripts.
+### Command-line Usage 💻
+```bash
+python -m mdpydoc /path/to/source /path/to/docs --show-code --log-level DEBUG --max-workers 4
+```
+
+#### Arguments:
+
+    • src_directory: Source directory containing Python files
+    • docs_directory: Target directory for generated documentation
+    • --show-code: Include source code in documentation (optional)
+    • --log-level: Set the logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    • --max-workers: Maximum number of worker threads (positive integer or 'None')
+
+### Python Script Usage 📜
+
+```python
+
+from mdpydoc.doc_generator import DocGenerator
+
+doc_generator = DocGenerator(
+    show_code=True,
+    log_level="INFO",
+    max_workers=4
+)
+
+doc_generator.process_directory("/path/to/source", "/path/to/docs")
+```
+
+## Components 🧩
+MDPyDoc consists of several key components:
+
+    • DocGenerator: The main class that orchestrates the documentation generation process.
+    • MarkdownGenerator: Responsible for converting AST nodes into formatted Markdown.
+    • ASTParser: Parses the Abstract Syntax Tree of Python files.
+    • DocStringParser: Extracts and parses docstrings from AST nodes.
+    • FileProcessor: Processes individual Python files.
+    • AppLogger: A versatile logger.
+
+## Customization 🎨
+MDPyDoc is designed to be extensible. You can customize the documentation generation process by subclassing and overriding methods in the MarkdownGenerator class.
+## Contributing 🤝
+Contributions to MDPyDoc are welcome! Please feel free to submit a Pull Request.
+## License 📜
+This project is licensed under the MIT License - see the LICENSE file for details.
+## Acknowledgments 🙏
+
+Thanks to all contributors who have helped to improve MDPyDoc.
+Special thanks to the Python community for providing excellent tools and libraries that made this project possible.
+
+## TODO 📝
+
+    • Add support for generating documentation in different output formats (e.g., HTML, PDF)
+    • Implement a progress bar for large projects
+    • Add an option to exclude specific files or directories from documentation
+    • Implement cross-referencing between documented elements
+    • Add support for custom documentation templates
+
+## Support 📞
+If you encounter any problems or have any questions, please open an issue on the GitHub repository.
