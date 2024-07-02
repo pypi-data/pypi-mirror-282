@@ -1,0 +1,25 @@
+# Include the README and other documentation files
+include README.md
+include LICENSE
+include requirements.txt
+include .env.template
+
+# Include the docs directory and all its contents
+recursive-include docs *
+
+# Include all Python files and other necessary files from the assistant, config, core, examples, and tests directories
+recursive-include assistant *.py *.json *.csv
+recursive-include config *.py *.json *.csv
+recursive-include core *.py *.json *.csv
+recursive-include examples *.py *.json *.csv
+recursive-include tests *.py *.json *.csv
+
+# Include the logs directory (if you want to include log files)
+recursive-include logs *
+
+# Include GitHub workflows
+recursive-include .github/workflows *
+
+# Exclude __pycache__ directories and compiled Python files
+global-exclude __pycache__
+global-exclude *.py[cod]
