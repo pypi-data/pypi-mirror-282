@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: DOCK_BYTE
+Version: 0.1
+Summary: A module to extract text from documents and chat with the content.
+Home-page: https://github.com/CodeByte-hash/DOCK_BYTE
+Author: Muhammad Abdullah
+Author-email: abdullahcodewizard@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DOCK_BYTE
+
+The DOCK_BYTE module provides tools for extracting text from PDF and TXT documents and enables interactive chat-based exploration of the extracted content using a language model. It leverages various libraries for document processing and integrates with Streamlit for a GUI-based interface.
+
+## Features
+- Extract text from PDF documents using PyMuPDF.
+- Perform OCR on PDF documents using Tesseract.
+- Extract text from TXT files.
+- Use a language model to chat with the content of the documents.
+- GUI support with Streamlit for interactive usage.
+
+## Installation
+
+```sh
+pip install DOCK_BYTE
+```
+
+## Usage
+
+```python
+from my_module import chat_with_doc
+
+chat_with_doc("gemma:2b", "data.txt", use_gui=True)
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Repository
+
+For more information and to contribute, please visit the [GitHub repository](https://github.com/CodeByte-hash/DOCK_BYTE).

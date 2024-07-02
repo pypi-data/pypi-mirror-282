@@ -1,0 +1,5 @@
+pymupdf
+pdf2image
+pytesseract
+langchain_community
+streamlit
