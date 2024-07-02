@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "memzero"
+version = "0.0.3"
+description = "Long-term memory for AI Agents"
+authors = ["Deshraj Yadav <deshraj@mem0.ai>"]
+readme = "README.md"
+homepage = "https://docs.mem0.ai"
+license = "Apache-2.0"
+packages = [{ include = "mem0" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.7.3"
+posthog = "^3.5.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+isort = "^5.13.2"
+pytest = "^8.2.2"
+ipykernel = "^6.29.4"
+responses = "^0.25.3"
+
+
+[tool.poetry.group.optional.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
