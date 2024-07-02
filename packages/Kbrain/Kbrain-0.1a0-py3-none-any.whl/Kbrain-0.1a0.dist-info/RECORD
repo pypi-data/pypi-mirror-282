@@ -1,0 +1,9 @@
+Kbrain/__init__.py,sha256=jh34RyQzMZ68sZEt0ldBBnJJs301eW3s4iH4FcYVMns,98
+Kbrain/layer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Kbrain/layer/layer.py,sha256=-uM4mEIDa35hAo1x5oBhRhcuMW32vPHzUk6iEiAEydA,1761
+Kbrain/neural/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Kbrain/neural/neural.py,sha256=E041RvdeA2JkHAT-GDq0r7x8Wzd-Ey7x9y9hAcydTfg,1463
+Kbrain-0.1a0.dist-info/METADATA,sha256=TBHbv6pouXoO0ui5HfhfVt9xbiwqRoIY4SfL_hDBk9Q,379
+Kbrain-0.1a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Kbrain-0.1a0.dist-info/top_level.txt,sha256=QoZKlGFwHbch_xRBE6FKAruwoq926rjSkNY4EYEvK64,7
+Kbrain-0.1a0.dist-info/RECORD,,
