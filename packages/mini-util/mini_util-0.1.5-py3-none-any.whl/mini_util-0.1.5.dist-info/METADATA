@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mini-util
+Version: 0.1.5
+Summary: 
+Author: Harvey Tung
+Author-email: haotingtong30@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# mini_util
+
