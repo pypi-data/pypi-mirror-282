@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+example-python.png
+pyproject.toml
+setup.py
+src/eviews/__init__.py
+src/eviews.egg-info/PKG-INFO
+src/eviews.egg-info/SOURCES.txt
+src/eviews.egg-info/dependency_links.txt
+src/eviews.egg-info/not-zip-safe
+src/eviews.egg-info/requires.txt
+src/eviews.egg-info/top_level.txt
