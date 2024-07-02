@@ -1,0 +1,3 @@
+[class_lister]
+idc.pdf = idc.pdf.class_lister
+
