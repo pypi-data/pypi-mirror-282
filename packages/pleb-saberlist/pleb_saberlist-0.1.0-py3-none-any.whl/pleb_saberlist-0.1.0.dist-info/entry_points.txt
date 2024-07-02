@@ -1,0 +1,2 @@
+[console_scripts]
+replay_ranked_ss = saberlist.scoresaber:replay_ranked
