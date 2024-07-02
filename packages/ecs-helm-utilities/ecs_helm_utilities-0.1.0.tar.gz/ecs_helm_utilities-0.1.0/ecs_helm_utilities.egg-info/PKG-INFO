@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ecs-helm-utilities
+Version: 0.1.0
+Summary: Utilities to work with Helm Charts
+Home-page: https://gitlab.com/emergent-community-systems/ecs-helm-utilities
+Author: Jaime Magiera
+License: UNKNOWN
+Description: Utilities to work with Helm Charts
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
