@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: dataharvest
+Version: 0.1.2
+Summary: Add your description here
+Author-email: yuvenhol <yuvenhol@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: html2text>=2024.2.26
+Requires-Dist: playwright>=1.44.0
+Description-Content-Type: text/markdown
+
+# DataHarvest
+
+DataHarvest is a package for crawling and purifying
+
