@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: liquid-sdk
+Version: 0.0.1
+Summary: An SDK for Security Tooling
+Home-page: https://github.com/That-Cloud-Group/liquid
+Author: That Cloud Group
+License: Apache License 2.0
+Project-URL: Source, https://github.com/That-Cloud-Group/liquid
+Requires-Python: >= 3.8
+
+An SDK focused on automation for security tooling.
