@@ -1,0 +1,264 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/moapy/project/group_pile/calc/create_group_pile": {
+      "post": {
+        "summary": "Create Group Pile",
+        "operationId": "create group pile",
+        "parameters": [
+          {
+            "name": "pile_matl_ID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Pile Matl Id"
+            }
+          },
+          {
+            "name": "pile_sect_ID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Pile Sect Id"
+            }
+          },
+          {
+            "name": "cap_matl_ID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Cap Matl Id"
+            }
+          },
+          {
+            "name": "cap_sect_ID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Cap Sect Id"
+            }
+          },
+          {
+            "name": "pile_start_nb",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Pile Start Nb"
+            }
+          },
+          {
+            "name": "cap_start_nb",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Cap Start Nb"
+            }
+          },
+          {
+            "name": "pile_array_long",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Pile Array Long"
+            }
+          },
+          {
+            "name": "pile_array_tran",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Pile Array Tran"
+            }
+          },
+          {
+            "name": "pile_spacing_long",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Pile Spacing Long"
+            }
+          },
+          {
+            "name": "pile_spacing_tran",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Pile Spacing Tran"
+            }
+          },
+          {
+            "name": "cap_edge_spacing_long",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Cap Edge Spacing Long"
+            }
+          },
+          {
+            "name": "cap_edge_spacing_tran",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Cap Edge Spacing Tran"
+            }
+          },
+          {
+            "name": "spacing_style_int",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Spacing Style Int"
+            }
+          },
+          {
+            "name": "pile_dia",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Pile Dia"
+            }
+          },
+          {
+            "name": "pile_length",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Pile Length"
+            }
+          },
+          {
+            "name": "cap_height",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Cap Height"
+            }
+          },
+          {
+            "name": "cap_modeling",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Cap Modeling"
+            }
+          },
+          {
+            "name": "grup_ID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Grup Id"
+            }
+          },
+          {
+            "name": "bngr_ID",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Bngr Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}
