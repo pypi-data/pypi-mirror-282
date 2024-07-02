@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: keepintouch
+Version: 1.0.2
+Summary: Simple Python client library for https://httpbin.cn/kit
+Home-page: https://github.com/xizhendu/keepintouch-sdk-python
+Author: Xizhen Du
+Author-email: xizhendu@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# keepintouch-sdk-python
