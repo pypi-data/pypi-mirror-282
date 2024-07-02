@@ -1,0 +1,4 @@
+immunity-users
+immunity-utils[rest]
+django-reversion~=5.0.4
+openpyxl~=3.1.2
