@@ -1,0 +1,9 @@
+README.md
+setup.py
+syncausalimpact/__init__.py
+syncausalimpact/causal_impact.py
+syncausalimpact.egg-info/PKG-INFO
+syncausalimpact.egg-info/SOURCES.txt
+syncausalimpact.egg-info/dependency_links.txt
+syncausalimpact.egg-info/requires.txt
+syncausalimpact.egg-info/top_level.txt
