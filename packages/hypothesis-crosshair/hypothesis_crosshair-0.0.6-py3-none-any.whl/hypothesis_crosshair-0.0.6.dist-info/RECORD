@@ -1,0 +1,10 @@
+hypothesis_crosshair_provider/__init__.py,sha256=cmBg1MxdyQ4cU4BfriM5hBhiuhuhJq-Fav8SwQMRm08,454
+hypothesis_crosshair_provider/crosshair_provider.py,sha256=l2EN6AdRKSC_2K1aWqtEFG_3EwN4BJmkwWtdVwQ_1d8,11019
+hypothesis_crosshair_provider/crosshair_provider_test.py,sha256=0ueIletfSJcXj5fC56qFEz-X9wR0-kraXSgJP8NN5LQ,3012
+hypothesis_crosshair_provider/end_to_end_test.py,sha256=oSq7hXal9AIyptYLw1mEdPUmzWJO9LvayXArfF4FNGE,2497
+hypothesis_crosshair-0.0.6.dist-info/LICENSE,sha256=IkPedswdymtHFTfEUtICayu0Oti41f0-XnTXCBdQKmU,1073
+hypothesis_crosshair-0.0.6.dist-info/METADATA,sha256=aIKUcVOUZt1RDLDzaav5LczIkbvoZv1DMRh8dDnxyR0,2339
+hypothesis_crosshair-0.0.6.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+hypothesis_crosshair-0.0.6.dist-info/entry_points.txt,sha256=gN-98Ci2Vmo1RRf2-B8RIuL6EP0YUSb4d4_pIFFcLsw,70
+hypothesis_crosshair-0.0.6.dist-info/top_level.txt,sha256=IsXTEK_CaON246qmPvvR-cUo-S43C6WnZlPg-3GLQtQ,30
+hypothesis_crosshair-0.0.6.dist-info/RECORD,,
