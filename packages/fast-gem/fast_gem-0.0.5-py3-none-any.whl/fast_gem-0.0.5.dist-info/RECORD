@@ -1,0 +1,15 @@
+fast_gem/__init__.py,sha256=aWzOEgP20psu-zFHQDmBaTKZlmWaE3iH4EIs6-Wrpeo,21
+fast_gem/gem.py,sha256=jdGvNRaRlBmhwpB17CRooYqauJp7yo_N3013eWPM-_0,1640
+fast_gem/functional/__init__.py,sha256=BQVO9zrCpssIQFPhl6CAKpIDjm4z6qHIB2EAG23LXwQ,21
+fast_gem/functional/gem.py,sha256=rabQfSipKIY6AMHHsfVZAH9QkolJiBVmZtgQTdDM_AA,765
+fast_gem/functional/gem1d.py,sha256=tuoGhLH4rHAQLZkUU10rHbZ7lNLe96B9jEt6vMI2qI8,5048
+fast_gem/functional/gem2d.py,sha256=HR5PkhYM8AJAFr0DjZvLkbNDXs1FDg6kMmsZUv5JP1Y,5729
+fast_gem/functional/gem3d.py,sha256=dSK77hYWBoFdmsqnDLTPz_8jnZhx6ZAnHxZllCNH1P8,7360
+fast_gem/functional/gem_torch.py,sha256=_ZRuoogf6XjFBPOTGlvYyd597aRTEcAb7VGKksos2hw,1700
+fast_gem/functional/gem_triton.py,sha256=nEX1VDYM5LIs_M3WkCXMIUXM79rimDCw4gb39hDOpeM,4562
+fast_gem/functional/triton_utils.py,sha256=VBDyFhDKBg5VmiisLepATtbUHRTOisTNajew34YhxCY,177
+fast_gem-0.0.5.dist-info/LICENSE,sha256=gryxysZdeyTdwC63Nx9h8Otfjs6qpaMbVY3bhB4vDYc,1067
+fast_gem-0.0.5.dist-info/METADATA,sha256=VEq9YHy-QEW-KWLz8VhRT-w8qhWaYyQMU5Ybh7WeKdc,2167
+fast_gem-0.0.5.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+fast_gem-0.0.5.dist-info/top_level.txt,sha256=2Nb7YD5i-nBjjh8d2c11UaAzwsA5o4U6cuY8MZZlgyw,9
+fast_gem-0.0.5.dist-info/RECORD,,
