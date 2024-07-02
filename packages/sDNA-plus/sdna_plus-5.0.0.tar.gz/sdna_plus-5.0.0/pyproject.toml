@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "sDNA_plus"
+version = "5.0.0"
+authors = [ {name = 'Crispin Cooper', email = 'sdna@cardiff.ac.uk'}, {name = "James Parrott", email = "james.parrott@proton.me"}]
+description = "sDNA is a world leading tool for Spatial Design Network Analysis.  "
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3"
+keywords = ["GIS", "Spatial Networks", "Urban planning"]
+license = {file = "LICENSE.md"}
+classifiers = [
+    "Programming Language :: Python",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+]
+dynamic = ["dependencies", "optional-dependencies"]
+
+[project.urls]   
+"Homepage" = "https://sdna.cardiff.ac.uk/sdna/"
+"Source code" = "https://github.com/fiftysevendegreesofrad/sdna_plus/"
+"Bug Tracker" = "https://github.com/fiftysevendegreesofrad/sdna_plus/issues"
+
+[tool.hatch.metadata]
+allow-direct-references=true
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements/base.txt"]
+
+[tool.hatch.metadata.hooks.requirements_txt.optional-dependencies]
+learn = ["requirements/learn-predict.txt"]
+predict = ["requirements/learn-predict.txt"]
+R = ["requirements/R_minimal.txt"]
+
+[project.scripts]
+sdnaintegral = "sDNA.bin.sdnaintegral:main"
+sdnaprepare = "sDNA.bin.sdnaprepare:main"
+sdnalearn = "sDNA.bin.sdnalearn:main"
+sdnapredict = "sDNA.bin.sdnapredict:main"
+
+
+[tool.hatch.build.targets.wheel]
+ignore-vcs = true
+only-include = ["output/Release"]
+artifacts = [
+  "*.so",
+  "*.dll",
+]
+sources = {"output/Release" = "sDNA"}
+
+[tool.hatch.build.hooks.custom]
+path = "hatch_build.py"
+

@@ -1,0 +1,107 @@
+name: "CMake, Zig (c++), & Ubuntu.  Compile .so."
+
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches: [ "Cross_platform", "Build_in_Manylinux_image" ]
+
+  pull_request:
+    branches: [ "Cross_platform", "Build_in_Manylinux_image" ]
+
+
+env:
+  CONFIGURATION: Release
+  PLATFORM: x64
+  BOOST_VERSION: '1.8.3'
+
+
+jobs:
+  build_and_upload_installer:
+    name: "Compile on Ubuntu with CMake & Zig c++"
+    runs-on: "ubuntu-24.04"
+    # outputs:
+    #   installer_file_name: ${{ steps.output_installer_file_name.outputs.name }}
+    steps:
+    - uses: actions/checkout@v4
+
+
+
+
+    - name: Install Git and Ninja
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y git ninja-build
+
+    - name: Install Zig
+      uses: goto-bus-stop/setup-zig@v2
+      with:
+        version: 0.13.0
+
+    - name: Create Ninja build system from CMake
+      run: >
+        cmake
+        -G "Ninja Multi-Config"
+        -D USE_ZIG=ON
+        -D BUNDLE_PYSHP=ON
+        -B build_output_cmake_zig
+        -S .
+
+    - name: Build sDNA
+      run: |
+        cmake --build build_output_cmake_zig --config Release
+
+
+
+    - name: upload_output
+      id: installer-upload-step
+      uses: actions/upload-artifact@v4
+      with:
+        name: output_zig_cpp_linux
+        path: output
+
+
+  test_installer:
+
+    needs: build_and_upload_installer
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python_version: ['3.9', '3.10', '3.11', '3.12']
+
+    name: "Download and run sDNA installer, and run diff tests on it. "
+    
+    runs-on: "ubuntu-24.04"
+
+
+    steps:
+
+
+    - uses: actions/checkout@v4
+
+    - name: Install R
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y r-cran-optparse  r-cran-sjstats
+
+    - name: Download output tree built in previous job
+      uses: actions/download-artifact@v4
+      with:
+        name: output_zig_cpp_linux
+        path: output
+
+
+
+
+    - name: Run regression tests
+      uses: ./.github/actions/run_regression_tests
+      with:
+        python_version: ${{ matrix.python_version }}
+        DONT_TEST_N_LINK_SUBSYSTEMS_ORDER: 1
+        ALLOW_NEGATIVE_FORMULA_ERROR_ON_ANY_LINK_PRESENT: 1
+        sdnadll: '${{ github.workspace }}/output/Release/x64/sdna_vs2008.so'
+        sdna_debug: ""
+        shell: bash
+
