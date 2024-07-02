@@ -1,0 +1,2 @@
+[console_scripts]
+dir-list-kdon-20 = dir_list.main:main

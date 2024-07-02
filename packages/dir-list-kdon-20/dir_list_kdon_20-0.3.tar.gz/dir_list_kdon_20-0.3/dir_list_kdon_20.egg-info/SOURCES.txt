@@ -1,0 +1,8 @@
+setup.py
+dir_list/__init__.py
+dir_list/main.py
+dir_list_kdon_20.egg-info/PKG-INFO
+dir_list_kdon_20.egg-info/SOURCES.txt
+dir_list_kdon_20.egg-info/dependency_links.txt
+dir_list_kdon_20.egg-info/entry_points.txt
+dir_list_kdon_20.egg-info/top_level.txt
