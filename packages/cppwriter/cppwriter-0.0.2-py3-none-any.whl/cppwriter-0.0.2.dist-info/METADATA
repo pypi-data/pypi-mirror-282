@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cppwriter
+Version: 0.0.2
+Summary: C++ code writer library
+Author-email: Mikhael Khrustik <misha@myrt.co>
+License: MIT
+Keywords: cpp,arduino,c++
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# C++ writer
+
+The library provides an iterative interface for generating C/C++ code from Python.
+
+## Installation
+
+```sh
+pip install cppwriter
+```
+
+## Relationship to cwriter
+
+When I started making this library I didn't know about the existence of cwriter. I came across it while searching for a package name, but decided to give up and still finish my version.  
