@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: crc_tool
+Version: 1.2.2.0
+Author: Oslo Tools team
+Author-email: i.hovind@ti.com
+Requires-Dist: lief ==0.12.3
+
