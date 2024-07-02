@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mini-util"
+version = "0.1.9"
+description = "A minimalistic Python util library for some daily usage"
+authors = ["Harvey Tung <haotingtong30@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# you can set your scripts here
+[tool.poetry.scripts]
+mutil = "mini_util.cli:main"
+
+[tool.poetry.urls]
+repository = "https://github.com/i-am-harveyt/mini-util"
