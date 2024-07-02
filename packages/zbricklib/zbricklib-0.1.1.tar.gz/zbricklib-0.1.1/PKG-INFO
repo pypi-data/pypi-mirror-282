@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zbricklib
+Version: 0.1.1
+Summary: Base classes for building Flask applications and extensions. Part of The zBricks Project.
+Author: zdeyn
+Author-email: zdeyn@zdeyn.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.0.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# zBrickLib
+
+Base classes for building Flask applications and extensions.
