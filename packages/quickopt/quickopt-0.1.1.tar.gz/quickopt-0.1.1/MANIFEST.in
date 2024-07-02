@@ -1,0 +1,11 @@
+include README.md
+include LICENSE
+include setup.py
+include quickopt/*.py
+recursive-include src *.cpp
+exclude .git
+exclude docs
+exclude node_modules
+exclude z-playground
+global-exclude __pycache__
+global-exclude *.py[cod]
