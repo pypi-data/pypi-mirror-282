@@ -1,0 +1,4 @@
+Decide whether a crypto trader's Tweet is a trade, a prediction, or not interesting.
+
+Tweet: {tweet}
+Classification:
