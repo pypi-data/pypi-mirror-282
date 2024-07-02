@@ -1,0 +1,12 @@
+odoo/addons/knowledge_translatable_pages/CHANGELOG.md,sha256=zkbbKnsTL2wQZjrOKjwxUQh8BziFeZk1WPHKbW2Cuj4,431
+odoo/addons/knowledge_translatable_pages/README.rst,sha256=6SS36A7xLzxqL3jb3-sqketk2RMTRipxTAdUyqNp24Q,1932
+odoo/addons/knowledge_translatable_pages/__init__.py,sha256=k6VdU9k3RocxIg6IwoFhaeynr5yThcRKmQQowowlAvY,20
+odoo/addons/knowledge_translatable_pages/__manifest__.py,sha256=jq8YW7EJ_cqrU8iSFvsyDlv9JcQA5hWNc78c8LRwm0M,743
+odoo/addons/knowledge_translatable_pages/models/__init__.py,sha256=qeHkcOfhamDXEI9Gajt8pT1zEFNLSzL7z1pVSy8CErU,27
+odoo/addons/knowledge_translatable_pages/models/document_page.py,sha256=HNxAlwrwZ2W6GuhVsHqqji7xZWW8hRufdT5rQcq6qzM,2086
+odoo/addons/knowledge_translatable_pages/static/description/icon.png,sha256=3taXULJl0n0Ko0YOBXiXtspPonsicVgYojo1ghzHmuY,17607
+odoo/addons/knowledge_translatable_pages/views/document_page_view.xml,sha256=Mx_KivxVYeEOk8kQmW4N6j8s2KRUOhYHVS-joL3qCKE,1510
+odoo12_addon_knowledge_translatable_pages-12.0.1.0.0.dist-info/METADATA,sha256=CLZBjp6lngDo3Zxn7G855HdR_wd3J_qc03zOwHgxYJo,2630
+odoo12_addon_knowledge_translatable_pages-12.0.1.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+odoo12_addon_knowledge_translatable_pages-12.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_knowledge_translatable_pages-12.0.1.0.0.dist-info/RECORD,,
