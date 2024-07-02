@@ -1,0 +1,12 @@
+paket/__init__.py,sha256=WVlMZQqyL8ajUdEMCNa9y51e4CaVhZjHInwIU1IVp8U,74
+paket/api.py,sha256=PjPvNAUb9n-cRkdn74RpwAjT7FTCUd_f8wBhs5U0498,213
+paket/console.py,sha256=InKb_sQUTHGmznVHHL26_EKzJ544JtwwfB-yqdWhQkY,1001
+paket/paket.py,sha256=NiARix8MxJE5QXoaU08F6r-qTvljK_yYJkxCDJThc7s,41
+paket/path.py,sha256=wKMDu_2FdXJQquVt0Jaep-YpyFk2ArXIGHN_tGi09sk,166
+paket/pkcrypt.py,sha256=DngeKqSmcrV14a_q1FeL7qhJr1JnUy1UADSr-K-XJ04,1298
+paket/proto.py,sha256=hUBdPoLEHc7OGAe2_s7-zvqFF1aAMaottM1XzPiIRt4,737
+paket/search.py,sha256=yV_eJOMQdg-FieFryEGoUatawD_uQAqCWTcyRtmd_08,1876
+paketlib-0.0.1.dist-info/METADATA,sha256=m_X3cYGLCrzeX2PrzoLwwIjWcwF7iVSKDIK4tJq_ivQ,271
+paketlib-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+paketlib-0.0.1.dist-info/top_level.txt,sha256=x56Dbo02I3FY3fOnkkX_1-QC366yyyS56oNd0SQwRl0,6
+paketlib-0.0.1.dist-info/RECORD,,
