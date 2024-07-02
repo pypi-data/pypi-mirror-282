@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: findfivers
+Version: 0.4.0
+Summary: select five(default)-letter words from a source text
+License: MIT
+Keywords: text,word,length
+Author: Attila Novak
+Author-email: bajni37@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Find Fivers
+
+finds five-letter long words in a textfile given as input parameter (positional, first. default value: "lorem.txt", str). 
+Word-length can also be given as 2nd parameter (positional parameter, second, default value: 5, int). 
+Type "python -m findfivers -h" on the cli for help
+The output is a text file, each word in a new line
