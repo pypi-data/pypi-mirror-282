@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datascience-bundle
+Version: 1.0.0
+Summary: A Python package that bundles numpy, scipy, and pandas.
+Home-page: https://github.com/yourusername/datascience-bundle
+Author: stasy
+Author-email: jstasy909@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: License File.ylf
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+
+DESCRIPTION NULL
