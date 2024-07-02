@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yj_tts
+Version: 0.0.1
+Summary: YunJing TTS
+Home-page: UNKNOWN
+Author: huqian
+Author-email: huqian@yunjingtech.cn
+License: LICENSE
+Project-URL: Code, https://gitlab.yunjingtech.cn:10010/distribution/DigitalHuman
+Platform: UNKNOWN
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+

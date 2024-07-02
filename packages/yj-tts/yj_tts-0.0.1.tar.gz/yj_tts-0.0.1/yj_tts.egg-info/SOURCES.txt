@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+digitalhuman/__init__.py
+digitalhuman/main.py
+digitalhuman/scheduleJob.py
+digitalhuman/ttsHuman.py
+yj_tts.egg-info/PKG-INFO
+yj_tts.egg-info/SOURCES.txt
+yj_tts.egg-info/dependency_links.txt
+yj_tts.egg-info/not-zip-safe
+yj_tts.egg-info/requires.txt
+yj_tts.egg-info/top_level.txt
