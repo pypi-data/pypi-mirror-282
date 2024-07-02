@@ -1,0 +1,3 @@
+[console_scripts]
+mutil=mini_util.cli:main
+
