@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: date-a-scientist
+Version: 0.1.0
+Summary: Query dataframes, find issue with your notebook snippets as if a professional data scientist was pair coding with you
+License: MIT
+Author: IMPRV Dev Team
+Author-email: dev@imprv.ai
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandasai (>=2.2.8,<3.0.0)
+Requires-Dist: pygments (>=2.18.0,<3.0.0)
+Project-URL: Homepage, https://github.com/imprv-ai/date-a-scientist/sampleproject
+Project-URL: Issues, https://github.com/imprv-ai/date-a-scientist/sampleproject/issues
+Description-Content-Type: text/markdown
+
+
+# Date a Scientist
+
+Query dataframes, find issue with your notebook snippets as if a professional data scientist was pair coding with you.
+
+## How to use it?
+
+TODO: add it!!!
+
+## Inspirations
+
+https://github.com/sinaptik-ai/pandas-ai
+https://levelup.gitconnected.com/create-copilot-inside-your-notebooks-that-can-chat-with-graphs-write-code-and-more-e9390e2b9ed8
+
