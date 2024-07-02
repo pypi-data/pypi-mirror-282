@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pygitloc/__init__.py
+pygitloc/main.py
+pygitloc.egg-info/PKG-INFO
+pygitloc.egg-info/SOURCES.txt
+pygitloc.egg-info/dependency_links.txt
+pygitloc.egg-info/entry_points.txt
+pygitloc.egg-info/requires.txt
+pygitloc.egg-info/top_level.txt
