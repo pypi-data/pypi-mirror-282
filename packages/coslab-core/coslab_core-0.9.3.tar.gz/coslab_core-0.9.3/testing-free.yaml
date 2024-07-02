@@ -1,0 +1,10 @@
+azure:
+  api_key: ffb571ef59f64c03930f79f56ca5fe2c
+  api_url: https://helsinki-testig.cognitiveservices.azure.com/
+aws:
+  api_id: AKIAZOTMBKL47IZA6REE
+  api_key: pxgfp0DGUxt/C4+G12nRq9mlR9AB/1r/sHpQL/Iq
+  api_region: eu-central-1
+google:
+  service_account_info: {"installed":{"client_id":"667864000718-plq13f3l820tap7oloi204dqu8qamk2b.apps.googleusercontent.com","project_id":"matnel-science-personal","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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","redirect_uris":["http://localhost"]}}
+minimal_confidence: 0.5
