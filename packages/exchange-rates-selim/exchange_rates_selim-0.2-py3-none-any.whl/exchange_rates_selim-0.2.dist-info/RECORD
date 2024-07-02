@@ -1,0 +1,10 @@
+exchange_rates/__init__.py,sha256=b-R_aiRTgohUai9HYukFypuWMd3toIVCMzvHz7GlqO8,38
+exchange_rates/app.py,sha256=xIAAfEkE0IwTdDTaBwZ-kZDw-6ynvgXw1vTt9EjWJ4A,343
+exchange_rates/httpClient.py,sha256=a62-PqSPf8tH9KNJREhTu-fuC4GNjjFntzfhaALLiWM,896
+exchange_rates/main.py,sha256=eggIA5rMr2E3AWPjs3sp_U9lz7o35IqYI458ZtSHpy0,1766
+exchange_rates_selim-0.2.dist-info/LICENSE,sha256=DGUJ8Nho4qEQnNN2IEZnJhjBLnzWQ5R9JbLlDhOiXn4,1069
+exchange_rates_selim-0.2.dist-info/METADATA,sha256=D9xWUGyGr_nHsJN1p0XNVLQQBx2kc5pCbhNmHBgQ2Vc,363
+exchange_rates_selim-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+exchange_rates_selim-0.2.dist-info/entry_points.txt,sha256=CkN1mJSUmVNKZqZHagWNbx6g6Y5zlJhS0iN2XWXRQjg,68
+exchange_rates_selim-0.2.dist-info/top_level.txt,sha256=AW4DkXmzZe5jJLbwxvQAoZo_3jCDzm_ufsUkgayh9xE,15
+exchange_rates_selim-0.2.dist-info/RECORD,,
