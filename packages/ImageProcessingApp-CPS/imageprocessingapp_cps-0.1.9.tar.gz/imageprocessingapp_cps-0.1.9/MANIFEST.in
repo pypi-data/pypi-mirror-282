@@ -1,0 +1,6 @@
+include requirements.txt
+include README.md
+exclude *.pyc
+exclude *.env
+exclude *.sqlite3
+recursive-include ImageProcessingApp *
