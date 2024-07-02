@@ -1,0 +1,2 @@
+[console_scripts]
+hptas = hptas.program:main
