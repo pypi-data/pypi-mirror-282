@@ -1,0 +1,10 @@
+def do_n(n: int):
+    def inner(f):
+        def wrapper(*args, **kwargs):
+            ret = [None] * n
+            for i in range(n):
+                ret[i] = f(*args, **kwargs)
+
+        return wrapper
+
+    return inner
