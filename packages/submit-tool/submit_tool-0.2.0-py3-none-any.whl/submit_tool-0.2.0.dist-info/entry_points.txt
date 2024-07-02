@@ -1,0 +1,2 @@
+[gui_scripts]
+submit-tool = submit_tool:submit
