@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: wizata-dsapi
+Version: 1.0.20
+Summary: Wizata Data Science Toolkit
+Author: Wizata S.A.
+Author-email: info@wizata.com
+Provides-Extra: all
+Provides-Extra: lite
+License-File: LICENSE.txt
