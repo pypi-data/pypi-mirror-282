@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: Tangosuper
+Version: 3.0
+Summary: Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots
+Home-page: https://github.com/tangosuper
+Author: Dan
+Author-email: dan@tangosuper.org
+License: LGPLv3
+Download-URL: https://github.com/tangosuper/tangosuper/releases/latest
+Project-URL: Tracker, https://github.com/tangosuper/tangosuper/issues
+Project-URL: Community, https://t.me/tangosuper
+Project-URL: Source, https://github.com/tangosuper/tangosuper
+Project-URL: Documentation, https://docs.tangosuper.org
+Keywords: telegram chat messenger mtproto api client library python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.lesser
+License-File: NOTICE
+Requires-Dist: pyaes (==1.6.1)
+Requires-Dist: pysocks (==1.7.1)
+
+<p align="center">
+    <a href="https://github.com/tangosuper/tangosuper">
+        <img src="https://docs.tangosuper.org/_static/tangosuper.png" alt="Tangosuper" width="128">
+    </a>
+    <br>
+    <b>Telegram MTProto API Framework for Python</b>
+    <br>
+    <a href="https://tangosuper.org">
+        Homepage
+    </a>
+    •
+    <a href="https://docs.tangosuper.org">
+        Documentation
+    </a>
+    •
+    <a href="https://docs.tangosuper.org/releases">
+        Releases
+    </a>
+    •
+    <a href="https://t.me/tangosuper">
+        News
+    </a>
+</p>
+
+## Tangosuper
+
+> Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots
+
+``` python
+from tangosuper import Client, filters
+
+app = Client("my_account")
+
+
+@app.on_message(filters.private)
+async def hello(client, message):
+    await message.reply("Hello from Tangosuper!")
+
+
+app.run()
+```
+
+**Tangosuper** is a modern, elegant and asynchronous [MTProto API](https://docs.tangosuper.org/topics/mtproto-vs-botapi)
+framework. It enables you to easily interact with the main Telegram API through a user account (custom client) or a bot
+identity (bot API alternative) using Python.
+
+### Support
+
+If you'd like to support Tangosuper, you can consider:
+
+- [Become a GitHub sponsor](https://github.com/sponsors/delivrance).
+- [Become a LiberaPay patron](https://liberapay.com/delivrance).
+- [Become an OpenCollective backer](https://opencollective.com/tangosuper).
+
+### Key Features
+
+- **Ready**: Install Tangosuper with pip and start building your applications right away.
+- **Easy**: Makes the Telegram API simple and intuitive, while still allowing advanced usages.
+- **Elegant**: Low-level details are abstracted and re-presented in a more convenient way.
+- **Fast**: Boosted up by [TgCrypto](https://github.com/tangosuper/tgcrypto), a high-performance cryptography library written in C.  
+- **Type-hinted**: Types and methods are all type-hinted, enabling excellent editor support.
+- **Async**: Fully asynchronous (also usable synchronously if wanted, for convenience).
+- **Powerful**: Full access to Telegram's API to execute any official client action and more.
+
+### Installing
+
+``` bash
+pip3 install https://github.com/null-nick/Tangosuper-Mod/archive/refs/heads/main.zip
+```
+
+### Resources
+
+- The docs contain lots of resources to help you get started with Tangosuper: https://docs.tangosuper.org.
+- Seeking extra help? Come join and ask our community: https://t.me/tangosuper.
+- For other kind of inquiries, you can send a [message](https://t.me/haskell) or an [e-mail](mailto:dan@tangosuper.org).
+
+### Copyright & License
+
+- Copyright (C) 2017-2022 Dan <<https://github.com/delivrance>>
+- Licensed under the terms of the [GNU Lesser General Public License v3 or later (LGPLv3+)](COPYING.lesser)
+
+### INFO
+
+- 📕 Official Repo: https://github.com/tangosuper/tangosuper
+- 🗞 News: https://t.me/tangosuper
+- 💭 Support Group: https://t.me/tangosuperchat
+- 📚 Docs: https://docs.tangosuper.org
+------------------------------------------------------------
+- 📕 Un-Official Repo: https://github.com/null-nick/Tangosuper-Mod/
+- 🗞 News: https://t.me/PyroGramMod
+- 💭 Support Group: https://t.me/PyroGramModChat
+- 📚 Docs: <s>https://docs.documentations.ml</s> <b>Offline</b>
+------------------------------------------------------------
+
+- Check out the docs at https://docs.tangosuper.org to learn more about Tangosuper, get started right
+away and discover more in-depth material for building your client applications.
+- Join the official channel at https://t.me/tangosuper and stay tuned for news, updates and announcements.
+
+
