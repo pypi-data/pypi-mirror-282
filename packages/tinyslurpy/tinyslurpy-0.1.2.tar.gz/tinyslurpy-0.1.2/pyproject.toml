@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "tinyslurpy"
+version = "0.1.2"
+description = "Slurm job helper - please alias as slurpy :)"
+authors = ["Jeff Shen <shenjeff@princeton.edu>", "Lindsay Smith <lindsay.smith@princeton.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
