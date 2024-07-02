@@ -1,0 +1,9 @@
+httpquick/__init__.py,sha256=2aJYDJcjpOIbNAAMm1ld1sW6m4GvZEmep2NmVFVQK30,25
+httpquick/main.py,sha256=pE77WSDemxn8PIyAPYCFvaAfHnC1pwtwzIn797B2J04,10765
+LICENSE,sha256=Oir-k9yxlJzAc_QiVAAUQh3t7ZUCMvxwW5jKKBmQJzI,1067
+README.md,sha256=3qyhOHRG53iDS7oq8dSsWnvIv-_khCZwuy5dWAth8_4,3046
+httpquick-0.1.1.dist-info/entry_points.txt,sha256=s8kXDuXRCRGcDfCYcFZMyLAsY0YuvylriFqcRYrR2L0,49
+httpquick-0.1.1.dist-info/LICENSE,sha256=Oir-k9yxlJzAc_QiVAAUQh3t7ZUCMvxwW5jKKBmQJzI,1067
+httpquick-0.1.1.dist-info/METADATA,sha256=yyBCbvwxZ45wPL3_i9ENKQkLRcZoFiHTAjUinYabmbM,3924
+httpquick-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+httpquick-0.1.1.dist-info/RECORD,,
