@@ -1,0 +1,10 @@
+README.md
+setup.py
+optilogs/__init__.py
+optilogs/config.py
+optilogs/logger.py
+optilogs.egg-info/PKG-INFO
+optilogs.egg-info/SOURCES.txt
+optilogs.egg-info/dependency_links.txt
+optilogs.egg-info/requires.txt
+optilogs.egg-info/top_level.txt
