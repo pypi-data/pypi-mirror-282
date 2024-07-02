@@ -1,0 +1,12 @@
+jarpcdantic/__init__.py,sha256=7D88Wt2KPqOMOetPLyq6yG9da6d32sIfrSGg3088Zqw,1240
+jarpcdantic/client.py,sha256=-HUsc6Z6LgHw4l7Gamc7HzB3zar5zFn9AA7fYt8VfSU,9187
+jarpcdantic/dispatcher.py,sha256=Qj7A8jyRbiU1LWx50CmT6yJx6M_r3B76znuXlp--GFk,1549
+jarpcdantic/errors.py,sha256=aKjggS4mfuGYwcgC4oj4cHuJD8-1DQiFMeya7FSvdKw,3526
+jarpcdantic/format.py,sha256=MF44vISnmp7c3l0bQMuHJp00cwUKobJxms3bKcbHkug,1746
+jarpcdantic/manager.py,sha256=NxxvgZByTFwVeXg1e5X3cku2bFUm_BFycxh4pRnzRNM,9812
+jarpcdantic/router.py,sha256=EFAVHbCB9SzSrrwV5WI47fm-GfESHHH9PH1CkaMAnPA,5805
+jarpcdantic-0.1.3.dist-info/LICENSE,sha256=S4nUUYvRNatO4VSnvOciJGtXqYw9fvwaCUCYmBYMK9E,16724
+jarpcdantic-0.1.3.dist-info/METADATA,sha256=DJ1yAPxDhJ0NExQ6_XT-jluHxphoW2S4Ybq1gYDRRDM,651
+jarpcdantic-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jarpcdantic-0.1.3.dist-info/top_level.txt,sha256=YvsE0vnsjwQYasAn8dQsCJlDDZ5BkcXyYAGV1GnPQJI,12
+jarpcdantic-0.1.3.dist-info/RECORD,,
