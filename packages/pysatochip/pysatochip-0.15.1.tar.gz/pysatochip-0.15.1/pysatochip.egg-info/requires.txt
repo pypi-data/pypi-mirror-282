@@ -1,0 +1,10 @@
+certifi
+cryptography>=3.3.2
+ecdsa>=0.15
+pyaes>=1.6.1
+pyopenssl>=20.0.0
+pyscard>=1.9.9
+
+[CLI]
+click
+mnemonic
