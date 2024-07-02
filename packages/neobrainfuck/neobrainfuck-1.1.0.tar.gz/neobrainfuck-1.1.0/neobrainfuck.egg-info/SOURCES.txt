@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+neobrainfuck/__init__.py
+neobrainfuck/core.py
+neobrainfuck.egg-info/PKG-INFO
+neobrainfuck.egg-info/SOURCES.txt
+neobrainfuck.egg-info/dependency_links.txt
+neobrainfuck.egg-info/top_level.txt
