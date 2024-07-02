@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.py
+freesourceai/__init__.py
+freesourceai/freesourceai.py
+freesourceai.egg-info/PKG-INFO
+freesourceai.egg-info/SOURCES.txt
+freesourceai.egg-info/dependency_links.txt
+freesourceai.egg-info/requires.txt
+freesourceai.egg-info/top_level.txt
