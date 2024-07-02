@@ -1,0 +1,31 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "scraper2_hj3415"
+version = "2.0.0"
+authors = [{name = "Hyungjin Kim", email = "hj3415@gmail.com"}]
+description = "Gathering the stock data"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = [
+    "scrapy>=2.11.2",
+    "pandas>=2.2.2",
+    "sqlalchemy>=2.0.31",
+    "selenium>=4.22.0",
+    "utils-hj3415>=2.0.1",
+    "analyser-hj3415>=2.0.1",
+]
+
+[project.scripts]
+nfscraper = "scraper.cli:nfscraper"
+miscraper = "scraper.cli:miscraper"
+
+[project.urls]
+Home = "https://www.hyungjin.kr"
+
+[tool.flit.sdist]
+exclude = [
+]
