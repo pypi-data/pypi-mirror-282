@@ -1,0 +1,7 @@
+numpy>=1.14.0
+torch>=0.4.1
+pandas>=2.1
+matplotlib>=3.0
+torch_lr_finder>=0.2.1
+scipy>=1.7.0
+lifelines>=0.29.0
