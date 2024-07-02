@@ -1,0 +1,44 @@
+{
+    "development": {
+        "user_credential": [
+            {
+                "username": "userd1",
+                "password": "passwordd1",
+                "zToken": "token1d"
+            },
+            {
+                "username": "userd2",
+                "password": "passwordd2",
+                "zToken": "token2d"
+            }
+        ]
+    },
+    "production": {
+        "user_credential": [
+            {
+                "username": "userp1",
+                "password": "passwordp1",
+                "zToken": "tokenp1"
+            },
+            {
+                "username": "userp2",
+                "password": "passwordp2",
+                "zToken": "tokenp2"
+            }
+        ]
+    },
+    "testing": {
+        "user_credential": [
+            {
+                "username": "usert1",
+                "password": "passwordt1",
+                "zToken": "tokent1"
+            },
+            {
+                "username": "usert2",
+                "password": "passwordt2",
+                "zToken": "tokent2"
+            }
+        ]
+    }
+}
