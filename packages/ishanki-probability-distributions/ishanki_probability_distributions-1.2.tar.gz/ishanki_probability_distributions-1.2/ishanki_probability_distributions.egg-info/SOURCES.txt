@@ -1,0 +1,10 @@
+setup.py
+ishanki_probability_distributions/Binomialdistribution.py
+ishanki_probability_distributions/Gaussiandistribution.py
+ishanki_probability_distributions/Generaldistribution.py
+ishanki_probability_distributions/__init__.py
+ishanki_probability_distributions.egg-info/PKG-INFO
+ishanki_probability_distributions.egg-info/SOURCES.txt
+ishanki_probability_distributions.egg-info/dependency_links.txt
+ishanki_probability_distributions.egg-info/not-zip-safe
+ishanki_probability_distributions.egg-info/top_level.txt
