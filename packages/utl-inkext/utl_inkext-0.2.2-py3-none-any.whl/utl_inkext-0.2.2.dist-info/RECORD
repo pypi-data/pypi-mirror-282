@@ -1,0 +1,14 @@
+inkext/__init__.py,sha256=WA-NNFm3w_5TraqA3SolxZuoOTpyRRiE51KY-lcusao,614
+inkext/css.py,sha256=k58D6sAmvPHJwh7G5hstldbYRms2s8-eh9KL2rfC7J8,11872
+inkext/geomsvg.py,sha256=llbgmfp_Q44GPS8UNaWx8zdXbtgl54y00pKXODBsSTA,15042
+inkext/inkext.py,sha256=rCnSMO_gbWgiFnpHupnV9Jwu9oFbvkvcleZQefPmIMg,22727
+inkext/inkstall.py,sha256=IEj4qUsQo49xMhaJO_SQKiv8gQzVAwtVs3o8cqOBBpc,10305
+inkext/inksvg.py,sha256=TxHCK6EFwEj9EKWDG2fspvEENnWyVC0PG5LwElRklLo,18170
+inkext/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inkext/svg.py,sha256=bHErForfTRCZvj5tv2i7tZ6vs-SfqxJ7rwn2L1YrT_w,54717
+utl_inkext-0.2.2.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+utl_inkext-0.2.2.dist-info/METADATA,sha256=ddOYGTzEoYW8FWFh5e0FGZLhT5OaXwIoCwIdb26hALw,11462
+utl_inkext-0.2.2.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+utl_inkext-0.2.2.dist-info/entry_points.txt,sha256=x9t05nmKFW7hhKJG2mROPZ8lBAhAJLL9j4eOOuX-Uxk,50
+utl_inkext-0.2.2.dist-info/top_level.txt,sha256=Femp533HKm8S6YEH0aCqzkrkoDh31jaMzg8nx-e63Uw,7
+utl_inkext-0.2.2.dist-info/RECORD,,
