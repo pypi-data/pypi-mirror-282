@@ -1,0 +1,3 @@
+[console_scripts]
+httpquick=httpquick.main:main
+
