@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hsv_slider.egg-info/PKG-INFO
+src/hsv_slider.egg-info/SOURCES.txt
+src/hsv_slider.egg-info/dependency_links.txt
+src/hsv_slider.egg-info/requires.txt
+src/hsv_slider.egg-info/top_level.txt
