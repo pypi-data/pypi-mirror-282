@@ -1,0 +1,5 @@
+[console_scripts]
+db-init=ali2ba_cli_scrapper.app:db_init
+db-update=ali2ba_cli_scrapper.app:db_update
+run-scrapper=ali2b_cli_scrapper.app:run_scrapper
+
