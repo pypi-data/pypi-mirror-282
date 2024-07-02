@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+examplemul/__init__.py
+examplemul/multiplication.py
+examplemul.egg-info/PKG-INFO
+examplemul.egg-info/SOURCES.txt
+examplemul.egg-info/dependency_links.txt
+examplemul.egg-info/top_level.txt
