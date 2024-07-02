@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PPINA/CTGN.py
+src/PPINA/__init__.py
+src/PPINA/graph_construction.py
+src/PPINA/protein_degree.py
+src/PPINA.egg-info/PKG-INFO
+src/PPINA.egg-info/SOURCES.txt
+src/PPINA.egg-info/dependency_links.txt
+src/PPINA.egg-info/requires.txt
+src/PPINA.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PPINA
+Version: 0.1.2
+Summary: PPINA is a python package to analyze Protein Protein Interaction Networks
+Home-page: https://github.com/Bassam-Elhamsa/PPINA
+Author: Bassam Elhamsa, Mahmoud Nashaat, Ebtehal Mahmoud, Mai Mohamed
+Author-email: bassamelhamsa@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+
