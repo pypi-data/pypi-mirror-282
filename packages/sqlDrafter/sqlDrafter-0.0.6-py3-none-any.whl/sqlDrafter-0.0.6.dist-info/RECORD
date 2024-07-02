@@ -1,0 +1,14 @@
+sqldrafter/__init__.py,sha256=KHb0PVgS3VTB1jgo4SzVdfquSU1_G2-rmuJdD--TPcc,4901
+sqldrafter/analysisField.py,sha256=TWelKHcKr2qaoXb63i5XrwVBM1xM1rxSgwFZ6pTelsA,499
+sqldrafter/analysisJoinInfo.py,sha256=MoyDsHfQvR-9wENrmCltoO4wye-GrHz0TKkY2fQtAlI,393
+sqldrafter/analysisPartion.py,sha256=KB4JqziqAiwCa2XeikAYrjVE_-uQ6dRM_wDUOttA54k,395
+sqldrafter/analysisUniq.py,sha256=DHv_yLjtWcX-GVrqSzacU8YPVAb4IxGkLxcR7B2RAuI,205
+sqldrafter/cli.py,sha256=OGxCeOILvvldnX7BZj0ZvM4ZODVX3mDL55P9cAbWhIE,14491
+sqldrafter/generate_schema.py,sha256=yaUI3VbQ4KsH7-Jx0mrc-m8A-FAL94oLblQI1bgEuP4,1924
+sqldrafter/space_manager.py,sha256=_BoixhSe6D8Rga3fwHiYGnYo17xTM6kEap4QRNAxKTs,3117
+sqldrafter/util.py,sha256=a1Kg5oSgNQQHu96KjaLGJWqtlnccp0HbkNVGfTGrflY,14516
+sqlDrafter-0.0.6.dist-info/METADATA,sha256=WSAcwu1OWUsIamyxXfTp5JgCS__bxIbaGIT5aAuIw2M,747
+sqlDrafter-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sqlDrafter-0.0.6.dist-info/entry_points.txt,sha256=F-8LFZrXeOAnrS9mpczXSkcIDN_SjHUBACaWqIzwJhk,51
+sqlDrafter-0.0.6.dist-info/top_level.txt,sha256=XA4nOob1yvDXOPUz-OPVBbwpCRv0wGid6MKOOXIBJpc,11
+sqlDrafter-0.0.6.dist-info/RECORD,,
