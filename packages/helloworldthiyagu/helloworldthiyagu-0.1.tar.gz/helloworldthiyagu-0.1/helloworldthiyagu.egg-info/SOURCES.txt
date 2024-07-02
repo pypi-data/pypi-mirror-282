@@ -1,0 +1,8 @@
+setup.py
+helloworld/__init__.py
+helloworld/hello.py
+helloworldthiyagu.egg-info/PKG-INFO
+helloworldthiyagu.egg-info/SOURCES.txt
+helloworldthiyagu.egg-info/dependency_links.txt
+helloworldthiyagu.egg-info/entry_points.txt
+helloworldthiyagu.egg-info/top_level.txt

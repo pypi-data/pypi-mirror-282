@@ -1,0 +1,2 @@
+[console_scripts]
+helloworld-cli = helloworld.hello:say_hello
