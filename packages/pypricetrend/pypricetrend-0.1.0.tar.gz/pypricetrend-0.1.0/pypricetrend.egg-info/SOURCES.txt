@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pypricetrend/__init__.py
+pypricetrend/demand_trend.py
+pypricetrend/forecast.py
+pypricetrend.egg-info/PKG-INFO
+pypricetrend.egg-info/SOURCES.txt
+pypricetrend.egg-info/dependency_links.txt
+pypricetrend.egg-info/requires.txt
+pypricetrend.egg-info/top_level.txt
+pypricetrend/tests/__init__.py
+pypricetrend/tests/test_demand_trend.py
+pypricetrend/tests/test_forecast.py
