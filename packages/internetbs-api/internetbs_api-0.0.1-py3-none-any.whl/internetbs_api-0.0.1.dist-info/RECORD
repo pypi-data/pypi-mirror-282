@@ -1,0 +1,10 @@
+internetbs-api/__init__.py,sha256=IjJqTYRl8c3vSti0iNF3t74GeSmMMOZiIUgbmTOcGQk,164
+internetbs-api/account.py,sha256=RZDQDXY10RIXuXQ7nCmaYqPO_nvxjZT_UuH5WBFtp_o,4556
+internetbs-api/dns.py,sha256=ha1Qa-nTdcl2NYNFbrIZt4KGkTHP2Jga0N9PUXC5B0I,3786
+internetbs-api/domain.py,sha256=VSoIP3tCIcYidf0mpsJn7Xrbl9hddds6Q9_NuobkbsY,12067
+internetbs-api/forwarding.py,sha256=Jk8sGtpdlWQMKTgyQ21mwQ7jd8LOqLEDzg3l4B0ZhKI,2222
+internetbs-api/host.py,sha256=BT7BqKbSocDVlXE3OxhdQWIQASYE1SSZDj-S_EzR3Ak,1451
+internetbs_api-0.0.1.dist-info/METADATA,sha256=2di1NVAKDIERDtuNWp9POK3YPFgs0OTZUAfbNXsQHkk,139
+internetbs_api-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+internetbs_api-0.0.1.dist-info/top_level.txt,sha256=fvFIhtt15USIRadk-T_W1YmwnuXspjBpQPr3OnAXTkw,15
+internetbs_api-0.0.1.dist-info/RECORD,,
