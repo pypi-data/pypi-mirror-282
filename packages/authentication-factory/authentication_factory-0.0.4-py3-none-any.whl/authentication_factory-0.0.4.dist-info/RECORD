@@ -1,0 +1,11 @@
+authentication_factory/.version,sha256=BKTtPxvjHzqGmeTOpK85HeHcMVgGTGag_lwszKKnYvE,45
+authentication_factory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authentication_factory/auth_decorators.py,sha256=WFuKfEYZzz2gL_hGmaT-nEdYxkN9lude9lpqWEHqojE,271
+authentication_factory/auth_factory.py,sha256=DU7_Y7pSu4QNU1TvHFEUcyfeeBTD5naDuH7T_KHweoU,3243
+authentication_factory/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authentication_factory/auth/ms_oauth2.py,sha256=MIDOgt4JA9wThSVQBDgEMinaXlC7gFrQjbtC62-Jq40,8512
+authentication_factory-0.0.4.dist-info/LICENSE,sha256=Zo41m--PmC1U3BuZI1AbfzRLnQh8HTiC708FcDlr9bw,1117
+authentication_factory-0.0.4.dist-info/METADATA,sha256=BjBZLFhXJCOqeOKmgIaJp9iAs4gd7C2-H1jU-J5SLkM,3080
+authentication_factory-0.0.4.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+authentication_factory-0.0.4.dist-info/top_level.txt,sha256=Dt9uZio2cAmlDlcmCNtTMTDYcOKvqnXWV2BsiCdr1eI,23
+authentication_factory-0.0.4.dist-info/RECORD,,
