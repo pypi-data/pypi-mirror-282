@@ -1,0 +1,10 @@
+blocksets/__init__.py,sha256=Maxhgs_0EsLzmwVX49Yb_gOAV0BU5xJG_X1Aq55hsAE,33
+blocksets/classes/__init__.py,sha256=IpUyEAChwiIqIIXa38EjIM3zSwegpxl0e00NgGwKul8,58
+blocksets/classes/block.py,sha256=J3gpwjUY8-twuoyl2uwSJlNjL0lDJfD_SNreGrCgOCA,12637
+blocksets/classes/blockset.py,sha256=Cb5VDS3BvGginU4qMxbBoeUsS-JiHmnOdLdv1v7S4SM,11029
+blocksets/classes/exceptions.py,sha256=5cvX6iXWUvFcJc8PDjRqrDRWTVX5V1Jdl8DEJPZuV0c,1097
+blocksets-0.0.1.dist-info/LICENSE,sha256=XAPp0m3M7icgO5hmhtF19cVfQbA9QNuUY4Jxg_mIqQs,1524
+blocksets-0.0.1.dist-info/METADATA,sha256=5YbSCw6yvxv0j07VEKRPfFb4AvERjR3rGGzVXVwrHN4,10047
+blocksets-0.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+blocksets-0.0.1.dist-info/top_level.txt,sha256=zFIifejY2QC4z8OuaA2bhIbUt2NqApDxjHFb0kQF8jY,10
+blocksets-0.0.1.dist-info/RECORD,,
