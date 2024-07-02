@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/AffinitySvgPatcher/AffinitySvgPatcher.py
+src/AffinitySvgPatcher/__init__.py
+src/AffinitySvgPatcher/__main__.py
+src/AffinitySvgPatcher/py.typed
+src/AffinitySvgPatcher.egg-info/PKG-INFO
+src/AffinitySvgPatcher.egg-info/SOURCES.txt
+src/AffinitySvgPatcher.egg-info/dependency_links.txt
+src/AffinitySvgPatcher.egg-info/entry_points.txt
+src/AffinitySvgPatcher.egg-info/top_level.txt

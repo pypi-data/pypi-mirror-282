@@ -1,0 +1,2 @@
+[console_scripts]
+AffinitySvgPatcher = AffinitySvgPatcher.__main__:main
