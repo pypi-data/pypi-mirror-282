@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/codeflexDian/SOAPSing.py
+src/codeflexDian/Signing.py
+src/codeflexDian/SingExceptions.py
+src/codeflexDian/SingNS.py
+src/codeflexDian/Utils.py
+src/codeflexDian/__init__.py
+src/codeflexDian.egg-info/PKG-INFO
+src/codeflexDian.egg-info/SOURCES.txt
+src/codeflexDian.egg-info/dependency_links.txt
+src/codeflexDian.egg-info/requires.txt
+src/codeflexDian.egg-info/top_level.txt
