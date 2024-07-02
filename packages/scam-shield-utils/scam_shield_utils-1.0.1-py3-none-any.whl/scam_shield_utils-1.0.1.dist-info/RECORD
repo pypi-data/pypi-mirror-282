@@ -1,0 +1,10 @@
+scamshield_utils/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scamshield_utils/src/aws_operations.py,sha256=rZnBeLtyeY8H6U11ORqu4f6IhwV6_6S4kY2J_KfPKy8,1677
+scamshield_utils/src/data_opeations.py,sha256=O4lsSC922-sIoYZHXW1XVC5AD9sTeb7aZF4RPeSbtNo,23326
+scamshield_utils/src/logger_log.py,sha256=iQeKfcWrNmiPW5crmjHEwA9z2MnsUHyAjOfh5VWsao8,3281
+scamshield_utils/src/postgres_connector.py,sha256=eveCYhxogXneXGoTMgMhvaSLg0jU0Ja5vm3uTo-iL7s,4016
+scam_shield_utils-1.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+scam_shield_utils-1.0.1.dist-info/METADATA,sha256=XEt0mCGNI68OJ0aB52Pc9HXxONqffnLeTxFLc9IqKZk,6896
+scam_shield_utils-1.0.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+scam_shield_utils-1.0.1.dist-info/top_level.txt,sha256=DjKKelxc5soVyZlu4YBO4A5joI9nkASjf6Lsvs3Ktzc,17
+scam_shield_utils-1.0.1.dist-info/RECORD,,
