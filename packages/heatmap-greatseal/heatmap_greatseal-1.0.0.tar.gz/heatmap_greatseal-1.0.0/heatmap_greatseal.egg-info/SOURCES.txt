@@ -1,0 +1,8 @@
+pyproject.toml
+heatmap_greatseal.egg-info/PKG-INFO
+heatmap_greatseal.egg-info/SOURCES.txt
+heatmap_greatseal.egg-info/dependency_links.txt
+heatmap_greatseal.egg-info/requires.txt
+heatmap_greatseal.egg-info/top_level.txt
+package/__init__.py
+package/valueratio.py

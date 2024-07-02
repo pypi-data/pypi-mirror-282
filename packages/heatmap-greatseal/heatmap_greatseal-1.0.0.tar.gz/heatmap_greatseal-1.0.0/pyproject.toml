@@ -1,0 +1,17 @@
+[project]
+name = "heatmap_greatseal"
+version = "1.0.0"
+authors = [
+  { name="Megyesi Máté", email="megyesimate@gmail.com" },
+]
+description = "A package for simple matrix operations and visualization"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [   
+    "matplotlib",
+    "numpy"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

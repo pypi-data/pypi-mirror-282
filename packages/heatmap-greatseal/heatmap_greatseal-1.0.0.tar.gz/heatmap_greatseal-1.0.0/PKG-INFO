@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: heatmap_greatseal
+Version: 1.0.0
+Summary: A package for simple matrix operations and visualization
+Author-email: Megyesi Máté <megyesimate@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
