@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: HorridAPI
+Version: 1.4
+Summary: Asynchronous Python Wrapper For HorridAPI
+Home-page: https://github.com/Mishel-Tg/HorridAPI
+Author: Horrid
+Author-email: narutomalayalam@gmail.com
+Keywords: API,HorridAPI,Mrz_bots,Horrid-API
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HorridAPI
+
+<p align="center">
+    <a href="https://github.com/Mishel-tg/HorridAPI">
+        <img src="https://img.shields.io/github/repo-size/Mishel-tg/HorridAPI?color=red&logo=github&logoColor=green&style=flat" />
+    </a>
+    <a href="https://github.com/Mishel-tg/HorridAPI/commits/main">
+        <img src="https://img.shields.io/github/last-commit/Mishel-tg/HorridAPI?color=brown&logo=github&logoColor=green&style=flat" />
+    </a>
+    <a href="https://github.com/Mishel-tg/HorridAPI/issues">
+        <img src="https://img.shields.io/github/issues/Mishel-tg/HorridAPI?color=blueviolet&logo=github&logoColor=green&style=flat" />
+    </a>
+    <a href="https://github.com/Mishel-tg/HorridAPI/fork">
+        <img src="https://img.shields.io/github/forks/Mishel-tg/HorridAPI?color=orange&logo=github&logoColor=green&style=flat" />
+    </a>
+    <a href="https://github.com/Mishel-tg/HorridAPI/stargazers">
+        <img src="https://img.shields.io/github/stars/Mishel-tg/HorridAPI?color=yellow&logo=github&logoColor=green&style=flat" />
+    </a>
+    <a href="https://pypi.org/project/HorridAPI/">
+        <img src="https://img.shields.io/pypi/v/HorridAPI?color=yellow&label=HorridAPI&logo=python&logoColor=blue&style=flat" />
+    </a>
+</p>
+
+# Installation
+
+``` 
+pip install HorridAPI
+```
+
+
+# usage
+```
+from HorridAPI import api
+ai = api.llama("who are you")
+print(ai)
+```
