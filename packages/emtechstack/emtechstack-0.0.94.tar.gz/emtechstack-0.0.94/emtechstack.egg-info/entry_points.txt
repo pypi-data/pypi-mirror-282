@@ -1,0 +1,7 @@
+[console_scripts]
+e9k = emtechstack.cli:cli
+emtechstack = emtechstack.cli:cli
+
+[gui_scripts]
+e9k = emtechstack.cli:cli
+emtechstack = emtechstack.cli:cli
