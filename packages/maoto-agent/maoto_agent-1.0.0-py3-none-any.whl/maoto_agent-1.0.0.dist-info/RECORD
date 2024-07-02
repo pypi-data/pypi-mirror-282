@@ -1,0 +1,9 @@
+maoto_agent/__init__.py,sha256=hRUSb2633tO3GNBMQcRbvH38-ioSGYA_GCh39Rwh1X8,56
+maoto_agent/__main__.py,sha256=U6hdNnlDy3QMmGtfXyhlQh0hPi3M_10FXOFkMJqKLHk,148
+maoto_agent/maoto_agent_module.py,sha256=PcwP5pl5FxiGyj9dSozkNf0vX_oxyWLZYWNUL_R98nk,19522
+maoto_agent-1.0.0.dist-info/LICENSE,sha256=KaMVjlVdRycNdCBkQSe1ZrYH9h75mMRBDyKmr9jFiKw,17528
+maoto_agent-1.0.0.dist-info/METADATA,sha256=kt_hARRbzbE8DhKXU8W8wtkfA_bPRQtpzKS4DUK7Y0U,19668
+maoto_agent-1.0.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+maoto_agent-1.0.0.dist-info/entry_points.txt,sha256=KKvDpa3RsdCAqdnifJcpgiApqmIul3YSngh6A35Lfdw,58
+maoto_agent-1.0.0.dist-info/top_level.txt,sha256=mGk9YHXI4zvqNUK6bDeeqdz67O7fa-ngLOU8V6LeM4k,12
+maoto_agent-1.0.0.dist-info/RECORD,,
