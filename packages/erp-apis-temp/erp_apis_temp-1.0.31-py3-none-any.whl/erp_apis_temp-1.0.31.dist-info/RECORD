@@ -1,0 +1,14 @@
+erp_apis_temp/config.py,sha256=RVm2hs1j0J_Kb8sYbd-r29bzNRWSpR-gJcYnNc3RNPY,2347
+erp_apis_temp/erpRequest.py,sha256=qlmQJ5jGQTyOveZUE6_lXNOClBrPBf0zcsQ5s8L3d6A,3737
+erp_apis_temp/apis/afterSales.py,sha256=X3sSar3xMkY0fwFIFr03rt9XfFeQTrVbqhlJEcrPJwQ,4994
+erp_apis_temp/apis/goods.py,sha256=oOkaBEBux_CMw6RJnJ3miHigE2sg0g3-gW8AoS6fWl0,1548
+erp_apis_temp/apis/inventory.py,sha256=ktCBMrKRdHKSOKZIgCCWan0cTYNKm-ddpFNe1hkxgGk,1013
+erp_apis_temp/apis/order.py,sha256=7dwtAHum_hSLZgphhs7MLZt2JyrM6hmCSu1_RlO-bbs,4381
+erp_apis_temp/apis/print.py,sha256=HFTwGZcVuPdKy8t2BKoj9wRwBaSRwkur96vm7lBBGsc,3082
+erp_apis_temp/apis/refund.py,sha256=NNpVlqNExx0YJTVtaygf0lUkNtMd-qipXga5th-UG-g,3880
+erp_apis_temp/apis/user.py,sha256=hloc5Clmx9mIadM56N39MsDOUMrIRefv9cLFHJBM540,1144
+erp_apis_temp/utils/util.py,sha256=Jb9GOlGrYJDLuE8EjsjUbKb_L-VzdqTZkIN4Mgm18Yc,2163
+erp_apis_temp-1.0.31.dist-info/METADATA,sha256=bLIEjoP971lz-KUVlo-SuTK_JWa8RPK920UNtyvXJQ4,1540
+erp_apis_temp-1.0.31.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+erp_apis_temp-1.0.31.dist-info/top_level.txt,sha256=aTOkhDHreCOYKk-4ZEmPt3WkWpC71zChCYS9RykowuI,53
+erp_apis_temp-1.0.31.dist-info/RECORD,,
