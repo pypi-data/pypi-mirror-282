@@ -1,0 +1,14 @@
+my_import/__init__.py,sha256=prSAVD9KA_mwzeYewtUnvU6m8q433LWLnfMPXr7vslE,164
+my_import/custom_importer.py,sha256=CaPrMH4pNl0S9DfDYYr7ybgyMZPLwejZJgMRAUcW7z8,409
+my_import/file_config.py,sha256=ft_CNvwxuWxscL2ABLML_1NaE8FZdCdMn_WS-X7WN_I,183
+my_import/hsr_decorator.py,sha256=AvlizGHVyJftc9ig9e9-q-Ui1q57PEyJy-zqRLrohZY,830
+my_import/hsr_list.py,sha256=Y4XbLgoNqYBeQpqSPwW1qME5r1tWC1xUyBjtEcuLeYY,1278
+my_import/hsr_math.py,sha256=ovLlp56FOfdjFtMHsI6UqRoOw99XpfOf_6p_iNA6sd8,1199
+my_import/performer_helper.py,sha256=OcDZDgxD_IELuPFTtnidSjE_JXQcPrpAXa0xaGV4_WQ,997
+my_import/setup_paths.py,sha256=3dYU3vVBKq6GgGK41EiC-St9d6YKeFL3vBpx-L11bx4,1606
+my_import/string_processing.py,sha256=w9EVBgehUd2eLBfgFHVVs3sJLKRVDze-wEh9shFsTCM,2030
+my_import/webscraper.py,sha256=ORphk0ODFz19tqe0e6j4Ee45aZCM_N_U95onydaCXfA,1882
+my_unique_import-0.2.3.dist-info/METADATA,sha256=eV5n_gPHDt2wZz3b1HxSD4EjtJjnXeMApgSUoiOvJnQ,2652
+my_unique_import-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+my_unique_import-0.2.3.dist-info/top_level.txt,sha256=S3CFNNXgbB6KydINcXgF7wZdKT5aAQKB1ACS_QCLi6U,10
+my_unique_import-0.2.3.dist-info/RECORD,,
