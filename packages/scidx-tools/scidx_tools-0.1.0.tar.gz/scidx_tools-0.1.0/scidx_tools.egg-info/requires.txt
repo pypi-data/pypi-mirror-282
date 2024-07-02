@@ -1,0 +1,7 @@
+aiokafka
+nest_asyncio
+pandas
+pytest
+pytest-asyncio
+pytest-order
+requests
