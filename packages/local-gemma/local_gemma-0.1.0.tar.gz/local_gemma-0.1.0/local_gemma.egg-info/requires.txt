@@ -1,0 +1,13 @@
+setuptools
+torch>=2.1.1
+accelerate
+transformers>=4.42.3
+
+[cpu]
+quanto>=0.2.0
+
+[cuda]
+bitsandbytes
+
+[mps]
+quanto>=0.2.0
