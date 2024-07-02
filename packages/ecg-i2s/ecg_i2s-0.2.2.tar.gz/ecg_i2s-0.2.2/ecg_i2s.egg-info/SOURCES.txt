@@ -1,0 +1,8 @@
+README.md
+setup.py
+ecg_i2s/__init__.py
+ecg_i2s/ecg.py
+ecg_i2s.egg-info/PKG-INFO
+ecg_i2s.egg-info/SOURCES.txt
+ecg_i2s.egg-info/dependency_links.txt
+ecg_i2s.egg-info/top_level.txt
