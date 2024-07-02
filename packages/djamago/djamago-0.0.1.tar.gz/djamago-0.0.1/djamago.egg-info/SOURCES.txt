@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+djamago/__init__.py
+djamago.egg-info/PKG-INFO
+djamago.egg-info/SOURCES.txt
+djamago.egg-info/dependency_links.txt
+djamago.egg-info/requires.txt
+djamago.egg-info/top_level.txt
+djamago/contrib/__init__.py
+djamago/contrib/spellcheck/__init__.py
+djamago/contrib/spellcheck/correction.py
+tests/test_parse.py

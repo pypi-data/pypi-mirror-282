@@ -1,0 +1,12 @@
+pyoload
+
+[ci]
+pytest
+pytest-cov
+pyoload
+coveralls
+
+[dev]
+pytest
+pytest-cov
+pyoload
