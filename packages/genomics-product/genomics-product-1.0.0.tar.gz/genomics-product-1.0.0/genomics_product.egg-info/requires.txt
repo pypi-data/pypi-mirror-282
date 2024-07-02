@@ -1,0 +1,9 @@
+pyyaml~=6.0.1
+pydantic~=1.10.12
+requests~=2.32.2
+jsonpickle~=2.2.0
+python-dotenv~=1.0.1
+setuptools~=69.0.3
+tqdm~=4.66.2
+signalrcore~=0.9.5
+joblib~=1.4.2

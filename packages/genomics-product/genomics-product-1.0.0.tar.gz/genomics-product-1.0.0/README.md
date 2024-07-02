@@ -1,0 +1,54 @@
+# Genomics Product Python SDK
+
+[![release](https://img.shields.io/badge/release-v1.0.0-orange.svg)](https://img.shields.io/badge/release-v1.0.0-orange.svg)
+
+The Genomics Product Python SDK is the easiest way for Python developers to build with the Genomics Product API. 
+The Genomics Product API gives you access to Genomics models created by [Instadeep](https://www.instadeep.com/).
+
+## Get started with the Genomics Product API
+1. Go to [Genomics Product web application](https://genomics.prduct.instadeep.com/).
+2. Login with to your account.
+3. [Create](https://genomics.prduct.instadeep.com/apikey) an API key.
+
+## Usage example
+Genomics Product SDK can be installed from the [github repository](https://github.com/instadeepai/genomics-product-sdk):
+```sh
+git clone git@github.com:instadeepai/genomics-product-sdk.git
+
+# for Linux users run this in the repo folder
+python -m pip install --user .
+
+#for Windows users run CMD as administrator, navigate to project folder and run this command
+ python -m pip install .
+```
+Add these environment variables 
+```yaml
+API_KEY="***************" //fetch this from the app ui
+BACKEND_URL=https://api-dev.genomics-product.deepchain.bio/api/v1
+```
+
+
+Please note, this approach requires that the installing user has the necessary [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to access
+the Git repository.
+
+Please authorize the key to work with your organization, so it can access the repo within.
+
+### Usage
+* To get the list of models run this command line:
+```sh
+genomics models
+```
+* Triggering the inference can be run from the command line:
+```sh
+genomics run -I input_file -O output_file -A gene-expression -M 018f3852-4a0b-96e1-8320-d00e81032b3c -N Job_20 --wait
+```
+
+Required parameters:
+ - ```-I```: Input fasta file path.
+ - ```-O```: Output file path.
+ - ```-M```: ID of the model version.
+ - ```-A```: Genomics task the NT is trained to perform.
+
+Optional parameters:
+ - ```-N```: The user-provided name for the job, used for identification and tracking. (default: auto-generated unique job name, combining a prefix, UUID, and timestamp).
+ - ```--wait```: Wait for the job run result if this flag is present.
