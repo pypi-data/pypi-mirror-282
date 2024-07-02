@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aipy
+Version: 3.0.6
+Summary: Astronomical Interferometry in PYthon
+Home-page: http://github.com/HERA-Team/aipy
+Author: Aaron Parsons
+Author-email: aparsons@berkeley.edu
+License: GPL
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+License-File: LICENSE
+License-File: LICENSE-GPL
+Requires-Dist: astropy>=3.0
+Requires-Dist: healpy>=1.11
+Requires-Dist: matplotlib
+Requires-Dist: numpy>=1.2
+Requires-Dist: ephem>=3.7.3.2
+Requires-Dist: scipy>=0.19
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+
+This package collects together tools for radio astronomical interferometry. In addition to pure-python phasing, calibration, imaging, and deconvolution code, this package includes interfaces to MIRIAD (a Fortran interferometry package) and HEALPix (a package for representing spherical data sets). Instructions, documentation, and a FAQ may be found at [the aipy GitHub page](http://github.com/HERA-Team/aipy).
