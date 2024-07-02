@@ -1,0 +1,4 @@
+claudette
+
+[dev]
+python-dotenv
