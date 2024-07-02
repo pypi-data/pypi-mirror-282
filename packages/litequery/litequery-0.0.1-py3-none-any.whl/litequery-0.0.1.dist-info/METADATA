@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: litequery
+Version: 0.0.1
+Summary: A handy way to interact with an SQLite database from Python
+Project-URL: Homepage, https://github.com/imryche/litequery
+Project-URL: Issues, https://github.com/imryche/litequery/issues
+Author-email: Dima Charnyshou <imryche13@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# litequery
+A handy way to interact with an SQLite database from Python
