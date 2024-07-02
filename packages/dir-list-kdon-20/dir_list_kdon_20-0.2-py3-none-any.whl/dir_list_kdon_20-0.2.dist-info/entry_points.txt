@@ -1,0 +1,2 @@
+[console_scripts]
+dir_list = dir_list.main:main
