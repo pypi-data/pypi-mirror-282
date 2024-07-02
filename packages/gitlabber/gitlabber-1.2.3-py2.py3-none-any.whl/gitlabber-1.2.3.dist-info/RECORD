@@ -1,0 +1,16 @@
+gitlabber/__init__.py,sha256=NcjoxDLYOmbp4fP2sdOI7frUmFsP_OmIRLppFUOMwJQ,22
+gitlabber/__main__.py,sha256=z3OQolCKD8rUd3pKYp_FISq2VctFhFl1mV-DVnaoNOM,29
+gitlabber/archive.py,sha256=FBNmmK8T_y0Gtf5xZuISUmIOwHwfRHHLdpcKe5HTDCY,487
+gitlabber/cli.py,sha256=NhgRVO0V0VtSaE7vjhM-CUFXcSoowKaKfNtAuH0viI0,7442
+gitlabber/format.py,sha256=Hd3h22rupAGE4CkeLRNp9aOofz81nkOLkeXuMEUDNi4,334
+gitlabber/git.py,sha256=8kUp3-MSq7RVkivubKlJlOHYASboFoWQfX2mVv-pL-4,3050
+gitlabber/gitlab_tree.py,sha256=joAEtOpcPJmu6UhbOSQziLZOSVOlXIA8-1C26G12LTs,8792
+gitlabber/method.py,sha256=mJiqNTL8aI3TAnLlEPpkFUh532zXeTnYBDWNBkkhQx4,320
+gitlabber/naming.py,sha256=nkQDxJBHeI3GM8ZxjZBF8oj85sKI05kwv3sCT0VI4zc,323
+gitlabber/progress.py,sha256=ulzuGxqnmP9gzj4rgNsrtpmXsSbmrc82oarOWUdABGA,1302
+gitlabber-1.2.3.dist-info/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+gitlabber-1.2.3.dist-info/METADATA,sha256=FarXFYWjTx2DSR90fSHP0ihqMntN_Nqacb9Mb-QK5o4,9562
+gitlabber-1.2.3.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+gitlabber-1.2.3.dist-info/entry_points.txt,sha256=-eHAWMl2i9vxsxVpRh0MmH4fe7M9taPJbf8USl_6jkU,49
+gitlabber-1.2.3.dist-info/top_level.txt,sha256=fgRwStfa7HeQgtvB0LJvCi6FOptRfwxLU604FD1Bh9g,10
+gitlabber-1.2.3.dist-info/RECORD,,
