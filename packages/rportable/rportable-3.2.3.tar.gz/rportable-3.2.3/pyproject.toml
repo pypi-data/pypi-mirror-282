@@ -1,0 +1,57 @@
+[project]
+name = "rportable"
+version = "3.2.3"
+description = "R-Studio built with the portable Apps Framework. "
+authors = [
+    { name = "Andrew Redd" },
+    { name = "James Parrott", email = "james.parrott@proton.me" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 6 - Mature",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.license]
+file = "LICENSE.md"
+
+[project.optional-dependencies]
+i386 = [
+    "rportable-i386",
+]
+x64 = [
+    "rportable-x64",
+]
+docs = [
+    "rportable-docs",
+]
+
+[project.urls]
+"R Portable homepage" = "https://sourceforge.net/projects/rportable/"
+"R Portable for PyPi" = "https://github.com/JamesParrott/rportable"
+"Bug Tracker" = "https://github.com/fiftysevendegreesofrad/sdna_plus/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+is-purelib = false
+includes = [
+    "rportable",
+    "rportable_launcher_scripts",
+]
+
+[tool.pdm.build.wheel-data]
+scripts = [
+    "rportable_launcher_scripts/*",
+]
