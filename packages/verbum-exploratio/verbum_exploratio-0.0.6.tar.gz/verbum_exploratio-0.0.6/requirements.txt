@@ -1,0 +1,4 @@
+wxPython
+requests
+lxml
+spacy
