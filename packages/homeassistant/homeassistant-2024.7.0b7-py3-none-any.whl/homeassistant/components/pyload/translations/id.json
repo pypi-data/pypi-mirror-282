@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "reconfigure_successful": "Konfigurasi ulang berhasil"
+        },
+        "step": {
+            "reconfigure_confirm": {
+                "data": {
+                    "host": "Host",
+                    "password": "Kata Sandi",
+                    "port": "Port",
+                    "ssl": "Menggunakan sertifikat SSL",
+                    "username": "Nama Pengguna",
+                    "verify_ssl": "Verifikasi sertifikat SSL"
+                }
+            }
+        }
+    }
+}
