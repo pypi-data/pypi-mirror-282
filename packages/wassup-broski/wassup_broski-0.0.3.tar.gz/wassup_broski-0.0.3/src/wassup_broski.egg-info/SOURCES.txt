@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+src/wassup_broski/__init__.py
+src/wassup_broski/huh.py
+src/wassup_broski/programs.py
+src/wassup_broski.egg-info/PKG-INFO
+src/wassup_broski.egg-info/SOURCES.txt
+src/wassup_broski.egg-info/dependency_links.txt
+src/wassup_broski.egg-info/top_level.txt
