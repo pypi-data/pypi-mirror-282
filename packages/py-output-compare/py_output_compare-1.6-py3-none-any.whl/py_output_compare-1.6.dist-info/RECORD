@@ -1,0 +1,14 @@
+py_output_compare/__init__.py,sha256=wim1-6wDdb45KPEyMivSL7Vf2T6St5WX19oX1S9CbpY,213
+py_output_compare/compare_file.py,sha256=pJigzWqwUXavzqBNcKWnJkgBpW5rNhPpiL21EX4OhEE,4665
+py_output_compare/find_file.py,sha256=Ng3DoNL_QJnPzmKXM-JC4m8GbZo6BRu4vPf7H6pjggY,1745
+py_output_compare/get_file_run_output.py,sha256=MG7lXXzdB6AOpRlrLeKrDf61WG1F2jOVBRrnhLM-wLk,1713
+py_output_compare/hello.py,sha256=t4sB6nD9bAcoLfzq09z-G0guZA0vtH0L4CryZqaQDmo,74
+py_output_compare/highlight.py,sha256=rFo2Obj2GS70kCHbL2RfUwwH-qE4JAjD-7alwk5nzc8,1667
+py_output_compare/normalize_file_output.py,sha256=jV0jkN_O_XuU3n13lHnnjmBrILK9JM2bQey1vvqyTUM,243
+py_output_compare/user_input_case.py,sha256=ngMnUOfhL2uDAqd5WL1Y-3rSVzQ8-5Pt2qVqUVYtJKQ,142
+py_output_compare-1.6.dist-info/METADATA,sha256=zukS5gI_myKy4gcW0t68d7WncqcDp31p8BO88-THL6g,496
+py_output_compare-1.6.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+py_output_compare-1.6.dist-info/entry_points.txt,sha256=qcqgXuddAC2E9yOJyO4Ha6aL7Y5kX8ehwZadYAITdrQ,60
+py_output_compare-1.6.dist-info/license,sha256=DU8hHjdV9gtmY7j7pRKusBmYTd7udQtWqTkytvr4QU8,1071
+py_output_compare-1.6.dist-info/top_level.txt,sha256=u8OtgcigPGkmxYGFIYYyu8zXCbVRTLL6MWgfvK3yDhM,18
+py_output_compare-1.6.dist-info/RECORD,,
