@@ -1,0 +1,9 @@
+rocrate_zenodo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rocrate_zenodo/authors.py,sha256=ZJ66linZ9CR_CoNszJV8SRyWaCLLqMMm0Yd-6PynIbM,3461
+rocrate_zenodo/main.py,sha256=myIQ7IgsYep-FPqV3qIM0qaQUGg8uQlGZONUnNsSbS4,1164
+rocrate_zenodo/upload.py,sha256=WzKrkvQVTloJ9E-XcKZ-0csZrfbNtu7FlBZkgv_-PJY,3952
+rocrate_zenodo-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rocrate_zenodo-0.1.0.dist-info/METADATA,sha256=ZCmPISz0z8yZQe6pUSNDwKJiRYsb2Dnd5CvoV6upv0g,3825
+rocrate_zenodo-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rocrate_zenodo-0.1.0.dist-info/entry_points.txt,sha256=0xfHB3dMdEh2LoTaDp57fKGPhBNTrsPuhFL1D4X0gR0,64
+rocrate_zenodo-0.1.0.dist-info/RECORD,,
