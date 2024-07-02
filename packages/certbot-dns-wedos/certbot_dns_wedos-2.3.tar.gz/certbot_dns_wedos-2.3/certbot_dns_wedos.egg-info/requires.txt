@@ -1,0 +1,5 @@
+certbot>=2.8.0
+acme>=2.8.0
+setuptools
+requests
+pytz
