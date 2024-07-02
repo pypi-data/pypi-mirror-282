@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+recruitment_employer_monster_com_indeed_com_vacancy_scraper_local.egg-info/PKG-INFO
+recruitment_employer_monster_com_indeed_com_vacancy_scraper_local.egg-info/SOURCES.txt
+recruitment_employer_monster_com_indeed_com_vacancy_scraper_local.egg-info/dependency_links.txt
+recruitment_employer_monster_com_indeed_com_vacancy_scraper_local.egg-info/top_level.txt
