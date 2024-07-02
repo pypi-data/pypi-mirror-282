@@ -1,0 +1,6 @@
+dartmouth-auth
+langchain
+langchain_community
+langchain_huggingface
+text_generation
+python-dotenv
