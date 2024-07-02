@@ -1,0 +1,8 @@
+README.md
+setup.py
+dyno-dino/__init__.py
+dyno-dino/dynamodb.py
+dyno_dino.egg-info/PKG-INFO
+dyno_dino.egg-info/SOURCES.txt
+dyno_dino.egg-info/dependency_links.txt
+dyno_dino.egg-info/top_level.txt
