@@ -1,0 +1,11 @@
+behave==1.2.6
+behave2cucumber==1.0.3
+docxcompose==1.4.0
+docxtpl==0.16.8
+psutil==5.9.8
+pillow==10.3.0
+openpyxl==3.1.2
+customtkinter==5.2.2
+PyPDF2==3.0.1
+python-docx==1.1.0
+selenium==4.20.0
