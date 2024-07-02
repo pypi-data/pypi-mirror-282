@@ -1,0 +1,59 @@
+Index: py-toshi-client/query/term_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from typing import Optional\n\nfrom models.query import Query\n\n\nclass TermQuery(Query):\n\n    def __init__(self, term: str, field_name: str, limit: Optional[int] = None):\n        self._term = term\n        self._field_name = field_name\n        self._limit = limit\n\n    def specialized_weight(self, enable_scoring: bool) -> \"TermWeight\":\n        # implementation: https://github.com/quickwit-oss/tantivy/blob/e4538481341a89001de8082d651ed256ce946fb8/src/query/term_query/term_query.rs#L69\n        raise NotImplementedError\n\n    def to_json(self) -> dict:\n        query_json = {\"query\": {\"term\": {self._field_name: self._term}}}\n        if self._limit is not None:\n            query_json.update({\"limit\": self._limit})\n\n        return query_json\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/term_query.py b/py-toshi-client/query/term_query.py
+--- a/py-toshi-client/query/term_query.py	(revision 6a904663ef03e3b4268f2aa2b9175bd4fe3af113)
++++ b/py-toshi-client/query/term_query.py	(date 1719396580470)
+@@ -6,6 +6,7 @@
+ class TermQuery(Query):
+ 
+     def __init__(self, term: str, field_name: str, limit: Optional[int] = None):
++        super().__init__(field_name, limit)
+         self._term = term
+         self._field_name = field_name
+         self._limit = limit
+Index: py-toshi-client/models/query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from abc import ABC, abstractmethod\n\n\nclass Query(ABC):\n\n    @abstractmethod\n    def to_json(self):\n        pass\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/models/query.py b/py-toshi-client/models/query.py
+--- a/py-toshi-client/models/query.py	(revision 6a904663ef03e3b4268f2aa2b9175bd4fe3af113)
++++ b/py-toshi-client/models/query.py	(date 1719396516760)
+@@ -1,8 +1,13 @@
+ from abc import ABC, abstractmethod
++from typing import Optional
+ 
+ 
+ class Query(ABC):
+ 
++    def __init__(self, field_name: str, limit: Optional[int] = None):
++        self._field_name = field_name
++        self._limit = limit
++
+     @abstractmethod
+     def to_json(self):
+         pass
+Index: py-toshi-client/query/all_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/all_query.py b/py-toshi-client/query/all_query.py
+new file mode 100644
+--- /dev/null	(date 1719396580468)
++++ b/py-toshi-client/query/all_query.py	(date 1719396580468)
+@@ -0,0 +1,7 @@
++from models.query import Query
++
++
++class AlQuery(Query):
++
++    def to_json(self):
++        pass

@@ -1,0 +1,482 @@
+Index: py-toshi-client/query/__init__.py
+===================================================================
+diff --git a/py-toshi-client/query/__init__.py b/py-toshi-client/query/__init__.py
+deleted file mode 100644
+--- a/py-toshi-client/query/__init__.py	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-from query.term_query import TermQuery
+Index: py-toshi-client/index/__init__.py
+===================================================================
+diff --git a/py-toshi-client/index/__init__.py b/py-toshi-client/index/__init__.py
+deleted file mode 100644
+--- a/py-toshi-client/index/__init__.py	
++++ /dev/null	
+@@ -1,4 +0,0 @@
+-from index.index import Index
+-from index.index import IndexField
+-from index.index_builder import IndexBuilder
+-from index.index_summary import IndexSummary, IndexSettings
+Index: py-toshi-client/index/index_builder.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/index_builder.py b/src/toshi_client/index/index_builder.py
+rename from py-toshi-client/index/index_builder.py
+rename to src/toshi_client/index/index_builder.py
+--- a/py-toshi-client/index/index_builder.py	
++++ b/src/toshi_client/index/index_builder.py	
+@@ -1,13 +1,13 @@
+ from typing import Optional
+ 
+-from index.enums import IndexTypes
+-from index.field_options import (
++from toshi_client.index import Index, IndexField
++from toshi_client.index.enums import IndexTypes
++from toshi_client.index.field_options import (
+     TextOptionIndexing,
+     TextOptions,
+-    NumericOptions,
+     FacetOptions,
++    NumericOptions,
+ )
+-from index.index import IndexField, Index
+ 
+ 
+ class IndexBuilder:
+Index: py-toshi-client/index/index.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/index.py b/src/toshi_client/index/index.py
+rename from py-toshi-client/index/index.py
+rename to src/toshi_client/index/index.py
+--- a/py-toshi-client/index/index.py	
++++ b/src/toshi_client/index/index.py	
+@@ -1,8 +1,8 @@
+ import dataclasses
+ from dataclasses import dataclass
+ 
+-from index.enums import IndexTypes
+-from models.field_options import Options
++from toshi_client.index.enums import IndexTypes
++from toshi_client.models.field_options import Options
+ 
+ 
+ @dataclass
+Index: py-toshi-client/client.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/client.py b/src/toshi_client/client.py
+rename from py-toshi-client/client.py
+rename to src/toshi_client/client.py
+--- a/py-toshi-client/client.py	
++++ b/src/toshi_client/client.py	
+@@ -4,18 +4,18 @@
+ 
+ import requests
+ 
+-from errors import (
++from toshi_client.errors import (
+     ToshiIndexError,
+     ToshiDocumentError,
+     ToshiFlushError,
+     ToshiClientError,
+ )
+-from index.index import Index
+-from index.index_summary import IndexSummary
+-from models.document import Document
+-from models.query import Query
+-from query import TermQuery
+-from query.facet_query import FacetQuery
++from toshi_client.index.index import Index
++from toshi_client.index.index_summary import IndexSummary
++from toshi_client.models.document import Document
++from toshi_client.models.query import Query
++from toshi_client.query import TermQuery
++from toshi_client.query.facet_query import FacetQuery
+ 
+ 
+ class ToshiClient:
+Index: py-toshi-client/index/field_options.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/field_options.py b/src/toshi_client/index/field_options.py
+rename from py-toshi-client/index/field_options.py
+rename to src/toshi_client/index/field_options.py
+--- a/py-toshi-client/index/field_options.py	
++++ b/src/toshi_client/index/field_options.py	
+@@ -1,8 +1,8 @@
+ from dataclasses import dataclass
+ from typing import Optional
+ 
+-from index.enums import IndexRecordOption
+-from models.field_options import Options
++from toshi_client.index.enums import IndexRecordOption
++from toshi_client.models.field_options import Options
+ 
+ 
+ @dataclass
+Index: py-toshi-client/index/index_summary.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/index_summary.py b/src/toshi_client/index/index_summary.py
+rename from py-toshi-client/index/index_summary.py
+rename to src/toshi_client/index/index_summary.py
+--- a/py-toshi-client/index/index_summary.py	
++++ b/src/toshi_client/index/index_summary.py	
+@@ -1,9 +1,9 @@
+ from dataclasses import dataclass
+ 
+-from index import Index
+-from index import IndexBuilder
+-from index.enums import IndexTypes
+-from index.field_options import TextOptionIndexing
++from toshi_client.index import Index
++from toshi_client.index import IndexBuilder
++from toshi_client.index.enums import IndexTypes
++from toshi_client.index.field_options import TextOptionIndexing
+ 
+ 
+ @dataclass
+Index: py-toshi-client/query/phrase_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/phrase_query.py b/src/toshi_client/query/phrase_query.py
+rename from py-toshi-client/query/phrase_query.py
+rename to src/toshi_client/query/phrase_query.py
+--- a/py-toshi-client/query/phrase_query.py	
++++ b/src/toshi_client/query/phrase_query.py	
+@@ -1,6 +1,6 @@
+ from typing import Optional
+ 
+-from models.query import Query
++from toshi_client.models import Query
+ 
+ 
+ class PhraseQuery(Query):
+Index: py-toshi-client/query/bool_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/bool_query.py b/src/toshi_client/query/bool_query.py
+rename from py-toshi-client/query/bool_query.py
+rename to src/toshi_client/query/bool_query.py
+--- a/py-toshi-client/query/bool_query.py	
++++ b/src/toshi_client/query/bool_query.py	
+@@ -1,6 +1,6 @@
+ from typing import Optional, Self
+ 
+-from models.query import Query
++from toshi_client.models import Query
+ 
+ 
+ class BoolQuery(Query):
+Index: py-toshi-client/query/range_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/range_query.py b/src/toshi_client/query/range_query.py
+rename from py-toshi-client/query/range_query.py
+rename to src/toshi_client/query/range_query.py
+--- a/py-toshi-client/query/range_query.py	
++++ b/src/toshi_client/query/range_query.py	
+@@ -1,6 +1,6 @@
+ from typing import Optional, Self
+ 
+-from models.query import Query
++from toshi_client.models import Query
+ 
+ 
+ class RangeQuery(Query):
+Index: py-toshi-client/query/regex_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/regex_query.py b/src/toshi_client/query/regex_query.py
+rename from py-toshi-client/query/regex_query.py
+rename to src/toshi_client/query/regex_query.py
+--- a/py-toshi-client/query/regex_query.py	
++++ b/src/toshi_client/query/regex_query.py	
+@@ -1,6 +1,6 @@
+ from typing import Optional
+ 
+-from models.query import Query
++from toshi_client.models import Query
+ 
+ 
+ class RegexQuery(Query):
+Index: py-toshi-client/query/facet_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/facet_query.py b/src/toshi_client/query/facet_query.py
+rename from py-toshi-client/query/facet_query.py
+rename to src/toshi_client/query/facet_query.py
+--- a/py-toshi-client/query/facet_query.py	
++++ b/src/toshi_client/query/facet_query.py	
+@@ -1,6 +1,6 @@
+ from pathlib import Path
+ 
+-from models.query import Query
++from toshi_client.models import Query
+ 
+ 
+ class FacetQuery(Query):
+Index: py-toshi-client/query/fuzzy_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/fuzzy_query.py b/src/toshi_client/query/fuzzy_query.py
+rename from py-toshi-client/query/fuzzy_query.py
+rename to src/toshi_client/query/fuzzy_query.py
+--- a/py-toshi-client/query/fuzzy_query.py	
++++ b/src/toshi_client/query/fuzzy_query.py	
+@@ -1,6 +1,6 @@
+ from typing import Optional
+ 
+-from models.query import Query
++from toshi_client.models import Query
+ 
+ 
+ class FuzzyQuery(Query):
+Index: py-toshi-client/query/term_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/term_query.py b/src/toshi_client/query/term_query.py
+rename from py-toshi-client/query/term_query.py
+rename to src/toshi_client/query/term_query.py
+--- a/py-toshi-client/query/term_query.py	
++++ b/src/toshi_client/query/term_query.py	
+@@ -1,6 +1,6 @@
+ from typing import Optional
+ 
+-from models.query import Query
++from toshi_client.models import Query
+ 
+ 
+ class TermQuery(Query):
+Index: py-toshi-client/tests/test_index_builder.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/test_index_builder.py b/tests/test_index_builder.py
+rename from py-toshi-client/tests/test_index_builder.py
+rename to tests/test_index_builder.py
+--- a/py-toshi-client/tests/test_index_builder.py	
++++ b/tests/test_index_builder.py	
+@@ -1,9 +1,12 @@
+ import pytest
+ 
+-from index import IndexBuilder
+-from index import IndexField
+-from index.enums import IndexTypes, IndexRecordOption
+-from index.field_options import TextOptionIndexing, TextOptions, NumericOptions
++from toshi_client.index import IndexBuilder, IndexField
++from toshi_client.index.enums import IndexRecordOption, IndexTypes
++from toshi_client.index.field_options import (
++    TextOptionIndexing,
++    TextOptions,
++    NumericOptions,
++)
+ 
+ 
+ @pytest.fixture
+Index: py-toshi-client/tests/test_sync_client.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/test_sync_client.py b/tests/test_sync_client.py
+rename from py-toshi-client/tests/test_sync_client.py
+rename to tests/test_sync_client.py
+--- a/py-toshi-client/tests/test_sync_client.py	
++++ b/tests/test_sync_client.py	
+@@ -2,12 +2,11 @@
+ 
+ import pytest
+ 
+-from client import ToshiClient
+-from index.index import Index
+-from index.index_summary import IndexSummary
+-from models.document import Document
+-from models.query import Query
+-from query import TermQuery
++from toshi_client.client import ToshiClient
++from toshi_client.index import Index, IndexSummary
++from toshi_client.models import Query
++from toshi_client.models.document import Document
++from toshi_client.query import TermQuery
+ 
+ 
+ @pytest.fixture
+Index: py-toshi-client/tests/query/test_phrase_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/query/test_phrase_query.py b/tests/query/test_phrase_query.py
+rename from py-toshi-client/tests/query/test_phrase_query.py
+rename to tests/query/test_phrase_query.py
+--- a/py-toshi-client/tests/query/test_phrase_query.py	
++++ b/tests/query/test_phrase_query.py	
+@@ -1,6 +1,6 @@
+ import pytest
+ 
+-from query.phrase_query import PhraseQuery
++from toshi_client.query import PhraseQuery
+ 
+ 
+ def test_init():
+Index: py-toshi-client/tests/query/test_bool_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/query/test_bool_query.py b/tests/query/test_bool_query.py
+rename from py-toshi-client/tests/query/test_bool_query.py
+rename to tests/query/test_bool_query.py
+--- a/py-toshi-client/tests/query/test_bool_query.py	
++++ b/tests/query/test_bool_query.py	
+@@ -1,6 +1,4 @@
+-from query import TermQuery
+-from query.bool_query import BoolQuery
+-from query.range_query import RangeQuery
++from toshi_client.query import TermQuery, RangeQuery, BoolQuery
+ 
+ 
+ def test_to_json():
+Index: py-toshi-client/tests/query/test_fuzzy_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/query/test_fuzzy_query.py b/tests/query/test_fuzzy_query.py
+rename from py-toshi-client/tests/query/test_fuzzy_query.py
+rename to tests/query/test_fuzzy_query.py
+--- a/py-toshi-client/tests/query/test_fuzzy_query.py	
++++ b/tests/query/test_fuzzy_query.py	
+@@ -1,6 +1,6 @@
+ import pytest
+ 
+-from query.fuzzy_query import FuzzyQuery
++from toshi_client.query import FuzzyQuery
+ 
+ 
+ def test_init():
+Index: py-toshi-client/tests/query/test_range_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/query/test_range_query.py b/tests/query/test_range_query.py
+rename from py-toshi-client/tests/query/test_range_query.py
+rename to tests/query/test_range_query.py
+--- a/py-toshi-client/tests/query/test_range_query.py	
++++ b/tests/query/test_range_query.py	
+@@ -1,4 +1,4 @@
+-from query.range_query import RangeQuery
++from toshi_client.query import RangeQuery
+ 
+ 
+ def test_assembly():
+Index: src/toshi_client/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/toshi_client/__init__.py b/src/toshi_client/__init__.py
+new file mode 100644
+--- /dev/null	
++++ b/src/toshi_client/__init__.py	
+@@ -0,0 +1,5 @@
++import toshi_client.query
++import toshi_client.models
++import toshi_client.index
++import toshi_client.client
++import toshi_client.errors
+Index: src/toshi_client/index/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/toshi_client/index/__init__.py b/src/toshi_client/index/__init__.py
+new file mode 100644
+--- /dev/null	
++++ b/src/toshi_client/index/__init__.py	
+@@ -0,0 +1,6 @@
++from toshi_client.index.index import Index
++from toshi_client.index.index import IndexField
++from toshi_client.index.index_builder import IndexBuilder
++from toshi_client.index.index_summary import IndexSummary, IndexSettings
++
++# from toshi_client.index.enums import IndexTypes, IndexRecordOption
+Index: src/toshi_client/models/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/toshi_client/models/__init__.py b/src/toshi_client/models/__init__.py
+new file mode 100644
+--- /dev/null	
++++ b/src/toshi_client/models/__init__.py	
+@@ -0,0 +1,1 @@
++from toshi_client.models.query import Query
+Index: src/toshi_client/query/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/toshi_client/query/__init__.py b/src/toshi_client/query/__init__.py
+new file mode 100644
+--- /dev/null	
++++ b/src/toshi_client/query/__init__.py	
+@@ -0,0 +1,7 @@
++from toshi_client.query.term_query import TermQuery
++from toshi_client.query.bool_query import BoolQuery
++from toshi_client.query.facet_query import FacetQuery
++from toshi_client.query.fuzzy_query import FuzzyQuery
++from toshi_client.query.phrase_query import PhraseQuery
++from toshi_client.query.range_query import RangeQuery
++from toshi_client.query.regex_query import RegexQuery
+diff --git a/py-toshi-client/errors.py b/src/toshi_client/errors.py
+rename from py-toshi-client/errors.py
+rename to src/toshi_client/errors.py
+diff --git a/py-toshi-client/index/enums.py b/src/toshi_client/index/enums.py
+rename from py-toshi-client/index/enums.py
+rename to src/toshi_client/index/enums.py
+diff --git a/py-toshi-client/tests/conftest.py b/tests/conftest.py
+rename from py-toshi-client/tests/conftest.py
+rename to tests/conftest.py
+diff --git a/py-toshi-client/tests/__init__.py b/tests/__init__.py
+rename from py-toshi-client/tests/__init__.py
+rename to tests/__init__.py
+diff --git a/py-toshi-client/models/query.py b/src/toshi_client/models/query.py
+rename from py-toshi-client/models/query.py
+rename to src/toshi_client/models/query.py
+diff --git a/py-toshi-client/models/document.py b/src/toshi_client/models/document.py
+rename from py-toshi-client/models/document.py
+rename to src/toshi_client/models/document.py
+diff --git a/py-toshi-client/models/field_options.py b/src/toshi_client/models/field_options.py
+rename from py-toshi-client/models/field_options.py
+rename to src/toshi_client/models/field_options.py
+diff --git a/tests/query/__init__.py b/tests/query/__init__.py
+new file mode 100644

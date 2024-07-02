@@ -1,0 +1,225 @@
+Index: py-toshi-client/index/index_builder.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from typing import Optional\n\nfrom enums import IndexTypes\nfrom index.field_options import TextOptionIndexing, TextOptions, NumericOptions\nfrom index.index import IndexField, Index\n\n\nclass IndexBuilder:\n    def __init__(self):\n        self._raw_index = []\n\n    def build(self, index_name: str) -> Index:\n        \"\"\"TODO\"\"\"\n        return Index(fields=self._raw_index.copy(), name=index_name)\n\n    def add_text_field(\n        self,\n        name: str,\n        stored: bool,\n        indexed: Optional[bool] = False,\n        indexing: Optional[TextOptionIndexing] = None,\n        coerce: Optional[bool] = False,\n    ):\n        \"\"\"\n        Adds a text field to the index.\n\n        Parameters\n        ----------\n        name : str\n            The name of the text field.\n        stored : bool\n            If True, the text field will be stored in the index.\n        indexed : bool, optional\n            If True, the text field will be indexed for searching. Default is False.\n        indexing : dict, optional\n            A dictionary containing indexing options for the text field. Default is None.\n        coerce : bool, optional\n            If true, coerce values into string if they are not of type string Default is False.\n        \"\"\"\n\n        option = TextOptions(\n            stored=stored, indexed=indexed, indexing=indexing, coerce=coerce\n        )\n        filed = IndexField(name=name, type=IndexTypes.TEXT, options=option)\n        self._raw_index.append(filed)\n\n    def add_u64_field(\n        self,\n        name: str,\n        stored: bool,\n        indexed: Optional[bool] = None,\n        fast: Optional[bool] = False,\n        fieldnorms: Optional[bool] = True,\n        coerce: Optional[bool] = False,\n    ):\n        \"\"\"\"\"\"\n        self.add_numeric_field(\n            name, stored, IndexTypes.U64, indexed, fast, fieldnorms, coerce\n        )\n\n    def add_i64_field(\n        self,\n        name: str,\n        stored: bool,\n        indexed: Optional[bool] = None,\n        fast: Optional[bool] = False,\n        fieldnorms: Optional[bool] = True,\n        coerce: Optional[bool] = False,\n    ):\n        \"\"\"\"\"\"\n        self.add_numeric_field(\n            name, stored, IndexTypes.I64, indexed, fast, fieldnorms, coerce\n        )\n\n    def add_f64_filed(\n        self,\n        name: str,\n        stored: bool,\n        indexed: Optional[bool] = None,\n        fast: Optional[bool] = False,\n        fieldnorms: Optional[bool] = True,\n        coerce: Optional[bool] = False,\n    ):\n        \"\"\"\"\"\"\n        self.add_numeric_field(\n            name, stored, IndexTypes.F64, indexed, fast, fieldnorms, coerce\n        )\n\n    def add_bool_filed(\n        self,\n        name: str,\n        stored: bool,\n        indexed: Optional[bool] = None,\n        fast: Optional[bool] = False,\n        fieldnorms: Optional[bool] = True,\n        coerce: Optional[bool] = False,\n    ):\n        \"\"\"\"\"\"\n        self.add_numeric_field(\n            name, stored, IndexTypes.BOOL, indexed, fast, fieldnorms, coerce\n        )\n\n    def add_numeric_field(\n        self,\n        name: str,\n        stored: bool,\n        index_type: IndexTypes,\n        indexed: Optional[bool] = None,\n        fast: Optional[bool] = False,\n        fieldnorms: Optional[bool] = True,\n        coerce: Optional[bool] = False,\n    ):\n        option = NumericOptions(\n            stored=stored,\n            indexed=indexed,\n            # fast=fast,\n            fieldnorms=fieldnorms,\n            coerce=coerce,\n        )\n        filed = IndexField(name=name, type=index_type, options=option)\n        self._raw_index.append(filed)\n\n    def add_date_field(self):\n        raise NotImplementedError\n\n    def add_bytes_field(self):\n        raise NotImplementedError\n\n    def add_ip_field(self):\n        raise NotImplementedError\n\n    def add_json_field(self):\n        raise NotImplementedError\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/index_builder.py b/py-toshi-client/index/index_builder.py
+--- a/py-toshi-client/index/index_builder.py	(revision bd2ae24d40ca991357320629ffb4a3a08c0c17bc)
++++ b/py-toshi-client/index/index_builder.py	(date 1719398334608)
+@@ -1,6 +1,6 @@
+ from typing import Optional
+ 
+-from enums import IndexTypes
++from index.enums import IndexTypes
+ from index.field_options import TextOptionIndexing, TextOptions, NumericOptions
+ from index.index import IndexField, Index
+ 
+Index: py-toshi-client/tests/test_sync_client.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import time\n\nimport pytest\nimport requests\n\nfrom client import ToshiClient\nfrom errors import ToshiIndexError\nfrom index import IndexSummary, IndexSettings\nfrom index.field_options import TextOptionIndexing\nfrom index.index_builder import IndexBuilder\nfrom models.document import Document\nfrom query import TermQuery\nfrom query.fuzzy_query import FuzzyQuery\nfrom query.range_query import RangeQuery\nfrom tests.conftest import CI\n\n\nclass Lyrics(Document):\n    @staticmethod\n    def index_name() -> str:\n        return \"lyrics\"\n\n    def __init__(\n        self, lyrics: str, year: int, idx: int, artist: str, genre: str, song: str\n    ):\n        self.lyrics = lyrics\n        self.year = year\n        self.idx = idx\n        self.artist = artist\n        self.genre = genre\n        self.song = song\n\n\n@pytest.fixture\ndef black_keys_lyrics_document():\n    return Lyrics(\n        lyrics=\"Gold on the ceiling, I ain't blind, just a matter of time\",\n        year=2011,\n        idx=2,\n        artist=\"The Black Keys\",\n        genre=\"Rock\",\n        song=\"Gold on the Ceiling\",\n    )\n\n\n@pytest.fixture\ndef nirvana_lyrics_document():\n    return Lyrics(\n        lyrics=\"With the lights out, it's less dangerous, here we are now, entertain us\",\n        year=1991,\n        idx=4,\n        artist=\"Nirvana\",\n        genre=\"Grunge\",\n        song=\"Smells Like Teen Spirit\",\n    )\n\n\n@pytest.fixture\ndef radiohead_lyrics_document():\n    return Lyrics(\n        lyrics=\"I'm a creep, I'm a weirdo, what the hell am I doing here?\",\n        year=1992,\n        idx=3,\n        artist=\"Radiohead\",\n        genre=\"Alternative Rock\",\n        song=\"Creep\",\n    )\n\n\n@pytest.fixture\ndef lyric_documents(\n    black_keys_lyrics_document, nirvana_lyrics_document, radiohead_lyrics_document\n):\n    return [\n        black_keys_lyrics_document,\n        nirvana_lyrics_document,\n        radiohead_lyrics_document,\n    ]\n\n\n@pytest.fixture\ndef lyrics_index():\n    builder = IndexBuilder()\n\n    builder.add_text_field(name=\"lyrics\", stored=True, indexing=TextOptionIndexing())\n    builder.add_i64_field(name=\"year\", stored=True, indexed=True)\n    builder.add_u64_field(name=\"idx\", stored=True, indexed=True)\n    builder.add_text_field(name=\"artist\", stored=True, indexing=TextOptionIndexing())\n    builder.add_text_field(name=\"genre\", stored=True, indexing=TextOptionIndexing())\n    builder.add_text_field(name=\"song\", stored=True, indexing=TextOptionIndexing())\n\n    return builder.build(\"lyrics\")\n\n\n@pytest.mark.integration()\n@pytest.mark.skipif(CI, reason=\"Integration Test\")\ndef test_create_index(lyrics_index, toshi_container):\n    unknown_index_response = {\"message\": \"Unknown Index: 'lyrics' does not exist\"}\n\n    get_schema_summary_url = (\n        f\"{toshi_container}/{lyrics_index.name}/_summary?include_sizes=true\"\n    )\n    res = requests.get(\n        get_schema_summary_url, headers={\"Content-Type\": \"application/json\"}\n    )\n    assert res.json() == unknown_index_response\n\n    client = ToshiClient(toshi_container)\n    client.create_index(index=lyrics_index)\n\n    get_schema_summary_url = (\n        f\"{toshi_container}/{lyrics_index.name}/_summary?include_sizes=true\"\n    )\n    res = requests.get(\n        get_schema_summary_url, headers={\"Content-Type\": \"application/json\"}\n    )\n    assert res.json() != unknown_index_response\n\n    with pytest.raises(ToshiIndexError):\n        client.create_index(index=lyrics_index)\n\n\n@pytest.mark.integration()\n@pytest.mark.skipif(CI, reason=\"Integration Test\")\ndef test_get_index_summary(toshi_container, lyrics_index):\n    client = ToshiClient(toshi_container)\n    res = client.get_index_summary(name=lyrics_index.name)\n    expected_summary = IndexSummary(\n        segments=[],\n        opstamp=0,\n        index_settings=IndexSettings(\n            docstore_blocksize=16384, docstore_compression=\"lz4\"\n        ),\n        index=lyrics_index,\n    )\n\n    assert expected_summary == res\n\n\n@pytest.mark.integration()\n@pytest.mark.skipif(CI, reason=\"Integration Test\")\ndef test_add_document(toshi_container, lyric_documents):\n    client = ToshiClient(toshi_container)\n    for doc in lyric_documents:\n        print(doc)\n        client.add_document(document=doc)\n    time.sleep(0.5)\n    retrieved_doc = client.get_documents(document=Lyrics)\n\n    assert len(retrieved_doc) == 3\n    assert sorted(\n        [doc.to_json() for doc in lyric_documents], key=lambda d: d[\"document\"][\"year\"]\n    ) == sorted(\n        [r_doc.to_json() for r_doc in retrieved_doc],\n        key=lambda d: d[\"document\"][\"year\"],\n    )\n\n\n@pytest.mark.integration()\n@pytest.mark.skipif(CI, reason=\"Integration Test\")\ndef test_list_indexes(toshi_container):\n    client = ToshiClient(toshi_container)\n    res = client.list_indexes()\n\n    assert [\"lyrics\"] == res\n\n\n@pytest.mark.integration()\n@pytest.mark.skipif(CI, reason=\"Integration Test\")\ndef test_search_term_query(\n    toshi_container, black_keys_lyrics_document, lyric_documents\n):\n    client = ToshiClient(toshi_container)\n    query = TermQuery(term=\"ceiling\", field_name=\"lyrics\")\n\n    documents = client.search(query, Lyrics)\n\n    assert len(documents) == 1\n    assert documents[0] == black_keys_lyrics_document\n\n    query = TermQuery(term=\"the\", field_name=\"lyrics\")\n\n    documents = client.search(query, Lyrics)\n    assert len(documents) == 3\n    assert [d for d in documents] == [d for d in lyric_documents]\n\n\n@pytest.mark.integration()\n@pytest.mark.skipif(CI, reason=\"Integration Test\")\ndef test_search_fuzzy_query(toshi_container, black_keys_lyrics_document):\n    client = ToshiClient(toshi_container)\n    query = FuzzyQuery(\n        term=\"ceilin\", field_name=\"lyrics\", distance=2, transposition=False\n    )\n\n    documents = client.search(query, Lyrics)\n\n    assert len(documents) == 1\n    assert documents[0] == black_keys_lyrics_document\n\n\n@pytest.mark.integration()\n@pytest.mark.skipif(CI, reason=\"Integration Test\")\ndef test_search_range_query(toshi_container):\n    client = ToshiClient(toshi_container)\n    gt = 1990\n    lt = 2000\n    query = RangeQuery(gt=gt, lt=lt, field_name=\"year\")\n\n    documents = client.search(query, Lyrics)\n    all(gt < doc.year < lt for doc in documents)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/test_sync_client.py b/py-toshi-client/tests/test_sync_client.py
+--- a/py-toshi-client/tests/test_sync_client.py	(revision bd2ae24d40ca991357320629ffb4a3a08c0c17bc)
++++ b/py-toshi-client/tests/test_sync_client.py	(date 1719400833405)
+@@ -10,6 +10,9 @@
+ from index.index_builder import IndexBuilder
+ from models.document import Document
+ from query import TermQuery
++
++
++from query.bool_query import BoolQuery, BoolQueryBundle
+ from query.fuzzy_query import FuzzyQuery
+ from query.range_query import RangeQuery
+ from tests.conftest import CI
+@@ -208,4 +211,23 @@
+     query = RangeQuery(gt=gt, lt=lt, field_name="year")
+ 
+     documents = client.search(query, Lyrics)
++    assert len(documents) >= 1
+     all(gt < doc.year < lt for doc in documents)
++
++
++@pytest.mark.integration()
++@pytest.mark.skipif(CI, reason="Integration Test")
++def test_search_bool_query(toshi_container, black_keys_lyrics_document):
++    client = ToshiClient(toshi_container)
++
++    term_query = TermQuery(term="the", field_name="lyrics")
++    gt = 1990
++    lt = 2000
++    range_query = RangeQuery(gt=gt, lt=lt, field_name="year")
++    query = BoolQuery(
++        bool_query_bundle=BoolQueryBundle(must=[term_query], must_not=[range_query])
++    )
++
++    documents = client.search(query, Lyrics)
++    assert len(documents) >= 1
++    assert documents[0] == black_keys_lyrics_document
+Index: py-toshi-client/index/field_options.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from dataclasses import dataclass\nfrom typing import Optional\n\nfrom enums import IndexRecordOption\nfrom models.field_options import Options\n\n\n@dataclass\nclass NumericOptions(Options):\n    # fast: Optional[bool] = False\n    fieldnorms: Optional[bool] = True\n    \"\"\"This attribute only has an effect if indexed is true.\"\"\"\n    coerce: Optional[bool] = False\n\n\n@dataclass\nclass TextOptionIndexing:\n    record: Optional[IndexRecordOption] = IndexRecordOption.POSITION\n    fieldnorms: bool = True\n    tokenizer: Optional[str] = \"default\"\n\n\n@dataclass\nclass TextOptions(Options):\n    indexing: Optional[TextOptionIndexing] = None\n    coerce: Optional[bool] = False\n    \"\"\"If true coerce values into string if they are not of type string\"\"\"\n\n\n@dataclass\nclass ByteOptions(Options):\n    fast: Optional[bool] = False\n    fieldnorms: Optional[bool] = True\n    \"\"\"This boolean has no effect if the field is not marked as indexed true.\"\"\"\n\n\n@dataclass\nclass DateOptions(Options):\n    fieldnorms: Optional[bool] = False\n    \"\"\"This boolean has no effect if the field is not marked as indexed true.\"\"\"\n    fast: Optional[bool] = False\n    precision: Optional[str] = \"seconds\"\n    \"\"\"Precision of the date can be seconds, milliseconds, microseconds, nanoseconds\"\"\"\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/field_options.py b/py-toshi-client/index/field_options.py
+--- a/py-toshi-client/index/field_options.py	(revision bd2ae24d40ca991357320629ffb4a3a08c0c17bc)
++++ b/py-toshi-client/index/field_options.py	(date 1719397812589)
+@@ -1,7 +1,7 @@
+ from dataclasses import dataclass
+ from typing import Optional
+ 
+-from enums import IndexRecordOption
++from index.enums import IndexRecordOption
+ from models.field_options import Options
+ 
+ 
+Index: py-toshi-client/tests/test_index_builder.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import pytest\n\nfrom enums import IndexTypes, IndexRecordOption\nfrom index import IndexBuilder\nfrom index import IndexField\nfrom index.field_options import TextOptionIndexing, TextOptions, NumericOptions\n\n\n@pytest.fixture\ndef index_builder():\n    return IndexBuilder()\n\n\ndef test_add_text_field(index_builder: IndexBuilder):\n    index_builder.add_text_field(\n        name=\"test\",\n        stored=True,\n        indexing=TextOptionIndexing(record=IndexRecordOption.POSITION),\n        indexed=True,\n        coerce=True,\n    )\n\n    index = index_builder.build(\"test_index\")\n\n    assert index.name == \"test_index\"\n    assert len(index.fields) == 1\n    assert index.fields[0] == IndexField(\n        name=\"test\",\n        type=IndexTypes.TEXT,\n        options=TextOptions(\n            stored=True,\n            indexed=True,\n            coerce=True,\n            indexing=TextOptionIndexing(record=IndexRecordOption.POSITION),\n        ),\n    )\n\n\ndef test_add_i64_field(index_builder: IndexBuilder):\n    index_builder.add_i64_field(\n        name=\"test\", stored=True, indexed=True, fast=True, fieldnorms=False, coerce=True\n    )\n\n    index = index_builder.build(\"test_index\")\n\n    assert index.name == \"test_index\"\n    assert len(index.fields) == 1\n    assert index.fields[0] == IndexField(\n        name=\"test\",\n        type=IndexTypes.I64,\n        options=NumericOptions(\n            stored=True, indexed=True, fieldnorms=False, coerce=True\n        ),\n    )\n\n\ndef test_add_u64_field(index_builder: IndexBuilder):\n    index_builder.add_u64_field(\n        name=\"test\", stored=True, indexed=True, fast=True, fieldnorms=False, coerce=True\n    )\n\n    index = index_builder.build(\"test_index\")\n\n    assert index.name == \"test_index\"\n    assert len(index.fields) == 1\n    assert index.fields[0] == IndexField(\n        name=\"test\",\n        type=IndexTypes.U64,\n        options=NumericOptions(\n            stored=True, indexed=True, fieldnorms=False, coerce=True\n        ),\n    )\n\n\ndef test_add_f64_field(index_builder: IndexBuilder):\n    index_builder.add_f64_filed(\n        name=\"test\", stored=True, indexed=True, fast=True, fieldnorms=False, coerce=True\n    )\n\n    index = index_builder.build(\"test_index\")\n\n    assert index.name == \"test_index\"\n    assert len(index.fields) == 1\n    assert index.fields[0] == IndexField(\n        name=\"test\",\n        type=IndexTypes.F64,\n        options=NumericOptions(\n            stored=True, indexed=True, fieldnorms=False, coerce=True\n        ),\n    )\n\n\ndef test_add_bool_field(index_builder: IndexBuilder):\n    index_builder.add_bool_filed(\n        name=\"test\", stored=True, indexed=True, fast=True, fieldnorms=False, coerce=True\n    )\n\n    index = index_builder.build(\"test_index\")\n\n    assert index.name == \"test_index\"\n    assert len(index.fields) == 1\n    assert index.fields[0] == IndexField(\n        name=\"test\",\n        type=IndexTypes.BOOL,\n        options=NumericOptions(\n            stored=True, indexed=True, fieldnorms=False, coerce=True\n        ),\n    )\n\n\n@pytest.mark.parametrize(\n    \"field_type\", [IndexTypes.I64, IndexTypes.U64, IndexTypes.F64, IndexTypes.BOOL]\n)\ndef test_add_numeric_field(index_builder: IndexBuilder, field_type):\n    index_builder.add_numeric_field(\n        name=\"test\",\n        index_type=field_type,\n        stored=True,\n        indexed=True,\n        fast=True,\n        fieldnorms=False,\n        coerce=True,\n    )\n\n    index = index_builder.build(\"test_index\")\n\n    assert index.name == \"test_index\"\n    assert len(index.fields) == 1\n    assert index.fields[0] == IndexField(\n        name=\"test\",\n        type=field_type,\n        options=NumericOptions(\n            stored=True, indexed=True, fieldnorms=False, coerce=True\n        ),\n    )\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/test_index_builder.py b/py-toshi-client/tests/test_index_builder.py
+--- a/py-toshi-client/tests/test_index_builder.py	(revision bd2ae24d40ca991357320629ffb4a3a08c0c17bc)
++++ b/py-toshi-client/tests/test_index_builder.py	(date 1719397812586)
+@@ -1,6 +1,6 @@
+ import pytest
+ 
+-from enums import IndexTypes, IndexRecordOption
++from index.enums import IndexTypes, IndexRecordOption
+ from index import IndexBuilder
+ from index import IndexField
+ from index.field_options import TextOptionIndexing, TextOptions, NumericOptions
+Index: py-toshi-client/index/index_summary.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from dataclasses import dataclass\n\nfrom enums import IndexTypes\nfrom index import Index\nfrom index import IndexBuilder\nfrom index.field_options import TextOptionIndexing\n\n\n@dataclass\nclass IndexSettings:\n    docstore_blocksize: int\n    docstore_compression: str\n\n\n@dataclass\nclass IndexSummary:\n    index_settings: IndexSettings\n    segments: list\n    opstamp: int\n    index: Index\n\n    @staticmethod\n    def from_json(index_name: str, data: dict) -> \"IndexSummary\":\n        builder = IndexBuilder()\n        index_schema = data.pop(\"schema\")\n        for raw_field in index_schema:\n            if raw_field[\"type\"] == IndexTypes.TEXT:\n                raw_field.pop(\"type\")\n                options = raw_field.pop(\"options\")\n                options.pop(\n                    \"fast\"\n                )  # TODO: Is this a bug? TextFields should not have a fast field\n                options[\"indexing\"] = TextOptionIndexing(**options[\"indexing\"])\n                builder.add_text_field(**raw_field, **options)\n            elif raw_field[\"type\"] in [\n                IndexTypes.I64,\n                IndexTypes.U64,\n                IndexTypes.F64,\n                IndexTypes.BOOL,\n            ]:\n                options = raw_field.pop(\"options\")\n\n                # can't have type as an input without shadowing the type keyword\n                raw_field[\"index_type\"] = raw_field.pop(\"type\")\n                builder.add_numeric_field(**raw_field, **options)\n            elif raw_field[\"type\"] == IndexTypes.BYTES:\n                raise NotImplementedError\n            elif raw_field[\"type\"] == IndexTypes.DATE:\n                raise NotImplementedError\n            elif raw_field[\"type\"] == IndexTypes.IP:\n                raise NotImplementedError\n            elif raw_field[\"type\"] == IndexTypes.JSON:\n                raise NotImplementedError\n\n        index = builder.build(index_name)\n        settings = IndexSettings(**data.pop(\"index_settings\"))\n        return IndexSummary(**data, index_settings=settings, index=index)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/index_summary.py b/py-toshi-client/index/index_summary.py
+--- a/py-toshi-client/index/index_summary.py	(revision bd2ae24d40ca991357320629ffb4a3a08c0c17bc)
++++ b/py-toshi-client/index/index_summary.py	(date 1719397812582)
+@@ -1,6 +1,6 @@
+ from dataclasses import dataclass
+ 
+-from enums import IndexTypes
++from index.enums import IndexTypes
+ from index import Index
+ from index import IndexBuilder
+ from index.field_options import TextOptionIndexing
+Index: py-toshi-client/tests/query/test_bool_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/tests/query/test_bool_query.py b/py-toshi-client/tests/query/test_bool_query.py
+new file mode 100644
+--- /dev/null	(date 1719400781311)
++++ b/py-toshi-client/tests/query/test_bool_query.py	(date 1719400781311)
+@@ -0,0 +1,23 @@
++from query import TermQuery
++from query.bool_query import BoolQuery, BoolQueryBundle
++from query.range_query import RangeQuery
++
++
++def test_to_json():
++    term_query = TermQuery(term="the", field_name="lyrics")
++    gt = 1990
++    lt = 2000
++    range_query = RangeQuery(gt=gt, lt=lt, field_name="year")
++    query = BoolQuery(
++        bool_query_bundle=BoolQueryBundle(must=[term_query], must_not=[range_query])
++    )
++
++    assert query.to_json() == {
++        "query": {
++            "bool": {
++                "must": [{"term": {"lyrics": "the"}}],
++                "must_not": [{"range": {"year": {"gt": 1990, "lt": 2000}}}],
++                "should": [],
++            }
++        }
++    }
+Index: py-toshi-client/index/index.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import dataclasses\nfrom dataclasses import dataclass\n\nfrom enums import IndexTypes\nfrom models.field_options import Options\n\n\n@dataclass\nclass IndexField:\n    name: str\n    type: IndexTypes\n    options: Options\n\n\n@dataclass\nclass Index:\n    name: str\n    fields: list[IndexField]\n\n    def to_json(self) -> list[dict]:\n        return [dataclasses.asdict(i) for i in self.fields]\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/index/index.py b/py-toshi-client/index/index.py
+--- a/py-toshi-client/index/index.py	(revision bd2ae24d40ca991357320629ffb4a3a08c0c17bc)
++++ b/py-toshi-client/index/index.py	(date 1719398325475)
+@@ -1,7 +1,7 @@
+ import dataclasses
+ from dataclasses import dataclass
+ 
+-from enums import IndexTypes
++from index.enums import IndexTypes
+ from models.field_options import Options
+ 
+ 
+Index: py-toshi-client/query/bool_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/query/bool_query.py b/py-toshi-client/query/bool_query.py
+new file mode 100644
+--- /dev/null	(date 1719400871650)
++++ b/py-toshi-client/query/bool_query.py	(date 1719400871650)
+@@ -0,0 +1,40 @@
++import dataclasses
++from typing import Optional
++
++from models.query import Query
++
++
++@dataclasses.dataclass
++class BoolQueryBundle:
++    must: Optional[list[Query]] = dataclasses.field(default_factory=list)
++    """Queries that must match"""
++    must_not: Optional[list[Query]] = dataclasses.field(default_factory=list)
++    """Queries that do not match"""
++    should: Optional[list[Query]] = dataclasses.field(default_factory=list)
++    """Queries that should match"""
++
++    def to_json(self):
++        json_data = dict()
++
++        json_data["must"] = [m.to_json()["query"] for m in self.must]
++        json_data["must_not"] = [m.to_json()["query"] for m in self.must_not]
++        json_data["should"] = [s.to_json()["query"] for s in self.should]
++
++        return json_data
++
++
++class BoolQuery(Query):
++
++    def __init__(
++        self,
++        bool_query_bundle: BoolQueryBundle,
++        field_name: str = None,  # Not needed, but present in parent
++        limit: Optional[int] = None,
++    ):
++        super().__init__(field_name, limit)
++        self._bundle = bool_query_bundle
++
++    def to_json(self):
++        query_json = {"query": {"bool": self._bundle.to_json()}}
++
++        return query_json
+diff --git a/py-toshi-client/tests/query/fuzzy_query.py b/py-toshi-client/tests/query/test_fuzzy_query.py
+rename from py-toshi-client/tests/query/fuzzy_query.py
+rename to py-toshi-client/tests/query/test_fuzzy_query.py
+diff --git a/py-toshi-client/enums.py b/py-toshi-client/index/enums.py
+rename from py-toshi-client/enums.py
+rename to py-toshi-client/index/enums.py

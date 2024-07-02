@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6dd01163-68bf-41b4-8b80-694752c75e25" name="Changes" comment="Remove docker compose file" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="rr/document-and-clean" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="rr/readme" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="CI: Adjust dirs" />
+        <option name="rewordedMessage" value="CI: Adjust dirs" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="7fdce94da4481d8ec25bd192aff13a0a7bd2b881" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hSOW3SGCNdBxjm4an1m70c8kws" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_bool_query.test_to_json.executor": "Debug",
+    "Python tests.Python tests for test_index_builder.test_add_f64_field.executor": "Run",
+    "Python tests.Python tests for test_index_builder.test_add_numeric_field.executor": "Run",
+    "Python tests.Python tests for test_index_builder.test_add_text_field.executor": "Run",
+    "Python tests.Python tests for test_integration_sync.test_create_index.executor": "Debug",
+    "Python tests.Python tests for test_phrase_query.test_to_json.executor": "Run",
+    "Python tests.Python tests for test_range_query.test_init.executor": "Run",
+    "Python tests.Python tests for test_range_query.test_to_json.executor": "Run",
+    "Python tests.Python tests for test_sync_client.test_add_document.executor": "Run",
+    "Python tests.Python tests for test_sync_client.test_create_index.executor": "Run",
+    "Python tests.Python tests for test_sync_client.test_get_index_summary.executor": "Debug",
+    "Python tests.Python tests for test_sync_client.test_insert.executor": "Debug",
+    "Python tests.Python tests in fuzzy_query.py.executor": "Run",
+    "Python tests.Python tests in test_async_client.py.executor": "Run",
+    "Python tests.Python tests in test_bool_query.py.executor": "Run",
+    "Python tests.Python tests in test_index_builder.py.executor": "Run",
+    "Python tests.Python tests in test_integration.py.executor": "Run",
+    "Python tests.Python tests in test_integration_async.py.executor": "Run",
+    "Python tests.Python tests in test_integration_sync.py.executor": "Debug",
+    "Python tests.Python tests in test_range_query.py.executor": "Run",
+    "Python tests.Python tests in test_sync_client.py.executor": "Run",
+    "Python tests.Python tests in tests (1).executor": "Run",
+    "Python tests.Python tests in tests.executor": "Run",
+    "Python tests.pytest for test_integration_async.test_create_index.executor": "Run",
+    "Python.client.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/smart_monkey/Documents/Projects/py-toshi-client/py-toshi-client/tests",
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/py-toshi-client/tests" />
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/py-toshi-client/index" />
+      <recent name="$PROJECT_DIR$/py-toshi-client/models" />
+      <recent name="$PROJECT_DIR$/py-toshi-client/tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_sync_client.py">
+    <configuration name="Python tests for test_bool_query.test_to_json" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-toshi-client" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-toshi-client/tests/query" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_bool_query.test_to_json&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_index_builder.test_add_numeric_field" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-toshi-client" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-toshi-client/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_index_builder.test_add_numeric_field&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_index_builder.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-toshi-client" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-toshi-client/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/py-toshi-client/tests/test_index_builder.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_sync_client.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-toshi-client" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-toshi-client/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/py-toshi-client/tests/test_sync_client.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py-toshi-client" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py-toshi-client/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/py-toshi-client/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.Python tests in test_sync_client.py" />
+        <item itemvalue="Python tests.Python tests in test_index_builder.py" />
+        <item itemvalue="Python tests.Python tests for test_index_builder.test_add_numeric_field" />
+        <item itemvalue="Python tests.Python tests for test_bool_query.test_to_json" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dd01163-68bf-41b4-8b80-694752c75e25" name="Changes" comment="" />
+      <created>1717584039156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717584039156</updated>
+    </task>
+    <task id="LOCAL-00043" summary="IndexSummary: Add error raise to Index construction">
+      <option name="closed" value="true" />
+      <created>1719387537115</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719387537115</updated>
+    </task>
+    <task id="LOCAL-00044" summary="IndexBuilder: Add missing functions">
+      <option name="closed" value="true" />
+      <created>1719387681325</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1719387681325</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add comment">
+      <option name="closed" value="true" />
+      <created>1719388279196</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1719388279196</updated>
+    </task>
+    <task id="LOCAL-00046" summary="TermQuery: remove index_record_option as its not supported by toshi">
+      <option name="closed" value="true" />
+      <created>1719393475977</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1719393475977</updated>
+    </task>
+    <task id="LOCAL-00047" summary="RangeQuery: Add RangeQuery">
+      <option name="closed" value="true" />
+      <created>1719393500749</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1719393500749</updated>
+    </task>
+    <task id="LOCAL-00048" summary="ToshiClient: Error handling in search()">
+      <option name="closed" value="true" />
+      <created>1719393531176</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719393531176</updated>
+    </task>
+    <task id="LOCAL-00049" summary="FuzzyQuery: Add class">
+      <option name="closed" value="true" />
+      <created>1719395898779</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1719395898779</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Query: Add init">
+      <option name="closed" value="true" />
+      <created>1719400873364</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1719400873364</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Query: Adjust init t">
+      <option name="closed" value="true" />
+      <created>1719400892102</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1719400892102</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Move enum file to index folder">
+      <option name="closed" value="true" />
+      <created>1719400930380</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1719400930380</updated>
+    </task>
+    <task id="LOCAL-00053" summary="BoolQuery: Add BoolQuery">
+      <option name="closed" value="true" />
+      <created>1719400948731</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1719400948731</updated>
+    </task>
+    <task id="LOCAL-00054" summary="BoolQuery: Add limit to json">
+      <option name="closed" value="true" />
+      <created>1719403084742</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1719403084742</updated>
+    </task>
+    <task id="LOCAL-00055" summary="FuzzyQuery: Remove parent att from init">
+      <option name="closed" value="true" />
+      <created>1719403113736</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1719403113736</updated>
+    </task>
+    <task id="LOCAL-00056" summary="TermQuery: Remove parent att from init">
+      <option name="closed" value="true" />
+      <created>1719403121374</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1719403121374</updated>
+    </task>
+    <task id="LOCAL-00057" summary="RegexQuery: Add class">
+      <option name="closed" value="true" />
+      <created>1719403133749</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1719403133749</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Typing">
+      <option name="closed" value="true" />
+      <created>1719403563111</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1719403563111</updated>
+    </task>
+    <task id="LOCAL-00059" summary="BoolQuery: Add functions to assemble query">
+      <option name="closed" value="true" />
+      <created>1719490115233</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1719490115233</updated>
+    </task>
+    <task id="LOCAL-00060" summary="RangeQuery: Add functions to assemble query">
+      <option name="closed" value="true" />
+      <created>1719490125693</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1719490125693</updated>
+    </task>
+    <task id="LOCAL-00061" summary="PhraseQuery: Add query">
+      <option name="closed" value="true" />
+      <created>1719492528649</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1719492528649</updated>
+    </task>
+    <task id="LOCAL-00062" summary="PhraseQuery: Add query">
+      <option name="closed" value="true" />
+      <created>1719492582780</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1719492582780</updated>
+    </task>
+    <task id="LOCAL-00063" summary="ToshiClient: Add bulk_insert">
+      <option name="closed" value="true" />
+      <created>1719506930570</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1719506930570</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Arrange tests">
+      <option name="closed" value="true" />
+      <created>1719561938498</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1719561938498</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Document: Refactor to_json">
+      <option name="closed" value="true" />
+      <created>1719562265228</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719562265228</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Client: Add delete documents by term">
+      <option name="closed" value="true" />
+      <created>1719567835630</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1719567835630</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Facets: Add facets">
+      <option name="closed" value="true" />
+      <created>1719577962942</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1719577962942</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Tests: Split into integration and normal tests">
+      <option name="closed" value="true" />
+      <created>1719578780708</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719578780708</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Requirements: Add aiohttp">
+      <option name="closed" value="true" />
+      <created>1719836393092</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1719836393092</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Test: Move shared fixtures to conftest">
+      <option name="closed" value="true" />
+      <created>1719836425419</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1719836425419</updated>
+    </task>
+    <task id="LOCAL-00071" summary="AsyncToshiClient: Add first class">
+      <option name="closed" value="true" />
+      <created>1719836447039</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1719836447039</updated>
+    </task>
+    <task id="LOCAL-00072" summary="ToshiClient: Move integration tests in separate file">
+      <option name="closed" value="true" />
+      <created>1719836471391</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1719836471391</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Refactored project to be distributable via pypi">
+      <option name="closed" value="true" />
+      <created>1719842247288</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842247288</updated>
+    </task>
+    <task id="LOCAL-00074" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719842310184</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842310184</updated>
+    </task>
+    <task id="LOCAL-00075" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719842363293</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842363293</updated>
+    </task>
+    <task id="LOCAL-00076" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719842509844</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842509844</updated>
+    </task>
+    <task id="LOCAL-00077" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719842648143</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842648143</updated>
+    </task>
+    <task id="LOCAL-00078" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719842804355</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1719842804355</updated>
+    </task>
+    <task id="LOCAL-00079" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719843057177</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843057177</updated>
+    </task>
+    <task id="LOCAL-00080" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719843073574</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843073574</updated>
+    </task>
+    <task id="LOCAL-00081" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719843161724</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843161724</updated>
+    </task>
+    <task id="LOCAL-00082" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719843215091</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843215091</updated>
+    </task>
+    <task id="LOCAL-00083" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719843387496</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843387496</updated>
+    </task>
+    <task id="LOCAL-00084" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719843472146</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843472146</updated>
+    </task>
+    <task id="LOCAL-00085" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719843755805</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1719843755805</updated>
+    </task>
+    <task id="LOCAL-00086" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719844161207</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844161208</updated>
+    </task>
+    <task id="LOCAL-00087" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719844214005</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844214005</updated>
+    </task>
+    <task id="LOCAL-00088" summary="CI: Adjust dirs">
+      <option name="closed" value="true" />
+      <created>1719844319577</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844319577</updated>
+    </task>
+    <task id="LOCAL-00089" summary="write README.md">
+      <option name="closed" value="true" />
+      <created>1719857312928</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1719857312928</updated>
+    </task>
+    <task id="LOCAL-00090" summary="README: Typo">
+      <option name="closed" value="true" />
+      <created>1719857436461</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1719857436461</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Remove docker compose file">
+      <option name="closed" value="true" />
+      <created>1719857496066</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1719857496066</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Move enum file to index folder" />
+    <MESSAGE value="BoolQuery: Add BoolQuery" />
+    <MESSAGE value="BoolQuery: Add limit to json" />
+    <MESSAGE value="FuzzyQuery: Remove parent att from init" />
+    <MESSAGE value="TermQuery: Remove parent att from init" />
+    <MESSAGE value="RegexQuery: Add class" />
+    <MESSAGE value="Typing" />
+    <MESSAGE value="BoolQuery: Add functions to assemble query" />
+    <MESSAGE value="RangeQuery: Add functions to assemble query" />
+    <MESSAGE value="PhraseQuery: Add query" />
+    <MESSAGE value="ToshiClient: Add bulk_insert" />
+    <MESSAGE value="Arrange tests" />
+    <MESSAGE value="Document: Refactor to_json" />
+    <MESSAGE value="Client: Add delete documents by term" />
+    <MESSAGE value="Facets: Add facets" />
+    <MESSAGE value="Tests: Split into integration and normal tests" />
+    <MESSAGE value="Requirements: Add aiohttp" />
+    <MESSAGE value="Test: Move shared fixtures to conftest" />
+    <MESSAGE value="AsyncToshiClient: Add first class" />
+    <MESSAGE value="ToshiClient: Move integration tests in separate file" />
+    <MESSAGE value="Refactored project to be distributable via pypi" />
+    <MESSAGE value="CI: Adjust dirs" />
+    <MESSAGE value="write README.md" />
+    <MESSAGE value="README: Typo" />
+    <MESSAGE value="Remove docker compose file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove docker compose file" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///opt/homebrew/Caskroom/miniconda/base/envs/toshi-client/lib/python3.11/json/encoder.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

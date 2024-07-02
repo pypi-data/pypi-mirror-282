@@ -1,0 +1,16 @@
+Index: py-toshi-client/fuzzy_query.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/py-toshi-client/fuzzy_query.py b/py-toshi-client/fuzzy_query.py
+new file mode 100644
+--- /dev/null	(date 1718964219285)
++++ b/py-toshi-client/fuzzy_query.py	(date 1718964219285)
+@@ -0,0 +1,6 @@
++from dataclasses import dataclass
++
++
++@dataclass
++class FuzzyQuery:
++    pass

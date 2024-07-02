@@ -1,0 +1,14 @@
+Index: docker-compose.yaml
+===================================================================
+diff --git a/docker-compose.yaml b/docker-compose.yaml
+deleted file mode 100644
+--- a/docker-compose.yaml	(revision 67d6a59a2bc1e5d1cb1b33135a9eec8d14e5aeac)
++++ /dev/null	(revision 67d6a59a2bc1e5d1cb1b33135a9eec8d14e5aeac)
+@@ -1,6 +0,0 @@
+-version: "3.9"
+-services:
+-  toshi:
+-    ports:
+-      - "8080:8080"
+-    image: "toshi"
+\ No newline at end of file
