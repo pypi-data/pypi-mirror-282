@@ -1,0 +1,2 @@
+[console_scripts]
+my_command = neem_to_sql.migrate_neems_to_sql:main
