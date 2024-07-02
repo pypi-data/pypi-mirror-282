@@ -1,0 +1,4 @@
+# Anything found in this subdirectory will be ignored by Git.
+# This is a convenient place to put unversioned files relevant to your
+# working copy, without leaving any trace in the commit history.
+*

@@ -1,0 +1,29 @@
+{%- set is_open_source = cookiecutter.license_name != '' -%}
+{%- if cookiecutter.versioning == 'semver' -%}
+{%- set version = "0.1.0" -%}
+{%- else -%}
+{%- set version = '{}.{}.0'.format(cookiecutter.__year, cookiecutter.__month) -%}
+{%- endif -%}
+[project]
+name = "{{ cookiecutter.__pypi_slug }}"
+version = "{{ version }}"
+description = "{{ cookiecutter.project_short_description }}"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [ ]
+license = {file = "LICENSE.txt"}
+
+[[project.authors]]
+name = "{{ cookiecutter.__full_name }}"
+email = "{{ cookiecutter.__email }}"
+
+{% if cookiecutter.github_username != '' -%}
+{%- set github_base = "https://github.com/" ~ cookiecutter.github_username -%}
+[project.urls]
+bugs = "{{ github_base }}/issues"
+changelog = "{{ github_base }}/blob/master/changelog.md"
+homepage = "{{ github_base }}"
+{%- endif %}

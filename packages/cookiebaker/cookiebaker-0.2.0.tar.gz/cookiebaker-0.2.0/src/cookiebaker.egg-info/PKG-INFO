@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: cookiebaker
+Version: 0.2.0
+Author-email: Karl Knechtel <zahlman@proton.me>
+License: This is free and unencumbered software released into the public domain.
+        
+        Anyone is free to copy, modify, publish, use, compile, sell, or
+        distribute this software, either in source code form or as a compiled
+        binary, for any purpose, commercial or non-commercial, and by any
+        means.
+        
+        In jurisdictions that recognize copyright laws, the author or authors
+        of this software dedicate any and all copyright interest in the
+        software to the public domain. We make this dedication for the benefit
+        of the public at large and to the detriment of our heirs and
+        successors. We intend this dedication to be an overt act of
+        relinquishment in perpetuity of all present and future rights to this
+        software under copyright law.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+        OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+        ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE.
+        
+        For more information, please refer to <https://unlicense.org>
+        
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: cookiecutter
+
+# `cookiebaker` - Use `cookiecutter` with existing code and git integration
+
+`cookiebaker` is a simple wrapper for [`cookiecutter`](https://github.com/cookiecutter/cookiecutter) which attempts to:
+
+* Set `full_name` and `email` in the `cookiecutter` config from your Git config
+* Use existing folders or files as the initial project source
+* Initialize a Git repository in the newly created project folder
+
+`src` layout is assumed, and the cookiecutter is expected **not** to contain a `src/` folder. An empty `src/` folder will be created in the template, and files and folders will be copied under that directory.
+
+Because of the high probability that the project shares a name with a source folder, the cookiecutter is assembled in a local temporary directory first. Upon successful assembly, the original source is removed, the new project folder is moved out to the current level, and the temporary directory is removed.
+
+A simple compatible cookiecutter is also included, and will be used by default. It assumes you are the sole author of the project, so it does not attempt to provide a code of conduct, contributor license agreement, guidelines for contributors etc. It assumes the project will be a pure Python project following modern packaging standards.
+
+----
+
+This project is open source software, licensed under the terms of The Unlicense.
+Please see `LICENSE.txt` for details.
