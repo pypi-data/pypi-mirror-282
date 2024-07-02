@@ -1,0 +1,17 @@
+botifyme/__init__.py,sha256=8Lt0oycCYkbN4a9ZQB6oQhJnC6NX7chaPd6gA7QA6Ok,176
+botifyme/__main__.py,sha256=VK5LtdLDMXFQo58PjDSebRAOG0coR9aAmDF-YwRPw6s,3356
+botifyme/agent.py,sha256=Hslz-DiaWCaE4_ESHfDCS1QherN1vopWVEsIBirFv1w,1438
+botifyme/cli/__init__.py,sha256=Sm6brOgGQZ9UNpa3ELbq9A95lQzr6vgCL-6Zqn-KKT4,1128
+botifyme/config.py,sha256=xEyYHXBbTpg1gr3X7-gpvxxNmZCFRrErw5iBeq9jCDA,15349
+botifyme/registry.py,sha256=8N4DJ2SrfXQTOKdNU2TTjTO1XrqttZ0CEovINKJ9iy0,1045
+botifyme/runtime.py,sha256=vdgj4sZxV0NB-cZnM_aZz-xUFyCPmyiwwspt0ax-2_Q,4362
+botifyme/tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botifyme/tasks/task.py,sha256=Mn9yoctMVdlD6L_7FLapWA4PcDL1m6yxzgh6-Ytgll0,413
+botifyme/utils/__init__.py,sha256=iqgEy4HixMHUDXXN8eobc5rO0OKVaReh24R_jH9XV9o,475
+botifyme/utils/tools.py,sha256=F01M26O4hE-38-CoSZ7tXZOLfHvZFFxuAeY_sSmaPok,3533
+botifyme/workflow.py,sha256=MHo-MFonNbR534ksaRSXM6wlsrc2i6sgZ07mo31o17Q,3640
+botifyme-0.1.5.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+botifyme-0.1.5.2.dist-info/METADATA,sha256=rGLn3fLpuTbT51P0Fq9_Zb_k0jGhEW-Ypt7TAt-aucs,1537
+botifyme-0.1.5.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+botifyme-0.1.5.2.dist-info/entry_points.txt,sha256=fIOhX5111-D0akOdhjdRYqA072_p2Ei0oWmIa0lKKrM,71
+botifyme-0.1.5.2.dist-info/RECORD,,

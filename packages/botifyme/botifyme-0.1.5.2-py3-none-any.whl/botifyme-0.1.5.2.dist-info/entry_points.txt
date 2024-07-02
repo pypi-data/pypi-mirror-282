@@ -1,0 +1,4 @@
+[console_scripts]
+botify=botifyme.cli:app
+botifymepy=botifyme.cli:app
+
