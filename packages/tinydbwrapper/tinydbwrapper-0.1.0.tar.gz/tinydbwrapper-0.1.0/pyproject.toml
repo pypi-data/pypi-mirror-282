@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tinydbwrapper"
+version = "0.1.0"
+description = "A wrapper around TinyDB for easy JSON serialization and deserialization"
+authors = ["Nik Sharma <sharma7n@gmail.com>",]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tinydb = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
