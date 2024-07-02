@@ -1,0 +1,7 @@
+llm_github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_github/core.py,sha256=jerb_7kw7K0fFgyg0Xg3PVkMvq-qS70QYV1Ne0vBaLA,14854
+llm_github/execute.py,sha256=6ZG4XITsdtmWq1BSPveko9F-fHXMJZkbE4r8W0JEKqk,2806
+llm_github-0.0.1.dist-info/LICENSE,sha256=lVurcNdE1QXnDlJciVuolfs3f9RQaSLC9C2Cm1Ewunw,1076
+llm_github-0.0.1.dist-info/METADATA,sha256=5ou5UAGAWCEbMQQuwZPyhgYCT2w2CDceApNRdCcEnmg,3510
+llm_github-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llm_github-0.0.1.dist-info/RECORD,,
