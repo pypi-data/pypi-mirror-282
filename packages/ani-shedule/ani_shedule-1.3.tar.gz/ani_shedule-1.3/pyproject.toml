@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "repl-nix-ani-shedule"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_ani_shedule"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+setuptools = "^70.1.1"
+tqdm = "^4.66.4"
+colorama = "^0.4.6"
+lxml = "^5.2.2"
+prompt-toolkit = "^3.0.47"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
