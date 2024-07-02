@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tinyslurpy
+Version: 0.1.3
+Summary: Slurm job helper - please alias as slurpy :)
+Author: Jeff Shen
+Author-email: shenjeff@princeton.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# tinyslurpy
+
+Hi! My name is Slurpy, and I am here to help you write your Slurm jobs. I will prompt you for your job parameters and then take care of the rest! <3
+
+## Installation
+
+```bash
+pip install tinyslurpy
+```
+
+Remember to alias `tinyslurpy` to `slurpy`!
+
+See you soon! <3 ^\_^
+
