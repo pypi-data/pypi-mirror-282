@@ -1,0 +1,9 @@
+README.md
+setup.py
+hack4u_prueba/__init__.py
+hack4u_prueba/courses.py
+hack4u_prueba/utils.py
+hack4u_prueba.egg-info/PKG-INFO
+hack4u_prueba.egg-info/SOURCES.txt
+hack4u_prueba.egg-info/dependency_links.txt
+hack4u_prueba.egg-info/top_level.txt
