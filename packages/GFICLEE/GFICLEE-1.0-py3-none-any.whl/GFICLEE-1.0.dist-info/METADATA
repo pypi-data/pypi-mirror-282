@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: GFICLEE
+Version: 1.0
+Summary: the GFICLEE algorithm for ECG signal classification
+Home-page: https://github.com/yangfangs/GFICLEE
+Author: xzxg001
+Author-email: 1165736477@qq.com
+License: GNU General Public License v3.0
+

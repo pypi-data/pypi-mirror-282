@@ -1,0 +1,2 @@
+[console_scripts]
+GFICLEE = predict.main:main
