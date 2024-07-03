@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "authentication_microservices "
+version = "0.1.0"
+description = ""
+authors = ["keyurp1 <keyurp@webelight.co.in>"]
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+uvicorn = { extras = ["standard"], version = "^0.22.0" }
+alembic = "^1.11.1"
+asyncpg = "^0.27.0"
+aiohttp = "^3.8.4"
+apscheduler = "^3.10.1"
+pyjwt = "^2.6.0"
+typer = { extras = ["all"], version = "^0.9.0" }
+fastapi = "^0.104.1"
+pydantic = { extras = ["email"], version = "^2.5.2" }
+pydantic-settings = "^2.1.0"
+httpx = "^0.25.2"
+fastapi-pagination = "^0.12.13"
+fastapi-redis-cache = "^0.2.5"
+passlib = "^1.7.4"
+pre-commit = "^3.1.1"
+SQLAlchemy = "^2.0.30"
+StrEnum = "^0.4.15"
+async-timeout = "^4.0.3"
+Authlib= "0.14.3"
+starlette = "0.27.0"
+itsdangerous = "2.2.0"
+flask = "^3.0.3"
+appleauth = "^0.0.1"
+python-multipart = "^0.0.9"
+
+[tool.black]
+line-length = 120
+skip-magic-trailing-comma = true
+verbose = true
+
+[tool.ruff]
+line-length = 120
+
+[tool.interrogate]
+ignore-init-method = true
+ignore-init-module = false
+fail-under = 100
+verbose = 2
