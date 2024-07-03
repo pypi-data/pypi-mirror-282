@@ -1,0 +1,9 @@
+face_parsing/model.py,sha256=NcubvE78OsN1BP1Sp1XJ4LeK2YWx2eRgPf_7Er_lKtU,10813
+face_parsing/resnet.py,sha256=P0wTYwOzMnM_EiaQLgZqzDzc0K9ruWOnoGS8dvkMHKc,3757
+face_parsing/segment.py,sha256=dKu-aeylEOlg86YAaznB5Hl_BpaFBg1wVHv1ygsWBYE,7071
+face_parsing-0.1.dist-info/LICENSE,sha256=acvhI73cbCLvFx6DIm8r_R28FYhTB0_wqjmL_OQzKqQ,1081
+face_parsing-0.1.dist-info/METADATA,sha256=6ej32hmAHUeg6PtwzXZkQifOhLsi-N8NwlKSvUggYdU,3851
+face_parsing-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+face_parsing-0.1.dist-info/entry_points.txt,sha256=QGysgb7e23woPr0ElECKyFJDfIIi9P-YsLBBR6T6Gjc,62
+face_parsing-0.1.dist-info/top_level.txt,sha256=EN6camAKtwgSthSO7CGmn1vgDXJLHD6h9I-SSgA3EPc,13
+face_parsing-0.1.dist-info/RECORD,,
