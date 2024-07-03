@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moveread-core"
+version = "0.2.3"
+authors = [
+  {name="Marcel Claramunt", email="marcel@moveread.com"}
+]
+description = "Core Moveread Dataset"
+dependencies = [
+  "pydantic", "haskellian", "robust-extraction2",
+  "chess-pairings", "chess-notation",
+  "kv-api", "kv-sqlite-sync", "kv-fs",
+  "scoresheet-models", "chess-utils"
+]
+requires-python = ">=3.10"
+readme = {file="README.md", content-type="text/markdown"}
+
+[project.urls]
+repo = "https://github.com/moveread/core.git"
+
+[project.scripts]
+core = "moveread.core.cli:app"
+
+[project.optional-dependencies]
+cli = ["ocr-dataset", "files-dataset", "typer", "fs-tools"]
