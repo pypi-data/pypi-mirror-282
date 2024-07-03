@@ -1,0 +1,2 @@
+[console_scripts]
+tiktok-lib = tiktok_research_api_helper.cli_data_acquisition:APP
