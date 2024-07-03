@@ -1,0 +1,17 @@
+import os
+API_FILE_DOWNLOAD_CHUNK_SIZE = 1024 * 1024
+API_FILE_DOWNLOAD_TIMEOUT = 5
+API_FILE_DOWNLOAD_RETRY_TIMES = 5
+
+
+CSGHUB_HOME = os.environ.get('CSGHUB_HOME', '/home')
+CSGHUB_TOKEN_PATH = os.environ.get("CSGHUB_TOKEN_PATH", os.path.join(CSGHUB_HOME, "token"))
+
+MODEL_ID_SEPARATOR = '/'
+DEFAULT_CSG_GROUP = 'OpenCSG'
+
+DEFAULT_REVISION = "main"
+
+FILE_HASH = 'Sha256'
+
+DEFAULT_CSGHUB_DOMAIN = 'https://hub.opencsg.com'
