@@ -1,0 +1,9 @@
+lamrand/__init__.py,sha256=E_5qUUfXKE0rQ_hhwB9mHUDNmjwv7TdC1cWOr-uGk9M,43
+lamrand/lamrand.py,sha256=Z6IqloQyzjCQpplXjMPrEUn6iCbhnUKuEw2_1hu__6U,2816
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_lamrand.py,sha256=Y1M3IPbxzhBKck7zRPE9Tb_raEpoTp72qOgzBiI2mx0,2237
+LamRand-0.1.3.dist-info/LICENSE,sha256=gEHuUUMCIET7oiyr_Ha_1-r_QHr7svave-NtNoeREEM,1063
+LamRand-0.1.3.dist-info/METADATA,sha256=wx1_1bVWuctf9UeufGVfJU17vkof4j4qxqGn8aMruEE,3956
+LamRand-0.1.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+LamRand-0.1.3.dist-info/top_level.txt,sha256=KHlUm_1plRhLBtt5Nst8jsvI4HJyhg1qOlqrvBSyQXs,14
+LamRand-0.1.3.dist-info/RECORD,,
