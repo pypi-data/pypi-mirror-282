@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: nrtk-jatic
+Version: 0.1.0
+Summary: 
+Author: Kitware, Inc.
+Author-email: nrtk@kitware.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: maite-cpu
+Provides-Extra: tools
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: kwcoco (>=0.2.18) ; extra == "tools"
+Requires-Dist: maite (>=0.5.0,<0.6.0)
+Requires-Dist: nrtk (>=0.6.0)
+Requires-Dist: numpy (>=1.22,<1.25) ; python_version >= "3.8" and python_version < "3.9"
+Requires-Dist: numpy (>=1.25,<2.0) ; python_version >= "3.9" and python_version < "3.12"
+Requires-Dist: numpy (>=1.26,<2.0) ; python_version >= "3.12" and python_version < "3.13"
+Requires-Dist: pydantic (>=2.6.4)
+Requires-Dist: torch (>=1.7,!=1.12.0) ; extra == "maite-cpu"
+Requires-Dist: torchvision (>=0.10.0) ; extra == "maite-cpu"
+Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+Description-Content-Type: text/markdown
+
+# nrtk-jatic
+
+## Description
+The `nrtk-jatic` package is an extension of the Natural Robustness Toolkit 
+(NRTK) for JATIC. For more information, checkout the base [NRTK](https://gitlab.jatic.net/jatic/kitware/nrtk) 
+package.
+
+## Installation
+The following steps assumes the source tree has been acquired locally.
+
+Install the current version via pip:
+```bash
+pip install .
+```
+
+Alternatively, [Poetry](https://python-poetry.org/) can also be used:
+```bash
+poetry install --sync --with dev-linting,dev-testing,dev-docs
+```
+
+## Getting Started
+We provide a number of examples based on Jupyter notebooks in the `./examples/` directory to show usage
+of the `nrtk-jatic` package in a number of different contexts. For general examples, checkout NRTK\'s 
+[examples](https://gitlab.jatic.net/jatic/kitware/nrtk/-/tree/main/examples?ref_type=heads) directory.
+
+## Documentation
+Documentation snapshots for releases as well as the latest master are hosted on
+ReadTheDocs.
+
+The sphinx-based documentation may also be built locally for the most
+up-to-date reference:
+```bash
+# Install dependencies
+poetry install
+# Navigate to the documentation root.
+cd docs
+# Build the docs.
+poetry run make html
+# Open in your favorite browser!
+firefox _build/html/index.html
+```
+
+## Contributing
+
+- We follow the general guidelines outlined in the
+[JATIC Software Development Plan](https://gitlab.jatic.net/jatic/docs/sdp/-/blob/main/Branch,%20Merge,%20Release%20Strategy.md).
+- The Git Flow branching strategy is used.
+- See `docs/releasing/release_process.rst` for detailed release information.
+- See `CONTRIBUTING.md` for additional contributing information.
+
+## License
+Apache 2.0
+
+**POC**: Brian Hu @brian.hu
+**DPOC**: Brandon RichardWebster @b.richardwebster
+
