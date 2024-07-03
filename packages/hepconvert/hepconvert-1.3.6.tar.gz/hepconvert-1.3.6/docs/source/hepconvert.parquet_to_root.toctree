@@ -1,0 +1,5 @@
+.. toctree::
+    :caption: parquet_to_root
+    :hidden:
+
+    hepconvert.parquet_to_root <hepconvert.parquet_to_root>
