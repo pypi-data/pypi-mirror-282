@@ -1,0 +1,4 @@
+global-exclude tests/*
+include pyproject.toml
+include setup.py
+include zeta/sdk/*
