@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+joblib
+flaml
+matplotlib
+seaborn
+ruptures
+scikit-learn>=1.3.0
+statsmodels
+multiurl
+cdsapi
+pyreadr
+wget
+xarray
