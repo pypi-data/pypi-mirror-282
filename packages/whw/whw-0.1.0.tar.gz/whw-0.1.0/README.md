@@ -1,0 +1,138 @@
+# WHW Wallet Web 3
+
+Connection and Wallet Management Module on the Ethereum Blockchain.
+
+## Authors
+
+- [paquitokikakop](https://gitlab.com/paquitokikakop)
+
+## Installation
+
+Install my-project with pip
+
+```bash
+  pip install whw
+```
+
+## Quick start
+
+1. You can quickly initialize a wallet with the WalletProvider class
+   a. Import a private key
+
+```python
+import whw
+
+HTTP_PROVIDER = "The provider"  # The provider
+
+private_key = "YOUR_PRIVATE_KEY"  # Your private key
+path_private_key = "/path/to/your/key"  # Path to the private key
+
+# Initialize the wallet with a private key
+wallet = whw.WalletProvider(
+    http_provider=HTTP_PROVIDER,
+    name="your_name",
+    service="import",
+    key=private_key
+)
+
+# Initialize the wallet with the path to a file containing a private key
+wallet = whw.WalletProvider(
+    http_provider=HTTP_PROVIDER,
+    name="your_name",
+    service="import",
+    key_path=path_private_key
+)
+```
+
+b. Static methods of WalletProvider to get a wallet
+
+```python
+import whw
+
+wallet = whw.WalletProvider.get_wallet(
+    http_provider=HTTP_PROVIDER,
+    name="your_name",
+    service="import",
+    key=private_key
+)
+```
+
+c. Create a new account
+
+```python
+import whw
+
+new_wallet = whw.WalletProvider(
+    http_provider=HTTP_PROVIDER,
+    name="your_name",
+    service="create"
+)
+
+# or with the static method get_wallet
+new_wallet = whw.WalletProvider.get_wallet(
+    http_provider=HTTP_PROVIDER,
+    name="your_name",
+    service="create"
+)
+```
+
+## Documentation
+
+### OptionsSecurity - Creating Options for the Security Class
+
+This class contains the account address and private key. It allows either importing a private key or generating a new one. The parameters are as follows:
+
+- `service`: two possible choices, "import" or "create"
+  - `import` allows importing a private key either directly or from a file (in this case, provide the file path)
+  - `create` generates a new private key compliant with the Ethereum blockchain
+- `key`: private key for import (only for `import`)
+- `key_path`: path to the private key file (only for `import`)
+  Code:
+
+```python
+from whw import OptionsSecurity
+
+option = OptionsSecurity(
+    service="create"  # or 'import'
+    # key="YOUR_PRIVATE_KEY",
+    # key_path="/path/to/your/private_key"
+)
+```
+
+### Security - Account Security Class
+
+This class contains the address, private key, and transaction signing method. To initialize it, you can pass an instance of the `OptionsSecurity` class or a dictionary. If importing a private key, the dictionary format should be as follows:
+`{'private_key': "YOUR_PRIVATE_KEY"}`. The second parameter is the wallet name, which serves as a unique reference for each wallet.
+
+Code:
+
+```python
+from whw import OptionsSecurity, Security
+
+option = OptionsSecurity(
+    service="import",
+    key="YOUR_PRIVATE_KEY"
+)
+security = Security(options=option, name_="name_wallet")
+
+# or via a dictionary
+security = Security(options={"private_key": "YOUR_PRIVATE_KEY"})
+```
+
+### Wallet - Main Class of the Module
+
+This class allows you to perform actions on your account such as transfers, adding tokens, viewing the balance, buying tokens, and selling tokens. The `Wallet` class takes an instance of the `Security` object and the HTTP PROVIDER as parameters.
+
+Code:
+
+```python
+from whw import OptionsSecurity, Security, Wallet
+
+options = OptionsSecurity(
+    service="import",
+    key="YOUR_PRIVATE_KEY"
+)
+security = Security(options=options, name_="your_name")
+
+wallet = Wallet(security=security, http_provider="YOUR_HTTP_PROVIDER")
+```

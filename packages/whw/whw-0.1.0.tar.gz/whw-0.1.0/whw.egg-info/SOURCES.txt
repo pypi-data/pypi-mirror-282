@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+whw/__init__.py
+whw.egg-info/PKG-INFO
+whw.egg-info/SOURCES.txt
+whw.egg-info/dependency_links.txt
+whw.egg-info/requires.txt
+whw.egg-info/top_level.txt
