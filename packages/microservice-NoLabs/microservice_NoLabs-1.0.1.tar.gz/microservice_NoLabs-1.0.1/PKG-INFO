@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: microservice_NoLabs
+Version: 1.0.1
+Summary: Microservice - is a library with FastAPI and NoLabs microservices mixins.
+Home-page: https://github.com/BasedLabs/microservice
+Author: Igor Bruev
+Author-email: Igor Bruev <jaktenstid1@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/BasedLabs/microservice
+Project-URL: Issues, https://github.com/BasedLabs/microservice/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+
+Microservice - mixins for NoLabs microservices
+
+Build and push
+
+> pip install build
+> 
+> python -m build
+> 
+> 

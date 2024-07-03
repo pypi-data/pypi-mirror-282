@@ -1,0 +1,18 @@
+[project]
+name = "microservice_NoLabs"
+version = "1.0.1"
+authors = [
+  { name="Igor Bruev", email="jaktenstid1@gmail.com" },
+]
+description = "Microservice - is a library with FastAPI and NoLabs microservices mixins."
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/BasedLabs/microservice"
+Issues = "https://github.com/BasedLabs/microservice/issues"
