@@ -1,0 +1,14 @@
+pymissile/__init__.py,sha256=DucCUryrTiWfgO3AwdwZi0BfOkEv_T9MaVuEgFBOmqc,411
+pymissile/control.py,sha256=Rzl53cYYK7NccvL6Kkuzd3NjWpmWwGMm8mD-IH_v9_I,1385
+pymissile/engagement.py,sha256=t9bm8f41KINVi0p__n7bxgIR8RP1PYn5DPkMZthLLpA,4915
+pymissile/guidance.py,sha256=qrywAGSDvJS3FXn57MfiZx4JT7cOW-EYGVXdbMV_0TI,4113
+pymissile/model.py,sha256=x2VjSlIM78tfdXqQdAEfsx9HGH4r3ZLapUIM26EpGRM,9759
+pymissile/test_iacbpng.py,sha256=b8HjRL90X2Dw0zTSq4X8aicYf650E1OiufV8pRusqCo,1018
+pymissile/test_missile_with_pitch.py,sha256=yqiTp-4zlpIBq06tRAhiWEw-FsFtKKLmlHlBxTkYu_E,1129
+pymissile/test_planar_missile.py,sha256=aLwTVglwM8yb6OrOzKHLtiiVJBV8KDHOP2ERINxVBnI,442
+pymissile/test_planar_png.py,sha256=Oq8GdzcCQimKWHMU2Hp8-dEFPyHIOQ6W7JGjfsVL0yQ,788
+pymissile/util.py,sha256=C29S-kn0x-qBHCcRdFticW2uzSQ55ldty82mLVmZxB8,4177
+pymissile-0.0.2.dist-info/METADATA,sha256=NCLM42Bvm0PiInRaygAtMYJi5xy2g9h5EDABb9QM17A,753
+pymissile-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymissile-0.0.2.dist-info/top_level.txt,sha256=cmK_kv97kSzCUVN8Xpjw7ieRBNpSSJb4nMqs5foENy8,10
+pymissile-0.0.2.dist-info/RECORD,,
