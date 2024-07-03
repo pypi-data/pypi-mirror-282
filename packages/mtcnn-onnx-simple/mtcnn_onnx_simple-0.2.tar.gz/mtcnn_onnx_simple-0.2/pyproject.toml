@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name='mtcnn_onnx_simple'
+version='0.2'
+
+maintainers = [{name = 'Karthik Sundar', email = 'karthiksundar30092002@gmail.com'}]
+description='MTCNN implementation using ONNXRuntime'
+
+
+dependencies=[
+        'numpy>1.18.0',
+        'opencv-python-headless',
+        'onnxruntime>=1.4.0',
+        'pillow>=10.1.0']
+
+readme = "README.md"
+
+classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+]
+authors=[{name = 'Karthik Sundar', email = 'karthiksundar30092002@gmail.com'}]
+license = {file = "LICENSE.txt"}

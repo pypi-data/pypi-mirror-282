@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+mtcnn_onnx_simple/__init__.py
+mtcnn_onnx_simple/align.py
+mtcnn_onnx_simple/align_transformations.py
+mtcnn_onnx_simple/first_stage.py
+mtcnn_onnx_simple/helpers.py
+mtcnn_onnx_simple/matlab_cpt2form.py
+mtcnn_onnx_simple/mtcnn.py
+mtcnn_onnx_simple.egg-info/PKG-INFO
+mtcnn_onnx_simple.egg-info/SOURCES.txt
+mtcnn_onnx_simple.egg-info/dependency_links.txt
+mtcnn_onnx_simple.egg-info/requires.txt
+mtcnn_onnx_simple.egg-info/top_level.txt

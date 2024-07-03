@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: mtcnn_onnx_simple
+Version: 0.2
+Summary: MTCNN implementation using ONNXRuntime
+Author-email: Karthik Sundar <karthiksundar30092002@gmail.com>
+Maintainer-email: Karthik Sundar <karthiksundar30092002@gmail.com>
+License: Copyright (c) 2012-2024 Scott Chacon and others
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy>1.18.0
+Requires-Dist: opencv-python-headless
+Requires-Dist: onnxruntime>=1.4.0
+Requires-Dist: pillow>=10.1.0
+
+# ONNX MTCNN
+
+## Description
+This project implements the MTCNN (Multi-task Cascaded Convolutional Networks) algorithm using ONNX (Open Neural Network Exchange) format. MTCNN is a popular face detection algorithm that consists of three stages: face detection, bounding box regression, and facial landmark localization. By using ONNX, we can leverage the benefits of interoperability and portability across different deep learning frameworks.
+
+When you are going to use MTCNN to satisfy your face detection needs in your production environment, you can use this to get rid of the heavy Pytorch or Tensorflow dependency and instead opt for the lightweight ONNXruntime
+
+## Features
+- Face detection using MTCNN algorithm
+- Bounding box regression for accurate face localization
+- Facial landmark localization for detailed facial analysis
+
+## Installation
+1. Install the required dependencies: `pip install MTCNN_ONNX`
+
+## Usage
+```py
+from mtcnn_onnx_simple import Align
+
+align = Align()
+image_path = "Image Path Here"
+boxes, faces = align.get_aligned_faces(image_path)
+# faces is an array of PIL Image Instances
+for face in faces:
+    face.show()
+```
+
+
+## License
+This project is licensed under the [MIT License](LICENSE).
