@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sgains
+Version: 0.1.0
+Summary: Ingest and analyse sagecal calibration gains
+Author: Kariuki Chege
+Author-email: jameskariuki31@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: astropy (>=6.1.1,<7.0.0)
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: numpy (>=1.3,<2.0)
+Requires-Dist: python-casacore (>=3.5.2,<4.0.0)
+Requires-Dist: scipy (>=1.14.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Sagecal Gains Explorer (SGE)
+
+This is a tool to interprete and analyze sagecal gains
+
