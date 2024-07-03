@@ -1,0 +1,16 @@
+__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+papers_dl.py,sha256=mIeE7jsaVx7NK4fW4NdLWwYdh5rV9_89Dysjc0ubm0Q,3859
+version.py,sha256=AixLlU6Em9Z_zs4l1lTxAHg1b8pa8z3BTNKIHDkjBmo,23
+fetch/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fetch/fetch_utils.py,sha256=J-eivFt6EYx2VeSGrYXH1sdFrq2dTLvmd2k1JhSK9RA,4310
+parse/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+parse/parse.py,sha256=ND3Ezhsj8WTbkl3NSkYyfZn5aBXkFEy-9_9LYi3fgmA,5275
+providers/__init__.py,sha256=IAIgcxpyKlZNPSuWzPy_8j1gi_P-yS21H2AxF3N4qfU,126
+providers/scidb.py,sha256=17Jz4mj7KGXjHvwcLemW7BVCbm5BXwbHjf1nqoPvOvg,793
+providers/scihub.py,sha256=kYyx2rD_HxlB_DZVhjrJq1gannKY4io1ytiKx3EXfDY,3706
+papers_dl-0.0.19.dist-info/LICENSE,sha256=YIBNfGgk3v3n85eIGBpTMYIsb0zwCsi3Ng4KbWaJWNQ,1070
+papers_dl-0.0.19.dist-info/METADATA,sha256=0dRPtIlOkOGrPv5s0CJaEheObIP4THFJfG8GXrxSAps,1749
+papers_dl-0.0.19.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+papers_dl-0.0.19.dist-info/entry_points.txt,sha256=gEpygZ-R0aSY4mV7-Ti3FTXXMuf4juVTeQZVJCf96WQ,45
+papers_dl-0.0.19.dist-info/top_level.txt,sha256=IMPnWdLLimlFnnUR6NKLqKAgon38jvtzyYaNxC8XFFQ,49
+papers_dl-0.0.19.dist-info/RECORD,,
