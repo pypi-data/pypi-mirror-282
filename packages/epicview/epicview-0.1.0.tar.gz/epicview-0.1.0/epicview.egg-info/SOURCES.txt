@@ -1,0 +1,13 @@
+README.md
+setup.py
+doc/description.md
+epicview/__init__.py
+epicview/_version.py
+epicview/view.py
+epicview.egg-info/PKG-INFO
+epicview.egg-info/SOURCES.txt
+epicview.egg-info/dependency_links.txt
+epicview.egg-info/not-zip-safe
+epicview.egg-info/requires.txt
+epicview.egg-info/top_level.txt
+scripts/epicview
