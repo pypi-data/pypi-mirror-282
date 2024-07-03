@@ -1,0 +1,16 @@
+pymulticopter/__init__.py,sha256=Z9AmGjY-0S86cj4RA9SEn-YAItqYtVuIGww5V9vrqvQ,430
+pymulticopter/base.py,sha256=0ge8GKNSpoCyvJj1OX9P5LVXULh0Wz4RynOauUCjHT4,5286
+pymulticopter/control.py,sha256=bZd4ky_Av_-n34dzdmTQHOpAeaalVVMafux3QWGJj9c,16888
+pymulticopter/estimator.py,sha256=qL30IMSIbQV6A-hdnAJhshomM2od8__pnrouU4NAOW8,2151
+pymulticopter/model.py,sha256=GEYn8HJvrxdBlm_JaT9vWBNWIEJ3-n0n6LDlkkXX-Ac,4525
+pymulticopter/test_bs_control.py,sha256=V6U8meWAxUE_FyVnBqw3YkjuFuMls2gl8hGqRMLSJwo,973
+pymulticopter/test_fixed_time_estimator.py,sha256=ZhkFHl0Fm2yZJWZNU6lHyuuTAEM4oo4j478_Yqi0prw,9765
+pymulticopter/test_flvel.py,sha256=iZTF2DPt23nxYhyePcOCDrWZi3xjNwcgMhC2d4_2hy0,955
+pymulticopter/test_oaf_att_control.py,sha256=56uQ7QEgMRZC7euUNZGtvGwv161ZW53wz_4eSkU3dKk,1325
+pymulticopter/test_oaf_control.py,sha256=gaSLvJA6YjyDN8Q7XCIEdT-82laojZ8Nqx4kgXJ66iE,1213
+pymulticopter/test_quaternion_pos.py,sha256=kzhB5iFquaXD35HDP6dwuWbtCYpEIN9gVA9GvKpdDRk,1675
+pymulticopter/test_sm_att_control.py,sha256=rGaratl3Uq65z1gR7Rt_w2WgS__RwunfVBHQJWxGB6A,1054
+pymulticopter-0.0.1.dist-info/METADATA,sha256=QkXVnQrpC59wmwKJwtT1ldFyiJKh4VgtGULkGNvyabg,803
+pymulticopter-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymulticopter-0.0.1.dist-info/top_level.txt,sha256=uZezSvTrCiqE_nS9BF3Oqy0On85FXBxJXeL-MYlfDHc,14
+pymulticopter-0.0.1.dist-info/RECORD,,
