@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ssmiley_autoidm_learn_poetry
+Version: 0.2.0
+Summary: A simple python package where I can learn how to build and publish with poetry.
+Author: Sebastian Smiley
+Author-email: example@example.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# ssmiley-autoidm-learn-poetry
+
+A simple python package where I can learn how to build and publish with poetry.
