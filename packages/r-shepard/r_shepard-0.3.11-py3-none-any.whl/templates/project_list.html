@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="header-line">
+        <h1>Projects</h1>
+        {% if user.is_staff %}
+            <a role="button" href="{% url 'admin:api_project_add' %}">Add</a>
+        {% endif %}
+    </div>
+    <p>Below is an overview of all projects currently deployed via R-Shepard</p>
+    <div class="project-list">
+        {% for project in projects %}
+            <article class="project-card">
+                <div class="header-line">
+                    <h4>{{ project.name }}</h4>
+                    <a role="button" href="{% url 'project_detail' pk=project.pk %}">Open</a>
+                </div>
+                {% if project.description %}
+                    <p>{{ project.description }}</p>
+                {% else %}
+                    <p>No description provided.</p>
+                {% endif %}
+            </article>
+        {% empty %}
+            <li class="info-pill">No projects available.</li>
+        {% endfor %}
+    </div>
+    <hr>
+    <div class="resource-usage">
+        <h3>Resource Allocation Overview</h3>
+        <p>
+            Below is an overview of the accumulated resource allocation of the
+            R-Shepard instance. The lightly shaded areas represent allocation to
+            all projects while the darkly shaded aread represent the allocation to
+            currenlty running containers across all projects.
+        </p>
+        <div>
+            CPU Cores allocated of <strong>{{ cpu_available }}</strong> available
+        </div>
+        <div class="bar-container">
+            <div class="bar cpu" style="width: {{ ratio_projects_to_available_cpu }}%">
+                <span>{{ cpu_allocated_to_projects }} of {{ cpu_available }}</span>
+            </div>
+            <div class="bar cpu running"
+                 style="width: {{ ratio_running_containers_to_available_cpu }}%">
+                <span>{{ cpu_allocated_to_running_containers }} of {{ cpu_available }}</span>
+            </div>
+        </div>
+        <div>
+            GB RAM allocated of <strong>{{ ram_available }}</strong> available
+        </div>
+        <div class="bar-container">
+            <div class="bar ram" style="width: {{ ratio_projects_to_available_ram }}%">
+                <span>{{ ram_allocated_to_projects }} of {{ ram_available }}</span>
+            </div>
+            <div class="bar ram running"
+                 style="width: {{ ratio_running_containers_to_available_ram }}%">
+                <span>{{ ram_allocated_to_running_containers }} of {{ ram_available }}</span>
+            </div>
+        </div>
+    </div>
+    {% if user.is_staff %}
+        <hr>
+        <a class="secondary" role="button" href="{% url 'admin:index' %}">Go to admin area</a>
+    {% endif %}
+{% endblock %}
