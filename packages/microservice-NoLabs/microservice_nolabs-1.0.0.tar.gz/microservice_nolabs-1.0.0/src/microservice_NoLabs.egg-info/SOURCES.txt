@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/microservice/__init__.py
+src/microservice/exceptions.py
+src/microservice/fastapi_middlewares.py
+src/microservice/shared.py
+src/microservice_NoLabs.egg-info/PKG-INFO
+src/microservice_NoLabs.egg-info/SOURCES.txt
+src/microservice_NoLabs.egg-info/dependency_links.txt
+src/microservice_NoLabs.egg-info/top_level.txt
