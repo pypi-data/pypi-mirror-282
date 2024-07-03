@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/aemo_nem_data/aemonem.py
+src/aemo_nem_data/constants.py
+src/aemo_nem_data/exceptions.py
+src/aemo_nem_data/str_enum.py
+src/aemo_nem_data/utils.py
+src/aemonemdata.egg-info/PKG-INFO
+src/aemonemdata.egg-info/SOURCES.txt
+src/aemonemdata.egg-info/dependency_links.txt
+src/aemonemdata.egg-info/requires.txt
+src/aemonemdata.egg-info/top_level.txt
