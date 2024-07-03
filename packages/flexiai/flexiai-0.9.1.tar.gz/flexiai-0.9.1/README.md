@@ -1,0 +1,165 @@
+# FlexiAI
+
+FlexiAI is a robust AI framework designed to efficiently manage interactions with both OpenAI and Azure OpenAI services. Featuring an advanced Retrieval-Augmented Generation (RAG) module, this framework provides developers with the tools to seamlessly integrate advanced AI functionalities into their applications, leveraging the extensive capabilities of OpenAI and Azure OpenAI for enhanced performance and scalability.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+
+## Features
+
+- **Multi-Platform Support**: Seamlessly integrates with both OpenAI and Azure OpenAI services, ensuring flexibility and broad compatibility.
+- **Configurable and Extensible**: Offers an easily configurable and highly extensible framework, allowing customization to meet specific project needs and scalability requirements.
+- **Robust Logging**: Incorporates comprehensive logging capabilities, facilitating effective debugging and monitoring for a smooth development and operational experience.
+- **Task Management**: Efficiently manages and executes a wide range of tasks, ensuring streamlined operations and enhanced productivity.
+- **Retrieval-Augmented Generation (RAG)**  
+The framework empowers AI assistants to dynamically call external functions or services, enabling real-time retrieval of information. This capability allows the assistant to handle complex operations efficiently, making the solution more versatile and powerful.
+- **Examples and Tests**: Provides a rich set of example scripts and comprehensive tests, enabling quick onboarding and ensuring reliable performance from the outset.
+- **Secure and Scalable**: Designed with security and scalability in mind, making it suitable for both small projects and large enterprise applications.
+- **Community-Driven**: Actively maintained and supported by a community of developers, ensuring continuous improvement and up-to-date features.
+
+
+## Installation
+
+To install the FlexiAI framework, clone the repository and use the provided setup script.
+
+```bash
+git clone https://github.com/SavinRazvan/flexiai.git
+cd flexiai
+python setup.py install
+```
+
+Alternatively, you can install the required dependencies using `pip`.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Setup
+
+Before using FlexiAI, set up your environment variables. You can use a `.env` file in the root directory. Here's an example template:
+
+```bash
+# Your OpenAI API key
+OPENAI_API_KEY='your_openai_api_key_here'
+
+# Your Azure OpenAI API key
+AZURE_OPENAI_API_KEY='your_azure_openai_api_key_here'
+# Your Azure OpenAI endpoint
+AZURE_OPENAI_ENDPOINT='your_azure_openai_endpoint_here'
+# Azure OpenAI API version
+AZURE_OPENAI_API_VERSION='2024-05-01-preview'
+
+# Credential type (either 'openai' or 'azure')
+CREDENTIAL_TYPE='openai'
+```
+
+For more detailed setup instructions, including using virtual environments and troubleshooting, refer to the [Setup Guide](docs/setup.md).
+
+## Usage
+
+### Basic Usage
+
+Here’s a quick example of how to use FlexiAI to interact with OpenAI:
+
+```python
+# examples/test_openai_credentials.py
+import logging
+import os
+import platform
+from core.flexiai_client import FlexiAI
+from config.logging_config import setup_logging
+
+def clear_console():
+    """Clears the console depending on the operating system."""
+    if platform.system() == "Windows":
+        os.system('cls')
+    else:
+        os.system('clear')
+
+def main():
+    # Setup logging
+    setup_logging()
+
+    # Initialize FlexiAI
+    flexiai = FlexiAI()
+
+    # Use the given assistant ID
+    assistant_id = 'asst_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' # Replace with the actual assistant ID
+    
+    # Create a new thread
+    try:
+        thread = flexiai.create_thread()
+        thread_id = thread.id
+        logging.info(f"Created thread with ID: {thread_id}")
+    except Exception as e:
+        logging.error(f"Error creating thread: {e}")
+        return
+
+    # Variable to store all messages
+    all_messages = []
+    seen_message_ids = set()
+
+    # Loop to continuously get user input and interact with the assistant
+    while True:
+        # Get user input
+        user_message = input("You: ")
+
+        # Exit the loop if the user types 'exit'
+        if user_message.lower() == 'exit':
+            print("Exiting...")
+            break
+
+        # Run the thread and handle required actions
+        try:
+            flexiai.create_advanced_run(assistant_id, thread_id, user_message)
+            messages = flexiai.retrieve_messages(thread_id, limit=2)  
+            
+            # Store the extracted messages
+            for msg in messages:
+                if msg['message_id'] not in seen_message_ids:
+                    all_messages.append(msg)
+                    seen_message_ids.add(msg['message_id'])
+
+            # Clear console and print the stored messages in the desired format
+            clear_console()
+            for msg in all_messages:
+                role = "🤖 Assistant" if msg['role'] == "assistant" else "🧑 You"
+                print(f"{role}: {msg['content']}")
+        except Exception as e:
+            logging.error(f"Error running thread: {e}")
+
+if __name__ == "__main__":
+    main()
+```
+
+For detailed usage examples and advanced functionalities, refer to the [Usage Guide](docs/usage.md).
+
+## Documentation
+
+The FlexiAI framework comes with comprehensive documentation to help you get started and make the most out of its capabilities:
+
+- [API Reference](docs/api_reference.md)
+- [Setup Guide](docs/setup.md)
+- [Usage Guide](docs/usage.md)
+- [Contributing Guide](docs/contributing.md)
+
+## Contributing
+
+We welcome contributions from the community. If you want to contribute to FlexiAI, please read our [Contributing Guide](docs/contributing.md) to get started.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
+
+## Contact
+
+For any inquiries or support, please contact Savin Ionut Razvan at razvan.i.savin@gmail.com.
