@@ -1,0 +1,8 @@
+framework: shell
+component:
+  - targetcli
+check:
+  - avc
+  - dmesg
+tag:
+  - targetcli
