@@ -1,0 +1,3 @@
+[console_scripts]
+vgr = gitvoyager.main:main
+voyager = gitvoyager.main:main
