@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+spectromancer/__init__.py
+spectromancer/__main__.py
+spectromancer/spectromancer.py
+spectromancer.egg-info/PKG-INFO
+spectromancer.egg-info/SOURCES.txt
+spectromancer.egg-info/dependency_links.txt
+spectromancer.egg-info/entry_points.txt
+spectromancer.egg-info/top_level.txt
