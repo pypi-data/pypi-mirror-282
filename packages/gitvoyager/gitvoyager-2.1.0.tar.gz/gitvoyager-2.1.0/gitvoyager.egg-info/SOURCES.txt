@@ -1,0 +1,9 @@
+setup.py
+gitvoyager/__init__.py
+gitvoyager/main.py
+gitvoyager.egg-info/PKG-INFO
+gitvoyager.egg-info/SOURCES.txt
+gitvoyager.egg-info/dependency_links.txt
+gitvoyager.egg-info/entry_points.txt
+gitvoyager.egg-info/requires.txt
+gitvoyager.egg-info/top_level.txt
