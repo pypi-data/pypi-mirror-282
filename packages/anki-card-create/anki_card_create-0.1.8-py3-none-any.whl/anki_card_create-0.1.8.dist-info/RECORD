@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/ankicard.py,sha256=-casjAlqkveNlRB-q8QT1rrEUZLY9TtQ2M-No1pk43g,1582
+src/card_creator.py,sha256=mr8zmdH8bCJ42HZcAuM9yWdNonmszDMhSGM1SMGvKTg,4811
+src/config.py,sha256=pyROEOZ73b5ZZLHl86ozTm0JqU9h8K_5WcQCR1He2ag,984
+src/main.py,sha256=-haa9IRBfyKR2rXcDTt6zUO7iD5lxd5yMVH_ytdHcnE,1735
+src/models.py,sha256=bD8FHs9phA-Jx88DEtDajj9SiK3KooynyUAiuSB_2hU,4766
+src/utils.py,sha256=5USrafkkdMI2HSVRmZUF616oKGCqxm5jsKC6asbFzJg,2375
+anki_card_create-0.1.8.dist-info/METADATA,sha256=toEuLLFuciRacdmsI5ipmHnJExtVKpKqYEa_bnzcS2A,2155
+anki_card_create-0.1.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+anki_card_create-0.1.8.dist-info/entry_points.txt,sha256=ffgGw4Gk1XAsffyekczp1FWjF5mXlxx5d7VN9gyx2cE,39
+anki_card_create-0.1.8.dist-info/RECORD,,
