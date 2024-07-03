@@ -1,0 +1,9 @@
+openai
+anthropic
+groq
+python-dotenv
+pyperclip
+wheel
+diagrams
+google-api-python-client
+google-generativeai
