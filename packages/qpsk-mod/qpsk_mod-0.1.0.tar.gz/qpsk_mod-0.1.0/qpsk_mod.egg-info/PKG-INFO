@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: qpsk_mod
+Version: 0.1.0
+Summary: A library for QPSK modulation
+Home-page: https://github.com/yourusername/qpsk_mod
+Author: K ABHISHEK MENON
+Author-email: kabhishekmenon@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: matplotlib>=3.1.0
+Requires-Dist: scipy>=1.4.0
+
+# qpsk_mod
+
+Perform Quadrature Phase Shift Keying (QPSK) modulation on the input signal.
+
+    Parameters:
+    a (array-like): Input binary data stream.
+    fc (float): Carrier frequency.
+    of (int): Oversampling factor, determining the number of samples per symbol.
+
+    Returns:
+    tuple:
+        s_t (numpy.ndarray): The modulated signal in the time domain.
+        I (numpy.ndarray): The in-phase component of the input signal.
+        Q (numpy.ndarray): The quadrature component of the input signal.
+
+    This function performs the following steps:
+    1. Separates the input data stream into in-phase (I) and quadrature (Q) components.
+    2. Upsamples and converts the binary data into bipolar format.
+    3. Modulates the in-phase component with a cosine carrier.
+    4. Modulates the quadrature component with a sine carrier.
+    5. Combines the modulated components to form the QPSK modulated signal.
+    6. Plots various intermediate signals for visualization.
+
+    Example:
+    >>>import qpsk_mod as qp
+    >>> a = np.array([0, 1, 1, 0, 1, 1, 0, 0])
+    >>> fc = 100
+    >>> of = 4
+    >>> s_t, I, Q = qp.qpsk_mod(a, fc, of)
+
+## Installation
+
+```sh
+pip install qpsk-mod

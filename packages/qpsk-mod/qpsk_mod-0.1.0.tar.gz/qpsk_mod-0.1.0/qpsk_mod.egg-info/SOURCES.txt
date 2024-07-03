@@ -1,0 +1,8 @@
+setup.py
+qpsk_mod/__init__.py
+qpsk_mod/main.py
+qpsk_mod.egg-info/PKG-INFO
+qpsk_mod.egg-info/SOURCES.txt
+qpsk_mod.egg-info/dependency_links.txt
+qpsk_mod.egg-info/requires.txt
+qpsk_mod.egg-info/top_level.txt
