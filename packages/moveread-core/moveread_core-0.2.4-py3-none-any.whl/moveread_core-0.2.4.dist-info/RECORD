@@ -1,0 +1,16 @@
+moveread/core/__init__.py,sha256=gdvz74EyY1hHfPnUcLMLzg-WVDMo_2a7lEVKiGNOOxk,145
+moveread/core/__init__.pyi,sha256=od4cVdEpdx0_6BqIzDqZk_0HC1GECb4c8VUGlWcqQGQ,257
+moveread/core/_types.py,sha256=cqmM8wCMgkZDCYHFxCHYzmgrrC5znl6CE7dsb4cc9uw,4913
+moveread/core/core.py,sha256=ATdls-LDBXDCBhKdI2RcMXwr7gkGvDZeCb9mzgkUuJ8,1760
+moveread/core/export.py,sha256=IzJGylEURRErOOXSI5r6_IjozfEmoUWAHnmfPQ2hPsU,2952
+moveread/core/labels.py,sha256=N0s17L3clq_RbVGPG3Bp5RVZ-KWzPAOCbutspjS9u90,761
+moveread/core/cli/__init__.py,sha256=mF4M_d6EiHbB9U9W_oKlKXYIyh8ZFn3gxe_382VXiLI,95
+moveread/core/cli/__init__.pyi,sha256=2T2I5DNNwh31Eycpc0qksoZmqlguo5QLnj3EmaoU67w,223
+moveread/core/cli/export.py,sha256=62UKa6GUkxOHM3VDrBvo8RHiCqbvGkNUD40GOYXpts8,4232
+moveread/core/cli/main.py,sha256=MsJXkhGocNfK56WC9-INat-ByZRcvw5ME8peJbugl6M,1857
+moveread/core/cli/read.py,sha256=2YqVABEj9Ii1Hc6AaBdsKL9qd8J9_OS0FWNyRhB9eFg,390
+moveread_core-0.2.4.dist-info/METADATA,sha256=vCjTJQkFoquc2eAGCMDuaIMLaafYg5PXOOgGs6XhdOw,1155
+moveread_core-0.2.4.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+moveread_core-0.2.4.dist-info/entry_points.txt,sha256=3LEYGy47G8mV7hDgVL5dF6iYcmmoD6CVnuQNkMEPS1U,47
+moveread_core-0.2.4.dist-info/top_level.txt,sha256=Nf4zr37sbhc5sbPztUq8FfXD7iyRYJ9bjMTU09166ig,9
+moveread_core-0.2.4.dist-info/RECORD,,
