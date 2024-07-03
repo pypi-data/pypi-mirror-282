@@ -1,0 +1,18 @@
+include README.md
+include LICENSE.txt
+include requirements.txt
+include .env.template
+include setup.py
+include post_install.py
+include pyproject.toml
+
+recursive-include flexiai *.py *.csv *.md
+recursive-include flexiai/assistant *.py
+recursive-include flexiai/config *.py
+recursive-include flexiai/core *.py
+recursive-include flexiai/core/utils *.py
+recursive-include flexiai/docs *.md
+recursive-include flexiai/examples *.py *.ipynb
+recursive-include flexiai/logs *.log
+recursive-include flexiai/tests *.py
+recursive-include flexiai/user_flexiai_rag *.py *.csv

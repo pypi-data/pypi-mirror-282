@@ -1,0 +1,31 @@
+product_id,product_name,brand,price,stock,rating,warranty_years,category,release_date,customer_reviews
+101,Laptop,BrandA,999.99,50,4.5,2,Electronics,2022-01-01,"Great performance, value for money."
+102,Smartphone,BrandB,699.99,150,4.7,1,Electronics,2021-11-11,Excellent camera and battery life.
+103,Tablet,BrandC,399.99,100,4.6,1,Electronics,2021-09-23,Good for entertainment and work.
+104,Smartwatch,BrandD,199.99,200,4.3,2,Wearables,2022-02-15,Stylish and functional.
+105,Headphones,BrandE,99.99,300,4.1,1,Accessories,2021-12-25,Comfortable and good sound quality.
+106,Camera,BrandF,599.99,80,4.8,2,Electronics,2022-03-05,High-quality images and easy to use.
+107,Monitor,BrandG,249.99,120,4.4,3,Electronics,2021-10-10,Clear display and good for gaming.
+108,Keyboard,BrandH,49.99,500,4.2,1,Accessories,2021-08-08,Ergonomic and responsive keys.
+109,Mouse,BrandI,29.99,400,4.0,1,Accessories,2021-07-07,Precise and comfortable.
+110,Printer,BrandJ,149.99,60,4.3,2,Electronics,2022-01-20,Fast printing and good quality.
+111,Router,BrandK,89.99,150,4.5,2,Electronics,2021-11-05,Stable connection and easy setup.
+112,Speakers,BrandL,79.99,200,4.4,1,Accessories,2021-09-15,Great sound quality and design.
+113,TV,BrandM,799.99,30,4.7,3,Electronics,2021-12-10,Excellent picture quality and features.
+114,Projector,BrandN,499.99,70,4.6,2,Electronics,2022-01-15,Clear image and easy to install.
+115,Drone,BrandO,299.99,40,4.5,2,Electronics,2021-11-20,Fun to fly and good camera quality.
+116,VR Headset,BrandP,399.99,90,4.3,2,Electronics,2021-10-25,Immersive experience and comfortable.
+117,Fitness Tracker,BrandQ,59.99,250,4.2,1,Wearables,2021-08-30,Tracks accurately and lightweight.
+118,Blender,BrandR,49.99,300,4.1,1,Home Appliances,2021-07-15,Powerful and easy to clean.
+119,Microwave,BrandS,199.99,40,4.4,3,Home Appliances,2021-06-10,Heats food quickly and evenly.
+120,Refrigerator,BrandT,999.99,20,4.6,5,Home Appliances,2021-12-01,Spacious and energy efficient.
+121,Washing Machine,BrandU,699.99,15,4.5,4,Home Appliances,2022-01-05,Quiet and effective.
+122,Air Conditioner,BrandV,499.99,25,4.4,3,Home Appliances,2021-09-01,Cools quickly and energy efficient.
+123,Vacuum Cleaner,BrandW,149.99,70,4.3,2,Home Appliances,2021-11-18,Powerful suction and lightweight.
+124,Coffee Maker,BrandX,99.99,80,4.2,1,Home Appliances,2021-10-20,Makes great coffee and easy to use.
+125,Toaster,BrandY,39.99,100,4.1,1,Home Appliances,2021-08-05,Toasts evenly and quickly.
+126,Electric Kettle,BrandZ,29.99,200,4.0,1,Home Appliances,2021-07-25,Boils water fast and safe.
+127,Hair Dryer,BrandAA,49.99,150,4.2,1,Personal Care,2021-09-30,Dries hair quickly and gently.
+128,Shaver,BrandBB,69.99,90,4.1,2,Personal Care,2021-06-20,Smooth shave and easy to clean.
+129,Electric Toothbrush,BrandCC,79.99,120,4.3,1,Personal Care,2021-11-02,Cleans teeth effectively.
+130,Air Purifier,BrandDD,199.99,30,4.5,2,Home Appliances,2022-01-18,Removes allergens and quiet.
