@@ -1,0 +1,13 @@
+README.rst
+setup.py
+eternalblue/Conversor.py
+eternalblue/Diarization.py
+eternalblue/EternalBlue.py
+eternalblue/Transcription.py
+eternalblue/__init__.py
+eternalblue/utils.py
+eternalblue.egg-info/PKG-INFO
+eternalblue.egg-info/SOURCES.txt
+eternalblue.egg-info/dependency_links.txt
+eternalblue.egg-info/requires.txt
+eternalblue.egg-info/top_level.txt
