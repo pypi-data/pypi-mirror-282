@@ -1,0 +1,17 @@
+argparse
+os
+sys
+datetime
+rich
+requests
+configparser
+pathlib
+csv
+json
+pandas
+openpyxl
+warnings
+tqdm
+urllib3
+cachetools
+pwd
