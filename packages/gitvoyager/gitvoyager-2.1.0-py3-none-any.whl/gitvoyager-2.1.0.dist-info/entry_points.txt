@@ -1,0 +1,3 @@
+[console_scripts]
+vgr = voyager.main:main
+voyager = voyager.main:main
