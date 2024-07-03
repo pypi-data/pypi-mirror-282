@@ -1,0 +1,14 @@
+dash_snap_grid/DraggableDiv.py,sha256=4gxSDFELhnD9Kj5NWCw_qhB_25SU_4_nThyvRqvffTw,1347
+dash_snap_grid/Grid.py,sha256=QqnpAZ4l531xehHE6fYDizKY8w1Bqk7Ad3nUjyyC_hA,4299
+dash_snap_grid/ResponsiveGrid.py,sha256=H-kVX13ISMWdMwr4I21eusoculoLriTOSWQYLuw_dMU,4857
+dash_snap_grid/__init__.py,sha256=EHgR0AaV_MAzN8AakzcpjFqyyBpk4ngQn6dh-4U1YtQ,2257
+dash_snap_grid/_imports_.py,sha256=k5QZa2AVSorHZ2kNQHbxONj-mvfQ-_C3PwTSP8HbYKE,172
+dash_snap_grid/dash_snap_grid.min.js,sha256=m74i_wqmZBFrwoPSLK8NsznLbibkSNUkAooEmihlESg,104717
+dash_snap_grid/dash_snap_grid.min.js.map,sha256=Ler9vUkqwWLtX0yUDfy0d_ff6dKd_pOW9GBoQQK8LCA,422987
+dash_snap_grid/metadata.json,sha256=xlN0LAxIKhvvCKQygv8Vg5K2qgAMX6-GAjQp3sS8vHE,17843
+dash_snap_grid/package-info.json,sha256=OYz2DSyV9aNo-G6-1ulkchs8rVxpNfdzO2P7SV7ZmHQ,1841
+dash_snap_grid-0.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_snap_grid-0.0.2.dist-info/METADATA,sha256=p1bNdvMnn8FfABxfqlTEJUNQqjmTWPXfSC-6IvnjRMk,9400
+dash_snap_grid-0.0.2.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+dash_snap_grid-0.0.2.dist-info/top_level.txt,sha256=BRI_eDauQyiC9avowHEJ9dsKDFHnxwCtgcHLyZffTEI,15
+dash_snap_grid-0.0.2.dist-info/RECORD,,
