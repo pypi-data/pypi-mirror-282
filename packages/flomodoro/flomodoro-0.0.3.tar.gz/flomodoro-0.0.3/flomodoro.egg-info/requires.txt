@@ -1,0 +1,4 @@
+click
+blessed
+rich
+playsound==1.2.2
