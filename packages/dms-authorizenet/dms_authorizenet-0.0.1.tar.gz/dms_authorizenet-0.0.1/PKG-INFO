@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dms_authorizenet
+Version: 0.0.1
+Summary: Authorize.Net Python SDK for Python >= 3.10. I don't have a clue what I'm doing.
+Home-page: https://github.com/AuthorizeNet/sdk-python
+Author: Authorize.Net Developer
+Author-email: developer@authorize.net
+License: proprietary
+Keywords: authorizenet,authorize.net,payment,ecommerce
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+License-File: LICENSE.txt
+
+UNKNOWN
+
