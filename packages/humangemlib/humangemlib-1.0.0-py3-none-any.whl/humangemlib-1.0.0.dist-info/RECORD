@@ -1,0 +1,11 @@
+humangemlib/Human-GEM.xml,sha256=9W70R8uWR87UU5UAMnYU05MkRG5NyQIJcoq--8FMguQ,43481913
+humangemlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+humangemlib/cleaneddata.tsv,sha256=bh3ETj4z3H8RfhxPZScRO5_4toAR7dHzV7j0FJHR6xg,453628
+humangemlib/fba.py,sha256=yKUj4D9uazLA9ogf7kVtDBmqhRXzGRDRUXCPomVWYA8,5504
+humangemlib/gwas_input_schema.txt,sha256=RhAPyND2fWgJIubrgZWHmkCYMmIPSW5WYNmP_A2EvDo,227
+humangemlib/main.py,sha256=CZYndWghFNdnU-MqeaE6cek9kYTxXKTGIiEVch5Tbtc,227
+humangemlib/requirements.txt,sha256=QIF4X_UzhxEKac4XNEO0-kwY1vPwjuctf7HnVyNQk6w,2240
+humangemlib-1.0.0.dist-info/METADATA,sha256=ByQr2YN0Ub8cg-k14uxa_FJOIJ4L-oN6f4J9gO6SPuw,670
+humangemlib-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+humangemlib-1.0.0.dist-info/licenses/LICENSE,sha256=MPEiFOtI2XoyxyjgvwjIfxOz0nc4fqxJPliSapx03Bo,6855
+humangemlib-1.0.0.dist-info/RECORD,,
