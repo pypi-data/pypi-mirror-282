@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: optisolveapi
+Version: 0.3.1
+Summary: Optimization & Solving common API (SAT, MILP, etc.)
+Author-email: Aleksei Udovenko <aleksei@affine.group>
+License: MIT License
+Project-URL: Repository, https://github.com/hellman/optisolveapi
+Keywords: optimization,solving,satisfiability,cnf,milp
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: glpk
+Requires-Dist: swiglpk; extra == "glpk"
+Provides-Extra: pysat
+Requires-Dist: python-sat; extra == "pysat"
+Provides-Extra: scip
+Requires-Dist: pyscipopt; extra == "scip"
+Provides-Extra: gurobi
+Requires-Dist: gurobipy; extra == "gurobi"

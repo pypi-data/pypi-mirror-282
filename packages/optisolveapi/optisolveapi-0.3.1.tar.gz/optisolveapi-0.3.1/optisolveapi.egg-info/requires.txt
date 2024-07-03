@@ -1,0 +1,12 @@
+
+[glpk]
+swiglpk
+
+[gurobi]
+gurobipy
+
+[pysat]
+python-sat
+
+[scip]
+pyscipopt
