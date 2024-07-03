@@ -1,0 +1,16 @@
+qcog_python_client/__init__.py,sha256=H-ozpibCdb5DxM8CR-O6L94t2JQ_O0LmZYb-_f0SrDU,216
+qcog_python_client/__version__.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+qcog_python_client/_jsonable_parameters.py,sha256=D5nj7qOsSFoE45swBBFzQsKVzM2KIChbUhoVvO2ZmZE,2707
+qcog_python_client/client.py,sha256=gUpYJGqorR8QDBeSOqBIp3K9Wb_CQ1PlCreytiI5HuQ,9145
+qcog_python_client/qcog.py,sha256=kEWG5x1OSu5QQRFcJ3NFsD8kM9KEIna5lKQ-xa6ByLo,26404
+qcog_python_client/schema/__init__.py,sha256=K85HJxNDeNe1nfQuCGRuzcOrchCXxzpWgtH07cMgbfw,844
+qcog_python_client/schema/common.py,sha256=mlQ1m0HTFoNzf_G3sa3FwWj_xPFJppTWBtn13zsNx5E,3398
+qcog_python_client/schema/ensemble.py,sha256=Nwm4a6i8JGehULe7xPO4Esf69iCoqVYOp4pbcbhyiVI,2790
+qcog_python_client/schema/general.py,sha256=mZbY8unDEf3jZgEPyv_KfwQg7R__dy54ZJYMrFSiJGo,1495
+qcog_python_client/schema/parameters.py,sha256=vmADXVXz2UtSSS2PmzLAaRPa85Ua1G482cDi7Pvvzd8,11569
+qcog_python_client/schema/pauli.py,sha256=jzdPXOTRWym2t6ASO0rea0bo9STBga1Wq8qkVDSYoNc,2741
+qcog_python_client-0.1.0.dist-info/LICENSE,sha256=jbL94Ei-VCDGmg6k42pB4fkPsQKJUjSBmpJxsXmtYto,1302
+qcog_python_client-0.1.0.dist-info/METADATA,sha256=4RW2GGXOtUVKM4DX4bcrLabS_Oksn0iABwfhfTvM6JM,2273
+qcog_python_client-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+qcog_python_client-0.1.0.dist-info/top_level.txt,sha256=QqM55o_azBwGKz7Xa_rMSIF05517G1GXpcikF0qHQUw,19
+qcog_python_client-0.1.0.dist-info/RECORD,,
