@@ -1,0 +1,157 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/moapy/project/Response_Spectrum_NZ/Response_spectrum_NZ/calc_RS_NZ": {
+      "post": {
+        "summary": "Calc Rs Nz",
+        "description": "calc_RS_NZ\n\nArgs:\n    soilClass (str): Site sub soil class name \"A~E\"\n    rf (float): return period factor\n    hf (float): hazard factor\n    dist (float): distance from nearest major fault\n    df (float): ductility factor\n    max_period (float): max_period(sec)\n\nReturns:\n    _type_: _description_",
+        "operationId": "calc RS NZ",
+        "parameters": [
+          {
+            "name": "func_name",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Func Name"
+            }
+          },
+          {
+            "name": "soilClass",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Soilclass"
+            }
+          },
+          {
+            "name": "rf",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Rf"
+            }
+          },
+          {
+            "name": "hf",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Hf"
+            }
+          },
+          {
+            "name": "dist",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Dist"
+            }
+          },
+          {
+            "name": "df",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Df"
+            }
+          },
+          {
+            "name": "max_period",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "title": "Max Period"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}
