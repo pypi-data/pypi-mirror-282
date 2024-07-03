@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/crimson/executor/__init__.py
+src/crimson/executor/util.py
+src/crimson_executor.egg-info/PKG-INFO
+src/crimson_executor.egg-info/SOURCES.txt
+src/crimson_executor.egg-info/dependency_links.txt
+src/crimson_executor.egg-info/requires.txt
+src/crimson_executor.egg-info/top_level.txt
+test/test_execute_with_namespace.py
