@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: star_ray
+Version: 0.0.2
+Summary: A multi-agent simulation platform based on the distributed computing platform `ray`.
+Home-page: https://github.com/dicelab-rhul/star-ray
+Author: Benedict Wilkins
+Author-email: benrjw@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ray ==2.9.1
+Requires-Dist: starlette <=0.34.0
+Requires-Dist: jinja2
+Requires-Dist: starlette
+Requires-Dist: pydantic
+Requires-Dist: deepmerge
+Requires-Dist: cerberus
+Provides-Extra: pygame
+Requires-Dist: star-ray-pygame ; extra == 'pygame'
+Provides-Extra: xml
+Requires-Dist: star-ray-xml ; extra == 'xml'
+
+# star_ray
+
+STAR -> Simulation Testbed for Agent Research
