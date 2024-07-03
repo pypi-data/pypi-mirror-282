@@ -1,0 +1,9 @@
+code_separator/__init__.py,sha256=3SN9FXgOmaZpXR8fUtCqdtcT-N1be96HLOAfhpSj2hk,113
+code_separator/cli.py,sha256=w4CLQq7x1tTgFqR9RZPQyuRmP2pKP1DR1vRE-ASeuQU,1602
+code_separator/core.py,sha256=LG0xzwN9bZtXcKIXssAmZ45ECURnS3IPN7z7RIzgqfk,2027
+code_separator/utils.py,sha256=wPZqkefu9gqzLm5-kPTaHodTCzFkH0jb0IeQRnqNRpA,335
+auto_hash_separator-0.2.dist-info/METADATA,sha256=W5tecPfBdMHaQV6cJpXmtEdhVvzFFK6xCJjhMjZSIV0,1479
+auto_hash_separator-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+auto_hash_separator-0.2.dist-info/entry_points.txt,sha256=SyL7946m5lT0C36hxAV7tlf2iwo9rZYDbGPtrf3vzxs,59
+auto_hash_separator-0.2.dist-info/top_level.txt,sha256=8pWzPWwUuHXTqWK0TfE85JQ8V3JDcScz5_XeVluM6Os,15
+auto_hash_separator-0.2.dist-info/RECORD,,
