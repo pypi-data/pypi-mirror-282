@@ -1,0 +1,6 @@
+getversion/__init__.py,sha256=G65t4f-I8SkMvWtNYYAhlNTACotdBBmnyZUCEUMbWyY,34
+getversion/getversion.py,sha256=r4TMILkEGGRZMZKntZgMu5cOmztTgekXWBD3zQJf8sY,46
+getversionpkg-0.4.dist-info/METADATA,sha256=v12EE80Zq2KdArgg3-OcHYkmB3_G0EG3iOWRFYDBCUA,111
+getversionpkg-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+getversionpkg-0.4.dist-info/top_level.txt,sha256=81jedTlIv-Ee6sxQoXvIBK5jl9AmV72NjdBe4KoO0QU,11
+getversionpkg-0.4.dist-info/RECORD,,
