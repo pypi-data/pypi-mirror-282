@@ -1,0 +1,16 @@
+merpy/__init__.py,sha256=A18LoKJg-Xraby-wsvKKFEaqqYL7IOxhwun7phCmMSc,941
+merpy/merpy.py,sha256=5EOKjlCFcaqi8iIFRD9qPguI1a-suyu7LmaZBChE6Nk,25268
+merpy/MER/NOTICE.txt,sha256=Qt9spDtKrevxbAshz58UBulBAqxCpwajR4X_t-Y09Y4,1760
+merpy/MER/README.md,sha256=sfqMfzaUCeXB1MOVsAkdWFrU82rodD2AUK2naFfqHas,30417
+merpy/MER/benchmark.py,sha256=BiiCMcGSCARj2L0xqiVzhWSBlE5ChdNIM7QgZlzq1_g,9319
+merpy/MER/get_entities.sh,sha256=KFHprkqrWia3FZpM7MaASAmuKim0iP_4pEb24ru5JZU,8802
+merpy/MER/produce_data_files.sh,sha256=2Dhe_bLA137R6rKpblNUbNxJvWva-y56Wnv8uX3OmUQ,6177
+merpy/MER/stopwords.txt,sha256=z1PJwkbcenreJC_twc3tVxtvP_H-P3JWxwal4QEJ0_c,1200
+merpy/MER/test.sh,sha256=sh9u8xEiwtWBHPZy_hzFfuwIHvxcL1bGMX-XUhFFVTI,785
+merpy/MER/data/lexicon.txt,sha256=IGo9noyPRANvHBfgU2J55L1fPEorDhS8NoySVkoJeM4,103
+merpy/MER/data/lexicon_links.tsv,sha256=9kKkg8Xp3SM5ll6ubrOOoGigV7PCPZ0gvwL7-_j_lro,276
+merpy-1.7.13.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+merpy-1.7.13.dist-info/METADATA,sha256=viMOyUw7DggmAlQMUoDGiQOWzNQm3IS7cpnYqFLC0x0,6332
+merpy-1.7.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+merpy-1.7.13.dist-info/top_level.txt,sha256=pP_Z5_cU-6tHhpVAnF-e-EsRsYjA5xka0qf0v8BEamY,6
+merpy-1.7.13.dist-info/RECORD,,
