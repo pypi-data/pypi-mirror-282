@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jupyter-neuroglancer"
+description = "Tiny Jupyter Wrapper for neuroglancer viewer"
+readme = "README.md"
+license = {file = "LICENSE"}
+version = "0.2"
+dependencies = [
+    "neuroglancer",
+    "sidecar"
+]
+authors = [
+    {name = "Yuvi", email="yuvipanda@gmail.com"}
+]
+
+[project.urls]
+Repository = "https://github.com/yuvipanda/jupyter-neuroglancer"

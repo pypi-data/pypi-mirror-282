@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: jupyter-neuroglancer
+Version: 0.2
+Summary: Tiny Jupyter Wrapper for neuroglancer viewer
+Author-email: Yuvi <yuvipanda@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Yuvi Panda
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Repository, https://github.com/yuvipanda/jupyter-neuroglancer
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: neuroglancer
+Requires-Dist: sidecar
+
+# jupyter-neuroglancer
+
+Simple Jupyter (and jupyter-server-proxy) integration with [neuroglancer](https://github.com/google/neuroglancer).
+
+Pops up a neuroglancer viewer in a split pane in JupyterLab (via [jupyterlab-sidecar](https://github.com/jupyter-widgets/jupyterlab-sidecar))
+so you can more easily see real-time live visualizations driven by your python code.
+
+When running on a remote JupyterHub, the viewer is automatically (and securely) proxied through
+[jupyter-server-proxy](https://github.com/jupyterhub/jupyter-server-proxy/) so users get the exact
+same experience on theier local machine as well as a JupyterHub.
+
+## Installation
+
+`jupyter-neuroglancer` is available on [PyPI](https://pypi.org/project/jupyter-neuroglancer/).
+
+```bash
+pip install jupyter-neuroglancer
+```
+
+## Usage
+
+`jupyter_neuroglancer` provides a `display_in_sidecar` function that accepts a regular `neuroglancer` `Viewer`
+object. You don't have to modify your `neuroglancer` code in any way!
+
+```python
+import neuroglancer
+from jupyter_neuroglancer import SidecarViewer
+
+# Create a neuroglancer Viewer instance. This controls the visualization
+viewer = neuroglancer.Viewer()
+
+# Display the neuroglancer in JupyterLab as a sidecar
+display_in_sidecar(viewer)
+```
+
+## Using on a JupyterHub
+
+When using this on a JupyterHub, you need [jupyter-server-proxy](https://github.com/jupyterhub/jupyter-server-proxy/)
+installed in the image you are using. Since `neuroglancer` uses eventstreams for communication, you need it
+to be a version of `jupyter-server-proxy` that has [this PR](https://github.com/jupyterhub/jupyter-server-proxy/pull/479)
+included. Until that PR is merged and released, you can install that with:
+
+```bash
+pip install --upgrade git+https://github.com/ganisback/jupyter-server-proxy@support-stream
+```
+
+Other than that, you do not have to modify your code in any way.
