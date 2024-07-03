@@ -1,0 +1,7 @@
+download_pbi_xmla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+download_pbi_xmla/main.py,sha256=5YE9ukOc2LuaguSbtDyenswxUfvYl8jKj6-hmt7LAQs,1656
+download_pbi_xmla/ssas_api.py,sha256=q8qd6bBfq21saecB0xNRJ98XJbmSbBH2OicNNf2u8CA,9372
+download_pbi_xmla/ssas_api_bkup.py,sha256=JjSIEI8jEUvgwrBEWK03EScdH2v1oVHbdvQC0bhHaBo,8905
+download_pbi_xmla-0.2.8.0.dist-info/METADATA,sha256=dNmGWtvRYLypE6c-Bu_B7OKFwE9-M5lh38MTVZFeGWQ,3041
+download_pbi_xmla-0.2.8.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+download_pbi_xmla-0.2.8.0.dist-info/RECORD,,
