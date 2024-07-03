@@ -1,0 +1,9 @@
+pdm_multirun-1.1.1.dist-info/METADATA,sha256=zjYiCo_LJPghcHZ10enxgi-z14Z1Ofn5C5wH6isneVg,6060
+pdm_multirun-1.1.1.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+pdm_multirun-1.1.1.dist-info/entry_points.txt,sha256=lNhSnXVj4BEGP5XUeNq7-GgbO4v7VfyEvBofKcFEeQ4,47
+pdm_multirun-1.1.1.dist-info/licenses/LICENSE,sha256=eZQBcJKqlN0QepmOi0u09hlqKMPFdzWjY6NUWYeJGZs,754
+pdm_multirun/__init__.py,sha256=Vl2thd48rvpIbmQho_EYiMdCxZQ4d9sIOBTUSPrH5yo,150
+pdm_multirun/debug.py,sha256=HexeKvSEtuwqQWvy08LvXp32jrzZsfQzlbl941pb_ig,2707
+pdm_multirun/plugin.py,sha256=9Y5xKL0UPLTDhaOS8p3CqjgcXvGhklY2xy5Zc5hyLT8,3656
+pdm_multirun/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdm_multirun-1.1.1.dist-info/RECORD,,
