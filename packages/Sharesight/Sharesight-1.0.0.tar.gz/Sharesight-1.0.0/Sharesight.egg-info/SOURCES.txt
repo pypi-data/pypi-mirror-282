@@ -1,0 +1,8 @@
+README.md
+setup.py
+Sharesight/SharesightAPI.py
+Sharesight/__init__.py
+Sharesight.egg-info/PKG-INFO
+Sharesight.egg-info/SOURCES.txt
+Sharesight.egg-info/dependency_links.txt
+Sharesight.egg-info/top_level.txt
