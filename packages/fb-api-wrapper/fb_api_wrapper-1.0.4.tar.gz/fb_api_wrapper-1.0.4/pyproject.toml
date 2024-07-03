@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=70.0", "cython>=3.0.7", "wheel"]
+[project]
+name = "fb_api_wrapper"
+version = "1.0.4"
+authors = [
+  { name="noctrlz", email="noctrlz1305@gmail.com" },
+]
+description = "Facebook Api package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
