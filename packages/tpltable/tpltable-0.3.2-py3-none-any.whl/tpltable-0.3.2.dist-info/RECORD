@@ -1,0 +1,12 @@
+tpltable/__init__.py,sha256=ZAGkd6aJ5R_RXaB1GvB14UE2PO8Y-aLwzB-sGh-VD5o,1020
+tpltable/basic.py,sha256=kASHVXIScFnz2gCo6qHCM1mNlTDD6zmJSLui-ersI1c,10641
+tpltable/core.py,sha256=PZ4ctbhsxcM29OMeffSNKAOxWukzL5RQtoW5K8Lp2rk,30
+tpltable/excel.py,sha256=aPBcxaX9JJKQedLX2SE2wBJPdofl98c-DsGOd8iqWYo,16903
+tpltable/main.py,sha256=mcR7W4VfJrZkT5-2G6BHcdKWkwPylV0sb-rnf_LzuqM,938
+tpltable/style.py,sha256=mNKo7gnJi5dSZ6HjyRPHvBGXLqzXLGUy5AIZSxcmyE0,12755
+tpltable/style_demo.py,sha256=6OjvuowRjRYJPxgiZjmGBeIsT2y23_5VtQyvCnAxgSs,8336
+tpltable/table.py,sha256=mNXyLDQzjGxg1LB2qxcxmklMV_nFQ-U_XNFyE9BodTE,53171
+tpltable-0.3.2.dist-info/METADATA,sha256=pxosQDa9b_jWJOrT1raCyCxwaM8gsDMNH2ej8SLTzJI,547
+tpltable-0.3.2.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+tpltable-0.3.2.dist-info/top_level.txt,sha256=7VBBdF2Ic3dVKZZGK3b-dhwZSDIwQLBMWbm08pnYLIk,9
+tpltable-0.3.2.dist-info/RECORD,,
