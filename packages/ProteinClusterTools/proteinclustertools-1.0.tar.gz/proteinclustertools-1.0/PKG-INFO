@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: ProteinClusterTools
+Version: 1.0
+Summary: Pipeline for clustering protein sequences in large scale datasets, using homology or pLM representation.
+Project-URL: Homepage, https://https://github.com/johnchen93/ProteinClusterTools
+Project-URL: Issues, https://https://github.com/johnchen93/ProteinClusterTools/issues
+Author-email: John Chen <jo.chn.93@gmail.com>, Barnabas Gall <barnabas.gall@anu.edu.au>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
