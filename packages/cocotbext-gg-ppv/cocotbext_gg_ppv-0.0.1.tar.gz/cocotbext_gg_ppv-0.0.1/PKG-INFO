@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cocotbext-gg_ppv
+Version: 0.0.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Framework :: cocotb
+Requires-Python: >=3.6
+Requires-Dist: cocotb
+Requires-Dist: scapy
