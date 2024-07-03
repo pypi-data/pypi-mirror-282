@@ -1,0 +1,17 @@
+dataharvest/__init__.py,sha256=AzkDi9Ldle_OUyIgxkSjd_Gi4ULUXGEm2s2qHGg6lEM,56
+dataharvest/base.py,sha256=G0X6n4FJLl8TBZ15gEyliy-tvIK4wWPAxoOS0pe4JB8,117
+dataharvest/purifier/__init__.py,sha256=P6hhPr_vwO1gI4-DzCdVKP4m7zDYl7NIN68jr7i378I,704
+dataharvest/purifier/baidu_purifier.py,sha256=X05-Tfo4MFq8pKzFedawXrto8D5Wu9kE0FvohxHSkGk,3213
+dataharvest/purifier/common_purifier.py,sha256=40k1nNeW-f5BkYpAhychNrmX-wZdNsoYGmZS_xXfkS8,728
+dataharvest/purifier/purifier.py,sha256=GtVQSZNnEJEx1KupyIEo-VXb5F3xZxBkxNh887gdegY,886
+dataharvest/purifier/sll_purifier.py,sha256=ki_xWpv15rmAgA-5QZpFUYGXy78QAu6dcCALw1dDo70,1225
+dataharvest/purifier/sogou_purifier.py,sha256=8l9oshi1QVHfkDwpumSUbyNH-n-gjGtkf42aAMHd0S0,2090
+dataharvest/purifier/sohu_purifier.py,sha256=hq8YG5K_BaPelcBT87EGeRPgMP1HrvdTd4BUak9tmXw,1101
+dataharvest/purifier/wangyi_purifier.py,sha256=g2WawsiSqMyTvQdTfXn7W_UT1C7quLInhRgTD_kQzEo,1196
+dataharvest/spider/__init__.py,sha256=zwY8xzRZoI2OXl7kAmX3of_Ga2GqjRZfzCaVaEeqRbU,260
+dataharvest/spider/common_spider.py,sha256=quh0XSj0IpgQ79U6FInhL0YvND5G19LDMFpm5WsQoK8,1430
+dataharvest/spider/spider.py,sha256=V8mzU8LqutHS_nWsXE7Z9gCnIo-C-QxRpIEu3t-ZDyw,983
+dataharvest/spider/zhihu_spider.py,sha256=05vqRgw5WXre7zyrVIgiMafxPCg0RbAa8Fr3REcMlIk,1069
+dataharvest-0.1.6.dist-info/METADATA,sha256=38RAJ-sYgCKj1Zew7eIW2ihTwCbmqDbRZoFx7KlKJck,1115
+dataharvest-0.1.6.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dataharvest-0.1.6.dist-info/RECORD,,
