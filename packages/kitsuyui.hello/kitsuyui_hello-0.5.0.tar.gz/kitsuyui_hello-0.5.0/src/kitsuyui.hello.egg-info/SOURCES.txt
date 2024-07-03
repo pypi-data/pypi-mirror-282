@@ -1,0 +1,10 @@
+README.md
+poetry.lock
+pyproject.toml
+src/hello/__init__.py
+src/hello/_version.py
+src/kitsuyui.hello.egg-info/PKG-INFO
+src/kitsuyui.hello.egg-info/SOURCES.txt
+src/kitsuyui.hello.egg-info/dependency_links.txt
+src/kitsuyui.hello.egg-info/top_level.txt
+tests/test_something.py
