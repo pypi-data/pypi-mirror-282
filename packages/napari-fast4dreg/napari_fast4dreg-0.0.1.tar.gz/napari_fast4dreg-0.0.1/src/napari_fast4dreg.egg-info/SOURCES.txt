@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_fast4dreg/__init__.py
+src/napari_fast4dreg/_fast4Dreg_functions.py
+src/napari_fast4dreg/_widget.py
+src/napari_fast4dreg/napari.yaml
+src/napari_fast4dreg.egg-info/PKG-INFO
+src/napari_fast4dreg.egg-info/SOURCES.txt
+src/napari_fast4dreg.egg-info/dependency_links.txt
+src/napari_fast4dreg.egg-info/entry_points.txt
+src/napari_fast4dreg.egg-info/requires.txt
+src/napari_fast4dreg.egg-info/top_level.txt
+src/napari_fast4dreg/_tests/__init__.py
+src/napari_fast4dreg/_tests/test_widget.py

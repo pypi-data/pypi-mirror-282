@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-fast4dreg = napari_fast4dreg:napari.yaml
