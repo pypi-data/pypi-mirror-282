@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+LamRand.egg-info/PKG-INFO
+LamRand.egg-info/SOURCES.txt
+LamRand.egg-info/dependency_links.txt
+LamRand.egg-info/requires.txt
+LamRand.egg-info/top_level.txt
+lamrand/__init__.py
+lamrand/lamrand.py
+tests/__init__.py
+tests/test_lamrand.py
