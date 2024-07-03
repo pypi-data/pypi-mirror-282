@@ -1,0 +1,2 @@
+[console_scripts]
+pubid2bib = pubid2bib.pubid2bib:main
