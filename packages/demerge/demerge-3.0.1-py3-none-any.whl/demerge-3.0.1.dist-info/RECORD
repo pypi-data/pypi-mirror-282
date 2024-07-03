@@ -1,0 +1,10 @@
+demerge/__init__.py,sha256=KtC7SGSzblOjTtjS-RQkgad1KYcJyI0YgJbOelhV0kc,3350
+demerge/data/ddb_20231123.fits.gz,sha256=H2ahhZSxcpE1D0QTXSGxm3AA68zXK_w2JYrVFVYbAnU,9910521
+demerge/merge/__init__.py,sha256=v7DgqWPN_xdkbS85qKopE58mH3xJt2iyoQKAUhlkTx0,4105
+demerge/merge/utils.py,sha256=ey6hSljqnCs541_pRFO4x_esdorZ4MitoLr1Qg0gfaM,27103
+demerge/reduce/__init__.py,sha256=7BRl8mbs0eIHCt_kxpSpH13X9H00LPZDVzggEJLhUh4,2339
+demerge-3.0.1.dist-info/LICENSE,sha256=NRlLuS-XXkEmgYH-vJHCiSGNWXik1nnz_YxJeHoOkns,1074
+demerge-3.0.1.dist-info/METADATA,sha256=9yn_3TZObuc38CwXHTeq-VPy46kJdjgBJfpm6V86XuY,5030
+demerge-3.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+demerge-3.0.1.dist-info/entry_points.txt,sha256=dQMQLOnd_HuVC8Jk3BkcjRen-Uo6fB-mrjLWo7NvPcY,89
+demerge-3.0.1.dist-info/RECORD,,
