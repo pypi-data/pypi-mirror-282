@@ -1,0 +1,12 @@
+armada/auth.py,sha256=CJas9HYecrn6uT1ADyhQmqhotWDIIN5P7W0XY2blGDw,317
+armada/model.py,sha256=N3PuC7WJ5gG8fANxZOvr9dKT6sb61M38aWnWVxz5UvI,2846
+armada/logs/log_consumer.py,sha256=Aix10MpZiSDAlwcPlsUwA_hhXgtRrQvcBwoIClodtFc,9561
+armada/logs/pod_log_manager.py,sha256=jBb6Jh7qfXsp5-I_kkiPge2BcZ5MBrvwPnaxVC5bPMc,20477
+armada/logs/utils.py,sha256=eK8NN2jAeozTteUcogN-dQYeMOhrIC393nBrL2HNVXQ,2269
+armada/operators/armada.py,sha256=z02AW3YikIJ91rUEmwFzZY4AbSsx4YNHnVFtGPVH3oA,13663
+armada/triggers/armada.py,sha256=h0lXEJtNNuxoOTyEWtFTjJjpN0EvPIbmuUOknH1cBHU,10981
+armada_airflow-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+armada_airflow-1.0.0.dist-info/METADATA,sha256=CGokPksxuAobITGs8mKMZNKKRmKrNm2-0UQyPVPXq8A,10069
+armada_airflow-1.0.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+armada_airflow-1.0.0.dist-info/top_level.txt,sha256=SaKoRDJJ1bkA2Lly_EYCX5D9VxncOV0eEI5NYBHU-bs,7
+armada_airflow-1.0.0.dist-info/RECORD,,
