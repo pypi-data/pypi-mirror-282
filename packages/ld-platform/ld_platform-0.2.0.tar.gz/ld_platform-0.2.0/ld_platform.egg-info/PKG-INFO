@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ld_platform
+Version: 0.2.0
+Summary: 本地和s3的连接器
+Requires-Dist: pendulum==2.1.2
+Requires-Dist: apache-airflow==2.5.0
+Requires-Dist: smart-open==6.3.0
+Requires-Dist: boto3==1.27.0
+Requires-Dist: pymongo==4.3.3
