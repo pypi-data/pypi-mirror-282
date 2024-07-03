@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: generativeai-for-python3.8
+Version: 0.0.1
+Summary: for python3.8 generative google AI
+Home-page: https://github.com/jstmn/generative-ai-python-3.8
+Author: Google LLC
+License: Apache 2.0
+Description: # Python 3.8 version of the Google AI Python SDK for the Gemini API
+        
+        This repository contains a fork of the official Gemini (from commit `419a7cef81188a2d715b3853113a3213516d6a4a` [link](https://github.com/jstmn/generative-ai-python-3.8/commit/419a7cef81188a2d715b3853113a3213516d6a4a)) which has been modified to be compatible with python3.8. The changes that were required were to replace the usage of built in types (`dict`, `tuple`, and `list`) for type specification with their counterparts from the `Typing` library. Secondly, `Iterator, Mapping` needed to come from the `typing` library rather than from `collections.abc`. A summary of changes is viewable in the git history, see [this](https://github.com/jstmn/generative-ai-python-3.8/commit/721ffce90f0eff7f630712587b9f517d2678278c) commit.
+        
+        The source of the work is the owners of the original repository (https://github.com/google-gemini/generative-ai-python)
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev

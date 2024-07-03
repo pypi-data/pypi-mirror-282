@@ -1,0 +1,5 @@
+# Python 3.8 version of the Google AI Python SDK for the Gemini API
+
+This repository contains a fork of the official Gemini (from commit `419a7cef81188a2d715b3853113a3213516d6a4a` [link](https://github.com/jstmn/generative-ai-python-3.8/commit/419a7cef81188a2d715b3853113a3213516d6a4a)) which has been modified to be compatible with python3.8. The changes that were required were to replace the usage of built in types (`dict`, `tuple`, and `list`) for type specification with their counterparts from the `Typing` library. Secondly, `Iterator, Mapping` needed to come from the `typing` library rather than from `collections.abc`. A summary of changes is viewable in the git history, see [this](https://github.com/jstmn/generative-ai-python-3.8/commit/721ffce90f0eff7f630712587b9f517d2678278c) commit.
+
+The source of the work is the owners of the original repository (https://github.com/google-gemini/generative-ai-python)
