@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+chess2postgres/__init__.py
+chess2postgres/chess2postgres.py
+chess2postgres.egg-info/PKG-INFO
+chess2postgres.egg-info/SOURCES.txt
+chess2postgres.egg-info/dependency_links.txt
+chess2postgres.egg-info/requires.txt
+chess2postgres.egg-info/top_level.txt
