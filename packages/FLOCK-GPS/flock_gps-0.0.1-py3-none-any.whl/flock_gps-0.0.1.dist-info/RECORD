@@ -1,0 +1,14 @@
+FLOCK_GPS/ClusteringFeats.py,sha256=vHeZi-tOT2cRmJufBsr75Mh-iTo5Oft7rfxWCUZw4fs,13497
+FLOCK_GPS/DataLoading.py,sha256=eSw4DWgY6cfj1LHwdnCQg4cMo1O4BC8ptPTgQzdslxw,2336
+FLOCK_GPS/DirectionalCorrelation.py,sha256=f0HSmJGcJGDagEyLE4aL7pzwuFL-UUiOcVX3N4fJMUU,14645
+FLOCK_GPS/PACS.py,sha256=n4d8j3yNLL8VpzgEWu_fcn-EwC9TlXLRYyVmkp6le1w,21776
+FLOCK_GPS/PacsFeats.py,sha256=FyOIvXZl0XFipedu3dn3f-wRmvoHl1opk9hG9_kGJh0,10554
+FLOCK_GPS/Preprocessing.py,sha256=Hg1iYJyBU_kVPpABpybwZnwb3zboupMjtZ_kyu5QbjY,27354
+FLOCK_GPS/RegularityFeats.py,sha256=v4MKXHS_CQzh_HS3OUIUIXYQEtltjMyd9z9oXYZrSOQ,8783
+FLOCK_GPS/SpatialFeats.py,sha256=zvqKgpEvCJKKFuk40wRpbtFF5tObUj-2asDKV9L81m8,12833
+FLOCK_GPS/VelocityFeats.py,sha256=tgKzUnQi50RwJ3TKr-A6n5i1H4YQLN9lkjEhf-rUxaM,6277
+FLOCK_GPS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flock_gps-0.0.1.dist-info/METADATA,sha256=f9PnFSmiLlQzWMCzYAQ3WuFOBwTTbE034B0uUBTBjAk,10133
+flock_gps-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+flock_gps-0.0.1.dist-info/licenses/LICENSE,sha256=AD9l4P_n_ta-VzbITo7sHw2jWty6hUtMBavo59GYeg4,1090
+flock_gps-0.0.1.dist-info/RECORD,,
