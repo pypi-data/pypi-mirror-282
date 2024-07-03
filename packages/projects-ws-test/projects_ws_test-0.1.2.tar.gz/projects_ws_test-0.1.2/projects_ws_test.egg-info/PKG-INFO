@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: projects-ws-test
+Version: 0.1.2
+Summary: ws projects
+Home-page: https://github.com/Spana21/projects_ws
+Author: Šmíd, Špánik
+Author-email: vase.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.12
+Description-Content-Type: text/markdown
+
+# Projects
+## Configuration
+Create folders and files
+```bash
+pip install -r requirements-dev.txt --force
+mkdir data
+cd data
+echo { } > systemdata.json
+cd ..
+
+mkdir pagecache
+echo [ ] > cache.json
+echo { } > cachemembers.json
+cd ..
+```
+
+Create .env file
+- You have to create environment variables USER and PASSWORD, for logging
+```bash
+type nul > .env
+```
+
+[config.py](app/endpointFiller/config.py)
+- Change domain/port
+```bash
+DOMAIN = "http://127.0.0.1"
+PORT = "32800"
+```
+
+Run
+```bash
+python -u "...\projects_ws\main.py"
+```
+## Skeleton
+```bash
+projects_ws
+    ├───__pycache__
+    ├───.venv
+    │   .env
+    │   .gitignore
+    │   main.py
+    │   README.md
+    │   requirements-dev.txt
+    │
+    ├───app
+    │   ├───__pycache__
+    │   ├───login_as_user.py
+    │   ├───main.py
+    │   ├───project.py
+    │   └───save_data_json.py
+    │
+    │   ├───endpointFiller
+    │   │   ├───__pycache__
+    │   │   ├───config.py
+    │   │   ├───insert_projectcategories.py
+    │   │   ├───insert_projects.py
+    │   │   └───insert_projecttypes.py
+    │   │
+    ├───data
+    │   └───systemdata.json
+    │
+    ├───pagecache
+    │   ├───cache.json
+    │   └───cachemembers.json
+ ```
+
