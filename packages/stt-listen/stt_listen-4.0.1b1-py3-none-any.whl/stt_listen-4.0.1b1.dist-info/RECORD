@@ -1,0 +1,17 @@
+listen/__init__.py,sha256=AysfStqEBZf_zmI9W6_v19a2alc6Iw_VPZ7c-Yb1HwQ,1255
+listen/__main__.py,sha256=v0ABH6dojr50OLbaz2ocUv1RGukWePK93BoLwvCPCuM,98
+listen/exception.py,sha256=4DWSNm7PayQmtLq9HExZQELKLriHb0ldsZMm4-0hizs,303
+listen/main.py,sha256=1s5B65mS2AS8aDwu9Ruqgsr6w3i9UqouO0k8Xd_w9RU,4858
+listen/mic.py,sha256=S7a6Ds3vj9P94ikFHiEcMrZKRUaf-qSlYD4K6qZ3SzQ,11210
+listen/Whisper/__init__.py,sha256=rBqLtQHWufoLvdbt3ZQYL47uj-xtjZPEhI_O3qRnxR8,758
+listen/Whisper/as_client.py,sha256=_jYjHm4Z55CXT6SAJf94Xnqu_tQuF0lmchIatZUOOog,856
+listen/Whisper/as_service.py,sha256=r-qboJbT-DZldSDX8Qf6OPLWwc8CrBOHaNzRvzoDsls,2874
+listen/Whisper/audio.py,sha256=gBUWiIlrSlTAPvDRSRqgQqqJXv_Bo7sfAnhtWMY8k54,6934
+listen/Whisper/engine.py,sha256=Au3jcIGcTceKqxWQTa0MXVQtbAaybovrMVI5Jq9-QjI,4170
+listen/Whisper/utils.py,sha256=Zgou7-dP_2yy6ykPZZsJV_Jn01AtEbv2nXlziGqQQzQ,5086
+stt_listen-4.0.1b1.dist-info/LICENSE,sha256=LgfS0dbG46Mo9qHH35RSbsJ3NGDpE2r2C7deAe1B1FA,35118
+stt_listen-4.0.1b1.dist-info/METADATA,sha256=Hx_Rd-_rBJqJ1y2qH7zsSzHyluzYo1gz1kc-OjUfOcg,5214
+stt_listen-4.0.1b1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+stt_listen-4.0.1b1.dist-info/entry_points.txt,sha256=i0GopMOGAVAzSk8e1uWwIcyhnx3ZgCcHQHsgMn3Oz1A,44
+stt_listen-4.0.1b1.dist-info/top_level.txt,sha256=N_XBpky3w_jWswhT-TUkCLwRQTXWTM_zRigDC6pCI2Q,7
+stt_listen-4.0.1b1.dist-info/RECORD,,
