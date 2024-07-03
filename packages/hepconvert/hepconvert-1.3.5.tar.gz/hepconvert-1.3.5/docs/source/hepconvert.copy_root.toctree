@@ -1,0 +1,5 @@
+.. toctree::
+    :caption: copy_root
+    :hidden:
+
+    hepconvert.copy_root <hepconvert.copy_root>

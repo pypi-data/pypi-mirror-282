@@ -1,0 +1,5 @@
+.. toctree::
+    :caption: merge
+    :hidden:
+
+    hepconvert.merge_root <hepconvert.merge_root>

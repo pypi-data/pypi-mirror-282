@@ -1,0 +1,5 @@
+.. toctree::
+    :caption: histogram_adding
+    :hidden:
+
+    hepconvert.add_histograms <hepconvert.add_histograms>
