@@ -1,0 +1,6 @@
+faiss-cpu==1.8.0
+numpy
+cohere>=5.5.4
+packaging
+tqdm
+indexed-zstd

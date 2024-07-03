@@ -1,0 +1,9 @@
+README.md
+setup.py
+DiskVectorIndex/DiskVectorIndex.py
+DiskVectorIndex/__init__.py
+DiskVectorIndex.egg-info/PKG-INFO
+DiskVectorIndex.egg-info/SOURCES.txt
+DiskVectorIndex.egg-info/dependency_links.txt
+DiskVectorIndex.egg-info/requires.txt
+DiskVectorIndex.egg-info/top_level.txt
