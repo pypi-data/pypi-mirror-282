@@ -1,0 +1,14 @@
+tempEgo/RANSAC.py,sha256=TS-00gMlBE0is9K-KgVfKixAbsrxF-aLCHWRh2bUmlk,16771
+tempEgo/__init__.py,sha256=qN5New09aT1v20JVB6yCxk9vqb4-bw8GSzAzUAyXaGU,23
+tempEgo/calibration.py,sha256=zT8fYvxx1fCBentAQ5CNuaBf0OgelkdE5BIrEdTEoKE,4522
+tempEgo/data_unpacker.py,sha256=gT6FzEUuawOBp9kh_xoz673yJuqZrhN4PMByvYpPWQI,1458
+tempEgo/dataset_loaders.py,sha256=ZHB5phMB0BRo4xkICxWmNrYB8YCdzCfI9gra5WIDxrw,18101
+tempEgo/error_and_loss_function.py,sha256=_rAdxo6QbwBD10CCkxmpil8NeT2HUi1WWS5kQA9g1dE,877
+tempEgo/external_dataset_import.py,sha256=bOvLdu8CwueB1UrQAOTBG4jMhOpcn5Nd1pVv8ufCy14,7021
+tempEgo/least_squares.py,sha256=CgZTumhruW9P96uzwtbcVdtFuPlTfXkMFiWqCYO4tEs,1678
+tempEgo/main.py,sha256=0LiZ0ckbSoyZebat05gCpmpmo41on7xsUzCXk-IKCC4,17502
+tempEgo-0.0.1.dist-info/LICENSE,sha256=2Gdpc0jAJw23CHl_BxIhTFTnjYq8w7-dORZPqr6l6BY,1091
+tempEgo-0.0.1.dist-info/METADATA,sha256=TA2S5TC7ULv5-D3Hn5grquAGI7kvVG-bbYEwkDJED1g,5001
+tempEgo-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tempEgo-0.0.1.dist-info/top_level.txt,sha256=0RqQ2GbkFL0OkMzXX2kfq3Ynh6-ydzMHSPNWrGFR8bA,8
+tempEgo-0.0.1.dist-info/RECORD,,
