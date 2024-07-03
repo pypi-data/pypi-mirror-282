@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: json-unescape
+Version: 0.0.1
+Summary: Unescape json string, which is escaped for json. This is usually necessarry for webscraping.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Json-Unescape
+
+Unescape json string, which is escaped for json. This is usually necessarry for webscraping.
+
+## Installation
+
+```bash
+pip install json-unescape
+```
+
+## Usage
+
+```python
+>>> from json_unescape import escape_json, unescape_json
+
+>>> escape_json('{"foo": "bar,,,eee"}')
+'{"key": "{\\"foo\\": \\"bar,,,eee\\"}"}'
+
+>>> unescape_json(escape_json('{"key": "{\\"foo\\": \\"bar,,,eee\\"}"}'))
+'{"foo": "bar,,,eee"}'
+```
+
