@@ -1,0 +1,14 @@
+snakestream/__init__.py,sha256=K6Q70aRKQBhfTLO_1jjQzj_C-oc4r4SKZDBRp2Nx974,327
+snakestream/base_stream.py,sha256=kIHzPd7z6MThm7WSl0EePURUPOAZurnQnvDoI6taMP4,1986
+snakestream/collector.py,sha256=6sOE6QOzigB5TR7iOLRJLtfP6pKLj3j7NfferCHK9lU,484
+snakestream/exception.py,sha256=LSAL_Z1dT89OlQk-wA7GpHuB-t3sD2mmNp5djddcqOE,48
+snakestream/parallel_stream.py,sha256=8WeImuaZysp77DLXfgH4BPMMGYMUGbLNZiAaUobe-uw,1468
+snakestream/sort.py,sha256=VAjNuSZgAm35SR5zFD-II83TtUm45YIqizQJj6cBg0g,644
+snakestream/stream.py,sha256=Mpq6m-R4wpDkkszDPTdsFWCeRGqy4YHy4yk-yzA3iys,9151
+snakestream/stream_builder.py,sha256=3pTLVF583w6nyL515YKVSZTjSecA2ipoLXR52giJM54,442
+snakestream/type.py,sha256=UtUseYbSkRbaS_amCl6j_XA7Ov1yVt2NfRFYTF9wYug,675
+snakestream-0.3.5.dist-info/LICENSE.txt,sha256=YawOZhWoUpPyO50qUqzMHguGNNdCexYwHMaqZBO40YU,1081
+snakestream-0.3.5.dist-info/METADATA,sha256=wkZsF7-8XfmsOxSote3CBEZR9Dw-E-8I9XMz0mPvBIw,11289
+snakestream-0.3.5.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+snakestream-0.3.5.dist-info/top_level.txt,sha256=oQAwQZd16QT-fIoUa_cn2rYSFEpnRBPxMNoOzVU8Sf0,12
+snakestream-0.3.5.dist-info/RECORD,,
