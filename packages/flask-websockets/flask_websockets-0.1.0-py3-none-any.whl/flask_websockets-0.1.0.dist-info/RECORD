@@ -1,0 +1,8 @@
+flask_websockets-0.1.0.dist-info/METADATA,sha256=cMl6NL8vT3fciZ4aXuBqy__jg5M2-WBmTvGpXPsYlE0,328
+flask_websockets-0.1.0.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+flask_websockets-0.1.0.dist-info/licenses/LICENSE,sha256=eZvyHd8fuHu5POGkD3FnIzyOAwnI1pFmF2AHpg0GolU,1062
+flask_websockets/__init__.py,sha256=VRbz8tnHJfM7DSyeZa5AHoej1H76RF0lpruIdK3Mz1U,118
+flask_websockets/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_websockets/websocket.py,sha256=F9Vgvln8d-vUgNk5Du0tahNwM82Uvf_852jMA5_etOo,13334
+flask_websockets/websockets.py,sha256=ztz-BhSLvoaGSpWTpnzCk7tO4KnxBAXRcXu_M6RFXmg,5033
+flask_websockets-0.1.0.dist-info/RECORD,,
