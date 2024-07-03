@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: eternalblue
+Version: 1.0.2
+Summary: Um pacote de diarização
+Home-page: https://github.com/rhaymisonbetini/eternalblue
+Author: Rhaymison Betini
+Author-email: rhaymisoncristian@gmail.com
+License: Apache 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: transformers ~=4.38.2
+Requires-Dist: pyannote.audio
+Requires-Dist: torch ~=2.1.2
+Requires-Dist: torchaudio ~=2.1.2
+Requires-Dist: torchvision
+Requires-Dist: pydub ~=0.25.1
+Requires-Dist: accelerate
+Requires-Dist: noisereduce ~=3.0.2
+Requires-Dist: librosa ~=0.10.1
+Requires-Dist: python-dotenv
+Requires-Dist: soundfile ~=0.12.1
+Requires-Dist: bitsandbytes
+Requires-Dist: insanely-fast-whisper
+Requires-Dist: optimum
+Requires-Dist: openai
+
