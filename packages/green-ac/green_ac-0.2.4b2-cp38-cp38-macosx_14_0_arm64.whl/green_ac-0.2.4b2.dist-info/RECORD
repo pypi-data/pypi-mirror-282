@@ -1,0 +1,8 @@
+green_ac/__init__.py,sha256=jgkr7f6jdtUveATae5KAzSdCjwSBRgKq2FF8TjGma-s,2484
+green_ac/_green_ac.cpython-38-darwin.so,sha256=cQdnmjAH1GqCNr2r2QMq-pchiAnMLyO0z71ZE7yn1Y4,268544
+green_ac/.dylibs/libgmpxx.4.dylib,sha256=PCWgwiN5yeSuaPMGwRQbl0lKp7SCUEWx2u-vXR8pmSo,80992
+green_ac/.dylibs/libgmp.10.dylib,sha256=LlzXGi2us_q7Wt1KkGx_L0Pzfx3-3-iXQV3mcyg44bY,452816
+green_ac-0.2.4b2.dist-info/RECORD,,
+green_ac-0.2.4b2.dist-info/WHEEL,sha256=JqEXmdAT5hzV8jDHUW1jdgrZCShxwYy44nv-zLi4fj4,111
+green_ac-0.2.4b2.dist-info/METADATA,sha256=k4o-KhGdgpJ14B2-_0AgH4nBf4FNLAcySJ6Tc68nxys,5708
+green_ac-0.2.4b2.dist-info/licenses/LICENSE,sha256=Y743dvK_JwrkIdpZg9FZ3XbL273Igpyj3OKXbhviDkA,1067
