@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tiptoestep
+Version: 0.0.1a0
+Summary: A reinforcement learning pakcage.
+Author-email: huggingbutt <huggingbutt@outlook.com>
+Project-URL: homepage, https://huggingbutt.com
+Project-URL: source, https://github.com/huggingbutt/tiptoestep
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.24.4
+Requires-Dist: gymnasium >=0.28.1
+Requires-Dist: stable-baselines3 >=2.0.0
+Requires-Dist: tensorboard >=2.11.2
+
+# Tiptoe Step
+Tiptoe Step Python package.
