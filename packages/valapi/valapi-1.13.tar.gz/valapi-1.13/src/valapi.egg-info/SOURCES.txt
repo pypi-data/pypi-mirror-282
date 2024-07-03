@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/valapi/__init__.py
+src/valapi/auth.py
+src/valapi/client.py
+src/valapi/exceptions.py
+src/valapi/resources.py
+src/valapi.egg-info/PKG-INFO
+src/valapi.egg-info/SOURCES.txt
+src/valapi.egg-info/dependency_links.txt
+src/valapi.egg-info/top_level.txt
