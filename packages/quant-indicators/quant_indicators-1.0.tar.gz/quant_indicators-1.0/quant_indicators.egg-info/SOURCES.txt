@@ -1,0 +1,9 @@
+README.md
+setup.py
+quant_indicators/__init__.py
+quant_indicators/quant_indicators.py
+quant_indicators.egg-info/PKG-INFO
+quant_indicators.egg-info/SOURCES.txt
+quant_indicators.egg-info/dependency_links.txt
+quant_indicators.egg-info/requires.txt
+quant_indicators.egg-info/top_level.txt
