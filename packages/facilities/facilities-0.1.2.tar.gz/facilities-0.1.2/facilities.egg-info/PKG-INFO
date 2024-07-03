@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: facilities
+Version: 0.1.2
+Summary: Package for facilities scrape
+Home-page: https://github.com/Vitek233/FACILITIES
+Author: RS
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# facilities
+Projekt facilities naplneni dat
+
+VyuĹľijte zdroje dat pro zĂ­skĂˇnĂ­ informacĂ­ o plĂˇnech studia (GQL_Lessons).
+VytvoĹ™te JSON datovou strukturu (kompatibilnĂ­ se systemdata.json).
+VytvoĹ™te program, kterĂ˝ importuje data do GQL endpointĹŻ (s vyuĹľitĂ­m mutacĂ­). 
+ZabezpeÄŤte existenci propojenĂ­ (ExternalIDs) se zdrojovĂ˝m IS. 
+
+# TODO:
+pridat facilitytype_id *
+rozdelit room a patro *
+spojit do systemdata.json *
+prazdne atributy - name_en, geometry, geolocation, group_id *
+
+vyresit chyby s kodovanim ceskych znaku
