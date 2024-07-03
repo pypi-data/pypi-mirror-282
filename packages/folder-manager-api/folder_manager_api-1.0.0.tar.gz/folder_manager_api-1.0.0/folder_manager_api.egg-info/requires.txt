@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+pydantic
+folder_manager
