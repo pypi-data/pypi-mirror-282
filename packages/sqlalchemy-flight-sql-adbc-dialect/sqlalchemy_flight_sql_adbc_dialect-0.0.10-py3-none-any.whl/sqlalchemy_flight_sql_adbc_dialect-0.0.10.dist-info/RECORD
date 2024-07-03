@@ -1,0 +1,8 @@
+sqlalchemy_flight_sql_adbc_dialect/__init__.py,sha256=G0w68VXJITswH8Mpy3kTJmxhYq-eWlGZIhL7SYsivXc,17591
+sqlalchemy_flight_sql_adbc_dialect/sqlalchemy_interfaces.py,sha256=vu8cwVGJO_hoi261fTktkJhPpHAiMSejuJ8U02KxwC8,6670
+sqlalchemy_flight_sql_adbc_dialect-0.0.10.dist-info/LICENSE.txt,sha256=KVwBzuJ5OUukDbWlhyly5LOd0_2r9jcm6a5_cNFp2Lc,1077
+sqlalchemy_flight_sql_adbc_dialect-0.0.10.dist-info/METADATA,sha256=cuQB1w7mMW7NdtHz4Q_ZcXOZGJmsyBPHsTzXtREc9k8,5508
+sqlalchemy_flight_sql_adbc_dialect-0.0.10.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+sqlalchemy_flight_sql_adbc_dialect-0.0.10.dist-info/entry_points.txt,sha256=xflKL5Sl7KDzBkcuXKFp0CNT7o8aziN5iq_dHwGHxl4,87
+sqlalchemy_flight_sql_adbc_dialect-0.0.10.dist-info/top_level.txt,sha256=OIPxVFwWmuKhOE48pPVAlGgjhXsd4V8w2Fh-mM-S4lA,35
+sqlalchemy_flight_sql_adbc_dialect-0.0.10.dist-info/RECORD,,
