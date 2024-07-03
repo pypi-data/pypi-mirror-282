@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mormiz
+Version: 0.4
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: setuptools_rust
+Requires-Dist: setuptools
