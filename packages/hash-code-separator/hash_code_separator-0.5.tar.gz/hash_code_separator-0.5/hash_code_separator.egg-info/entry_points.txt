@@ -1,0 +1,2 @@
+[console_scripts]
+hash = code_separator.cli:main
