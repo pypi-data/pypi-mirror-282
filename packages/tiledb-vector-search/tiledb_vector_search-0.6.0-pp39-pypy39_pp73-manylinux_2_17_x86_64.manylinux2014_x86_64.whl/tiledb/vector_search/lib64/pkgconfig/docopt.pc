@@ -1,0 +1,9 @@
+libdir=/tmp/tmpzy93hclb/wheel/platlib/lib64
+includedir=/tmp/tmpzy93hclb/wheel/platlib/include/docopt
+
+Name: docopt.cpp
+Description: C++11 port of docopt
+Version: 0.6.2
+Requires:
+Libs: -L${libdir} -ldocopt
+Cflags: -I${includedir}
