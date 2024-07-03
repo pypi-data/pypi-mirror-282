@@ -1,0 +1,10 @@
+README.md,sha256=N1kn1qN1TWtjdD9MEfcDKLnQgjmylQoufa4RDH3irlk,903
+linkml_tutorial_2024/_version.py,sha256=9_PpJA80c3rcLE52V6csAU7dPSLuplcFsvYRebrvqDc,186
+linkml_tutorial_2024/datamodel/__init__.py,sha256=KcV0FMHrMR0y70CrE-3Owk13G8qy0Y8iUCQFHbgepVw,210
+linkml_tutorial_2024/datamodel/linkml_tutorial_2024.py,sha256=okahwr2knc5fbtP07LNbfTzUYDrJw0B7eSmTMn8D6zs,10434
+linkml_tutorial_2024/datamodel/pydanticmodel_v2.py,sha256=uZKGIb8qa2ayol_tL3TWwO9KeaCZ1b_mtIs5VZFSJcg,5762
+linkml_tutorial_2024/schema/linkml_tutorial_2024.yaml,sha256=rJGLaTxlCH3dPP-uQMUEqPfj57W3n-YlfEj9G1ofjso,3942
+linkml_tutorial_2024-0.0.2.dist-info/LICENSE,sha256=4APtf-AdbEu6oS4keal0e73KzxaR9ZBRH0XBS32LIG0,1079
+linkml_tutorial_2024-0.0.2.dist-info/METADATA,sha256=miQz-wnIYjCpU3srY3f633o9EVWQWK41ndqdoJ_jQSw,1533
+linkml_tutorial_2024-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+linkml_tutorial_2024-0.0.2.dist-info/RECORD,,
