@@ -1,0 +1,6 @@
+selenium
+python-dotenv
+numpy
+bs4
+requests
+aiohttp
