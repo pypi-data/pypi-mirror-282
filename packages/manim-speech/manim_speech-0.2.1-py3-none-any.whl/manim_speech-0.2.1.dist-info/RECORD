@@ -1,0 +1,15 @@
+manim_speech/__init__.py,sha256=GVMMYThoWsPRvEsy9SBjKd0oCuaHzq69FjVKB9hsyC4,186
+manim_speech/scene.py,sha256=ZyqWFRz_s9T7D-4GYNYNchT7cQAxJW3tZ4lKckRRhfc,3280
+manim_speech/services/__init__.py,sha256=2LW254zgg43F_nMrqdHf4WYjBb3eHGpNR1_jnLJz_t8,73
+manim_speech/services/assemblyai.py,sha256=V0rQs-OV5MyG35JoDnzoCrqheH_28dBQZ-vOA8Qt7xM,3279
+manim_speech/services/base.py,sha256=afD6AHEIkFm6xYR9yukmrP8sMetvP7tfky4Jpe_arAY,2674
+manim_speech/services/deepl.py,sha256=KBbSG9t51SNDbiBXXec0hCdvldrgmYnpYhY6fgkRxHw,2527
+manim_speech/services/elevenlabs.py,sha256=5LSFRjhc_QIOP7VovC46IW_KdKBi_DMXO3o54iAKoG0,1943
+manim_speech/services/openai.py,sha256=4jieHhKO8wA5FwdpkM0ivP61m-ziopA7PrFSVcKx2nw,6013
+manim_speech/services/whisper.py,sha256=Lw1gxhx50-ZGbVjhZw0ljP8esDeq2HXtgrACFUJcxHs,1891
+manim_speech/speech.py,sha256=gyKLA7AlJ3VGWJqoXlfTQpGv_nmBWSrSY7br7A6uPDE,4749
+manim_speech/translation.py,sha256=bbvECPj5oUl69jEype0rTQVskilAPwN2Zr3q5tULbaQ,2432
+manim_speech-0.2.1.dist-info/LICENSE,sha256=ltkTwjFKL9dLeepK88nq3USoA4ftM83H0pWW1OxAvUU,1067
+manim_speech-0.2.1.dist-info/METADATA,sha256=xLJoEML25JAYh-BPdzmb_Js4KGTq9qhwc6JK5MR6ZUw,5575
+manim_speech-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+manim_speech-0.2.1.dist-info/RECORD,,
