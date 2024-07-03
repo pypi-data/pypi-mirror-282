@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+Delta_Bypasser.egg-info/PKG-INFO
+Delta_Bypasser.egg-info/SOURCES.txt
+Delta_Bypasser.egg-info/dependency_links.txt
+Delta_Bypasser.egg-info/requires.txt
+Delta_Bypasser.egg-info/top_level.txt
