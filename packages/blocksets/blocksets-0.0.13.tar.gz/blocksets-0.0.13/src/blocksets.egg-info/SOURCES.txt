@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/blocksets/__init__.py
+src/blocksets.egg-info/PKG-INFO
+src/blocksets.egg-info/SOURCES.txt
+src/blocksets.egg-info/dependency_links.txt
+src/blocksets.egg-info/top_level.txt
+src/blocksets/classes/__init__.py
+src/blocksets/classes/block.py
+src/blocksets/classes/blockset.py
+src/blocksets/classes/exceptions.py
+tests/test_block.py
+tests/test_blockset.py
+tests/test_blockset_normalisation.py
+tests/test_util.py
