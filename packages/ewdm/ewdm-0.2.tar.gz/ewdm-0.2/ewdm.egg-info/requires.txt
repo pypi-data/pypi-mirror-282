@@ -1,0 +1,8 @@
+numpy
+scipy
+xarray
+matplotlib
+bottleneck
+pydap
+netCDF4
+tqdm
