@@ -1,0 +1,16 @@
+aba_cli_scrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aba_cli_scrapper/app.py,sha256=EI82cIBATXu6jMO9ve15kztqzOiL95Fx-K8mGXkXqW8,10690
+aba_cli_scrapper/engine_and_database.py,sha256=NbFqHZU2eeq724aF2wjczHiqJowlyW_5dsnm_uBVJXQ,3639
+aba_cli_scrapper/html_to_disk.py,sha256=JO-m2jCcqjtiSJKSP1eeFBIJ_X8Zpw4I2k6QbrYJuqU,2684
+aba_cli_scrapper/info_message.py,sha256=kpX8heNNSR5EuIqI6TNr9OixH-XgpQUX32Wfbj1oLk0,2895
+aba_cli_scrapper/models.py,sha256=_pF_NameNkhwJUTkXm_zuqg5v56EwwOF4-KRHAnU5SM,772
+aba_cli_scrapper/pays_data.json,sha256=Mw4Lmg55BRuBycO3yvBICukkVFVFYSCb_e_8OJ9i5I8,77947
+aba_cli_scrapper/scrape_from_disk.py,sha256=LvzhaqP2GuTIpxsYyAXlR1HX8jMjtCCEYcwI6TAQqe0,5577
+aba_cli_scrapper/utils_scrapping.py,sha256=sbu4847q1bKQvEeYpt1tAbm0uH-kyHjefWRPIWtovRI,5172
+aba_cli_scrapper/web_scrapper.py,sha256=VF4kFh3UAjTnfz6hPRzrxj_fk-WzWMzMVYfXOJlWblE,9078
+COPYING,sha256=7-YIWpQel3qYpbIrMK237umDVoYpxC_R6QWa9zbnVFE,35825
+aba_cli_scrapper-0.1.0.dist-info/COPYING,sha256=7-YIWpQel3qYpbIrMK237umDVoYpxC_R6QWa9zbnVFE,35825
+aba_cli_scrapper-0.1.0.dist-info/entry_points.txt,sha256=RPYXkFjmQ_uXYBAH81QoxR9OSs0Mycxdr7Z4EgliPII,152
+aba_cli_scrapper-0.1.0.dist-info/METADATA,sha256=xYlI7EWUdTQ6aRv0p31e9tdzx6aor7EWKe2KjJfP1qI,11700
+aba_cli_scrapper-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aba_cli_scrapper-0.1.0.dist-info/RECORD,,
