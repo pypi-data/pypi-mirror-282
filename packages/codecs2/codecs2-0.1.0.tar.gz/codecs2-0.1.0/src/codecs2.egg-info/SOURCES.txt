@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/codecs2.py
+src/codecs2.egg-info/PKG-INFO
+src/codecs2.egg-info/SOURCES.txt
+src/codecs2.egg-info/dependency_links.txt
+src/codecs2.egg-info/top_level.txt
