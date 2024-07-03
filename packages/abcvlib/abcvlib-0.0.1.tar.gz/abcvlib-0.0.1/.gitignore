@@ -1,0 +1,8 @@
+__pycache__/
+.venv
+config/config.ini
+config/config.gradle
+logs/
+*.egg-info
+*.swp
+dist
