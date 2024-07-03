@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+modelprop/__init__.py
+modelprop/detect.py
+modelprop.egg-info/PKG-INFO
+modelprop.egg-info/SOURCES.txt
+modelprop.egg-info/dependency_links.txt
+modelprop.egg-info/requires.txt
+modelprop.egg-info/top_level.txt
