@@ -1,0 +1,13 @@
+.gitignore
+MANIFEST.in
+README.md
+main.py
+setup.py
+app/login_as_user.py
+app/project.py
+app/save_data_json.py
+projects_ws_test.egg-info/PKG-INFO
+projects_ws_test.egg-info/SOURCES.txt
+projects_ws_test.egg-info/dependency_links.txt
+projects_ws_test.egg-info/requires.txt
+projects_ws_test.egg-info/top_level.txt
