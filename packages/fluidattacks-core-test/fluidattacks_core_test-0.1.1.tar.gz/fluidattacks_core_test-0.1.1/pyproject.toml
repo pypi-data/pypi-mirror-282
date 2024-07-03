@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fluidattacks-core-test"
+version = "0.1.1"
+description = "Fluid Attacks Core Library Test"
+authors = ["Development <development@fluidattacks.com>"]
+license = "MPL-2.0"
+readme = "README.md"
+packages = [
+  { include = "authz", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
