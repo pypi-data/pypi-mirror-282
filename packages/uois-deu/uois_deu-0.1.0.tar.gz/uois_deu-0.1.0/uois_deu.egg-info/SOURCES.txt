@@ -1,0 +1,7 @@
+README.md
+setup.py
+uois_deu.egg-info/PKG-INFO
+uois_deu.egg-info/SOURCES.txt
+uois_deu.egg-info/dependency_links.txt
+uois_deu.egg-info/requires.txt
+uois_deu.egg-info/top_level.txt
