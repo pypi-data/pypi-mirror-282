@@ -1,0 +1,17 @@
+pydantic==2.7.1
+ollama<0.3.0,>=0.2.0
+ollama-instructor==0.2.0
+python-dotenv==1.0.1
+openai==1.12.0
+click==8.1.7
+
+[dev]
+pytest==8.0.0
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+types-requests==2.31.0.20240218
+
+[docs]
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
