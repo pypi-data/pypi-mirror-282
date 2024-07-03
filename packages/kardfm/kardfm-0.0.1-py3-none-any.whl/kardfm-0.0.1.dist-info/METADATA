@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kardfm
+Version: 0.0.1
+Summary: A kickstart data file management package.
+Home-page: https://github.com/kartarake/karDFM.git
+Author: kartarake
+Author-email: kar.prahveen@gmail.com
+License: MIT
+Requires: pycryptodome
+License-File: LICENSE
+
