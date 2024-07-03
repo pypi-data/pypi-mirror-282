@@ -1,0 +1,16 @@
+FuPy/__init__.py,sha256=FCIR68foov8Jqk3WKbk0ZqulAFSp2tYRO0PeLnGctrY,319
+FuPy/all.py,sha256=L5EoFaRwkj6mOxE-Uxa8MYDnrnXh_e-I89qrs2hUPQk,397
+FuPy/basics.py,sha256=6nof5hgzF2wF-XsWhuF20KJ1G5Hm2hMaaWrPd_dT5vs,33419
+FuPy/core.py,sha256=QnKTFcrSJzawnRQ6McpnN6OVmUva1Bkmg7jsAuShlsY,636
+FuPy/fixpoints.py,sha256=yEI-V6GqYb5NUFs5vNWnm2F95TFnFiCS5jonNHCiui4,5638
+FuPy/laziness.py,sha256=xmqOS1GbelLKJkLwlQfcpGsgZK2vrmiuS3WGYymaT4I,6964
+FuPy/prelude.py,sha256=k9KqCWqDDRYrsPtXjiR0408YoBFS9nE2Wfz9GusO5pk,10922
+FuPy/tracing.py,sha256=_RiWSBE7stLa4gg0o2klrpR_DY6eiat6bnRPFOivpCI,3410
+FuPy/tracing_basics.py,sha256=CAC95avhk3Zq09n46lm9opQqD_ruP31sU8y8dqHfwM4,1467
+FuPy/tracing_laziness.py,sha256=6HtXhl4cjEZ7F8KAcpgxaw25r7pHU8k5tv-17xLb5PE,1126
+FuPy/utils.py,sha256=yCDSUPpfdcTWdrbk_Wi1L5vwLN2SQ1UH7Zb9yz57c5A,2305
+FuPy-0.8.2.dist-info/LICENSE.txt,sha256=FmeqxRlJcTfP144hjzwvFUS2Vlb-vBbTBrTnJQylJPU,1110
+FuPy-0.8.2.dist-info/METADATA,sha256=5gggPfWSxOvKtnDui05AR_dyZ9bslpC-5SjHw9raIzc,6998
+FuPy-0.8.2.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+FuPy-0.8.2.dist-info/top_level.txt,sha256=G_BsXU8C-E4-MsTrCxyooLsNEtYOzEaaZsMN511Ew58,5
+FuPy-0.8.2.dist-info/RECORD,,
