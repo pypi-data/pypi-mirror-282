@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: GrantingUNOB
+Version: 0.0.1
+Summary: A package for extracting and processing Cyber Security program data
+Home-page: https://github.com/Hieuducemo/Granting-database
+Author: Tran Hieu Duc, To Minh Quan
+Author-email: heovip1ad@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+
+# Granting-database
+# Web Data Retrieval with Python
+
+This Python project aims to retrieve data from the web using Selenium. It provides a simple yet effective way to gather information from various online sources.
