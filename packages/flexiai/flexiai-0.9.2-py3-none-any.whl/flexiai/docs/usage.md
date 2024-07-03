@@ -1,0 +1,386 @@
+# FlexiAI Usage Guide
+
+Welcome to the FlexiAI usage guide! This document will help you understand how to set up, use, and contribute to the FlexiAI framework.
+
+## Table of Contents
+
+1. [Setup](setup.md)
+2. [Usage](usage.md)
+3. [API Reference](api_reference.md)
+4. [Contributing](contributing.md)
+
+We hope you find this documentation helpful!
+
+### Introduction
+
+FlexiAI is a flexible AI framework designed to integrate with various AI services like OpenAI and Azure OpenAI. It allows you to create and manage AI assistants, handle user interactions, and leverage tools and resources seamlessly.
+
+### Key Features
+
+**Multi-Platform Support**  
+FlexiAI seamlessly integrates with both OpenAI and Azure OpenAI services, ensuring flexibility and broad compatibility for various use cases and deployment scenarios.
+
+**Configurable and Extensible**  
+FlexiAI offers an easily configurable and highly extensible framework, allowing developers to customize and scale the solution to meet specific project needs and organizational requirements.
+
+**Robust Logging**  
+The framework incorporates comprehensive logging capabilities, facilitating effective debugging and monitoring. This ensures a smooth development and operational experience, allowing for quick issue resolution and performance tracking.
+
+**Task Management**  
+FlexiAI efficiently manages and executes a wide range of tasks, ensuring streamlined operations and enhanced productivity. This feature helps in organizing and automating workflows, reducing manual intervention.
+
+**Retrieval-Augmented Generation (RAG)**  
+The framework empowers AI assistants to dynamically call external functions or services, enabling real-time retrieval of information. This capability allows the assistant to handle complex operations efficiently, making the solution more versatile and powerful.
+
+**Examples and Tests**  
+FlexiAI provides a rich set of example scripts and comprehensive tests, enabling quick onboarding and ensuring reliable performance from the outset. This helps developers understand the framework better and deploy it with confidence.
+
+**Secure and Scalable**  
+Designed with security and scalability in mind, FlexiAI is suitable for both small projects and large enterprise applications. It ensures that the framework can grow with your needs while maintaining high security standards.
+
+**Community-Driven**  
+FlexiAI is actively maintained and supported by a community of developers. This ensures continuous improvement, up-to-date features, and a reliable support system, making it a robust and evolving solution.
+
+### Framework Structure
+
+Here's an overview of the FlexiAI framework structure:
+
+```python
+📦flexiai
+ ┣ 📂flexiai
+ ┃ ┣ 📂.github
+ ┃ ┃ ┗ 📂workflows
+ ┃ ┃ ┃ ┗ 📜workflow.yml
+ ┃ ┣ 📂assistant
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜function_mapping.py
+ ┃ ┃ ┗ 📜task_manager.py
+ ┃ ┣ 📂config
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜config.py
+ ┃ ┃ ┗ 📜logging_config.py
+ ┃ ┣ 📂core
+ ┃ ┃ ┣ 📂utils
+ ┃ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┃ ┗ 📜helpers.py
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜credentials.py
+ ┃ ┃ ┣ 📜flexiai_client.py
+ ┃ ┃ ┗ 📜threads_manager.py
+ ┃ ┣ 📂docs
+ ┃ ┃ ┣ 📜api_reference.md
+ ┃ ┃ ┣ 📜contributing.md
+ ┃ ┃ ┣ 📜example_assistant.md
+ ┃ ┃ ┣ 📜index.md
+ ┃ ┃ ┣ 📜setup.md
+ ┃ ┃ ┗ 📜usage.md
+ ┃ ┣ 📂examples
+ ┃ ┃ ┣ 📜handle_requires_action.ipynb
+ ┃ ┃ ┣ 📜usage_helpers.ipynb
+ ┃ ┃ ┣ 📜with_azure_credentials.py
+ ┃ ┃ ┗ 📜with_openai_credentials.py
+ ┃ ┣ 📂logs
+ ┃ ┃ ┗ 📜app.log
+ ┃ ┣ 📂tests
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜test_assistant_search_product.py
+ ┃ ┃ ┗ 📜test_assistant_youtube_search.py
+ ┃ ┗ 📂user_flexiai_rag
+ ┃ ┃ ┣ 📂data
+ ┃ ┃ ┃ ┣ 📜products.csv
+ ┃ ┃ ┃ ┗ 📜products.csv:Zone.Identifier
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜user_function_mapping.py
+ ┃ ┃ ┣ 📜user_helpers.py
+ ┃ ┃ ┗ 📜user_task_manager.py
+ ┣ 📜.env
+ ┣ 📜.env.template
+ ┣ 📜.gitignore
+ ┣ 📜LICENSE.txt
+ ┣ 📜MANIFEST.in
+ ┣ 📜README.md
+ ┣ 📜post_install.py
+ ┣ 📜requirements.txt
+ ┗ 📜setup.py
+```
+
+Each folder and file in the framework serves a specific purpose:
+
+- **assistant/**: Contains modules for managing AI assistants, including function mappings and task management.
+- **config/**: Contains configuration files, including environment variable settings and logging configuration.
+- **core/**: Core functionalities of the framework, including client initialization and credential management.
+- **docs/**: Documentation files for the framework.
+- **examples/**: Example scripts demonstrating how to use the framework with different credentials and configurations.
+- **logs/**: Log files generated by the framework.
+- **tests/**: Unit and integration tests for the framework.
+- **user_flexiai_rag/**: Contains user-defined task management and function mapping files to extend the functionality of FlexiAI.
+
+### Getting Started
+
+To get started with FlexiAI, follow the [Setup Guide](setup.md) to install and configure the framework. Then, refer to the [Usage Guide](usage.md) for examples of how to use FlexiAI in your projects.
+
+For detailed information on the API methods and classes, see the [API Reference](api_reference.md).
+
+### Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation (RAG) is a powerful feature of FlexiAI that allows the assistant to dynamically call external functions or services to retrieve information that is not readily available in its static data. This is particularly useful for tasks that require up-to-date information or complex operations.
+
+#### Implementing RAG in FlexiAI
+
+1. **TaskManager (`assistant/task_manager.py`)**:
+    - Manages tasks related to searching YouTube and products.
+    - Provides methods like `search_youtube` and `search_products`, which can be mapped to functions in `function_mapping.py`.
+
+    Users should add their custom functions in the `TaskManager` class that mirror the JSON functions defined in the Assistant on OpenAI or Azure AI Studio. These functions handle the business logic required to perform specific tasks.
+
+2. **Function Mapping (`assistant/function_mapping.py`)**:
+    - Maps function names to the actual functions in the `TaskManager`.
+    - Distinguishes between personal functions and assistant functions.
+
+    The `get_function_mappings` function in `function_mapping.py` is responsible for mapping the function names used by the assistant to the actual Python functions defined in the `TaskManager`. This mapping allows the assistant to call the appropriate function and perform the required action.
+
+3. **Using `handle_requires_action`**:
+    - Ensures that when a run requires action, it uses the function mappings to execute the appropriate task.
+    - Submits the results of these tasks back to the OpenAI API to continue the run.
+
+    The `handle_requires_action` method leverages the function mappings to dynamically call the required functions. It uses the function name provided by the assistant, looks it up in the mapping, and then calls the corresponding function in the `TaskManager` with the provided arguments. The results are then formatted and submitted back to the OpenAI API.
+
+#### Example Workflow
+
+1. **Define User-Defined Functions in `UserTaskManager`**:
+    Define the user-defined functions in the `UserTaskManager` class for the tasks you want to perform.
+
+    ```python
+    # user_flexiai_rag/user_task_manager.py
+
+    class UserTaskManager:
+        def search_youtube(self, query):
+            # Implementation of search_youtube method
+            pass
+
+        def search_products(self, **kwargs):
+            # Implementation of search_products method
+            pass
+    ```
+
+2. **Map Functions in `user_function_mapping.py`**:
+    Map the function names to the functions defined in `UserTaskManager`.
+
+    ```python
+    # user_flexiai_rag/user_function_mapping.py
+
+    from user_flexiai_rag.user_task_manager import UserTaskManager
+
+    def register_user_tasks():
+        """
+        Register user-defined tasks with the FlexiAI framework.
+
+        Returns:
+            tuple: A tuple containing the personal function mappings and assistant function mappings.
+        """
+        task_manager = UserTaskManager()
+
+        personal_function_mapping = {
+            'search_youtube': task_manager.search_youtube,
+            'search_products': task_manager.search_products,
+            # Add other personal functions here
+        }
+
+        assistant_function_mapping = {
+            # Add other functions that call assistants here
+        }
+
+        return personal_function_mapping, assistant_function_mapping
+    ```
+
+3. **Map Functions in `function_mapping.py`**:
+    Integrate user-defined functions into the main function mapping.
+
+    ```python
+    # assistant/function_mapping.py
+
+    from user_flexiai_rag.user_function_mapping import register_user_tasks
+
+    def get_function_mappings(task_manager):
+        """
+        Get the function mappings for personal and assistant functions, including both internal and user-defined functions.
+
+        Args:
+            task_manager (TaskManager): The task manager instance containing internal tasks.
+
+        Returns:
+            tuple: A tuple containing the personal function mappings and assistant function mappings.
+        """
+        # FlexiAI's
+
+ internal function mappings
+
+        personal_function_mapping = {
+            # Internal personal assistant functions here
+        }
+
+        assistant_function_mapping = {
+            # Internal calling assistants here
+        }
+
+        # Register user-defined tasks
+        user_personal_functions, user_assistant_functions = register_user_tasks()
+        
+        # Merge the user-defined functions with the internal ones
+        personal_function_mapping.update(user_personal_functions)
+        assistant_function_mapping.update(user_assistant_functions)
+
+        return personal_function_mapping, assistant_function_mapping
+    ```
+
+4. **Handle Required Actions**:
+    Use `handle_requires_action` to process the required actions by calling the mapped functions and submitting the results.
+
+    ```python
+    # assistant/task_manager.py
+
+    def handle_requires_action(self, run, assistant_id, thread_id):
+        """
+        Handle required actions from a run.
+
+        This method processes the required actions for a given run. It executes the necessary functions
+        and submits the outputs back to the OpenAI API or Azure OpenAI.
+
+        Args:
+            run (object): The run object requiring actions.
+            assistant_id (str): The ID of the assistant.
+            thread_id (str): The ID of the thread.
+
+        Raises:
+            OpenAIError: If an error occurs when interacting with the OpenAI API.
+            Exception: If an unexpected error occurs during the process.
+        """
+        self.logger.info(f"Handling required action for run ID: {run.id} with assistant ID: {assistant_id}.")
+        
+        # Check if the run status indicates that actions are required
+        if run.status == "requires_action":
+            tool_outputs = []
+            
+            # Iterate over each tool call that requires an output submission
+            for tool_call in run.required_action.submit_tool_outputs.tool_calls:
+                function_name = tool_call.function.name
+                arguments = json.loads(tool_call.function.arguments)
+                
+                self.logger.debug(f"Function Name: {function_name}")
+                self.logger.debug(f"Arguments: {arguments}")
+                
+                # Determine the type of action to perform
+                action_type = self.determine_action_type(function_name)
+                
+                # Execute the appropriate function based on the action type
+                if action_type == "call_assistant":
+                    self.logger.debug(f"Calling another assistant with arguments: {arguments}")
+                    status, message, result = self.call_assistant_with_arguments(function_name, **arguments)
+                else:
+                    self.logger.debug(f"Executing personal function with arguments: {arguments}")
+                    status, message, result = self.execute_personal_function_with_arguments(function_name, **arguments)
+                
+                # Prepare the tool output for submission
+                tool_output = {
+                    "tool_call_id": tool_call.id,
+                    "output": json.dumps({"status": status, "message": message, "result": result})
+                }
+                self.logger.debug(f"Tool output to be submitted: {tool_output}")
+                tool_outputs.append(tool_output)
+            
+            # Submit the tool outputs to the OpenAI API
+            try:
+                self.client.beta.threads.runs.submit_tool_outputs(
+                    thread_id=thread_id,
+                    run_id=run.id,
+                    tool_outputs=tool_outputs
+                )
+                self.logger.info(f"Successfully submitted tool outputs for run ID: {run.id}")
+            except OpenAIError as e:
+                self.logger.error(f"OpenAI API error when submitting tool outputs: {e}")
+                raise
+            except Exception as e:
+                self.logger.error(f"General error when submitting tool outputs: {e}")
+                raise
+        else:
+            self.logger.info(f"No required action for this run ID: {run.id}")
+    ```
+
+5. **Example Script for Testing OpenAI Credentials**:
+    FlexiAI can integrate with the OpenAI Assistants API to enhance its capabilities. Here is an example script for testing the integration with OpenAI credentials.
+
+    ```python
+    # examples/test_openai_credentials.py
+    import logging
+    import os
+    import platform
+    from core.flexiai_client import FlexiAI
+    from config.logging_config import setup_logging
+
+    def clear_console():
+        """Clears the console depending on the operating system."""
+        if platform.system() == "Windows":
+            os.system('cls')
+        else:
+            os.system('clear')
+
+    def main():
+        # Setup logging
+        setup_logging()
+
+        # Initialize FlexiAI
+        flexiai = FlexiAI()
+
+        # Use the given assistant ID
+        assistant_id = 'asst_XXXXXXXXXXXXXXXXXXXXXXXXX' # Replace with the actual assistant ID
+        
+        # Create a new thread
+        try:
+            thread = flexiai.create_thread()
+            thread_id = thread.id
+            logging.info(f"Created thread with ID: {thread_id}")
+        except Exception as e:
+            logging.error(f"Error creating thread: {e}")
+            return
+
+        # Variable to store all messages
+        all_messages = []
+        seen_message_ids = set()
+
+        # Loop to continuously get user input and interact with the assistant
+        while True:
+            # Get user input
+            user_message = input("You: ")
+
+            # Exit the loop if the user types 'exit'
+            if user_message.lower() == 'exit':
+                print("Exiting...")
+                break
+
+            # Run the thread and handle required actions
+            try:
+                flexiai.create_advanced_run(assistant_id, thread_id, user_message)
+                # Using the new retrieve_messages function
+                messages = flexiai.retrieve_messages(thread_id, limit=2)  
+                
+                # Store the extracted messages
+                for msg in messages:
+                    if msg['message_id'] not in seen_message_ids:
+                        all_messages.append(msg)
+                        seen_message_ids.add(msg['message_id'])
+
+                # Clear console and print the stored messages in the desired format
+                clear_console()
+                for msg in all_messages:
+                    role = "🤖 Assistant" if msg['role'] == "assistant" else "🧑 You"
+                    print(f"{role}: {msg['content']}")
+            except Exception as e:
+                logging.error(f"Error running thread: {e}")
+
+    if __name__ == "__main__":
+        main()
+    ```
+
+By following this usage guide, you should be able to effectively use the FlexiAI framework to manage interactions with OpenAI and Azure OpenAI services. For further details, refer to the comprehensive documentation provided in the `docs/` directory.
+
+If you want to contribute to FlexiAI, please read the [Contributing Guide](contributing.md) for guidelines on how to get involved.
