@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+delta_logger.egg-info/PKG-INFO
+delta_logger.egg-info/SOURCES.txt
+delta_logger.egg-info/dependency_links.txt
+delta_logger.egg-info/requires.txt
+delta_logger.egg-info/top_level.txt
+dict_delta_logger/__init__.py
+dict_delta_logger/logger.py
+tests/__init__.py
+tests/test_logger.py
