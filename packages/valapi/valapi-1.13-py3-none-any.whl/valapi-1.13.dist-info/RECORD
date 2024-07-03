@@ -1,0 +1,9 @@
+valapi/__init__.py,sha256=qxDaviWRUZM6oqYp_sxjOzxr3gbBmYrae7EMSBjfQJI,73
+valapi/auth.py,sha256=WIkHissaB48otSxRk5vwPcFOhPPfSOZmjPPqSOXldXY,1739
+valapi/client.py,sha256=9ihhV9CJ4AJfuyIE-xXmkaL6iel2U9bO25ROjcvshrU,41040
+valapi/exceptions.py,sha256=aaAA5ruqRtFSTglvc8wq9OUan7AuYFRgbaQxE_W-fc0,688
+valapi/resources.py,sha256=dyP7a8uNL_cR9PH3HD5WjrBo50RvykRLHw5Nf7_dHzw,563
+valapi-1.13.dist-info/METADATA,sha256=IMvB56RQABwq5P3GCup3WTHbuGRWUcKvgRFxeBPIYyw,764
+valapi-1.13.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+valapi-1.13.dist-info/top_level.txt,sha256=Vs_0tKR223eGGSwx6U6R5rvzF2GTJIY3DXMs8BaLjD4,7
+valapi-1.13.dist-info/RECORD,,
