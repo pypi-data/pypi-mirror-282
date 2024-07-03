@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: qpsk_demod
+Version: 0.1.0
+Summary: A library for QPSK demodulation
+Author: K ABHISHEK MENON
+Author-email: kabhishekmenon@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.18.0
+
+# qpsk_demod
+
+Perform Quadrature Phase Shift Keying (QPSK) demodulation on the received signal.
+
+    Parameters:
+    r (array-like): The received modulated signal.
+    fc (float): Carrier frequency.
+    of (int): Oversampling factor, determining the number of samples per symbol.
+
+    Returns:
+    tuple:
+        a_hat (numpy.ndarray): The estimated binary data stream.
+        x (numpy.ndarray): The demodulated in-phase component.
+        y (numpy.ndarray): The demodulated quadrature component.
+
+    This function performs the following steps:
+    1. Demodulates the in-phase (I) and quadrature (Q) components from the received signal.
+    2. Applies a low-pass filter to extract the baseband signal.
+    3. Downsamples the filtered signals to the symbol rate.
+    4. Estimates the binary data stream by thresholding the demodulated signals.
+
+    Example:
+    >>>import qpsk_demod as qd
+    >>> r = np.array([0.5, -0.5, 1.0, -1.0, 0.5, -0.5, -1.0, 1.0])
+    >>> fc = 100
+    >>> of = 4
+    >>> a_hat, x, y = qd.qpsk_demod(r, fc, of)
+
+## Installation
+
+```sh
+pip install qpsk-demod
