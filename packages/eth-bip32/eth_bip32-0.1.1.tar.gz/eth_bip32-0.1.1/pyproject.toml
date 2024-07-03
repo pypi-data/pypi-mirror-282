@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eth_bip32"
+version = "0.1.1"
+description = "Ethereum BIP32 HD Wallet implementation"
+authors = [{name = "Mate Dravucz"}]
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS :: MacOS X",
+]
+dependencies = [
+    "ecdsa",
+]
+
+[project.urls]
+Homepage = "https://github.com/mattdravucz/eth-bip32"
+Issues = "https://github.com/mattdravucz/eth-bip32/issues"
+
+[tool.setuptools]
+packages = ["eth_bip32", "eth_bip32.keccak"]
+package-dir = {"" = "src"}
