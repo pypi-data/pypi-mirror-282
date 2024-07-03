@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+youtubetogo/__init__.py
+youtubetogo/main.py
+youtubetogo.egg-info/PKG-INFO
+youtubetogo.egg-info/SOURCES.txt
+youtubetogo.egg-info/dependency_links.txt
+youtubetogo.egg-info/entry_points.txt
+youtubetogo.egg-info/requires.txt
+youtubetogo.egg-info/top_level.txt
