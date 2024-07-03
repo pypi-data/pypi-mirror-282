@@ -1,0 +1,2 @@
+[console_scripts]
+sfastping = netissuestools.Superfast_multithread_ping:main
