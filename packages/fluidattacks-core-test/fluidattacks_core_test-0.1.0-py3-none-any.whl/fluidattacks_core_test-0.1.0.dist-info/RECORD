@@ -1,0 +1,6 @@
+src/authz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/authz/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/authz/types.py,sha256=tngC-eq23EJlp6q5eW-uE3Xst5dBhsNcu3wfc5gsfF8,1558
+fluidattacks_core_test-0.1.0.dist-info/METADATA,sha256=n072gKNMVPglgb_jMQN0JKGNk4-Xx7sBhxx7fVHxOgM,619
+fluidattacks_core_test-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fluidattacks_core_test-0.1.0.dist-info/RECORD,,
