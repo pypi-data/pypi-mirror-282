@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rabbitstore/__init__.py
+rabbitstore/rabbitstore.py
+rabbitstore.egg-info/PKG-INFO
+rabbitstore.egg-info/SOURCES.txt
+rabbitstore.egg-info/dependency_links.txt
+rabbitstore.egg-info/requires.txt
+rabbitstore.egg-info/top_level.txt
+tests/test_rabbitstore.py

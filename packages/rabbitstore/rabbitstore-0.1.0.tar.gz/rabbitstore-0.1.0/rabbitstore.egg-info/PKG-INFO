@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: rabbitstore
+Version: 0.1.0
+Summary: A module for storing key-value pairs using RabbitMQ
+Home-page: https://github.com/yourusername/rabbitstore
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pika
+
+# RabbitStore
+
+RabbitStore is a Python module for storing and retrieving key-value pairs using RabbitMQ. It ensures that only the latest value is stored and can be retrieved multiple times.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install rabbitstore
+```
+
+## Usage
+```python
+from rabbitstore import RabbitStore
+
+# Set value
+RabbitStore.set('my_key', {'data': 'value'}, host='localhost', username='guest', password='guest')
+
+# Get value
+value = RabbitStore.get('my_key', host='localhost', username='guest', password='guest')
+print(value)
+
+# Remove value
+RabbitStore.set('my_key', None, host='localhost', username='guest', password='guest')
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
