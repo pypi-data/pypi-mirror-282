@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: stela-professional
+Version: 1.0.0
+Summary: Una librería Django reutilizable.
+Home-page: https://github.com/stelaux
+Author: Emmerut Developer
+Author-email: developer@emmerut.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: boto3
+Requires-Dist: django
+Requires-Dist: django-autoslug
+Requires-Dist: django-ckeditor
+Requires-Dist: django-cities-light
+Requires-Dist: django-crispy-forms
+Requires-Dist: django-cron
+Requires-Dist: django-environ
+Requires-Dist: django-hosts
+Requires-Dist: django-js-asset
+Requires-Dist: django-restframework
+Requires-Dist: django-storages
+Requires-Dist: facebook-business
+Requires-Dist: google-api-python-client
+Requires-Dist: gunicorn
+Requires-Dist: openai
+Requires-Dist: paypal-checkout-serversdk
+Requires-Dist: phonenumbers
+Requires-Dist: pillow
+Requires-Dist: psycopg2-binary
+Requires-Dist: python-amazon-paapi
+Requires-Dist: python-dateutil
+Requires-Dist: pycountry
+Requires-Dist: pytz
+Requires-Dist: stripe
+Requires-Dist: tqdm
+Requires-Dist: Unidecode
+
