@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: InstantLight
+Version: 0.1.0
+Summary: A Python SDK for your API
+Home-page: https://github.com/FotographerAI/InstantLight-sdk/
+Author: Saliou Kane
+Author-email: saliou@fotographer.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# InstantLight-sdk
+
+## Installation
+
+Install the SDK using pip:
+
+```bash
+pip install InstantLight
+
