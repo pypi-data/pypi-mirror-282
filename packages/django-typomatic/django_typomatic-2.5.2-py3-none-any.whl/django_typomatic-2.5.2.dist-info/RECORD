@@ -1,0 +1,15 @@
+django_typomatic/__init__.py,sha256=8ktJdcW_v6s5RAZ72_9opn7CaeLuiJ-PBiYR66TZRvY,26446
+django_typomatic/__init__.pyi,sha256=C7l8pQW21HrKrcDyDe0SMyH15-_07c_gBVB0-BIyRKg,651
+django_typomatic/mappings.py,sha256=ZL_h3HjWPX0zmc4Hjr-Mvn42gp7rn4r6b3AWD35N160,2393
+django_typomatic/test__init__.py,sha256=pq8DImYJGJMefSV-wmaiZy63m3xhk71UvCLT0ft6gG0,12097
+django_typomatic/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typomatic/management/apps.py,sha256=vhWkWsykpD5lkCGmniTQxYDt_KZ2WZFQ7MlWaEW5fgE,197
+django_typomatic/management/models.py,sha256=DgpYcWop4pnz9VcjUIYYubxj-cv4B8hdQG4VvhGAxdQ,1149
+django_typomatic/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typomatic/management/commands/generate_ts.py,sha256=OxuOXew4jgEyzgYmvyffy3kHpusH-ux2f_fTPo0zBCY,5655
+django_typomatic/management/settings/__init__.py,sha256=dDbnT330BQ26uYVq-gigpSyG_UiB-RXboYj9GOttTxc,136
+django_typomatic-2.5.2.dist-info/LICENSE,sha256=1T3ssRgrdEhCIY_bn1oFtmTqal98FhN-FgaAGU0EmY8,1068
+django_typomatic-2.5.2.dist-info/METADATA,sha256=nwfqAeu8pFhGMvivN_wrSqaE7lWydH7MCgljpxS9PJ0,9911
+django_typomatic-2.5.2.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+django_typomatic-2.5.2.dist-info/top_level.txt,sha256=e7TtKReFtbtwcn9lXDlNsydkdgJjsXzYQFD2Pk3zzBo,17
+django_typomatic-2.5.2.dist-info/RECORD,,
