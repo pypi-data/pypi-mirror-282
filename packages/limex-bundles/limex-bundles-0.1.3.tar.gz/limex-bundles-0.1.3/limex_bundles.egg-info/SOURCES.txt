@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+limex_bundles.egg-info/PKG-INFO
+limex_bundles.egg-info/SOURCES.txt
+limex_bundles.egg-info/dependency_links.txt
+limex_bundles.egg-info/entry_points.txt
+limex_bundles.egg-info/requires.txt
+limex_bundles.egg-info/top_level.txt
+limexhub-bundles/__init__.py
+limexhub-bundles/installer.py
