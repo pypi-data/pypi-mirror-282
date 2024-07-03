@@ -1,0 +1,10 @@
+jj_spec_validator/__init__.py,sha256=fHTGowmY6mL-vnPHPRWk0ZlaWFnvrf0OnlcbTkzuLOA,70
+jj_spec_validator/validate_spec.py,sha256=9DhcDXk-Hsx_jtHGuHxt1NVy9tjeMYFMwgzkm1bKxBQ,3351
+jj_spec_validator/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jj_spec_validator/utils/__init__.py,sha256=gioRdr07DDkmA48q_MPAde9j66_TWNgF2u3ZQ4HiLYU,69
+jj_spec_validator/utils/_cacheir.py,sha256=NjDY871kIzerAPTaXWFDSinu1yWbJICL_VIqY5STACY,1945
+jj_spec_validator/utils/_common.py,sha256=7LZQaSiJAhSRGPUZxUJTApd6Myp-pigYzfS5SI8qIn4,205
+jj_spec_validator-0.1.0.dist-info/METADATA,sha256=s89Hhxrw-CasKRewjKZh8t4-EaT6d3N0vMk2VvV3AKY,1433
+jj_spec_validator-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+jj_spec_validator-0.1.0.dist-info/top_level.txt,sha256=TmqrMky_6PzK8DgwDtbtLuaErck_9nalmoY8nrdTeV4,18
+jj_spec_validator-0.1.0.dist-info/RECORD,,
