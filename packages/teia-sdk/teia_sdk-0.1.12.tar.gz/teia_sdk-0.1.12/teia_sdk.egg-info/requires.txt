@@ -1,0 +1,11 @@
+fastapi
+http_error_schemas
+melting_schemas==1.0.13
+httpx
+python-dotenv
+requests
+rich
+typer[all]
+
+[test]
+pytest
