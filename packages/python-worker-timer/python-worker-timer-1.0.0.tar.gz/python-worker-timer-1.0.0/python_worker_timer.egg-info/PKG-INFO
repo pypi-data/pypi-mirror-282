@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-worker-timer
+Version: 1.0.0
+Summary: Python Worker Extension Demo
+Home-page: https://your-github-or-pypi-link
+Author: Gordon
+Author-email: gordon.hamilton@datadoghq.com
+License: MIT
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+
+# Python Worker Extension Timer
+
+In this file, tell your customers when they need to call `Extension.configure()`.
+
+The readme should also document the extension capabilities, possible configuration,
+and usage of your extension.
