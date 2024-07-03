@@ -1,0 +1,2 @@
+[console_scripts]
+install_bundle = limex_bundles.installer:install_bundle
