@@ -1,0 +1,9 @@
+tarwiiga/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tarwiiga/llm.py,sha256=JL5XBBnjtApiWP5sk1f9vqI42_-F-LVTfOgTBuivQMY,216
+tarwiiga/adgen/__init__.py,sha256=IA12SP_nazDhWKB72HZiNfDvbicr58UP8YodALJOSrU,40
+tarwiiga/adgen/generator.py,sha256=Wdgdo7EaLToXBI8niOJC99pMbXnq8NANnn2AeJ3YAJY,3296
+tarwiiga/sitegen/__init__.py,sha256=BGPDsoa4QIQyHI5gF9VvU-aAi4V2In_qX2k1Q_OmNFU,37
+tarwiiga/sitegen/generator.py,sha256=e3J1KwNK_fv7bTeBTkv54LgBAjLp2bOhN0TwVoAaiyQ,2167
+tarwiiga-0.0.0.dist-info/METADATA,sha256=2dV4yB8foQMrPjpQB9ndNHK14UpRshRIam45e_y_0xQ,268
+tarwiiga-0.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+tarwiiga-0.0.0.dist-info/RECORD,,

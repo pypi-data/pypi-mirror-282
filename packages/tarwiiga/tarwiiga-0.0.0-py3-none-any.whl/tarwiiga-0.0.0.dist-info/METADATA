@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: tarwiiga
+Version: 0.0.0
+Summary: Tarwiiga Python Package
+Author-email: Tarwiiga <tarwiiga@gmail.com>
+Requires-Python: >=3.11
+Requires-Dist: langchain
+Requires-Dist: langchain-google-genai
+Description-Content-Type: text/markdown
+
+# Tarwiiga
