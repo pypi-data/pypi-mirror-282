@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+roamlinks-eostrebis = mkdocs_roamlinks_eostrebis_plugin.plugin:RoamLinksPlugin
