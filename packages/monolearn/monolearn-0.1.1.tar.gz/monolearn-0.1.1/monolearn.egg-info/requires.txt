@@ -1,0 +1,2 @@
+subsets
+optisolveapi[pysat]>=0.3.1

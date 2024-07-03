@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: monolearn
+Version: 0.1.1
+Summary: Learning monotone Boolean functions
+Author-email: Aleksei Udovenko <aleksei@affine.group>
+License: MIT License
+Project-URL: Repository, https://github.com/hellman/monolearn
+Keywords: monotone,Boolean,learning
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: subsets
+Requires-Dist: optisolveapi[pysat]>=0.3.1
