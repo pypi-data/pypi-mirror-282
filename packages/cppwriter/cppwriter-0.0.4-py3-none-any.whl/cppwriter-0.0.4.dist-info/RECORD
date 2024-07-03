@@ -1,0 +1,10 @@
+cppwriter/__init__.py,sha256=G2pg_0MjU2rbJzzLYAB8-8MyvJz0q1YTqj-pv_OLY4A,152
+cppwriter/block.py,sha256=s8Zf_5YRPt8Qsn9aqdWdMyeGiO4l1Psra-7QeCGzHbw,1651
+cppwriter/block_enum.py,sha256=k2-_vQWhreEzdpybqn2RGVoVn6JPbNp4Anuqu6dXPs8,1541
+cppwriter/block_file.py,sha256=Fag_1aSe-4TnYUfxWtoc_PWog4Xq88w6LYfK8YHHf24,1443
+cppwriter/block_function.py,sha256=VJAFuRTKPFuRGluw3N88YpFskwr7FGbqdKieXszVN60,2613
+cppwriter-0.0.4.dist-info/LICENSE,sha256=6oWnAhOJ2J6ZnSst3Zjn92bV6Fh64rd4rN5W8Pqdwg0,1067
+cppwriter-0.0.4.dist-info/METADATA,sha256=sJMIPtYVWwO2iQxd5rfN4YotVI3PnyLGMzsOr9tqS9c,1582
+cppwriter-0.0.4.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+cppwriter-0.0.4.dist-info/top_level.txt,sha256=vvynS08DnDTTgIm6DmPrPViqufZ3qhT4DW0dwf4nQL8,10
+cppwriter-0.0.4.dist-info/RECORD,,
