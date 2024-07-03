@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pyditto
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Alexis Manuel
+Author-email: alexis.manuelpro@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# ditto: dependency injection tool
+
+ditto is a simple and lightweight dependency injection tool for Python.
+
+## Installation
+
+```sh
+pip install ditto
+```
+
+## Usage
+```python
+from ditto.core import ServiceRegistry
+
+registry = ServiceRegistry.get_instance()
+
+class Service:
+    pass
+
+registry.register('service', Service)
+service = registry.get('service')
+```
+
