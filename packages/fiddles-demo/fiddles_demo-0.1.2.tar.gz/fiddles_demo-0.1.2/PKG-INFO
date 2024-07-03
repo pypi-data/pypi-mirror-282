@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fiddles-demo
+Version: 0.1.2
+Summary: Fiddles demo repo
+Home-page: https://gitlab.com/j-dominguez9/fiddles_demo
+Author: Joaquin Dominguez
+Author-email: joaquin.dominguez@proton.me
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://gitlab.com/j-dominguez9/fiddles_demo
+Description-Content-Type: text/markdown
+
+
