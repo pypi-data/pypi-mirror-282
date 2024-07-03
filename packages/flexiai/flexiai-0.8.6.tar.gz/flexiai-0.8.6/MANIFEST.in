@@ -1,0 +1,15 @@
+# Include the README and other documentation files
+include README.md
+include LICENSE.txt
+include requirements.txt
+include .env.template
+
+# Include the docs directory and all its contents
+recursive-include docs *
+
+# Include all Python files and other necessary files from the flexiai package
+recursive-include flexiai *.py *.json *.csv
+
+# Exclude __pycache__ directories and compiled Python files
+global-exclude __pycache__
+global-exclude *.py[cod]
