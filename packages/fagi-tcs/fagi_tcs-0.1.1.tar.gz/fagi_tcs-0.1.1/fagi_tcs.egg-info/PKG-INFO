@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fagi-tcs
+Version: 0.1.1
+Summary: We help GenAI teams maintain high-accuracy for their Models in production.
+Home-page: https://github.com/future-agi/clients
+Author: FutureAgi
+Author-email: noreply@mail.futureagi.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: certifi==2024.6.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.7
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.2
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.1
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-futures==1.0.1
+Requires-Dist: six==1.16.0
+Requires-Dist: tzdata==2024.1
+Requires-Dist: urllib3==2.2.2
+
+# TFC
+
+We help GenAI teams maintain high-accuracy for their Models in production
+Purpose Built, Scalable & 10X faster than traditional methods
+
+We know that GenAI teams struggle with ensuring optimal performance in production. We are simplifying this by streamlining the process and empowering AI teams to focus on what they do best—developing exceptional AI models
+
+Get evaluation without 
+Human-in-the-Loop or Ground Truth
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install tfc
+pip install git+https://github.com/future-agi/clients 
+
