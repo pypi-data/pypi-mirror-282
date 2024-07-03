@@ -1,0 +1,46 @@
+name: Automated Build Release Publish
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        fetch-tags: 'true'
+    - name: Build
+      with:
+        gradle-encryption-key: ${{ secrets.GradleEncryptionKey }}
+      uses: ./.github/actions/build
+    - name: Zip release files into Java and Python packages
+      run: |
+        sudo apt-get install zip tar
+        zip -r ./python.zip ./src/main/python
+        zip -r ./java.zip ./src/main/java
+        tar -czvf ./python.tar.gz ./src/main/python
+        tar -czvf ./java.tar.gz ./src/main/java
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+          ./python.zip
+          ./python.tar.gz
+          ./java.zip
+          ./java.tar.gz
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag_name: ${{ github.ref_name }}
+        generate_release_notes: true
+    - name: Publish package
+      run: gradle publish
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
