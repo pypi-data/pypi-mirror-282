@@ -1,0 +1,11 @@
+processpdfdocs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+processpdfdocs/download_models.py,sha256=ETz3s-T8GU_8wiO8MFhZBHQ7Tg0PpY0iYG7231cw9Uo,1658
+processpdfdocs/processor.py,sha256=mokoU0a9rnTfT3NlUloM64XrrwPqqIcLSxfbgcdX2nk,1312
+processpdfdocs/utils.py,sha256=bafc1zzms31WGiMwoT4Fml_ekrkSqWGehR08nHIUPHo,10623
+processpdfdocs/models/cell_detect.pt,sha256=_vDnTRlAc5_diMN__hvSDygoof90Wjw7N-qED4okN5M,6251993
+processpdfdocs/models/rotation_new_data.onnx,sha256=PoUgC5mqNBGNDInR0w-8x3y-rd2ZDScLU1JksdaCK2k,14571773
+processpdfdocs/models/table_detect.pt,sha256=bCJCPeTutAMySPtrkcDTrj5hbh8yEz0WzYohggSqrKI,6243481
+processpdfdocs-0.0.3.dist-info/METADATA,sha256=mWaxEAu-9cOct2j7MHfSgND-VqpCCFlDGtAFkp04hBY,719
+processpdfdocs-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+processpdfdocs-0.0.3.dist-info/licenses/LICENSE,sha256=APtd1FvOfa7ZMxIZmhVmTYG8vLInOoyDA7V2Y5EBcJk,1076
+processpdfdocs-0.0.3.dist-info/RECORD,,
