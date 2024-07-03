@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: AdeptML
+Version: 1.0
+Summary: A High-Level PyTorch based Library for Hybrid Physics-Informed Machine Learning Models
+Author: Manaswin Oddiraju
+Requires-Python: >=3.9.0,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: docs
+Requires-Dist: Sphinx (==7.3.7) ; extra == "docs"
+Requires-Dist: jax (>=0.4.18,<0.5.0)
+Requires-Dist: joblib (>=1.3.2,<2.0.0)
+Requires-Dist: sphinx-rtd-theme (==2.0.0) ; extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon (==0.7) ; extra == "docs"
+Requires-Dist: tensorboard (>=2.16.2,<3.0.0)
+Requires-Dist: torch (>=2.1.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Auto-differentiable embedding of Physics and Torch Machine Learning (AdePT-ML):
+
+This is a convienience library built on top of PyTorch to enable easy integration and training of hybrid models involving physics and deep learning modules. 
+
+### Features
+1. Pre-defined Modules and configs for physics and MLP architectures.
+2. Physics Module accepts physics functions which return numpy arrays.
+3. Ability to input custom PyTorch nn classes.
+4. Ensemble Module allows easy integration of constituent physics and ML modules for simple inference and training.
+5. Auto-log training data with tensorboard.
+
+## Installation
+Installing with pip
+```
+pip install adeptml 
+```
+## Requirements (Automatically installed with pip): 
+1. PyTorch (https://pytorch.org/)
+2. Joblib (https://joblib.readthedocs.io/en/latest/) (For loading and saving model parameters)
+3. Tensorboard
+
+## Documentation:
+Visit our [Read the docs page](https://adept-ml.readthedocs.io/en/latest/)
+
+## Examples:
+Refer to the tests file. Additional examples will be added soon.
+
+
