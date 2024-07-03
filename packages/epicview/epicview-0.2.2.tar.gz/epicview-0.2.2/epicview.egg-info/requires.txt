@@ -1,0 +1,6 @@
+trame
+trame-vuetify
+trame-vtk
+vtk
+pandas
+pyyaml
