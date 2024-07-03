@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "opagen"
+version = "0.1.2"
+description = "generate opa accounts"
+authors = ["sweatrs"]
+readme = "README.md"
+include = ["opagen/words.txt"]
+
+[tool.poetry.scripts]
+opagen = "opagen.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.22.0"
+typer = "^0.12.3"
+undetected-chromedriver = "^3.5.5"
+rich = "^13.7.1"
+setuptools = "^70.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
