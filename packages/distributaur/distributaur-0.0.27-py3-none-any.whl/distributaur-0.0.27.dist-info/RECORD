@@ -1,0 +1,15 @@
+distributaur/__init__.py,sha256=lnam_jv7p38YVOWjtZy6SMCnYupn-yJrXDfKF9dCoyc,28
+distributaur/distributaur.py,sha256=EQmJ55KdtlpyWkYyR13Jsj6KYPypV0Jue19u_Okwo-Q,28780
+distributaur/example/__init__.py,sha256=Ta78VBcFD6IOrS_8st_0z5_CIDjDX-KIcTtc57F0NoE,92
+distributaur/example/distributed.py,sha256=hhhF3yHV8XVu72ZcB62IxAfgoelsnrdplaMaT9KFtQE,3379
+distributaur/example/local.py,sha256=ZzTAmPwarH366zWBVTGIYQlw7HFJuI6ZOCZfiKzsIro,4135
+distributaur/example/shared.py,sha256=z7ioF0tI1XVFn-SHGm6M0sKmuuecpm1sn0ThuO76Opo,834
+distributaur/example/worker.py,sha256=BTqNbNwvOLBm8bEOsXTJaJWgTPZMEdbYlcmsR4ORsaQ,128
+distributaur/tests/__init__.py,sha256=Dt-IGszzgc3pgSmFC1rZGzihuRAt1679AA-hgnxwJoQ,43
+distributaur/tests/tests.py,sha256=bPWd7ORlOzT4fR7gGfW-a_rRlaNeizl51BZwVMNZ_6U,12766
+distributaur/tests/worker.py,sha256=swt6Itl4f2QLMyzCFTzb2uKyfMkddc00UDgvutPTgTk,323
+distributaur-0.0.27.dist-info/LICENSE,sha256=27jsz0mFpX12HOCriY24qaoKox2959iM6pQOTWAe_Rc,1126
+distributaur-0.0.27.dist-info/METADATA,sha256=oJg3AsDVdLzUwYNgblrJ_i1VmYKK19NS0wboZTiRZEk,4062
+distributaur-0.0.27.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+distributaur-0.0.27.dist-info/top_level.txt,sha256=-mplYkDpW3-rQ1pJuL9ZE7qDr3ZMMzFfr_0Y1-ZAd80,13
+distributaur-0.0.27.dist-info/RECORD,,
