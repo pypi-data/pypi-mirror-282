@@ -1,0 +1,23 @@
+include README.md
+include LICENSE
+include CONTRIBUTED
+include CHANGELOG.md
+include requirements.txt
+include Pipfile
+include tox.ini
+include .coveragerc
+include snapcraft.yaml
+
+graft tests
+graft kecpkg
+prune .idea
+prune .env*
+exclude .env.template
+prune *.depr
+exclude build_release.sh
+recursive-include kecpkg *.template
+
+global-exclude *.pyc
+exclude *-OFF
+exclude *.yml
+prune .github

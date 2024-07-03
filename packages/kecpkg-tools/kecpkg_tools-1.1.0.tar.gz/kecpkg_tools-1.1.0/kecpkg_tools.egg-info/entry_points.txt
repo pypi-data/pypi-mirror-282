@@ -1,0 +1,2 @@
+[console_scripts]
+kecpkg = kecpkg.cli:kecpkg
