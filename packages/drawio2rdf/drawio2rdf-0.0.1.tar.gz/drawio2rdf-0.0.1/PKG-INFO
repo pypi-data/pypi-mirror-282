@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: drawio2rdf
+Version: 0.0.1
+Summary: A small package to convert a DrawIO graph to RDF datasets
+Author-email: Daniel Prett Campagna <danielprett@gmail.com>
+Project-URL: Homepage, https://github.com/danielpcampagna/drawio2rdf
+Project-URL: Issues, https://github.com/danielpcampagna/drawio2rdf/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: click==8.1.7
+Requires-Dist: n2g==0.3.3
+Requires-Dist: rdflib==7.0.0
+
+# drawio2rdf
