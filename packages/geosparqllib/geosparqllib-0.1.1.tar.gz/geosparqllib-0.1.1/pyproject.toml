@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "geosparqllib"
+version = "0.1.1"
+description = "A Python functions library for working with GeoSPARQL data"
+authors = ["Nicholas Car <nick@kurrawong.ai>"]
+license = "BSD 3-clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rdflib = "^7.0.0"
+shapely = "^2.0.4"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
