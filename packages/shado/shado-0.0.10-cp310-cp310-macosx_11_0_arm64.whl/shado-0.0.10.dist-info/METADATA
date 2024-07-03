@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: shado
+Version: 0.0.10
+Summary: Python bindings for Li et al. 2019's shadow function for orbital eclipse modeling
+Author-email: Liam Robinson <liamers127@gmail.com>
+Project-URL: Repository, https://github.com/liamrobinson1/shado
+Requires-Python: >=3.9
+
