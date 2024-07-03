@@ -1,0 +1,8 @@
+global-exclude tests/*
+global-exclude zeta/utils/*
+
+include pyproject.toml
+include setup.py
+include zeta/sdk/*
+include zeta/utils/__init__.py
+include zeta/utils/logging.py

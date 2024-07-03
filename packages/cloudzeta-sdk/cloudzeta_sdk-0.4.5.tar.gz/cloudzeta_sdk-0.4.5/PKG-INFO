@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cloudzeta-sdk
+Version: 0.4.5
+Summary: Cloud Zeta Python SDK
+Author: Zeta Computing, Inc.
+Author-email: "Zeta Computing, Inc." <dev@cloudzeta.com>
+Project-URL: Homepage, https://github.com/cloud-zeta/zeta-samples
+Project-URL: Issues, https://github.com/cloud-zeta/zeta-samples/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography>=3.4.8
+Requires-Dist: google-cloud-firestore>=2.14.0
