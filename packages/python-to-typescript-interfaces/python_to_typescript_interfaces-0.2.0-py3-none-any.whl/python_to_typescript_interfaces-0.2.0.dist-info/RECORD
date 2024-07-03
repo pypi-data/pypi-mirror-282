@@ -1,0 +1,12 @@
+python_to_typescript_interfaces/__init__.py,sha256=q4bpX79QbnzBIKWu-B5K60ae52wCjkk0H-nmN5Oc0m0,100
+python_to_typescript_interfaces/cli.py,sha256=oXeXq8aZXCH9sAkD3ZOaK4H_5VlWRNuPVIdXE04Dy90,3061
+python_to_typescript_interfaces/parser.py,sha256=Bpgb93MVUvKl1VGecApMGzHOmbF0GCLbP7E_S6UgqMQ,13499
+python_to_typescript_interfaces/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_to_typescript_interfaces/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_to_typescript_interfaces/tests/tests.py,sha256=BadGDAL_WIKNZOjgkr_MDdw-kX2uPYDlsDLRLx1Fnz4,22112
+python_to_typescript_interfaces/tests/utils.py,sha256=2RhtrM_UM6iXsKhzrpaaQMdBbb34-PrteXFHgH2xPxo,296
+python_to_typescript_interfaces-0.2.0.dist-info/LICENSE,sha256=od2vfJkNWw7M7Gw1t331u1f610zBu65SqfzbTGZI6eg,1068
+python_to_typescript_interfaces-0.2.0.dist-info/METADATA,sha256=gS-cWLSvoLMlyH6gPc2D1-Ra-PI5C9EL1L-gXtIMt3w,12222
+python_to_typescript_interfaces-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+python_to_typescript_interfaces-0.2.0.dist-info/entry_points.txt,sha256=TuyfS-YyJKwYihhzmfRidx3EzyrlLKlZWsutzCCgQRY,92
+python_to_typescript_interfaces-0.2.0.dist-info/RECORD,,
