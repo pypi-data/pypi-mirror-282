@@ -1,0 +1,10 @@
+LICENSE
+README.md
+instarchive.py
+pyproject.toml
+instarchive.egg-info/PKG-INFO
+instarchive.egg-info/SOURCES.txt
+instarchive.egg-info/dependency_links.txt
+instarchive.egg-info/entry_points.txt
+instarchive.egg-info/requires.txt
+instarchive.egg-info/top_level.txt
