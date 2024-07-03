@@ -1,0 +1,10 @@
+README.md
+setup.py
+windowpackage/__init__.py
+windowpackage/windows_canny.py
+windowpackage/windows_rename.py
+windowpackage.egg-info/PKG-INFO
+windowpackage.egg-info/SOURCES.txt
+windowpackage.egg-info/dependency_links.txt
+windowpackage.egg-info/requires.txt
+windowpackage.egg-info/top_level.txt
