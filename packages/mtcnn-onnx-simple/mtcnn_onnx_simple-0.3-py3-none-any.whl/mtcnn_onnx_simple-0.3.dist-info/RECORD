@@ -1,0 +1,12 @@
+mtcnn_onnx_simple/__init__.py,sha256=ePJw9eJxR0tT3SoF5WH9zjoyrbregfQr4Ss9uQIFuNo,51
+mtcnn_onnx_simple/align.py,sha256=-Zt1_-bfrWE5ABlJpzGcOy7ZY0Thm6-Wo_Pf2rFDxCo,654
+mtcnn_onnx_simple/align_transformations.py,sha256=Y3ZdoX96uzaoc4IbHcrh8_ORerR__tIhKqUdTbeBtfs,5056
+mtcnn_onnx_simple/first_stage.py,sha256=02tNwuuPBVBHsMqqJowZzFBtLelLn8hA3EXvCFB6hkI,1602
+mtcnn_onnx_simple/helpers.py,sha256=MN1_WcbvpjBGr-U7A6IsS0U8pycIynIFeiDEhGZUUX4,4954
+mtcnn_onnx_simple/matlab_cpt2form.py,sha256=aI1QB4_joLxKT_2BMCMSdFRbqvMqMLDS4FpJ-Ewl4hc,8515
+mtcnn_onnx_simple/mtcnn.py,sha256=TKs-lzmSzjqBDcSuyYP0RT0U-YutO96SD_JzAlQX9Iw,4874
+mtcnn_onnx_simple-0.3.dist-info/LICENSE.txt,sha256=BKfn0uy5tD6ma-Z2QSZCdkYB_VSdCirq4ubTGbjE30k,1071
+mtcnn_onnx_simple-0.3.dist-info/METADATA,sha256=lNb77kaBY5YRoVM3trvMtZ0FzY8rio_ka07ykX054r4,3035
+mtcnn_onnx_simple-0.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+mtcnn_onnx_simple-0.3.dist-info/top_level.txt,sha256=4fLS-ZIZT2RLMeCD_YlLEArnR6sn0aafaBkeJjeSM84,18
+mtcnn_onnx_simple-0.3.dist-info/RECORD,,
