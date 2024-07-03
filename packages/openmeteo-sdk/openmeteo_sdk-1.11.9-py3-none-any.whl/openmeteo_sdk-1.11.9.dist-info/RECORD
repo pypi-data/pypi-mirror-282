@@ -1,0 +1,12 @@
+openmeteo_sdk/Aggregation.py,sha256=dXdszkU7k056NOAoasoWFajZhyODUoHhsMM_NNtet40,276
+openmeteo_sdk/Model.py,sha256=mTKLy4X9PeOEhH5iLH0TaTUoN5p-qznByt0FAum92BU,1884
+openmeteo_sdk/Unit.py,sha256=2aVb6Hm73GsiBZJwqlekTtc__Z9bOUAmZgNURzyt79w,1092
+openmeteo_sdk/Variable.py,sha256=V9azOXZ8rx89Vv1DW9bXi4eVoZTwM5f4k0Xpxdw5AJs,3024
+openmeteo_sdk/VariableWithValues.py,sha256=1DjftedtbVHx7YMWgGncmaA0AEAR2nvZrCjjn4YZcc4,5348
+openmeteo_sdk/VariablesWithTime.py,sha256=_LxjGoMMM7retaCTS6nWhEwl44IXHTxwG6KEceYkshk,2487
+openmeteo_sdk/WeatherApiResponse.py,sha256=uqYF7lS2fzM3XHRhnDVsLuEdtGCDKw0QMVUO9SjWXEA,4995
+openmeteo_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openmeteo_sdk-1.11.9.dist-info/METADATA,sha256=3fCMCwTA3xdbCU74xdKkt0dh2gsIR5QFye2Dvbrr0nw,13573
+openmeteo_sdk-1.11.9.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+openmeteo_sdk-1.11.9.dist-info/licenses/LICENSE,sha256=Bve99gTbFQ4T59iYp3VmnbNNKNi7PuOb7iAd5mbvrpQ,1067
+openmeteo_sdk-1.11.9.dist-info/RECORD,,
