@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: getversionpkg
+Version: 0.3
+Summary: This is a tesp package
+Requires-Python: >=3.6
+
