@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: colorty
+Version: 0.1.0
+Summary: A simple library for handling colored text in terminal environments.
+Home-page: https://github.com/dynstat/colorty
+Author: Vivek
+Author-email: xsvk@gmx.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
