@@ -1,0 +1,16 @@
+fb_api_wrapper/__init__.cp39-win_amd64.pyd,sha256=7su8eOfvEtaDSsTlK3d2DS3U4Fky-0MzXd-z1g12xBc,18944
+fb_api_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fb_api_wrapper/define_api.cp39-win_amd64.pyd,sha256=oup1h9zFzCUsUm_5dWYiYLXxhB9Ue-av98FnAguTIRA,23552
+fb_api_wrapper/define_api.py,sha256=GjIWvLMrlFxBEGg1gnRqyiV4Xm897H0nnjidcAMNMQ4,1021
+fb_api_wrapper/fb_api_wrapper.py,sha256=N9GcSfC1HRUh74LJANsTEV6ijaAkIhMc7647J5dqXrk,33
+fb_api_wrapper/fb_api_wrapper_core.cp39-win_amd64.pyd,sha256=iUcPiK9NUha2auIHTBPTTv5YXCFur4jgToIGWhLqaOU,142848
+fb_api_wrapper/fb_api_wrapper_core.py,sha256=fAHmyThuGIzizF8IK1hiA2YL1NVjmfSAxSIhIbL4bKM,20720
+fb_api_wrapper/parse_api.cp39-win_amd64.pyd,sha256=2a8SQ_XzYI4UvXlfj9QCsOebLFto4LqEqXWkzm_d8N8,69632
+fb_api_wrapper/parse_api.py,sha256=nCRe4FxK4r0kAg-Bh5YdHIVd7WVpIQMOv34Sqe_mU0Q,4067
+fb_api_wrapper/utils.cp39-win_amd64.pyd,sha256=mnv66xy8K_U3Pkl0gAGefwWKvhShGO88vtho6HPiBuQ,58880
+fb_api_wrapper/utils.py,sha256=vISN84oDTZMgWcxnpw0saqD3YWn49rMWWckrV28YA44,537
+fb_api_wrapper-1.0.6.dist-info/LICENSE,sha256=RcflPnoM6QAKCygr44WWjnuOyZA6sCUJkl9lj-tZRg8,1080
+fb_api_wrapper-1.0.6.dist-info/METADATA,sha256=TTlWi0Ekhd6wKmA1mOMueCb1ltNlryPpmaceHFjHU_E,375
+fb_api_wrapper-1.0.6.dist-info/WHEEL,sha256=jIuyxRbLEr9PSjyxoyoXHpcF338wJoz57VTFOnxpL1M,99
+fb_api_wrapper-1.0.6.dist-info/top_level.txt,sha256=k1AvCXYFVzG1a1xbcBUs7784PaTUtMaUMMEmh0vmST0,15
+fb_api_wrapper-1.0.6.dist-info/RECORD,,
