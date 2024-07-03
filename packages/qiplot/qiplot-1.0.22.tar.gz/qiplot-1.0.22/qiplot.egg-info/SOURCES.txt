@@ -1,0 +1,17 @@
+.gitignore
+README.md
+setup.py
+win_qiplot.bat
+qiplot/__init__.py
+qiplot/bak.plot1d.py
+qiplot/colors.py
+qiplot/imageroi.py
+qiplot/logconf.py
+qiplot/plot1d.py
+qiplot/plot2d.py
+qiplot/reader.py
+qiplot.egg-info/PKG-INFO
+qiplot.egg-info/SOURCES.txt
+qiplot.egg-info/dependency_links.txt
+qiplot.egg-info/entry_points.txt
+qiplot.egg-info/top_level.txt
