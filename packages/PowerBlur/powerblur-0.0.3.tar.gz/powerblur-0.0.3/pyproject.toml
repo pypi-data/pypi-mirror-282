@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PowerBlur"
+version = "0.0.3"
+dependencies = [
+  "numpy",
+  "pillow",
+]
+requires-python = ">=3.0"
+authors = [
+  { name="徐付豫", email="xufuyu-mg@outlook.com" },
+  { name="校溯", email="xiaosu-1009@qq.com" },
+]
+maintainers = [
+  { name="徐付豫", email="xufuyu-mg@outlook.com" },
+]
+description = "PowerBlur is an image blur processing tool based on Pillow, which can achieve ground glass effects similar to systems such as Win/Mac."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["PowerBlur", "powerblur"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/xiaosuyyds/PowerBlur/invitations"
+
