@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dimed
+Version: 0.2
+Summary: Dimed for CLI and packaging
+Author-email: Dmitry Sorokin <dmd40in@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: cookiecutter
+Requires-Dist: dimed-2
+
+Dimed for cli and packaging
