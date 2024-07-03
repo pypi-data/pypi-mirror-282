@@ -1,0 +1,9 @@
+dict_delta_logger/__init__.py,sha256=xjQZ71ICrUJp2L-O8YXhjHL1AMXKiitxJe4wXM4GKHE,67
+dict_delta_logger/logger.py,sha256=Rly_IUnATR1otXd9ZX0fVxLuzcU6qHf2XGcO1FD9Tv8,6943
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_logger.py,sha256=lkwzlAaAkZ2VLckjywPz3hWSjcVMwYZXMGNOIpsT9Z4,946
+dict_delta_logger-0.1.0.dist-info/LICENSE,sha256=M0_zGwyKlPz62D3Lh4fHB-n_ivg7Y6Ss8CHwktNLQAs,31
+dict_delta_logger-0.1.0.dist-info/METADATA,sha256=h2wo-UqDsbakMmpFXHp_p9R6WKmnGIHb_N-Ig5KWXso,1616
+dict_delta_logger-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dict_delta_logger-0.1.0.dist-info/top_level.txt,sha256=ovhUVTSiUykt-0GospBsktk0H7bu7xgAPIScPXGHqq0,24
+dict_delta_logger-0.1.0.dist-info/RECORD,,
