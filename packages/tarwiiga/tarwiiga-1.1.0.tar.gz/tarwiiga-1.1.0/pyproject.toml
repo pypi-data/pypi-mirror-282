@@ -1,0 +1,33 @@
+[project]
+name = "tarwiiga"
+version = "1.1.0"
+authors = [{ name = "Tarwiiga", email = "tarwiiga@gmail.com" }]
+description = "Tarwiiga Python Package"
+readme = "README.md"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langchain-google-genai",
+    "langchain-anthropic",
+    "langchain-together",
+    "langchain-groq",
+    "google-ads",
+    "python-decouple",
+    "GitPython"
+]
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tarwiiga/tarwiiga"
+Documentation = "https://docs.tarwiiga.com"
+Issues = "https://github.com/tarwiiga/tarwiiga/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
