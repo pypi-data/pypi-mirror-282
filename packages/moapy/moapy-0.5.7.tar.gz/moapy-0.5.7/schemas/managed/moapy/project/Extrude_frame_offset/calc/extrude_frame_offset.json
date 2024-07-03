@@ -1,0 +1,133 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/moapy/project/Extrude_frame_offset/calc/extrude_frame_offset": {
+      "post": {
+        "summary": "Extrude Frame Offset",
+        "description": "extrude_frame_offset\n\nArgs:\n    local_axis (str): local axis\n    extrude_length (str): extrude length\n    matl_id (int): matl_id\n    sect_id (int): sect_id\n\nReturns:\n    str: success or error message",
+        "operationId": "extrude frame offset",
+        "parameters": [
+          {
+            "name": "local_axis",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Local Axis"
+            }
+          },
+          {
+            "name": "extrude_length",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Extrude Length"
+            }
+          },
+          {
+            "name": "matl_id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Matl Id"
+            }
+          },
+          {
+            "name": "sect_id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Sect Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "title": "Response Extrude Frame Offset"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}
