@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+app/main.py
+finaces_ws.egg-info/PKG-INFO
+finaces_ws.egg-info/SOURCES.txt
+finaces_ws.egg-info/dependency_links.txt
+finaces_ws.egg-info/requires.txt
+finaces_ws.egg-info/top_level.txt
