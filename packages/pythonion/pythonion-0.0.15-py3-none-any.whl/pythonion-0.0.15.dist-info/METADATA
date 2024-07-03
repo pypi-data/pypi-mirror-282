@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pythonion
+Version: 0.0.15
+Summary: Python package for Ternion microcontroller board
+Home-page: https://github.com/drsanti/pythonion
+Author: Ternion Development Team
+Author-email: santi.inc.kmutt@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+Requires-Dist: colorlog
+Requires-Dist: customtkinter
+
+# Pythonion Package
+This package contains the Pythonion library used to Ternion microcontroller board.
+
+```
+pip install pythonion
+```
