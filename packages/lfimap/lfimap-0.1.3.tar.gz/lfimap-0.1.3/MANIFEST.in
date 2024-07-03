@@ -1,0 +1,3 @@
+include lfimap.py
+recursive-include src *
+
