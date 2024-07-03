@@ -1,0 +1,9 @@
+flomo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flomo/cli.py,sha256=XqKrozUwpOxk1RM0KEL2JyWcbyud3PKQ057NwttV02o,339
+flomo/debug.py,sha256=ZDXErsR445rpu0SsARocnBnscnkrdIv_B7X02SqnNso,101
+flomo/ui.py,sha256=5h9gs7MQ1FKEcKj_BEcHTAn979jKgBbkHQFktFPui6c,4770
+flomodoro-0.0.1.dist-info/METADATA,sha256=OYsLxRc71u4gLuyTkAK6LP7VIKHRrwVu_H7jp2tyyUI,3846
+flomodoro-0.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+flomodoro-0.0.1.dist-info/entry_points.txt,sha256=d7WCihfdfxewjH6C-62n-mbhlowC48UeIn1OhR1mO54,42
+flomodoro-0.0.1.dist-info/top_level.txt,sha256=g8GWR4tu2lxHhZRSMmBY29zCqQjPMfVVJe2T01LlRVA,6
+flomodoro-0.0.1.dist-info/RECORD,,
