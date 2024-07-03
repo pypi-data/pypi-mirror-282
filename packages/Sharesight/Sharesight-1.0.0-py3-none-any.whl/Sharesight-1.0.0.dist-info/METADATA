@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Sharesight
+Version: 1.0.0
+Summary: A Pyhton libary to access your sharesight portfolio infomation
+Home-page: https://github.com/Poshy163/Sharesight-API
+Author: Joshua Leaper
+Author-email: poshernater163@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
