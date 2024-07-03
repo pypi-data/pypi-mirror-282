@@ -1,0 +1,9 @@
+loopsolver/__init__.py,sha256=ib3OuRaaE73__4FXT5BLssmS0SubJUEP-zUScbB5bHs,101
+loopsolver/admm_constant_norm.py,sha256=17rZ7ccfuR4-1Hw0iUUlh0WHVF3sn2Xcc9165rNwAgU,3886
+loopsolver/admm_method.py,sha256=1LEHH9AmAWJjoYO06SV5szsE2jvzdOydYGxl3lUwZEg,810
+loopsolver/admm_solver.py,sha256=JQLy5ZS8m06vpsW0DKO6ccE4NWn0Js1kCvHAQLpIf2s,3425
+loopsolver/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+loopsolver-0.1.0.dist-info/METADATA,sha256=rtjKMPvsDXfY081eF6CmdRVkEQaseNKnr8w-BxszqSc,1329
+loopsolver-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+loopsolver-0.1.0.dist-info/top_level.txt,sha256=h3Be8tY1r3T7WM5WVLAsfV4Q1rXmEZtVYvG6cD5E6kU,11
+loopsolver-0.1.0.dist-info/RECORD,,
