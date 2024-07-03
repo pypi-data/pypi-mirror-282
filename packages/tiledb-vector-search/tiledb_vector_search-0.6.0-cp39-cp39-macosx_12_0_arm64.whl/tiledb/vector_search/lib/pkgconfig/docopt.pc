@@ -1,0 +1,9 @@
+libdir=/var/folders/qm/cb4xw0f50z50qsp98fg8rfqm0000gn/T/tmp5s2p2ku7/wheel/platlib/lib
+includedir=/var/folders/qm/cb4xw0f50z50qsp98fg8rfqm0000gn/T/tmp5s2p2ku7/wheel/platlib/include/docopt
+
+Name: docopt.cpp
+Description: C++11 port of docopt
+Version: 0.6.2
+Requires:
+Libs: -L${libdir} -ldocopt
+Cflags: -I${includedir}
