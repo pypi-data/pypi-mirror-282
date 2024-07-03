@@ -1,0 +1,2 @@
+[console_scripts]
+gpt_docgen = __init__:start_application
