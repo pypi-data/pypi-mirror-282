@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "dimed_2"
+version = "0.2"
+description = "Circular dependencies check"
+readme = "README.md"
+authors = [
+    {name = "Dmitry Sorokin", email = "dmd40in@gmail.com"},
+]
+dependencies = [
+    "click",
+    "dimed"
+]
+
+[project.scripts]
+dimed_2 = "dimed_2.cli:cli"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]

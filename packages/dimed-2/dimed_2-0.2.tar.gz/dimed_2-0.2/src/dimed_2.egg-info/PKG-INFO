@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dimed_2
+Version: 0.2
+Summary: Circular dependencies check
+Author-email: Dmitry Sorokin <dmd40in@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: dimed
+
+Dimed for cli and packaging

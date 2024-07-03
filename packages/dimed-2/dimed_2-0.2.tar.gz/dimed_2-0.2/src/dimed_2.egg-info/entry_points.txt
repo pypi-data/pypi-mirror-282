@@ -1,0 +1,2 @@
+[console_scripts]
+dimed_2 = dimed_2.cli:cli
