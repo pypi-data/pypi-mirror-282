@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rotarysaw
+Version: 1.3.3.7.1
+Summary: Rotary Saw
+Author: Kuu Tirronen
+Author-email: <kuu@uraanikaivos.fi>
+Keywords: python,turrican,rotary saw,tirronen,rotarysaw
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: tabulate
+
+Turrican turns into a rotary saw in combat. This is my personal import collection for quick scripts and helpers. So Nice to have it under PyPi. It will not be useful for whomever finds this, but I hope it could be one day.
