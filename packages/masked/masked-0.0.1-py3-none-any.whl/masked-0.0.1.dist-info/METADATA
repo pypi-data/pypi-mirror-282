@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: masked
+Version: 0.0.1
+Summary: Reads input without showing characters
+Author-email: Dhruval Parmar <dhruvalparmar@duck.com>
+Project-URL: Homepage, https://github.com/0xF35/masked
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Masked - Silent input read
+
+```
+pip install masked
+```
+
+```python
+from masked import mask_input
+
+password = mask_input("Enter Password : ")
+```
+
+Output
+```
+Enter Password : •••••••••••••••
+```
