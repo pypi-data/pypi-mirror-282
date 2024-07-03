@@ -1,0 +1,6 @@
+setup.py
+PyDBUtilsVS.egg-info/PKG-INFO
+PyDBUtilsVS.egg-info/SOURCES.txt
+PyDBUtilsVS.egg-info/dependency_links.txt
+PyDBUtilsVS.egg-info/requires.txt
+PyDBUtilsVS.egg-info/top_level.txt
