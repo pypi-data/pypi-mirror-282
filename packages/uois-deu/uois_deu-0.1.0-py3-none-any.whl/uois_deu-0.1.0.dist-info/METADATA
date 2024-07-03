@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: uois_deu
+Version: 0.1.0
+Summary: A small utility made for UOIS to extract data from current database and creates demodata.
+Home-page: https://github.com/KlementOndrej/uois_deu
+Author: Ondrej Klement
+Author-email: ondrej.klement@unob.cz
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio
+Requires-Dist: json
+
+# uois_deu (database extraction utility)
+## WARNING
+Does not seem to be able to perform what it needs to through GQL, consider extracting data directly from database with this tool: https://github.com/KlementOndrej/uois_dataextraction
+## Description
+A small utility made for UOIS(https://github.com/hrbolek/_uois), extracts data from current database and creates demodata.
+
+## How to run
+Just run the main.py file.
