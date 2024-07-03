@@ -1,0 +1,8 @@
+setup.py
+plot_diagram_eye/__init__.py
+plot_diagram_eye/main.py
+plot_diagram_eye.egg-info/PKG-INFO
+plot_diagram_eye.egg-info/SOURCES.txt
+plot_diagram_eye.egg-info/dependency_links.txt
+plot_diagram_eye.egg-info/requires.txt
+plot_diagram_eye.egg-info/top_level.txt
