@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-playlist-sync"
+requires-python = ">= 3.10"
+authors = [
+    {name = "Willow Ciesialka", email = "wciesialka@gmail.com"}
+]
+description = "Sync a YouTube playlist to a directory on your system using yt-dlp"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { file = "LICENSE" }
+keywords = ["yt-dl", "yt-dlp", "youtube", "music", "videos", "downloader"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: System :: Archiving :: Backup",
+    "Topic :: Internet",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Multimedia :: Video"
+]
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+Homepage = "https://pypi.org/project/yt-playlist-sync/"
+Repository = "https://github.com/wciesialka/yt-playlist-sync"
+Issues = "https://github.com/wciesialka/yt-playlist-sync/issues"
+
+[project.scripts]
+yt-p-sync = "ytpsync:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "ytpsync.__version__"}
+dependencies = {file = "requirements.txt"}

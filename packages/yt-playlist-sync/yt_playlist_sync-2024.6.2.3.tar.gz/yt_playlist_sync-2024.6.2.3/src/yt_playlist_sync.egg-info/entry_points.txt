@@ -1,0 +1,2 @@
+[console_scripts]
+yt-p-sync = ytpsync:main
