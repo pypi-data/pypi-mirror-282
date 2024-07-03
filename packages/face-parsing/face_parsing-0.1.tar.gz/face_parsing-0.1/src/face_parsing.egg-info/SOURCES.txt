@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/face_parsing/model.py
+src/face_parsing/resnet.py
+src/face_parsing/segment.py
+src/face_parsing.egg-info/PKG-INFO
+src/face_parsing.egg-info/SOURCES.txt
+src/face_parsing.egg-info/dependency_links.txt
+src/face_parsing.egg-info/entry_points.txt
+src/face_parsing.egg-info/requires.txt
+src/face_parsing.egg-info/top_level.txt

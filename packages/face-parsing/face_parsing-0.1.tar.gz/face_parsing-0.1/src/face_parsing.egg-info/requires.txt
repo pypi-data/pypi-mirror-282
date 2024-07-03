@@ -1,0 +1,7 @@
+configargparse
+opencv-contrib-python
+numpy
+pillow
+tqdm
+torch
+torchvision
