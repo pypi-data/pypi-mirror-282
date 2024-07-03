@@ -1,0 +1,6 @@
+setup.py
+LizLab.egg-info/PKG-INFO
+LizLab.egg-info/SOURCES.txt
+LizLab.egg-info/dependency_links.txt
+LizLab.egg-info/requires.txt
+LizLab.egg-info/top_level.txt
