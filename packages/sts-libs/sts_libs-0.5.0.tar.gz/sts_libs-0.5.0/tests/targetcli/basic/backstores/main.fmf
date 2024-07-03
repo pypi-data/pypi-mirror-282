@@ -1,0 +1,8 @@
+summary: target backstores
+description: >
+  Tests of creating/deleting backstores of 'block', 'fileio', and
+  'ramdisk', as well as attributes setting and getting.
+test: /root/.local/bin/pytest backstores.py
+component:
+  - targetcli
+duration: 20m
