@@ -1,0 +1,2 @@
+[sqlalchemy.dialects]
+flight_sql = sqlalchemy_theseus_dialect:TheseusDialect
