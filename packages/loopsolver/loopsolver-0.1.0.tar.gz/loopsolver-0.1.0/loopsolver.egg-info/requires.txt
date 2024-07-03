@@ -1,0 +1,8 @@
+numpy>=1.18
+scipy
+
+[all]
+loopsolver[progress]
+
+[progress]
+tqdm
