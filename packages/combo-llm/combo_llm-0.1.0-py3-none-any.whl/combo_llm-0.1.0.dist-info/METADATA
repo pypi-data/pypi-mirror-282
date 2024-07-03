@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: combo-llm
+Version: 0.1.0
+Summary: combo Chinese llms
+Home-page: https://github.com/yourusername/my_package
+Author: Jared Hao
+Author-email: 9190632@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My Package
+
+This is a simple example package.
