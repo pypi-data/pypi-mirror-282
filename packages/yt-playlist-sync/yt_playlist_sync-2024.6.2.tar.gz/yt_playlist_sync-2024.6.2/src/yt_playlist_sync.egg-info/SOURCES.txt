@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/yt_playlist_sync.egg-info/PKG-INFO
+src/yt_playlist_sync.egg-info/SOURCES.txt
+src/yt_playlist_sync.egg-info/dependency_links.txt
+src/yt_playlist_sync.egg-info/entry_points.txt
+src/yt_playlist_sync.egg-info/requires.txt
+src/yt_playlist_sync.egg-info/top_level.txt
+src/ytpsync/__init__.py
+src/ytpsync/__main__.py
+src/ytpsync/argumentparser.py
+src/ytpsync/downloader.py
