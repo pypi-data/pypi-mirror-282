@@ -1,0 +1,2 @@
+[console_scripts]
+object_detection = object_detection_library.main:main
