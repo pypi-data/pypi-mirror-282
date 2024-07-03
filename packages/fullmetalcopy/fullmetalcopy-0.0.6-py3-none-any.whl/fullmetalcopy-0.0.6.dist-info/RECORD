@@ -1,0 +1,13 @@
+fullmetalcopy/__init__.py,sha256=Tkbu09aOtZknt7WFRB7nWQyjPMLwNMoHLzrsX0_Txxw,82
+fullmetalcopy/drivers.py,sha256=Floo3IUG5a2F1nWGWiaHK1sZN0QFDkpgd0gxFHZcrWE,219
+fullmetalcopy/names.py,sha256=EqBA39mKmHoY7-OyZ9-IOlrp4M8wlKUID2QifSMccIc,645
+fullmetalcopy/query.py,sha256=RduZEz3KwzjeKO5LZs1tDmaHFwiVGKgzg1CQQNR-T1o,280
+fullmetalcopy/asynchronous/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fullmetalcopy/asynchronous/copycsv.py,sha256=d3Yz8I-dWsTo8OuLZw_A-_nia3fN_Cd2w7zQlOkX_es,1628
+fullmetalcopy/synchronous/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fullmetalcopy/synchronous/copycsv.py,sha256=LY3---XOBjWqZSXA1VnIbGCzapWdSq6zlk9SzB8r1Ew,1349
+fullmetalcopy-0.0.6.dist-info/LICENSE,sha256=oFq9FEIyAGvzUW2asR4JnQiFiH0X7cNCLO4N_bhiZUk,1068
+fullmetalcopy-0.0.6.dist-info/METADATA,sha256=cdfhRbdg4xxSt2YYA5ShV6D9SWbIQAPzNZisjMMx9vY,1008
+fullmetalcopy-0.0.6.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+fullmetalcopy-0.0.6.dist-info/top_level.txt,sha256=RpiYwUx4MiFJjbBf2zt1gMjABWLO_MHa0EFVswtFMBI,14
+fullmetalcopy-0.0.6.dist-info/RECORD,,
