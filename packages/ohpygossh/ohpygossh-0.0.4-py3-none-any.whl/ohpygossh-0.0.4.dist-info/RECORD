@@ -1,0 +1,9 @@
+ohpygossh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ohpygossh/_gohpygossh.cpython-311-darwin.so,sha256=QqXHASx3lLbRvLDoA5DB2T2q-NlrZekK6nM_hLl3vFc,4139736
+ohpygossh/build.py,sha256=ohCe6ZfMNDlM2JWESaugA3vBhF6vHvSI1-U7_aVA6IE,14968
+ohpygossh/go.py,sha256=Dlw-6Kl8cJGIZ7Yk67T2A_e5-29G3qupdQS0NvbTggw,49527
+ohpygossh/gohpygossh.py,sha256=dF6LvkCLqoq_P19p65bJ2DLGkFSbcawowzW6vwOb5Ac,8511
+ohpygossh-0.0.4.dist-info/METADATA,sha256=FvT-zcVd7Q3WssyEcJM_IuEHCehle1-MqVyoNh-LuPs,54
+ohpygossh-0.0.4.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+ohpygossh-0.0.4.dist-info/top_level.txt,sha256=gfqK33tjMKFGXx4AhMISbnCLLvtfGJwMADTTlZkBsDE,10
+ohpygossh-0.0.4.dist-info/RECORD,,
