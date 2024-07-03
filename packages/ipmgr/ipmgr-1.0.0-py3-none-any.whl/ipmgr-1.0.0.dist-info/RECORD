@@ -1,0 +1,11 @@
+ipm/__init__.py,sha256=Q8PYX1pHThSAVJnGOl_rNGakXrROTbrCzf4svGvT8LY,686
+ipm/__main__.py,sha256=JJ4P2veCeDEPuhz1ZT2Lpt2CpXTeBMvYOWFfIvYk5_I,1362
+ipm/__version__.py,sha256=CcCTefR8oIl-nkDk89BA7EOHNL_xQ63uWa1VqXV8C2I,666
+ipm/common.py,sha256=mT-PZtU38aOqpxrSdAFqvQBT2qcvJ-OXVFQHQSmGO0o,44869
+ipm/manage.py,sha256=f6FHzYcek9l0CFyHnf0EhWd46hNr6hJh8QMtwI8s1LM,5779
+ipmgr-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ipmgr-1.0.0.dist-info/METADATA,sha256=es15exMiD8wbqfH8pl1VPx5pkrBGfIQiCJg1rluHr1c,7357
+ipmgr-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ipmgr-1.0.0.dist-info/entry_points.txt,sha256=P2vE2WqwGivAB9ilY3yl3DdwOaVO8Cpqfv6p1cPez7I,42
+ipmgr-1.0.0.dist-info/top_level.txt,sha256=aoQxk7YofRAOan5enQxCAm1_An7OuuDJX31_0gPDSg0,4
+ipmgr-1.0.0.dist-info/RECORD,,
