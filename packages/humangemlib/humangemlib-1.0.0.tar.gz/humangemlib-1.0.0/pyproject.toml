@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "cobra", "pandas", "pyensembl"]
+build-backend = "hatchling.build"
+
+[project]
+name = "humangemlib"
+version = "1.0.0"
+authors = [
+  { name="Noorul Ali", email="manonthemoon13131@gmail.com" },
+]
+description = "HumanGEMlib is a Python library to perform genome-scale analysis on HumanGEM"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/matrixdex/diabetessubtype"
+Issues = "https://github.com/matrixdex/diabetessubtype/issues"
