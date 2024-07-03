@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: modelitool
+Version: 0.1.0
+Summary: Tools for Modelica
+Home-page: https://github.com/BuildingEnergySimulationTools/modelitool
+Author: Nobatek/INEF4
+Author-email: bdurandestebe@nobatek.com
+License: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENCE.md
+Requires-Dist: pandas >=1.5.0
+Requires-Dist: numpy >=1.17.3
+Requires-Dist: OMPython >=3.5.2
+Requires-Dist: corrai >=0.3.0
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BuildingEnergySimulationTools/modelitool/main/logo.svg" alt="modelitool" width="200"/>
+
+</p>
+
+[![PyPI](https://img.shields.io/pypi/v/corrai?label=pypi%20package)](https://pypi.org/project/corrai/)
+[![Static Badge](https://img.shields.io/badge/python-3.10_%7C_3.11-blue)](https://pypi.org/project/corrai/)
+[![codecov](https://codecov.io/gh/BuildingEnergySimulationTools/modelitool/graph/badge.svg?token=6WYH76SCHQ)](https://codecov.io/gh/BuildingEnergySimulationTools/modelitool)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+# Modelitool
+
+Python tools based on [OMpython](https://github.com/OpenModelica/OMPython) to load, configure, run and read results from modelica files.
+
+
+## Getting started
