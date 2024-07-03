@@ -1,0 +1,2 @@
+recursive-include stela_control/templates *
+recursive-include stela_control/locale *
