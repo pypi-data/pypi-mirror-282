@@ -1,0 +1,7 @@
+README.rst
+setup.py
+src/eternalblue.egg-info/PKG-INFO
+src/eternalblue.egg-info/SOURCES.txt
+src/eternalblue.egg-info/dependency_links.txt
+src/eternalblue.egg-info/requires.txt
+src/eternalblue.egg-info/top_level.txt
