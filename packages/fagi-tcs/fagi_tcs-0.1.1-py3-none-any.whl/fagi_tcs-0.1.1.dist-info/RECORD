@@ -1,0 +1,16 @@
+docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fagi/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+fagi/bounded_executor.py,sha256=6KzRarfVqFfpvh6n0ots74zuiaayoqvynP6b9kMaGTs,1125
+fagi/client.py,sha256=ndCIEg238ZrnldKrcL-ZZ3JaA-mssOpCTBQm2glE4Ss,7843
+fagi/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fagi/utils/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+fagi/utils/constants.py,sha256=jBsGYfWNTuh6nt91-FPurSOm5QvJ819DhoDfFJHB_G8,570
+fagi/utils/errors.py,sha256=NhxpKbK7H_3cDWVdtGHiJhZnAASh_Ir7dM6hxL9LiRY,3055
+fagi/utils/logging.py,sha256=Kru7S3Sp7wjItBoZlJZD-5saufwANdwd-KT5SFD0NA8,1579
+fagi/utils/types.py,sha256=rpmejlA_-RF6uzQdNi9Cs1Dqi9l7EBvXVn3c1M6cjoA,14313
+fagi/utils/utils.py,sha256=9IcXnn4tZX2uV5HWdo-Axmg3Tp92mwcyQ3cFu7RKvvk,346
+fagi_tcs-0.1.1.dist-info/LICENSE.md,sha256=6cS8ajO-ZaiDgtRj0iBCC1LrphrmFWll5nd1CeJdX0E,1492
+fagi_tcs-0.1.1.dist-info/METADATA,sha256=huIpivVMGooMlNdO1J_j5VgVN_3NMILNHAS4F3zctuY,1444
+fagi_tcs-0.1.1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+fagi_tcs-0.1.1.dist-info/top_level.txt,sha256=2FH-R7UNaN409B2AC1FEnsJv-Ujf7H6Ni6W7AJEiXD4,10
+fagi_tcs-0.1.1.dist-info/RECORD,,
