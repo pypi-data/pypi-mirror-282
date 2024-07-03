@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/valc.egg-info/PKG-INFO
+src/valc.egg-info/SOURCES.txt
+src/valc.egg-info/dependency_links.txt
+src/valc.egg-info/top_level.txt
