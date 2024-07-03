@@ -1,0 +1,3 @@
+[console_scripts]
+app=ak_safe.gui.cli_app:app
+
