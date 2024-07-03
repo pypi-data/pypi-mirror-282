@@ -1,0 +1,10 @@
+minigram/__init__.py,sha256=yDmXmyNZBt7mcAYkZURt3MDxCQVv2h4d3Ozyk-MwsEo,400
+minigram/aiohttp.py,sha256=OnbELQkITmqEHgsJciA7TfYSSlVimmWRvWRzYgpY4Ls,417
+minigram/main.py,sha256=U4vzDavVvBxnRU_e7JtNOk2ybXiPNUx3VmRuUvBpGIg,10182
+minigram/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minigram/request.py,sha256=hN1q0ZCUUH_Og5-U8RAl66x7RBVHlv4CMyfTxkOmAzI,4304
+minigram/starlette.py,sha256=aESVOOgR5KviXHc0DjosKE4H_ub-LiqcijrXLH7KV7A,485
+minigram_py-0.2.1.dist-info/METADATA,sha256=a9LguqXaY1LoEfFMAI4aIMXNJpDWQPtTROUX_0y9WGg,3765
+minigram_py-0.2.1.dist-info/WHEEL,sha256=SOP-4bEE0jbVaCHQGVvF08uWxk5rcSsfEybvoQVHlD8,90
+minigram_py-0.2.1.dist-info/licenses/LICENSE,sha256=tdFqpAd0JKTt952h2n9jTNOTBLNhmI3drq__1K923_o,1072
+minigram_py-0.2.1.dist-info/RECORD,,
