@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: harlequin-datafusion
+Version: 0.1.2
+Summary: A Harlequin adapter for DataFusion.
+Home-page: https://github.com/mesejo/datafusion-adapter
+License: MIT
+Author: Daniel Mesejo
+Author-email: mesejoleon@gmail.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Dist: datafusion (>=38.0.1,<39.0.0)
+Requires-Dist: harlequin (>=1.7,<2.0)
+Project-URL: Repository, https://github.com/mesejo/datafusion-adapter
+Description-Content-Type: text/markdown
+
+# harlequin-datafusion
+
+[![Downloads](https://static.pepy.tech/badge/harlequin-datafusion)](https://pepy.tech/project/harlequin-datafusion)
+![PyPI - Version](https://img.shields.io/pypi/v/harlequin-datafusion)
+![GitHub License](https://img.shields.io/github/license/mesejo/datafusion-adapter)
+![PyPI - Status](https://img.shields.io/pypi/status/harlequin-datafusion)
+
+
+This repo provides the [Harlequin](https://harlequin.sh) adapter for [DataFusion](https://datafusion.apache.org/) 
+
+## Installation
+
+harlequin-datafusion is available as [`harlequin-datafusion`](https://pypi.org/project/harlequin-datafusion/) on PyPI:
+
+```shell
+pip install harlequin-datafusion
+```
+
+## Usage
+After installation, you can use it as follows
+
+ ```shell
+harlequin -a datafusion
+```
+
+## Harlequin
+For more information on how to use Harlequin, please refer to the [docs](https://harlequin.sh/docs/getting-started) 
+
+## Support
+
+If you have any issues with this repository, please don't hesitate to [raise them](https://github.com/mesejo/datafusion-adapter/issues/new).
+It is actively maintained, and we will do our best to help you.
+
+## Acknowledgements
+
+This project was generated from the [harlequin-adapter-template](https://github.com/tconbeer/harlequin-adapter-template) and draws inspiration 
+from the [harlequin-adbc](https://github.com/TylerHillery/harlequin-adbc) adapter.    
+
+## Liked the work?
+
+If you've found this repository helpful, why not give it a star? It's an easy way to show your appreciation and support for the project.
+Plus, it helps others discover it too!
+
+## License
+
+This repository is licensed under the [MIT License](https://github.com/mesejo/datafusion-adapter/blob/main/LICENSE)
+
+
