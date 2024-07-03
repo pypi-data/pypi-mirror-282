@@ -1,0 +1,17 @@
+binteger
+subsets
+optisolveapi
+monolearn
+justlogs
+
+[glpk]
+optisolveapi[glpk]
+
+[gurobi]
+optisolveapi[gurobi]
+
+[pysat]
+optisolveapi[pysat]
+
+[scip]
+optisolveapi[scip]

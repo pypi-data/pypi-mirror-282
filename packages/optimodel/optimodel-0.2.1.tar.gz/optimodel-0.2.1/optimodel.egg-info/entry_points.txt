@@ -1,0 +1,3 @@
+[console_scripts]
+optimodel.boolean = optimodel.tool.boolean:main
+optimodel.milp = optimodel.tool.milp:main
