@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pubid2bib/__init__.py
+src/pubid2bib/pubid2bib.py
+src/pubid2bib.egg-info/PKG-INFO
+src/pubid2bib.egg-info/SOURCES.txt
+src/pubid2bib.egg-info/dependency_links.txt
+src/pubid2bib.egg-info/entry_points.txt
+src/pubid2bib.egg-info/top_level.txt

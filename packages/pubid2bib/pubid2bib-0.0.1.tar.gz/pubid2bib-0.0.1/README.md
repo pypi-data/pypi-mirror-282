@@ -1,0 +1,104 @@
+# pubid2bib
+
+pubid2bib (Publication Identifier to BibTeX) is a command line tool to fetch bibliographic
+entries for given publication identifiers using online services offered by
+PubMed, DOI and Google.
+
+
+## Usage:
+
+```bash
+pubid2bib publicationId1 publicationId2 ... publicationIdN
+```
+
+Where publicationIds are well formed PMIDs or DOIs for scientific papers
+or ISBNs for books.
+
+Example:
+
+```bash
+pubid2bib 31726262 10.1021/acs.jced.5b00684 0735619670
+```
+
+Will create three BibTeX files in the current path, named:
+  - "Removal of dental alloys and titanium attenuates trace metals and
+     biological effects on liver and kidney.bib"
+  - "Thermodynamic Properties of R-227ea, R-365mfc, R-115, and R-13I1.bib"
+  - "Code Complete.bib"
+
+The filenames will be the publication's titles and the
+bibliographic entries will conform to Bibtex @article and @book
+formats.
+
+## Install
+
+pubid2bib is a standalone Python script. You need Python 3 installed and you
+need to be able to execute Python scripts on your platform.
+
+
+## Inspiration
+
+The fantastic web service <a href="http://www.bioinformatics.org/texmed/">TexMed</a>
+allows to search scientific articles in PubMed and create BibTex bibliographic
+entries for them. This was the inspiration for *pubid2bib*.
+
+In one sense, *pubid2bib* is more limited, it needs you to find the publication
+identifiers first, to create the BibTex entries. But, it is more general in another
+sense, because you can use DOIs for published scientific articles that are not found
+in PubMed and also ISBNs for books. Furthermore, *pubid2bib* can be called from
+scripts.
+
+
+## Scripting
+
+### From bash
+
+Asumming you have a file called publications.txt with publication identifiers in each line, e.g.:
+
+```text
+38942015
+38917788
+38935715
+```
+
+You can have a bash script that calls pubid2bib for each identifier:
+```bash
+#!/bin/bash
+
+input="publications.txt"
+
+while read -r pmid
+do
+    echo "${pmid}"
+    pubid2bib "${pmid}"
+done < "$input"
+```
+
+### From Python
+
+You can use the function *dispatch* for each identifier
+```python
+#!/usr/bin/env python
+
+
+if __name__ == '__main__':
+    from pubid2bib import dispatch
+    with open('publications.txt', 'r') as file_object:
+        try:
+            paperIds = file_object.readlines()
+            for pid in paperIds:
+                print(pid[:-1])
+                dispatch(pid[:-1])
+        except (IOError, OSError):
+            print('Error reading file')
+```
+
+
+## Abbreviations
+
+PMID: <a href="https://en.wikipedia.org/wiki/PubMed#PubMed_identifier">PubMed identifier</a>
+
+DOI: <a href="https://www.doi.org/the-identifier/what-is-a-doi/">Digital Object Identifier</a>
+
+ISBN: <a href="https://en.wikipedia.org/wiki/ISBN">International Standard Book Number</a>
+

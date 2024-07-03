@@ -1,0 +1,26 @@
+[project]
+name = "pubid2bib"
+version = "0.0.1"
+authors = [
+  { name="Andrés Becerra Sandoval", email="andres.becerra@gmail.com" },
+]
+description = "Command line tool to create BibTeX bibliographic entries for given publication identifiers "
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/abecerra/pubid2bib"
+Issues = "https://github.com/abecerra/pubid2bib/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+pubid2bib = "pubid2bib.pubid2bib:main"
+
