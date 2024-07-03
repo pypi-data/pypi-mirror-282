@@ -1,0 +1,65 @@
+Metadata-Version: 2.3
+Name: relevation
+Version: 1.4rc0
+Summary: A command-line searcher for Revelation Password Manager
+Project-URL: Homepage, https://p.outlyer.net/relevation
+Project-URL: Issues, https://b.outlyer.net/relevation
+Project-URL: Documentation, https://p.outlyer.net/relevation
+Project-URL: Source, https://git.outlyer.net/outlyer/relevation
+Project-URL: Changelog, https://git.outlyer.net/outlyer/relevation/raw/branch/master/CHANGELOG
+Author-email: Toni Corvera <outlyer@gmail.com>
+License: BSD-2-Clause
+License-File: LICENSE
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: lxml
+Requires-Dist: pycryptodomex
+Description-Content-Type: text/markdown
+
+# Relevation Password Printer
+
+[Homepage]: https://p.outlyer.net/relevation
+[revelation-wayback]: https://web.archive.org/web/20110726010624/http://oss.codepoet.no/revelation/wiki/Home
+[revelation-new-wayback]: https://web.archive.org/web/20100808172143/http://bitbucket.org/erikg/revelation/wiki/Home
+[revelation-bitbucket-wayback]: https://web.archive.org/web/20200815084707/http://bitbucket.org/erikg/revelation/wiki/Home
+
+A command-line searcher for [Revelation Password Manager (archived)][revelation-wayback].
+
+Relevation is a tool to retrieve passwords stored in a password file in the format used by Revelation, from the command-line instead of through a GUI.
+
+Only retrieval is implemented, Revelation must be used to actually edit the file.
+
+## Installation
+
+    $ python3 -m pip install relevation
+
+<del>DEB and RPM packages are [available][homepage] for the appropriate Linux distributions.</del>
+
+**Note**: (As of March 2024) I can't provide DEB nor RPM packages for now.
+
+## Usage
+
+Print all passwords from `file`, ask for a password:
+
+    $ relevation -f file -a
+
+Print passwords for entries matching `needle` from `file` using `1234` as password:
+
+    $ relevation -f file -p 1234 needle
+
+Print passwords for entries matching `needle`, using the file and password stored in the configuration file:
+
+    $ relevation needle
+
+**Note**: Replace `relevation` with `python3 -m relevation` if it the script is not available in the path.
+
+See the [homepage] for more information on usage.
+
+## Manual
+
+The `docs/` directory contains the manual in _man_, PDF and HTML formats.

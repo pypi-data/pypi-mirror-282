@@ -1,0 +1,5 @@
+[console_scripts]
+relevation = relevation.__main__:entrypoint
+
+[gui_scripts]
+relevation-gui = relevation.gui:entrypoint
