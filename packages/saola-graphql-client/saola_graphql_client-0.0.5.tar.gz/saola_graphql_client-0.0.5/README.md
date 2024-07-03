@@ -1,0 +1,36 @@
+# Saola GraphQL API client
+
+This is a GraphQL client for Python based on the `ariadne-codegen` pip package. It is used to access the API at [app.saola.sg](https://app.saola.sg).
+
+The client provides a convenient way to interact with the Saola GraphQL API, allowing you to perform various queries and mutations related to users, connections, workspaces, chats, and sources.
+
+The following GraphQL files are included in the client:
+- `graphql/users.graphql`: Contains queries and mutations related to users.
+- `graphql/connections.graphql`: Contains queries related to connections.
+- `graphql/workspaces.graphql`: Contains queries related to workspaces.
+- `graphql/chats.graphql`: Contains queries related to chats.
+- `graphql/sources.graphql`: Contains queries related to sources.
+
+To add more queries and mutations, you can create new files with the `.graphql` extension in the `graphql` directory. Once you have added your new GraphQL files, run the `./run-codegen.sh` script to generate the necessary client code.
+
+
+### Usage
+
+To use the client, you can import the generated client class and use it to perform queries and mutations. Here is an example:
+
+```python
+import jwt
+from graphql_client import Client as SaolaGraphQLClient
+
+access_token = "your_access_token"
+jwt_payload = jwt.decode(access_token, options={"verify_signature": False})
+user_id = jwt_payload.get("user_id")
+
+client = SaolaGraphQLClient(
+    url="https://api.saola.sg/v1/graphql",
+    headers={"Authorization": f"Bearer {access_token}"},
+)
+
+current_user = client.get_current_user(id=user_id)
+print(current_user)
+```
