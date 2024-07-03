@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+datafog_instructor/__init__.py
+datafog_instructor/core.py
+datafog_instructor/models.py
+datafog_instructor/utils.py
+datafog_instructor.egg-info/PKG-INFO
+datafog_instructor.egg-info/SOURCES.txt
+datafog_instructor.egg-info/dependency_links.txt
+datafog_instructor.egg-info/requires.txt
+datafog_instructor.egg-info/top_level.txt
