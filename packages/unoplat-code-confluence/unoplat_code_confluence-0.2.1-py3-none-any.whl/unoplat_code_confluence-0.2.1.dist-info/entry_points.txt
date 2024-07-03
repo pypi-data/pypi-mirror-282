@@ -1,0 +1,3 @@
+[console_scripts]
+unoplat-code-confluence=unoplat_code_confluence.main:main
+
