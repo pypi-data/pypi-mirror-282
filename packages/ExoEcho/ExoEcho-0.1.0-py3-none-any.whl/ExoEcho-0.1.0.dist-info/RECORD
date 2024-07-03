@@ -1,0 +1,493 @@
+ExoEcho/Analysis.ipynb,sha256=JlC5DdN9G0GccL5Jp91lAWS4lpZaAj-s9LE8OwgDcRM,1673566
+ExoEcho/Ariel.py,sha256=675n0aguz48dK-YQCfdfFQjX1Fdn5nnxakut7D31MdI,20125
+ExoEcho/Ariel_Target_Comparison_List.csv,sha256=3jqHHta8rB3nf9vnvAs2J-KO-Vtz5rannlMAxMi0LYc,1093798
+ExoEcho/Ariel_Target_List.csv,sha256=1YTwq9ymYbEEzkQOSURt430G_5LKNep5FfGnmx21jcY,1240696
+ExoEcho/Billy_Edwards_Comparison.ipynb,sha256=9AxgsjWnh63JH_tRnpnJlPVHAMw0ESFiVJsL4LNIneA,738645
+ExoEcho/EclipseSim.ipynb,sha256=N_GuhVHE7A9ae6b0A3bc-Nf7J2SDU5zviROg6mW-RiY,120247
+ExoEcho/EfficiencyTesting.ipynb,sha256=u6MEyHNZXj38S6xVFkkNdiuRd56odLchbjSCkpJ9iWc,1471512
+ExoEcho/Functions.py,sha256=bdK6ez91ncROSdN47qIu7M_0d3TT3zDdcOApyKZWzpU,15955
+ExoEcho/PlotPrecisionPlots.ipynb,sha256=KratV5Wc1NFHLOB2HxjKMkVVAc9APdpEYgrnEusDqUk,2408676
+ExoEcho/Telescope.py,sha256=qTvaoHB1SQJILUC5tdGNNZ725C7sw5yipzS__t4bN_g,35111
+ExoEcho/__init__.py,sha256=zcYcthPyBs290drcEwFCMdXiej84S3uD_Sg3k6fxjEg,49
+ExoEcho/addTelescopes.ipynb,sha256=XhuQA-awieh_3_TS-8ghLDMH2HzWiids_lVQ9wodMqU,9183
+ExoEcho/plotSNRProfiles.ipynb,sha256=vM27jBDtXaso_NApURMnjO7BB9hI7Hr8ntMZDpwyFl0,2985342
+ExoEcho/plotTieredProfiles.ipynb,sha256=oRLTv7zx32CctxKdAmCSajQEhAmRL6okfbHlFIF8xUU,3230102
+ExoEcho/test_exoecho.ipynb,sha256=0EMSe-pJrOABGcQTulS2ik5nKo3U3NCrdHMGAhuuT-4,58970
+ExoEcho/Billy Edwards Comparisons/Cumulative_Time_vs_Targets.png,sha256=sXF6R7qRd2FtCRJorHZNlfa1LQEXJwW6WHzK3SeV674,242608
+ExoEcho/Billy Edwards Comparisons/ESM_TSM_Observations_SNR.png,sha256=Ysk1wDVFrUKUrvHVf12vmZxv0p6No4INCoyHe-rT77w,192037
+ExoEcho/Billy Edwards Comparisons/ESM_TSM_Observations_diff.png,sha256=TAThNhvSLVQG49sPcinhkVafvt0TQ9u0tI7tEWEuihg,180810
+ExoEcho/Billy Edwards Comparisons/ESM_TSM_SNR.png,sha256=fW5dG_0mTM6CN4-nOKD_8m16uxBPJXpocUW02FIJues,147166
+ExoEcho/Billy Edwards Comparisons/ExoEcho_Edwards_Observation_Diff.png,sha256=M6GQfbiyTn4w0b16qULacxur4btNSZmBmb1OJ6Coiro,157046
+ExoEcho/Precision plots/WASP-103b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=33iXKh-rDVPxkhGqQICFbgD6iLPbAaMYZcbAbPk3D7Y,213991
+ExoEcho/Precision plots/WASP-105b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=REbk6Fa0nT49ODj6MEMF6mKxLSoJRGBHDAHnUU9A8_k,210828
+ExoEcho/Precision plots/WASP-124b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=ENibMwv_WFVHusMCD2G2tGsE5OFh1QZeXn3v7V7KtxQ,214094
+ExoEcho/Precision plots/WASP-130b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=ojRta_bucWPWs0FKuFSO_C2ryRy9s-U-2r-JDtRkN4A,209711
+ExoEcho/Precision plots/WASP-136b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=e0a4pmj7lztF1tXug5I_Tr3BGur5sw2imUAvE5_2Zaw,216361
+ExoEcho/Precision plots/WASP-139b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=ZhvRbRpHaj_b3ixKSlUCx972hxTsQ5VH-CXFtpS_PVw,210661
+ExoEcho/Precision plots/WASP-141b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=OKtvXw7pbWZHS5Qi8RT_4703_LRJO1u9a5qGbZuMYBg,213853
+ExoEcho/Precision plots/WASP-147b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=D1OMN1Ljhb9ABU51JkDGwoFU4P_wi2xxaavEpEc0bZk,214149
+ExoEcho/Precision plots/WASP-150b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=PRiDPBqqFakam5p9Cz3XceOx45eiKpANMSblgh7KLd8,212292
+ExoEcho/Precision plots/WASP-15b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=rTTvUm5sCimFIWnVl9cgz3Dukpy87aNWwDuE0TWyaUc,213261
+ExoEcho/Precision plots/WASP-169b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=igblENUVMYqgknHzXcXsCxoPj4sXttNKETXlM4cxjGo,213318
+ExoEcho/Precision plots/WASP-170b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=YasUulX9af7pk82WuZOnK9RvFZbaXl1lObUR8AK4RXA,214983
+ExoEcho/Precision plots/WASP-174b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=AI1w8LNfXtpAkumR4Sd07UNBuF8_ObM5nC24WahUbMw,213985
+ExoEcho/Precision plots/WASP-176b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=khRIl_juJCTwteEwgLDfydtT7583Bn-RyVwFZvoxf6c,216497
+ExoEcho/Precision plots/WASP-177b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=Chk4Aenp99L7z2u29k8COXdNsivse43-x0yaTo3V_so,211683
+ExoEcho/Precision plots/WASP-178b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=9Nq291opGFuit4iBVIGdD91rg6yAk4iX_n_4M-bZgKA,212867
+ExoEcho/Precision plots/WASP-22b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=wPS4Pd2tapbBi8Fb_Sr7k4j92lI4uHN94ONGqV9XLAE,214051
+ExoEcho/Precision plots/WASP-25b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=Ykth-Z0mrg3_iDw9pYI53bJ1j5ynRq6VdwVzhsDgDpg,212275
+ExoEcho/Precision plots/WASP-33b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=3sjLqaGEr9PoMtcMv5fmpIFv2VVD-HmHRHpsfmA8plA,211453
+ExoEcho/Precision plots/WASP-37b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=h3_uNqy8rV_giUAwNkobL4EyiTPfUZt7jfI9xPfERbg,213045
+ExoEcho/Precision plots/WASP-46b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=v3lTGtBosecFuEal_lLBwzYPR48gkuBHVUwKbZ-LuyE,215536
+ExoEcho/Precision plots/WASP-53b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=dmG6-9dzjM0a3be74o7pLH5kZO3Cyz25cerCBtS2Iss,212412
+ExoEcho/Precision plots/WASP-60b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=jxvoka53HiQ5iRSzj9fg6r8Mb77iUpHSbr3smS0Az-w,214155
+ExoEcho/Precision plots/WASP-61b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=aO9Op6LkuJ3QJVuiWmBo-sHZapWnTGaeSPppx9LLFPQ,213868
+ExoEcho/Precision plots/WASP-62b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=MhlFzwA2N2IikzhBofspeiKDQ-srcdH8QyU6eigxvMc,215382
+ExoEcho/Precision plots/WASP-70Ab Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=LHQZnNXKICzc6FMztIbVSpdkeV4wkInAUR6ktKZnqlM,213756
+ExoEcho/Precision plots/WASP-80b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=vYUBT0iPuMPn7CRl9GiNjSDybSdDK1UU2SflQqmn6Xo,211814
+ExoEcho/Precision plots/WASP-83b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=ERIB3k1nrN9yXHH8KArgBF1cevvyJmtYdwYSoUb6ZXE,213410
+ExoEcho/Precision plots/WASP-97b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=eqnalBDHfla_GSihBgPKJJR6BfiPuUKtdnqAVDz19T0,214832
+ExoEcho/Precision plots/WASP-99b Signal & Noise for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=EP760zGMAQQ_NNOA57h3k6ZuwbGBzSXdHE97sowuRuU,215017
+ExoEcho/Results Plots/Cumulative_Time_vs_Targets Tier 1.png,sha256=QOfj0WEtSV_B6efWNMhBQf-BAtVBzjvpOTo09OWbv8Q,235906
+ExoEcho/Results Plots/Cumulative_Time_vs_Targets all Tiers.png,sha256=87BY85LFs1CE9PryzzUb1iKMpyR-OTN66cPrroHvPGc,249073
+ExoEcho/Results Plots/Cumulative_Time_vs_Targets.png,sha256=9XnXmT4C5JmODV0GdLKnGqhigddYGTSL9XITWCqwN6A,233221
+ExoEcho/Results Plots/Number of Phase Curve Obsevations for Each Target.png,sha256=N6H1thWh7Bm-We4gVdb-n7BegVV1ohldoPkD-Q-KNsM,211162
+ExoEcho/Results Plots/num_obs_snr.png,sha256=0BSo8FTmg2dLTJmLr-yDARPxZgsIUiE8MhGEmCJepzk,347199
+ExoEcho/Results Plots/num_obs_snr_LimitedMethods_Tier1.png,sha256=qTLsevUi06nvoQcilwe9OnyEM1qA4Za4BC75mHTz5mU,313466
+ExoEcho/Results Plots/num_obs_snr_LimitedMethods_Tier2.png,sha256=Zjlr_q35Eogf4OrAthuqVbhOsBewSXN8mscwx86P1Oo,326766
+ExoEcho/Results Plots/num_obs_snr_LimitedMethods_Tier3.png,sha256=d7pLIdwR4MqpujOfcyEAxUzGWE6lA7DRHot2LNveviU,323494
+ExoEcho/Results Plots/num_obs_snr_lowestObservations.png,sha256=hdMqCH5S3fAbjgiwea6ERm2ourCn2w9_hMmGvS_wdbo,307448
+ExoEcho/SN curve plots/WASP-103b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=WxBXeq3Dhxe4SQDDm51_VdmCAPE2qHdoLfDB0wp5GQ8,213163
+ExoEcho/SN curve plots/WASP-105b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=gbFV6j4fw8zI6BdaM6i_PmpHsyOKf_9N8VU9YGnVCYc,204517
+ExoEcho/SN curve plots/WASP-10b SNR for Ariel Instruments at Tier 2 Spectral Resolution with 1 Observation.png,sha256=lTzRhmPBlJ-Wgk8dQ9FJ0YsjPffHIzTqJLOxMUk67xE,222121
+ExoEcho/SN curve plots/WASP-10b SNR for Ariel Instruments at Tier 3 Spectral Resolution with 1 Observation.png,sha256=OH24n6FLwWbGbQUMQKvrzWfgCxhzDOdOhIncXxJmUOI,210888
+ExoEcho/SN curve plots/WASP-124b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=HLYStfYWW3lfz5b49722uq18Bb82Bwbf1OYkcF79ykc,212572
+ExoEcho/SN curve plots/WASP-12b SNR for Ariel Instruments at Tier 2 Spectral Resolution with 1 Observation.png,sha256=28DbbCjlz-VxWK8fQOiXtr85qZgPRJRcOPv2TmBv7lU,254645
+ExoEcho/SN curve plots/WASP-12b SNR for Ariel Instruments at Tier 3 Spectral Resolution with 1 Observation.png,sha256=Jzd8iZYVRICPJrbJN2-JAher1NmiSb7xW6BtvwQM5lI,258737
+ExoEcho/SN curve plots/WASP-130b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=9L0ME5ZVTFN__8t-8rahsXVjL5Dpk2jvZ57At0bddQ8,207137
+ExoEcho/SN curve plots/WASP-136b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=xX-Tq9-NSVSAJxsuoMzdG_aEIgDVk0tcyUwbTBruXwE,210746
+ExoEcho/SN curve plots/WASP-139b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=bFAKANGBprO46fATFQXHuFQn1xBWfuG3QrYj-jmSwsY,205394
+ExoEcho/SN curve plots/WASP-141b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=Dcr27eKVq5H78Ntcgnh1--CC8o8ygCd4wp8TYbVzz04,210741
+ExoEcho/SN curve plots/WASP-147b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=iZMPMBpvAEZzobt78xTU7HYA9fHOPBcn-SmrrPjgoeE,211702
+ExoEcho/SN curve plots/WASP-150b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=JuivPcpYDDL9YpHw71P2enc6Ca0RSyCVNNZZfZhbx-c,212815
+ExoEcho/SN curve plots/WASP-15b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=dL2OuMcuRWWcFqwZQj22qtJSenb2KkS5Lj9qT0WwCFg,207983
+ExoEcho/SN curve plots/WASP-169b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=892fWNjx4fJPOXrYe96GLFCXH3G3FEvH6DKkk-vLeUM,211967
+ExoEcho/SN curve plots/WASP-170b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=L4jHUTz_TRff57SIE6V6eO3KrXrGGs9SgDqJwJjHsn4,211884
+ExoEcho/SN curve plots/WASP-174b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=UpFvZan-55Lj7Tr_inCSkuq0vIrdBYdejIZWCsqquKs,209643
+ExoEcho/SN curve plots/WASP-176b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=7LEkVREhMpIKo8k37LIxnENojA7FMfwMYF1rGnVyO74,208512
+ExoEcho/SN curve plots/WASP-177b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=rLbKhftFXnoif3-Bt5IojzSCDTL2HF_E7Z5-g_OpvvI,213788
+ExoEcho/SN curve plots/WASP-178b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=mqWOYdaPTdy9ig8nNYFKe0ouuOLK6R6CjS_d-r2Bsfw,210193
+ExoEcho/SN curve plots/WASP-22b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=NDQ39CduqlzrnIxAWVqApZV4D14myD3GxvSTYImefuo,211349
+ExoEcho/SN curve plots/WASP-25b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=4S3IFywCtFwbhsdkr_H5csel1jZafhxuAXejdU7Iexc,212747
+ExoEcho/SN curve plots/WASP-33b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=jAtdPVC6EzRuqNoeL-zujhiR5nXdORG3zd-BrFXkXzQ,214408
+ExoEcho/SN curve plots/WASP-33b SNR for Ariel Instruments at Tier 2 Spectral Resolution with 1 Observation.png,sha256=lJ3rJV8xSjyuodrVk8GwtL8l0ynwsrByOK2lWRJhZGc,251379
+ExoEcho/SN curve plots/WASP-33b SNR for Ariel Instruments at Tier 3 Spectral Resolution with 1 Observation.png,sha256=Eoc0dS8HQVQqVqfSdRSQHjgAEcY-RLW5w1iZcaGlKrM,257311
+ExoEcho/SN curve plots/WASP-37b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=yYJPzE5Ymh6d8sha9_fLI1YcofJKO0bpfXHhnvfeAZk,212662
+ExoEcho/SN curve plots/WASP-46b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=xVw9spssRSgp8QDZPFHovcfxpoF46qtOqYOpnBL2d90,209384
+ExoEcho/SN curve plots/WASP-53b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=jAMH2CbrMprpjQn_fQ8SZM8P3ngNI6FvgRcQFsDGc5w,216929
+ExoEcho/SN curve plots/WASP-60b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=RcVZ5mq168tAubLBsT5l2y5L_RhI9HVzpS-G57b0kso,213922
+ExoEcho/SN curve plots/WASP-61b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=q4yuRk3ngsuDid_jyw_sq9LKBeDg8itE8621tK8IZKI,211036
+ExoEcho/SN curve plots/WASP-62b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=a27QglwXEDlvw_VFJXo0Ktcs0ugEU2iuU9HlO_Q_Tcw,213311
+ExoEcho/SN curve plots/WASP-70Ab SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=V5hygyz1uBbKtRC8cd4_LFwsZK-WynoTpCiFadK0ZJY,210436
+ExoEcho/SN curve plots/WASP-80b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=G8RsltRNfGCiorimM7khIYgSyU6tfRn75g6JPsfA0ig,206215
+ExoEcho/SN curve plots/WASP-83b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=7o20lmlnfq6CIwkRs38hCZdhQHRbXxpOImbIk4zlFo8,214688
+ExoEcho/SN curve plots/WASP-97b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=RLZ-O_7MVQFBmIDa1IDhUZ2z20MIWv9JiTrQYzPp_DI,209955
+ExoEcho/SN curve plots/WASP-99b SNR for Ariel Instruments at Tier 1 Spectral Resolution with 1 Observation.png,sha256=L2Tyo-tltgL9qfhVUjhC32QFrZZZ-wV74MmcxwsYEvc,211873
+ExoEcho/TelescopeNoiseEstimates.egg-info/PKG-INFO,sha256=a3nnmPuPmVJGvH7IOmwvBrBM3l_pxJB6DxE4mE9_uu4,1645
+ExoEcho/TelescopeNoiseEstimates.egg-info/SOURCES.txt,sha256=VoqtrQ3L_DIp_1goHOBh4st_dd1QFGBIg2y1VqUi7dQ,2101
+ExoEcho/TelescopeNoiseEstimates.egg-info/dependency_links.txt,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+ExoEcho/TelescopeNoiseEstimates.egg-info/requires.txt,sha256=0yydiB0nMXZxEVsYtIoqkeXgKXIsVMPbDGgkP3qAl30,69
+ExoEcho/TelescopeNoiseEstimates.egg-info/top_level.txt,sha256=Ni7LBF7zg3CdJB-Sm58OXsczJxMzXo4Br8s1AyRstnQ,97
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/ESM.parquet,sha256=n6IJAmWxhwX40xtOyKjgpj_QXIHo1JKhCL1BFA0gI5o,735927
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Eclipse Flux.parquet,sha256=ZXTLOxVwrUjMYGdPSU6tKvjlY3xCY1WfgVsEFyioXgo,741584
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve Noise.parquet,sha256=ioUiCy7ADpxSLDr2Gbpc0e-a_ObKXfRI3q58OIO5EdA,753160
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve SNR.parquet,sha256=ekFUsqOK--_yXKhNXP69QS3u5PZ4KonNnbW9Wh5rd9I,743128
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Noise.parquet,sha256=xKNtcAFg_G88nCuRx-2rAoeenI5dvaXZ-7jgQLC9ATo,733183
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/RSM.parquet,sha256=Z8a4Oquu3Of6a-1uso0QaLVaTrYyTz3a6mVRejywOX8,735927
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Reflected Light Flux.parquet,sha256=kY_9hlu0mG5Z60Ck3AQZedP_qYH3H2R6uBd2kMhAEas,747984
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/TSM.parquet,sha256=qGMRFE4N80tUpMpb6SLyQR6bFfhGOH8qrSggJOn_or0,735927
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Transit FLux.parquet,sha256=srFmRmxdxavkr-Q-6PXQQXsL76y3Wm210vbz61f7iWg,741584
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/ESM.parquet,sha256=KXzWnhlonrzrRT8aEX8sIN7nJdxjAlNhRSCxD-IBu00,28546
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Eclipse Flux.parquet,sha256=6d3uHZPnZ7RF6pY03usSdwOVnn4aBtAl2PspJCtv7ZE,28712
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve Noise.parquet,sha256=XPHUMpOZpAeTEb6HASg7Zh7AJv9M9PIF9Mq3e_3eJnA,29055
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve SNR.parquet,sha256=Ii2hHErbVjwgJjW1bpUT3d5e1OG7r0VoQ7xVB3acNR0,28762
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Noise.parquet,sha256=xFFpzlieiZMnIzuEZMAS1_EOtwUoNidkqP0oNvmsf0Y,28456
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/RSM.parquet,sha256=sdeBR6vR-IP5dErilYAQ6xBmTerjpcCxga9d87ytgEs,28546
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Reflected Light Flux.parquet,sha256=GLj8N3JtsLlDj50Q4O85SxVnWef559x_coTZY80uzyc,28904
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/TSM.parquet,sha256=GUfwpZH6yTxiky2uPPO8fjrlYk_M5nbCwiEQFrMjcyU,28546
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Transit FLux.parquet,sha256=MG_YbO7-MEQZ0qG3gjCneC_ZA9y4wOhn-R9VHtR2tf8,28712
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/ESM.parquet,sha256=ab_Vbz3OGXxcz_2MriH8cziwq_qowud2CIKr9_-HfW0,225055
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Eclipse Flux.parquet,sha256=h0Jrwtn_ID6jElLeNaak5lCwnzt4E-7ItFSJwDzmyAU,226603
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve Noise.parquet,sha256=AA0FPGHfHoWzZZhg4YYJEu3_zxi9P0kfkwe7HEp0Zqs,230209
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve SNR.parquet,sha256=BA3pXVg3dHBaWuYh886p2W2D6v8Teg-01_a2GBVDQ80,227215
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Noise.parquet,sha256=kk-wotWvNxgGNeuvMgECt_EJVFibk9ETjAHn99ABzms,224083
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/RSM.parquet,sha256=BQ6iDcoWUeSEhL_JoGWn_ipwQR2RrWEBo1gFmBsTXmo,225055
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Reflected Light Flux.parquet,sha256=3C_VWFcbDduXskgqBoPHxCVKVx6iFYJp7WL8j8Zvnik,228523
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/TSM.parquet,sha256=RITedHP0ZcdwxtpWBa-tOGpCynqljRg4IaOPgJADtU8,225055
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Transit FLux.parquet,sha256=tMVHAsYSE_BtTSd2t1miqpZQNE-mYKQ7N7m-4b1txXI,226603
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/ESM.parquet,sha256=BNOPtWrAexLJsd8JB-ouyBohvQdEBNxrKddNHCt0ymQ,370917
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Eclipse Flux.parquet,sha256=U8zfLP7BW9WGDoEUKyCa2gsVPx0m_kOy2kGYnV3T-qw,373706
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve Noise.parquet,sha256=-a8DIx-ovtFXddMNq_okpvnxc0DlNlmOCqyOx-8tIXY,379528
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve SNR.parquet,sha256=dd0hKOfGDqPqnEVsC9rHdEPovt1dn_7c8tJF895y5CU,374518
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Noise.parquet,sha256=VYTP8s8pL-9lfwXFrNA9cbU_vBJm3PO0xSK5NtV9lX4,369505
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/RSM.parquet,sha256=DAVi-4F0-VRTj6CUTi9BA5pGoxq0iQNOjy1m4dlhAFo,370917
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Reflected Light Flux.parquet,sha256=UwR2Wenzicq8Vc4aGK4XpAEKCQN13MqvEusN8FVGIMA,376906
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/TSM.parquet,sha256=S5sUGy0FAQrrCIUdeazS1aF7hbtBEZfXIsBDvE-NGeQ,370917
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Transit FLux.parquet,sha256=rqJNXs0y2BrUh-mi1nD9qO4faWH6vfKnnX6GGFDwSrQ,373706
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/ESM.parquet,sha256=WrV55KT-wJcWypk-zDoTKsbgU3ToF7kGDaq8Az5LJLo,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Eclipse Flux.parquet,sha256=1MztJwbfWxOr6U9hdNdmY3fQDrX7hPcXvQfAdHQtC1Y,14077
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve Noise.parquet,sha256=zZUeGJAjhufQwe2SgKMMdDHOwEQ4qPylZ6PcYUhTHkM,14186
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve SNR.parquet,sha256=UpC8hOs9dw_8L_9qM5q3wE8IIT8KHjOWkSqOYlXe0E4,14099
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Noise.parquet,sha256=h-c2aKUQbnSk4XRcCF944ABvQbzYfFMMRpLl1SyoTxk,13989
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/RSM.parquet,sha256=Tts7Z_iMmd-S6fimSZ7E4AWoGxJWHOlzQ972ZJytx4E,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Reflected Light Flux.parquet,sha256=XKn7AUjLy1zZQvg9cz_BNVKAh1Fo3_yCJX4c8Jj9LL8,14141
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/TSM.parquet,sha256=Q_KGKSVL4iH_3N1UeA3F5XumEhvpMVYrUVCHINf4d3o,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Transit FLux.parquet,sha256=XsqBSFhhG5y9uteRuwLHwR78-NMq_msyD85Q8gp3Pdk,14077
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/ESM.parquet,sha256=3v1E7kTHwGm5K4tPVU61MI_oNEG2JxzoxIAJ-654lSw,79439
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Eclipse Flux.parquet,sha256=TL6PMO7JAf3Lzz4ISfdd4Z_sZk8BzSADSg9lgbSxjbA,79963
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve Noise.parquet,sha256=DSw7MSVJNrKdPR6QiKblPUucT8pixMqIySTVDFsjo4g,81125
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve SNR.parquet,sha256=9ki1ZF2F6BD7hGEa92ci6F5SOXoKCJ7o9RLk26XgP6Y,80159
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Noise.parquet,sha256=cttzj0ytxFXbdPFDhp1y1djvQXhJZ0NLKFLEPWQnJVA,79123
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/RSM.parquet,sha256=1bFSeMA0HTbWCwXxiOr6849st5q3I-IuDSZg6lTm8Kw,79439
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Reflected Light Flux.parquet,sha256=lK_ua1qAIcfLfcAa_KdG7gAzxVXGtAtqU7ZjKoLPW7w,80603
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/TSM.parquet,sha256=y-ruGoKvnWzFynZKj6FpUoE2TzLTl-I6FHOprfkSX34,79439
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Transit FLux.parquet,sha256=rYve1hKIoePH88G43pJx_K-VJccBpoaL7-IaZwJly1Y,79963
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/ESM.parquet,sha256=mRwfhv6QufRh8Q9M3vMHHs5GWghw8qrxe1nMSN2QG1Y,735072
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Eclipse Flux.parquet,sha256=-CvbtPr4bVppgrlWeBNwiFgFl8splFdlSVpydASh1ig,740633
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve Noise.parquet,sha256=U94wwSiMMa9muWVbY2uCk6HNcOF9pB0qu2FLKhk-y9Q,752297
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve SNR.parquet,sha256=5OlZWR-MDocWYx-QJr185Kp6TIIQNyMY-Fw4MyWoHn4,742273
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Noise.parquet,sha256=f4pF2zkSRIf84AokG6lkpALWh3kF4UtY18LBqByEUfk,732232
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/RSM.parquet,sha256=yEyUUmzLzbR1o9qk8tfPGKNKLFERIZN64OyhSDgcnRg,735072
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Reflected Light Flux.parquet,sha256=fnr0WzLV-oRNDWCPRjXk81AZ5gvYfsxMgBU3I98m344,747033
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/TSM.parquet,sha256=uj2X9CtraUXCoUYSZ_kElnGajOnveCw2oI7KPsptzvQ,735072
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Transit FLux.parquet,sha256=ISmkFX7thKJGObYz-yQTcEQmQMFrKtSgQa7ZNp5-NtY,740633
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Eclipse Flux.parquet,sha256=mTnd32cOmnpnUVY2_qqObb0EW7XVy83I6iuDE90XVBk,28685
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Full Phase Curve Noise.parquet,sha256=jeof6DhBxm7Y1-uDlVLFlpDQMcEUVJ5ejGz0AMssXOI,9641
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Noise.parquet,sha256=MLqv0l-VAMhwnNTx4IjSW-ElPZGzmX_LGw-k8N2FO8k,9182
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Reflected Light Flux.parquet,sha256=hFaei6A9Dw741RwwmkcwUlHx8cCG-iuDnRBsHwN7xFA,28877
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=3 tau=0.18/Transit FLux.parquet,sha256=6la7lq8X4OMrgRVXe0whBjqMQ616fiJvTyUMJwx3TVs,28685
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/ESM.parquet,sha256=MFW1YdutLQbVnYjhHUW7ptbGP3rDY5hUJULxROoh3gE,224782
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Eclipse Flux.parquet,sha256=FmJlGZn8P3WhN8IboXSSXbzpVznOH7_BsUudqjjjZvU,226342
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve Noise.parquet,sha256=xaREyBW_V9QDMO9sOWVlXPP3M8NqHuyXBKW65_o0ngo,229820
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve SNR.parquet,sha256=1CSeaWeEmM1Y7HyMOgyU5e0iZhpAPcefV1YsgDjthDg,226942
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Noise.parquet,sha256=tFtfPQ0nTRX0ajI4q5sKXwSiM2Ss81urZo9YcqOWUjY,223822
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/RSM.parquet,sha256=GWpYX-JbY9tj3wMA2DbFDryBxeQ6yO9hsHVXjkTy9e0,224782
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Reflected Light Flux.parquet,sha256=s0AoFHwVDw4iyRlP4NQql1EqGVthNMpT76aCP_V1MSk,228262
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/TSM.parquet,sha256=6kfxUYE07RoCoxl8Ee57xwJMZ3YXRtOhD56PX76_R54,224782
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Transit FLux.parquet,sha256=s9svAJojmjnmE1BwpK5aBJqvBFdZGf7h3z1JmbpC_eU,226342
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/ESM.parquet,sha256=HjForpqEwKsL-_MYVWW0AQxVpMJ1eWpUHjxZa7t2snQ,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Eclipse Flux.parquet,sha256=SVLBRaFYD7nbMCIbuHsAXywhE4o1NfTqZfY3NIH7Z5g,14077
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve Noise.parquet,sha256=RJyfkoFk9AwGE2C_R6YfpUuPJlaZ0911an_U88Pa1Pg,14186
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve SNR.parquet,sha256=PZj_u_nkWv7tnZBgbyx7G-KiR2LhvbHlQPrVsPHCBLg,14099
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Noise.parquet,sha256=6Kp-_mx2wxjfWC5nLbbsWm6ubfWoRvcpeQEdMIYqsyA,13989
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/RSM.parquet,sha256=sDFENDV4vuYGo2MO0_vguCw-Ly-SVLC5qnIWHgyO5PI,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Reflected Light Flux.parquet,sha256=nZ4Yz4guZpUlC6OiYgilxyh99VpjTTVQz6LcxtzvsAs,14141
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/TSM.parquet,sha256=kPZ03Vm2QHAr3ZaFr-oOGr23yqD3MDkQI_CCutW4y2o,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Transit FLux.parquet,sha256=PDH-x7BuXe6sV-gHSD1HnjOAekoIxRR73A2rFEa--Is,14077
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/ESM.parquet,sha256=Z-etLXJP2rVc39K5410by6VGQn6VzmeCBjDtox9UaOI,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Eclipse Flux.parquet,sha256=3DUjEMyLFcHlb0LW9M3D3nfk9owDla-zhDT_tdv-hn0,14077
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve Noise.parquet,sha256=LegOnyyWFW7Ab2lFx0xteSXt2pGwcxssLSBYnwv20DE,14186
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve SNR.parquet,sha256=_4pROxvBF7z6U1lnWsQLgJzEPqTMRJXecomc4iNfE-E,14099
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Noise.parquet,sha256=TV7X9YynV-YAcEAxvRd5Nf_SuZ4VBsJeRSKsxtT1HEQ,13989
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/RSM.parquet,sha256=KmjnxE3I38PWMncGWs2Bcw3hjDqXuXAhoPuIIQjJ3mo,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Reflected Light Flux.parquet,sha256=4dFLEBLdjL-qHoXJl2CNIF0NzE8-4WD2nIgtBBl3gjk,14141
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/TSM.parquet,sha256=Gu-s6ED_f9IDT-pgMpVkcUny7Jo9Ky2Hg_sxZqPDMyc,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Transit FLux.parquet,sha256=Xk0buvPQqV0x88fKvOrPQ7eg3BfiQGEExCtvcV08VXs,14077
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/ESM.parquet,sha256=ge753RNjySHnGsMQd2F45Xp3GlbASKMB8M6K80kUse8,14032
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Eclipse Flux.parquet,sha256=yUhdenaNEhojIYjnI9WPvNWTB-JsSwjOP_FTABZYmJM,14082
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve Noise.parquet,sha256=3uPH41xAGQNOmNi03SCFjP0_16_yYc9tSF5O5Hejo_M,14203
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve SNR.parquet,sha256=TH_ErWXgh2XlrdD0uPWgkBEwNmb6X2K9ALlgujeQsdM,14104
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Noise.parquet,sha256=DJpWyzKqRMO0dYaN0L09gYmWk9m5AhxChC_KQMpNdOA,13994
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/RSM.parquet,sha256=20hLuNGQq67n5Kqam5_TVDDtrTqclNwkV4ePMo-JbLY,14032
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Reflected Light Flux.parquet,sha256=Z8iWdjjNoIqMT_c6hrId4_b6ZGzHY6qibo4zT7Ngk5U,14146
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/TSM.parquet,sha256=AbGOcI-dWTTjDFy3pOPg3-YX4TBOO-G2Vjb84DU55a8,14032
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Transit FLux.parquet,sha256=eqTXwQkUPdBd1INSG70PUJb7s4nIJd29hFeYAUFUxaI,14082
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/ESM.parquet,sha256=0g0Rg4Lq3LZON0gbGSf0tlA5Qj3eHR5-_XzPCE8YiV4,79526
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Eclipse Flux.parquet,sha256=iVjsPQ9yPm3knoqwdozll_HmPUHJzWQapWsUd_kKHXI,80050
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve Noise.parquet,sha256=IEuxdCkEc4rFZ7xnPkA4yVf5M2pcBHijdzIgmyE4TI8,81256
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve SNR.parquet,sha256=xJCwNPLlD3fxoOft85-TSONRHFmC-g0Qeg9yCSkSigc,80246
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Noise.parquet,sha256=Hj5FGMylv4OIBd9Z6awe3nJaob6FoGBcWZ2-vOlilcc,79210
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/RSM.parquet,sha256=iPaRiqxcsERzvKK1iRh7JtNk_RMaVL0uGL1ZLV-5QcQ,79526
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Reflected Light Flux.parquet,sha256=Lpoj1v8bPdlTun5hS4k-064Z7j9jysGxDqe5hCk8AY4,80690
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/TSM.parquet,sha256=88bBO_DC5oH5-GYqxsyJQqnpzg_OenVWgNE9ykXwBec,79526
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Transit FLux.parquet,sha256=DJMC7WXPwtAb0ShW1kQTnnEj_poQDCxSJxX_qXcBc_Y,80050
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Eclipse Flux.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Full Phase Curve Noise.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Noise.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Reflected Light Flux.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=100 tau=0.27/Transit FLux.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1000 tau=0.27/Eclipse Flux.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1000 tau=0.27/Full Phase Curve Noise.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1000 tau=0.27/Noise.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1000 tau=0.27/Reflected Light Flux.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1000 tau=0.27/Transit FLux.parquet,sha256=KYytg9YuNc0VP7CnkIZtKccwmmsrByD0Sy5wgJ-uNpk,6758
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/ESM.parquet,sha256=wrSLtfgqKH0MKTPhO9UzfKy0fs89FijxVGrDQHCeZmI,116683
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Eclipse Flux.parquet,sha256=nERj_gu9khWHYe-jTvs1czQBpZirjG7fyfHvIDng3SU,117485
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve Noise.parquet,sha256=iBxUwXy3BNpv-SzyT4LjLw-3DPHCihDcQ1eSyHEckBU,119260
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve SNR.parquet,sha256=gneaL3mDQ8gH9-qfuO6e4reuHppvikmBrQoxbpKxDTk,117763
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Noise.parquet,sha256=sAaSfD9Mz2np5pU4P2CgUMOaESWisRnc2fSrdvrsyg4,116217
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/RSM.parquet,sha256=xtWFRLQIqBw1Pyhq6lU61Tlu5R9Wqat8poVROdy_Lf4,116683
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Reflected Light Flux.parquet,sha256=eXqlPJhh92dmngx_SjL_wRYUx9AO4e-i46ctkpXv7FM,118445
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/TSM.parquet,sha256=M5jWtGlDPYY_CFNA5Ceh3ciO-eU76F89hrh5j7A5D_s,116683
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Transit FLux.parquet,sha256=n9pxpCCRV2eMt3Mz53i-H7zG84m2UEdciafhg-NxKQg,117485
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/ESM.parquet,sha256=kdc8kfI6wcBfIpPeuCE6Dbm5iqJ-Ufgr3dwvP2eWgrY,152537
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Eclipse Flux.parquet,sha256=Ep9ROXjKsJjZHGUgjNgrCnFIq3OB3o0IW7FqrahL9SQ,153669
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve Noise.parquet,sha256=XYvNGGYnPgkpdOMyKywYvKxhKAi0eEJ8LOBqDemLYmQ,155985
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve SNR.parquet,sha256=elLRYdM5L_0nsDQRdF8hnwPRJcgiahjLAmR8vCyhBHY,153977
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Noise.parquet,sha256=Lu2rdAga2xpBpk5WxXQPrCFlHIIToU2r5QX7rlrB5Hs,151989
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/RSM.parquet,sha256=J4PDke91TRna63jR49FcJKBTiIcmvIXURWyVp0hrrdU,152537
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Reflected Light Flux.parquet,sha256=VylHhbo5q_QOy2ZSglnucWfbqVb-NIDmLTorNz98lhQ,154949
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/TSM.parquet,sha256=kVRNNi0esfuXiCIYLrkVoxMKlVBm-gXwAvwTsK-YYN4,152537
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Transit FLux.parquet,sha256=QaCwKnRokIJXojRdto1cBVS3CaF3vuafr1K5Ui1qmNU,153669
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/ESM.parquet,sha256=Ifh3eMDKrg3EO6HedFe9Vf1DVQrU5ogvbgh1Cb99yZU,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Eclipse Flux.parquet,sha256=t63qMu-2gNmervF_wExaHizIJ9Ix3jcGbJ8nINqemLc,14077
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve Noise.parquet,sha256=-MslTUqKUE3jrY4XIeyysRSXLG7Fw8VKe7lx5ic2L7U,14186
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve SNR.parquet,sha256=8tx1iJ5VLTM9fpRjQHjReexbI3BObxigXrqnbbje5Ik,14099
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Noise.parquet,sha256=VKRS55QEuxDrDesvWux-rr68132tfXnhb9qTvYYhvrU,13989
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/RSM.parquet,sha256=60h3XkuIRTXpcTADOhG698mbahZhFNOn1jAPZo9yd9c,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Reflected Light Flux.parquet,sha256=eg_848Hyd_HKriWlRdZ0AxrIjJTDTDk5tNX3Pjj4PMs,14141
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/TSM.parquet,sha256=09FOlbIxNTBrQheWDRRPRm2p76E6g7xwGAaxKKB8cNk,14027
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Target List.parquet,sha256=3Xhk-nLxHji_GeAi9HgGmyYkJUKFvor8T1GdZT5JIs0,671767
+ExoEcho/Telescopes/Ariel/Ariel_MCS_Known_2024-03-27/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Transit FLux.parquet,sha256=VfpmCawESM4WFpqWDfyhCvCwMYCcRtmqganhqwgtlGQ,14077
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/ESM.parquet,sha256=fakq_B2EwOXJSxwM0iqSHxeVyeG1V2JnJNCZzq0VRfI,735072
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Eclipse Flux.parquet,sha256=sTo7mq3rWb13mw9er8tqPX-Nzix4JF-i4MKqlRFDcQM,740633
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Full Phase Curve Noise.parquet,sha256=_54vIldleva-5x74j4p-nYtL3wiV9PJ_5xwBDRWT3SE,752297
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Full Phase Curve SNR.parquet,sha256=LadupOahOb3r_TbfoAz5hKFoLhCfQiQgxWcMxT3pmuI,742273
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Noise.parquet,sha256=hObKkKEpcUm_t6bOBHUVzRCR4pEs46L9kj9Q7CNevcQ,732232
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/RSM.parquet,sha256=LJbgHjjON25ZNrE3wPTOkFtSX8TmK1sH10hQ_z-pmy8,735072
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Reflected Light Flux.parquet,sha256=AlqxmP4UJOY7_CATTCJ_q3RM_Ma9kCrcEZ6zGPPibXc,747033
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/TSM.parquet,sha256=C6L4u9LPWUJUBtPxNbmdDEZIbh7phaGPGNpkuJksCHU,735072
+ExoEcho/Telescopes/JWST/Ariel_MCS_Known_2024-03-27/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Transit FLux.parquet,sha256=26ODajjVzbgG8jV3DhRAwWIY0HlesEj2vYXrhSKGZ-E,740633
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/ESM.csv,sha256=lelnnvfw8IpuKyC1cMpYQ-WN3dR9jCph8Llfakgr9E4,1371549
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Eclipse Flux.csv,sha256=2hMLKDEFEJCl9bHqMPICy2OIIHactlhbP9Ds7svmRfo,1562306
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve Noise.csv,sha256=banz_dilRlpkCWew6Ch_UWIdNquslyfuDI6u7UsXfe8,1575203
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Full Phase Curve SNR.csv,sha256=fgnr2uymBj2LxeUYJYMaEFmiPLCTQTLhxTm5BlGvO4o,1339978
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Noise.csv,sha256=fFuAg-F5oNkxg_f7nd9TmWS8tbVzrASe6Jq2Izp6JqE,3136381
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/RSM.csv,sha256=KrC_R2mVS4vccC6HtzSx2u2mySEJw1g09VyrrdxtZeA,1431826
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Reflected Light Flux.csv,sha256=onzfBbfiE4heRaemyzXBuCXkE-Zhj3TpYEeM0l_N2Fo,1573205
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/TSM.csv,sha256=sT7_2Wc8BvS77Eb0O9HdkXPyYrKwHTyydI4noAwheuM,1327979
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=100 tau=0.18/Transit FLux.csv,sha256=rY5etBXS-ApEyBaidUgZk-RJwQg89vJz8wNyZkOxl3I,1567205
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/ESM.csv,sha256=wfJskaHrfEXVHYP9F5_7opfB7vxSk6n2LXmBr3yiEbg,49693
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Eclipse Flux.csv,sha256=qZQQysb1wq_N4JeTFGjlbgr1jeu_1nLq6_zqcbj5s_s,56418
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve Noise.csv,sha256=Pz2UNeEceT-RdlXUUePL-vkmAy3DA88NRZK5fKUGQhA,56945
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Full Phase Curve SNR.csv,sha256=TKDn1MENiKVZriN-Q4ASy5rcZ4GCu9EXG9rifWapJjI,49224
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Noise.csv,sha256=43EeTFOC_tHzYLcPmD3nAytOtKJW9S3lLYJCVYByLWY,103647
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/RSM.csv,sha256=dxFRBfbBO7M_nMfHscMLRLIcuWdXLuNx7mBSKcddhEA,50939
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Reflected Light Flux.csv,sha256=WO5-zMdhzhxuBOvzbPhmVKlkGRT8HkPdvWw7FWPW2FM,56803
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/TSM.csv,sha256=XRFDD4Dko2cfSNLaRpRrfNsnOwXXzVGESj1KHkbUN14,48418
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=3 tau=0.18/Transit FLux.csv,sha256=U7cd7AHVhY5WULEfZPTNg_35Om_Q184e_bU_kAPKhQQ,56623
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/ESM.csv,sha256=shNza8VacHsKKML11FKBGKDG9ayzr5gIiSnLxQpqhaI,413769
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Eclipse Flux.csv,sha256=ZQY4lvZN5oiUW2sraWNr2Oma0fa-eGFdkwgS3uJcAeQ,475336
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve Noise.csv,sha256=yG1M-MISz7mMbxlNtFvIvl1BVfMWv_d2nuZ9KjwACAQ,478185
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Full Phase Curve SNR.csv,sha256=ENNU4E6GytFWcHfG2a-jbM4jfbj188t185X33H9kh_k,406434
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Noise.csv,sha256=Dbkko6drCtEzVbZyGvTOJ93AXp0TwHrlvoNiAoAH35I,948169
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/RSM.csv,sha256=t0O3GtAgF24Btn-YhXy-wd2wKfw05oL9V1e3MlyRpDI,430941
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Reflected Light Flux.csv,sha256=dedYSZ7wEsq58A9VBOq0-UtJ9hWuXyPcmvc4jWTiHrs,478843
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/TSM.csv,sha256=EqDgSeUH1Quy8HlFcTY0F0LQV11o7sJfJtcwjuzaijI,400748
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=30 tau=0.18/Transit FLux.csv,sha256=Cqcii04JvidzB7Ngst3Q6WpBHYFq6CSq3RFSKwgvkR4,477043
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/ESM.csv,sha256=wG5gJKPdAnN8BP_INnEE6A5pdhKdA6KXNZC6w3_eNtE,685987
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Eclipse Flux.csv,sha256=lvC2_PBJYjdmw0ip3OjlkL7v34oV0vRPnLABJ6O9x8E,785923
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve Noise.csv,sha256=XqWj0GZ_Mr6OraFVeyQORc_ZUnte85v5DtZvj5y4Sns,790882
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Full Phase Curve SNR.csv,sha256=9eDY4DkGr3rsKfXUDZPX-Ps562b0uyTfcidmFfsOGOA,672194
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Noise.csv,sha256=BTPffxxkTM_Gn9FGusvXmNMUg32fUvoEitmTagyvOGw,1573975
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/RSM.csv,sha256=BEBb9jceztoPKCgWNyaHe44TUQa2FlHKtOThohkafvU,715573
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Reflected Light Flux.csv,sha256=HEyf6jkwftgkMaSKn89VoCj_AGXamn7JjjeF9YnpgPY,791505
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/TSM.csv,sha256=cndj9tUzsUYYwlvi4yjbpUX30egANqXhOqr06j05Wdk,664387
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH0 1.95-3.9um D=1 R=50 tau=0.18/Transit FLux.csv,sha256=syJWWrVTSJtjT6om4q97gRu6muPuov9MG_MCPqME_8k,788505
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/ESM.csv,sha256=Rh4_eyn2nrzOldo5P2It-v4dZaP6iWN7xCu7d272n2I,22892
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Eclipse Flux.csv,sha256=JQUJjzZ0p1JV_A7nF_eOB98HzkzW147jzyjAlWILvac,25310
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve Noise.csv,sha256=yxyC9pMM-5Wl2vZhTc1GB7sMJAaMOJMU1ifeoglJ2-k,25597
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Full Phase Curve SNR.csv,sha256=QZ0flND854ZsObBiSAbFE3dbnxd7kv1_CO_mO4tDySU,22731
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Noise.csv,sha256=RI5sBp-k05HSEXPfu94ogPdgeDYGDmdnWJTEoN8caVg,41158
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/RSM.csv,sha256=bHlfpX_RFzB_wMwiBKsnjj2hQPNrVFNmIGYYKhfKPkI,23592
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Reflected Light Flux.csv,sha256=_3uf7cMiXJxxzLB5wIMvOQ6vYb5cspNg0YRFqE6LTpw,25544
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/TSM.csv,sha256=nggrjgUmlF4oOxx378P95izbB4PAsYe-sbBuA1ZPrM0,22736
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=1 tau=0.18/Transit FLux.csv,sha256=JS2OgcgJ8lGVOOPSTZjPCFTjorSc7__CNLQxUNaPExA,25484
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/ESM.csv,sha256=Jzg8ZNTfF09VjCY6cDQ0RIbF4ViSXIWdsXFQz1vWHnU,140465
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Eclipse Flux.csv,sha256=fQct793-wSPr0pHJvVQnZ-3SFmeyfc2uGRhhNPKIqjY,163740
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve Noise.csv,sha256=Y_1MP0BsrhrQZjEmU0UpDukGfj0rUu4A4ujBOV7hLME,165998
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Full Phase Curve SNR.csv,sha256=FvxImSfGnRMCryN-HTxSzkfN31G_47zU86OrYZDRBaY,139671
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Noise.csv,sha256=vJXF5Hgee98_EENjCtYizdeVXWbaYbB1Wf0Yh61hX6A,322656
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/RSM.csv,sha256=JcKpGyUcFToZ1p9Z5iF1WHkjeMqRnP8muI-zxW5JSlM,150294
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Reflected Light Flux.csv,sha256=bH_vECE1O7O_GB2n0m5YGNtVIG6GYM0DWVE8cXNYWfI,166214
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/TSM.csv,sha256=3jiv9blvb-BI5s7_VIjo18VGBP4cxB2CFRuSAWRAsAU,140136
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=10 tau=0.18/Transit FLux.csv,sha256=iYuElzEUzWKYNpN0NjWbP0JYN_j_cDeEg39bRkVo3bc,165614
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/ESM.csv,sha256=Oy_f5HrvYbvtuNeAvNA_3gtWDnKDkX1AUiKgBofzbZA,1341824
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Eclipse Flux.csv,sha256=L17f_BTrnQu5SWq52CWNz33juMkJfV02l2U4Gr1rOtk,1548568
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve Noise.csv,sha256=iyf6ONIEPgZUD0quV6xBI2rhcILu5oO44Xt8QER6MnI,1577358
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Full Phase Curve SNR.csv,sha256=_miYPjiFNnUBYiUaDf0ogB4byTV4vBu6y-YBmBMzhTQ,1310655
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Noise.csv,sha256=vt8nVnZijkQ6yvwZyqjdylFijbCSMJXgQdvMKJ2bMm0,3125341
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/RSM.csv,sha256=bolO5zfLveXWg5_7GYcJ7rZbOIWwM04yGrcc4zzIguo,1448451
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Reflected Light Flux.csv,sha256=YWB2WVBXWA9ft0edbrnkpKiVqr7t9PjddqMJXmOnpvA,1573094
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/TSM.csv,sha256=ph105IAOziTIpLLRlhtSfljgqixksVqu-CQxSPjHL3U,1344579
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=100 tau=0.18/Transit FLux.csv,sha256=wq8Nd8AO5Iox5V0saNmj7tT5UxAleseuyy3VZn09DoE,1567094
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/ESM.csv,sha256=noF_o1x6bkJKavr37gHRu9zN4CWCXLHFq_6qHgi57JY,404771
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Eclipse Flux.csv,sha256=m3fZid-A4Mt8OcMAxdheHKq7mx-ViQ5VB7lKD5jicno,471423
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve Noise.csv,sha256=8tR3Rle3SMd9ticjUYhYcvRHEmG2m7mU55SI6T4DN-8,479395
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Full Phase Curve SNR.csv,sha256=DHhuYHhdJ426j_UBOA5TNxIxO5iwnLZRaUyZl0ZiPb4,399412
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Noise.csv,sha256=VdEpuIMo8MIIIaCkOPwoq1WZhanm65GYMMU9u6tam5I,947854
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/RSM.csv,sha256=UbRcoJvBl1JPSpfc2Bk38qkuMhwCbg2Y61NpoQscBH8,435962
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Reflected Light Flux.csv,sha256=wS7517xnthIYroFhhHy2ofHtetnCETFyMy0Rlm5J8Ps,478810
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/TSM.csv,sha256=Mrc7zivJQtby0Dwp7e2tfg93hLRNfIBtks40TrdRTVs,405011
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel AIRS CH1 3.9-7.8um D=1 R=30 tau=0.18/Transit FLux.csv,sha256=yFRAcs3q486wzLK8dZMZUr9dQpJ8vXkjd2hHS9hVVA0,477010
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/ESM.csv,sha256=nL6h1xeLvLmZfofv1KA8X62YXTUzAsIOobLe5QOBZTQ,24764
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Eclipse Flux.csv,sha256=mkvT64e_-6r144BB0DYGdocQ0OlATvO_tsipB0ICuAM,25521
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve Noise.csv,sha256=Af45-RTSXq4B6efWSwwmi1RsOuvfr3-D40PUJHlC8fc,25562
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Full Phase Curve SNR.csv,sha256=TdWwC1PY6ZGabkcnuha3EXAJwlAuQTMue8TVqdU8ve8,24601
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Noise.csv,sha256=jXdkOGFSxkHmXq8_PFpX885pdKNxv-Xwd3QG-Fqe3Jo,41194
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/RSM.csv,sha256=GpHe_54Ba5mXDCAVRu28fOhfG254h5mjjOynx-y27jY,23452
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Reflected Light Flux.csv,sha256=nSpH8ZDtmxYngaqix4pI9bvQYbxERg9PjBUaJ2zqkDM,25544
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/TSM.csv,sha256=84KlA4b3hUVqRVdnV0CR0GTljG_HlebCgedlHUuXrLs,22752
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel FGS1 0.6-0.8um D=1 R=1 tau=0.17/Transit FLux.csv,sha256=9zpSkgcw50rInqVm1okNrCfy3U1XuAyUG775BVuMLnc,25484
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/ESM.csv,sha256=D8PRSlYoM1a8F_BYbLRjOxE9xnMQvNnszqJNY1iV7OE,24257
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Eclipse Flux.csv,sha256=nsmio7O2SSCcK6mwIKyN_qWoxdfurfGB3rMYgpjLnSA,25524
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve Noise.csv,sha256=n54xmTi_4fHklcg8j6vNinyU_X8jexwYv8Qi0SN9JzA,25534
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Full Phase Curve SNR.csv,sha256=UG0CQGJP1woqHIroriiVfAQx_9R9cVaO3y8ZRxsjWDg,23993
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Noise.csv,sha256=Awdn2UPjRr-FAYJhB33nDMRuGZsBQG7x5c6CtLj67Uk,41196
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/RSM.csv,sha256=T940RgECfKky-0axhNKPc1UgauPV_vJvOSoV5chGbGo,23360
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Reflected Light Flux.csv,sha256=8pEButJXs6wcP-RW9ojBJNPebeRzD1B7jU8DZ7gYY2I,25544
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/TSM.csv,sha256=y4eBkBsrJw6lMFGGNfedYc3NlCGQ2PFCzNWVRrcI2tA,22765
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel FGS2 0.8-1.1um D=1 R=1 tau=0.25/Transit FLux.csv,sha256=LIm0n-Lzfe0jlRqd-rjloqj4Pzt9C_fEeRP5fHSk1K4,25484
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/ESM.csv,sha256=WnJdhCCRk9YrnjCh1ELqBjGUXWwwQRvsblO5QD6oGYY,23517
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Eclipse Flux.csv,sha256=A4HxTC3XN-msl9TZhkb93RKrKh71UETntP433TCWSCU,25523
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve Noise.csv,sha256=rIYMeR5VXXtPJQn-BtsteSA1TyVKEEa2Vg7h412UmJY,25509
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve SNR.csv,sha256=6j5BYVCarHNMva58pyrRMVdZMa4Qyj5Z4nLDJoAxcCc,23331
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Noise.csv,sha256=U_STw158ouNZSHObTebJ3QhsFRGtOdXlfgzGrXn6AFI,41169
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/RSM.csv,sha256=S4SlpBSf5kHvYrT_LER7Q7uoIwxKF33DRG1aCg3ND8U,23280
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Reflected Light Flux.csv,sha256=l4syi1UetMB9-EnG2fDt7bBwVrTUNg8dgGNvHr-1JRY,25545
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/TSM.csv,sha256=ry5-ZcP3X_GkaMZa9NdLUw0De4lXBtr6WpsTYflXthE,22786
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Transit FLux.csv,sha256=-mkO1gKbwU_ZQzPfnL-gso9g9IXaQnq_az9rYHCntjo,25485
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/ESM.csv,sha256=pOGcuu0HspKzRdcwwQrGh4eEaCNlQLOfkTQv7Wey6KU,148911
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Eclipse Flux.csv,sha256=7UhC1xNZX29Ij77txEK2s2kb44RGwCNN7tChiLiGJn4,166189
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve Noise.csv,sha256=3HrWwoFoPdyJAZrYyAPywqMaPdC4PGXoUzTHy2Qigcs,166704
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Full Phase Curve SNR.csv,sha256=9a7IHOHPQAN45Nv6BZvJBf39MANE8IeQlK_Bsltw8sg,146566
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Noise.csv,sha256=tno-RmSMiJH-C15mLLj_TFvU0I1xIshefF4rlYFyt5o,322376
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/RSM.csv,sha256=7aJTw4TB6epLW5jOJJR0AIeKpXTYIg__AEbAmgNLXd4,147155
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Reflected Light Flux.csv,sha256=llSSwx66aW13NJebhW0z_eRtVMi3rQRdg4dRvr7Yexg,166225
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/TSM.csv,sha256=l3Z5XeuPlbnb2RusNxZPAZEPHPoqoOtNF5JhI8JaWgk,138216
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=10 tau=0.27/Transit FLux.csv,sha256=8keLqvmAlvsJJ8PtQGXvtMBheJhgfwuXtj2ddswYNYw,165625
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/ESM.csv,sha256=wmYoXPjU44FASkfIzcn0HZgkglSmzgxpBHZAgOPKdY4,219236
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Eclipse Flux.csv,sha256=tRGIu8RRJuMCSgsmjWi0aa07HL_Ufu-W9g3_yX_ln6E,244317
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve Noise.csv,sha256=b3DjvcE_l_alkmxT2nLNSa8LPbtuS048nUvr0yJicLk,245013
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Full Phase Curve SNR.csv,sha256=WcVIPALnoYXF27FaMceyjBHyA1ktAcFEKCB41CTBJ1A,215519
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Noise.csv,sha256=7CoSH0BLeApkD3y01ZAo0fh4hSbaTbXyNp8kaPysLI4,478883
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/RSM.csv,sha256=fyNGeMmH-a4mH7A--CHm3kE8Yvbq2ElRXC0jCMqQ2Q0,216759
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Reflected Light Flux.csv,sha256=iMTiV-52ImnNHHK55XHgT1l35AJWGoUsFJu0HB5r6bk,244465
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/TSM.csv,sha256=0dwuSZZ-STVsRV3zV58y-TlFSnFeifXuYmHVb6bcFiY,202855
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=15 tau=0.27/Transit FLux.csv,sha256=IsUuzpw3Q22ke9Q4ItU52Lx0GL5tAJoq4ApSJkbaUbk,243565
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/ESM.csv,sha256=q8VQz8v_-jePEt39Bu0D1fzrqZOgvgfv-7LfoQJFj-A,289692
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Eclipse Flux.csv,sha256=uqOQNHjUDtQkmmJCq3cCa8W2a_LZNx4-bIULYgLn5ZA,322354
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve Noise.csv,sha256=dc6U2YDdKrjhwn9GG76kFCzUxvUsSCG133I-V-BS7UE,322934
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Full Phase Curve SNR.csv,sha256=_X_8G3GLhdrz3cVDSJMhWOMXNrcZUv4HiBnZCyPvJJs,284542
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Noise.csv,sha256=7DRVpv9Vrc6nzc6WYMbseY35pKFs-Ah_cdI8A4MxchM,635053
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/RSM.csv,sha256=T6wzG21RfadnrSG7mcQielvc-jTopTOXXc2sEkw7RhU,286371
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Reflected Light Flux.csv,sha256=_K7067Ftz5XLqAOymd9kVZqQ_L-0bb8J-GRsrquEV9A,322565
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/TSM.csv,sha256=d6Fl4aWaxYQ8a5y2Whp7GjrtezUD1xY1qvHPuLV__dQ,267539
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel NIRSpec 1.1-1.95um D=1 R=20 tau=0.27/Transit FLux.csv,sha256=GHUd0KBOVJQwzb33kwRUe9WSfD5g-6U29TwZ0FF0GdE,321365
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/ESM.csv,sha256=xMnB9Q7yLs4GzF4_u2jthi9u_vffy-UndgjyhI0ORyQ,25167
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Eclipse Flux.csv,sha256=rOtKO0w0FByZJRhLLruwhAMYKuO-TtXvDpsldcDSQ5M,25560
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve Noise.csv,sha256=USVaa3iJz_olJug7jMquOxzpP12thAjuW4Or1ZRMXIg,25595
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Full Phase Curve SNR.csv,sha256=jkhd3Yo_xlTfZuRXHpmQvJ8ZOhejmMVby4lp21oF3lc,25029
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Noise.csv,sha256=bvbYC-zQsP-n3cYQKRaSzj-4y-mLT5053Lwcz6CSs1w,41162
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/RSM.csv,sha256=yG_jxG2S2F6d4nAu6ULZFd-SWpYWgfuKkeY9JeLBxZc,23562
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Reflected Light Flux.csv,sha256=pUBzR2Vx4s6PvbwGuX5o3QZ-1eA4zBg7ReemO4_5ZWI,25544
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/TSM.csv,sha256=5zjrQ1Eyuqk_4bwaqFts9PWw0lOm5wDMG4guYjwVeFo,22732
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel VISPhot 0.5-0.6um D=1 R=1 tau=0.2/Transit FLux.csv,sha256=PJntTp9vs_mgciGpIZ1f8GV7PSNsBi2HBPE7CUN98mc,25484
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/ESM.csv,sha256=WnJdhCCRk9YrnjCh1ELqBjGUXWwwQRvsblO5QD6oGYY,23517
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Eclipse Flux.csv,sha256=A4HxTC3XN-msl9TZhkb93RKrKh71UETntP433TCWSCU,25523
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve Noise.csv,sha256=rIYMeR5VXXtPJQn-BtsteSA1TyVKEEa2Vg7h412UmJY,25509
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Full Phase Curve SNR.csv,sha256=6j5BYVCarHNMva58pyrRMVdZMa4Qyj5Z4nLDJoAxcCc,23331
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Noise.csv,sha256=U_STw158ouNZSHObTebJ3QhsFRGtOdXlfgzGrXn6AFI,41169
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/RSM.csv,sha256=S4SlpBSf5kHvYrT_LER7Q7uoIwxKF33DRG1aCg3ND8U,23280
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Reflected Light Flux.csv,sha256=l4syi1UetMB9-EnG2fDt7bBwVrTUNg8dgGNvHr-1JRY,25545
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/TSM.csv,sha256=ry5-ZcP3X_GkaMZa9NdLUw0De4lXBtr6WpsTYflXthE,22786
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/Ariel_MCS_Known_2024-03-27/Ariel NIRSpec 1.1-1.95um D=1 R=1 tau=0.27/Transit FLux.csv,sha256=-mkO1gKbwU_ZQzPfnL-gso9g9IXaQnq_az9rYHCntjo,25485
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/ESM.csv,sha256=2jZPhfsdattBvkfU-3oLaCh7TsaYjWuwbHWM03v0NCQ,1343959
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Eclipse Flux.csv,sha256=aGy9tqQTBsudT1kyJ_sz5AYQ_swL1jRU3Cvt78Cg2pw,1562027
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Full Phase Curve Noise.csv,sha256=R3QOQcRFVhZpYQY_9b0TwKOjN0M_or7fjq1q5LEHWmw,1573598
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Full Phase Curve SNR.csv,sha256=3b49gIvqAkujggTaBqqis4gh1_SUjw17ke57s0AmTyU,1326460
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Noise.csv,sha256=iudppEllVf0qRkfSNYf8Z-NQhqyLBK_AYYwQk2n086w,3136521
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/RSM.csv,sha256=xwCCQ-S8DB8nFAkH4TW6KyrS96uaXqqr3sVxH9VWAB8,1351325
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Reflected Light Flux.csv,sha256=XkjKejaftfWENyS8RKc6gRJbxWwmqF-YEc4NjKFgulc,1573094
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/TSM.csv,sha256=BZYiUb8wehuu_vVJhgd3uPgB6TJR5WJPt4S-i3py9mc,1294985
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Target List.csv,sha256=gu7GVGMKmNxMPz7e7s2fhJvUf4gJUDejB6IJsCaVF8Q,1036353
+ExoEcho/Telescopes_superceded/JWST NIRSpec 0.6-5.3um R=100 0.6-5.3um D=6.5 R=100 tau=0.36/Transit FLux.csv,sha256=A-ayQ_QksqZygbx_Kj-HZXCWxJjSWTEj-oVVReGFSOY,1567094
+ExoEcho/Tiered Precision Plots/HD189733b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=vEHLvIUO36uwkpdE30He-Rg-EqsZ3IsLEJ3UuMKljaE,286512
+ExoEcho/Tiered Precision Plots/KELT-9b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=RPO9Vfo_vxKZOp2lQ_-qR2p_TjSmAg7e9BmC-odwckw,270640
+ExoEcho/Tiered Precision Plots/TOI-2338b Noise and Flux for Ariel at Different Tier Spectral Resolutions (5000 Occultations).png,sha256=XFWWE9SPZefSkRk1Z32E2ZfpHyX9jtzw2zdwMBLSGwM,284447
+ExoEcho/Tiered Precision Plots/TOI-2338b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=-nwcMv9i83p-LbsE50Fk9xjELFS2q6QPxg9U3lp-mbo,288116
+ExoEcho/Tiered Precision Plots/WASP-103b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=lK6XHrMF7Xgcxo38gu008hYS0E-ldMN-vbCmyXXwWCo,287260
+ExoEcho/Tiered Precision Plots/WASP-105b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=FLjf9vdvB2UBuR2_cew98TYpPYRarqF3HP0hlaHaLzc,291692
+ExoEcho/Tiered Precision Plots/WASP-10b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=M3oW11tPOin9wyFcNpMrdt7LyZhdnstUIC37zU7spEo,285040
+ExoEcho/Tiered Precision Plots/WASP-124b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=C3oAwSlGgTJq7yddhCYsBAnbpoFQkWXmIsuflDJGE3o,291879
+ExoEcho/Tiered Precision Plots/WASP-12b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=bH5FwTsSPybQyjVhUAX-IjTjwIjphdjYqexY2gQ1YvY,280101
+ExoEcho/Tiered Precision Plots/WASP-130b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=BHNmtzvNc_Hg8ZIAp7W7R4nllzfSoRH65_ymOMkVPYo,292120
+ExoEcho/Tiered Precision Plots/WASP-136b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=gEmtiok9izdp37lvQqhewmvrhbW_UvjMNgAj8ciq930,296988
+ExoEcho/Tiered Precision Plots/WASP-139b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=oxeOuwpUr4WLjKnJHVYZlc_9R4VferJ7EbjIhAQdrCg,291496
+ExoEcho/Tiered Precision Plots/WASP-141b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=AuslutL45TIALumnqu5qobfEeHTzjFhVGNfoIDBCql0,291672
+ExoEcho/Tiered Precision Plots/WASP-147b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=dcF4gzkTyr_84rK9RZXoJjSd7PDbx9JQSUzqo6n4TCs,293744
+ExoEcho/Tiered Precision Plots/WASP-150b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=wQXrWOq0S1IpDjA4BG1LFWggxMZFoUbfUjz4tv3CE1Q,299655
+ExoEcho/Tiered Precision Plots/WASP-15b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=z5xQBEnwZJpA2AD6Ah6zRZ4roY_fpckh__OC0HW73bQ,291383
+ExoEcho/Tiered Precision Plots/WASP-169b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=IiuokDRcHbfQoYiTsW6756yJYWbAo8nZTdtgoGikMdU,296745
+ExoEcho/Tiered Precision Plots/WASP-170b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=ndOD8djfhpwb9sYy14qX2a3Ib_kBqQjVkWu_ibR1qUM,293357
+ExoEcho/Tiered Precision Plots/WASP-174b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=L6ISdnVEJOVyN-gyW0tmkyFWyJftyj5_UhcjbLQIE98,293230
+ExoEcho/Tiered Precision Plots/WASP-176b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=k_7yicsn_D0LszU_e6PFPyxWc89Wb36jYYC_APtQEcg,296021
+ExoEcho/Tiered Precision Plots/WASP-177b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=SWj-DjLTgoKznVbn0Sh1cavA49MyAWrpa0JGsPTXI3w,287970
+ExoEcho/Tiered Precision Plots/WASP-178b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=f0jtZ3XnkYUV5nmH0pAoOJQG09TDAv5Bh6QqggvTtYE,289714
+ExoEcho/Tiered Precision Plots/WASP-189b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=p8nhCJodPuqF2H2DupjNAyutVR8Ur_0Lak3wmvlggxA,283246
+ExoEcho/Tiered Precision Plots/WASP-22b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=v3BKF8RNze__xKWlTNau38c5nMD9nNA83P0p2l3kxNs,292575
+ExoEcho/Tiered Precision Plots/WASP-25b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=M5fU3gGkNS9YyFDx_93FTpLNqFC_tDYgbFZ93iwYlLY,290028
+ExoEcho/Tiered Precision Plots/WASP-33b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=0VeFVQusRB6Jdt3-g-epBXowuBj8lFmB71ejl2OSq9c,281375
+ExoEcho/Tiered Precision Plots/WASP-37b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=ksd7zddjncDGS4HYVd-vb70DP72haHHaCcye-HbS59Y,291045
+ExoEcho/Tiered Precision Plots/WASP-46b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=mfFrkLfe7jYl7X_ebc_GehlqqtcEmv6O42nqAEpZjXw,293168
+ExoEcho/Tiered Precision Plots/WASP-53b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=JJFnAnhHPfNcKQzvH34GGOc_4F28HSfr3ItT6RtA57c,289022
+ExoEcho/Tiered Precision Plots/WASP-60b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=Pm7y_HbzQbC2x63Xal2LZHn6hunwwUH48r_eucUD1eU,299024
+ExoEcho/Tiered Precision Plots/WASP-61b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=1ousYW9T4VgoL34RSx4dM8JiVLbPbnhrxGCkPiKCHdE,293633
+ExoEcho/Tiered Precision Plots/WASP-62b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=xRObdzMc-vAD0dx1_JIBN8OYRnYr2r4n9dgRI0tUMcU,293371
+ExoEcho/Tiered Precision Plots/WASP-70Ab Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=EuFjh3lxfgW2srji1LEVfT5c6QJVEMO8Oux7vO6dGWk,292263
+ExoEcho/Tiered Precision Plots/WASP-80b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=nUyW14AAWBodxrJlkn99bO8yGap8DlPgSZMzNJD2PMU,283547
+ExoEcho/Tiered Precision Plots/WASP-83b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=7T7dSPHTbeQCxD8sVEnWeEhdl7HORtrPT24cFvNws1g,295192
+ExoEcho/Tiered Precision Plots/WASP-97b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=fxCqvoHFf4z_d08peId67C-M90G_sDI6Rawsolihwq0,290580
+ExoEcho/Tiered Precision Plots/WASP-99b Noise and Flux for Ariel at Different Tier Spectral Resolutions (Single Occultation).png,sha256=RmdfJxaoVeoSGaXmpqaLV3AGosY6FuhBL7wwemShQjM,295886
+ExoEcho/__pycache__/Ariel.cpython-311.pyc,sha256=zlEUQTMniGQo3pzBBxIC9A1tJWVT27s8Vw3O1-Ft-Cc,22925
+ExoEcho/__pycache__/Functions.cpython-311.pyc,sha256=bXOy8IaAdiTzaW4sEtqMHa-ZWJnkFBBJaMllnuPdMUk,18633
+ExoEcho/__pycache__/Functions.cpython-39.pyc,sha256=ARPn2p8DcmJB_bqgRobZFE7H5DEE2d1aUIV_7y58HDc,9980
+ExoEcho/__pycache__/Telescope.cpython-311.pyc,sha256=3nFcv2TwMG_61g3suGm9muLYXPxW1sSgyg9m2grHpyI,35873
+ExoEcho/__pycache__/addTelescopes.cpython-311.pyc,sha256=fWJ6QqALUnWGTSGfUFYNs4EXOdEGIhf-Vspxho_VoOs,28715
+ExoEcho/target_lists/Ariel_MCS_Known_2024-03-27.csv,sha256=t7qVi0RdIHTsT6cQgnH4hGNw7vfH_hP-ZR-SIIdptpA,1033674
+ExoEcho/target_lists/Ariel_MCS_TPCs_2024-03-27.csv,sha256=yqjhlNxgV0HCI-npgZaaFvscLCugC4BPqEtUkQyJodo,1652659
+ExoEcho-0.1.0.dist-info/LICENSE,sha256=48CY7nkuJaZSXkQPEJXqaiX4WjGGmjhxR7rHCuV9fmw,747
+ExoEcho-0.1.0.dist-info/METADATA,sha256=DHnKN7UYrUVY9vtiARtHIh13OTdpGyfZeQ4en1U1CAs,3051
+ExoEcho-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+ExoEcho-0.1.0.dist-info/top_level.txt,sha256=CauB3iLkgQFV90hKPhwMLS_dOCmLaRNy-kA21EFfI7E,8
+ExoEcho-0.1.0.dist-info/RECORD,,
