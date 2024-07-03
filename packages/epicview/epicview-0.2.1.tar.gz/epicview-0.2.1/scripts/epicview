@@ -1,0 +1,59 @@
+#!/usr/bin/env python3.9
+
+import argparse
+import epicview
+import os
+import yaml
+
+# create help text and handle some command line arguments
+helptext = "\n\
+\n\
+examples: \n\
+\n\
+"
+
+# normal option parsing
+parser = argparse.ArgumentParser( description="a viewer for epic genomic data",
+                                  epilog=helptext,
+                                  formatter_class=argparse.RawDescriptionHelpFormatter )
+
+parser.add_argument( "--version", action="version", version=epicview.__version__ )
+parser.add_argument( "session", nargs='?' )
+parser.add_argument( "--variable", default=None )
+parser.add_argument( "--example", action='store_true', default=False ) 
+
+args, remainder = parser.parse_known_args()
+
+structurefile = ""
+variable = ""
+
+if args.example:
+    structurefile = os.path.join(epicview.getModulePath(), 'examples', 'hilbert.csv')
+    variable = "increase"
+
+else:
+    # did the user pass a session file
+    if args.session.endswith(".yaml"):
+        with open(args.session, 'r') as stream:
+            data = yaml.safe_load(stream)
+            structurefile = data["data"]["structure"]
+            variable = data["data"]["variable"]
+    else:
+        structurefile = args.session
+        variable = args.variable
+
+# reporting
+print("---------------------------")
+print("Epic View application v" + epicview.__version__)
+print("  " + structurefile )
+print("  " + variable )
+print("---------------------------")
+
+# -----------------------------------------------------------------------------
+# Main
+# -----------------------------------------------------------------------------
+
+eServer = epicview.etkServer()
+
+if __name__ == "__main__":
+    eServer.start(structurefile, variable)
