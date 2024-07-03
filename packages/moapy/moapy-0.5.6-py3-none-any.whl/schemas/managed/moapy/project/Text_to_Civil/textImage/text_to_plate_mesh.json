@@ -1,0 +1,158 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "moapy",
+    "description": "Schema for moapy",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://moa.rpm.kr-dv-midasit.com/backend/function-executor/python-execute/"
+    }
+  ],
+  "paths": {
+    "/moapy/project/Text_to_Civil/textImage/text_to_plate_mesh": {
+      "post": {
+        "summary": "Text To Plate Mesh",
+        "description": "Convert the text to a plate mesh and upload the image as a triangular mesh to MIDAS CIVIL.\n\nArgs:\n        text: The text to convert\n        color: The color of the text RGB, [0~255, 0~255, 0~255]\n        insert: The insert point of the text (lower left corner)\n        height: The height of the text\n\nReturns:\n        str: The result of the conversion",
+        "operationId": "text to plate mesh",
+        "parameters": [
+          {
+            "name": "text",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Text"
+            }
+          },
+          {
+            "name": "insert",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Insert"
+            }
+          },
+          {
+            "name": "height",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Height"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrintColor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "title": "Response Text To Plate Mesh"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "PrintColor": {
+        "properties": {
+          "r": {
+            "type": "integer",
+            "title": "R",
+            "description": "The red component of the color",
+            "default": 0
+          },
+          "g": {
+            "type": "integer",
+            "title": "G",
+            "description": "The green component of the color",
+            "default": 0
+          },
+          "b": {
+            "type": "integer",
+            "title": "B",
+            "description": "The blue component of the color",
+            "default": 0
+          }
+        },
+        "type": "object",
+        "title": "PrintColor"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}
