@@ -1,0 +1,25 @@
+[project]
+name = "{{ cookiecutter.__pypi_slug }}"
+version = "{{ cookiecutter.version }}"
+description = "{{ cookiecutter.project_short_description }}"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [ ]
+{%- if cookiecutter.license_spdx != '' %}
+license = {file = "LICENSE.txt"}
+{%- endif %}
+
+[[project.authors]]
+name = "{{ cookiecutter.__full_name }}"
+email = "{{ cookiecutter.__email }}"
+{%- if cookiecutter.github_username != '' -%}
+{%- set github_base = "https://github.com/" ~ cookiecutter.github_username ~ "/" ~ cookiecutter.__pypi_slug %}
+
+[project.urls]
+bugs = "{{ github_base }}/issues"
+changelog = "{{ github_base }}/blob/master/changelog.md"
+homepage = "{{ github_base }}"
+{%- endif -%}

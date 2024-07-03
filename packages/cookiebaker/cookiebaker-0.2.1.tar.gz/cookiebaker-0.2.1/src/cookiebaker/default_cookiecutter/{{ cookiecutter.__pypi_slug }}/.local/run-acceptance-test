@@ -1,0 +1,3 @@
+# This should be `source`d while a virtual environment is active.
+# You can write a script here to try out the code being developed,
+# and examine the result as a form of informal acceptance testing.

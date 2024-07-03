@@ -1,0 +1,23 @@
+[project]
+name = "cookiebaker"
+version = "0.2.1"
+description = "Use `cookiecutter` with existing code and git integration"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [ "cookiecutter" ]
+license = {file = "LICENSE.txt"}
+
+[project.scripts]
+new-project = "cookiebaker:cli"
+
+[[project.authors]]
+name = "Karl Knechtel"
+email = "zahlman@proton.me"
+
+[project.urls]
+bugs = "https://github.com/zahlman/cookiebaker/issues"
+changelog = "https://github.com/zahlman/cookiebaker/blob/master/changelog.md"
+homepage = "https://github.com/zahlman/cookiebaker"
