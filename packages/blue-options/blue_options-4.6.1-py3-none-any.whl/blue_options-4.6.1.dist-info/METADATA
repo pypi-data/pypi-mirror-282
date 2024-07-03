@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: blue_options
+Version: 4.6.1
+Summary: 🌀 an options for Bash.
+Home-page: https://github.com/kamangir/blue-options
+Author: Arash Abadpour (Kamangir)
+Author-email: arash@kamangir.net
+License: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Unix Shell
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: blueness
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pymysql ==0.10.1
+Requires-Dist: pyyaml
+Requires-Dist: pylint
+Requires-Dist: pytest
+Requires-Dist: tqdm
+
+# 🌀 blue_options
+
+🌀 `blue_options` implements an `options` for Bash.
+
+```bash
+pip install blue_options
+```
+
+wip 🔥
+
+---
+
+[![PyPI version](https://img.shields.io/pypi/v/blue_options.svg)](https://pypi.org/project/blue_options/)
