@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+splernfast/__init__.py
+splernfast/pysort.py
+splernfast.egg-info/PKG-INFO
+splernfast.egg-info/SOURCES.txt
+splernfast.egg-info/dependency_links.txt
+splernfast.egg-info/top_level.txt
