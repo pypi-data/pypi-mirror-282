@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: iyaole
+Version: 7
+Summary: Encapsulation
+Author: 浮生
+Author-email: iyaole@vip.qq.com
+Keywords: python,windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pyautogui==0.9.54
+Requires-Dist: requests==2.32.3
+Requires-Dist: pyotp==2.9.0
+Requires-Dist: helpers==0.2.0
+Requires-Dist: yagmail==0.15.293
+Requires-Dist: keyboard==0.13.5
+Requires-Dist: numpy==2.0.0
+Requires-Dist: selenium==4.21.0
+Requires-Dist: opencv_python==4.10.0.84
+Requires-Dist: pyinstaller==6.8.0
+Requires-Dist: pywin32==306
+Requires-Dist: pywin32_ctypes==0.2.2
+Requires-Dist: twine==5.1.1
+Requires-Dist: webdav4==0.9.8
+
+
+# 简介
+
+封装
+
+## 联系人
+
+作者: 浮生
+邮箱: iyaole@vip.qq.com
