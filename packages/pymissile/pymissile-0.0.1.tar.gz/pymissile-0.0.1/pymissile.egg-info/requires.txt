@@ -1,0 +1,6 @@
+pysimenv
+numpy
+scipy
+matplotlib
+h5py
+pytictoc
