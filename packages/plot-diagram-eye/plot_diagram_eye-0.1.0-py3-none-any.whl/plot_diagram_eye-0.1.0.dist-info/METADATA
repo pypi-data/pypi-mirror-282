@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: plot_diagram_eye
+Version: 0.1.0
+Summary: A library designed to generate and visualize eye diagrams for digital communication signals. 
+Home-page: https://github.com/yourusername/eye_diagram
+Author: K ABHISHEK MENON
+Author-email: kabhishekmenon@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.18.0
+Requires-Dist: matplotlib >=3.1.0
+
+# plot_diagram_eye
+
+`plot_diagram_eye` is a Python library designed to generate and visualize eye diagrams for digital communication signals. The library provides functions to create various types of filters, generate signals, and plot eye diagrams to analyze the quality of the signal transmission.
+
+>>> It mainly comes with three functions. get_filter() , get_signal(),  drawFullEyeDiagram()
+
+>>> get_filter(name,T,rolloff= None): 
+
+    Generate a filter function.
+
+    Parameters:
+    name (str): The type of filter to generate ('rect', 'rc', 'rrc').
+    T (float): Symbol period.
+    rolloff (float, optional): Roll-off factor for 'rc' and 'rrc' filters.
+
+    Returns:
+    function: A function representing the specified filter.
+
+    Available Filters:
+    - 'rect': Rectangular filter.
+    - 'rc': Raised cosine filter.
+    - 'rrc': Root raised cosine filter.
+    
+
+>>>get_signal(data,g,T,Fs):
+
+
+    Generate a signal by convolving the data with the provided filter.
+
+    Parameters:
+    data (array-like): Input binary data stream.
+    g (function): Filter function.
+    T(int): Symbol period. 
+    Fs(int): Sampling frequency.
+
+    Returns:
+    tuple:
+        t (numpy.ndarray): Time vector.
+        x (numpy.ndarray): Generated signal.
+
+>>>def drawFullEyeDiagram(x,T,Fs):
+
+    Generate and plot the eye diagram of the signal.
+
+    Parameters:
+    x (numpy.ndarray): Input signal.
+    T(int): Symbol period. 
+    Fs(int): Sampling frequency.
+
+    Returns:
+    None. The function plots the eye diagram.
+
+
+
+
+## Features
+
+- Generate Rectangular, Raised Cosine, and Root Raised Cosine filters.
+- Convolve input binary data streams with specified filters to create modulated signals.
+- Visualize eye diagrams for analyzing signal integrity and performance.
+
+## Sample usage:
+
+  >>>import plot_diagram_eye as eye
+  >>>import numpy as np
+  >>>Fs=10
+  >>>T=1
+  >>>N=10
+  >>>b=np.random.randint(0,2,N)
+  >>>data=2*b-1
+  >>>t=np.arange(-3*T,3*T,1/Fs)
+  >>>g=eye.get_filter('rc',T,rolloff=0.2)
+  >>>t,x=eye.get_signal(data,g,T,Fs)
+  >>>eye.drawFullEyeDiagram(x,T,Fs)
+
+  
+
+## Installation
+
+You can install `plot_diagram_eye` via pip:
+
+```bash
+pip install plot-diagram-eye
