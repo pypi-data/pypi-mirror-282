@@ -1,0 +1,6 @@
+setup.py
+draw_eye_diagram.egg-info/PKG-INFO
+draw_eye_diagram.egg-info/SOURCES.txt
+draw_eye_diagram.egg-info/dependency_links.txt
+draw_eye_diagram.egg-info/requires.txt
+draw_eye_diagram.egg-info/top_level.txt
