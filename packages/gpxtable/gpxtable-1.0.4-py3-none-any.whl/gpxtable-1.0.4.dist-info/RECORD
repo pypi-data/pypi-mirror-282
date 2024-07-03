@@ -1,0 +1,11 @@
+gpxtable/__init__.py,sha256=Cgh--_uOWQisb1f97kLkA_mpr23HdFdtUNCycT_jAso,216
+gpxtable/cli.py,sha256=mSc67eaS1TMN5sHu6PT12rhAUlGJKXCo7Dt7zvB3PAw,2868
+gpxtable/gpxtable.py,sha256=DoWWZDO-lYoHjnN8xKmGUMLPE_Y5TZUDHFgLMsSHTtA,26152
+gpxtable/wsgi.py,sha256=aof5kAn9G8xvJMvajhtrQuI14KOXFhCF3o83SxGm0-A,2428
+gpxtable/templates/upload.html,sha256=sIJzk5nnooBOCnZGboug3gbnlfQAa1nS14yeBoI7NEQ,3003
+gpxtable-1.0.4.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+gpxtable-1.0.4.dist-info/METADATA,sha256=K-bScdhciUQyTOC0Cmoj7vtzAN_aoYNvBwRvHyWabWw,3281
+gpxtable-1.0.4.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+gpxtable-1.0.4.dist-info/entry_points.txt,sha256=af2kRz-KTscb815gP6w6gl0Pzr-fYfWl0hVSu49KrAo,47
+gpxtable-1.0.4.dist-info/top_level.txt,sha256=-v5N-JoiH00B_3qlMoPT4y6xr-1r5bFPMND4rNGyARU,9
+gpxtable-1.0.4.dist-info/RECORD,,
