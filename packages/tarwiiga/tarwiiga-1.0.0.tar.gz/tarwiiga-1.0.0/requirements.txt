@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+langchain-google-genai
+langchain-anthropic
+langchain-together
+langchain-groq
+google-ads
+python-decouple
+GitPython
+

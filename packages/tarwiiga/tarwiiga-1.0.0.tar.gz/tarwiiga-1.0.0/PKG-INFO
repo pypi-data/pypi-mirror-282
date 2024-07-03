@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: tarwiiga
+Version: 1.0.0
+Summary: Tarwiiga Python Package
+Project-URL: Homepage, https://github.com/tarwiiga/tarwiiga
+Project-URL: Documentation, https://docs.tarwiiga.com
+Project-URL: Issues, https://github.com/tarwiiga/tarwiiga/issues
+Author-email: Tarwiiga <tarwiiga@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Tarwiiga
