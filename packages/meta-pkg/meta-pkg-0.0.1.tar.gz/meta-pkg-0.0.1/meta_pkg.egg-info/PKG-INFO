@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: meta-pkg
+Version: 0.0.1
+Summary: A Python package for metadata operations.
+Home-page: https://github.com/bzm10/meta-pkg
+Author: Benjamin Mark
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

@@ -1,0 +1,8 @@
+setup.py
+meta_pkg.egg-info/PKG-INFO
+meta_pkg.egg-info/SOURCES.txt
+meta_pkg.egg-info/dependency_links.txt
+meta_pkg.egg-info/entry_points.txt
+meta_pkg.egg-info/top_level.txt
+metadata/__init__.py
+metadata/main.py

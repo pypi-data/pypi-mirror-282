@@ -1,0 +1,2 @@
+[console_scripts]
+meta-pkg-cli = meta_pkg.metadata:main
