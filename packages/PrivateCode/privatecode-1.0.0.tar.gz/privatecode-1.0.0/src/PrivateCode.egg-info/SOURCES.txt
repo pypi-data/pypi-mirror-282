@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/PrivateCode/__init__.py
+src/PrivateCode/privatecode.py
+src/PrivateCode.egg-info/PKG-INFO
+src/PrivateCode.egg-info/SOURCES.txt
+src/PrivateCode.egg-info/dependency_links.txt
+src/PrivateCode.egg-info/top_level.txt
