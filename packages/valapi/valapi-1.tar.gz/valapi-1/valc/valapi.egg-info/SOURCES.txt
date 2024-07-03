@@ -1,0 +1,6 @@
+README.md
+setup.py
+valc/valapi.egg-info/PKG-INFO
+valc/valapi.egg-info/SOURCES.txt
+valc/valapi.egg-info/dependency_links.txt
+valc/valapi.egg-info/top_level.txt
