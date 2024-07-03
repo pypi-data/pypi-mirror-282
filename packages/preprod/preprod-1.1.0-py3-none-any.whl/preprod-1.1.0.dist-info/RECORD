@@ -1,0 +1,15 @@
+preprod/__init__.py,sha256=NUmakQex6KxToX6qf-p2nb669z2mdXWciPcXnt6gA4M,141
+preprod/commons.py,sha256=kJ8sqHNHMwyKyZxYCRSM6MSv_qI-lCRCDHi_jVweLGY,17127
+preprod/core.py,sha256=OIDax2ciHcYuSqBXIqoUDs9KpaVuhuqXlV56HfSDWrQ,5492
+preprod/locale/en/LC_MESSAGES/preprod.mo,sha256=-5Hgff2pmCFFbfqMcHAYXFXkXlPdLpoT0F_kuCmmPwM,424
+preprod/locale/en.po,sha256=iQd3zNctpjlvAm1LA1MxAq2imsN7GQKqcEPdk9gdXpY,738
+preprod/locale/es/LC_MESSAGES/preprod.mo,sha256=aIn4iIg3e0qkeiJBz3kR1kAK-FBcXeAoarYe678y95A,3596
+preprod/locale/es.po,sha256=lCtd3wkc3W9wr10r_sQj_ze5AzFgI6B071Dgz4bgsm0,4609
+preprod/locale/preprod.pot,sha256=SgoxPWjB7yD3sgOm7_-QnsvF4G6SNen_xANsnJQeShw,3175
+preprod/poethepoet.py,sha256=nikhj6qB9Knd-znTeVgbUZsfRKLkmoCzI9rH9c_Hg-4,2030
+preprod/tests/test_commons.py,sha256=LuFX-RMslnj3JpdSd5LSaBT9qXkG306GBxcCCZWIUKY,6939
+preprod-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+preprod-1.1.0.dist-info/METADATA,sha256=7r1gXS1RJtpoLNhqRo9E5CTcAyDq_G9lWYxk55IalgY,4402
+preprod-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+preprod-1.1.0.dist-info/entry_points.txt,sha256=Lwt9-5Ldg2J2iXD-hhjT2n3rpz8glkFdB8KeVMU3ZJc,91
+preprod-1.1.0.dist-info/RECORD,,
