@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: femtodriver
+Version: 0.17.0
+Summary: Femtorun defines the runtime interface for Femtosense software
+Home-page: https://github.com/femtosense/femtodriver
+Author: Femtosense
+Author-email: info@femtosense.ai
+Project-URL: Source, https://github.com/femtosense/femtodriver
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy <2.0.0,>=1.18.0
+Requires-Dist: femtorun ==1.*,>=1.1.0
+Requires-Dist: femtocrux >=0.4.0
+Requires-Dist: redis >=4.0.0
+Requires-Dist: pyyaml
+
+# Femtosense Femtodriver
+
+Using the memory images emitted by femtocrux, creates an SD card programming file that the EVK firmware uses.
+
+# License
+
+By using this software package, you agree to abide by the terms and conditions in the license agreement found [here.](https://femtosense.ai/legal/eula/)
+
+## Installation:
+
+From PyPI:
+
+```
+pip install femtodriver
+```
+
+This will install the `femtodrive` executable.
+
+Python 3.10 is required. Femtocrux requires docker to be installed (see other instructions for femtocrux).
+
+## Usage:
+
+To show all options:
+
+```
+femtodrive --help
+```
+
+### To generate SD programming files from a previously generated Femtocrux memory image zip
+
+```
+femtodrive <path-to-zipfile_from_femtocrux>
+```
+
+This will create `model_datas/<stem of zipfile path>/`.
+Inside, along with other information, there will be a `io_records/apb_records`. This holds the `0PROG_A` and `0PROG_D` files which can be downloaded to the SD card. Note that future firmware might allow multiple models to coexist on the SD card. The leading '0' indicates that this is the first model. In some cases, with multiple models loaded, you may need to edit the number in the filename.
+
+Historical note: this replaces `sd_from_femtocrux.py` in `femtodriverpub`.
+
+### To generate SD programming files from a previously saved FQIR pickle
+
+You can pickle femtocrux's input, the FQIR graph, with `torch.save()` (In the pytorch femtocrux walkthroughs, this variable is called `fqir_graph`).
+
+This way, `femtodrive` can use femtocrux to compile the model and emit program binaries, as is done directly in the notebooks.
+
+Example:
+
+```
+femtodrive ../models/my_model.pt
+```
+
+As a "hello world" you can invoke:
+
+```
+femtodrive LOOPBACK
+```
+
+This will call femtodrive on an "identity" network that is installed with the package. As before, output will be put in `model_datas/<stem of pickle filename>/`. Notice the `images.zip` that appears and was unpacked to `docker_data/`. 
+
+(Pickles are notoriously unportable. Ideally, any pickling/unpickling is done on one machine, but failing that, try to ensure the pickle is unpacked using the same package versions it was generated with)
+
+#### Simulation With Femtodriver via Femtocrux
+
+When the FQIR pickle is supplied, it is also possible to simulate the model using femtodriver. In this case, pass "fasmir" to the `--runners` argument.
+
+```
+femtodrive ../models/my_model.pt --runners="fasmir"
+```
+
+See `femtodrive --help` for the options related to passing inputs and retreiving outputs.
+
+### Misc
+
+Note that many `femtodrive` options pertain to running an attached SPU directly. As of 6/24, an EVK has not been made available that allows external use of these features.
