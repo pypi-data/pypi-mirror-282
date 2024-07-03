@@ -1,0 +1,9 @@
+dynamo_wrapper/__init__.py,sha256=qwFw2QPVg4Y-5XBbcxPGVPqcEQKjqC_wpU14lcOlHXA,2126
+dynamo_wrapper/client.py,sha256=98IAsWp19_k2u5n1dTyl6o3CI1Fy0Qm8OuNgrzxTDE8,500
+dynamo_wrapper/exceptions.py,sha256=lzXpcyZuG7OREQw6Wjab8gUUevHQcGFrXfu6UACmhpQ,2865
+dynamo_wrapper/table.py,sha256=rux0nro0uSvCYHQSulA7t6Jl2SQZ55ByoTBROdePeCM,4139
+dynamo_wrapper-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamo_wrapper-0.1.1.dist-info/METADATA,sha256=_enfwFmMjJpEwErvAgRGTndzupMhDOVRIdj0WeZb8Sw,4448
+dynamo_wrapper-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dynamo_wrapper-0.1.1.dist-info/top_level.txt,sha256=gJ9Ddvr8XIhPj1DLFH_00R7Ez913SexORuAb0Xmrd6o,15
+dynamo_wrapper-0.1.1.dist-info/RECORD,,
