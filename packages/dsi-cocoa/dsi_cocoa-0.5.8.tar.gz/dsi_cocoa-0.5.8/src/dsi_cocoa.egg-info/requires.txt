@@ -1,0 +1,6 @@
+GitPython
+nbconvert
+ipython
+termcolor
+requests
+ruff
