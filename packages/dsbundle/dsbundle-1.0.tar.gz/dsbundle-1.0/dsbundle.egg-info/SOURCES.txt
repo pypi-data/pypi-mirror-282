@@ -1,0 +1,6 @@
+License File.ylf
+dsbundle.egg-info/PKG-INFO
+dsbundle.egg-info/SOURCES.txt
+dsbundle.egg-info/dependency_links.txt
+dsbundle.egg-info/requires.txt
+dsbundle.egg-info/top_level.txt

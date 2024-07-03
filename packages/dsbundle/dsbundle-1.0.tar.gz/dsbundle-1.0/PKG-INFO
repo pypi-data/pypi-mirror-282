@@ -1,0 +1,214 @@
+Metadata-Version: 2.1
+Name: dsbundle
+Version: 1.0
+Summary: Streamline your data science setup with dsbundle in one effortless install.
+Home-page: https://github.com/shubhamjangra009
+Author: Shubham Jangra
+Author-email: shubhamjangra.ds@gmail.com
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: License File.ylf
+Requires-Dist: ipython
+Requires-Dist: pep8
+Requires-Dist: gitpython
+Requires-Dist: jupyter
+Requires-Dist: jupyterlab
+Requires-Dist: notebook
+Requires-Dist: nbconvert
+Requires-Dist: ipykernel
+Requires-Dist: ipywidgets
+Requires-Dist: markdown
+Requires-Dist: pipreqs
+Requires-Dist: pyparsing
+Requires-Dist: pandoc
+Requires-Dist: regex
+Requires-Dist: latex
+Requires-Dist: pylatex
+Requires-Dist: tabulate
+Requires-Dist: prettytable
+Requires-Dist: great-tables
+Requires-Dist: pendulum
+Requires-Dist: urllib3
+Requires-Dist: beautifulsoup4
+Requires-Dist: scrapy
+Requires-Dist: mysql-connector-python
+Requires-Dist: pymysql
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2
+Requires-Dist: openpyxl
+Requires-Dist: pylightxl
+Requires-Dist: xlsxwriter
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: polars
+Requires-Dist: xarray
+Requires-Dist: pyarrow
+Requires-Dist: h5py
+Requires-Dist: pymc
+Requires-Dist: matplotlib
+Requires-Dist: palettable
+Requires-Dist: seaborn
+Requires-Dist: plotly
+Requires-Dist: bokeh
+Requires-Dist: ipyvizzu
+Requires-Dist: pygal
+Requires-Dist: altair
+Requires-Dist: plotnine[all]
+Requires-Dist: lifelines
+Requires-Dist: surpyval
+Requires-Dist: statsmodels
+Requires-Dist: sympy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-optimize
+Requires-Dist: scikit-image
+Requires-Dist: sklearn-crfsuite
+Requires-Dist: imbalanced-learn
+Requires-Dist: mlxtend
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
+Requires-Dist: catboost
+Requires-Dist: hyperopt
+Requires-Dist: optuna
+Requires-Dist: pycaret
+Requires-Dist: textblob
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: vadersentiment
+Requires-Dist: sktime
+Requires-Dist: prophet
+Requires-Dist: darts
+Requires-Dist: librosa
+Requires-Dist: audioflux
+Requires-Dist: dask
+Requires-Dist: pyspark
+Requires-Dist: llama-index
+Requires-Dist: langchain
+Requires-Dist: langsmith
+Requires-Dist: langgraph
+Requires-Dist: ollama
+Requires-Dist: haystack-ai
+Requires-Dist: pinecone-client
+Requires-Dist: pillow
+Requires-Dist: opencv-contrib-python
+Requires-Dist: simplecv
+Requires-Dist: mahotas
+Requires-Dist: tensorflow
+Requires-Dist: jax
+Requires-Dist: keras
+Requires-Dist: keras-nlp
+Requires-Dist: keras-cv
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: lightning
+Requires-Dist: dm-sonnet
+Requires-Dist: eli5
+Requires-Dist: fastai
+Requires-Dist: huggingface_hub
+Requires-Dist: tokenizers
+Requires-Dist: accelerate
+Requires-Dist: evaluate
+Requires-Dist: transformers[torch]
+Requires-Dist: diffusers[torch]
+Requires-Dist: mlflow
+Requires-Dist: geopandas
+Requires-Dist: cartopy
+Requires-Dist: folium
+Requires-Dist: quandl
+Requires-Dist: quantlib
+Requires-Dist: pyfolio-reloaded
+Requires-Dist: dash
+Requires-Dist: streamlit
+Requires-Dist: taipy
+Requires-Dist: gradio
+Requires-Dist: fastapi
+Requires-Dist: ydata-profiling
+Requires-Dist: ruff
+Requires-Dist: autoflake
+Requires-Dist: pytest
+Requires-Dist: mkdocs
+Requires-Dist: pyforest
+Requires-Dist: numpy-stl
+Requires-Dist: medpy
+Requires-Dist: pydicom
+Requires-Dist: simpleitk
+Requires-Dist: nilearn
+Requires-Dist: nibabel
+Requires-Dist: vtk
+Requires-Dist: monai
+Requires-Dist: dicom2nifti
+
+# dsbundle
+
+Enhance your Python data science workflow with `dsbundle`, an all-in-one package that consolidates essential libraries and tools to empower users in data manipulation, visualization, statistical analysis, machine learning, and beyond. This comprehensive bundle simplifies the setup process, ensuring that crucial dependencies are readily available for immediate use.
+
+## Comprehensive Library Coverage
+
+### Data Manipulation and Analysis
+
+- **numpy**: Efficient numerical computing with powerful array operations and linear algebra capabilities.
+- **pandas**: Data structures and tools for data manipulation and analysis, ideal for handling structured data.
+- **polars**: A fast DataFrame library in Rust, focusing on performance and ease of use for data manipulation tasks.
+- **xarray**: N-D labeled arrays and datasets, extending pandas to support multidimensional data.
+- **pyarrow**: Columnar data format for efficient storage and processing of large datasets.
+- **h5py**: Interface to HDF5, a versatile file format and data model for scientific computing.
+- **openpyxl**: Read/write Excel files in Python, useful for integrating with spreadsheet data.
+
+### Visualization and Plotting
+
+- **matplotlib**: Comprehensive 2D plotting library for creating static, animated, and interactive visualizations.
+- **seaborn**: Statistical data visualization based on matplotlib, providing a high-level interface for drawing informative statistical graphics.
+- **plotly**: Interactive plotting library for creating web-based charts and dashboards.
+- **bokeh**: Interactive visualization library that targets modern web browsers for presentation.
+- **altair**: Declarative statistical visualization library for creating interactive visualizations in a concise syntax.
+- **plotnine**: Implementation of the grammar of graphics in Python, based on ggplot2.
+
+### Machine Learning and Deep Learning
+
+- **scikit-learn**: Simple and efficient tools for data mining and data analysis, including classification, regression, and clustering algorithms.
+- **tensorflow**: End-to-end open-source platform for machine learning, with extensive support for deep learning.
+- **pytorch**: Deep learning framework that facilitates research and production deployment with flexibility and speed.
+- **keras**: High-level neural networks API, capable of running on top of TensorFlow, Theano, or CNTK.
+- **fastai**: Simplified deep learning library built on top of PyTorch, focusing on usability and best practices.
+
+### Natural Language Processing
+
+- **nltk**: Natural Language Toolkit for symbolic and statistical natural language processing.
+- **spacy**: Industrial-strength natural language processing library with pre-trained models and support for over 50 languages.
+- **gensim**: Topic modeling for human-readable data, providing efficient implementations of common algorithms like Word2Vec. NOTE: You have to install `Gensim` manually with **tar.gz** file, click [here](https://pypi.org/project/gensim/#files) to download & install.
+
+### Big Data and Distributed Computing
+
+- **dask**: Parallel computing library for scaling out Python computations across multiple cores and clusters.
+- **pyspark**: Apache Spark Python API, enabling large-scale data processing with distributed computing.
+- **ray**: Distributed computing framework that supports both task and actor models for scalable and efficient execution.
+
+### Additional Tools and Utilities
+
+- **jupyter**: Interactive computing environment for creating notebooks that integrate code execution, rich text, mathematics, plots, and media.
+- **pytest**: Framework for building simple and scalable test cases in Python.
+- **mkdocs**: Static site generator for creating beautiful project documentation.
+- **streamlit**: Framework for turning data scripts into shareable web apps.
+- **dash**: Framework for building analytical web applications in Python.
+- **gradio**: GUI platform for sharing machine learning models as web apps.
+
+## Installation and Usage
+
+To install `dsbundle` and gain access to this extensive suite of libraries and tools, simply execute the following command using pip:
+
+```bash
+Copy code
+pip install dsbundle
+```
+
+This command automates the installation process, ensuring all included libraries are installed and ready for use in your Python environment.
+
+## License
+
+This package is licensed under the MIT License, granting users the freedom to use, modify, and distribute the software. For detailed license terms, please refer to the LICENSE file included in the repository.
+
+------
+
+This detailed description provides an extensive overview of `dsbundle`, highlighting its comprehensive coverage of essential libraries and tools for data science, machine learning, visualization, and beyond. It emphasizes ease of installation, robust functionality, and community-driven development, making it an invaluable resource for data scientists, researchers, and developers seeking a unified solution for Python-based data analysis and machine learning projects.
