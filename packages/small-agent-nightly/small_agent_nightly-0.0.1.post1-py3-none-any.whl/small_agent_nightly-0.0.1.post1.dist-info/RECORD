@@ -1,0 +1,7 @@
+small_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+small_agent/chat_completion.py,sha256=Lj0tP2R9Q6UuWuaI27McghgSfrNDBqQG98hJKSqlLUE,1351
+small_agent_nightly-0.0.1.post1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+small_agent_nightly-0.0.1.post1.dist-info/METADATA,sha256=Gv9dSjQujGoENgRcv19dExhWwPgEFmsKahmuXIaZX4A,548
+small_agent_nightly-0.0.1.post1.dist-info/WHEEL,sha256=mguMlWGMX-VHnMpKOjjQidIo1ssRlCFu4a4mBpz1s2M,91
+small_agent_nightly-0.0.1.post1.dist-info/top_level.txt,sha256=paiIldGXdveXvS_BhnGQ4_ARePWHn4Un5t8GY6vnsRg,12
+small_agent_nightly-0.0.1.post1.dist-info/RECORD,,

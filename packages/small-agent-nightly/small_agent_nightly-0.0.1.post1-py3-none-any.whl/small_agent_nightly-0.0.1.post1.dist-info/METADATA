@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: small-agent-nightly
+Version: 0.0.1.post1
+Summary: Code generation LLM agent for fast prototyping
+Home-page: https://github.com/horheynm/small-agent
+Author: George
+Author-email: george.scratch.dev@gmail.com
+License: Apache 2.0
+License-File: LICENSE
+Requires-Dist: openai ==1.35.7
+Requires-Dist: pydantic ==2.7.4
+Provides-Extra: dev
+Requires-Dist: pydantic ==2.7.4 ; extra == 'dev'
+Requires-Dist: pytest ==8.2.2 ; extra == 'dev'
+Requires-Dist: black ==24.4.2 ; extra == 'dev'
+Requires-Dist: ruff ==0.5.0 ; extra == 'dev'
+
