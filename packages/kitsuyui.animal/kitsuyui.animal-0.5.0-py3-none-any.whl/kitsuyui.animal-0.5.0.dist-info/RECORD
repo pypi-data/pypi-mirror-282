@@ -1,0 +1,7 @@
+animal/__init__.py,sha256=nMy3Vo1KMIYBB2FTZZAKuYCks1PuV3UyFiuvVxtow7E,338
+animal/_version.py,sha256=aeBju2l8GTMwAhIRG_c2Q_oVPFacRkZZwGtxmvFCGPQ,411
+tests/test_something.py,sha256=NViz9wBK7jqMZkOfJwwZjx0Nx0RM4oAA0I8Z7_8l9Cg,46
+kitsuyui.animal-0.5.0.dist-info/METADATA,sha256=s1zw8fhhRTB64-WK-Tnm3L8LRR7HWbZ0BKRA5AsPoFc,240
+kitsuyui.animal-0.5.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+kitsuyui.animal-0.5.0.dist-info/top_level.txt,sha256=05id_874qz419OufjIP5O9-ImxswEAttj0_qHSzcytw,13
+kitsuyui.animal-0.5.0.dist-info/RECORD,,
