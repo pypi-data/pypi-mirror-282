@@ -1,0 +1,1 @@
+from .prefixed_id import PrefixedDocument
