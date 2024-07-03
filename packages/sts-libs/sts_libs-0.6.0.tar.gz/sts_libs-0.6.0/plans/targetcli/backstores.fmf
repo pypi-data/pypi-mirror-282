@@ -1,0 +1,9 @@
+summary: targetcli backstores creation and deletion, and attributes
+  setting and getting
+discover:
+  - name: backstores
+    how: fmf
+    test:
+      - /tests/targetcli/basic/backstores
+execute:
+  how: tmt
