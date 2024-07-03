@@ -1,0 +1,40 @@
+ syntax="proto3";
+ package
+// metamodel_version: 1.7.0
+// A sample of air
+message AirSample
+ {
+  float latitude = 0
+  float longitude = 0
+ repeated  speciesEnum species = 0
+  biomeTypeEnum sampleBiome = 0
+  string sampleType = 0
+  float altitude = 0
+  string id = 0
+ }
+// A sample is a limited quantity of something (e.g. an individual or set of individuals from a population,  or a portion of a substance) to be used for testing, analysis, inspection, investigation, demonstration,  or trial use.
+message Sample
+ {
+  string id = 0
+  float latitude = 0
+  float longitude = 0
+ repeated  speciesEnum species = 0
+  biomeTypeEnum sampleBiome = 0
+  string sampleType = 0
+ }
+// A collection of samples.
+message SampleCollection
+ {
+ repeated  sample samples = 0
+ }
+// A sample of soil
+message SoilSample
+ {
+  float latitude = 0
+  float longitude = 0
+ repeated  speciesEnum species = 0
+  biomeTypeEnum sampleBiome = 0
+  string sampleType = 0
+  integer depth = 0
+  string id = 0
+ }

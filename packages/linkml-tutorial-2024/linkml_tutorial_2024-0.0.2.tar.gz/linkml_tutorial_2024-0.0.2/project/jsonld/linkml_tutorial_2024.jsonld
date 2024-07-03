@@ -1,0 +1,681 @@
+{
+  "name": "linkml-tutorial-2024",
+  "description": "A repostitory that walks through schema generation.",
+  "title": "linkml-tutorial-2024",
+  "see_also": [
+    "https://linkml.github.io/linkml-tutorial-2024"
+  ],
+  "id": "https://w3id.org/linkml/linkml-tutorial-2024",
+  "imports": [
+    "linkml:types"
+  ],
+  "license": "MIT",
+  "prefixes": [
+    {
+      "prefix_prefix": "linkml_tutorial_2024",
+      "prefix_reference": "https://w3id.org/linkml/linkml-tutorial-2024/"
+    },
+    {
+      "prefix_prefix": "linkml",
+      "prefix_reference": "https://w3id.org/linkml/"
+    },
+    {
+      "prefix_prefix": "biolink",
+      "prefix_reference": "https://w3id.org/biolink/"
+    },
+    {
+      "prefix_prefix": "schema",
+      "prefix_reference": "http://schema.org/"
+    },
+    {
+      "prefix_prefix": "PATO",
+      "prefix_reference": "http://purl.obolibrary.org/obo/PATO_"
+    },
+    {
+      "prefix_prefix": "example",
+      "prefix_reference": "https://example.org/"
+    },
+    {
+      "prefix_prefix": "obo",
+      "prefix_reference": "http://purl.obolibrary.org/obo/"
+    },
+    {
+      "prefix_prefix": "ENVO",
+      "prefix_reference": "http://purl.obolibrary.org/obo/ENVO_"
+    },
+    {
+      "prefix_prefix": "SIO",
+      "prefix_reference": "http://semanticscience.org/resource/"
+    },
+    {
+      "prefix_prefix": "nmdc",
+      "prefix_reference": "https://w3id.org/nmdc/"
+    },
+    {
+      "prefix_prefix": "KBase",
+      "prefix_reference": "https://kbase.us/"
+    }
+  ],
+  "default_prefix": "linkml_tutorial_2024",
+  "default_range": "string",
+  "types": [
+    {
+      "name": "string",
+      "definition_uri": "https://w3id.org/linkml/String",
+      "description": "A character string",
+      "notes": [
+        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Text"
+      ],
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "integer",
+      "definition_uri": "https://w3id.org/linkml/Integer",
+      "description": "An integer",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Integer"
+      ],
+      "base": "int",
+      "uri": "http://www.w3.org/2001/XMLSchema#integer",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "boolean",
+      "definition_uri": "https://w3id.org/linkml/Boolean",
+      "description": "A binary (true or false) value",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Boolean"
+      ],
+      "base": "Bool",
+      "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "repr": "bool",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "float",
+      "definition_uri": "https://w3id.org/linkml/Float",
+      "description": "A real number that conforms to the xsd:float specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "http://www.w3.org/2001/XMLSchema#float",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "double",
+      "definition_uri": "https://w3id.org/linkml/Double",
+      "description": "A real number that conforms to the xsd:double specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "close_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "http://www.w3.org/2001/XMLSchema#double",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "decimal",
+      "definition_uri": "https://w3id.org/linkml/Decimal",
+      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "broad_mappings": [
+        "schema:Number"
+      ],
+      "base": "Decimal",
+      "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "time",
+      "definition_uri": "https://w3id.org/linkml/Time",
+      "description": "A time object represents a (local) time of day, independent of any particular day",
+      "notes": [
+        "URI is dateTime because OWL reasoners do not work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Time"
+      ],
+      "base": "XSDTime",
+      "uri": "http://www.w3.org/2001/XMLSchema#time",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "date",
+      "definition_uri": "https://w3id.org/linkml/Date",
+      "description": "a date (year, month and day) in an idealized calendar",
+      "notes": [
+        "URI is dateTime because OWL reasoners don't work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:Date"
+      ],
+      "base": "XSDDate",
+      "uri": "http://www.w3.org/2001/XMLSchema#date",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "datetime",
+      "definition_uri": "https://w3id.org/linkml/Datetime",
+      "description": "The combination of a date and time",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "exact_mappings": [
+        "schema:DateTime"
+      ],
+      "base": "XSDDateTime",
+      "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "date_or_datetime",
+      "definition_uri": "https://w3id.org/linkml/DateOrDatetime",
+      "description": "Either a date or a datetime",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "https://w3id.org/linkml/DateOrDatetime",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "uriorcurie",
+      "definition_uri": "https://w3id.org/linkml/Uriorcurie",
+      "description": "a URI or a CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "URIorCURIE",
+      "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "curie",
+      "definition_uri": "https://w3id.org/linkml/Curie",
+      "conforms_to": "https://www.w3.org/TR/curie/",
+      "description": "a compact URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
+      ],
+      "comments": [
+        "in RDF serializations this MUST be expanded to a URI",
+        "in non-RDF serializations MAY be serialized as the compact representation"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "Curie",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "uri",
+      "definition_uri": "https://w3id.org/linkml/Uri",
+      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
+      "description": "a complete URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
+      ],
+      "comments": [
+        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "close_mappings": [
+        "schema:URL"
+      ],
+      "base": "URI",
+      "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "ncname",
+      "definition_uri": "https://w3id.org/linkml/Ncname",
+      "description": "Prefix part of CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "NCName",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "objectidentifier",
+      "definition_uri": "https://w3id.org/linkml/Objectidentifier",
+      "description": "A URI or CURIE that represents an object in the model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
+      ],
+      "comments": [
+        "Used for inheritance and type checking"
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "ElementIdentifier",
+      "uri": "http://www.w3.org/ns/shex#iri",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "nodeidentifier",
+      "definition_uri": "https://w3id.org/linkml/Nodeidentifier",
+      "description": "A URI, CURIE or BNODE that represents a node in a model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "NodeIdentifier",
+      "uri": "http://www.w3.org/ns/shex#nonLiteral",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "jsonpointer",
+      "definition_uri": "https://w3id.org/linkml/Jsonpointer",
+      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
+      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "jsonpath",
+      "definition_uri": "https://w3id.org/linkml/Jsonpath",
+      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
+      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    },
+    {
+      "name": "sparqlpath",
+      "definition_uri": "https://w3id.org/linkml/Sparqlpath",
+      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
+      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
+      ],
+      "from_schema": "https://w3id.org/linkml/types",
+      "imported_from": "linkml:types",
+      "base": "str",
+      "uri": "http://www.w3.org/2001/XMLSchema#string",
+      "repr": "str",
+      "@type": "TypeDefinition"
+    }
+  ],
+  "enums": [
+    {
+      "name": "BiomeTypeEnum",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum",
+      "description": "The type of biome.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "permissible_values": [
+        {
+          "text": "forest"
+        },
+        {
+          "text": "lake"
+        },
+        {
+          "text": "ocean"
+        },
+        {
+          "text": "desert"
+        },
+        {
+          "text": "air"
+        }
+      ]
+    },
+    {
+      "name": "SpeciesEnum",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/SpeciesEnum",
+      "description": "The species of micro organisms collected in the sample.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "reachable_from": {
+        "source_ontology": "obo:ncbitaxon",
+        "source_nodes": [
+          "NCBITaxon:131567"
+        ],
+        "relationship_types": [
+          "rdfs:subClassOf"
+        ]
+      }
+    }
+  ],
+  "slots": [
+    {
+      "name": "id",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/id",
+      "description": "The unique identifier for the biosample.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/id",
+      "identifier": true,
+      "owner": "Sample",
+      "domain_of": [
+        "Sample"
+      ],
+      "range": "string",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "altitude",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/altitude",
+      "description": "Altitude is the height of an object or point in relation to a specific reference point, such as the sea level.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/altitude",
+      "owner": "AirSample",
+      "domain_of": [
+        "AirSample"
+      ],
+      "range": "float",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "latitude",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/latitude",
+      "description": "Latitude is a geographic coordinate which refers to the angle from a point on the Earth's surface to the  equatorial plane.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "mappings": [
+        "http://schema.org/latitude"
+      ],
+      "slot_uri": "http://schema.org/latitude",
+      "owner": "Sample",
+      "domain_of": [
+        "Sample"
+      ],
+      "range": "float",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "longitude",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/longitude",
+      "description": "Longitude is a geographic position that refers to the angle east or west of a reference meridian between the  two geographical poles to another meridian that passes through an arbitrary point.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "mappings": [
+        "http://schema.org/longitude"
+      ],
+      "slot_uri": "http://schema.org/longitude",
+      "owner": "Sample",
+      "domain_of": [
+        "Sample"
+      ],
+      "range": "float",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "species",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/species",
+      "description": "The species of micro organisms collected in the sample.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/species",
+      "multivalued": true,
+      "owner": "Sample",
+      "domain_of": [
+        "Sample"
+      ],
+      "range": "SpeciesEnum",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "depth",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/depth",
+      "description": "The depth in centimeters of the biosample.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/depth",
+      "owner": "SoilSample",
+      "domain_of": [
+        "SoilSample"
+      ],
+      "range": "integer",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "sample_biome",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/sample_biome",
+      "description": "The biome type of the biosample",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/sample_biome",
+      "owner": "Sample",
+      "domain_of": [
+        "Sample"
+      ],
+      "range": "BiomeTypeEnum",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "samples",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/samples",
+      "description": "The samples in the collection.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/samples",
+      "multivalued": true,
+      "owner": "SampleCollection",
+      "domain_of": [
+        "SampleCollection"
+      ],
+      "range": "Sample",
+      "inlined": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "sample_type",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/sample_type",
+      "description": "The type of sample.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/sample_type",
+      "designates_type": true,
+      "owner": "Sample",
+      "domain_of": [
+        "Sample"
+      ],
+      "range": "string",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "AirSample_id",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/id",
+      "description": "The unique identifier for the biosample.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "is_a": "id",
+      "domain": "AirSample",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/id",
+      "identifier": true,
+      "alias": "id",
+      "owner": "AirSample",
+      "domain_of": [
+        "AirSample"
+      ],
+      "is_usage_slot": true,
+      "usage_slot_name": "id",
+      "range": "string",
+      "required": true,
+      "pattern": "^airsample:\\d*",
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "SoilSample_id",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/id",
+      "description": "The unique identifier for the biosample.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "is_a": "id",
+      "domain": "SoilSample",
+      "slot_uri": "https://w3id.org/linkml/linkml-tutorial-2024/id",
+      "identifier": true,
+      "alias": "id",
+      "owner": "SoilSample",
+      "domain_of": [
+        "SoilSample"
+      ],
+      "is_usage_slot": true,
+      "usage_slot_name": "id",
+      "range": "string",
+      "required": true,
+      "pattern": "^soilsample:\\d*",
+      "@type": "SlotDefinition"
+    }
+  ],
+  "classes": [
+    {
+      "name": "SampleCollection",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/SampleCollection",
+      "description": "A collection of samples.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "slots": [
+        "samples"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/linkml/linkml-tutorial-2024/SampleCollection",
+      "tree_root": true,
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "Sample",
+      "id_prefixes": [
+        "KBase",
+        "nmdc"
+      ],
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/Sample",
+      "description": "A sample is a limited quantity of something (e.g. an individual or set of individuals from a population,  or a portion of a substance) to be used for testing, analysis, inspection, investigation, demonstration,  or trial use.",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "aliases": [
+        "Biosample",
+        "Environmental Sample"
+      ],
+      "mappings": [
+        "SIO:001050"
+      ],
+      "exact_mappings": [
+        "SIO:001050"
+      ],
+      "slots": [
+        "id",
+        "latitude",
+        "longitude",
+        "species",
+        "sample_biome",
+        "sample_type"
+      ],
+      "slot_usage": {},
+      "class_uri": "http://semanticscience.org/resource/001050",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "AirSample",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/AirSample",
+      "description": "A sample of air",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "is_a": "Sample",
+      "slots": [
+        "latitude",
+        "longitude",
+        "species",
+        "sample_biome",
+        "sample_type",
+        "altitude",
+        "AirSample_id"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/linkml/linkml-tutorial-2024/AirSample",
+      "@type": "ClassDefinition"
+    },
+    {
+      "name": "SoilSample",
+      "definition_uri": "https://w3id.org/linkml/linkml-tutorial-2024/SoilSample",
+      "description": "A sample of soil",
+      "from_schema": "https://w3id.org/linkml/linkml-tutorial-2024",
+      "is_a": "Sample",
+      "slots": [
+        "latitude",
+        "longitude",
+        "species",
+        "sample_biome",
+        "sample_type",
+        "depth",
+        "SoilSample_id"
+      ],
+      "slot_usage": {},
+      "class_uri": "https://w3id.org/linkml/linkml-tutorial-2024/SoilSample",
+      "@type": "ClassDefinition"
+    }
+  ],
+  "metamodel_version": "1.7.0",
+  "source_file": "linkml_tutorial_2024.yaml",
+  "source_file_date": "2024-07-02T16:21:20",
+  "source_file_size": 3942,
+  "generation_date": "2024-07-02T17:08:19",
+  "@type": "SchemaDefinition",
+  "@context": [
+    "project/jsonld/linkml_tutorial_2024.context.jsonld",
+    "https://w3id.org/linkml/types.context.jsonld",
+    {
+      "@base": "https://w3id.org/linkml/linkml-tutorial-2024/"
+    }
+  ]
+}

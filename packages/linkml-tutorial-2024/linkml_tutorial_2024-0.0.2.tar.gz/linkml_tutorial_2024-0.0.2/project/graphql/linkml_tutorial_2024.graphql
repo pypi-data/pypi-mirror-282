@@ -1,0 +1,38 @@
+# metamodel_version: 1.7.0
+type AirSample
+  {
+    latitude: Float
+    longitude: Float
+    species: [SpeciesEnum]
+    sampleBiome: BiomeTypeEnum
+    sampleType: String
+    altitude: Float
+    id: String!
+  }
+
+type Sample
+  {
+    id: String!
+    latitude: Float
+    longitude: Float
+    species: [SpeciesEnum]
+    sampleBiome: BiomeTypeEnum
+    sampleType: String
+  }
+
+type SampleCollection
+  {
+    samples: [Sample]
+  }
+
+type SoilSample
+  {
+    latitude: Float
+    longitude: Float
+    species: [SpeciesEnum]
+    sampleBiome: BiomeTypeEnum
+    sampleType: String
+    depth: Integer
+    id: String!
+  }
+

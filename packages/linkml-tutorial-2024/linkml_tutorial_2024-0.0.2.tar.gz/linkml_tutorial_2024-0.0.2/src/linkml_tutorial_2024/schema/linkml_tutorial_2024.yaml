@@ -1,0 +1,148 @@
+---
+id: https://w3id.org/linkml/linkml-tutorial-2024
+name: linkml-tutorial-2024
+title: linkml-tutorial-2024
+description: |-
+  A repostitory that walks through schema generation.
+license: MIT
+see_also:
+  - https://linkml.github.io/linkml-tutorial-2024
+
+prefixes:
+  linkml_tutorial_2024: https://w3id.org/linkml/linkml-tutorial-2024/
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/
+  schema: http://schema.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  example: https://example.org/
+  obo: http://purl.obolibrary.org/obo/
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  SIO: http://semanticscience.org/resource/
+  nmdc: https://w3id.org/nmdc/
+  KBase: https://kbase.us/
+default_prefix: linkml_tutorial_2024
+default_range: string
+
+imports:
+  - linkml:types
+
+classes:
+
+  SampleCollection:
+    description: >-
+      A collection of samples.
+    slots:
+      - samples
+    tree_root: true
+
+  Sample:
+    aliases: ["Biosample", "Environmental Sample"]
+    description: >- 
+      A sample is a limited quantity of something (e.g. an individual or set of individuals from a population, 
+      or a portion of a substance) to be used for testing, analysis, inspection, investigation, demonstration, 
+      or trial use.
+    slots:
+      - id
+      - latitude
+      - longitude
+      - species
+      - sample_biome
+      - sample_type
+    id_prefixes:
+      - KBase
+      - nmdc
+    exact_mappings:
+      - SIO:001050
+    class_uri: SIO:001050
+
+  AirSample:
+    description: >-
+      A sample of air
+    is_a: Sample
+    slots:
+      - altitude
+    slot_usage:
+      id:
+        pattern: '^airsample:\d*'   ## regular expression for the id
+
+
+  SoilSample:
+    description: >-
+      A sample of soil
+    is_a: Sample
+    slots:
+      - depth
+    slot_usage:
+        id:
+          pattern: '^soilsample:\d*'   ## regular expression for the id
+
+slots:
+    id:
+        description: >-
+          The unique identifier for the biosample.
+        required: true
+        identifier: true
+        range: string
+    altitude:
+        description: >-
+          Altitude is the height of an object or point in relation to a specific reference point, such as the sea level.
+        range: float
+    latitude:
+        description: >-
+          Latitude is a geographic coordinate which refers to the angle from a point on the Earth's surface to the 
+          equatorial plane.
+        range: float
+        slot_uri: schema:latitude
+    longitude:
+        description: >-
+          Longitude is a geographic position that refers to the angle east or west of a reference meridian between the 
+          two geographical poles to another meridian that passes through an arbitrary point.
+        range: float
+        slot_uri: schema:longitude
+    species:
+        description: >-
+          The species of micro organisms collected in the sample.
+        range: SpeciesEnum
+        multivalued: true
+    depth:
+        description: >-
+          The depth in centimeters of the biosample.
+        range: integer
+    sample_biome:
+        description: >-
+          The biome type of the biosample
+        range: BiomeTypeEnum
+    samples:
+        description: >-
+          The samples in the collection.
+        range: Sample
+        multivalued: true
+        inlined: true
+    sample_type:
+      designates_type: true
+      description: >-
+          The type of sample.
+
+enums:
+    BiomeTypeEnum:
+        description: >-
+          The type of biome.
+        permissible_values:
+          forest:
+          lake:
+          ocean:
+          desert:
+          air:
+
+    SpeciesEnum:
+        description: >-
+          The species of micro organisms collected in the sample.
+        reachable_from:
+          source_ontology: obo:ncbitaxon
+          source_nodes:
+            - NCBITaxon:131567  # cellular organism, maybe we constrain further to Bacteria
+          include_self: false
+          relationship_types:
+            - rdfs:subClassOf
+
+

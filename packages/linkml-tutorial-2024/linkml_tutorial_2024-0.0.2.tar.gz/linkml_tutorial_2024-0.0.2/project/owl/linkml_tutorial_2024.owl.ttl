@@ -1,0 +1,257 @@
+@prefix SIO: <http://semanticscience.org/resource/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix linkml: <https://w3id.org/linkml/> .
+@prefix linkml_tutorial_2024: <https://w3id.org/linkml/linkml-tutorial-2024/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+linkml_tutorial_2024:SampleCollection a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "SampleCollection" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:samples ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml_tutorial_2024:Sample ;
+            owl:onProperty linkml_tutorial_2024:samples ] ;
+    skos:definition "A collection of samples." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:AirSample a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "AirSample" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:altitude ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:altitude ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:string ;
+                    owl:withRestrictions ( [ xsd:pattern "^airsample:\\d*" ] ) ] ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:Float ;
+            owl:onProperty linkml_tutorial_2024:altitude ],
+        linkml_tutorial_2024:Sample ;
+    skos:definition "A sample of air" ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+<https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#air> a owl:Class,
+        linkml_tutorial_2024:BiomeTypeEnum ;
+    rdfs:label "air" ;
+    rdfs:subClassOf linkml_tutorial_2024:BiomeTypeEnum .
+
+<https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#desert> a owl:Class,
+        linkml_tutorial_2024:BiomeTypeEnum ;
+    rdfs:label "desert" ;
+    rdfs:subClassOf linkml_tutorial_2024:BiomeTypeEnum .
+
+<https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#forest> a owl:Class,
+        linkml_tutorial_2024:BiomeTypeEnum ;
+    rdfs:label "forest" ;
+    rdfs:subClassOf linkml_tutorial_2024:BiomeTypeEnum .
+
+<https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#lake> a owl:Class,
+        linkml_tutorial_2024:BiomeTypeEnum ;
+    rdfs:label "lake" ;
+    rdfs:subClassOf linkml_tutorial_2024:BiomeTypeEnum .
+
+<https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#ocean> a owl:Class,
+        linkml_tutorial_2024:BiomeTypeEnum ;
+    rdfs:label "ocean" ;
+    rdfs:subClassOf linkml_tutorial_2024:BiomeTypeEnum .
+
+linkml_tutorial_2024:SoilSample a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "SoilSample" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:depth ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:string ;
+                    owl:withRestrictions ( [ xsd:pattern "^soilsample:\\d*" ] ) ] ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:depth ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:Integer ;
+            owl:onProperty linkml_tutorial_2024:depth ],
+        linkml_tutorial_2024:Sample ;
+    skos:definition "A sample of soil" ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:SpeciesEnum a owl:Class,
+        linkml:EnumDefinition .
+
+linkml_tutorial_2024:samples a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "samples" ;
+    rdfs:range linkml_tutorial_2024:Sample ;
+    skos:definition "The samples in the collection." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:species a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "species" ;
+    rdfs:range linkml_tutorial_2024:SpeciesEnum ;
+    skos:definition "The species of micro organisms collected in the sample." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:altitude a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "altitude" ;
+    rdfs:range linkml:Float ;
+    skos:definition "Altitude is the height of an object or point in relation to a specific reference point, such as the sea level." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:depth a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "depth" ;
+    rdfs:range linkml:Integer ;
+    skos:definition "The depth in centimeters of the biosample." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:latitude a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "latitude" ;
+    rdfs:range linkml:Float ;
+    skos:definition "Latitude is a geographic coordinate which refers to the angle from a point on the Earth's surface to the  equatorial plane." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:longitude a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "longitude" ;
+    rdfs:range linkml:Float ;
+    skos:definition "Longitude is a geographic position that refers to the angle east or west of a reference meridian between the  two geographical poles to another meridian that passes through an arbitrary point." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:sample_biome a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "sample_biome" ;
+    rdfs:range linkml_tutorial_2024:BiomeTypeEnum ;
+    skos:definition "The biome type of the biosample" ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:Sample a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Sample" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:latitude ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:sample_type ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:species ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml_tutorial_2024:BiomeTypeEnum ;
+            owl:onProperty linkml_tutorial_2024:sample_biome ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml_tutorial_2024:SpeciesEnum ;
+            owl:onProperty linkml_tutorial_2024:species ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty linkml_tutorial_2024:sample_type ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:sample_type ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:sample_biome ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:Float ;
+            owl:onProperty linkml_tutorial_2024:longitude ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:sample_biome ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty linkml_tutorial_2024:longitude ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:Float ;
+            owl:onProperty linkml_tutorial_2024:latitude ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty linkml_tutorial_2024:id ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:longitude ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty linkml_tutorial_2024:latitude ] ;
+    skos:altLabel "Biosample",
+        "Environmental Sample" ;
+    skos:definition "A sample is a limited quantity of something (e.g. an individual or set of individuals from a population,  or a portion of a substance) to be used for testing, analysis, inspection, investigation, demonstration,  or trial use." ;
+    skos:exactMatch SIO:001050 ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:sample_type a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "sample_type" ;
+    skos:definition "The type of sample." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:id a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "id" ;
+    rdfs:range linkml:String ;
+    skos:definition "The unique identifier for the biosample." ;
+    skos:inScheme linkml:linkml-tutorial-2024 .
+
+linkml_tutorial_2024:BiomeTypeEnum a owl:Class,
+        linkml:EnumDefinition ;
+    owl:unionOf ( <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#forest> <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#lake> <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#ocean> <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#desert> <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#air> ) ;
+    linkml:permissible_values <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#air>,
+        <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#desert>,
+        <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#forest>,
+        <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#lake>,
+        <https://w3id.org/linkml/linkml-tutorial-2024/BiomeTypeEnum#ocean> .
+
+linkml:linkml-tutorial-2024 a owl:Ontology ;
+    rdfs:label "linkml-tutorial-2024" ;
+    dcterms:license "MIT" ;
+    dcterms:title "linkml-tutorial-2024" ;
+    rdfs:seeAlso <https://linkml.github.io/linkml-tutorial-2024> ;
+    skos:definition "A repostitory that walks through schema generation." .
+
+[] a owl:Restriction ;
+    rdfs:subClassOf linkml_tutorial_2024:Sample ;
+    owl:onProperty linkml_tutorial_2024:sample_type ;
+    owl:someValuesFrom linkml_tutorial_2024:Sample .
+
+[] a owl:Restriction ;
+    rdfs:subClassOf linkml_tutorial_2024:AirSample ;
+    owl:onProperty linkml_tutorial_2024:sample_type ;
+    owl:someValuesFrom linkml_tutorial_2024:AirSample .
+
+[] a owl:Restriction ;
+    rdfs:subClassOf linkml_tutorial_2024:SoilSample ;
+    owl:onProperty linkml_tutorial_2024:sample_type ;
+    owl:someValuesFrom linkml_tutorial_2024:SoilSample .
+
