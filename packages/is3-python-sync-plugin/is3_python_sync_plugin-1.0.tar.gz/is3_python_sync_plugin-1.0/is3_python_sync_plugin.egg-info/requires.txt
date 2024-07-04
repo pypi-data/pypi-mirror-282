@@ -1,0 +1,6 @@
+flask==3.0.3
+flasgger==0.9.7.1
+gunicorn
+requests==2.32.3
+nacos-sdk-python-is3
+setuptools==65.5.0
