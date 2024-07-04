@@ -1,0 +1,3 @@
+numEnvs: ${resolve_default:1, ${...num_envs}}
+envSpacing: 1
+aggregateMode: 1
