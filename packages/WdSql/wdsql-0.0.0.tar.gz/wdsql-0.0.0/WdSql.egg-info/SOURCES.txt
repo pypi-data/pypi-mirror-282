@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+WdSql/Error.py
+WdSql/MySQL.py
+WdSql/Objects.py
+WdSql/SQLserver.py
+WdSql/__init__.py
+WdSql.egg-info/PKG-INFO
+WdSql.egg-info/SOURCES.txt
+WdSql.egg-info/dependency_links.txt
+WdSql.egg-info/top_level.txt
