@@ -1,0 +1,21 @@
+numpy
+scipy
+Cython
+matplotlib
+basemap
+astropy
+PyAstronomy
+exotic_ld
+PyDynamic
+tqdm
+PyQt5
+phoebe
+kneebow
+traits
+traitsui
+mayavi
+jax
+jaxopt
+
+[:platform_system == "Linux"]
+healpy
