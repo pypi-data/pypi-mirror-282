@@ -1,0 +1,17 @@
+coverage:
+  image: 
+    name: ${DOCKER_REGISTRY_CI_IMAGE}:${TAG}
+    pull_policy: "always"
+  stage: test
+  before_script:
+    - make install-dev
+  script:
+    - poetry run ./scripts/tests-cov.sh
+  coverage: /(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/
+  artifacts:
+    when: always
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: ./coverage.xml
+  <<: *ci_rules
