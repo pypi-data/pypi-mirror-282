@@ -1,0 +1,2 @@
+requests
+xarg-python>=1.5.1
