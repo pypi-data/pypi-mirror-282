@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: SinhalaTools
+Version: 0.0.4
+Summary: Sinhala Tools for converting Sinhala text to Roman and vice versa.
+Home-page: https://github.com/TharinduMadhusanka
+Author: Tharindu Madhusanka Wimalasena
+Author-email: tharindu.20@cse.mrt.ac.lk
+Requires-Dist: requests
+
