@@ -1,0 +1,13 @@
+tgbox_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgbox_cli/session.py,sha256=4EhjnPi10P_8T0jnIu3cCVANh794PkRghBCaDN5zw5U,1627
+tgbox_cli/tgbox_cli.py,sha256=FVuKr6LN71fogDAyovTVg_P482rXDVuDKTiU1NspKvM,134982
+tgbox_cli/tools.py,sha256=VVIpRHOeYhcAKjjrFN0vwSb1frYoOijWiMZX1wkw8bk,15243
+tgbox_cli/version.py,sha256=xM9dItHdFRrBB785I-6EJ8MUwSuvk07KU8gACIESjKo,16
+tgbox_cli/data/help.txt,sha256=wWkTpG6nI2MUdSQnCCSsN394a8IzpmTCoEt3Uv9XgEs,47145
+tgbox_cli/data/logo.ico,sha256=G-UNnWNxgz_TmUrlXNr6VOlzlJZa_c89e7Z_U_Zf6QE,105651
+tgbox_cli-1.3.dist-info/LICENSE,sha256=_F9YsUaa8yo3mOVubOTO6h-urxmFat1l8aWCKAoILeg,1060
+tgbox_cli-1.3.dist-info/METADATA,sha256=upZ5nRYtse3HU8JFjsuqNCVt96gnvXdr9nrOxA1UZKk,4235
+tgbox_cli-1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tgbox_cli-1.3.dist-info/entry_points.txt,sha256=Owo9DSoRMIdE_6V_pxWx6doh74R1FXbkZBDyfo7AATg,73
+tgbox_cli-1.3.dist-info/top_level.txt,sha256=CnlDu2DrVAgamYfz-uIE9BFYYuUsFQz34RRgCS_yfjE,10
+tgbox_cli-1.3.dist-info/RECORD,,
