@@ -1,0 +1,2 @@
+immutabledict==1.0.0
+schema==0.6.7
