@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: syncro_api
+Version: 1.0.4
+Summary: Some python functions to interact with Syncro API
+Author: Dan S
+Author-email: dan@cybertek.systems
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
