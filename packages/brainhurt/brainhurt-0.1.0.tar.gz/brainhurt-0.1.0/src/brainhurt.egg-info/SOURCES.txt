@@ -1,0 +1,13 @@
+Authors.rst
+LICENSE
+README.md
+setup.py
+src/brainhurt/__init__.py
+src/brainhurt/__main__.py
+src/brainhurt/brainhurt.py
+src/brainhurt/error.py
+src/brainhurt/iota.py
+src/brainhurt.egg-info/PKG-INFO
+src/brainhurt.egg-info/SOURCES.txt
+src/brainhurt.egg-info/dependency_links.txt
+src/brainhurt.egg-info/top_level.txt
