@@ -1,0 +1,12 @@
+Vinted_api_scraper/__init__.py,sha256=pJ1OE_i8c4LTo6lX-cQEnpv_89_7WNh8H4fpIILCCqc,59
+Vinted_api_scraper/requester.py,sha256=bCUD8S5pN_fJVHqd8I02nvquzFDGxQHECnioy5-Kqg0,2595
+Vinted_api_scraper/settings.py,sha256=rYj_R5YTuOmqEdtdvrYXR_zA8GNUS07O-Bbh1p_D-wo,113
+Vinted_api_scraper/vinted.py,sha256=f9npzy_xDmH6YMNPcOyE1wiD_DGBIrB6JmSL5xe-SL8,613
+Vinted_api_scraper/items/__init__.py,sha256=q_jcglxMw8m_8gHA-PbJ5Y8QE3On9opnJGrOOtEWTks,49
+Vinted_api_scraper/items/item.py,sha256=hS5EG_TOrYufiJ1Y6RgkdvDrem40itI3qbbp2v4cyV8,1045
+Vinted_api_scraper/items/items.py,sha256=D2HBf_9uY-OTfLjSYBlm14MmpqO7a8kzy2H_cGWyjks,3548
+Vinted_api_scraper-0.5.0.dist-info/LICENSE,sha256=9ynXudDChayjVnAjvILHfgI6oetsEVPQP8qoTxE2_O0,1068
+Vinted_api_scraper-0.5.0.dist-info/METADATA,sha256=IJ25bIi-8PxYsJk1YrNg2cd16eBfh475LnvaepdoGjw,1254
+Vinted_api_scraper-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Vinted_api_scraper-0.5.0.dist-info/top_level.txt,sha256=zgMStTJPG44xKuuq-v-R48eQsfKRzzdRrULqAjB1Itk,19
+Vinted_api_scraper-0.5.0.dist-info/RECORD,,
