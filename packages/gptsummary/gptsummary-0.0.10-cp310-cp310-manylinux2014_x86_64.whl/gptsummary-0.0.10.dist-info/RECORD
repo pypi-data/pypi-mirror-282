@@ -1,0 +1,8 @@
+gptsummary-0.0.10.dist-info/METADATA,sha256=2VRK3sAfXBAhbDhZ9TkgFPCPJErVml-qH5bDfJJ367U,791
+gptsummary-0.0.10.dist-info/RECORD,,
+gptsummary-0.0.10.dist-info/top_level.txt,sha256=0qdjEtikKsKEWsAqWo-_NP_Mw6EVePB4AP-yZ8BHXS8,11
+gptsummary-0.0.10.dist-info/WHEEL,sha256=Dqx8jxXh1TxTWQQ073YWDkHOSMYFpBL59CLfyLoOIHM,151
+gptsummary/gptsummary.pyi,sha256=e6Wmp8CZHXNv1zhXkKKp8K96FVAFaYeFYXWebluO-Io,253
+gptsummary/gptsummary.cpython-310-x86_64-linux-gnu.so,sha256=m2u2W2MnymHeNzvt_UrITYY7MsZ3FMtIN1vfePNdGbM,440832
+gptsummary/__init__.py,sha256=noVj8eSHfZGqiYbape44Hrwy9kNC72Cw8FTjguM3tGE,135
+gptsummary/gptsummary.c,sha256=NMX0_LB20wEN2RV-cwggcghP3w_SlYKLLq-faRnxyD0,357380
