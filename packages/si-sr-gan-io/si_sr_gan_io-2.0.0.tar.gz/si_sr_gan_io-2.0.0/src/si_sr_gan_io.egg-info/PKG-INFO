@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: si_sr_gan_io
+Version: 2.0.0
+Summary: Conventient functions to load remote sensing data to numpy and xarray
+Author: Khlaifia Bilel
+Author-email: khlaifiabilel@icloud.com
+License: Apache 2.0 / LGPL v3
+Project-URL: Homepage, https://github.dev/AntikytheraLtd/si_sr_gan
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE-Apache-2.0
+License-File: LICENSE-LGPL-3.0
+License-File: NOTICE
+License-File: AUTHORS.rst
+Requires-Dist: importlib-metadata
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: rasterio
+Requires-Dist: affine
+Requires-Dist: pandas
+Requires-Dist: pandas-stubs
+Requires-Dist: geopandas
+Requires-Dist: h5py
+Requires-Dist: utm
+Requires-Dist: pyproj
+Requires-Dist: pyresample
+Requires-Dist: pyhdf
+Requires-Dist: mgrs
+Requires-Dist: boto3
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: setuptools>69.0.0
+Provides-Extra: testing
+Requires-Dist: setuptools; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Provides-Extra: notebook
+Requires-Dist: matplotlib; extra == "notebook"
+Requires-Dist: notebook; extra == "notebook"
+Requires-Dist: ipykernel; extra == "notebook"
