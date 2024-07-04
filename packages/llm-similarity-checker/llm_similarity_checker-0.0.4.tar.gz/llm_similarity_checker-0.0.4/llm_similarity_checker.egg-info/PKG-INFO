@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: llm_similarity_checker
+Version: 0.0.4
+Summary: The SimilarityChecker module determines the similarity between two items.
+Home-page: https://github.com/yewleongtoh/similarity_checker
+Author: Toh Yew Leong
+Author-email: yewleongtoh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: transformers
+Requires-Dist: scipy
+Requires-Dist: altair
+Requires-Dist: joblib
+Requires-Dist: torch
+
+## Installation
+
+Run 
+```pip install similarity_checker```
