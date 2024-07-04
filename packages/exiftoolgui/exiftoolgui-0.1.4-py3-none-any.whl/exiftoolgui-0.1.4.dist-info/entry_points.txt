@@ -1,0 +1,2 @@
+[console_scripts]
+exiftoolgui = exiftoolgui.exiftoolgui:ExifToolGUI.main
