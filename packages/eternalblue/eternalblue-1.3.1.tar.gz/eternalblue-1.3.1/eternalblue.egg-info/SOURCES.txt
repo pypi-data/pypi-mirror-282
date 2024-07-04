@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+eternalblue/__init__.py
+eternalblue/conversor.py
+eternalblue/diarization.py
+eternalblue/eternalBlue.py
+eternalblue/transcription.py
+eternalblue/utils.py
+eternalblue.egg-info/PKG-INFO
+eternalblue.egg-info/SOURCES.txt
+eternalblue.egg-info/dependency_links.txt
+eternalblue.egg-info/requires.txt
+eternalblue.egg-info/top_level.txt
