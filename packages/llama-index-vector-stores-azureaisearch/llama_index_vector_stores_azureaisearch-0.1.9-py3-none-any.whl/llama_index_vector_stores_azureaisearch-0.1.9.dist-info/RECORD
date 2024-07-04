@@ -1,0 +1,5 @@
+llama_index/vector_stores/azureaisearch/__init__.py,sha256=XleHndrVOpvHIGopVIr48dk1-aOy24_HaMmPXtMX8d4,306
+llama_index/vector_stores/azureaisearch/base.py,sha256=dOGDxHW-tfe_fqol7_JkfRnazp2FaApKZHPpDlqQqG0,47401
+llama_index_vector_stores_azureaisearch-0.1.9.dist-info/METADATA,sha256=wCeoGRTT7BSoBcoasOl6foNxLQg45Ee1OSzEydi6i-4,743
+llama_index_vector_stores_azureaisearch-0.1.9.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_vector_stores_azureaisearch-0.1.9.dist-info/RECORD,,
