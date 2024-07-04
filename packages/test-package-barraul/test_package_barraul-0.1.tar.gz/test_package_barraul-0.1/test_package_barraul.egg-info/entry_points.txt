@@ -1,0 +1,3 @@
+[console_scripts]
+my_script = test_package_barraul.module:main
+

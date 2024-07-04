@@ -1,0 +1,8 @@
+setup.py
+test_package_barraul/__init__.py
+test_package_barraul/module.py
+test_package_barraul.egg-info/PKG-INFO
+test_package_barraul.egg-info/SOURCES.txt
+test_package_barraul.egg-info/dependency_links.txt
+test_package_barraul.egg-info/entry_points.txt
+test_package_barraul.egg-info/top_level.txt
