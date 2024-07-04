@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sir-utilities
+Version: 0.1.1
+Summary: A collection of personal tools, utilities and helpers.
+Author: sirEven
+Author-email: sir_even@icloud.com
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+Note to myself: Don't create a root folder by hand in which you call poetry new <package name> -> this will lead to one extra leveled root that you don't want.
+e.g.: sir_utilites/sir_utilites/sir_utilites - simply call poetry new where you want your new package to live (for example among other packages in a folder called python_packages)
