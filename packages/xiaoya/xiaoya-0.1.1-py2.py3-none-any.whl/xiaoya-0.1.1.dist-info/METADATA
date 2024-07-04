@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: xiaoya
+Version: 0.1.1
+Summary: 小雅 alist 部署和维护
+Home-page: https://github.com/podboy/xiaoya-kits
+Author: Mingzhe Zou
+Author-email: zoumingzhe@outlook.com
+License: MIT
+Project-URL: Source Code, https://github.com/podboy/xiaoya-kits
+Project-URL: Bug Tracker, https://github.com/podboy/issues
+Project-URL: Documentation, https://github.com/podboy/xiaoya-kits
+Keywords: docker,podman
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: xarg-python (>=1.5.1)
+
+# xiaoya-kits
+
+Deploy and maintain xiaoya-list.
+
+
