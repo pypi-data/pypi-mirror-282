@@ -1,0 +1,3 @@
+[console_scripts]
+ipf_global_search=ipfabric.scripts.global_search:main
+
