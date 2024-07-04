@@ -1,0 +1,9 @@
+nbsphinx
+jupytext
+sphinx
+urllib3
+ipython
+ipykernel
+sphinxcontrib-bibtex
+pygments
+dunderlab-docs
