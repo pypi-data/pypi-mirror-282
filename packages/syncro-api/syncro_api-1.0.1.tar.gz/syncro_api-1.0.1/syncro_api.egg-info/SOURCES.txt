@@ -1,0 +1,6 @@
+setup.py
+syncro_api.py
+syncro_api.egg-info/PKG-INFO
+syncro_api.egg-info/SOURCES.txt
+syncro_api.egg-info/dependency_links.txt
+syncro_api.egg-info/top_level.txt
