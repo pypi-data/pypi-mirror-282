@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+jax_fem/experimental/adjoint_save_to_local.py
+jax_fem/experimental/autodiff_utils.py
+jax_fem/experimental/custom_jvp.py
+jax_fem/experimental/jit_global.py
+jax_fem/experimental/lm_solver.py
+jax_fem/experimental/memory.py
+jax_fem/experimental/petsc_solver.py
+jax_fem/experimental/safe_grad.py
+jax_fem/experimental/sparse.py
+jax_fem/experimental/when_to_jit.py
+jax_fem/jax_fem.egg-info/PKG-INFO
+jax_fem/jax_fem.egg-info/SOURCES.txt
+jax_fem/jax_fem.egg-info/dependency_links.txt
+jax_fem/jax_fem.egg-info/top_level.txt
