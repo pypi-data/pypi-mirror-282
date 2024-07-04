@@ -1,0 +1,14 @@
+phylo_converge/__init__.py,sha256=Y6SkX666rbn_mKn-Gn4K3eSktAQa6zoZObR3NK8vYfA,261
+phylo_converge/alignment.py,sha256=kXaO5Kkel9XJmdRisk707_6WlAydzrcTNKtyW4R22yY,564
+phylo_converge/phylogeny.py,sha256=2UuV5wxrzsJmlxHs835i8lUaEXRCBj40sU7k-qGmV2k,310
+phylo_converge/visualization.py,sha256=oJ8GQrzpvprImfVLWQfTBMyb-UPzmtVdZmFXLjEj1uo,124
+tests/__init__.py,sha256=ND72HVl2rBK7WwJhVyv1C9ScnLp7VZQHWjyuN4hVIQo,95
+tests/test_alignment.py,sha256=aDAhEYY_7gQSgf_-8F46FnysnEDJWZn93l5sMj4fKv0,502
+tests/test_phylogeny.py,sha256=4YhPMxDPOQUi30XHTVxLM-MUVgDXJvRqqJy3I1GXbCw,482
+tests/test_visualization.py,sha256=8wjHrBJoihXoo0jv1Dc_tNPU31ZzkUQ-0WT1kG9bdNU,664
+phylo_converge-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phylo_converge-0.1.0.dist-info/METADATA,sha256=L-aIUCXu92JOYuiq2vM34zgJ_xsF5UYbEAm54rCu76s,1110
+phylo_converge-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+phylo_converge-0.1.0.dist-info/entry_points.txt,sha256=q8zBXT4MvKCVwlYEN-QBxh5hi4vo900Ywg-YXlDgjGY,55
+phylo_converge-0.1.0.dist-info/top_level.txt,sha256=jVCXuZ-1QS3B10q88r_34I_3imQAsb5Ja8c4y3ynFK0,21
+phylo_converge-0.1.0.dist-info/RECORD,,
