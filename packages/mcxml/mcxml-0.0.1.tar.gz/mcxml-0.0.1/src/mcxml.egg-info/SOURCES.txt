@@ -1,0 +1,7 @@
+pyproject.toml
+src/mcxml/__init__.py
+src/mcxml/example.py
+src/mcxml.egg-info/PKG-INFO
+src/mcxml.egg-info/SOURCES.txt
+src/mcxml.egg-info/dependency_links.txt
+src/mcxml.egg-info/top_level.txt
