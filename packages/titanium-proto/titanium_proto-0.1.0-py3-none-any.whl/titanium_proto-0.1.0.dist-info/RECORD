@@ -1,0 +1,15 @@
+src/__init__.py,sha256=ddUakJB6b_6mw1F2hETOiJgzVLg_CaaEzNAv5G39jVE,84
+src/titanium_field.py,sha256=IQrsWCsZ-Ey9oq81BQNji61r0sAn6APho4-_Y7eQvDo,2295
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_titanium_proto.py,sha256=9s6mGqLNj6GL-hGRgvO1ZDJNeqpk7q6GcaS0jKZl92I,4825
+titanium_proto/__init__.py,sha256=JhgHg9PEz3OpSSp-oDOQr93Vhs7zCgB021aY_MSatrM,70
+titanium_proto/titanium_proto.py,sha256=LzJsxfoL5rTdtUZ5O7j0lyVqA2AtDcFyVOYkzfJ5r4M,1163
+titanium_proto/src/__init__.py,sha256=pG1aLwiKD1SKMh7fAuSGGxwAxRl6y0oBIrgya5sa01k,95
+titanium_proto/src/titanium_field.py,sha256=IQrsWCsZ-Ey9oq81BQNji61r0sAn6APho4-_Y7eQvDo,2295
+titanium_proto/src/titanium_file_gen.py,sha256=8je7fEhzKynPw_cNdbIzCQZtYWReGwUBIJuwIdmleqY,15321
+titanium_proto-0.1.0.dist-info/LICENSE,sha256=96_buPw0TZ78mZ5YMFGjQiV_p378CZqO2bcASEG3Zpg,1083
+titanium_proto-0.1.0.dist-info/METADATA,sha256=oKxF0Vly7v2eLGISFOyyNAO6wheHDWQdnekBs6_5ubQ,3436
+titanium_proto-0.1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+titanium_proto-0.1.0.dist-info/entry_points.txt,sha256=mw8SMAq6DdXdD-HOG63igekeryDWTNwAxCboA_Xd4OQ,70
+titanium_proto-0.1.0.dist-info/top_level.txt,sha256=jrbwL5rYrO_KQeqRXrmJK5AkEapKBCRBc05xTaCiw-Q,25
+titanium_proto-0.1.0.dist-info/RECORD,,
