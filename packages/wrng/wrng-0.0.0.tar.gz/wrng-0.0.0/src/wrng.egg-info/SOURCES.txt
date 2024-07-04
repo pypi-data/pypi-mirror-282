@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/w0/__init__.py
+src/wrng.egg-info/PKG-INFO
+src/wrng.egg-info/SOURCES.txt
+src/wrng.egg-info/dependency_links.txt
+src/wrng.egg-info/top_level.txt
