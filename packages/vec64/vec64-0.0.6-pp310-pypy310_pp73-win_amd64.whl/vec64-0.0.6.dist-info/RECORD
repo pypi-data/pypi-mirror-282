@@ -1,0 +1,10 @@
+_vec64.pypy310-pp73-win_amd64.pyd,sha256=Gc_g3pRKViZnnONF_CKp_q_wLMoJciX1Ge_rPJZcoAA,14336
+vec64/__init__.py,sha256=tS3hqUflznAx95N0b-2GHfsT53AfnshKINyUqP7jKBc,201
+vec64/ctype.py,sha256=308cVhQn0nrx4rkgYm8o8VgeWymkMmQqZMcn6wX02hw,3957
+vec64/span.py,sha256=nZ63tF0tsZ6hUakVZFVCPmjGPxNaHKPcoHXTyYJ3VoA,634
+vec64/wrappers.py,sha256=_84L4eTMebsgJSCWnssjp_Wp5GrsgDeyAeHraT1g2w0,1183
+vec64-0.0.6.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+vec64-0.0.6.dist-info/METADATA,sha256=gOCAlhPeyupVmZqoS2aPTAxwj9snLUZsYjjRPu7rD5k,1349
+vec64-0.0.6.dist-info/WHEEL,sha256=jHJM4jytO45gqibHaj-w6c-BvlFmuwQMM0BnFNC9YTU,108
+vec64-0.0.6.dist-info/top_level.txt,sha256=8h5qT2QYTk0Vl1a-9OIhZKa3Cq41XnzJIa2AR9Fq_88,13
+vec64-0.0.6.dist-info/RECORD,,
