@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-shuiguola
+Version: 0.1.0
+Summary: nonebot2插件，水过了bot，正义查重姬
+Author-Email: Souls-R <2362912722@qq.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: nonebot2>=2.3.1
+Requires-Dist: sqlalchemy>=2.0.31
+Requires-Dist: nonebot-adapter-onebot>=2.4.3
+Description-Content-Type: text/markdown
+
+# nonebot-plugin-shuiguola

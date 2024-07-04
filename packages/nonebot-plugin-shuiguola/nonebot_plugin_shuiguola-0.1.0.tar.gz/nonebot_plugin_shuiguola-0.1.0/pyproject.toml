@@ -1,0 +1,26 @@
+[project]
+name = "nonebot-plugin-shuiguola"
+version = "0.1.0"
+description = "nonebot2插件，水过了bot，正义查重姬"
+authors = [
+    { name = "Souls-R", email = "2362912722@qq.com" },
+]
+dependencies = [
+    "nonebot2>=2.3.1",
+    "sqlalchemy>=2.0.31",
+    "nonebot-adapter-onebot>=2.4.3",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
