@@ -1,0 +1,7 @@
+setup.py
+clas___files123456.egg-info/PKG-INFO
+clas___files123456.egg-info/SOURCES.txt
+clas___files123456.egg-info/dependency_links.txt
+clas___files123456.egg-info/not-zip-safe
+clas___files123456.egg-info/top_level.txt
+class_files/class_file.py
