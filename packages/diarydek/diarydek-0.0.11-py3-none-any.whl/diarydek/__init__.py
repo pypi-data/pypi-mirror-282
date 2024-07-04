@@ -1,0 +1,1 @@
+from .diarydek import Diarydek
