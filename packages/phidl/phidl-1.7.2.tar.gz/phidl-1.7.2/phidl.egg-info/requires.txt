@@ -1,0 +1,16 @@
+gdspy>=1.5
+numpy
+matplotlib
+
+[all]
+freetype-py
+klayout
+rectpack
+scipy
+
+[test]
+freetype-py
+klayout
+rectpack
+scipy
+pytest
