@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+microprice/__init__.py
+microprice.egg-info/PKG-INFO
+microprice.egg-info/SOURCES.txt
+microprice.egg-info/dependency_links.txt
+microprice.egg-info/top_level.txt
