@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sidera: pick args",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "src/sidera",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}",
+            "justMyCode": false
+        },
+        {
+            "name": "sidera: mock-data",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "src/sidera",
+            "console": "integratedTerminal",
+            "args": [
+                "--config", "mock-data/sidera.toml",
+                "mock-data/scenario/power.json"
+            ],
+            "justMyCode": false
+        }
+    ]
+}

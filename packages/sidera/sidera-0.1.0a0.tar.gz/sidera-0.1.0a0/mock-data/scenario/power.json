@@ -1,0 +1,64 @@
+{
+    "name": "test scenario",
+    "signals": [
+        {
+            "name": "Power",
+            "values": [
+                {
+                    "name": "OFF",
+                    "value": 0
+                },
+                {
+                    "name": "ON",
+                    "value": 1
+                }
+            ]
+        }
+    ],
+    "states": [
+        {
+            "name": "Power off",
+            "input": [
+                {
+                    "signal": "Power",
+                    "value": "OFF"
+                }
+            ],
+            "stories": [
+                {
+                    "name": "Power off to on",
+                    "scenes": [
+                        {
+                            "wait-time": "any",
+                            "signal": "Power",
+                            "value": "ON"
+                        }
+                    ],
+                    "destination": "Power on"
+                }
+            ]
+        },
+        {
+            "name": "Power on",
+            "input": [
+                {
+                    "signal": "Power",
+                    "value": "OFF"
+                }
+            ],
+            "stories": [
+                {
+                    "name": "Power on to off",
+                    "scenes": [
+                        {
+                            "wait-time": "any",
+                            "signal": "Power",
+                            "value": "OFF"
+                        }
+                    ],
+                    "destination": "Power off"
+                }
+            ]
+        }
+    ]
+}

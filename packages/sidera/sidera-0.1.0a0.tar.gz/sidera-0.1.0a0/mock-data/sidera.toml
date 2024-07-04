@@ -1,0 +1,18 @@
+# Debug sample configuration file for Sidera
+[sidera]
+test = 0
+sample = "abcd"
+file = "~/.sidera.ini"
+
+[sidera.tests]
+abd = 1
+dee = 2
+
+[sidera.logger.file]
+level = "debug"
+file = "/tmp/sidera.log"
+# max-bytes = 1000
+# backup-count = 1
+
+[sidera.logger.console]
+level = "debug"

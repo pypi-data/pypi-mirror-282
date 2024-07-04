@@ -1,0 +1,27 @@
+{
+    "name": "Sidera-core",
+    "build": {
+        "context": "..",
+        "dockerfile": "Dockerfile"
+    },
+    // "features": {
+    // },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mhutchie.git-graph",
+                "streetsidesoftware.code-spell-checker",
+                "codezombiech.gitignore",
+                "ms-python.python",
+                "charliermarsh.ruff",
+                "shardulm94.trailing-spaces",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    },
+    "postStartCommand": "./.devcontainer/post-start.sh",
+    "remoteUser": "vscode",
+    "mounts": [
+        "source=${localEnv:HOME}/.pypirc,target=/home/vscode/.pypirc,type=bind,consistency=cached"
+    ]
+}

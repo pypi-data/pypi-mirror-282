@@ -1,0 +1,16 @@
+repos:
+  - repo: local
+    hooks:
+      - id: rye-lint
+        name: Rye lint
+        entry: rye lint
+        language: system
+        types: [python]
+        description: "Run Python linter"
+
+      - id: rye-fmt
+        name: Rye fmt
+        entry: rye fmt
+        language: system
+        types: [python]
+        description: "Run Python formatter"

@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: sidera
+Version: 0.1.0a0
+Summary: Sidera core project (Under Development)
+Author-email: Hitoshi Hoshino <hoshino.hitoshi@sidera.jp>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.12
+Requires-Dist: pluggy>=1.5.0
+Requires-Dist: pydantic>=2.7.4
+Description-Content-Type: text/markdown
+
+# Sidera
+
+(Under Development)
