@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+pieces_copilot_sdk/__init__.py
+pieces_copilot_sdk/client.py
+pieces_copilot_sdk.egg-info/PKG-INFO
+pieces_copilot_sdk.egg-info/SOURCES.txt
+pieces_copilot_sdk.egg-info/dependency_links.txt
+pieces_copilot_sdk.egg-info/top_level.txt
