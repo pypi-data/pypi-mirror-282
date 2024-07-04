@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+ailecs_handlandmark_detector.egg-info/PKG-INFO
+ailecs_handlandmark_detector.egg-info/SOURCES.txt
+ailecs_handlandmark_detector.egg-info/dependency_links.txt
+ailecs_handlandmark_detector.egg-info/top_level.txt
