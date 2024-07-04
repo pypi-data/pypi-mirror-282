@@ -1,0 +1,14 @@
+pyciaaw/__init__.py,sha256=p6xZu3xY-rb7fcc_xTC93eX5_gj00MVA2SojnWx117I,174
+pyciaaw/libciaaw.dll,sha256=UqXI5kWbRhq-KRETJeF5s-RpzAi2nuN7kU_bgYSnyDU,192334
+pyciaaw/libciaaw.dll.a,sha256=M-J0wyT-7Qz9Q2QCxSftxDmWPKBhJ05uhA5jzU9armk,197110
+pyciaaw/libgcc_s_seh-1.dll,sha256=siuVQ5elJwNXnZLbZLV4Eq9w8q_K_i50KgCcFkC57Bo,150707
+pyciaaw/libgfortran-5.dll,sha256=I6sKHQzwtR9mqUOzGrqTY3ddd8WzvYMkMH7NAWRv0nE,3306867
+pyciaaw/libquadmath-0.dll,sha256=MjIw-7mkLskqiBy8dziuww06qJFWvpHRl4wW_Q1JuMc,380848
+pyciaaw/libwinpthread-1.dll,sha256=UJG4WipzuCqjz0M_Ua8zj2JFMZ0cBBvCa0KmHL2y-IA,60798
+pyciaaw/saw_2021.cp312-win_amd64.pyd,sha256=WEGh0XuhgObSSHOB2QjfI0o19Hbo0hVyfQSeDm6CmPk,44032
+pyciaaw/version.cp312-win_amd64.pyd,sha256=Ps4tcwzBrtfD1TdQ9r4EeRFmtFX5Ll9g3KFQMhWTtYE,10752
+pyciaaw-0.4.3.dist-info/LICENSE,sha256=E4bvAaVGR0kY-3NDZZls2alhojlB1nyyEjquSVW7e-I,1071
+pyciaaw-0.4.3.dist-info/METADATA,sha256=Qqj5trhD10Q523VT1m4EtDeaM9FY3tQJO6iBbIqtlso,2155
+pyciaaw-0.4.3.dist-info/WHEEL,sha256=7M9omTteV1AA1lqimSm66FA5mPjaJNBD3zI5eMwtk7s,102
+pyciaaw-0.4.3.dist-info/top_level.txt,sha256=IRCyNd8GkILV853CkTNUBvsrUoEl0uRg3sH6VMu_B84,8
+pyciaaw-0.4.3.dist-info/RECORD,,
