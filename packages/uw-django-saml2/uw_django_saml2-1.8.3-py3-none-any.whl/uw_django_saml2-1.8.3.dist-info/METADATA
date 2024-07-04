@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: uw-django-saml2
+Version: 1.8.3
+Summary: Django wrapper for python3-saml
+Home-page: https://github.com/uw-it-aca/uw-django-saml2
+Author: UW-IT T&LS
+Author-email: aca-it@uw.edu
+License: Apache License, Version 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
+License-File: LICENSE
+Requires-Dist: django <5,>=3.2
+Requires-Dist: python3-saml ~=1.16
+Requires-Dist: mock
+
+
+See the README on `GitHub
+<https://github.com/uw-it-aca/uw-django-saml2>`_.
