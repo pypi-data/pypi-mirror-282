@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+jupyter-config/jupyter_server_config.d/jupyter_idle.json
+jupyter_idle/__init__.py
+jupyter_idle/handler.py
+jupyter_idle.egg-info/PKG-INFO
+jupyter_idle.egg-info/SOURCES.txt
+jupyter_idle.egg-info/dependency_links.txt
+jupyter_idle.egg-info/requires.txt
+jupyter_idle.egg-info/top_level.txt
+jupyter_idle/tests/__init__.py
+jupyter_idle/tests/test_handlers.py
