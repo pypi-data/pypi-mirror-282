@@ -1,0 +1,5 @@
+fixtures
+manage_wrapper
+news
+news_bot
+news_parsing
