@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: resumex
+Version: 0.0.1
+Summary: A python package tha handle common issues in data processing.
+Author-email: Yikai Lai <laiyk5@163.com>
+Description-Content-Type: text/markdown
+Requires-Dist: graphviz
+Requires-Dist: jsonlines
+Requires-Dist: pydantic
+Requires-Dist: importlib-metadata; python_version < "3.10"
+
+# ResumeX
+
+A python package tha handle common issues in data processing.
+
+## Usage
+
+1. Organize you tasks into a job, which is represented by `JobGraph`
+2. Define your task as a function, which has input as a mapping from source-task-name to input data, and output as a dict from dest-task-name to output data.
+3. Run the function with several inputs asynchronously with `MPExecutor`

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resumex"
+authors = [
+    {name = "Yikai Lai", email = "laiyk5@163.com"},
+]
+description = "A python package tha handle common issues in data processing."
+version = "0.0.1"
+readme = "README.md"
+dependencies = [
+    "graphviz",
+    "jsonlines",
+    "pydantic",
+    'importlib-metadata; python_version<"3.10"',
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]  # ["."] by default
+include = ["resume*"]  # ["*"] by default
+exclude = ["resume.tests*"]  # empty by default
+namespaces = false  # true by default
