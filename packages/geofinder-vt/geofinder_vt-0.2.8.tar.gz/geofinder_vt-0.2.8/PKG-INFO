@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: geofinder_vt
+Version: 0.2.8
+Summary: A brief description of your package
+Home-page: https://github.com/nathan846/geofindervt
+Author: Your Name
+Author-email: vaidhyanathan@vt.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: affine==2.4.0
+Requires-Dist: attrs==23.1.0
+Requires-Dist: babel==2.12.1
+Requires-Dist: certifi==2023.5.7
+Requires-Dist: charset-normalizer==3.1.0
+Requires-Dist: click==8.1.3
+Requires-Dist: click-plugins==1.1.1
+Requires-Dist: cligj==0.7.2
+Requires-Dist: colorama==0.4.6
+Requires-Dist: contextily==1.3.0
+Requires-Dist: contourpy==1.0.7
+Requires-Dist: customtkinter==5.1.3
+Requires-Dist: cycler==0.11.0
+Requires-Dist: darkdetect==0.8.0
+Requires-Dist: decorator==4.4.2
+Requires-Dist: descartes==1.1.0
+Requires-Dist: ffmpeg-python==0.2.0
+Requires-Dist: fiona==1.9.4
+Requires-Dist: fonttools==4.39.4
+Requires-Dist: future==0.18.3
+Requires-Dist: geocoder==1.38.1
+Requires-Dist: geographiclib==2.0
+Requires-Dist: geopandas==0.13.0
+Requires-Dist: geopy==2.3.0
+Requires-Dist: gpmf==0.1
+Requires-Dist: gpxpy==1.5.0
+Requires-Dist: idna==3.4
+Requires-Dist: imageio==2.29.0
+Requires-Dist: imageio-ffmpeg==0.4.8
+Requires-Dist: importlib-metadata==6.6.0
+Requires-Dist: importlib-resources==5.12.0
+Requires-Dist: joblib==1.2.0
+Requires-Dist: kiwisolver==1.4.4
+Requires-Dist: lxml==4.9.2
+Requires-Dist: matplotlib==3.7.1
+Requires-Dist: mercantile==1.2.1
+Requires-Dist: moviepy==1.0.3
+Requires-Dist: numpy>=0.19.0
+Requires-Dist: opencv-python==4.7.0.72
+Requires-Dist: packaging==23.1
+Requires-Dist: pandas==2.0.1
+Requires-Dist: pillow==9.5.0
+Requires-Dist: proglog==0.1.10
+Requires-Dist: pyee==9.1.0
+Requires-Dist: pyexiftool==0.4.13
+Requires-Dist: pyparsing==3.0.9
+Requires-Dist: pyperclip==1.8.2
+Requires-Dist: pyproj==3.5.0
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: pytz==2023.3
+Requires-Dist: pywin32==306
+Requires-Dist: rasterio==1.3.7
+Requires-Dist: ratelim==0.1.6
+Requires-Dist: requests==2.31.0
+Requires-Dist: shapely==2.0.1
+Requires-Dist: six==1.16.0
+Requires-Dist: snuggs==1.4.7
+Requires-Dist: tqdm==4.65.0
+Requires-Dist: typing-extensions==4.6.0
+Requires-Dist: tzdata==2023.3
+Requires-Dist: urllib3==1.26.6
+Requires-Dist: xmltodict==0.13.0
+Requires-Dist: xyzservices==2023.5.0
+Requires-Dist: zipp==3.15.0
+
+# UserInterface_ComputerVision_GoPro
+This is collaboration with Dr. Junghwan Kim (Department of Geography@Virginia Tech) to create a user friendly desktop application that uses pre-trained Computer Vision models on geographical video files (captured by GoPro).
+
+# Application Title: Geospatial Image on Map Viewer
+
+[√] Extract image frames from video files
+
+[] Run pre-trained computer vision models on image frames
+
+[] Display the results on a map
+
+[] User Interface
+
+[] User Manual
+
+[] Demo Video
+
+[] Presentation Slides
+
+[] Final Report
