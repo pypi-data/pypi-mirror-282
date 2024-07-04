@@ -1,0 +1,8 @@
+[project]
+name = "xpdeep-api"
+authors = [
+    {name = "Benjamin GIRARD", email = "support@xpdeep.com"},
+]
+version = "0.0.0"
+description = "Coming soon"
+
