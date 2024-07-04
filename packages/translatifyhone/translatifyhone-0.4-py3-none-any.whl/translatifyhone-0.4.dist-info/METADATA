@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: translatifyhone
+Version: 0.4
+Summary: A translation library for TAS API
+Author: Uncover
+Requires-Dist: requests
+
