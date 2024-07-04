@@ -1,0 +1,7 @@
+vital-ai-vitalsigns>=0.1.19
+PyYAML>=6.0.1
+vital-agent-container-sdk>=0.1.0
+
+[dev]
+wheel>=0.43.0
+twine
