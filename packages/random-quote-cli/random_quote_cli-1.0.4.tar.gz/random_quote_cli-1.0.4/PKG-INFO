@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: random_quote_cli
+Version: 1.0.4
+Summary: A CLI tool to fetch and display random quotes, with an option to send them to a WebSocket server.
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: websockets
+
+README.md
