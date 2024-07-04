@@ -1,0 +1,14 @@
+supercells/__init__.py,sha256=QYTGqc3BjYUi2t1XYUhSKwI3rgwoMJbNGXAWFH9ReEM,150
+supercells/__main__.py,sha256=MyTTDRtIhmMIq52nzdmY39rGyWJBp7X75wesR9Cd6Pk,101
+supercells/config.py,sha256=EXUU3t-F6xF5WoDnJwL9go4DuV2SdBkUjAKoKKbnbJQ,464
+supercells/main.py,sha256=RfCw3bdfPTqaMmNAv8V69fjqI2VV9z0nfdQ9PQ--zsc,1385
+supercells/version.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+supercells/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supercells/modules/cellranger.py,sha256=p9Vk-SrBxYzd0xmkw8_p8WZk-kcLyrUs0rIBuSADJK0,3511
+supercells/modules/general.py,sha256=xFrlk9w18zxfs-7ntC--KR5wXadzMY99rVtWOlSRrbw,2611
+supercells-0.0.5.dist-info/LICENSE,sha256=SbzG453-x9CVEeqXa5egI4oigUXS4ZAOG3k_AqYn0wU,7517
+supercells-0.0.5.dist-info/METADATA,sha256=jBtCJ8fT2rWdpo7YvyoMfxv2m5dEkXRWp8pV1qk2img,3566
+supercells-0.0.5.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+supercells-0.0.5.dist-info/entry_points.txt,sha256=vnGNicwNW_lXtU-0oeUUoU37vet9tF94VThhJhzxWiU,52
+supercells-0.0.5.dist-info/top_level.txt,sha256=-XVs9a0gxQ6hRETk1qwWpktj0JwiWV1dGE0g4eEqWSg,11
+supercells-0.0.5.dist-info/RECORD,,
