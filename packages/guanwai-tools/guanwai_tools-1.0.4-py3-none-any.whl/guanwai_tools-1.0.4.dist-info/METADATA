@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: guanwai-tools
+Version: 1.0.4
+Summary: A simple example package
+Author: gaunwai
+Author-email: 171391909@qq.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymongo
+
+#### 个人工具包
+
