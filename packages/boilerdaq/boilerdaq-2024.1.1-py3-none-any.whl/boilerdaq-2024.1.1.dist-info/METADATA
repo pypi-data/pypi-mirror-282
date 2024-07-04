@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: boilerdaq
+Version: 2024.1.1
+Summary: Data acquisition for a nucleate pool boiling experimental apparatus
+Author-email: Blake Naccarato <blake.naccarato@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: libusb>=1.0.27
+Requires-Dist: mcculw>=1.0.0
+Requires-Dist: pandas[hdf5,performance]>=2.2.0
+Requires-Dist: pydantic>=2.6.1
+Requires-Dist: pyqtgraph>=0.13.3
+Requires-Dist: pyvisa>=1.14.1
+Requires-Dist: pyusb>=1.2.1
+Requires-Dist: pyvisa-py>=0.7.2
+Requires-Dist: simple-pid>=2.0.0
+Requires-Dist: pyvisa-sim>=0.6.0
+Requires-Dist: uldaq>=1.2.3
+Requires-Dist: zeroconf>=0.132.2
+Project-URL: Changes, https://softboiler.github.io/boilerdaq/changelog.html
+Project-URL: Docs, https://softboiler.github.io/boilerdaq
+Project-URL: Home, https://github.com/softboiler/boilerdaq
+Project-URL: Tracker, https://github.com/softboiler/boilerdaq/issues
+
+# boilerdaq
+
+[![All Contributors](https://img.shields.io/github/all-contributors/softboiler/boilerdaq?color=ee8449&style=flat-square)](#contributors)
+
+Data acquisition for a nucleate pool boiling experimental apparatus.
+
+## Project information
+
+- [Changes](<https://softboiler.github.io/boilerdaq/changelog.html>)
+- [Docs](<https://softboiler.github.io/boilerdaq>)
+- [Contributing](<https://softboiler.github.io/boilerdaq/contributing.html>)
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
