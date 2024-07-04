@@ -1,0 +1,8 @@
+whttpx/Error.py,sha256=VEpx0iTDsWjjWTb-8O2YtlTO04y3ZdKulrHldkrqhQE,173
+whttpx/__init__.py,sha256=BgR0X7TjP6YpTVKKt5j997ZB_gzIsotbaXLEDegJb_A,49
+whttpx/request.py,sha256=wMR3cdHRgtRAx7MrXQCrBzchD3PpWuUO0FT3VXAb0Rs,3522
+whttpx-0.0.3.dist-info/LICENSE,sha256=2ZB0B1-wsdFOG6LDG_6eb6iAB4XPVqxNtGWPWdRAn1w,1029
+whttpx-0.0.3.dist-info/METADATA,sha256=Secj9xh5Gt3AYw2ydy40Q4g3VRUeGGt6ipvFBBB6og0,437
+whttpx-0.0.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+whttpx-0.0.3.dist-info/top_level.txt,sha256=j3ZitQYqhnO-d3c68Wz9_trHh21setTOlJnCHqnhsmQ,7
+whttpx-0.0.3.dist-info/RECORD,,
