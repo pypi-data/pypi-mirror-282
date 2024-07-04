@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: graphlow
+Version: 0.0.1
+Summary: graphlow provides graph processing features for physical simulation data (e.g., mesh).
+License: Apache-2.0
+Author: RICOS Co. Ltd.
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyvista (>=0.43,<0.44)
+Requires-Dist: ruff (>=0.4.10,<0.5.0)
+Description-Content-Type: text/markdown
+
+# graphlow: Graph for Physics
+
+graphlow provides graph processing features for physical simulation data (e.g., mesh).
+
+
