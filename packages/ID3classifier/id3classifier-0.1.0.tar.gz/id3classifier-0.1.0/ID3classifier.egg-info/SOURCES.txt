@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ID3classifier/__init__.py
+ID3classifier/id3.py
+ID3classifier.egg-info/PKG-INFO
+ID3classifier.egg-info/SOURCES.txt
+ID3classifier.egg-info/dependency_links.txt
+ID3classifier.egg-info/requires.txt
+ID3classifier.egg-info/top_level.txt
