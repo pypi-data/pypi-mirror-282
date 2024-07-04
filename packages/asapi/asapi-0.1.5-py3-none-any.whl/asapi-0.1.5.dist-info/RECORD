@@ -1,0 +1,9 @@
+asapi/__init__.py,sha256=xdVY3ZaNEJ7wkmkr7DGkfxyYXRGLtjxYyQmVmvH25dU,402
+asapi/_injected.py,sha256=4bZPa-BI7SxviiVZU1E0b0Z1oS2bO-TR_JabTZAmOWU,3479
+asapi/_parameters.py,sha256=tvpzQf3kqeaGg-Jz_VMeGDDbmELTt_jMOznewKiFjfE,349
+asapi/_serve.py,sha256=GeqbxDtCWdYfkuwso07vwzF3e0xFhj7pn4uzjp7NLvs,685
+asapi/_signal_handling.py,sha256=UA4JFOoXxUHoIVapA1UZWsIbjtmLYJouQnZ_qoZiAH8,1473
+asapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asapi-0.1.5.dist-info/METADATA,sha256=Exnie7upQnWPUR0PV2e0IVZ_Cy2oaf0ZwxTCTuBmoy8,4356
+asapi-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+asapi-0.1.5.dist-info/RECORD,,
