@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dothething"
+version = "0.1.1"
+description = "from everything import anything"
+authors = ["Wolf Mermelstein <wolfmermelstein@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [ { include = "everything", from = "src" } ]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.35.9"
+typing-extensions = "^4.12.2"
+
+[tool.poetry.dev-dependencies]
+black = "^24.00"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
