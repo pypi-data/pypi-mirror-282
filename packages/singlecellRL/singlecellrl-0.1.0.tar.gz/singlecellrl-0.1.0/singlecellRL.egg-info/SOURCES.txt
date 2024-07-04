@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+singlecellRL.egg-info/PKG-INFO
+singlecellRL.egg-info/SOURCES.txt
+singlecellRL.egg-info/dependency_links.txt
+singlecellRL.egg-info/requires.txt
+singlecellRL.egg-info/top_level.txt
