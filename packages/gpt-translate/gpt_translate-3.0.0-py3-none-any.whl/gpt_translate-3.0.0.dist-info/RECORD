@@ -1,0 +1,14 @@
+gpt_translate/__init__.py,sha256=GKJuIgj_MpR7Ve-c9Q_N9FlNxbihRBqtAAJwfmUpcGo,46
+gpt_translate/cli.py,sha256=1MGqvs23Y07Wg2S16FJtk_crsH6Ov3bMdj0kwu92jiQ,4794
+gpt_translate/configs.py,sha256=uF2dbnOZB04ur1g48ljipYXwW-nAU-BpnoBTcl7knP4,2029
+gpt_translate/loader.py,sha256=nrPX9nKx4uTuFWxkiNV8cYmMTL2IO7dbSCOakqEUETk,7503
+gpt_translate/prompts.py,sha256=G5pvj6Sfr4Urh345GSL9_7IDzvPciQ-7SQVEpqTy7N0,2096
+gpt_translate/translate.py,sha256=6NM3-fJ-9Qusd_tE72PjYQ-9hHNUixOQUvzP6HMAR_E,15369
+gpt_translate/utils.py,sha256=S1fvCErvkJEAP9HsvFOPocq0QZ4-Yjbqq-19PjsvEtE,4080
+gpt_translate/validate.py,sha256=bBNGx1mtp22TCmBr20Ar4bVbUG7nzcny8lJMeJAnilI,2213
+gpt_translate/version.py,sha256=EPmgXOdWKks5S__ZMH7Nu6xpAeVrZpfxaFy4pykuyeI,22
+gpt_translate-3.0.0.dist-info/METADATA,sha256=cqMRivWT7fQflsMHxxM0d7XqLU9C4kHxdTaznE2oz50,5182
+gpt_translate-3.0.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+gpt_translate-3.0.0.dist-info/entry_points.txt,sha256=MZzvcz4g7VBOtZLThX4DB5IoAdvWbFixxx95Kd4ROrc,298
+gpt_translate-3.0.0.dist-info/top_level.txt,sha256=c61andiUHs8C78nWIYZLYAYSEcNCckEg_jfD6691IEY,14
+gpt_translate-3.0.0.dist-info/RECORD,,
