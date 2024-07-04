@@ -1,0 +1,8 @@
+icodeuplay/__init__.py,sha256=xGpdiNgrVcAfLmgLijTTiooGF7i_aB6YzeOREhqKZA8,100
+icodeuplay/openai_client.py,sha256=k5RqsimvesoMQgrpZzH2dwY-yFqiMrdTfDF6xEcLhTY,887
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_openai_client.py,sha256=5LY5W-1NG1cfFdG787z40nX29gJ399kk4OVI8AiYuio,1126
+icodeuplay-0.0.1.dist-info/METADATA,sha256=a1Jj11mrU4byWmkOzjBeyYnI3BlgaDCqkDYhxhgkPUs,616
+icodeuplay-0.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+icodeuplay-0.0.1.dist-info/top_level.txt,sha256=fl86krSmPzA2EJ-sc8NGSWXVUeCKNpGnZpzlpzielI0,17
+icodeuplay-0.0.1.dist-info/RECORD,,
