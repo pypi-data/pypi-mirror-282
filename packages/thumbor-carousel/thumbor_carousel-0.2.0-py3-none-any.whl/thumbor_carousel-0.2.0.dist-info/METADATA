@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: thumbor-carousel
+Version: 0.2.0
+Summary: Default template for PDM package
+Author-Email: =?utf-8?b?Q8O0bmcgVHLhuqdu?= <trancong12102@gmail.com>
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: thumbor>=7.7.4
+Requires-Dist: opencv-python>=4.10.0.84
+Description-Content-Type: text/markdown
+
+# thumbor-carousel
