@@ -1,0 +1,13 @@
+SpreadPy/AnalyticalUtils.py,sha256=SWba6FUs2fCvk9qy6F_BtJJkQdHvkAfOI__E3GAWNtE,8720
+SpreadPy/IOUtils.py,sha256=r8Bwa6Ebbuc8NPqsNyDG0L4LXNSR_mbu92l9bCTsWJc,1620
+SpreadPy/SpreadingModel.py,sha256=jalLqiS_G9JrxldC0N9cx61Nw1ZqSdRCRxA-2FtQKEA,6864
+SpreadPy/__init__.py,sha256=4rqVN-OAqgsAk8O3uDfVSApIfgZ8CZ5eN76MBgyfaTY,168
+SpreadPy/Models/__init__.py,sha256=GECZ9lQGbquemFMPqajg5-q1BdtNL9z56N35QemT320,23
+SpreadPy/Models/models.py,sha256=0PGSjuBpxgLgTrk7XsM6e0h4fUc6c9O6-CXkQAMYVOU,15565
+SpreadPy/Tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SpreadPy/Tests/test.py,sha256=x7WZQwAHvx7O3rCPrnio9eMovCBMbENV2OrpsP_yH4E,6925
+SpreadPy-1.0.0.dist-info/LICENSE,sha256=aQkunyZyynXJHNsFkah2kmXZqzI3Ksh72fSDVZkr608,1320
+SpreadPy-1.0.0.dist-info/METADATA,sha256=BNAEeoNdSlF6cLqkm8TL3USmVfn_qEiPXKVdVWQnce8,766
+SpreadPy-1.0.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+SpreadPy-1.0.0.dist-info/top_level.txt,sha256=rwVFjR39A0UhemCnlDVK4A5x8SkVx26FdyaYg7UTvkI,9
+SpreadPy-1.0.0.dist-info/RECORD,,
