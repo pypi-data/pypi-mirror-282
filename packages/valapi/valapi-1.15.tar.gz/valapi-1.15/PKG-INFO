@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: valapi
+Version: 1.15
+Summary: Updated VALORANT client API
+Home-page: 
+Author: mela
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# valclient.py
+
+### API wrapper for VALORANT's client API
+
+## Installation
+```python
+pip install valapi
+```
+
+## Example
+
+```python
+from valapi import Client
+
+client = Client(region="na")
+client.activate()
+
+name = "" #NAME
+tag = "" #TAG FOR THE NAME
+
+client.party_invite_by_display_name(name, tag)
+```
