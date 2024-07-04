@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: microprice
+Version: 0.1.0
+Summary: A Jax implementation implementation of Micro-Price: A High Frequency Estimator of Future Prices.
+Home-page: https://github.com/alexandrebrilhante/quantnet
+Author: Alexandre Brilhante
+Author-email: alexandre.brilhante@gmail.com
+Project-URL: Bug Tracker, https://github.com/alexandrebrilhante/microprice/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# microprice
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/microprice)
+![GitHub](https://img.shields.io/github/license/alexandrebrilhante/quantnet)
+
+A Jax implementation implementation of [Micro-Price: A High Frequency Estimator of Future Prices](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2970694).
+
+## Installation
+```bash
+pip install microprice
+```
+
+## Usage
+```python
+from microprice import MicroPriceEstimator, load_sample_data
+
+mpe = MicroPriceEstimator(symbol="AAPL",
+                          n_imbalances=10,
+                          n_spread=2,
+                          dt=1)
+
+T = mpe.load(load_sample_data())
+
+mpe.fit(T, iterations(6))
+```
