@@ -1,0 +1,2 @@
+Note to myself: Don't create a root folder by hand in which you call poetry new <package name> -> this will lead to one extra leveled root that you don't want.
+e.g.: sir_utilites/sir_utilites/sir_utilites - simply call poetry new where you want your new package to live (for example among other packages in a folder called python_packages)
