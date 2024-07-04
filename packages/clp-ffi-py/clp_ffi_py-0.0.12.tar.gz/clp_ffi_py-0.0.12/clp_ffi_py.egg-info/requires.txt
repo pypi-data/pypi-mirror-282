@@ -1,0 +1,4 @@
+Deprecated>=1.2.14
+python-dateutil>=2.7.0
+typing-extensions>=4.1.1
+zstandard>=0.18.0
