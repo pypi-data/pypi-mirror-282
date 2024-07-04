@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+testtest123.egg-info/PKG-INFO
+testtest123.egg-info/SOURCES.txt
+testtest123.egg-info/dependency_links.txt
+testtest123.egg-info/requires.txt
+testtest123.egg-info/top_level.txt
+vidstream/__init__.py
