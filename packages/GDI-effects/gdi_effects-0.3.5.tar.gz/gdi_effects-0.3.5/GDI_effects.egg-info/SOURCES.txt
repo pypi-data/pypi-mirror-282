@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+GDI_effects.egg-info/PKG-INFO
+GDI_effects.egg-info/SOURCES.txt
+GDI_effects.egg-info/dependency_links.txt
+GDI_effects.egg-info/top_level.txt
