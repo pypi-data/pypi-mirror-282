@@ -1,0 +1,6 @@
+README.md
+setup.py
+mosemv.egg-info/PKG-INFO
+mosemv.egg-info/SOURCES.txt
+mosemv.egg-info/dependency_links.txt
+mosemv.egg-info/top_level.txt
