@@ -1,0 +1,10 @@
+petlja_api/__init__.py,sha256=FoR5XbbCMOReJx9SpUv6Meut21WesaeaDSou9Dt0oNk,295
+petlja_api/auth.py,sha256=m6hvN_hq73bpaawokdugI4TChWxWNh9E3Een1m8o0sE,1442
+petlja_api/competition.py,sha256=Obzh90yvaP2AKcj0UDr_WwQ1nwiG60rUEyn3gjdnnEY,4209
+petlja_api/problem.py,sha256=RhIgkCCWG33JKD9mCnYGGsBHEXCUNQKJvvyg2xcU3OQ,3457
+petlja_api/submit.py,sha256=yMY_VdS1pktL47yzUPvp66RA01ezEZOFUatF0Kt_Sqs,1436
+petlja_api/urls.py,sha256=ol2xDoGg8pZS3I_kXrAMfsHX_NI54XtDlCI9qfI3u84,170
+petlja_api-0.0.1.dist-info/METADATA,sha256=V4zxVbggFapS5n7wguNaqOoat-poeg66k630462tb68,1088
+petlja_api-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+petlja_api-0.0.1.dist-info/licenses/LICENSE,sha256=vjjmZ_TFg_A8t-6PHeFUaEo1pSrRtnO59PBzc527jS0,1071
+petlja_api-0.0.1.dist-info/RECORD,,
