@@ -1,0 +1,3 @@
+[console_scripts]
+xiaoya = xiaoya.command:main
+
