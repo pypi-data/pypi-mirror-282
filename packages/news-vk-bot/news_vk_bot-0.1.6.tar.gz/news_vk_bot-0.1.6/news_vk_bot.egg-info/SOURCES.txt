@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+news_vk_bot.egg-info/PKG-INFO
+news_vk_bot.egg-info/SOURCES.txt
+news_vk_bot.egg-info/dependency_links.txt
+news_vk_bot.egg-info/entry_points.txt
+news_vk_bot.egg-info/requires.txt
+news_vk_bot.egg-info/top_level.txt
