@@ -1,0 +1,3 @@
+[console_scripts]
+pickforme = pickforme.main:main
+
