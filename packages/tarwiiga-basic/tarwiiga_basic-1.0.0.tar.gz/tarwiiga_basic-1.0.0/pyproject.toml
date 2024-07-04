@@ -1,0 +1,16 @@
+[project]
+name = "tarwiiga_basic"
+version = "1.0.0"
+authors = [{ name = "Tarwiiga", email = "tarwiiga@gmail.com" }]
+description = "Tarwiiga Python Package"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain",
+    "langchain-google-genai",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
