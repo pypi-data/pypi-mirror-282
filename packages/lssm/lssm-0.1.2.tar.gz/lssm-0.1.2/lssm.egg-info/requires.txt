@@ -1,0 +1,14 @@
+tqdm
+pandas
+scikit-learn
+seaborn
+torch
+torchvision
+torchaudio
+timm
+torcheval
+fastprogress
+fastdownload
+palettable
+
+[dev]
