@@ -1,0 +1,14 @@
+tabledetector/__init__.py,sha256=yYCNowJhPo47GVtWZX67gPIVf6cI18VI8P4YXUjpoaw,209
+tabledetector/bordered.py,sha256=py1CGmKC9dlcRZHt5TMtBY8twd-FCz8ne8-PqGJTAJU,6218
+tabledetector/consolidated.py,sha256=plXoSP8ubaWyQGmNM9q2P7LY8IwDyq7DnLY1AHTDOeI,16598
+tabledetector/convertor.py,sha256=unNCQtuSZCm25-as39jKU_wG7TchJlZRJBvH9r1gP38,829
+tabledetector/extractor.py,sha256=JLvTM0WjNjt1nkffG9d9xUfCjTUsWB1F4u-s6Gqh-FQ,3563
+tabledetector/rotate.py,sha256=j50RBkMqwKKauLV3-ZAXcAOSVqXicBnuQNTJtBcUOTY,1750
+tabledetector/semibordered.py,sha256=b72swAbx7oFacf_42G9V2gGGpqdThqkoNqaINBmWEoM,15085
+tabledetector/tabledetector.py,sha256=o1GDW9vwLfobizcW5A71DZRX_i-V43MaAHCvT05QmhI,6139
+tabledetector/unbordered.py,sha256=7wQAww2rpQuz8hVoQsySycq0QEovylDqYLUy8dAvDqs,12402
+tabledetector-1.0.2.dist-info/LICENSE,sha256=U6-n7_k87NJwmc69ywmmRpplhESCafpIjPQf2BP1Mrs,1091
+tabledetector-1.0.2.dist-info/METADATA,sha256=LjE9IIeXbPNeM7DR0FSLvj2jC4PoWoOWB-6rEZrnDSE,3563
+tabledetector-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tabledetector-1.0.2.dist-info/top_level.txt,sha256=pfZRCracRByIRQGM21tz7cONiOZGeLURXCNyWJzoIb8,14
+tabledetector-1.0.2.dist-info/RECORD,,
