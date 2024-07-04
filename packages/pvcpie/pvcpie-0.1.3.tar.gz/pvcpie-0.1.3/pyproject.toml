@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pvcpie"
+version = "0.1.3"
+description = "Package to get PVC usage information in a cluster."
+authors = ["Ujjwal <ujjwalkadam22@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+pandas = "^2.2.2"
+kubernetes = "^30.1.0"
+prettytable = "^3.10.0"
+requests = "^2.32.3"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pvcpie = 'pvcpie.main:main'
