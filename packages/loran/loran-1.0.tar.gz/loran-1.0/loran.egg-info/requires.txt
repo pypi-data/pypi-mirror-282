@@ -1,0 +1,12 @@
+jsonschema==4.22.0
+pandas==2.2.2
+pytest-check==2.2.2
+openpyxl==3.1.2
+easydict==1.11
+colorlog==6.8.0
+allure-pytest==2.13.2
+seleniumbase==4.22.5
+xlrd==2.0.1
+fire==0.6.0
+PyMySQL==1.1.1
+jsonpath==0.82.2

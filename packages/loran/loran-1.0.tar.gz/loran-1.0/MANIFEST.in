@@ -1,0 +1,5 @@
+prune common
+prune config
+prune pages
+
+
