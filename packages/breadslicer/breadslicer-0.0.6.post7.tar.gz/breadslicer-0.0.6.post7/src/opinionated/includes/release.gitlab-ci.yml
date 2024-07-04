@@ -1,0 +1,17 @@
+release:
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  stage: release
+  variables:
+    TAG: ${CI_DOCKER_TAG}
+  script:
+    - echo 'Releasing $VERSION'
+  release: # See https://docs.gitlab.com/ee/ci/yaml/#release for available properties
+    name: "Release $VERSION"
+    tag_name: '$VERSION'
+    description: '$VERSION'
+  needs:
+    - job: build
+      artifacts: true
+    - job: publish
+      artifacts: false
+  <<: *default_branch
