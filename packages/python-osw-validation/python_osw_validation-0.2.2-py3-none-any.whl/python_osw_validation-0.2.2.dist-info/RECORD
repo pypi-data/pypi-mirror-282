@@ -1,0 +1,10 @@
+python_osw_validation/__init__.py,sha256=eSbO0YrIk58FTqx8qfXT4fdfCEumDBL31xIWWrNpzvg,7390
+python_osw_validation/extracted_data_validator.py,sha256=Tdo3I5xz9bmzlZh9OH7Fp8WOcM88VZe4kCrzR2WwVWY,3894
+python_osw_validation/version.py,sha256=pKh2_hmFNUwG0JxbL18qxdmi_nmFpgRbR8X6IPZr08o,21
+python_osw_validation/zipfile_handler.py,sha256=lCRraGcysxelVKswQw1r-i_9kGQGvRQk7hJkWUwiAPk,2692
+python_osw_validation/schema/opensidewalks.schema.json,sha256=i0iJwb_4Tq20BVUpkpgyM_7fm4SW_d_HNXKw0xul7OA,240987
+python_osw_validation-0.2.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+python_osw_validation-0.2.2.dist-info/METADATA,sha256=WpcdgiPau8t_FSI5jCDgFIH1YMXmBDTPKV-_lY-pNyc,6172
+python_osw_validation-0.2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_osw_validation-0.2.2.dist-info/top_level.txt,sha256=GE81UPcDHEffJCxYu3M_iPz3Dt-O3axB73R5SLm_Veo,22
+python_osw_validation-0.2.2.dist-info/RECORD,,
