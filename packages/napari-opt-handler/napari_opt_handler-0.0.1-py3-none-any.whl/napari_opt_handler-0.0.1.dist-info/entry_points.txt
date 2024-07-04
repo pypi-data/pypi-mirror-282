@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-opt-handler = napari_opt_handler:napari.yaml
