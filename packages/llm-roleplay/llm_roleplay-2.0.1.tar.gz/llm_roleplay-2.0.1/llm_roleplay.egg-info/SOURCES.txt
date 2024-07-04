@@ -1,0 +1,15 @@
+LICENSE
+NOTICE
+README.md
+setup.py
+./roleplay/__init__.py
+./roleplay/actions/__init__.py
+./roleplay/actions/generate_dialogues.py
+./roleplay/configs/__init__.py
+./roleplay/configs_tamoyan/__init__.py
+llm_roleplay.egg-info/PKG-INFO
+llm_roleplay.egg-info/SOURCES.txt
+llm_roleplay.egg-info/dependency_links.txt
+llm_roleplay.egg-info/not-zip-safe
+llm_roleplay.egg-info/requires.txt
+llm_roleplay.egg-info/top_level.txt
