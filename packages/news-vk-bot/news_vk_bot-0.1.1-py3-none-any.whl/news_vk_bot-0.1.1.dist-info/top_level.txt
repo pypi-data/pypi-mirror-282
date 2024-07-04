@@ -1,0 +1,5 @@
+fixtures
+monitoring
+news_bot
+news_parsing
+static
