@@ -1,0 +1,2 @@
+[console_scripts]
+balanceai = balanceai:cli_runner.run
