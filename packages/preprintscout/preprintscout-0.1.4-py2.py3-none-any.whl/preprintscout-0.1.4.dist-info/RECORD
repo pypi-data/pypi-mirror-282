@@ -1,0 +1,16 @@
+preprintscout/__init__.py,sha256=lGvfIT721rKM0ATYLmvsqqyyoYo8bzZMWISlGH-DMUg,72
+preprintscout/arxiv_articles.py,sha256=wLoVqEz7fdGdjul235gfXF5d1Dt2LFmO7S5TrovSoQU,3459
+preprintscout/embedding.py,sha256=XYfK0uk3qY0g-jrKYCsFrcsSjCQ3Bq8Lp_GVddLEWxQ,1259
+preprintscout/llms.py,sha256=iEQ9DMh3kCBKZj5ejzRS1Vn8xiUwZoAM3BohdFB_CBA,2220
+preprintscout/osf_articles.py,sha256=Zlo8x4xY34CaZiU3Up-DpDm9YXa5V7Kd0qHsYpeXcQ4,4088
+preprintscout/philarchive_articles.py,sha256=9ZqGHUr3q0PvDBDENEb1G3GUfnFMOOneCOr-gZtEr1s,2452
+preprintscout/pps.py,sha256=-kBk3ClCpMfWCvTXWnL6ma43Bjha0o1jjya0eMNWEF8,16365
+preprintscout/py_error_log.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+preprintscout/requirements.txt,sha256=JxGNiUqWMHYd9yC_inrEj2rPjNv5QNuAz-E_7A7z0kQ,173
+preprintscout/resources/arxiv_taxonomy.csv,sha256=TefWAjSUIaVxCkQdNiSaqdu7dTo3rRPSuwDGHJ1ClYk,37524
+preprintscout/resources/discipline_dissimilarity_matrix.csv,sha256=vS9oNjUYByF4aXV4xduC6Ia-DIi7HL-lYSK-lwOTgko,18919
+preprintscout/resources/schema_mapping_cleaned.csv,sha256=32r4r47kW3jhnhjR8gBGsuTPZptH_IM963Ip_eA_Axo,107532
+preprintscout-0.1.4.dist-info/METADATA,sha256=PbQPbKq1NBAq56juLf9ZBpTJV2PSARjwG_kbXaO6ZpE,10696
+preprintscout-0.1.4.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+preprintscout-0.1.4.dist-info/licenses/LICENSE,sha256=-8RzVg3DHgucH4eczaCqFv_JedyS9mD9T6bx8vCtxbY,1069
+preprintscout-0.1.4.dist-info/RECORD,,
