@@ -1,0 +1,129 @@
+New features
+============
+This release is mostly a bug fix release without any significant new feature.
+Much work has been done to provide an implementation of the xml package but
+it's still work in progress.
+
+
+Implementation
+==============
+- raise a TypeError if a class inherits a subclass of window.Node. Related to
+  issue #2394.
+- change implementation of iter() and of f(**kw). Related to issue #2397.
+- expose withCredentials property of XMLHttpRequest (by dmanso)
+- make error messages in web workers more explicit. Related to issue #2417
+- change implementation of browser.run_script, make it available in web
+  workers. Related to issue #2417.
+- __BRYTHON__.runPythonSource() 2nd argument can be a JS object, interpreted
+  as script attributes. Can be used to pass execution options. Related to
+  issue #2421
+- inject execution options in web worker code. Related to issue #2424.
+- soften URL regex (by Matéo Duparc)
+- when calling jsobject.new() from Python code, don't convert the result of
+  the underlying JS constructor. Related to issue #2420.
+- implement utf16 codec
+- forbid setting attributes for objects that have no __dict__. Related to
+  issue #2440
+- remove "input" from the list of keyboard events. Related to issue #2444
+- support the empty string as filename. Related to issue #2449.
+- add DOMEvent.__setattr__
+- add __dict__ to instances of class $io
+
+Internal tools
+==============
+- update scripts for speed/make_report.html
+- add Tokens to the files downloaded by /scripts/downloads.py
+
+Bug fixes
+=========
+- remove the Thenable interface check from js_objects.js since it's already
+  handled in async.js and fix issue #2399 (by moepnse)
+- fixes bug when html page is at server root. Related to issue #2412.
+- remove extra line feed in browser.template. Related to issue #2414.
+- fix printing of chr(0)
+- in property(fget, fset, fdel, doc), if doc is not specify, set attribute
+  __doc__ to that of fget
+- fix bug in import when importing Javascript null (eg
+  `from javascript import NULL`)
+- fix bug in setting positions for a call when the call spreads on several
+  lines
+- fix error in management of recursion error. Set recursion limit to 900 to
+  avoid conflicts with Javascript recursion errors.
+- fix bug in method.__get__(). Would break calls to a method set to an
+  existing classmethod.
+
+Issues
+- #2249 : window.Date == window.Date returns False
+- #2382 : 'alias' parameter of the 'import_js' function from the 'javascript'
+  module is no more recognized
+- #2383 : scroll to "end" of block instead of default "start"
+- #2385 : Interpreter(): "JavascriptError: TypeError: obj is null" when
+  running print() with end=""
+- #2386 : importing the 'html' module raises an error
+- #2388 : error compressing some data with zlib
+- #2389 : bug for web workers defined with <script src="...">
+- #2394 : when extending JS classes, JavascriptError: TypeError: bases is
+  undefined error
+- #2395 : strange behavior of __all__ ?
+- #2396 : error for floating point + complex number arithmetic
+- #2398 : get KeyError exception while traversing AST and handling deprecation
+  warnings
+- #2402 : can not import local files in webworker code. Throwing: SyntaxError:
+  Failed to execute 'open' on 'XMLHttpRequest': Invalid URL
+- #2403 : serious string formatting error with floats
+- #2406 : 'range' object has attribute '__name__' + other related errors
+- #2407 : inconsistent result of a pow() with a negative exponent
+- #2409 : error getting attribute DOMEvent.data, in iOS browsers with iOS<16.0
+- #2410 : errors in the new parser
+- #2390 and #2411 : move the logic for restoring frames from js_objects.js to
+  async.js (by moepnse)
+- #2418 : <brython-options> in <head> causes validation errors
+- #2420 : recent commit breaks modifying jsObject from brython code
+- #2423 : deleting a variable from globals() sets it to JS undefined
+- #2428 : changes from #2424 broke brython-options pythonpath
+- #2430 : doc bug in intro.md (by clach04)
+- #2432 : non standard behavior of the "in" operator
+- #2433 : non standard behavior of collections.ChainMap and dict()
+- #2434 : <Javascript undefined> when parameter name starts with double
+  underscore in methods
+- #2435 : TypeError: res.__get__ is not a function
+- #2437 : io.BytesIO returns wrong getvalue() after seeking
+- #2438 : cannot convert sting to UTF16
+- #2443 : next(map(str,range(42))) throws exception
+- #2445 : setTimeout type change
+- #2447 : it is no longer possible to set attributes like className of a Web
+  Component
+- #2448 : re.RegexFlag undefined
+- #2451 : read() method of StringIO doesn't work in Brython
+- #2452 : Brython doesn't raise an exception for __hash__ methods that return
+  non-int values
+- #2454 : TypeError: wrong type for observedAttributes: property
+- #2458 : error in the implementation of hmac
+- #2459 : setting an observed attribute results in an unexpected exception
+- #2460 : a missing import leads to a JavaScript exception instead of a Python
+  exception
+- #2465 : type() fails on ints >= 2**53
+
+Brython site
+============
+- add cgi module (will be removed in Python 3.13)
+- fix bug in Highchart demos (replace None by javascript.NULL)
+
+Github site
+===========
+
+
+Demos
+=====
+- add demo to play a part of a song using WebAudio
+
+Standard distribution
+=====================
+
+
+Documentation
+=============
+- fix broken links in the documentation
+- documentation en français : ajoute withCredentials aux headers mis à jour
+  dans browser.ajax
+- update documentation about keyboard events
