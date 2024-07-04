@@ -1,0 +1,75 @@
+Metadata-Version: 2.3
+Name: pylint-hexagonal
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/willemse-and-co/pylint-hexagonal#readme
+Project-URL: Issues, https://github.com/willemse-and-co/pylint-hexagonal/issues
+Project-URL: Source, https://github.com/willemse-and-co/pylint-hexagonal
+Author-email: Jeremy Willemse <jeremy@willemse.co>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pylint>=3.2.5
+Description-Content-Type: text/markdown
+
+# pylint-hexagonal
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pylint-hexagonal.svg)](https://pypi.org/project/pylint-hexagonal)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pylint-hexagonal.svg)](https://pypi.org/project/pylint-hexagonal)
+
+-----
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [License](#license)
+
+## Introduction
+This is a pylint plugin for use with a with a package structure as follows:
+
+```
+example/
+├── adapters
+│   ├── api
+│   │   └── api.py
+│   └── db
+│       └── db.py
+└── core
+    ├── application
+    │   └── service.py
+    ├── domain
+    │   └── aggregate.py
+    └── ports
+        ├── primary
+        │   └── serviceport.py
+        └── secondary
+            └── daoport.py
+```
+
+The checker validates the following hexagonal architecure rules:
+
+1. Core modules must not import from adapters
+1. Adapter modules must not import from other adapters
+1. Adapter modules modules should only import from the ports subpackage of the core.
+1. Ports should not include any logic (abstract classes and methods only)
+
+
+## Installation
+
+```console
+pip install pylint-hexagonal
+```
+
+## License
+
+`pylint-hexagonal` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
