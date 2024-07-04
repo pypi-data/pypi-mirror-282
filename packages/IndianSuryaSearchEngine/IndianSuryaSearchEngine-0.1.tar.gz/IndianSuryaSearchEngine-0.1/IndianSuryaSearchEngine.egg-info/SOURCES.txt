@@ -1,0 +1,6 @@
+setup.py
+IndianSuryaSearchEngine.egg-info/PKG-INFO
+IndianSuryaSearchEngine.egg-info/SOURCES.txt
+IndianSuryaSearchEngine.egg-info/dependency_links.txt
+IndianSuryaSearchEngine.egg-info/requires.txt
+IndianSuryaSearchEngine.egg-info/top_level.txt
