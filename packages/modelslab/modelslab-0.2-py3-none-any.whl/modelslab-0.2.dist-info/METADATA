@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: modelslab
+Version: 0.2
+Summary: A package for interacting with the ModelsLab API
+Author: Adhik Joshi
+Author-email: support@modelslab.com
+License-File: LICENSE
+Requires-Dist: requests
+
