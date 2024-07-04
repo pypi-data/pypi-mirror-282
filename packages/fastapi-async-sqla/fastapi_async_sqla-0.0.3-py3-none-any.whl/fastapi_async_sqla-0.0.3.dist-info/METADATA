@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fastapi-async-sqla
+Version: 0.0.3
+Summary: SQLAlchemy extension for FastAPI with support for asyncio, pagination & more, ready for production.
+License: MIT
+Author: y
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: fastapi
+Provides-Extra: fastapi-slim
+Requires-Dist: fastapi (>=0.111.0,<0.112.0) ; extra == "fastapi"
+Requires-Dist: fastapi-slim (>=0.111.0,<0.112.0) ; extra == "fastapi-slim"
+Requires-Dist: sqlalchemy[asyncio] (>=2,<3)
+Requires-Dist: structlog (>=24.2.0,<25.0.0)
+Description-Content-Type: text/markdown
+
+# fastapi-async-sqla
+
+SQLAlchemy extension for FastAPI with support for asyncio, pagination & more.
+
