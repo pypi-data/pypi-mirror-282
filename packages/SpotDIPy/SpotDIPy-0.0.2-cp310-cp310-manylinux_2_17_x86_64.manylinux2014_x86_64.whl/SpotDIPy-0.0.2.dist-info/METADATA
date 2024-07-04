@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: SpotDIPy
+Version: 0.0.2
+Summary: An Easy Way for Stellar Doppler Imaging of Cool Single Stars
+Home-page: https://github.com/EnginBahar/SpotDIPy
+Author: Engin Bahar
+Author-email: enbahar@ankara.edu.tr
+Project-URL: Homepage, https://github.com/EnginBahar/SpotDIPy
+Project-URL: Issues, https://github.com/EnginBahar/SpotDIPy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: Cython
+Requires-Dist: matplotlib
+Requires-Dist: basemap
+Requires-Dist: astropy
+Requires-Dist: PyAstronomy
+Requires-Dist: exotic-ld
+Requires-Dist: PyDynamic
+Requires-Dist: tqdm
+Requires-Dist: PyQt5
+Requires-Dist: phoebe
+Requires-Dist: kneebow
+Requires-Dist: traits
+Requires-Dist: traitsui
+Requires-Dist: mayavi
+Requires-Dist: jax
+Requires-Dist: jaxopt
+Requires-Dist: healpy ; platform_system == "Linux"
+
+An easy way for stellar Doppler imaging of cool single stars.
