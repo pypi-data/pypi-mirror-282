@@ -1,0 +1,6 @@
+README.md
+setup.py
+Vinted_api_scraper.egg-info/PKG-INFO
+Vinted_api_scraper.egg-info/SOURCES.txt
+Vinted_api_scraper.egg-info/dependency_links.txt
+Vinted_api_scraper.egg-info/top_level.txt
