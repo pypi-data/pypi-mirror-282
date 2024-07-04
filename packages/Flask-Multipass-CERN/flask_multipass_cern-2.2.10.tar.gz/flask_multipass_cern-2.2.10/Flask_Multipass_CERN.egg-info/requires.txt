@@ -1,0 +1,9 @@
+flask-multipass[authlib]>=0.4.3
+urllib3>=1.26.0
+
+[dev]
+freezegun
+httpretty
+pytest
+pytest-mock
+ruff
