@@ -1,0 +1,6 @@
+setup.py
+protobuf_pytemplate/__init__.py
+protobuf_pytemplate.egg-info/PKG-INFO
+protobuf_pytemplate.egg-info/SOURCES.txt
+protobuf_pytemplate.egg-info/dependency_links.txt
+protobuf_pytemplate.egg-info/top_level.txt
