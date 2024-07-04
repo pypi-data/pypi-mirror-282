@@ -1,0 +1,10 @@
+_vec64.pypy39-pp73-darwin.so,sha256=VMfzeIVM-KzK1NOGFbhrZcO9DHRVpnUWaC7tjGwMVcY,50448
+vec64/__init__.py,sha256=w7LujibIgfLHV1vaGwUnHohwZfkB-xItN8ORZ5vognY,191
+vec64/ctype.py,sha256=4_hDmd5p8BRIbtBavGFUGwMXW72tZBBn85euQ7600dg,3830
+vec64/wrappers.py,sha256=iprZ1m_SSY6DM_EGMZ8stA2SvhzV-U78eKF2B5RQrvM,1145
+vec64/span.py,sha256=nHuO3690n2a_hqZPVS7obZHqB5Vjn6ahGpnud0-BYv0,612
+vec64-0.0.6.dist-info/RECORD,,
+vec64-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vec64-0.0.6.dist-info/WHEEL,sha256=zU9p6wHX7HKxGfyful6sQWRs2G7xFHAis8YZX_WD2Ak,116
+vec64-0.0.6.dist-info/top_level.txt,sha256=8h5qT2QYTk0Vl1a-9OIhZKa3Cq41XnzJIa2AR9Fq_88,13
+vec64-0.0.6.dist-info/METADATA,sha256=WMsqngahMoJwJelnipyJp81XdZU5IxqcaJ0pHGX0pcE,1316
