@@ -1,0 +1,11 @@
+cambridge/__init__.py,sha256=xDPYEZ7bL0qYdWYoelZp48jpR1wWv_736gIVnQD8b1Y,36
+cambridge/const.py,sha256=qjMyW0En1_Y3p4XCH1LOP8W6-bKKtMSgElBpRefwQrI,41
+cambridge/define.py,sha256=K9qsLdxwad_tiYwsiWA7iO5XG518rk0DN81U9duOG_E,944
+cambridge/dictionary.py,sha256=qMevhrxvUHl-EQaINNC9AGH4GJ-U_NbBhMUft2edwBw,1117
+cambridge/element.py,sha256=IaMdDTG6UbHwW7fd8z5x3KYdRGAIb92FctxwdFub6fw,1266
+cambridge/utils.py,sha256=lg6_XDuMIIaeJwW7SL_BYJ2nO2ry-SGcfFvD35e59L0,481
+cambridge_cli-1.0.dist-info/METADATA,sha256=rVtmfwY1W8_3d09tGFSyu3cHyqj2qPS3sgxV6pw2qwQ,261
+cambridge_cli-1.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+cambridge_cli-1.0.dist-info/entry_points.txt,sha256=EIrmD_sJbTJxKveY8W_xvA0Uy5XB1x_h9Gg4wlt48ow,43
+cambridge_cli-1.0.dist-info/top_level.txt,sha256=99pUbQ-9dAhRqiOHxvog3VTBeDPGjLnqNBrtADa6kFU,10
+cambridge_cli-1.0.dist-info/RECORD,,
