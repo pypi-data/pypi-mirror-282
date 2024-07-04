@@ -1,0 +1,10 @@
+README.md
+setup.py
+gauntlet.egg-info/PKG-INFO
+gauntlet.egg-info/SOURCES.txt
+gauntlet.egg-info/dependency_links.txt
+gauntlet.egg-info/entry_points.txt
+gauntlet.egg-info/top_level.txt
+guantlet/__init__.py
+guantlet/main.py
+tests/test_main.py
