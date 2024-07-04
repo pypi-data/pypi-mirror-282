@@ -1,0 +1,6 @@
+numpy
+scipy>=1.6.0
+numpydoc
+matplotlib
+pytest
+sphinx_rtd_theme
