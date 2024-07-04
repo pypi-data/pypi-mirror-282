@@ -1,0 +1,6 @@
+README.md
+setup.py
+pymouseto.egg-info/PKG-INFO
+pymouseto.egg-info/SOURCES.txt
+pymouseto.egg-info/dependency_links.txt
+pymouseto.egg-info/top_level.txt
