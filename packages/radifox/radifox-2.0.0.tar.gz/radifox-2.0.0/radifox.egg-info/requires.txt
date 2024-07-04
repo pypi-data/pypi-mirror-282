@@ -1,0 +1,12 @@
+nibabel
+numpy
+pillow
+pyyaml
+scipy
+matplotlib
+trimesh
+networkx
+
+[qa]
+flask
+gunicorn

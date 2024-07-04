@@ -1,0 +1,3 @@
+[console_scripts]
+radifox-qa = radifox.qa.run:run
+radifox-stage = radifox.modules.staging:Staging
