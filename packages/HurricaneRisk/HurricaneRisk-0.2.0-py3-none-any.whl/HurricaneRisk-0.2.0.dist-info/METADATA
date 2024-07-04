@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: HurricaneRisk
+Version: 0.2.0
+Summary: A library to analyze and visualize hurricane risk
+Author: Scott
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: geopandas
+Requires-Dist: shapely
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+
+## Hurricane Risk
+
+This library fetches wind speed probability forecasts from the National Hurricane Center
+and associates the wind speed probabilities with addresses.
+
+https://www.nhc.noaa.gov/refresh/graphics_at2+shtml/235430.shtml?tswind120#contents
+
+## Installation
+
+```sh
+pip install hurricanerisk
