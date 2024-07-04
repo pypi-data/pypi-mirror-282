@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: langchain_ktgendm
+Version: 0.0.9
+Summary: langchain_ktgendm
+Author: langchain_ktgendm
+Author-email: 
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# KTGenDM Agent
+
+This project provides sample code to call a KTGenDM agent based on LangChain to handle conversations.
+
+## 1. Installation
+
+```bash
+pip install -qU langchain-core langchain-ktgendm
+```
+
+## 2. Configuration
+
+### API Key, server URL Configuration
+
+```python
+from langchain_ktgendm.ktgendm import ChatKTGenDM, ChatKTGenDMStream, ChatKTGenDMTask
+chat = ChatKTGenDM(api_key="YOUR_API_KEY", url="<YOUR_HOST_URL>")
+chat_task = ChatKTGenDMTask(api_key="YOUR_API_KEY", url="<YOUR_HOST_URL>")
+chat_stream = ChatKTGenDMStream(api_key="YOUR_API_KEY", url="<YOUR_HOST_URL>")
+```
+
+## 3. Usage
+
+### Chatbot Invocation
+
+```python
+from langchain_ktgendm.ktgendm import ChatKTGenDM
+
+# Create Chat object
+chat = ChatKTGenDM(api_key="YOUR_API_KEY", url="<YOUR_HOST_URL>")
+
+# Invoke chatbot and print response
+response = chat.invoke("tell me the time in canada", agent_id="DIALOG_APP")
+print(response)
+```
+
+### Task-Based Chatbot Invocation
+
+```python
+from langchain_ktgendm.ktgendm import ChatKTGenDMTask
+
+# Create ChatKTGenDMTask object
+chat_task = ChatKTGenDMTask(api_key="YOUR_API_KEY", url="<YOUR_HOST_URL>")
+
+# Invoke chatbot and print response, intent, sysact, service ID
+response, intent, sysact, service_id = chat_task.invoke("tell me the time in canada", agent_id="DIALOG_APP")
+print(response, intent, sysact, service_id)
+```
+
+### Stream-Based Chatbot Invocation
+
+```python
+from langchain_ktgendm.ktgendm import ChatKTGenDMStream
+
+# Create ChatKTGenDMStream object
+chat_stream = ChatKTGenDMStream(api_key="YOUR_API_KEY", url="<YOUR_HOST_URL>")
+
+# Handle conversation stream
+prompt = "tell me the time in canada"
+for chunk in chat_stream.stream(prompt, agent_id="DIALOG_APP"):
+    print(chunk)
+```
