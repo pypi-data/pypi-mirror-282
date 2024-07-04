@@ -1,0 +1,7 @@
+README.md
+setup.py
+json_copilot.egg-info/PKG-INFO
+json_copilot.egg-info/SOURCES.txt
+json_copilot.egg-info/dependency_links.txt
+json_copilot.egg-info/requires.txt
+json_copilot.egg-info/top_level.txt
