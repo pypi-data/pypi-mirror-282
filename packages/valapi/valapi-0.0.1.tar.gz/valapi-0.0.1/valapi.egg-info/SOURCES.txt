@@ -1,0 +1,11 @@
+README.md
+setup.py
+apiV/__init__.py
+apiV/auth.py
+apiV/client.py
+apiV/exceptions.py
+apiV/resources.py
+valapi.egg-info/PKG-INFO
+valapi.egg-info/SOURCES.txt
+valapi.egg-info/dependency_links.txt
+valapi.egg-info/top_level.txt
