@@ -1,0 +1,5 @@
+setuptools
+scipy
+plotly
+scikit-learn
+statsmodels
