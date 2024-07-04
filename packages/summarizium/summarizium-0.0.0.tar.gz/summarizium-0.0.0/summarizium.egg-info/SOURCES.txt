@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+summarizium/__init__.py
+summarizium/main.py
+summarizium.egg-info/PKG-INFO
+summarizium.egg-info/SOURCES.txt
+summarizium.egg-info/dependency_links.txt
+summarizium.egg-info/requires.txt
+summarizium.egg-info/top_level.txt
+tests/test_main.py
