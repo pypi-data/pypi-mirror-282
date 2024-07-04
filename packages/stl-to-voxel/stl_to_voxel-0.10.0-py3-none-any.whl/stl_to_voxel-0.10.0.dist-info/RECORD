@@ -1,0 +1,12 @@
+stltovoxel/__init__.py,sha256=LB8IU3qgZWwdiYiXJQt_azW723k0Q6zX6SgObJF-VXw,177
+stltovoxel/__main__.py,sha256=p_RcyBA8KKA60AZyyo8Bt9K_Am2tL7swgXtSZjgxAnA,2348
+stltovoxel/convert.py,sha256=VvnoCf_FllqfABnZ-W8hajMzCMOvj1BX2m8TgumbOpY,5589
+stltovoxel/perimeter.py,sha256=zTgH2BOSw7M9hHDGjgU_Y4e2Tf_GtsHvfvHpCL5N8gc,2948
+stltovoxel/polygon_repair.py,sha256=zSIZPWVInPavTPKUMwH1-VH3nkzRTCoycaAV-8Z3tuw,9062
+stltovoxel/slice.py,sha256=6g8QOTdmXdRe_dtFb9yj5ktHgc_eowcXKjncwwVA86I,5071
+stltovoxel/visualization.py,sha256=sFy8uNRHhuw5e32lV_pt_8u2JHbt6A4hrTTf8kde7LM,1660
+stl_to_voxel-0.10.0.dist-info/LICENCE.md,sha256=g0M5VnyyFTKHFrjsXur0gzyD63joK0HHRP2Q_giaQ3E,1086
+stl_to_voxel-0.10.0.dist-info/METADATA,sha256=EWmM_VfJ9w9zZchan_2PplgU-21YARKV5KWIvwDp8t8,3247
+stl_to_voxel-0.10.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+stl_to_voxel-0.10.0.dist-info/entry_points.txt,sha256=uZNHFhDuOXTASB6M_znMvX3mUdY-0P4bJxmF-z1RtaQ,55
+stl_to_voxel-0.10.0.dist-info/RECORD,,
