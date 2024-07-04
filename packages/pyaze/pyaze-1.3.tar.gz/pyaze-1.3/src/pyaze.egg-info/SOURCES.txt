@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/example.py
+src/pyaze/__init__.py
+src/pyaze.egg-info/PKG-INFO
+src/pyaze.egg-info/SOURCES.txt
+src/pyaze.egg-info/dependency_links.txt
+src/pyaze.egg-info/top_level.txt
