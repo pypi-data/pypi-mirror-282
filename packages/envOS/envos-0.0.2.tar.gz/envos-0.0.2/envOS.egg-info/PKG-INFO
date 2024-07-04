@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: envOS
+Version: 0.0.2
+Summary: Obtiene las variables de entorno, para tener mantenimientos eficientes
+Home-page: https://gitwell.gwldx.com:2443/python_libraries/envOS.git
+Author: Pedro Jesús Pérez Hernández
+Author-email: pedrojesus.perez@welldex.mx
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## envOS
+
+you need to have a folder with name `env`. The `settings.json` file should be inside. If you need custom configurations create a folder and inside for your file.
+```
+Project
+|
+|- env
+    |- settings.json
+    |- `project name`
+        |- .json
+```
