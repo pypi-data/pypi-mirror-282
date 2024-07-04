@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+oceanbase = oceanbase_py.sqlalchemy.dialect:OceanBaseDialect
+oceanbase_py = oceanbase_py.sqlalchemy.dialect:OceanBaseDialect
