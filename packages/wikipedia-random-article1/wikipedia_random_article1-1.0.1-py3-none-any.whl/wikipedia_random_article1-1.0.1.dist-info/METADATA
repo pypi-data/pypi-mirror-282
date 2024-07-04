@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: wikipedia-random-article1
+Version: 1.0.1
+Summary: Fetches a random Wikipedia article URL using the Wikipedia API.
+Author: mydadisalive
+Author-email: mydadisalive@gmail.com
+
