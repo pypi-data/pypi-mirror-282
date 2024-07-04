@@ -1,0 +1,15 @@
+face2face/__init__.py,sha256=l2xNTvK-7wMRyBnO3gSpvSCA6b1msUxp6G57JZDE17s,46
+face2face/server.py,sha256=BUDXRAfLlyzsyAQJSFXjWhAmYXXKSEsTWJ1VW2CgYNM,2837
+face2face/settings.py,sha256=MtYNuikysv2JD3VWDjxtgbpbuoxz2_rGiLkZHC06hbY,448
+face2face/core/__init__.py,sha256=EorwPGG0zoV8szfe9U5IefoCW3d6f55ZRhbSOB_4bzc,34
+face2face/core/f2f_loader.py,sha256=RVVVEEf9D_ZY3BzBVUaOS9HOmeIBR0J_cb3MDxRCTbQ,2237
+face2face/core/face2face.py,sha256=eHW3m-bVpne4dv1a0J1X5s5bngsNIBGr4O_B8Lqgevw,10463
+face2face/core/file_writable_face.py,sha256=iyOzYMBgavNlRrZOToB19mPNPLOyajYe7NpXcXurKJA,1704
+face2face/utils/__init__.py,sha256=4S_VoyqOD_odFmpSO5WUW7FsI51qixzwfbcDGarVJZE,106
+face2face/utils/utils.py,sha256=WU6CbYTU7NWh-G94GPxFCxJWCcERgBhJPl05SFsoHZQ,1867
+face2face/utils/video_utils.py,sha256=FYKnYGAJMSHwqHKEfEUeDCqDpggJgtHa4LXDkKSe704,1967
+socaity_face2face-0.0.3.dist-info/LICENSE,sha256=BMjOmvjcsjbgCk4rHeEHNjpDoldLAPMX9UYsduYqEzU,1086
+socaity_face2face-0.0.3.dist-info/METADATA,sha256=VPE-H0-GrMO39p6Bi8UIHVyXeDGafn9cuSIWJ8q_4Ns,9287
+socaity_face2face-0.0.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+socaity_face2face-0.0.3.dist-info/top_level.txt,sha256=JL9kb-j_GtLGu8rkP6kbReGrZ1SmyTOcm44vIA3QKBU,10
+socaity_face2face-0.0.3.dist-info/RECORD,,
