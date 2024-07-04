@@ -1,0 +1,11 @@
+cat_mod/__init__.py,sha256=XRkvzLVm62oWNH2R7sHXlI4SL7jfv1CvTDa0fKBwDyI,26
+cat_mod/catmod.py,sha256=2CVaMpXnrqXD4syOm1k07ob3AumQe9MkSOdNq3U1aM4,9314
+cat_mod/utils/__init__.py,sha256=1XjxXF1ZtqKbw6GmKWeypQkdBNKl2Sp4DtZ3ZHYp6nk,407
+cat_mod/utils/checking_dependencies.py,sha256=eCGlJwTFzOtAWu9xhAuCQo4D1FME78ZgspCTj8T8p_o,2134
+cat_mod/utils/load_and_process_utils.py,sha256=mzVh6jvkh3XM7j8F008e67YVYBI5rBCkwwgLwd5qPjo,2760
+cat_mod/utils/utils.py,sha256=l5qt7Xk-OFSaDC4W2JlCJPTHv1sI0rwLa2yzlLBx_qU,9312
+cat_mod-0.4.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+cat_mod-0.4.0.dist-info/METADATA,sha256=hrEhck9E01ryGTjR4HC3-6PeqyWqdnGBpcNd69W3KGQ,4602
+cat_mod-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cat_mod-0.4.0.dist-info/top_level.txt,sha256=B_nnVbQdiU4T9vjFpNXA4jbkwQeTrNj7Ic335XkcmbE,8
+cat_mod-0.4.0.dist-info/RECORD,,
