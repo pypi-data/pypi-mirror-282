@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+AutoTasker/__init__.py
+AutoTasker/main.py
+AutoTasker.egg-info/PKG-INFO
+AutoTasker.egg-info/SOURCES.txt
+AutoTasker.egg-info/dependency_links.txt
+AutoTasker.egg-info/entry_points.txt
+AutoTasker.egg-info/requires.txt
+AutoTasker.egg-info/top_level.txt
+tests/__init__.py
