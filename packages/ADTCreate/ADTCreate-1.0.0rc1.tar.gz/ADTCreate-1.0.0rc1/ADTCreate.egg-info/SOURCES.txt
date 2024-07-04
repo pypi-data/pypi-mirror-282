@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ADTCreate.egg-info/PKG-INFO
+ADTCreate.egg-info/SOURCES.txt
+ADTCreate.egg-info/dependency_links.txt
+ADTCreate.egg-info/requires.txt
+ADTCreate.egg-info/top_level.txt
