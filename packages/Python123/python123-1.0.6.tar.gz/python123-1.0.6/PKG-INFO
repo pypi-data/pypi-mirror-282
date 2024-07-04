@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Python123
+Version: 1.0.6
+Summary: Python123 平台
+Home-page: https://github.com/Python123-io/Python123
+Author: XuehangCang
+Author-email: xuehangcang@outlook.com
+License: MIT License
+Keywords: Python123
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests~=2.32.3
+Requires-Dist: tqdm~=4.66.4
+Requires-Dist: loguru~=0.7.2
+Requires-Dist: markdownify~=0.12.1
+
+# Python123
+
+
+安装
+
+```shell
+pip install python123
+```
+
+下载试卷
+
+```python
+
+from python123 import download_exam_test_paper
+
+email = 用户邮箱
+password = 用户密码
+course_id = 课程ID
+unit_id = 单元ID
+
+download_exam_test_paper(email, password, course_id, unit_id)
+```
+
