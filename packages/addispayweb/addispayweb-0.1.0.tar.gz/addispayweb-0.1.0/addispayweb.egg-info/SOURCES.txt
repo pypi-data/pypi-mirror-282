@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+addispayweb/__init__.py
+addispayweb/addispay.py
+addispayweb/test.py
+addispayweb/utils.py
+addispayweb.egg-info/PKG-INFO
+addispayweb.egg-info/SOURCES.txt
+addispayweb.egg-info/dependency_links.txt
+addispayweb.egg-info/requires.txt
+addispayweb.egg-info/top_level.txt
