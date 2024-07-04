@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: degas
+Version: 0.0.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+## degas
+
+A collection of plotting utilities and helper functions for matplotlib.
+
+## Installation and requirements
+
+Dependencies
++ matplotlib
++ numpy
+
+Install via pip
+
+	pip install git+https://github.com/williamgilpin/degas
+
+
+
+## Example usage
+
+```python3
+import numpy as np
+from degas.degas import plot_err
+   
+x = np.linspace(0, 1, 100)
+y = x**3
+err = .05 * np.random.random(len(x))
+
+plot_err(y, err, x=x)
+```

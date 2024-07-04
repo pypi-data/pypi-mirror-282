@@ -1,0 +1,13 @@
+.gitignore
+README.md
+setup.py
+degas/__init__.py
+degas/degas.py
+degas.egg-info/PKG-INFO
+degas.egg-info/SOURCES.txt
+degas.egg-info/dependency_links.txt
+degas.egg-info/requires.txt
+degas.egg-info/top_level.txt
+degas/styles/default.mplstyle
+degas/styles/degas_figure.mplstyle
+degas/styles/pastel_rainbow.mplstyle
