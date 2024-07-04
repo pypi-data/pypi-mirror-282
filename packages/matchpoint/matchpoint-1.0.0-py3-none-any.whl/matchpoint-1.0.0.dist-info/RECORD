@@ -1,0 +1,17 @@
+matchpoint/__init__.py,sha256=vVNyAJTSeq2cM4FIx2UGS8FbwdX_Eny7SPrLD9LRpuY,38
+matchpoint/coordinate_transformations.py,sha256=0FBbS8jgfV3VUCFVzDsOsLFg9_LAvY7zLK3R3VZiPP4,2841
+matchpoint/core.py,sha256=AQkS3BBmu3R7rm43WukOBvhfVmRXUBcPHVIXKVO5kYc,91562
+matchpoint/cross_correlation.py,sha256=343qfnN8Io1qAJAZxnGPZx0hl12NhI5OuRZrHCfLyf0,6556
+matchpoint/decorators.py,sha256=toSxtPf0cy1W6Fxy3_xlMfnBvKHL4sfjdSmKUzxVBqQ,387
+matchpoint/geometric_hashing.py,sha256=L0rEVrjjox8m3_vUjePTP8VNWvT1a2mPRBlsu3qYuJc,28867
+matchpoint/icp.py,sha256=30Zdf_XaGDVX2nTu_hmBpWU9XPFmIoy_Qo9WZpjMl7Q,13888
+matchpoint/kernel_correlation.py,sha256=8I-UCbpxz396tQX4f72HmwzlCBnXGGXTVol2kIJTF-w,13501
+matchpoint/point_set.py,sha256=9s_pkQl5ZwEf031Wy0SREnop3TRjsmVG39Kg0Y1uA4k,2153
+matchpoint/point_set_simulation.py,sha256=oRTFJuB-lvYXPPu2sylt8F1o6bHD77QaHW8LgSfa0zg,7668
+matchpoint/polynomial.py,sha256=M4BrJmDzSotFtODx8JCXB2x3YrHJF6lLbtzH7fzPsT8,2312
+matchpoint/polywarp.py,sha256=1aqf9J2kMSqiAjFsDRuClsW5qkRsfYguuxee9xj_oR8,9143
+matchpoint-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+matchpoint-1.0.0.dist-info/METADATA,sha256=wZ_GSg7l26Iq-SKUWMbSKA0DKVhob99uBsXrW-6LAdM,1618
+matchpoint-1.0.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+matchpoint-1.0.0.dist-info/top_level.txt,sha256=zKOt0YE9QPALByKHUUFJipYArnCrctLsXdofIqsfsJ8,11
+matchpoint-1.0.0.dist-info/RECORD,,
