@@ -1,0 +1,11 @@
+cythonscreencap2ppm/README.MD,sha256=WXYe_CCvLuUvkVuDgeUn7oaSANJ4FFM0fWLNjAZSOz4,2487
+cythonscreencap2ppm/__init__.py,sha256=Jb0iPJV46dnQOlW9e21BVHSMFRulQkrX9aVsAiAcI_E,14371
+cythonscreencap2ppm/convertimagecy.pyx,sha256=-v24xe5YZMl5QDbfnw_NBGq0rIXqTxE4YS7m75Qr77U,6520
+cythonscreencap2ppm/convertimagecy_compile.py,sha256=9GXr41t1vn7gntUThsVL6rjhJhSQja2e5EXGVY8CKdE,3387
+cythonscreencap2ppm/requirements.txt,sha256=EjWDL4LV6hpgbP6qO_wKXGYvV-FbpQpj0tkW5IrSwjU,77
+cythonscreencap2ppm/thirdparty.json,sha256=wSo0IWE7rrJnz-v-kr10VTz1dxzy2d4icA2137cKq5s,52429
+cythonscreencap2ppm-0.11.dist-info/LICENSE.rst,sha256=JG2U-syJOvqaKI4hLK8jP4BdnxFaMsrMir_Qn5dbgdc,1148
+cythonscreencap2ppm-0.11.dist-info/METADATA,sha256=DaT2zxBJoJ-i62Vx3jVrNCbWeekLnz3JC4KM_UfTzZM,3329
+cythonscreencap2ppm-0.11.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cythonscreencap2ppm-0.11.dist-info/top_level.txt,sha256=0aSkDMGsyvSLqKTST7t1V_5YGgM8EHwQIKIBDSG3Uzc,20
+cythonscreencap2ppm-0.11.dist-info/RECORD,,
