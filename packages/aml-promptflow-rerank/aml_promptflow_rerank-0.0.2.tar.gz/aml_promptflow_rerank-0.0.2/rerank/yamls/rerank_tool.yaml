@@ -1,0 +1,80 @@
+rerank.tools.rerank_tool.rerank:
+  function: rerank
+  tool_state: preview
+  inputs:
+    ranker_parameters:
+      type:
+      - string
+      generated_by:
+        func_path: utils.generate_ranker_parameters
+        func_kwargs:
+        - name: ranker_type
+          type:
+          - string
+          reference: ${inputs.ranker_type}
+        - name: api_connection
+          type:
+          - string
+          optional: true
+          reference: ${inputs.api_connection}
+        - name: serverless_connection
+          type:
+          - string
+          optional: true
+          reference: ${inputs.serverless_connection}
+        - name: ssf_rank_constant
+          type:
+          - int
+          optional: true
+          reference: ${inputs.ssf_rank_constant}
+        reverse_func_path: utils.reverse_ranker_parameters
+      allow_manual_entry: false
+      is_multi_select: false
+    query:
+      type:
+      - string
+    result_groups:
+      type:
+      - object
+    ranker_type:
+      input_type: uionly_hidden
+      type:
+      - string
+      dynamic_list:
+        func_path: utils.list_available_ranker_types
+      allow_manual_entry: false
+      is_multi_select: false
+    api_connection:
+      input_type: uionly_hidden
+      type:
+      - string
+      enabled_by: ranker_type
+      enabled_by_value:
+      - API Connection Ranker
+      dynamic_list:
+        func_path: utils.list_apikey_ranker_connections
+      allow_manual_entry: false
+      is_multi_select: false
+    serverless_connection:
+      input_type: uionly_hidden
+      type:
+      - string
+      enabled_by: ranker_type
+      enabled_by_value:
+      - Serverless Deployment Ranker
+      dynamic_list:
+        func_path: utils.list_serverless_ranker_connections
+      allow_manual_entry: false
+      is_multi_select: false
+    ssf_rank_constant:
+      input_type: uionly_hidden
+      default: 60
+      type:
+      - int
+      enabled_by: ranker_type
+      enabled_by_value:
+      - Scaled Score Fusion
+    top_k:
+      default: 3
+      type:
+      - int
