@@ -1,0 +1,7 @@
+python-dateutil
+tzdata
+
+[:python_version < "3.9"]
+backports.zoneinfo
+
+[test]
