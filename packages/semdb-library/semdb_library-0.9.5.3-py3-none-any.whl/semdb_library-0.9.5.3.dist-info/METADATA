@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: semdb-library
+Version: 0.9.5.3
+Requires-Python: >=3.7, <4
+License-File: LICENSE.txt
+Requires-Dist: requests
+
