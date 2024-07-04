@@ -1,0 +1,11 @@
+pyxdg
+
+[docs]
+sphinx
+sphinx-togglebutton
+sphinx-autodoc-typehints
+furo
+myst-parser
+
+[tests]
+pytest
