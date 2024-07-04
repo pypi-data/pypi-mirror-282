@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+AuthoRex/__init__.py
+AuthoRex/authorex.py
+AuthoRex.egg-info/PKG-INFO
+AuthoRex.egg-info/SOURCES.txt
+AuthoRex.egg-info/dependency_links.txt
+AuthoRex.egg-info/requires.txt
+AuthoRex.egg-info/top_level.txt
