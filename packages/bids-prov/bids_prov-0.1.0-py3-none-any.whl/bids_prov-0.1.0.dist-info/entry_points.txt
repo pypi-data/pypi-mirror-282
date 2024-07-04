@@ -1,0 +1,3 @@
+[console_scripts]
+bids_prov_visualizer=bids_prov.visualize:entry_point
+
