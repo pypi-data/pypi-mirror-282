@@ -1,0 +1,3 @@
+[console_scripts]
+test=dsp_bp_generator.main:test
+
