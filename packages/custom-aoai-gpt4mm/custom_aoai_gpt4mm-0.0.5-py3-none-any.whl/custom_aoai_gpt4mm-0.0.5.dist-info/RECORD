@@ -1,0 +1,14 @@
+custom_aoai_gpt4mm/__init__.py,sha256=bpT73UG7mZL_JjEqMwbYx6q69jA8J5Jcoul1LcDokhA,81
+custom_aoai_gpt4mm/tools/__init__.py,sha256=bpT73UG7mZL_JjEqMwbYx6q69jA8J5Jcoul1LcDokhA,81
+custom_aoai_gpt4mm/tools/custom_aoai_gpt4mm.py,sha256=E1hZuEveFeFuDGaocJfUHrN1sh0i54JNUCyCakGvWQ8,4905
+custom_aoai_gpt4mm/tools/utils.py,sha256=JfavnyUYcJGy1XlVOOlkRB-FFWuMOaRSRWpYGieMxTQ,535
+custom_aoai_gpt4mm/yamls/custom_aoai_gpt4mm.yaml,sha256=BQ2f6S-Uqbmz_OS6eeI3uGOV1aS23LnIXlmytmRhbYY,2533
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_custom_aoai_gpt4mm.py,sha256=QHFfwpXy_v8n2tDi47VN8vPmOdwHhEhkFt8jKyktmOk,3401
+tests/utils.py,sha256=zbZt-IfC5M4lSJ0bTRao9iuDCEkkKvzSzvqF5dkR06Q,1544
+custom_aoai_gpt4mm-0.0.5.dist-info/LICENSE.txt,sha256=Pix8ro4OJKQN4pcCf9UAog_MMraSGSMsGvVL2jW_50E,1071
+custom_aoai_gpt4mm-0.0.5.dist-info/METADATA,sha256=-MCiPTVQu2aFaUDlVEVKyJs5yJnSQfHxPp02jaPOR04,148
+custom_aoai_gpt4mm-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+custom_aoai_gpt4mm-0.0.5.dist-info/entry_points.txt,sha256=24-wIQi9O4RVxGsf-dD9RoZMwRLh3kIkLVoed-LiEjw,87
+custom_aoai_gpt4mm-0.0.5.dist-info/top_level.txt,sha256=2cJp1L6B7B5jhTx74OS0iCTswzBsU1EJ30H55ctNtRk,25
+custom_aoai_gpt4mm-0.0.5.dist-info/RECORD,,
