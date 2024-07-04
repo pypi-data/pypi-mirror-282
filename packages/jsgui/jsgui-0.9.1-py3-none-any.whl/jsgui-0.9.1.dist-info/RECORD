@@ -1,0 +1,9 @@
+jsgui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsgui/jsgui.py,sha256=6bH6Kk7BcsRFHg1etJjO19lSKmV35iVuUmmFhN_qDEA,4916
+jsgui/json_schema_model.py,sha256=DcOBYc51AHxaQwU0vXnMWphf8EMMS2-ZSBKuIPjwtT0,11825
+jsgui/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsgui/tests/test.py,sha256=rohgquIBfVgz59kTYY3-SrNIREEtFCznj0WrBLJPNkU,7978
+jsgui-0.9.1.dist-info/METADATA,sha256=g6mvyAN2nrxKORUbqKjD1qjyCDdkoefBFawrZP0w2iM,1809
+jsgui-0.9.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+jsgui-0.9.1.dist-info/top_level.txt,sha256=AW55JkeqBnF2yQh_GFouoXV_iunIx7Clp2bjUZrQ5Rc,6
+jsgui-0.9.1.dist-info/RECORD,,
