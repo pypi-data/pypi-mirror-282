@@ -1,0 +1,5 @@
+include cythonscreencap2ppm/requirements.txt
+include cythonscreencap2ppm/thirdparty.json
+include cythonscreencap2ppm/README.MD
+include cythonscreencap2ppm/convertimagecy_compile.py
+include cythonscreencap2ppm/convertimagecy.pyx
