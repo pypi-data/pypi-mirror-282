@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fluidattacks-core
+Version: 1.0.1
+Summary: Fluid Attacks Core Library
+License: MPL-2.0
+Author: Development
+Author-email: development@fluidattacks.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Fluid Attacks Core Library
+
+This library allows you to import the
+Fluid Attacks business logic to any other Python project.
+
+This is still an experiment under construction.
+
