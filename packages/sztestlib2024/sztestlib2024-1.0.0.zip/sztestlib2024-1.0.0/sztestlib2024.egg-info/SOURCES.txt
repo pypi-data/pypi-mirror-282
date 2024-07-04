@@ -1,0 +1,9 @@
+LICENSE.txt
+Tool.py
+setup.py
+sztestlib/__init__.py
+sztestlib/szlibone.py
+sztestlib2024.egg-info/PKG-INFO
+sztestlib2024.egg-info/SOURCES.txt
+sztestlib2024.egg-info/dependency_links.txt
+sztestlib2024.egg-info/top_level.txt
