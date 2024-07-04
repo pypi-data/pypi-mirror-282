@@ -1,0 +1,2 @@
+[console_scripts]
+meditate = meditate:main
