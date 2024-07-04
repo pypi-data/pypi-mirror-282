@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: actuator-nn
+Version: 0.0.0
+Summary: Neural Network for system identification of actuators.
+Author: Alvin Zhu
+License: MIT
+Project-URL: GitHub, https://github.com/alvister88/Actuator-Neural-Net.git
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: pathlib
+Requires-Dist: matplotlib
+
+# Motor-Neural-Net
+Neural Network for system identification of motors
