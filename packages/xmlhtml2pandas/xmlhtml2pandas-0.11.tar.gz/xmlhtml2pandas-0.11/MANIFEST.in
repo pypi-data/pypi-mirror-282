@@ -1,0 +1,5 @@
+include xmlhtml2pandas/requirements.txt
+include xmlhtml2pandas/thirdparty.json
+include xmlhtml2pandas/README.MD
+include xmlhtml2pandas/xmlhtml_compile.py
+include xmlhtml2pandas/xmlhtml.pyx
