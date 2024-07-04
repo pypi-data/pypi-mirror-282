@@ -1,0 +1,3 @@
+[console_scripts]
+radifox-convert = radifox.conversion.cli:convert
+radifox-update = radifox.conversion.cli:update
