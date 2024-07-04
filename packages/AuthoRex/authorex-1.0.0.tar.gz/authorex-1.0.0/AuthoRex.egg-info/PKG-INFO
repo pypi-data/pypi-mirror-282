@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: AuthoRex
+Version: 1.0.0
+Summary: A package for generating and authenticating OTPs using MongoDB.
+Home-page: https://github.com/TraxDinosaur/AuthoRex
+Author: TraxDinosaur
+Keywords: OTP,authentication,MongoDB,OTP generator,OTP authenticator
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymongo
+
+# AuthoRex
+
+AuthoRex is a Python package for generating and authenticating OTPs (One-Time Passwords) using MongoDB for storage. This package is useful for applications that require secure OTP-based authentication.
+
+## Features
+
+- Generate OTPs for given phone numbers.
+- Authenticate OTPs for given phone numbers.
+- Uses MongoDB for storing OTPs securely.
+
+## Installation
+
+You can install AuthoRex using pip:
+
+```sh
+pip install AuthoRex
+```
+
+## Usage
+
+### Importing the package
+
+You can import the entire package or specific functions:
+
+```python
+import AuthoRex
+
+# Or import specific functions
+from AuthoRex import genOTP, authOTP
+```
+
+### Generating an OTP
+
+Generate an OTP for a given phone number:
+
+```python
+# Using the package import
+print(AuthoRex.genOTP("1234567890"))
+
+# Using the function import
+print(genOTP("1234567890"))
+```
+
+### Authenticating an OTP
+
+Authenticate an OTP for a given phone number:
+
+```python
+# Using the package import
+print(AuthoRex.authOTP("1234567890", 123456))  # Replace 123456 with the actual OTP generated
+
+# Using the function import
+print(authOTP("1234567890", 123456))  # Replace 123456 with the actual OTP generated
+```
+
+## Example
+
+Here's a complete example of how to use AuthoRex:
+
+```python
+import AuthoRex
+
+# Generate OTP for a phone number
+response = AuthoRex.genOTP("1234567890")
+print(response)
+
+# Authenticate OTP for the same phone number
+is_authenticated = AuthoRex.authOTP("1234567890", 123456)  # Replace 123456 with the actual OTP generated
+print("Authenticated" if is_authenticated else "Authentication Failed")
+```
+
+## MongoDB Configuration
+
+AuthoRex uses MongoDB to store OTPs. Make sure you have a MongoDB instance running and update the MongoDB URI in the code as per your setup.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. See the [LICENSE](LICENSE) file for more details.
+
+## Author
+
+AuthoRex is developed and maintained by [TraxDinosaur](https://github.com/TraxDinosaur). For any queries or support, you can reach out to [TraxDinosaur](https://traxdinosaur.github.io).
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## Acknowledgements
+
+- The package uses [pymongo](https://pypi.org/project/pymongo/) for MongoDB interactions.
