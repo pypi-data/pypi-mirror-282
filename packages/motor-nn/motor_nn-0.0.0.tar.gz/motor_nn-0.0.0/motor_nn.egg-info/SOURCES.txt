@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+motor_nn/__init__.py
+motor_nn.egg-info/PKG-INFO
+motor_nn.egg-info/SOURCES.txt
+motor_nn.egg-info/dependency_links.txt
+motor_nn.egg-info/requires.txt
+motor_nn.egg-info/top_level.txt
