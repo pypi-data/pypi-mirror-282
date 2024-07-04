@@ -1,0 +1,8 @@
+setup.py
+lawr/class_files.py
+lawr/class_functions.py
+lawr.egg-info/PKG-INFO
+lawr.egg-info/SOURCES.txt
+lawr.egg-info/dependency_links.txt
+lawr.egg-info/not-zip-safe
+lawr.egg-info/top_level.txt
