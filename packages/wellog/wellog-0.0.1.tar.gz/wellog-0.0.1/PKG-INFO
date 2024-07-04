@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: wellog
+Version: 0.0.1
+Summary: Registros
+Home-page: https://gitwell.gwldx.com:2443/python_libraries/manager_logs
+Author: Pedro Jesús Pérez Hernández
+Author-email: pedrojesus.perez@welldex.mx
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru
+
+## WLogger
+Class to generate system logs.
+You can create instances or use a general one
+```
+from WLogger import loggen
+
+loggen.info('test logger')
+```
+Like instance
+```
+from WLogger import Logger
+
+log = Logger()
+log.info('test logger from new class')
+```
