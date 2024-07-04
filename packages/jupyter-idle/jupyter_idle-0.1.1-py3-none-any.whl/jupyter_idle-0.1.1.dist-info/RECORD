@@ -1,0 +1,10 @@
+jupyter_idle/__init__.py,sha256=zCJvdUBYvVTrSRfw0peZmX2ycbghgtr4JZMGFbotOXg,643
+jupyter_idle/handler.py,sha256=BlvKQZpEfGxbQOVKhHZhIT13IQlld2J8BW50tKFv6eA,1950
+jupyter_idle/tests/__init__.py,sha256=1gHc-6czYqFmnq-Not_9yJ7UsgN5_dT7V8nExJOoBME,60
+jupyter_idle/tests/test_handlers.py,sha256=HMISft-RLlSjqU3ka0UaQy2UJ1t4OemPvaNFYXxhY88,392
+jupyter_idle-0.1.1.data/data/etc/jupyter/jupyter_server_config.d/jupyter_idle.json,sha256=8RQw4gO3ROvaqnOkfUJt2FP60D0IPYV18nszCVN56aY,105
+jupyter_idle-0.1.1.dist-info/LICENSE,sha256=VGPkQf4M_AmvP3KH3Fy7JUzjOJs7CPdQGesjrplE48I,4756
+jupyter_idle-0.1.1.dist-info/METADATA,sha256=mkNh0uZODszuZ6hIOab82rQy0L5OkTTZuhWIInyZoUI,769
+jupyter_idle-0.1.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+jupyter_idle-0.1.1.dist-info/top_level.txt,sha256=qHwEh09jM8MLcUUOqYehJzdJtousnXU8IeObTjgdQL4,13
+jupyter_idle-0.1.1.dist-info/RECORD,,
