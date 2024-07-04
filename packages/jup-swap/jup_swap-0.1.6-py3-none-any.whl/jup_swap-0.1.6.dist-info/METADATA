@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: jup-swap
+Version: 0.1.6
+Summary: Jupiter Swap Api V6 Client
+Author-email: "Matrix.Ye" <initsysctrl@outlook.com>
+License: MIT
+Project-URL: Homepage, https://github.com/MatrixYe/jup-swap
+Keywords: jupiter,solana
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ~=2.31.0
+
+# jup-swap
+
+`jup-swap` is a python SDK of Jupiter V6 Swap Api
+
+## Installation
+
+```bash
+pip install jup_swap
+```
+    
+## Usage
+### 1.Quant
+
+
+
+## License
+
+This project is licensed under the MIT License. See the[LICENSE](LICENSE)file for more details.
