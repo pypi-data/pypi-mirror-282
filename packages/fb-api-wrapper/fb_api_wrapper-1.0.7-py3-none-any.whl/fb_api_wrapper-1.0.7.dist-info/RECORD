@@ -1,0 +1,16 @@
+fb_api_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fb_api_wrapper/fb_api_wrapper.py,sha256=OdG9ExllxjdpDDyI7rsoICPjw64cKybK_MypAMfpJD4,44
+fb_api_wrapper/libs_root.py,sha256=N0LC8PMBSmSKUdm6Vj1XCN_pWx9GrSEM91Kuimq7ZiM,133
+fb_api_wrapper/__pycache__/World.cpython-36.pyc,sha256=W7UDjQ7gq4qbl-x1jSPHnjYQSLg2smoo7KQ5fga_0BU,382
+fb_api_wrapper/__pycache__/__init__.cpython-36.pyc,sha256=yNsi0B_MkouMtT9yTxJDoETgKcx00fT9SAs_epJAyNY,158
+fb_api_wrapper/__pycache__/libs_root.cpython-36.pyc,sha256=lrkbk8QQFdaRIdmmrmDdv8J2mf4xuP04wJz8VC71a-w,303
+fb_api_wrapper/libs/FaceApiWrapper.cp39-win_amd64.pyd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fb_api_wrapper/libs/define_api.cp39-win_amd64.pyd,sha256=Cl6INNjpKNTZIWxTAF31sWT9hGYU_iZzeI0v_pbiOxM,19968
+fb_api_wrapper/libs/fb_api_wrapper_core.cp39-win_amd64.pyd,sha256=C2xf4gcWON36pPPm8tYqZh6P7ED_R-UHmtHP6em9SWI,136192
+fb_api_wrapper/libs/parse_api.cp39-win_amd64.pyd,sha256=iq_gm1MgoATp9SYUi27oepVhuG3fYMx6qNm6LWjOKY8,59904
+fb_api_wrapper/libs/utils.cp39-win_amd64.pyd,sha256=ZQCuGANGr7djDjxGFYc1jj6xbezbBrhOvJMkJoJmPAw,49152
+fb_api_wrapper-1.0.7.dist-info/LICENSE,sha256=RcflPnoM6QAKCygr44WWjnuOyZA6sCUJkl9lj-tZRg8,1080
+fb_api_wrapper-1.0.7.dist-info/METADATA,sha256=j48czE7NHwzcG-sQ-xX-50zW-8b3_e3ppFW5Olim0gc,916
+fb_api_wrapper-1.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fb_api_wrapper-1.0.7.dist-info/top_level.txt,sha256=k1AvCXYFVzG1a1xbcBUs7784PaTUtMaUMMEmh0vmST0,15
+fb_api_wrapper-1.0.7.dist-info/RECORD,,
