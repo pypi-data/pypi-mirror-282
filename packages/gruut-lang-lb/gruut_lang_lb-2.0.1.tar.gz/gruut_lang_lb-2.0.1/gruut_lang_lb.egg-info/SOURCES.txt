@@ -1,0 +1,12 @@
+README.md
+setup.py
+gruut_lang_lb/VERSION
+gruut_lang_lb/__init__.py
+gruut_lang_lb/lexicon.db
+gruut_lang_lb.egg-info/PKG-INFO
+gruut_lang_lb.egg-info/SOURCES.txt
+gruut_lang_lb.egg-info/dependency_links.txt
+gruut_lang_lb.egg-info/top_level.txt
+gruut_lang_lb/espeak/lexicon.db
+gruut_lang_lb/espeak/g2p/model.crf
+gruut_lang_lb/g2p/model.crf
