@@ -1,0 +1,9 @@
+linalgnum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linalgnum/main.py,sha256=xCMQaNc8v9vVoWXbymQ4012uOcoL2ACNLBMpDEUakys,115
+linalgnum/data/v1/linear_systems.py,sha256=SqPJCnVUGSugfJ2VdDWgQTHAHPScKy02BqCJyWAsEG0,7024
+linalgnum/data/v2/linear_systems.py,sha256=SqPJCnVUGSugfJ2VdDWgQTHAHPScKy02BqCJyWAsEG0,7024
+linalgnum-0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+linalgnum-0.3.dist-info/METADATA,sha256=oSCWZ2XI2tTp1hBqPOmJ59MTXWY2ouYhNQ0Z4B4-ScI,626
+linalgnum-0.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+linalgnum-0.3.dist-info/top_level.txt,sha256=97x4oQwK_CpbxMgQn5WTAi3hyRPotqY6fJUa-SXrkDo,10
+linalgnum-0.3.dist-info/RECORD,,
