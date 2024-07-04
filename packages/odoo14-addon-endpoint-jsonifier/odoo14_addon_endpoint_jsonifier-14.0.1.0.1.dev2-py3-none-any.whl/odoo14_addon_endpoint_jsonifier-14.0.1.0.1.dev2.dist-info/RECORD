@@ -1,0 +1,16 @@
+odoo/addons/endpoint_jsonifier/README.rst,sha256=0E12AM9WvzzJFlJwkMZYIkJIsZ0-fME6-4HyS6nOHMc,3728
+odoo/addons/endpoint_jsonifier/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/endpoint_jsonifier/__manifest__.py,sha256=9VvtGSIxi-rMLYwLuiZTkgrAyrVcQWX2i-VDfwWUbKM,599
+odoo/addons/endpoint_jsonifier/i18n/endpoint_jsonifier.pot,sha256=v_4Dt_veQv27h3V-VmVrd0GPbvl--dBC98PFtlpXDQM,1344
+odoo/addons/endpoint_jsonifier/models/__init__.py,sha256=gdYcHHcfE_Zmv7rL-B1oE7J1x7VdVPjBHinuls6H9x8,29
+odoo/addons/endpoint_jsonifier/models/endpoint_mixin.py,sha256=sDznCiwt6E0Pp0HmdTZOhia9RttozrcbEwR2JoBP9QM,254
+odoo/addons/endpoint_jsonifier/readme/CONTRIBUTORS.rst,sha256=WTniUhnwhiOZETcncmJRr09LtWiTkaCCsG-qOnKGZWo,101
+odoo/addons/endpoint_jsonifier/readme/DESCRIPTION.rst,sha256=0AjgQeBLc3mKs_4MT08N0lAMB6Ft8134Chymx9u60A0,85
+odoo/addons/endpoint_jsonifier/readme/USAGE.rst,sha256=V7vaZgs7p1n4HEet1zSSVdJFFNOQs4bAiA_wrgho830,446
+odoo/addons/endpoint_jsonifier/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/endpoint_jsonifier/static/description/index.html,sha256=U_DNunIygSyUtVBDjQShQxjDo2MA2Q2_EIG5j4Vf8X0,14778
+odoo/addons/endpoint_jsonifier/views/endpoint_endpoint.xml,sha256=p23Hc4CjXgDQfRzSaQUuDnto0tHO_6ldhZ2_89-0iVM,670
+odoo14_addon_endpoint_jsonifier-14.0.1.0.1.dev2.dist-info/METADATA,sha256=SWcWuh7p-4vKkxH4LLZ1Rt2n4fWY2IBISVhXL5gdtKs,4376
+odoo14_addon_endpoint_jsonifier-14.0.1.0.1.dev2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo14_addon_endpoint_jsonifier-14.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_endpoint_jsonifier-14.0.1.0.1.dev2.dist-info/RECORD,,
