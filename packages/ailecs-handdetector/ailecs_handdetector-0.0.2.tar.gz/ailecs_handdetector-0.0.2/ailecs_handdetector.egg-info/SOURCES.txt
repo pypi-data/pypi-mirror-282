@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+ailecs_handdetector.egg-info/PKG-INFO
+ailecs_handdetector.egg-info/SOURCES.txt
+ailecs_handdetector.egg-info/dependency_links.txt
+ailecs_handdetector.egg-info/top_level.txt
