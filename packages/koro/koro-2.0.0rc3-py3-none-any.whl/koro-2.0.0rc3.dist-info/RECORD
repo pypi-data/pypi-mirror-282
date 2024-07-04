@@ -1,0 +1,14 @@
+koro/__init__.py,sha256=xS3s862eN55uy83K2Dwchurhh9Euh1te2ZPia2lRVLI,200
+koro/slot/__init__.py,sha256=ldVeVLwXIgPZJsCp4-ix78ewRgsAKVwa8BnpcdnpfIc,419
+koro/slot/bin.py,sha256=D_v8RWoSz4OQ2KezQnVCGX1st6oCcC10vowHD_QjlBg,6659
+koro/slot/file.py,sha256=GqixeShwrZ6N4YRmlX46fF5OV7zV_fkg9S_r1zewd6U,1698
+koro/slot/save.py,sha256=GYL3ZqSLmXZWVy21j52aHzTc7sbgnyBoNdooKsXdR3k,4582
+koro/slot/xml.py,sha256=C2g1OlGDwhlVocEeUg7tYxQf1mfRVNopH0yH1UG1Cvw,42992
+koro/stage/__init__.py,sha256=D3OnCSnS5MTTEfYwUOKeUUTwP1R2Q2yqzAUrE6wyC0k,2510
+koro/stage/model.py,sha256=h2d9w68iXjQHcpVpEK61QjbYq9p9diRv-aCTiUgpW9c,8717
+koro/stage/part.py,sha256=I6JHMaftTd6XtX0fHj2vxTtWmOE66vFsmt8vDLFka7A,48640
+koro-2.0.0rc3.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+koro-2.0.0rc3.dist-info/METADATA,sha256=6MOvd43f2utmsdAmuWtUWTCcUxnauya0ok4U0uGaP7A,857
+koro-2.0.0rc3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+koro-2.0.0rc3.dist-info/top_level.txt,sha256=Msq6ssMwv56hnBQqwaTdJJkxM7x7BZ-3JfQbkepQAEY,5
+koro-2.0.0rc3.dist-info/RECORD,,
