@@ -1,0 +1,5 @@
+prelude-sdk==1.7.8
+click>8
+rich
+python-dateutil
+pyyaml
