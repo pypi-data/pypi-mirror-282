@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: loran
+Version: 1.0
+Summary: Core Paradigm of Automation Framework
+Home-page: https://github.com/WaterLoran/RuoYiTest
+Download-URL: http://pypi.python.org/pypi/easydict/
+Author: WaterLoran
+Author-email: 1696746432@qq.com
+License: LGPL-3.0
+Keywords: Test,AutoTest,automated testing,测试,自动化测试
+Classifier: Topic :: Software Development :: Testing
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jsonschema ==4.22.0
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: pytest-check ==2.2.2
+Requires-Dist: openpyxl ==3.1.2
+Requires-Dist: easydict ==1.11
+Requires-Dist: colorlog ==6.8.0
+Requires-Dist: allure-pytest ==2.13.2
+Requires-Dist: seleniumbase ==4.22.5
+Requires-Dist: xlrd ==2.0.1
+Requires-Dist: fire ==0.6.0
+Requires-Dist: PyMySQL ==1.1.1
+Requires-Dist: jsonpath ==0.82.2
+
+Python栈-自动化测试框架
+前华为测试开发工程师, 充分借鉴httprunner框架的设计优点 和 华为某大部门的测试框架的规范,
+首创基于aop实现的面向切面编程描述式的python语法框架. 超级容易上手, 自动化最优实践!!
+
+特点是, 易读易维护, 我希望这个框架的设计思路能够统一未来新增的自动化框架市场. 当前该框架有其直白高效的范式, 数据和逻辑高度解耦, 
+核心功能有日志, 报告, 断言, 提取信息, 多次重试, 插件功能有执行mysql命令, excel断言, 脚本连跑执行入口等.
