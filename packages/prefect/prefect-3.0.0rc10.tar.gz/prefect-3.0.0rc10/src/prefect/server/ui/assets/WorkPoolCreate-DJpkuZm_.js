@@ -1,0 +1,2 @@
+import{d as r,c as s,g as e,i as n,o as l,l as o,m as a,db as c,dc as u}from"./index-DmG-an2w.js";import{u as _}from"./usePageTitle-dvSfGJr8.js";const C=r({__name:"WorkPoolCreate",setup(p){return _("Create Work Pool"),(d,m)=>{const t=n("p-layout-default");return l(),s(t,null,{header:e(()=>[o(a(c))]),default:e(()=>[o(a(u))]),_:1})}}});export{C as default};
+//# sourceMappingURL=WorkPoolCreate-DJpkuZm_.js.map
