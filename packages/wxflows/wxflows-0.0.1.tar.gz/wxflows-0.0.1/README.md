@@ -1,0 +1,32 @@
+# wxflows
+
+**wxflows** is a library to query a wxflows model.
+
+```python
+from wxflows import rag
+
+print(rag.execute())
+```
+
+## Installing wxflows and Supported Versions
+
+wxflows is available on PyPI:
+
+```console
+$ python -m pip install wxflows
+```
+
+wxflows officially supports Python 3.8+.
+
+## Testing Locally
+
+```bash
+python3 -m venv venv        
+source ./venv/bin/activate
+make test
+```
+
+### Export the package
+1. From root, run `python -m build`.
+2. Copy the generated `<>.wz` files from the generated `dist` folder and paste it into your project.
+3. Execute `pip install wxflows` in your project folder.
