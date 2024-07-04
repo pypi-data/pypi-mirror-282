@@ -1,0 +1,12 @@
+phaistos/__init__.py,sha256=a8umjF3Q_LCZpIyBMxJJ85BR86S5Mdw2OMWxDYKFnY0,134
+phaistos/consts.py,sha256=za4lrbUnHVQOxW0HqoDSaN1NdyONn_lMSwMCTpFcTtI,2404
+phaistos/exceptions.py,sha256=INEPcS0bTNZclbQQ12S-7It6GhbmovYvNePh911ZJT0,639
+phaistos/schema.py,sha256=uJaSH0DIkY5QVAC-1PLjsvGoyRPbA2of3xYBmWmp0p0,2428
+phaistos/transpiler.py,sha256=imkRyaR6ED31CwxgYoq2gGKZnADNJdqOyMRZ4wu6ytU,7679
+phaistos/typings.py,sha256=6drrBZNN4tg8ZuKepBqhQS7KpUqZ01VfsBnkulz1loY,3957
+phaistos/validator.py,sha256=gwxno70JJTLirfUuCPbbFgjEm3-anC-fn51_bO-_2dI,4151
+phaistos-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+phaistos-0.1.1.dist-info/METADATA,sha256=uzSBgPgE2fI3cWRY07XpPs04v4nKYJRlq5n701rTJEQ,1028
+phaistos-0.1.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+phaistos-0.1.1.dist-info/top_level.txt,sha256=N7M58znYMrvTdhkkZ7UR98rdd9NEv9PVwtcBnA-7-dg,9
+phaistos-0.1.1.dist-info/RECORD,,
