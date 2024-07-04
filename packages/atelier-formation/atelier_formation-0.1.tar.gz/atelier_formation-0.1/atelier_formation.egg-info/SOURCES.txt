@@ -1,0 +1,8 @@
+README.md
+setup.py
+atelier_formation/__init__.py
+atelier_formation.egg-info/PKG-INFO
+atelier_formation.egg-info/SOURCES.txt
+atelier_formation.egg-info/dependency_links.txt
+atelier_formation.egg-info/requires.txt
+atelier_formation.egg-info/top_level.txt
