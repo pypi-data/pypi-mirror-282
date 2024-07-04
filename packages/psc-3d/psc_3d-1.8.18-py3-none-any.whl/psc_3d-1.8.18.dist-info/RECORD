@@ -1,0 +1,14 @@
+psc_3d/__init__.py,sha256=R6uojYjTJLkE7R0n2fWIXPZZDyF17AOk4SygtcGDn5Q,76
+psc_3d/__main__.py,sha256=8SV7_vZznXPbzNnq_5fRCOSEWj7-lfijhY02RuAatmM,176
+psc_3d/cli_parser.py,sha256=Bjj-CtkWYrq3UFp-Iri42OX7Co1AsJWl70_YuE3BmaA,843
+psc_3d/data.json,sha256=AleYwQsfOH6JuLCBUbM37IfogVfN-EXRLb1nmikW8Ow,998
+psc_3d/entry.py,sha256=Oc_RMAS6Kb9tnv1mGRAe4yePN72obn9EcAOxD4SVSzg,7348
+psc_3d/main.py,sha256=oTXvyZLDW39ozdrYKAbkigifjvtSzREoeNo26gU83us,2058
+psc_3d/version.py,sha256=wrxu_sXoZtn52JNBQnG2GiYH1Cnvzqcc3UkFJluHAck,19
+psc_3d/scripts/entry.bat,sha256=2uDY6lEnOawBMpwfm1_oKbdXD9WM7E8vVFRLuoV2jmo,38
+psc_3d/scripts/instalation.bat,sha256=X4OlHqSC5VFKNSOanrKSTpjtXDdXa8UXNQ0XUb9uGIg,44
+psc_3d/scripts/main.bat,sha256=gw16dZxrYKN0ZIhcjMYIUKagrPyBsUROatTkr-Xalbs,37
+psc_3d-1.8.18.dist-info/METADATA,sha256=DxL-5TyHzOyVOm0o1MUo0_rZJDZLyWMvZtjEhMuXXSQ,1366
+psc_3d-1.8.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+psc_3d-1.8.18.dist-info/top_level.txt,sha256=dDUqiMz2hsmUc0jMImq6SyT_JBCb2Lyu44aefRJLekU,7
+psc_3d-1.8.18.dist-info/RECORD,,
