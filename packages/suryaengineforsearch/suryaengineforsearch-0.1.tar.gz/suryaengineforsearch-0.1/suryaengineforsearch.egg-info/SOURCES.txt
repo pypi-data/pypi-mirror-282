@@ -1,0 +1,6 @@
+setup.py
+suryaengineforsearch.egg-info/PKG-INFO
+suryaengineforsearch.egg-info/SOURCES.txt
+suryaengineforsearch.egg-info/dependency_links.txt
+suryaengineforsearch.egg-info/requires.txt
+suryaengineforsearch.egg-info/top_level.txt
