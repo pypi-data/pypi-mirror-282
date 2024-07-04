@@ -1,0 +1,8 @@
+README.md
+setup.py
+lipomo/__init__.py
+lipomo/main.py
+lipomo.egg-info/PKG-INFO
+lipomo.egg-info/SOURCES.txt
+lipomo.egg-info/dependency_links.txt
+lipomo.egg-info/top_level.txt
