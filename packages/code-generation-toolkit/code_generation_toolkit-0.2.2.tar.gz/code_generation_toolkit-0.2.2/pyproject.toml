@@ -1,0 +1,55 @@
+[project]
+name =  "code-generation-toolkit"
+version = "0.2.2"
+description = "CG-Kit: Code Generation tool-Kit for algorithmic and performance portability"
+readme = "README.md"
+authors = [
+    { name = "Johann Rudi", email = "jrudi@vt.edu" },
+    { name = "Aidan H. Chadha", email = "aidanchadha03@vt.edu" },
+    { name = "Youngjun Lee", email = "leey@anl.gov" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = ["code generation", "algorithmic portability", "performance portability"]
+dependencies = [
+    'matplotlib>=3.6',
+    'networkx>=2.7',
+    'numpy>=1.22',
+    'pathlib>=1.0.1',
+#   'pyparsing>=3.1', #TODO future
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+ctree-mako = ['mako>=1.2']
+ctree-cheetah3 = ['ct3>=3.2']
+ctree-all = ['mako>=1.2', 'ct3>=3.2']
+dev = ['build', 'bumpver', 'pip-tools', 'pytest', 'twine']
+fargs = ['horast', 'transpyle', 'typed_ast']
+
+#[project.urls]
+#Homepage = "https://github.com/johannrudi/cg-kit"
+#Documentation = "" #TODO
+#Issues = "https://github.com/johannrudi/cg-kit/issues"
+
+#[project.scripts]
+#cgkit = "cgkit.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["_*"]
+namespaces = false  # do not add folders without `__init__.py` file
