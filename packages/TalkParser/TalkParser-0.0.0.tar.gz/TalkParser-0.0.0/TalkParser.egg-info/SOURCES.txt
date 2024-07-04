@@ -1,0 +1,7 @@
+README.md
+setup.py
+TalkParser/__init__.py
+TalkParser.egg-info/PKG-INFO
+TalkParser.egg-info/SOURCES.txt
+TalkParser.egg-info/dependency_links.txt
+TalkParser.egg-info/top_level.txt
