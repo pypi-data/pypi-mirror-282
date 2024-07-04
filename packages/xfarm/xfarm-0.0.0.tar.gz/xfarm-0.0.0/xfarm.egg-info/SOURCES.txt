@@ -1,0 +1,6 @@
+setup.py
+xfarm.egg-info/PKG-INFO
+xfarm.egg-info/SOURCES.txt
+xfarm.egg-info/dependency_links.txt
+xfarm.egg-info/requires.txt
+xfarm.egg-info/top_level.txt
