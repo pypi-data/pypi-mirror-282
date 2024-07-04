@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gbase8sdeploy
+Version: 1.4.2
+Summary: A package for GBase 8s database deployment
+Home-page: http://172.16.2.108/wangwei/gbase8sdeploy.git
+Author: wangwei
+Author-email: wangwei3@gbase.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: paramiko
+Requires-Dist: JayDeBeApi
+
+A package for GBase 8s database deployment
+
