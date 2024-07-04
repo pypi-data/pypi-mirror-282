@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/.DS_Store
+src/ADTCreate/ADT.py
+src/ADTCreate/ADTSatisfiability.py
+src/ADTCreate/ADTXML.py
+src/ADTCreate/CompareADTerms.py
+src/ADTCreate/GenerateADTerms.py
+src/ADTCreate/MultisetList.py
+src/ADTCreate/__init.py__
+src/ADTCreate.egg-info/PKG-INFO
+src/ADTCreate.egg-info/SOURCES.txt
+src/ADTCreate.egg-info/dependency_links.txt
+src/ADTCreate.egg-info/requires.txt
+src/ADTCreate.egg-info/top_level.txt
