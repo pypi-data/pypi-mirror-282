@@ -1,0 +1,8 @@
+fastlmmclib/quadform/__init__.py,sha256=9W3C-sRQ1jySuDN2DdsQ4LMk7q1dm8wpDd8ZwGbfjps,786
+fastlmmclib/quadform/qfc_src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastlmmclib/quadform/qfc_src/wrap_qfc.cp39-win_amd64.pyd,sha256=TMdfso3-ZVmNmLNZpxJVsAREpRg5TT0Hr6BtmB6CuWM,67584
+fastlmmclib-0.0.6b2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+fastlmmclib-0.0.6b2.dist-info/METADATA,sha256=QJL3efOJMFTwhNV04AO5TnimzXRUz_jkayIhRm1qapM,883
+fastlmmclib-0.0.6b2.dist-info/WHEEL,sha256=jIuyxRbLEr9PSjyxoyoXHpcF338wJoz57VTFOnxpL1M,99
+fastlmmclib-0.0.6b2.dist-info/top_level.txt,sha256=GT5TPoOkLcj8jORExOr0YiNBKOYqhZ6G-VkK_hZlpc4,62
+fastlmmclib-0.0.6b2.dist-info/RECORD,,
