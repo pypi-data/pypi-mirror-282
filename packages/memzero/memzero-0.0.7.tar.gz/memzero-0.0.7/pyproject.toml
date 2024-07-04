@@ -1,0 +1,46 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry]
+name = "memzero"
+version = "0.0.7" # This is replaced by dynamic versioning
+description = "Long-term memory for AI Agents"
+authors = ["Deshraj Yadav <deshraj@mem0.ai>"]
+readme = "README.md"
+homepage = "https://docs.mem0.ai"
+license = "Apache-2.0"
+packages = [{ include = "mem0" }]
+
+[tool.poetry-dynamic-versioning]
+strict = true
+enable = true
+vcs = "git"
+style = "semver"
+format-jinja = "{% if distance == 0 %}{{ base }}{% else %}{{ base }}{% endif %}"
+pattern = "default-unprefixed"
+
+[tool.poetry-dynamic-versioning.substitution]
+files = ["*/__init__.py"]
+folders = [{ path = "mem0" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.7.3"
+posthog = "^3.5.0"
+httpx = "^0.27.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+isort = "^5.13.2"
+pytest = "^8.2.2"
+ipykernel = "^6.29.4"
+responses = "^0.25.3"
+
+
+[tool.poetry.group.optional.dependencies]
