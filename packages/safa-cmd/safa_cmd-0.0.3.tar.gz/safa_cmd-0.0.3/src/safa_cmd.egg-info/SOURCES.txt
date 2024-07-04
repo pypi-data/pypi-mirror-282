@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/safa_cmd/__init__.py
+src/safa_cmd/config.py
+src/safa_cmd/fixer.py
+src/safa_cmd/generate.py
+src/safa_cmd/llm_manager.py
+src/safa_cmd.egg-info/PKG-INFO
+src/safa_cmd.egg-info/SOURCES.txt
+src/safa_cmd.egg-info/dependency_links.txt
+src/safa_cmd.egg-info/entry_points.txt
+src/safa_cmd.egg-info/requires.txt
+src/safa_cmd.egg-info/top_level.txt
+src/safa_cmd/data/__init__.py
+src/safa_cmd/data/artifact_json.py
+src/safa_cmd/data/file_change.py
