@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyVinteddd.egg-info/PKG-INFO
+pyVinteddd.egg-info/SOURCES.txt
+pyVinteddd.egg-info/dependency_links.txt
+pyVinteddd.egg-info/top_level.txt
