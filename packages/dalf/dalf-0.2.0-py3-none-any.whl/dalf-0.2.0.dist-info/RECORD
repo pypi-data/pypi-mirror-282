@@ -1,0 +1,12 @@
+dalf/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+dalf/admin.py,sha256=IuB0lAsSzWT71EKN9TYOdvDWRFc-yeoqy-kRNqxwRTU,3227
+dalf/apps.py,sha256=XZqtxkLaFq6KKzTgE74WtJRcRcYgpJfUOXAuJddo0yE,83
+dalf/static/admin/css/django_admin_list_filter.css,sha256=Zj6smTPGIy961_NntaWVt12s8Oebf5JKgwmdB2g7tmI,91
+dalf/static/admin/js/django_admin_list_filter.js,sha256=6yDJ5zH5Rgol1Sy3saZyP8jK0h_RRvdpOjdfG_l2Ozk,4477
+dalf/templates/admin/filter/django_admin_list_filter.html,sha256=FxWs6zkSX8Dn4T7TnabqFy1HSnS3VMkp4zoWk16RNR4,787
+dalf/templates/admin/filter/django_admin_list_filter_ajax.html,sha256=YU4fT_btWunXcPnz9yc-YJohwvu2Ixz_SEu3sDiHMIk,1096
+dalf-0.2.0.dist-info/LICENCE,sha256=sIQFODe3_puLaUpCTHI_TQa6mmekoDpK4zCX9Tv2QFE,1085
+dalf-0.2.0.dist-info/METADATA,sha256=s8et849OhZ6E4X29IGOfyD8oG28PQ2CA1P6f9xomd_o,9747
+dalf-0.2.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+dalf-0.2.0.dist-info/top_level.txt,sha256=z-kgJt69JFEWRPbxnrwkg2ofSuQ-C-izL2JP0fjbm0g,5
+dalf-0.2.0.dist-info/RECORD,,
