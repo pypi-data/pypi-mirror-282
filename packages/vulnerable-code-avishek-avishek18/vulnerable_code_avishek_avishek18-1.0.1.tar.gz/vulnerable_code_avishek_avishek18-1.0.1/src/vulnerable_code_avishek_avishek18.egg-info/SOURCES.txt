@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/vulnerable-code-avishek-avishek18/__init__.py
+src/vulnerable-code-avishek-avishek18/vulnerable-code-avishek.py
+src/vulnerable_code_avishek_avishek18.egg-info/PKG-INFO
+src/vulnerable_code_avishek_avishek18.egg-info/SOURCES.txt
+src/vulnerable_code_avishek_avishek18.egg-info/dependency_links.txt
+src/vulnerable_code_avishek_avishek18.egg-info/top_level.txt
