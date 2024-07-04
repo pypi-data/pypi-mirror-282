@@ -1,0 +1,4 @@
+
+[:python_version >= "3.6"]
+xbot.framework>=0.4.0
+paramiko
