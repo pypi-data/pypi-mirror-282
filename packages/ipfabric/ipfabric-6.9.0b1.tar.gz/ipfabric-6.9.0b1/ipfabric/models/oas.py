@@ -1,0 +1,283 @@
+import json
+from typing import Optional, List, Any, Dict, Union
+from urllib.parse import quote_plus
+from collections import defaultdict
+
+from pydantic import BaseModel, PrivateAttr, TypeAdapter, computed_field, Field, FilePath
+
+from ipfabric.tools import raise_for_status
+
+try:
+    from importlib.resources import files
+except ImportError:
+    from importlib_resources import files
+
+OAS_DIR = files("ipfabric.oas")
+CONTENT_TYPE = "application/json"
+
+SEARCH_PATHS_IGNORE = [
+    "/tables/networks/ipv6-routes",  # Route tables match too many items
+    "/tables/networks/routes",
+    "/tables/addressing/path-lookup-sources",
+    "/tables/addressing/path-lookup-sources-multicast",
+    "/tables/addressing/path-lookup-sources-unicast",
+    "/tables/management/changes/managed-devs",
+    "/tables/reports/discovery-tasks",
+    "/tables/interfaces/connectivity-matrix/unmanaged-neighbors/summary",  # Summary table
+    "/tables/routing/protocols/bgp/address-families",
+    "/tables/routing/protocols/ospf/interfaces",
+    "/tables/routing/protocols/ospf-v3/interfaces",
+    "/tables/management/connectivity-errors",
+]
+
+
+class NestedColumn(BaseModel):
+    parent: str
+    child: str
+
+
+class Scan(BaseModel):
+    columns: Optional[List[Union[str, NestedColumn]]] = Field(default_factory=list)
+    full_scan: bool = True
+
+
+class Column(BaseModel):
+    field: str
+    filters: Optional[str] = None
+
+
+class SubColumn(BaseModel):
+    filters: Optional[str] = None
+    array: Optional[bool] = Field(False)
+    children: List[Column] = Field(default_factory=list)
+
+    @property
+    def children_by_name(self) -> Dict[str, Column]:
+        return {_.field: _ for _ in self.children}
+
+    @property
+    def children_by_filters(self) -> Dict[str, List[Column]]:
+        tmp = defaultdict(list)
+        [tmp[_.filters].append(_) for _ in self.children]
+        return dict(tmp)
+
+
+class Endpoint(BaseModel):
+    full_api_endpoint: str
+    web_endpoint: Optional[str] = None
+    web_url: Optional[str] = None
+    columns: Optional[List[str]] = None
+    nested_columns: Optional[Dict[str, SubColumn]] = Field(default_factory=dict)
+    array_columns: Optional[Dict[str, SubColumn]] = Field(default_factory=dict)
+    summary: Optional[str] = None
+    title: Optional[str] = None
+    tags: Optional[List[str]] = Field(default_factory=list)
+    tag_groups: Optional[List[str]] = Field(default_factory=list)
+    method: str
+    ui_columns: Optional[List[str]] = None
+    api_scope_id: Optional[str] = None
+    description: Optional[str] = None
+    ipv4: Optional[Scan] = Field(default_factory=Scan)
+    ipv6: Optional[Scan] = Field(default_factory=Scan)
+    mac: Optional[Scan] = Field(default_factory=Scan)
+
+    def __repr__(self):
+        return f"({self.method}, {self.api_endpoint})"
+
+    @property
+    def api_endpoint(self):
+        return self.full_api_endpoint[1:]
+
+    @property
+    def web_menu(self):
+        if self.tag_groups and self.tags:
+            return f"{self.tag_groups[0]} — {self.tags[0]}"
+        return None
+
+    def filter_url(self, filters: Union[str, dict]) -> Union[None, str]:
+        if not self.web_url:
+            return None
+        if isinstance(filters, str):
+            filters = json.loads(filters)
+        if "filters" not in filters:
+            filters = {"filters": filters}
+        return f"{self.web_url}?options=" + quote_plus(json.dumps(filters, separators=(",", ":")))
+
+
+class Methods(BaseModel):
+    full_api_endpoint: str
+    get: Optional[Endpoint] = None
+    put: Optional[Endpoint] = None
+    patch: Optional[Endpoint] = None
+    post: Optional[Endpoint] = None
+    delete: Optional[Endpoint] = None
+
+    @property
+    def api_endpoint(self):
+        return self.full_api_endpoint[1:]
+
+
+class OAS(BaseModel):
+    client: Any = Field(exclude=True)
+    local_oas: bool = True
+    local_oas_file: Optional[FilePath] = None
+    _oas: Dict[str, Methods] = PrivateAttr(default_factory=dict)
+
+    def model_post_init(self, __context) -> None:
+        self._oas = self._get_oas()
+
+    @property
+    def oas(self) -> Dict[str, Methods]:
+        return self._oas
+
+    def _get_oas(self) -> Dict[str, Methods]:
+        if not self.local_oas or (self.local_oas_file and self.local_oas):
+            return self._parse_oas()
+        try:
+            min_oas = OAS_DIR.joinpath(self.client.api_version + ".json").read_text(encoding="UTF-8")
+            oas = TypeAdapter(Dict[str, Methods]).validate_json(min_oas)
+            return oas
+        except FileNotFoundError:
+            return self._parse_oas()
+
+    @computed_field
+    @property
+    def web_to_api(self) -> Dict[str, Endpoint]:
+        return {m.post.web_endpoint: m.post for m in self._oas.values() if m.post and m.post.web_endpoint}
+
+    @computed_field
+    @property
+    def scope_to_api(self) -> Dict[str, Endpoint]:
+        _ = dict()
+        for methods in self._oas.values():
+            for method in ["get", "put", "post", "patch", "delete"]:
+                m = getattr(methods, method, None)
+                if m and m.api_scope_id:
+                    _[m.api_scope_id] = m
+        return _
+
+    def _complex_columns(self, data: Endpoint, spec: dict) -> Endpoint:
+        try:
+            x_columns = {_["key"]: _ for _ in spec["x-table"]["columns"]}
+        except KeyError:
+            x_columns = dict()
+        try:
+            columns = spec["responses"]["200"]["content"][CONTENT_TYPE]["schema"]["properties"]["data"]["items"][
+                "properties"
+            ]
+            for k, v in columns.items():
+                col_type = v.get("type", None)
+                children = list()
+                if k in x_columns and isinstance(x_columns[k].get("filter", None), dict):
+                    children = [
+                        Column(field=c["field"], filters=c["filter"]) for c in x_columns[k]["filter"]["children"]
+                    ]
+                if col_type == "array":
+                    filters = v["filter"] if isinstance(v.get("filter", None), str) else None
+                    data.array_columns[k] = SubColumn(array=True, children=children, filters=filters)
+                    if v.get("items", {}).get("type", None) == "object":
+                        data.nested_columns[k] = data.array_columns[k]
+                elif col_type == "object":
+                    data.nested_columns[k] = SubColumn(children=children)
+        except KeyError:
+            pass
+        return self._global_search(data, spec)
+
+    def _post_logic(self, data: Endpoint, spec: dict):
+        try:
+            data.web_endpoint = spec["x-table"]["webPath"]
+            data.web_url = str(self.client.base_url.join(data.web_endpoint))
+        except KeyError:
+            pass
+        try:
+            data.title = spec["x-table"]["title"]
+        except KeyError:
+            pass
+        try:
+            data.ui_columns = [_["key"] for _ in spec["x-table"]["columns"]]
+        except KeyError:
+            pass
+        try:
+            columns = set(
+                spec["requestBody"]["content"][CONTENT_TYPE]["schema"]["properties"]["columns"]["items"]["enum"]
+            )
+            data.columns = list(columns)
+        except KeyError:
+            pass
+        return self._complex_columns(data, spec)
+
+    def _complex_global_search(self, data: Endpoint) -> Endpoint:
+        for cname, column in data.nested_columns.items():
+            data.ipv4.columns.extend(
+                [NestedColumn(parent=cname, child=_.field) for _ in column.children_by_filters.get("ip", [])]
+            )
+            data.ipv6.columns.extend(
+                [NestedColumn(parent=cname, child=_.field) for _ in column.children_by_filters.get("ipv6", [])]
+            )
+            data.mac.columns.extend(
+                [
+                    NestedColumn(parent=cname, child=_.field)
+                    for _ in column.children
+                    if self._check_mac(_.field, data.full_api_endpoint)
+                ]
+            )
+        return data
+
+    @staticmethod
+    def _check_mac(mac: str, endpoint: str) -> bool:
+        return (
+            "mac" in mac
+            and mac not in ["macVerification", "macFlags", "macCount"]
+            and endpoint not in ["/tables/inventory/devices"]
+        )
+
+    def _global_search(self, data: Endpoint, spec: dict) -> Endpoint:
+        if not data.api_endpoint.startswith("tables") or data.full_api_endpoint in SEARCH_PATHS_IGNORE:
+            return data
+        try:
+            columns = spec["x-table"]["columns"]
+        except KeyError:
+            return data
+        for column in columns:
+            if (
+                column.get("filter", None) == "ip"
+                and column["key"] not in ["loginIp"]
+                and data.full_api_endpoint not in ["/tables/routing/protocols/ospf-v3/neighbors"]
+            ):
+                data.ipv4.columns.append(column["key"])
+            elif column.get("filter", None) == "ipv6":
+                data.ipv6.columns.append(column["key"])
+            elif self._check_mac(column["key"], data.full_api_endpoint):
+                data.mac.columns.append(column["key"])
+        return self._complex_global_search(data)
+
+    def _parse_oas(self) -> Dict[str, Methods]:
+        if not self.local_oas or not self.local_oas_file:
+            url = self.client.base_url.join(
+                "/api/oas/openapi-extended.json"
+                if self.client.os_api_version != "v6.9"
+                else "/api/static/oas/openapi-fe.json"
+            )  # TODO: 7.0 Fix for new OAS
+            oas = raise_for_status(self.client.get(url, follow_redirects=True)).json()
+        else:
+            with open(self.local_oas_file, "r") as f:
+                oas = json.load(f)
+
+        endpoints = dict()
+        for endpoint, methods in oas["paths"].items():
+            methods_obj = Methods(full_api_endpoint=endpoint)
+            for method, spec in methods.items():
+                data = Endpoint(
+                    full_api_endpoint=endpoint,
+                    method=method,
+                    api_scope_id=spec.get("x-apiScopeId", None),
+                    summary=spec.get("summary", None),
+                    description=spec.get("description", None),
+                    tags=spec.get("tags", None),
+                    tag_groups=spec.get("x-tagGroups", None),
+                )
+                if method == "post":
+                    data = self._post_logic(data, spec)
+                setattr(methods_obj, method, data)
+            endpoints[endpoint[1:]] = methods_obj
+        return endpoints
