@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+ailecs_airwave.egg-info/PKG-INFO
+ailecs_airwave.egg-info/SOURCES.txt
+ailecs_airwave.egg-info/dependency_links.txt
+ailecs_airwave.egg-info/top_level.txt
