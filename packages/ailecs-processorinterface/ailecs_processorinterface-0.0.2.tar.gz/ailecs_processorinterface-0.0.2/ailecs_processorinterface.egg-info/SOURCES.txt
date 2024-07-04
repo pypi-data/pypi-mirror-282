@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+ailecs_processorinterface.egg-info/PKG-INFO
+ailecs_processorinterface.egg-info/SOURCES.txt
+ailecs_processorinterface.egg-info/dependency_links.txt
+ailecs_processorinterface.egg-info/top_level.txt
