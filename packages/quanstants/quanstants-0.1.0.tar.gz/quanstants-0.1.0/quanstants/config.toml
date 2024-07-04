@@ -1,0 +1,170 @@
+[config.modules.PREFIXES]
+default = ["metric", "binary"]
+doc = "Choose which sets of prefixes should be loaded when quanstants is initialized."
+
+[config.modules.UNITS]
+default = ["si", "common", "prefixed"]
+doc = "Choose which sets of units should be loaded when quanstants is initialized."
+
+[config.modules.CONSTANTS]
+default = ["fundamental"]
+doc = "Choose which sets of constants should be loaded when quanstants is initialized."
+
+[config.rounding.ROUNDING_MODE]
+choices = [ "ROUND_CEILING", "ROUND_DOWN", "ROUND_FLOOR", "ROUND_HALF_DOWN", "ROUND_HALF_EVEN", "ROUND_HALF_UP", "ROUND_UP", "ROUND_05UP" ]
+default = "ROUND_HALF_UP"
+doc = "Set the rounding behaviour for internal Decimal objects."
+
+[config.rounding.ROUND_TO_IF_UNCERTAINTY]
+choices = [ "PLACES", "FIGURES", "UNCERTAINTY" ]
+default = "UNCERTAINTY"
+doc = "The default behaviour of round(Quantity) and Quantity.round() for quantities with an uncertainty."
+
+[config.rounding.ROUND_TO_IF_EXACT]
+choices = [ "PLACES", "FIGURES", "UNCERTAINTY" ]
+default = "FIGURES"
+doc = "The default behaviour of round(Quantity) and Quantity.round() for exact quantities."
+
+[config.rounding.NDIGITS_PLACES]
+default = 2
+doc = "The default value of ndigits to use with `round_to_places()`."
+
+[config.rounding.NDIGITS_FIGURES]
+default = 3
+doc = "The default value of ndigits to use with `round_to_figures()`."
+
+[config.rounding.NDIGITS_UNCERTAINTY]
+default = 1
+doc = """The default value of ndigits to use with `round_to_uncertainty()`.
+
+This determines the number of significant figures the uncertainty is rounded to.
+The number is then rounded to the same precision."""
+
+[config.rounding.ROUND_PAD]
+choices = [ true, false ]
+default = true
+doc = "Like siunitx, determines if extra zeroes should be added to reach desired number of digits."
+
+[config.arithmetic.AUTO_CANCEL]
+choices = [ true, false ]
+default = true
+doc = "Whether identical units should be cancelled and combined automatically after arithmetic."
+
+[config.arithmetic.AUTO_NORMALIZE]
+default = 10
+doc = """The number of trailing zeroes required before a result is automatically
+normalized.
+
+This setting ensures that exact results are presented exactly; for example, that
+(100 m / 25 m).sqrt() returns Quantity(2, (unitless)), not
+Quantity(2.000000000000000000000000000, (unitless)).
+
+To disable, set to 0."""
+
+[config.conversion.CONVERT_FLOAT_AS_STR]
+choices = [ true, false ]
+default = true
+doc = "Whether floats should be converted to Decimal via str or directly."
+
+[config.printing.ASCII_ONLY]
+choices = [ true, false ]
+default = false
+doc = """Whether to only use ASCII characters or allow all Unicode characters.
+
+Unlike the other printing settings, this affects not only str() and print() but also
+the strings produced by repr().
+
+Changing this setting also changes various other [printing] settings."""
+
+[config.printing.PRETTYPRINT]
+choices = [ true, false ]
+default = true
+doc = """Whether to format printed strings in a nice way.
+
+Changing this setting also changes various other [printing] settings."""
+
+[config.printing.ROUND_BEFORE_PRINT]
+choices = [ true, false ]
+default = false
+doc = """Whether the string form of quantities should be rounded or kept unrounded.
+
+When enabled, the quantity itself is not changed, but `print()`, `str()`, or anything
+else that calls `__str__` on the quantity will return a rounded representation.
+
+The rounding is that of `Quantity.round()` with the default parameters."""
+
+[config.printing.ELLIPSIS_LONG_DECIMAL]
+default = 8
+doc = """Truncate numbers with long trailing decimal parts after the given number of
+digits.
+
+To disable, set to 0.
+
+When enabled, the string representation of a long decimal will be cut off at the
+specified length and the dropped digits represented by an ellipsis.
+
+The number will only be truncated if both the number of decimal places and the number
+of significant figures exceeds the provided value i.e. if set to 2, 2.456 becomes 2.45…
+but 245.6 stay 245.6 and 0.00024 stays as 0.00024."""
+
+[config.printing.UNCERTAINTY_STYLE]
+choices = [ "PARENTHESES", "PLUSMINUS" ]
+default = "PARENTHESES"
+doc = "How uncertainties of quantities should be formatted."
+
+[config.printing.LOGARITHMIC_UNIT_STYLE]
+choices = [ "SIMPLE", "REFERENCE", "SUFFIX" ]
+default = "REFERENCE"
+doc = "How a referenced logarithmic unit should be formatted."
+
+[config.printing.UNIT_SEPARATOR]
+default = " "
+doc = """Unicode character used to separate unit terms.
+
+Default is a normal space."""
+
+[config.printing.INVERSE_UNIT]
+choices = [ "NEGATIVE_SUPERSCRIPT", "SLASH" ]
+default = "NEGATIVE_SUPERSCRIPT"
+doc = "How units with negative exponents should be formatted."
+
+[config.printing.UNICODE_SUPERSCRIPTS]
+default = true
+doc = "Whether exponents of units should be formatted with Unicode superscript characters."
+
+[config.printing.GROUP_DIGITS]
+default = 0
+doc = "Whether numbers should be printed with separators between groups of n digits."
+
+[config.printing.GROUP_DIGITS_STYLE]
+choices = [ "INTEGER", "FRACTION", "ALL" ]
+default = "ALL"
+doc = "Whether to group digits before (`\"INTEGER\"`) the decimal point, after (`\"FRACTION\"`), or both (`\"ALL\"`)."
+
+[config.printing.GROUP_SEPARATOR]
+default = " "
+doc = """The Unicode character which should be put between groups of digits.
+
+The default is the U+2009 \" \" \"THIN SPACE\", which matches `siunitx`.
+Naturally this will just appear as a normal-width space in a monospaced font.
+
+A normal space \" \" would be the alternative if only ASCII characters are desired.
+A comma \",\" or a full stop \".\" are commonly used, but are discouraged by the SI.
+Python itself often allows or makes use of an underscore \"_\"."""
+
+[config.misc.STRICT_SI]
+choices = [ true, false ]
+default = false
+doc = """Whether to strictly follow SI style or not.
+
+Changing this setting also changes various other settings."""
+
+[config.misc.PERCENTAGE_SPACE]
+choices = [ true, false ]
+default = false
+doc = "Whether to put a space between a number and a following % (or promille etc.) sign."
+
+[config.misc.LITRE_SYMBOL]
+choices = [ "l", "L" ]
+default = "L"
+doc = "Whether to use a lowercase l or uppercase L as the symbol for the litre."
