@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+xmlhtml2pandas/README.MD
+xmlhtml2pandas/__init__.py
+xmlhtml2pandas/requirements.txt
+xmlhtml2pandas/thirdparty.json
+xmlhtml2pandas/xmlhtml.pyx
+xmlhtml2pandas/xmlhtml_compile.py
+xmlhtml2pandas.egg-info/PKG-INFO
+xmlhtml2pandas.egg-info/SOURCES.txt
+xmlhtml2pandas.egg-info/dependency_links.txt
+xmlhtml2pandas.egg-info/requires.txt
+xmlhtml2pandas.egg-info/top_level.txt
