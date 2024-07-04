@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: uriregistry
+Version: 0.4.0
+Summary: A central URI registry that tracks where a certain URI is being used.
+Project-URL: History, https://github.com/OnroerendErfgoed/uriregistry/blob/master/CHANGES.rst
+Project-URL: Tracker, https://github.com/OnroerendErfgoed/uriregistry/issues
+Project-URL: Source, https://github.com/OnroerendErfgoed/uriregistry
+Project-URL: Documentation, https://uriregistry.readthedocs.io/en/latest/
+Author-email: Flanders Heritage Agency <ict@onroerenderfgoed.be>
+License-File: LICENSE
+Keywords: SKOS,pyramid,thesaurus,vocabulary,web,wsgi
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pyramid
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Python: <3.13,>=3.10
+Requires-Dist: pyramid-urireferencer==0.8.0
+Requires-Dist: pyramid==2.0.2
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: requests==2.32.3
+Provides-Extra: dev
+Requires-Dist: black==24.4.2; extra == 'dev'
+Requires-Dist: coveralls==4.0.1; extra == 'dev'
+Requires-Dist: flake8-import-order==0.18.2; extra == 'dev'
+Requires-Dist: flake8==7.1.0; extra == 'dev'
+Requires-Dist: httpretty==1.1.4; extra == 'dev'
+Requires-Dist: pre-commit==3.7.1; extra == 'dev'
+Requires-Dist: pyramid-debugtoolbar==4.12.1; extra == 'dev'
+Requires-Dist: pytest-cov==5.0.0; extra == 'dev'
+Requires-Dist: pytest==8.2.2; extra == 'dev'
+Requires-Dist: sphinx==7.3.7; extra == 'dev'
+Requires-Dist: sphinxcontrib-httpdomain==1.8.1; extra == 'dev'
+Requires-Dist: sphinxcontrib-plantuml==0.30; extra == 'dev'
+Requires-Dist: waitress==3.0.0; extra == 'dev'
+Requires-Dist: webtest==3.0.0; extra == 'dev'

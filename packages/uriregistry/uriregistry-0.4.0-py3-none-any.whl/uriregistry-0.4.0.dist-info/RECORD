@@ -1,0 +1,10 @@
+uriregistry/__init__.py,sha256=_XPSGfpaepMPSvumhmz5qsVODxwW436Ua1UKQq1wHAc,2323
+uriregistry/models.py,sha256=5IEGIpIIe3Rs1z0gljC5dB1af_d5qq_lNWEFNNNk9yk,1031
+uriregistry/registry.py,sha256=8VKFxQageBSNMR13liVoT6Iv_9A3J41l1cV1tFc2N6g,2070
+uriregistry/utils.py,sha256=7EFTQyXzQN6kYG2iHlf-9Lxh8kEVGY3DUj-LI1W_2ec,821
+uriregistry/views.py,sha256=IMsk_MgmzIeAGOu-VRMLuiUU9_B2f5A4lXUA1ElSbi8,2411
+uriregistry-0.4.0.dist-info/METADATA,sha256=rmyafUiCwFvB0YXeaKtBCuCBLykY8EwA-O3gD3HUMmQ,1874
+uriregistry-0.4.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+uriregistry-0.4.0.dist-info/entry_points.txt,sha256=U2w567WUZqfY7s4xEqnRNmOp9LRzIBq6vXkWGY7MRfg,44
+uriregistry-0.4.0.dist-info/licenses/LICENSE,sha256=_j7qbFmeI6AMCMX1yyMgwwrcj4aH21_OybeaZixT_2s,35120
+uriregistry-0.4.0.dist-info/RECORD,,
