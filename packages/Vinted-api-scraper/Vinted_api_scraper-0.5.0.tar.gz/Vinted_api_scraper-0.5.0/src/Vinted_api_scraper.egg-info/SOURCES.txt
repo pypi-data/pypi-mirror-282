@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/Vinted_api_scraper/__init__.py
+src/Vinted_api_scraper/requester.py
+src/Vinted_api_scraper/settings.py
+src/Vinted_api_scraper/vinted.py
+src/Vinted_api_scraper.egg-info/PKG-INFO
+src/Vinted_api_scraper.egg-info/SOURCES.txt
+src/Vinted_api_scraper.egg-info/dependency_links.txt
+src/Vinted_api_scraper.egg-info/requires.txt
+src/Vinted_api_scraper.egg-info/top_level.txt
+src/Vinted_api_scraper/items/__init__.py
+src/Vinted_api_scraper/items/item.py
+src/Vinted_api_scraper/items/items.py
