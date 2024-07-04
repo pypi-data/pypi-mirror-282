@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=62.6"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uadapy"
+version = "0.0.1"
+description = "A software package for uncertainty-aware data analysis with Python"
+authors = [
+  { name = "David Hägele"},
+  { name = "Marina Evers"},
+  { name = "Patrick Paetzold"},
+  { name = "Ruben Bauer"},
+  { name = "Nikhil Bhavikatti"},
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://github.com/UniStuttgart-VISUS/uadapy"
+"Bug Tracker" = "https://github.com/UniStuttgart-VISUS/uadapy/issues"
+
