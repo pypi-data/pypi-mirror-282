@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: love_equinox
+Version: 0.2.2
+Summary: Module to calculate love equinox
+Home-page: https://github.com/normthenord/love_equinox
+Author: Normthenord
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.10, <3.14
+Description-Content-Type: text/markdown
+
+# Love_Equinox
+
+This is a package that allows you to calculate your love equinox quickly
