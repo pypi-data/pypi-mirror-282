@@ -1,0 +1,9 @@
+skml_json/__init__.py,sha256=FSkcB_6IHE8FkvlPdgWEFFWEjFU9pijV8sXsPkbJ6wY,5716
+skml_json/classification.py,sha256=fHr5z6vpVHv0hZDAOHCa7SgbDnqb7YcKU0Z6Gdpydb4,20958
+skml_json/csr.py,sha256=xJshU92Afn0RnEjBQ2GbcbnQR0CQOSWkX7Xf-t54JJc,754
+skml_json/regression.py,sha256=EyzxcEJtkz42RQhZOZt3RaZJTktRo3smaGFlpJ6Sue8,13393
+skml_json-1.0.1.dist-info/LICENSE,sha256=Shl_eMB_Ot_NEU3arCACOGGrmDEoRs9Un4yfw7i1FSI,1062
+skml_json-1.0.1.dist-info/METADATA,sha256=Oc4Y0SLlVZxIdOtRAFAl7a6qFDaF52WiiDBV9ccxuJg,4201
+skml_json-1.0.1.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+skml_json-1.0.1.dist-info/top_level.txt,sha256=kPnm-njAcqVtyGXhKuCJHY5nH0DayRJPrZyTuu7GPGY,10
+skml_json-1.0.1.dist-info/RECORD,,
