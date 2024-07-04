@@ -1,0 +1,43 @@
+__all__ = [
+    "FluxFunction",
+    "LegacyConventionalFlux",
+    "LegacyPromptFlux",
+    "NuE",
+    "NuEBar",
+    "NuMu",
+    "NuMuBar",
+    "NuTau",
+    "NuTauBar",
+    "ParticleType",
+    "SplineFlux",
+    "SplineFlux2",
+    "availableFluxes",
+    "kneesForFlux",
+    "makeFlux",
+    "printModels",
+    "stand_alone",
+    "getVersion",
+]
+
+from _nuflux import (
+    FluxFunction,
+    LegacyConventionalFlux,
+    LegacyPromptFlux,
+    NuE,
+    NuEBar,
+    NuMu,
+    NuMuBar,
+    NuTau,
+    NuTauBar,
+    ParticleType,
+    SplineFlux,
+    SplineFlux2,
+    availableFluxes,
+    getVersion,
+    kneesForFlux,
+    makeFlux,
+    printModels,
+    stand_alone,
+)
+
+__version__ = getVersion()
