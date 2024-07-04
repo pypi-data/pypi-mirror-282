@@ -1,0 +1,5 @@
+setup.py
+bookeo.egg-info/PKG-INFO
+bookeo.egg-info/SOURCES.txt
+bookeo.egg-info/dependency_links.txt
+bookeo.egg-info/top_level.txt
