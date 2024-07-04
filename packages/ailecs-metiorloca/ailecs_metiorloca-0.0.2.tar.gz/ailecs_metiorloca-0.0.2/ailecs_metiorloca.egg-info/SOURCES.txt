@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+ailecs_metiorloca.egg-info/PKG-INFO
+ailecs_metiorloca.egg-info/SOURCES.txt
+ailecs_metiorloca.egg-info/dependency_links.txt
+ailecs_metiorloca.egg-info/top_level.txt

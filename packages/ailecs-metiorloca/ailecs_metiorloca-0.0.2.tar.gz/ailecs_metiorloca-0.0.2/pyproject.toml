@@ -1,0 +1,18 @@
+[project]
+name = "ailecs-metiorloca"
+version = "0.0.2"
+description = "Default template for PDM package"
+authors = [
+    {name = "AiLECS Lab", email = "AiLECS-Lab-l@monash.edu"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pdm]
+distribution = true
