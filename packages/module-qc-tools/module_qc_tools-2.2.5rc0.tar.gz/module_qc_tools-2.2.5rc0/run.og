@@ -1,0 +1,1328 @@
+[06/19/24 22:08:26] INFO     [VCAL_CALIBRATION] Start VCAL CALIBRATION!                                                                   VCAL_CALIBRATION.py:92
+                    INFO     [VCAL_CALIBRATION] TimeStart: 2024-06-19_220826                                                              VCAL_CALIBRATION.py:93
+                    INFO     [power_supply]  running power supply emulator!!                                                                  power_supply.py:31
+                    INFO     [yarr]  running scanConsole emulator!!                                                                                   yarr.py:45
+                    INFO     [yarr]  running write_register emulator!!                                                                                yarr.py:48
+                    INFO     [yarr]  running switchLPM emulator!!                                                                                     yarr.py:51
+                    INFO     [yarr]  running eyeDiagram emulator!!                                                                                    yarr.py:54
+                    INFO     [yarr] Creating temporary connectivity file and chip configs without pixel config in                                    yarr.py:544
+                             src/module_qc_tools/data/emulator/configs/connectivity/tmp                                                                         
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    INFO     [multimeter]  running multimeter emulator!!                                                                        multimeter.py:18
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    DEBUG    [yarr] Sending command (attempt 0):                                                                                      yarr.py:81
+                    DEBUG    [yarr] mqt emulator scanconsole -r src/module_qc_tools/data/emulator/configs/controller/specCfg-rd53b.json -c            yarr.py:82
+                             src/module_qc_tools/data/emulator/configs/connectivity/tmp/20UPGXM1234567_Lx_dummy_noPixConfig.json                                
+                    DEBUG    [hardware_control_base] Sending command:                                                                hardware_control_base.py:46
+                    DEBUG    [hardware_control_base] mqt emulator scanconsole -r                                                     hardware_control_base.py:47
+                             src/module_qc_tools/data/emulator/configs/controller/specCfg-rd53b.json -c                                                         
+                             src/module_qc_tools/data/emulator/configs/connectivity/tmp/20UPGXM1234567_Lx_dummy_noPixConfig.json                                
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+(0, 0) (0, 0) 8 1
+4534519168 4534519168
+InjVcalRange 1
+MonitorV 8
+(0, 1) (0, 1) 8 0
+4534500992 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 0) (0, 2) 7 1
+4534508608 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 1) (0, 3) 7 0
+4534508480 4534519168
+InjVcalRange 1
+MonitorV 8
+(0, 0) (1, 0) 8 1
+4534521280 4534519168
+InjVcalRange 1
+MonitorV 8
+(0, 1) (1, 1) 8 0
+4534223872 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 0) (1, 2) 7 1
+4534520256 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 1) (1, 3) 7 0
+4534519872 4534519168
+InjVcalRange 1
+MonitorV 8
+(0, 0) (2, 0) 8 1
+4534533888 4534519168
+InjVcalRange 1
+MonitorV 8
+(0, 1) (2, 1) 8 0
+4534303424 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 0) (2, 2) 7 1
+4534532928 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 1) (2, 3) 7 0
+4534542080 4534519168
+InjVcalRange 1
+MonitorV 8
+(0, 0) (3, 0) 8 1
+4534280064 4534519168
+InjVcalRange 1
+MonitorV 8
+(0, 1) (3, 1) 8 0
+4534540288 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 0) (3, 2) 7 1
+4534278528 4534519168
+InjVcalRange 1
+MonitorV 8
+(1, 1) (3, 3) 7 0
+4534284224 4534519168
+InjVcalRange 1
+MonitorV 8
+----------------------
+(0, 0) (0, 0) 8 1
+InjVcalRange 1
+MonitorV 8
+(0, 1) (0, 1) 8 0
+InjVcalRange 0
+MonitorV 8
+(1, 0) (0, 2) 7 1
+InjVcalRange 1
+MonitorV 7
+(1, 1) (0, 3) 7 0
+InjVcalRange 0
+MonitorV 7
+(0, 0) (1, 0) 8 1
+InjVcalRange 1
+MonitorV 8
+(0, 1) (1, 1) 8 0
+InjVcalRange 0
+MonitorV 8
+(1, 0) (1, 2) 7 1
+InjVcalRange 1
+MonitorV 7
+(1, 1) (1, 3) 7 0
+InjVcalRange 0
+MonitorV 7
+(0, 0) (2, 0) 8 1
+InjVcalRange 1
+MonitorV 8
+(0, 1) (2, 1) 8 0
+InjVcalRange 0
+MonitorV 8
+(1, 0) (2, 2) 7 1
+InjVcalRange 1
+MonitorV 7
+(1, 1) (2, 3) 7 0
+InjVcalRange 0
+MonitorV 7
+(0, 0) (3, 0) 8 1
+InjVcalRange 1
+MonitorV 8
+(0, 1) (3, 1) 8 0
+InjVcalRange 0
+MonitorV 8
+(1, 0) (3, 2) 7 1
+InjVcalRange 1
+MonitorV 7
+(1, 1) (3, 3) 7 0
+InjVcalRange 0
+MonitorV 7
+----------------------
+InjVcalRange 1 1
+MonitorV 8 8
+--
+InjVcalRange 0 0
+MonitorV 8 8
+--
+InjVcalRange 1 1
+MonitorV 7 7
+--
+InjVcalRange 0 0
+MonitorV 7 7
+--
+---------------------
+InjVcalRange 1 1
+MonitorV 8 8
+--
+InjVcalRange 0 0
+MonitorV 8 8
+--
+InjVcalRange 1 1
+MonitorV 7 7
+--
+InjVcalRange 0 0
+MonitorV 7 7
+--
+---------------------
+InjVcalRange 1 1
+MonitorV 8 8
+--
+InjVcalRange 0 0
+MonitorV 8 8
+--
+InjVcalRange 1 1
+MonitorV 7 7
+--
+InjVcalRange 0 0
+MonitorV 7 7
+--
+---------------------
+InjVcalRange 1 1
+MonitorV 8 8
+--
+InjVcalRange 0 0
+MonitorV 8 8
+--
+InjVcalRange 1 1
+MonitorV 7 7
+--
+InjVcalRange 0 0
+MonitorV 7 7
+--
+---------------------
+                    INFO     [vcal_calibration]     Start InjVcalMed, LargeRange for all chips                                           vcal_calibration.py:167
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+[06/19/24 22:08:30] ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    INFO     [vcal_calibration]     Start InjVcalMed, SmallRange for all chips                                           vcal_calibration.py:167
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    INFO     [vcal_calibration]     Start InjVcalHigh, LargeRange for all chips                                          vcal_calibration.py:167
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    INFO     [vcal_calibration]     Start InjVcalHigh, SmallRange for all chips                                          vcal_calibration.py:167
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    ERROR    [hardware_control_base]                                                                                 hardware_control_base.py:52
+                    INFO     [VCAL_CALIBRATION] ==================================Summary==================================              VCAL_CALIBRATION.py:130
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][0]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 12,                                                                                                                  
+                                 "Name": "dummy_chip1",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][1]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 12,                                                                                                                  
+                                 "Name": "dummy_chip1",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][2]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 12,                                                                                                                  
+                                 "Name": "dummy_chip1",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][3]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 12,                                                                                                                  
+                                 "Name": "dummy_chip1",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][0]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 13,                                                                                                                  
+                                 "Name": "dummy_chip2",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][1]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 13,                                                                                                                  
+                                 "Name": "dummy_chip2",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][2]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 13,                                                                                                                  
+                                 "Name": "dummy_chip2",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][3]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 13,                                                                                                                  
+                                 "Name": "dummy_chip2",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][0]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 14,                                                                                                                  
+                                 "Name": "dummy_chip3",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][1]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 14,                                                                                                                  
+                                 "Name": "dummy_chip3",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][2]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 14,                                                                                                                  
+                                 "Name": "dummy_chip3",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][3]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 14,                                                                                                                  
+                                 "Name": "dummy_chip3",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][0]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 15,                                                                                                                  
+                                 "Name": "dummy_chip4",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][1]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 15,                                                                                                                  
+                                 "Name": "dummy_chip4",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux8 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][2]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 15,                                                                                                                  
+                                 "Name": "dummy_chip4",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [[yellow]VCAL_CALIBRATION[/]] data\[chip][3]: Identifiers:                                                  VCAL_CALIBRATION.py:141
+                             {                                                                                                                                  
+                                 "ChipID": 15,                                                                                                                  
+                                 "Name": "dummy_chip4",                                                                                                         
+                                 "ModuleSN": "20UPGXM1234567",                                                                                                  
+                                 "Institution": "UCSC",                                                                                                         
+                                 "TestType": null,                                                                                                              
+                                 "TimeStart": 1718860107,                                                                                                       
+                                 "TimeEnd": 1718860127                                                                                                          
+                             }                                                                                                                                  
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                             DACs_input [Count]  100.000  300.000  500.000  700.000  900.000  1100.000  1300.000  1500.000  1700.000                            
+                             1900.000  2100.000  2300.000  2500.000  2700.000  2900.000  3100.000  3300.000  3500.000  3700.000                                 
+                             3900.000                                                                                                                           
+                             Vmux7 [V]            36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             Vmux30 [V]           36.760   36.760   36.760   36.760   36.760    36.760    36.760    36.760    36.760                            
+                             36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760    36.760                         
+                             ------------------  -------  -------  -------  -------  -------  --------  --------  --------  --------                            
+                             --------  --------  --------  --------  --------  --------  --------  --------  --------  --------                                 
+                             --------                                                                                                                           
+                    INFO     [VCAL_CALIBRATION] Writing output measurements in                                                           VCAL_CALIBRATION.py:180
+                             emulator/outputs/Measurements/VCAL_CALIBRATION/2024-06-19_220826                                                                   
+                    INFO     [VCAL_CALIBRATION] Done!                                                                                    VCAL_CALIBRATION.py:182
+                    INFO     [VCAL_CALIBRATION] TimeEnd: 2024-06-19_220846                                                               VCAL_CALIBRATION.py:183
+                    INFO     [yarr] Deleting temporary files: src/module_qc_tools/data/emulator/configs/connectivity/tmp                             yarr.py:585
