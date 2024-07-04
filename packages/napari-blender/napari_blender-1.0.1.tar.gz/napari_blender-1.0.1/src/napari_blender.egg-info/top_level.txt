@@ -1,0 +1,4 @@
+3d
+napari_blender
+scenes
+scripts

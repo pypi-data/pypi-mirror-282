@@ -1,0 +1,68 @@
+name: napari-blender
+display_name: Blender Visualization
+visibility: public
+categories: ["Annotation", "Segmentation", "Acquisition"]
+contributions:
+  commands:
+    - id: napari-blender.get_reader
+      python_name: napari_blender._reader:napari_get_reader
+      title: Open data with Blender Visualization
+    - id: napari-blender.write_multiple
+      python_name: napari_blender._writer:write_multiple
+      title: Save multi-layer data with Blender Visualization
+    - id: napari-blender.write_single_image
+      python_name: napari_blender._writer:write_single_image
+      title: Save image data with Blender Visualization
+    - id: napari-blender.make_sample_data
+      python_name: napari_blender._sample_data:make_sample_data
+      title: Load sample data from Blender Visualization
+    - id: napari-blender.make_container_widget
+      python_name: napari_blender:ImageThreshold
+      title: Make threshold Container widget
+    - id: napari-blender.make_transparant_widget
+      python_name: napari_blender:transparant_widget
+      title: Make widget to compare two images
+    - id: napari-blender.make_microscopy_widget
+      python_name: napari_blender:microscopy_widget
+      title: Make widget to compare two images using microscopy input
+    - id: napari-blender.make_gradient_widget
+      python_name: napari_blender:gradient_widget
+      title: Make widget to compare two images
+    - id: napari-blender.make_tracked_widget
+      python_name: napari_blender:tracked_widget
+      title: Make widget to display single image
+    - id: napari-blender.make_timelapse_widget
+      python_name: napari_blender:timelapse_widget
+      title: Make widget to display single image
+    - id: napari-blender.make_video_loader_widget
+      python_name: napari_blender:video_loader_widget
+      title: Make widget to display video
+  readers:
+    - command: napari-blender.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.npy']
+  writers:
+    - command: napari-blender.write_multiple
+      layer_types: ['image*','labels*']
+      filename_extensions: []
+    - command: napari-blender.write_single_image
+      layer_types: ['image']
+      filename_extensions: ['.npy']
+  sample_data:
+    - command: napari-blender.make_sample_data
+      display_name: Blender Visualization
+      key: unique_id.1
+  widgets:
+    - command: napari-blender.make_transparant_widget
+      display_name: Transparent Overlay
+    - command: napari-blender.make_microscopy_widget
+      display_name: Microscopy Overlay
+    - command: napari-blender.make_gradient_widget
+      display_name: Gradient Overlay
+    - command: napari-blender.make_tracked_widget
+      display_name: Tracked Nuclei
+    - command: napari-blender.make_timelapse_widget
+      display_name: Timelapse Mode
+    - command: napari-blender.make_video_loader_widget
+      display_name: Video Loader
+    

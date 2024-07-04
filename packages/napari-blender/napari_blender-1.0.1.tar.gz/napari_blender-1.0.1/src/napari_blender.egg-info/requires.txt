@@ -1,0 +1,13 @@
+numpy
+magicgui
+qtpy
+scikit-image
+napari_video
+tifffile
+bpy>=4.0.0
+trimesh
+opencv-python
+scipy
+pathlib
+mathutils
+pandas
