@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jinplate
+Version: 0.0.1
+Summary: CLI renderer for Jinja2
+Author: Evin Dunn
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: click~=8.1.7
+Requires-Dist: Jinja2~=3.1.4
+Requires-Dist: python-dotenv~=1.0.1
+Requires-Dist: PyYAML~=6.0.1
+
+# jinplate
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
+
+A command line Jinja2 renderer inspired by [gomplate](https://github.com/hairyhenderson/gomplate)
