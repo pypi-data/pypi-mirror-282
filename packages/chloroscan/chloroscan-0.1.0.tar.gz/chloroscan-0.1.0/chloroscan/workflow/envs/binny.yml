@@ -1,0 +1,13 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - coreutils
+  - python=3.9
+  - hmmer
+  - mantis_pfa=1.5.5
+  - pip
+  - pip:
+    # - bio-corgi>=0.4.0
+    - pandas==2.2.2
+    - snakemake==7.32.3
