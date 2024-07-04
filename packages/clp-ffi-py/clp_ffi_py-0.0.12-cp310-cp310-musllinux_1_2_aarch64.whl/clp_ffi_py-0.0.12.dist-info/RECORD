@@ -1,0 +1,17 @@
+clp_ffi_py-0.0.12.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+clp_ffi_py-0.0.12.dist-info/WHEEL,sha256=h1SIFaErPlJwziBTkhi7UxP_F9Qdv9skMe1KtTHaxEk,113
+clp_ffi_py-0.0.12.dist-info/top_level.txt,sha256=oJlQf7Hnz9l2Yum2B9WNNVFDMdgnuqibAtxChyZJtc8,11
+clp_ffi_py-0.0.12.dist-info/RECORD,,
+clp_ffi_py-0.0.12.dist-info/METADATA,sha256=op1UJ3Elhes0oPqEkE3c8vqrVYR-T0vQf3_5yBqbs-g,12571
+clp_ffi_py.libs/libstdc++-0e75266c.so.6.0.30,sha256=cmV4kCOGxQzC6ilGxlJ_3ei-zRe13mGFJlNBMiVNWAE,3247809
+clp_ffi_py.libs/libgcc_s-3de59b96.so.1,sha256=l1daTeynmSvXyC15bk-OplLXPqkADdHLvqxRD9joGhQ,200057
+clp_ffi_py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/utils.py,sha256=Ng8w8mSbLQ6vVHDob_jbpMpEJlHFnGAYZJw1Gh2zDtw,1130
+clp_ffi_py/wildcard_query.py,sha256=OWArdRcsKJevBRcKVszC6eXwye4ln3rFo1dOL3MJG0k,3830
+clp_ffi_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/ir/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/ir/native.pyi,sha256=Bhwr40W96Of-LISluVDM6nVala3cTIvzYjVGe4-t55U,3211
+clp_ffi_py/ir/query_builder.py,sha256=cIEVC_CwqsikhT_lfw6T77aGpr30sBrQf0rTrrDD5FY,7152
+clp_ffi_py/ir/native.cpython-310-aarch64-linux-gnu.so,sha256=pvzLp8o2sgIfKd-nhgd1GCf_kEGUpIr6BQLVuVGSz28,7982465
+clp_ffi_py/ir/readers.py,sha256=rP-F7lpQ15EcTG5HOyzpbRkenOILFQeZqJ1B71VCslE,5616
+clp_ffi_py/ir/__init__.py,sha256=ogedHmbJBrw15hHL6ybVwBMND_KKUFNFo0qCDgJNMD0,474
