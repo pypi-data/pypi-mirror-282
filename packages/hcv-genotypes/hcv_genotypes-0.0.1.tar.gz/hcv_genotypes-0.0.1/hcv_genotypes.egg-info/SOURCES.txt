@@ -1,0 +1,8 @@
+README.md
+setup.py
+hcv_genotypes.egg-info/PKG-INFO
+hcv_genotypes.egg-info/SOURCES.txt
+hcv_genotypes.egg-info/dependency_links.txt
+hcv_genotypes.egg-info/top_level.txt
+libname/__init__.py
+libname/fasta_code.py
