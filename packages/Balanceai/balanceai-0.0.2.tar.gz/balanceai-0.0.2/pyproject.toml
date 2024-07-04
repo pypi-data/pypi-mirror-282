@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Balanceai"
+version = "0.0.2"
+dependencies = [
+  "Flask==3.0.2",
+  "requests==2.31.0",
+  "argparse==1.4.0"
+]
+requires-python = ">=3.12"
+authors = [
+    { name = "BalanceAI", email = "ai@balanceai.network" },
+]
+description = "BalanceAI Wrapper enables connection of AI models (API endpoints to AI models) to the BalanceAI blockchain. Wrapper is a Python utility (command-line tools and libraries) that wraps API calls from locally run model APIs, exposing them to BalanceAI users. It provides security by validating requests from authenticated users, checking authorization, and storing information about requests/responses on-chain and in the InterPlanetary File System (IPFS)."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["ai", "web3", "BAI", "BalanceAI", "blockchain"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://www.balanceai.network/"
+Issues = "https://github.com/balanceainetwork/balanceai-wrapper/issues"
+Repository = "https://github.com/balanceainetwork/balanceai-wrapper.git"
+
+[project.scripts]
+balanceai = "balanceai:cli_runner.run"

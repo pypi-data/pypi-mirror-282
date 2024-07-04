@@ -1,0 +1,8 @@
+venv
+ignore
+dist
+
+.idea
+*.iml
+
+bai-config.json

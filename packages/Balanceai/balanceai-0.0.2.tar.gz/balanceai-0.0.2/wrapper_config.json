@@ -1,0 +1,29 @@
+{
+    "wrapper": {
+        "bai": {
+            "port": 9000,
+            "debug": true
+        },
+        "chain": {
+            "url": {
+                "auth": "http://127.0.0.1:9200/chain/authorize",
+                "update_usage": "http://127.0.0.1:9200/chain/updateModelUsageInfo"
+            }
+        },
+        "ai": {
+            "url": {
+                "model": "http://127.0.0.1:9300/ai/"
+            }
+        },
+        "ipfs": {
+            "url": {
+                "transaction": "http://127.0.0.1:9100/ipfs/transaction"
+            }
+        }
+    },
+    "huggingface": {
+        "api_token": "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",
+        "model_id": "facebook/bart-large-cnn",
+        "model_context": ""
+    }
+}
