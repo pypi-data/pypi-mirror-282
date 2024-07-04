@@ -1,0 +1,9 @@
+degas/__init__.py,sha256=AMK6FBJPYHqX7tXKLiZF4_bciyjhdIA2JTN2BWn7Y1c,123
+degas/degas.py,sha256=VnWz1WFDAbDqfcY4D0917wNou-dTMwmAaVYCZfIuS-I,38180
+degas/styles/default.mplstyle,sha256=7ISo3QBWoSV6tE5mbemh4wQtccd65nilsDbdojZggGM,6
+degas/styles/degas_figure.mplstyle,sha256=e4PftIaJjT9M1WBkNNEdTAacedWDBb5IBVp2IWR-1YM,1615
+degas/styles/pastel_rainbow.mplstyle,sha256=TK52xavQXp25BNT_q-mzX1qm9PXH7JYEklgnkc_wBGo,1550
+degas-0.0.0.dist-info/METADATA,sha256=evs5U-I0jfudmLYKwpCMsgVhrw7LERhBAhKRBQiEu60,550
+degas-0.0.0.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+degas-0.0.0.dist-info/top_level.txt,sha256=FqzoI8Oj7GUSLxQt-pGJk4dAdul7QsKXcUqS7p9RVXs,6
+degas-0.0.0.dist-info/RECORD,,
