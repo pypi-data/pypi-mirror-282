@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vital_agent_container/__init__.py
+vital_agent_container_sdk.egg-info/PKG-INFO
+vital_agent_container_sdk.egg-info/SOURCES.txt
+vital_agent_container_sdk.egg-info/dependency_links.txt
+vital_agent_container_sdk.egg-info/requires.txt
+vital_agent_container_sdk.egg-info/top_level.txt
