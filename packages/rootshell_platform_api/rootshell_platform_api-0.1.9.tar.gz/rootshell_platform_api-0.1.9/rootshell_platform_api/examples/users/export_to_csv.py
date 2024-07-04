@@ -1,0 +1,29 @@
+import click
+from rootshell_platform_api.adapters.UsersAPIClient import UsersAPIClient
+from exporter import CSVExporter
+
+@click.command()
+@click.option('-f', '--path', required=True, help='File path')
+@click.option('-l', '--limit', type=int, default=10, help='Pagination limit')
+@click.option('-p', '--page', type=int, default=1, help='Pagination page')
+@click.option('-s', '--search', type=str, help='Pagination search')
+@click.option('-c', '--order-by-column', type=str, help='Pagination order by column')
+@click.option('-d', '--order-by-direction', type=str, help='Pagination order by direction')
+def export_users(path, limit, page, search, order_by_column, order_by_direction):
+    api_client = UsersAPIClient()
+    csv_exporter = CSVExporter()
+
+    try:
+        response = api_client.export_to_csv(
+            file_path=path,
+            limit=limit,
+            page=page,
+            search=search,
+            orderByColumn=order_by_column,
+            orderByDirection=order_by_direction
+        )
+        data = response.get("data", [])
+        result = csv_exporter.export(data, path)
+        print(result)
+    except Exception as e:
+        print(f"Error occurred: {e}")
