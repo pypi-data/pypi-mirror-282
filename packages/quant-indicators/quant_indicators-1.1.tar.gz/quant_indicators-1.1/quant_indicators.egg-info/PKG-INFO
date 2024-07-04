@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: quant-indicators
+Version: 1.1
+Summary: A simple indicator library for stock tickers
+Author: NgocAn
+Author-email: anlam9614@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# quant_indicators
+
+Python package for financial technical indicators.
+
+## Installation
+
+You can install the package via pip:
+
+```python
+pip install quant_indicators
+```
+
+## Usage
+
+```python
+import quant_indicators as qi
+
+sticker = 'HPG'
+mins = 60
+
+df = qi.create_dataset(sticker, mins)
+df['EMA_5'] = qi.EMAIndicator(df['Close'], 5).ema_indicator()
+df['EMA_10'] = qi.EMAIndicator(df['Close'], 10).ema_indicator()
+df['EMA_5_10'] = df['EMA_5'] - df['EMA_10']
+df['RSI'] = qi.RSIIndicator(df['Close'], 7).rsi()
+macd = qi.MACDIndicator(df['Close'], 12, 5, 5)
+df['MACD'] = macd.macd()
+df['Signal'] = macd.macd_signal()
+df['MACD_Hist'] = macd.macd_diff()
+df['BB_Upper'] = qi.BollingerBandsIndicator(df['Close']).bollinger_hband()
+df['BB_Lower'] = qi.BollingerBandsIndicator(df['Close']).bollinger_lband()
+df['Stochastic'] = qi.StochasticOscillatorIndicator(df['High'], df['Low'], df['Close'], 5, 3).stoch()
+```
