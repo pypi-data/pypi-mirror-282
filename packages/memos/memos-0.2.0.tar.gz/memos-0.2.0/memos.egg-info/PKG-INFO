@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: memos
+Version: 0.2.0
+Home-page: https://github.com/arkohut/memos
+Author: arkohut
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Memos
+
+A project to index everything to make it like another memory.
