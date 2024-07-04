@@ -1,0 +1,14 @@
+py_dutch_numerals/__init__.py,sha256=OgFct8Gl_WYVqE3gT5oHMbCM-sLVKawK22biJyzWvRI,94
+py_dutch_numerals/converter.py,sha256=Z2HQnTU2V1KYbHZKopY7mcGY7JKQ3QXKczFa-M-8qE4,8513
+py_dutch_numerals/logger.py,sha256=fqa867W8sU5wZjTtG3AVti-d8vqAqW2ZrMYeOR0h1oU,407
+py_dutch_numerals/mock_logger.py,sha256=JnbDF3bCGNnmh794uRF_Mce1CVrKgTHdry5PEf4RTVs,432
+py_dutch_numerals/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_dutch_numerals/generated/DutchNumbers.py,sha256=iFM-Gg2s_itq8q9dA1vyp3LO3XEJDRTMTbUJmMIctTQ,61248
+py_dutch_numerals/generated/DutchNumbersLexer.py,sha256=911G2MVoTGxVi7d8XGrGqrnC3I8eIHI2ALmI0w24X1U,11660
+py_dutch_numerals/generated/DutchNumbersListener.py,sha256=zb1z0sqB_fLLsQqZk36b_-958khBWE6MpBX33GUlgVQ,6241
+py_dutch_numerals/generated/DutchNumbersVisitor.py,sha256=uv6CUt1UnO6otBjB0Jj1QbKnUgIKBFbdQyUvgg-l3hw,3842
+py_dutch_numerals-1.0.3.dist-info/LICENSE,sha256=fNxFlgbR700AFkQZG7kyTo-i7CgrWIzE_mbOLeSPDD8,749
+py_dutch_numerals-1.0.3.dist-info/METADATA,sha256=l0x--cC2Ch089LfVG5oF_rF67XNCmdJo4UWw7JP-mh4,3158
+py_dutch_numerals-1.0.3.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+py_dutch_numerals-1.0.3.dist-info/top_level.txt,sha256=vgnJIwzpKRisofDCRjYhJUo1v7Qgh6mNT6h-0MLduCo,18
+py_dutch_numerals-1.0.3.dist-info/RECORD,,

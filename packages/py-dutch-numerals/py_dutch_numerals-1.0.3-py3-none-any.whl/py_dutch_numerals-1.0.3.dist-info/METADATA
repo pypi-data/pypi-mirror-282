@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: py_dutch_numerals
+Version: 1.0.3
+Summary: A Python package to parse and convert Dutch counting numbers into numeric equivalents, supporting numbers up to one million.
+Author-email: Jeroen Bloemscheer <info@jeroentechsolutions.uk>
+License: European Union Public License 1.2 (EUPL-1.2)
+        
+        This work is licensed under the EUPL-1.2. You can view the full license at http://eupl.eu/.
+        
+        You are free to:
+        - Use, reproduce, and distribute the work.
+        - Modify the original work and distribute modified works.
+        
+        The obligations are:
+        - Attribution: Credit the original author(s).
+        - Distribution of derivative works under the same license.
+        - Keep intact all notices that refer to this License and to the disclaimer of warranties.
+        
+        No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+        
+        For the full license text, please visit: http://eupl.eu/
+        
+Project-URL: Homepage, https://github.com/grootstebozewolf/py_dutch_numerals
+Project-URL: Issues, https://github.com/grootstebozewolf/py_dutch_numerals/issues
+Keywords: antlr,python,dutch,numbers,parser
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: antlr4-python3-runtime
+Provides-Extra: dev
+Requires-Dist: behave ; extra == 'dev'
+
+# py_dutch_numerals
+
+py_dutch_numerals is a Python package that parses and converts Dutch written numbers into their numeric equivalents, supporting numbers up to one million.
+
+## Installation
+
+You can install py_dutch_numerals using pip:
+
+```
+pip install py_dutch_numerals
+```
+
+## Usage
+
+Here's a basic example of how to use py_dutch_numerals:
+
+```python
+from py_dutch_numerals import tel
+
+# Convert a Dutch number to an integer
+result = tel("driehonderdvijfenveertig")
+print(result)  # Output: 345
+
+# It also handles larger numbers
+result = tel("een miljoen tweehonderdduizend")
+print(result)  # Output: 1200000
+```
+
+## Features
+
+- Parses Dutch written numbers and converts them to integers
+- Supports numbers up to one million
+- Handles compound numbers (e.g., "eenentwintig" for 21)
+- Uses ANTLR4 for robust parsing
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Jeroen Bloemscheer
+
+## Acknowledgments
+
+- This project uses ANTLR4 for parsing
+- Inspired by the need for processing Dutch numerical text in various applications
+
+## Support
+
+If you encounter any problems or have any questions, please open an issue on the [GitHub repository](https://github.com/grootstebozewolf/py_dutch_numerals/issues).
