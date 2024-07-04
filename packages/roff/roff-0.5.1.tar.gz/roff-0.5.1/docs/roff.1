@@ -1,0 +1,138 @@
+.\" generated with roff/v0.5.1
+.\" https://pypi.org/project/roff/0.5.1
+.\" https://github.com/utility-toolbox/roff/
+.\"
+.TH "ROFF" "1" "03 July 2024" "github.com/utility-toolbox/roff"
+.SH "NAME"
+\fBroff\fP • python\[em]based cli to convert markdown to the roff (man\[em]pages) format
+.SH "SYNOPSIS"
+.sp
+• \fBroff\fP [\fB\-h\fP] [\fB\-v\fP] {\fIconvert\fP,\fItemplate\fP,\fItree\fP,\fIwatch\fP} ...
+.br
+• \fBroff\fP \fIconvert\fP [\fB\-h\fP] \fIsource\fP [\fIdest\fP]
+.br
+• \fBroff\fP \fItemplate\fP [\fB\-h\fP] \fIdest\fP
+.br
+• \fBroff\fP \fItree\fP [\fB\-h\fP] [\fB\-\-show\[em]text\fP | \fB\-\-no\[em]show\[em]text\fP] \fIsource\fP
+.br
+• \fBroff\fP \fIwatch\fP [\fB\-h\fP] \fIsource\fP
+.br
+.sp
+.SH "DESCRIPTION"
+.P
+python\[em]based cli to convert markdown to the roff (man\[em]pages) format.
+.sp
+.RS 2
+see \fBroff(5)\fP for more information about the file specification.
+.RE
+.sp
+.P
+Support for all* Markdown features:
+.sp
+.RS 2
+*h1 is reserved for the head.
+.RE
+.sp
+.sp
+• heading (h2\[em]h6)
+.br
+• Ordered Lists
+.br
+• Unordered Lists
+.br
+• Code\[em]Blocks
+.br
+• Inline
+.br
+.RS 2
+.br
+• Code
+.br
+• Bold
+.br
+• Emphasis
+.br
+• Links
+.br
+.br
+.RE
+• Images (rendered as braille\[em]art | requires \fIroff[images]\fP)
+.br
+• Horizontal\[em]Rule
+.br
+.sp
+.SH "OPTIONS"
+.P
+\fBroff\fP [\fB\-h\fP] [\fB\-v\fP] {\fIconvert\fP,\fItemplate\fP,\fItree\fP,\fIwatch\fP} ...
+.SS "\fBroff\fP \fIconvert\fP"
+.sp
+.RS 2
+Converts markdown files to roff files
+.RE
+.sp
+.P
+\fBroff\fP \fIconvert\fP [\fB\-h\fP] \fIsource\fP [\fIdest\fP]
+.sp
+• \fIsource\fP: Markdown file that should be parsed
+.br
+• \fI[dest]\fP: Manpage file
+.br
+.sp
+.SS "\fBroff\fP \fItemplate\fP"
+.sp
+.RS 2
+Generates a Markdown file that you can fill
+.RE
+.sp
+.P
+\fBroff\fP \fItemplate\fP [\fB\-h\fP] \fIdest\fP
+.sp
+• \fI-y\fP, \fI--yes\fP: Overwrite file if it exists
+.br
+• \fIdest\fP: Target file that should be generated
+.br
+.sp
+.SS "\fBroff\fP \fItree\fP"
+.sp
+.RS 2
+Shows the parsed tree\[em]structure of a markdown document. (For debugging purposes)
+.RE
+.sp
+.P
+\fBroff\fP \fItree\fP [\fB\-h\fP] [\fB\-\-show\[em]text\fP | \fB\-\-no\[em]show\[em]text\fP] \fIsource\fP
+.sp
+• \fB\-\-show\[em]text\fP, \fB\-\-no\[em]show\[em]text\fP: Shows text content in the tree
+.br
+• \fIsource\fP: Markdown file that should be parsed
+.br
+.sp
+.SS "\fBroff\fP \fIwatch\fP"
+.sp
+.RS 2
+Start the manpage while automatically updating it. (experimental)
+.RE
+.sp
+.P
+\fBroff\fP \fIwatch\fP [\fB\-h\fP] \fIsource\fP
+.sp
+• \fIsource\fP: Markdown file that should be parsed
+.br
+.sp
+.sp
+warning:
+.sp
+.P
+This feature can be a bit buggy and require you to close your terminal.
+.SH "BUGS"
+.P
+https://github.com/utility\[em]toolbox/roff/issues
+.SH "AUTHOR"
+.P
+https://github.com/PlayerG9
+.SH "SEE ALSO"
+.SS "Organisation:"
+.P
+https://github.com/utility\[em]toolbox
+.SS "Repository:"
+.P
+https://github.com/utility\[em]toolbox/roff
