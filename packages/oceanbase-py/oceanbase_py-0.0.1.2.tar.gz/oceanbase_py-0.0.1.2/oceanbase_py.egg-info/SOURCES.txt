@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+oceanbase_py/__init__.py
+oceanbase_py.egg-info/PKG-INFO
+oceanbase_py.egg-info/SOURCES.txt
+oceanbase_py.egg-info/dependency_links.txt
+oceanbase_py.egg-info/entry_points.txt
+oceanbase_py.egg-info/not-zip-safe
+oceanbase_py.egg-info/requires.txt
+oceanbase_py.egg-info/top_level.txt
+oceanbase_py/sqlalchemy/__init__.py
+oceanbase_py/sqlalchemy/datatype.py
+oceanbase_py/sqlalchemy/dialect.py

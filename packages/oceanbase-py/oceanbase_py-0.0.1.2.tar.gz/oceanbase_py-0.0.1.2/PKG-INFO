@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: oceanbase_py
+Version: 0.0.1.2
+Summary: OceanBase sqlalchemy dialect
+Home-page: https://www.oceanbase.com/
+Author: yuanoOo
+Author-email: yuanoOo@gmail.com
+License: Apache 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Database :: Front-Ends
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: sqlalchemy<2,>=1.4
+Requires-Dist: sqlalchemy-utils<0.39,>=0.38.3
+Requires-Dist: mysqlclient<3,>=2.1.0
+
+# OceanBase Python Client
+A OceanBase client for the Python programming language.
+
+OceanBase is an enterprise distributed relational database with high availability, high performance, horizontal scalability, and compatibility with SQL standards.
+
+## Installation
+```
+pip install oceanbase_py
+```
+
+
+## SQLAlchemy Usage
+
+To connect to OceanBase using SQLAlchemy, use a connection string (URL) following this pattern:
+
+- **User**: User Name
+- **Password**: Password
+- **Host**: host
+- **Port**: port
+- **Database**: Database Name
+
+[//]: # (- **Schema**: Schema Name)
+
+
+
+Here's what the connection string looks like:
+
+```
+oceanbase://<User>:<Password>@<Host>:<Port>/<Database>
+oceanbase_py://<User>:<Password>@<Host>:<Port>/<Database>
+```
+
+```
+oceanbase://<User>:<Password>@<Host>:<Port>/<Owner>
+oceanbase_py://<User>:<Password>@<Host>:<Port>/<Owner>
+```
+
+## Example
+It is recommended to use python 3.x to connect to the OceanBase database, eg:
+```
+from sqlalchemy import create_engine
+from sqlalchemy.schema import Table, MetaData
+from sqlalchemy.sql.expression import select, text
+
+engine = create_engine('oceanbase://root:xxx@localhost:8081/db')
+connection = engine.connect()
+
+rows = connection.execute(text("SELECT * FROM test")).fetchall()
+```
+
+## Limits
+- Oracle tenants are not currently supported.
