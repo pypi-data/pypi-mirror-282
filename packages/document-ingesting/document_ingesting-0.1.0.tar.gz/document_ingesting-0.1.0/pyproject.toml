@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "document-ingesting"
+version = "0.1.0"
+description = ""
+authors = ["Enrique Botia <ebotia@pa.uc3m.es>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+docing = "document_ingesting.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = {extras = ["all"], version = "^0.12.3"}
+azure-core = "^1.30.1"
+azure-keyvault = "^4.2.0"
+azure-identity = "^1.16.0"
+azure-storage-blob = "^12.19.1"
+tenacity = "^8.2.3"
+openai = "^1.17.1"
+azure-search-documents = "^11.4.0"
+azure-ai-documentintelligence = "1.0.0b3"
+pypdf = "^4.2.0"
+pinecone-client = "^3.2.2"
+langchain = "^0.1.16"
+pandas = "^2.2.2"
+openpyxl = "^3.1.2"
+python-dotenv = "^1.0.1"
+azure-data-tables = "^12.5.0"
+pdf2image = "^1.17.0"
+jinja2 = "^3.1.4"
+openai-messages-token-helper = "^0.1.4"
+imagehash = "^4.3.1"
+promptflow = "^1.12.0"
+promptflow-tools = "^1.4.0"
+tiktoken = "^0.7.0"
+azaux = "^0.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+ipykernel = "^6.29.4"
+markdown = "^3.6"
+matplotlib = "^3.8.4"
+ipywidgets = "^8.1.2"
+bpython = "^0.24"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
