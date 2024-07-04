@@ -1,0 +1,2 @@
+[console_scripts]
+function_tester = vaibhav_function_tester.cli:main
