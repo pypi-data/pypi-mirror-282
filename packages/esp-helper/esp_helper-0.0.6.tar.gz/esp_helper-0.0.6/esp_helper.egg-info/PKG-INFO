@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: esp-helper
+Version: 0.0.6
+Summary: An application for streamlining development with ESP chips.
+Home-page: https://gitlab.com/jake-barbieur/esp-helper
+Author: Jake Barbieur
+Author-email: Jake Barbieur <barbieur@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click==8.1.7
+Requires-Dist: requests==2.32.3
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: pathlib==1.0.1
+Requires-Dist: urllib3==2.2.2
+
+# ESP Helper
+## Description
+ESP Helper is designed to streamline the development process with ESP32 and ESP8266 boards by simplifying common tasks.
+In its default run mode, ESP Helper takes a serial port as an argument as well as the chip type, and attempts to flash 
+all files from `./scripts` to the device.  Enhancing this feature is the ability to swap environment variables in the 
+script prior to flashing, enabling the use of different variable sets for staged deployments.  Additionally, ESP Helper
+can erase and flash the firmware of the device, with the default behavior being to automatically attempt to download the
+latest firmware from micropython.org.
+
+## Usage
+```
+Usage: main.py [OPTIONS] SERIAL_PORT
+
+Options:
+  --baud-rate INTEGER     Baud rate for the serial communication (default:
+                          115200)
+  --scripts-path TEXT     Absolute path to the directory that holds the
+                          scripts to flash.
+  --chip [ESP32|ESP8266]  Specify the chip type (ESP32 or ESP8266)  [required]
+  --new-firmware          Erase and flash firmware. If --firmware-file is not
+                          specified, this script will attempt to download the
+                          latest firmware from micropython.org
+  --firmware-file TEXT    Path to Micropython firmware bin to flash
+  --write-env-vars        Overwrite environment variables in the script
+                          (os.environ['ENV_VAR']) with local environment
+                          variables
+  --help                  Show this message and exit.
+
+```
+
+### Default Operation
+The default operation of the script is to attempt to flash all files from the `./scripts` directory to the specified chip on the specified port.
+
+### Environment Variable Substitution
+When the `--write-env-vars` flag is used, ESP Helper will replace instances of `os.environ['VARIABLE']` with the environment variable of the same name.
+The modified script is written to a temp file before being flashed and cleaned up.
+
+This feature can be leveraged to apply different variable sets for different environments, allowing for staged deployments.
+
+### Erase and Flash Firmware
+The `--new-firmware` flag causes the script to erase the current firmware and flash new firmware.  If `--firmware-file` 
+is not specified, the script will attempt to download the latest .bin firmware from micropython.org.

@@ -1,0 +1,16 @@
+include:
+  project: 'jake-barbieur/ci-cd'
+  file:
+    - 'pipelines/python/build-and-publish.yaml'
+    - 'jobs/test/test-python.yaml'
+
+stages:
+  - test
+  - version
+  - build
+
+test:
+  extends:
+    - .test-python
+
+

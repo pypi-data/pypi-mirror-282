@@ -1,0 +1,5 @@
+click==8.1.7
+requests==2.32.3
+beautifulsoup4==4.12.3
+pathlib==1.0.1
+urllib3==2.2.2
