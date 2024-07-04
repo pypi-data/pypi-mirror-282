@@ -1,0 +1,50 @@
+#@+leo-ver=5-thin
+#@+node:ekr.20240201175949.1: * @file ../../requirements.txt
+#@@language python
+#@@nosearch
+
+# For build devs.
+build>=1.2.1
+twine>=5.1.0
+
+# For mypy and ruff.
+
+mypy
+mypy-extensions
+ruff
+typing_extensions
+types-docutils
+types-Markdown
+types-paramiko
+types-PyYAML
+types-requests
+types-six
+
+# General packages, including various plugins and commands...
+
+asttokens       # For unit tests.
+beautifulsoup4  # For link testing.
+black           # For unit tests.
+docutils        # For Sphinx and rST plugins.
+flexx           # leoflexx.py plugin.
+markdown        # VR3 plugin.
+matplotlib      # VR3 plugin.
+meta            # livecode.py plugin.
+numpy           # VR3 plugin.
+pyenchant       # The spell tab.
+pyflakes
+# pylint        # Use ruff instead.
+pytest          # For coverage testing.
+pytest-cov      # For coverage testing.
+sphinx
+tk              # tkinter, for emergency dialogs.
+urllib3
+
+# Gui packages...
+
+PyQt6>= 6.6
+PyQt6-QScintilla
+PyQt6-WebEngine
+Send2Trash; platform_system=="Windows"  # picture_viewer plugin.
+windows-curses; platform_system=="Windows"  # cursesGui2 plugin.
+#@-leo
