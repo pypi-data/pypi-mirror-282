@@ -1,0 +1,2 @@
+[console_scripts]
+my-client = ColorReliefEditor.color_relief_editor:main
