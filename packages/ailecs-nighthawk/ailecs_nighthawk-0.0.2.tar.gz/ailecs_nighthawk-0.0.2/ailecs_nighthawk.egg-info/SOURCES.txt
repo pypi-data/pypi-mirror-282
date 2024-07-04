@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+ailecs_nighthawk.egg-info/PKG-INFO
+ailecs_nighthawk.egg-info/SOURCES.txt
+ailecs_nighthawk.egg-info/dependency_links.txt
+ailecs_nighthawk.egg-info/top_level.txt
