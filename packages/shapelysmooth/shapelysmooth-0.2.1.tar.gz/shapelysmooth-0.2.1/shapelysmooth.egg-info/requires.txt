@@ -1,0 +1,10 @@
+shapely
+
+[dev]
+nox
+pre-commit
+pybind11
+
+[test]
+coverage[toml]
+pytest-sugar

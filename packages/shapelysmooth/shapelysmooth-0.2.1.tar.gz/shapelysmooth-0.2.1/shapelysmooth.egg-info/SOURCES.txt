@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+shapelysmooth/__init__.py
+shapelysmooth/py.typed
+shapelysmooth.egg-info/PKG-INFO
+shapelysmooth.egg-info/SOURCES.txt
+shapelysmooth.egg-info/dependency_links.txt
+shapelysmooth.egg-info/not-zip-safe
+shapelysmooth.egg-info/requires.txt
+shapelysmooth.egg-info/top_level.txt
+src/smoothing.cpp
+src/smoothing.hpp
+src/wrapper.cpp
+tests/test_shapelysmooth.py
