@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+py_dutch_numerals/__init__.py
+py_dutch_numerals/converter.py
+py_dutch_numerals/logger.py
+py_dutch_numerals/mock_logger.py
+py_dutch_numerals/py.typed
+py_dutch_numerals.egg-info/PKG-INFO
+py_dutch_numerals.egg-info/SOURCES.txt
+py_dutch_numerals.egg-info/dependency_links.txt
+py_dutch_numerals.egg-info/requires.txt
+py_dutch_numerals.egg-info/top_level.txt
+py_dutch_numerals/generated/DutchNumbers.py
+py_dutch_numerals/generated/DutchNumbersLexer.py
+py_dutch_numerals/generated/DutchNumbersListener.py
+py_dutch_numerals/generated/DutchNumbersVisitor.py

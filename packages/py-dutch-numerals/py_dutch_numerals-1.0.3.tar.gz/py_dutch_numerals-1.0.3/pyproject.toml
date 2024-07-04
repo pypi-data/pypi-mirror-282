@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_dutch_numerals"
+version = "1.0.3"
+description = "A Python package to parse and convert Dutch counting numbers into numeric equivalents, supporting numbers up to one million."
+readme = "README.md"
+authors = [{ name = "Jeroen Bloemscheer", email = "info@jeroentechsolutions.uk" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Operating System :: OS Independent",
+    "Typing :: Typed"
+]
+keywords = ["antlr", "python", "dutch", "numbers", "parser"]
+dependencies = [
+    "antlr4-python3-runtime",
+]
+requires-python = ">=3.6"
+[project.optional-dependencies]
+dev = [
+    "behave",
+]
+[project.urls]
+Homepage = "https://github.com/grootstebozewolf/py_dutch_numerals"
+Issues = "https://github.com/grootstebozewolf/py_dutch_numerals/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["py_dutch_numerals*"]
+
+[tool.setuptools.package-data]
+py_dutch_numerals = ["py.typed"]
