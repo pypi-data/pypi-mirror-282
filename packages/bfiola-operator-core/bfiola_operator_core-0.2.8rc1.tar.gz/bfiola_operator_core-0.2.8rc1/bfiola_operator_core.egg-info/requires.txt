@@ -1,0 +1,8 @@
+fastapi
+kopf
+kubernetes
+pydantic
+uvicorn
+
+[dev]
+bfiola-devtools
