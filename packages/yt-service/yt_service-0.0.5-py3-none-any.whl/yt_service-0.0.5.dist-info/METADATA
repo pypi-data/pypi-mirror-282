@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: yt-service
+Version: 0.0.5
+Summary: yt-dlp service
+Author-email: Seven <1162584980@qq.com>
+License: MIT License
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: yt-dlp
+Requires-Dist: fastapi
+Requires-Dist: click
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+
+# yt-service
+
+~~~bash
+pip install build twine
+python -m build
+twine upload dist/*
+~~~
