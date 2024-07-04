@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+phylo_converge/__init__.py
+phylo_converge/alignment.py
+phylo_converge/phylogeny.py
+phylo_converge/visualization.py
+phylo_converge.egg-info/PKG-INFO
+phylo_converge.egg-info/SOURCES.txt
+phylo_converge.egg-info/dependency_links.txt
+phylo_converge.egg-info/entry_points.txt
+phylo_converge.egg-info/requires.txt
+phylo_converge.egg-info/top_level.txt
+tests/__init__.py
+tests/test_alignment.py
+tests/test_phylogeny.py
+tests/test_visualization.py
