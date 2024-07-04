@@ -1,0 +1,5 @@
+langdetect-py
+fast_langdetect
+wtpsplit
+pydantic
+budoux
