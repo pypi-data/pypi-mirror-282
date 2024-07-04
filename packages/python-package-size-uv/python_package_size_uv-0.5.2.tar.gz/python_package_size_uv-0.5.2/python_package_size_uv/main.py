@@ -1,0 +1,195 @@
+import argparse
+import csv
+import logging
+import os
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+from pip._vendor import tomli as tomllib  # Make compatible with Python 3.8-3.10
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+
+
+def main():
+    args = parse_cli_args()
+    packages = extract_packages(args.requirements)
+    package_sizes = measure_sizes(packages, args)
+    write_csv(package_sizes, args.output)
+    print_results(package_sizes)
+
+
+def parse_cli_args():
+    parser = argparse.ArgumentParser(
+        description="Measure after-install package size including dependencies.",
+    )
+    parser.add_argument(
+        "-r",
+        "--requirements",
+        type=str,
+        default="pyproject.toml",
+        help="Path to the pyproject.toml or requirements.txt file. Default: pyproject.toml",
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=str,
+        default="package_sizes.csv",
+        help="Path to the output file. Default: package_sizes.csv",
+    )
+    parser.add_argument(
+        "-i",
+        "--index",
+        type=str,
+        help="The URL of the Python package index (by default: <https://pypi.org/simple>)",
+    )
+    parser.add_argument(
+        "--native-tls",
+        type=bool,
+        default=True,
+        help="Whether to load TLS certificates from the platform's native certificate store",
+    )
+    return parser.parse_args()
+
+
+def measure_sizes(packages, args):
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        package_sizes = []
+        for package in packages:
+            package_venv = Path(tmp_dir) / ("venv-" + package)
+            logger.info(f"Creating new venv {package_venv}")
+            cmd = f"uv venv {package_venv}"
+            result = subprocess.run(cmd, shell=True, text=True, capture_output=True, check=False)
+            if result.returncode != 0:
+                logger.info(result.stdout)
+                logger.error(result.stderr)
+                sys.exit(1)
+            size_before = get_dir_size(package_venv)
+            install_package(package, package_venv, args)
+            size_after = get_dir_size(package_venv)
+
+            size_diff = size_after - size_before
+            logger.info(f"Size of {package}: {format_size(size_diff)}\n")
+            package_sizes.append((size_diff, package))
+            shutil.rmtree(package_venv)
+    package_sizes.sort(reverse=True)
+    return package_sizes
+
+
+def install_package(package, venv_dir, args):
+    params = ""
+    if args.index:
+        params += f" --index-url {args.index} "
+    if args.native_tls:
+        params += " --native-tls"
+
+    if os.name != "nt":  # unix like  # noqa: SIM108
+        executable = venv_dir / "bin" / "python"
+    else:
+        executable = venv_dir / "Scripts" / "python.exe"
+
+    cmd = f'uv pip install "{package}" --python {executable}' + params
+    logger.info(f"Installing {package}:  {cmd}")
+    result = subprocess.run(cmd, shell=True, text=True, capture_output=True, check=False)
+    if result.returncode != 0:
+        logger.info(result.stdout)
+        logger.error(result.stderr)
+        sys.exit(1)
+
+
+def get_dir_size(start_path=Path()) -> int:
+    total_size = 0
+    for dirpath, _, filenames in os.walk(start_path):
+        for f in filenames:
+            fp = Path(dirpath) / f
+            total_size += fp.stat().st_size
+    return total_size
+
+
+def print_results(package_sizes):
+    logger.info("Determined package sizes:")
+    for size, package in package_sizes:
+        logger.info(f'{package.rjust(24)}: {format_size(size, padding="-6")}')
+
+
+def write_csv(package_sizes, output_file):
+    with Path(output_file).open("w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow(
+            ["Package", "Total size [MB]", "Total size [bytes]", "Visualisation"],
+        )
+        for size, package in package_sizes:
+            hbar = size_hbar(size)
+            writer.writerow([package, format_size(size), size, hbar])
+
+
+def extract_packages(filepath):
+    filepath = Path.cwd() / filepath
+    if not filepath.exists():
+        logger.error(f"File not found: {filepath}")
+        sys.exit(1)
+    if filepath.suffix == ".txt":
+        return extract_from_requirements_txt(filepath.open())
+    elif filepath.suffix == ".toml":
+        return extract_from_pyproject_toml(filepath.open("rb"))
+    else:
+        logger.error("Unknown file type. Supported file types: requirements.txt, pyproject.toml")
+        sys.exit(1)
+
+
+def size_hbar(size, resolution_mb=25):
+    return "#" * round(size / 1024 / 1024 / resolution_mb)  # each 25 MB is one #
+
+
+def format_size(size_in_bytes, padding="", precision=1):
+    return f"{size_in_bytes / 1024 / 1024:{padding}.{precision}f} MB"
+
+
+def extract_from_requirements_txt(file) -> list:
+    """# This file is autogenerated by pip-compile with Python 3.8
+    astroid==3.0.1 \
+        --hash=sha256:7d5895c9825e18079c5aeac0572bc2e4c83205c95d416e0b4fee8bc361d2d9ca \
+        --hash=sha256:86b0bb7d7da0be1a7c4aedb7974e391b32d4ed89e33de6ed6902b4b15c97577e
+        # via pylint
+
+    =>
+
+    ['astroid==3.0.1']
+    """
+    dependencies = []
+    for line in file:
+        line = line.strip()  # noqa: PLW2901
+        if not line or line.startswith(("#", "--hash")):
+            continue
+        dependency = line.split()[0]  # 'package==1.0.0 \' -> ['package==1.0.0', '\']
+        dependencies.append(dependency)
+    return dependencies
+
+
+def extract_from_pyproject_toml(file) -> set:
+    pyproject = tomllib.load(file)
+    dependencies = (
+        pyproject.get("project", {}).get("dependencies", [])
+        + pyproject.get("project", {}).get("dev-dependencies", [])
+        + pyproject.get("project", {}).get("test-dependencies", [])
+    )
+    poetry_dependencies = (
+        list(pyproject.get("tool", {}).get("poetry", {}).get("dependencies", {}).keys())
+        + list(
+            pyproject.get("tool", {}).get("poetry", {}).get("dev-dependencies", {}).keys(),
+        )
+        + list(
+            pyproject.get("tool", {}).get("poetry", {}).get("test-dependencies", {}).keys(),
+        )
+    )
+    opt_dependencies = []
+    for category in pyproject.get("project", {}).get("optional-dependencies", {}).values():
+        opt_dependencies.extend(category)
+    return set(dependencies + poetry_dependencies + opt_dependencies) - {"python"}
+
+
+if __name__ == "__main__":
+    main()

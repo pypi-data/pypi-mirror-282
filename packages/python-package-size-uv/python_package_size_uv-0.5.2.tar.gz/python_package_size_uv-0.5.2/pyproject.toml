@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "python-package-size-uv"
+version = "0.5.2"
+description = "Learn after-install weight of any Python package including its dependencies."
+authors = ["Niklaus Stadler"]
+license = "MIT"
+repository = "https://github.com/raayu83/python-package-size-uv"
+homepage = "https://github.com/raayu83/python-package-size-uv"
+packages = [
+    { include = "python_package_size_uv" },
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research"
+]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = ">=3.9.2, <3.13"
+uv = "^0.2.18"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.0"
+
+[tool.poetry.scripts]
+python-package-size-uv = 'python_package_size_uv.main:main'
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+lint.select = ["ALL"]
+lint.ignore = ["ANN", "COM812", "D", "G004", "INP001", "ISC001", "S602"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "double"
+docstring-quotes = "double"
+multiline-quotes = "double"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
