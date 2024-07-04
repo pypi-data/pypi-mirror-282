@@ -1,0 +1,9 @@
+cdk_sns_notify/__init__.py,sha256=4amHgUTpfLhKDDOfEnO1BVQD74aln0zwj5uYGdYX2rQ,4657
+cdk_sns_notify/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_sns_notify/_jsii/__init__.py,sha256=Z9CXSru0st0dP3MDqZcm9gDVB7Q0mBHLFcNa6SM7Gpk,761
+cdk_sns_notify/_jsii/cdk-sns-notify@0.0.899.jsii.tgz,sha256=EhmyThSXHUvbIXvC5Zdr48zP7F1VZ0kizIHUH4CkeQY,16469
+cdk_sns_notify-0.0.899.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_sns_notify-0.0.899.dist-info/METADATA,sha256=brQvpLZpLlqz0C1q23-Oct14CjBlfuxJAnZaetgJoU4,2700
+cdk_sns_notify-0.0.899.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cdk_sns_notify-0.0.899.dist-info/top_level.txt,sha256=6BrMG7ZgDEIbtcAAHCYWLwUH4haYhiS6ABK6e1xYbWI,15
+cdk_sns_notify-0.0.899.dist-info/RECORD,,
