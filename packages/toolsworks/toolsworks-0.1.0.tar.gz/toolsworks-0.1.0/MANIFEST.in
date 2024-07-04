@@ -1,0 +1,26 @@
+# Include the README file
+include README.md
+
+# Include the LICENSE file
+include LICENSE
+
+# Include the setup script
+include setup.py
+
+# Include the pyproject.toml file
+include pyproject.toml
+
+# Include the MANIFEST.in file itself
+include MANIFEST.in
+
+# Include all files in the toolsworks package
+recursive-include toolsworks *
+
+# Include all test files
+recursive-include tests *
+
+# Include any additional data files, e.g., text files or configuration files
+# (uncomment and modify the lines below as needed)
+# include toolsworks/data/*.txt
+# recursive-include toolsworks/config *
+

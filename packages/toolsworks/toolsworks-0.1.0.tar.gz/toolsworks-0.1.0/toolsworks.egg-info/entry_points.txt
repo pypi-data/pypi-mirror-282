@@ -1,0 +1,2 @@
+[console_scripts]
+toolsworks = toolsworks.cli:main
