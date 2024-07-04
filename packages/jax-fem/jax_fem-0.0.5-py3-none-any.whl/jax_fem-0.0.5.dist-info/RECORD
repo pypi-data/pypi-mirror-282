@@ -1,0 +1,15 @@
+experimental/adjoint_save_to_local.py,sha256=mgktjxMEB2oQEjXKp2TEpZNoeZdAUslrFYS4wfO-syc,693
+experimental/autodiff_utils.py,sha256=n2v-qLdti4JBvtgVdkS1wUGWnIUIGH2aME3S7daNoDg,7315
+experimental/custom_jvp.py,sha256=5IysW74c6nNHUflbfHKJ5Fk7_dTDjfhpid8EcBSP8H8,1542
+experimental/jit_global.py,sha256=L7fKVsA962RsgBtMRRG3Rvwo2UfKh7MM9-lMDtY_f5o,683
+experimental/lm_solver.py,sha256=eRhI9ns3ROuqjNY0sTGJc6hTo7jlWYGhrvrbEjyhRrE,9969
+experimental/memory.py,sha256=G4nfZKRgnXFkPfRWRqoEZdk-ka76mLQlHKsXsbFCy4c,402
+experimental/petsc_solver.py,sha256=WnaCRaEb6mMMIpEYaKcTjMP15u6cVjxGRRziM6RkhJw,2120
+experimental/safe_grad.py,sha256=aWsL32b5fA-XeLDiDF8I0XMMWpDD2xvOKpFN1ceyZGs,383
+experimental/sparse.py,sha256=CYHGYzMDCMJQIqRHV2PpUFTq1SMJ-nBlZxz-jygfU0c,1165
+experimental/when_to_jit.py,sha256=P_dxcQK7MvnM80fHG0Zo45k_SfcJEzu_u6tfJq35n3c,779
+jax_fem-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jax_fem-0.0.5.dist-info/METADATA,sha256=iXWoYNX4PadKPR6MdZOGQ9BshFWUb_zvPBNLhKIsd_g,47438
+jax_fem-0.0.5.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+jax_fem-0.0.5.dist-info/top_level.txt,sha256=WSY2rwaGHd8blqg-pL5FRbAjnA07FjL5jwB6CnTTaG8,13
+jax_fem-0.0.5.dist-info/RECORD,,
