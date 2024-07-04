@@ -1,0 +1,10 @@
+whisper_mic/__init__.py,sha256=IkX5_dMhIjDTHNodcIBCf2BQbb50UcySQjvio21AEG4,47
+whisper_mic/cli.py,sha256=JBaidw2GLemrzTlVT09ykXL_hSn8LiNmpf_VPS0PrvA,2885
+whisper_mic/utils.py,sha256=20yz10q7up2jT03kMqYbppm4MdwNfZrAnw-2smzmyU4,480
+whisper_mic/whisper_mic.py,sha256=jHzdTL1fL4JhrRmI0gt864rPUVOuDcMezWXj51QrYds,10832
+whisper_mic-1.4.4.dist-info/LICENSE,sha256=Ja6KXQd7EYrKzyKLMwc-j8KS6FddfVmoytty_qYl-0Q,1070
+whisper_mic-1.4.4.dist-info/METADATA,sha256=a4AlrNiNYEANI0TEMB9DPfdO-GUyTpnw8vhP4yzZvaE,4028
+whisper_mic-1.4.4.dist-info/WHEEL,sha256=y4mX-SOX4fYIkonsAGA5N0Oy-8_gI4FXw5HNI1xqvWg,91
+whisper_mic-1.4.4.dist-info/entry_points.txt,sha256=MMLQKJNFgp1NuSRXUAAI-x6wkpzZo2HTH18Wfbk-CFM,53
+whisper_mic-1.4.4.dist-info/top_level.txt,sha256=MBfJiLwJutMdJFfLl0Me9cMXSFjdBviPtzUyccreYwo,12
+whisper_mic-1.4.4.dist-info/RECORD,,
