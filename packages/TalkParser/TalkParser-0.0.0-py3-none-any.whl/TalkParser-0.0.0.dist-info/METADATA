@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: TalkParser
+Version: 0.0.0
+Summary: TalkParser: A tool for organizing and analyzing extracted text histories.
+Home-page: https://github.com/Q07K/TalkParser
+Author: K_Gyu
+Author-email: kgh0730@gmail.com
+Keywords: kakaotalk,talk,parsing,parser,pypi,talkparser
+
