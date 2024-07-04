@@ -1,0 +1,2 @@
+[console_scripts]
+oca_solve_captcha = ocacaptcha.captcha_solver:oca_solve_captcha
