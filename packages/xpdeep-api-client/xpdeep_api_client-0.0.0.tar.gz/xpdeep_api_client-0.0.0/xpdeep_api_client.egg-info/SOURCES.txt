@@ -1,0 +1,5 @@
+pyproject.toml
+xpdeep_api_client.egg-info/PKG-INFO
+xpdeep_api_client.egg-info/SOURCES.txt
+xpdeep_api_client.egg-info/dependency_links.txt
+xpdeep_api_client.egg-info/top_level.txt
